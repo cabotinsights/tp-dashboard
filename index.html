@@ -19,19 +19,494 @@
 
   <!-- Main Content -->
   <main class="main">
-    <!-- Personal View placeholder -->
+    <!-- Personal View -->
     <div x-show="view === 'personal'" x-cloak>
-      <p>Personal view loading...</p>
+      <template x-if="me">
+        <div>
+
+          <!-- Header -->
+          <div class="section-header">
+            <div>
+              <h1 class="page-title" x-text="me.name"></h1>
+              <span class="last-updated" x-text="data ? 'Updated ' + data.generated_at.replace('T', ' ').slice(0, 16) + ' UTC' : ''"></span>
+            </div>
+            <button class="btn-refresh" @click="refresh()" :disabled="refreshing">
+              <span x-text="refreshing ? 'Refreshing…' : '⟳ Refresh'"></span>
+            </button>
+          </div>
+
+          <!-- Metric Cards: CTL, ATL, TSB, Status -->
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-label">CTL (Fitness)</div>
+              <div class="card-value" x-text="me.current_fitness.ctl.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">ATL (Fatigue)</div>
+              <div class="card-value" x-text="me.current_fitness.atl.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">TSB (Form)</div>
+              <div class="card-value" x-text="me.current_fitness.tsb.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">Status</div>
+              <div class="card-value">
+                <span class="badge"
+                  :class="'badge-' + tsbStatus(me.current_fitness.tsb).cssClass"
+                  x-text="tsbStatus(me.current_fitness.tsb).label">
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fitness Trend Chart -->
+          <div class="section">
+            <div class="section-header-row">
+              <h2 class="section-title">Fitness Trend</h2>
+              <div class="range-toggles">
+                <button :class="{ active: fitnessRange === '90d' }" @click="fitnessRange = '90d'">90d</button>
+                <button :class="{ active: fitnessRange === '6m' }"  @click="fitnessRange = '6m'">6m</button>
+                <button :class="{ active: fitnessRange === '1y' }"  @click="fitnessRange = '1y'">1y</button>
+              </div>
+            </div>
+            <div class="chart-container">
+              <canvas id="fitnessChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Volume + Sport Donut -->
+          <div class="charts-grid">
+            <div class="section">
+              <h2 class="section-title">Weekly Volume</h2>
+              <div class="chart-container">
+                <canvas id="volumeChart"></canvas>
+              </div>
+            </div>
+            <div class="section">
+              <h2 class="section-title">Sport Mix (This Week)</h2>
+              <div class="chart-container chart-container--donut">
+                <canvas id="sportChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- This Week's Sessions -->
+          <div class="section">
+            <h2 class="section-title">
+              This Week
+              <span class="compliance-badge" :class="'compliance-' + complianceClass(me.this_week.compliance_pct)">
+                <span x-text="me.this_week.sessions_completed"></span>/<span x-text="me.this_week.sessions_planned"></span>
+                &nbsp;(<span x-text="me.this_week.compliance_pct"></span>%)
+              </span>
+            </h2>
+            <table class="sessions-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Day</th>
+                  <th>Session</th>
+                  <th>Sport</th>
+                  <th>Duration</th>
+                  <th>TSS</th>
+                  <th>Distance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <template x-for="s in me.completed_sessions" :key="s.date + s.title">
+                  <tr>
+                    <td>✅</td>
+                    <td x-text="formatDay(s.date)"></td>
+                    <td x-text="s.title"></td>
+                    <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                    <td x-text="formatHours(s.duration_hours)"></td>
+                    <td x-text="s.tss"></td>
+                    <td x-text="s.distance_km ? s.distance_km + ' km' : '—'"></td>
+                  </tr>
+                </template>
+                <template x-if="me.missed_sessions && me.missed_sessions.length > 0">
+                  <template x-for="s in me.missed_sessions" :key="s.date + s.title">
+                    <tr class="row-missed">
+                      <td>❌</td>
+                      <td x-text="formatDay(s.date)"></td>
+                      <td x-text="s.title"></td>
+                      <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                      <td>—</td>
+                      <td>—</td>
+                      <td>—</td>
+                    </tr>
+                  </template>
+                </template>
+                <template x-for="s in me.upcoming_sessions" :key="s.date + s.title">
+                  <tr class="row-upcoming">
+                    <td>⏳</td>
+                    <td x-text="formatDay(s.date)"></td>
+                    <td x-text="s.title"></td>
+                    <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                    <td x-text="formatHours(s.duration_hours)"></td>
+                    <td x-text="s.tss_planned ? s.tss_planned + ' (plan)' : '—'"></td>
+                    <td>—</td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Upcoming 7 Days + Race Countdown -->
+          <div class="charts-grid">
+            <div class="section">
+              <h2 class="section-title">Next 7 Days</h2>
+              <ul class="upcoming-list">
+                <template x-for="s in me.upcoming_sessions.slice(0, 7)" :key="s.date + s.title">
+                  <li class="upcoming-item">
+                    <span class="upcoming-day" x-text="formatDate(s.date)"></span>
+                    <span class="upcoming-session">
+                      <span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span>
+                      <span x-text="s.title"></span>
+                    </span>
+                    <span class="upcoming-tss" x-text="s.tss_planned ? s.tss_planned + ' TSS' : ''"></span>
+                  </li>
+                </template>
+              </ul>
+            </div>
+            <div class="section">
+              <h2 class="section-title">Race Countdown</h2>
+              <template x-if="me.focus_event">
+                <div class="race-countdown">
+                  <div class="race-name" x-text="me.focus_event.name"></div>
+                  <div class="race-date" x-text="me.focus_event.date"></div>
+                  <div class="race-days">
+                    <span class="days-big" x-text="me.focus_event.days_out"></span>
+                    <span class="days-label"> days out</span>
+                  </div>
+                  <template x-if="me.focus_event.ctl_target">
+                    <div class="ctl-progress">
+                      <div class="ctl-progress-labels">
+                        <span>CTL <span x-text="me.focus_event.ctl_current.toFixed(1)"></span></span>
+                        <span>Target <span x-text="me.focus_event.ctl_target"></span></span>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress-fill"
+                          :class="'rag-' + raceRag(me.focus_event.ctl_current, me.focus_event.ctl_target, me.focus_event.days_out)"
+                          :style="'width: ' + Math.min(100, Math.round(me.focus_event.ctl_current / me.focus_event.ctl_target * 100)) + '%'">
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </template>
+              <template x-if="me.next_event && !me.focus_event">
+                <div class="race-countdown">
+                  <div class="race-name" x-text="me.next_event.name"></div>
+                  <div class="race-date" x-text="me.next_event.date"></div>
+                  <div class="race-days">
+                    <span class="days-big" x-text="me.next_event.days_out"></span>
+                    <span class="days-label"> days out</span>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+
+          <!-- Personal Records -->
+          <div class="section">
+            <h2 class="section-title">Personal Records</h2>
+            <div class="peaks-grid">
+              <div class="peak-card">
+                <div class="peak-label">Bike 20min Power</div>
+                <div class="peak-value" x-text="me.peaks.bike_20min_power.value + ' W'"></div>
+                <div class="peak-date" x-text="formatDate(me.peaks.bike_20min_power.date)"></div>
+              </div>
+              <div class="peak-card">
+                <div class="peak-label">Run 5K Pace</div>
+                <div class="peak-value" x-text="me.peaks.run_5k_pace.value"></div>
+                <div class="peak-date" x-text="formatDate(me.peaks.run_5k_pace.date)"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </template>
+      <template x-if="!me && !loading">
+        <p class="loading-msg">No personal data available.</p>
+      </template>
     </div>
 
-    <!-- Coach View placeholder -->
+    <!-- Coach View -->
     <div x-show="view === 'coach' && !drillAthlete" x-cloak>
-      <p>Coach view loading...</p>
+
+      <!-- Header -->
+      <div class="section-header">
+        <div>
+          <h1 class="page-title">Coach Dashboard</h1>
+          <span class="last-updated">
+            <span x-text="roster.length"></span> athletes
+            <template x-if="data">
+              &nbsp;· Updated <span x-text="data.generated_at.replace('T', ' ').slice(0, 16)"></span> UTC
+            </template>
+          </span>
+        </div>
+        <button class="btn-refresh" @click="refresh()" :disabled="refreshing">
+          <span x-text="refreshing ? 'Refreshing…' : '⟳ Refresh'"></span>
+        </button>
+      </div>
+
+      <!-- Summary Cards -->
+      <div class="cards-grid">
+        <div class="card card--green">
+          <div class="card-label">On Track</div>
+          <div class="card-value" x-text="rosterCounts.onTrack"></div>
+        </div>
+        <div class="card card--amber">
+          <div class="card-label">Watch</div>
+          <div class="card-value" x-text="rosterCounts.watch"></div>
+        </div>
+        <div class="card card--red">
+          <div class="card-label">Flagged</div>
+          <div class="card-value" x-text="rosterCounts.flagged"></div>
+        </div>
+        <div class="card">
+          <div class="card-label">Avg Compliance</div>
+          <div class="card-value"><span x-text="avgCompliance"></span>%</div>
+        </div>
+      </div>
+
+      <!-- Roster Table -->
+      <div class="section">
+        <h2 class="section-title">Athlete Roster</h2>
+        <table class="sessions-table roster-table">
+          <thead>
+            <tr>
+              <th>Athlete</th>
+              <th>Compliance</th>
+              <th>Next Race</th>
+              <th>Days</th>
+              <th>Trend</th>
+              <th>Flags</th>
+            </tr>
+          </thead>
+          <tbody>
+            <template x-for="a in roster" :key="a.id">
+              <tr class="roster-row" @click="drillAthlete = a.id" style="cursor:pointer">
+                <td x-text="a.name"></td>
+                <td>
+                  <span class="compliance-badge" :class="'compliance-' + complianceClass(a.compliance_pct)">
+                    <span x-text="a.compliance_pct"></span>%
+                  </span>
+                </td>
+                <td x-text="a.next_event ? a.next_event : '—'"></td>
+                <td x-text="a.days_to_event != null ? a.days_to_event : '—'"></td>
+                <td x-html="a.weekly_tss_trend ? sparklineSvg(a.weekly_tss_trend, 80, 24) : ''"></td>
+                <td>
+                  <template x-if="a.flags && a.flags.length > 0">
+                    <span>
+                      <template x-for="f in a.flags" :key="f">
+                        <span :title="f" x-text="flagEmoji(f)"></span>
+                      </template>
+                    </span>
+                  </template>
+                  <template x-if="!a.flags || a.flags.length === 0">
+                    <span class="text-muted">—</span>
+                  </template>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Compliance Heatmap -->
+      <div class="section">
+        <h2 class="section-title">Weekly Heatmap</h2>
+        <div class="heatmap-container">
+          <table class="heatmap-table">
+            <thead>
+              <tr>
+                <th class="heatmap-name-col">Athlete</th>
+                <template x-if="heatmapData().length > 0 && heatmapData()[0].days.length > 0">
+                  <template x-for="day in heatmapData()[0].days" :key="day.date">
+                    <th x-text="formatDay(day.date)"></th>
+                  </template>
+                </template>
+              </tr>
+            </thead>
+            <tbody>
+              <template x-for="row in heatmapData()" :key="row.name">
+                <tr>
+                  <td class="heatmap-name-col" x-text="row.name"></td>
+                  <template x-for="day in row.days" :key="day.date">
+                    <td class="heatmap-cell" :title="day.date" x-text="heatmapIcon(day.status)"></td>
+                  </template>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Upcoming Races -->
+      <div class="section">
+        <h2 class="section-title">Upcoming Races</h2>
+        <ul class="upcoming-list">
+          <template x-for="a in roster.filter(r => r.next_event && r.days_to_event != null).sort((x,y) => x.days_to_event - y.days_to_event)" :key="a.id">
+            <li class="upcoming-item">
+              <span class="upcoming-day" x-text="a.days_to_event + 'd'"></span>
+              <span class="upcoming-session">
+                <strong x-text="a.name"></strong>
+                &nbsp;—&nbsp;
+                <span x-text="a.next_event"></span>
+              </span>
+            </li>
+          </template>
+          <template x-if="roster.filter(r => r.next_event && r.days_to_event != null).length === 0">
+            <li class="text-muted">No upcoming races scheduled.</li>
+          </template>
+        </ul>
+      </div>
+
     </div>
 
-    <!-- Athlete Drill-down placeholder -->
+    <!-- Athlete Drill-down -->
     <div x-show="view === 'coach' && drillAthlete" x-cloak>
-      <p>Athlete detail loading...</p>
+      <template x-if="activeAthlete">
+        <div>
+
+          <!-- Header -->
+          <div class="section-header">
+            <div>
+              <button class="btn-back" @click="drillAthlete = null">← Back to Roster</button>
+              <h1 class="page-title" x-text="activeAthlete.name"></h1>
+            </div>
+          </div>
+
+          <!-- Metric Cards -->
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-label">CTL (Fitness)</div>
+              <div class="card-value" x-text="activeAthlete.current_fitness.ctl.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">ATL (Fatigue)</div>
+              <div class="card-value" x-text="activeAthlete.current_fitness.atl.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">TSB (Form)</div>
+              <div class="card-value" x-text="activeAthlete.current_fitness.tsb.toFixed(1)"></div>
+            </div>
+            <div class="card">
+              <div class="card-label">Status</div>
+              <div class="card-value">
+                <span class="badge"
+                  :class="'badge-' + tsbStatus(activeAthlete.current_fitness.tsb).cssClass"
+                  x-text="tsbStatus(activeAthlete.current_fitness.tsb).label">
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sessions Table -->
+          <div class="section">
+            <h2 class="section-title">
+              This Week
+              <template x-if="activeAthlete.this_week">
+                <span class="compliance-badge" :class="'compliance-' + complianceClass(activeAthlete.this_week.compliance_pct)">
+                  <span x-text="activeAthlete.this_week.sessions_completed"></span>/<span x-text="activeAthlete.this_week.sessions_planned"></span>
+                  &nbsp;(<span x-text="activeAthlete.this_week.compliance_pct"></span>%)
+                </span>
+              </template>
+            </h2>
+            <table class="sessions-table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Day</th>
+                  <th>Session</th>
+                  <th>Sport</th>
+                  <th>Duration</th>
+                  <th>TSS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <template x-for="s in (activeAthlete.completed_sessions || [])" :key="s.date + s.title">
+                  <tr>
+                    <td>✅</td>
+                    <td x-text="formatDay(s.date)"></td>
+                    <td x-text="s.title"></td>
+                    <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                    <td x-text="formatHours(s.duration_hours)"></td>
+                    <td x-text="s.tss"></td>
+                  </tr>
+                </template>
+                <template x-if="activeAthlete.missed_sessions && activeAthlete.missed_sessions.length > 0">
+                  <template x-for="s in activeAthlete.missed_sessions" :key="s.date + s.title">
+                    <tr class="row-missed">
+                      <td>❌</td>
+                      <td x-text="formatDay(s.date)"></td>
+                      <td x-text="s.title"></td>
+                      <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                      <td>—</td>
+                      <td>—</td>
+                    </tr>
+                  </template>
+                </template>
+                <template x-for="s in (activeAthlete.upcoming_sessions || [])" :key="s.date + s.title">
+                  <tr class="row-upcoming">
+                    <td>⏳</td>
+                    <td x-text="formatDay(s.date)"></td>
+                    <td x-text="s.title"></td>
+                    <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                    <td x-text="formatHours(s.duration_hours)"></td>
+                    <td x-text="s.tss_planned ? s.tss_planned + ' (plan)' : '—'"></td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Race Countdown -->
+          <div class="section">
+            <h2 class="section-title">Race Countdown</h2>
+            <template x-if="activeAthlete.focus_event">
+              <div class="race-countdown">
+                <div class="race-name" x-text="activeAthlete.focus_event.name"></div>
+                <div class="race-date" x-text="activeAthlete.focus_event.date"></div>
+                <div class="race-days">
+                  <span class="days-big" x-text="activeAthlete.focus_event.days_out"></span>
+                  <span class="days-label"> days out</span>
+                </div>
+                <template x-if="activeAthlete.focus_event.ctl_target">
+                  <div class="ctl-progress">
+                    <div class="ctl-progress-labels">
+                      <span>CTL <span x-text="activeAthlete.focus_event.ctl_current.toFixed(1)"></span></span>
+                      <span>Target <span x-text="activeAthlete.focus_event.ctl_target"></span></span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill"
+                        :class="'rag-' + raceRag(activeAthlete.focus_event.ctl_current, activeAthlete.focus_event.ctl_target, activeAthlete.focus_event.days_out)"
+                        :style="'width: ' + Math.min(100, Math.round(activeAthlete.focus_event.ctl_current / activeAthlete.focus_event.ctl_target * 100)) + '%'">
+                      </div>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </template>
+            <template x-if="activeAthlete.next_event && !activeAthlete.focus_event">
+              <div class="race-countdown">
+                <div class="race-name" x-text="activeAthlete.next_event.name"></div>
+                <div class="race-date" x-text="activeAthlete.next_event.date"></div>
+                <div class="race-days">
+                  <span class="days-big" x-text="activeAthlete.next_event.days_out"></span>
+                  <span class="days-label"> days out</span>
+                </div>
+              </div>
+            </template>
+            <template x-if="!activeAthlete.focus_event && !activeAthlete.next_event">
+              <p class="text-muted">No upcoming events.</p>
+            </template>
+          </div>
+
+        </div>
+      </template>
     </div>
   </main>
 
