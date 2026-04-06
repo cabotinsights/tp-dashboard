@@ -123,10 +123,68 @@
               </div>
             </div>
             <div class="section">
-              <h2 class="section-title">Sport Mix (Last Week)</h2>
+              <div class="section-header-row">
+                <h2 class="section-title">Sport Mix</h2>
+                <div class="range-toggles">
+                  <button :class="{ active: sportMixView === 'this' }" @click="sportMixView = 'this'; renderSportChart()">This Week</button>
+                  <button :class="{ active: sportMixView === 'last' }" @click="sportMixView = 'last'; renderSportChart()">Last Week</button>
+                </div>
+              </div>
               <div class="chart-container chart-container--donut">
                 <canvas id="sportChart"></canvas>
               </div>
+            </div>
+          </div>
+
+          <!-- This Week + Last Week Summary -->
+          <div class="charts-grid">
+            <div class="section">
+              <h2 class="section-title">This Week</h2>
+              <div class="week-summary-inline">
+                <div class="week-stat-inline">
+                  <span class="week-stat-value-sm" x-text="me.this_week.total_hours ? me.this_week.total_hours.toFixed(1) + 'h' : '0h'"></span>
+                  <span class="week-stat-label-sm">Hours</span>
+                </div>
+                <div class="week-stat-inline">
+                  <span class="week-stat-value-sm" x-text="me.this_week.total_tss || 0"></span>
+                  <span class="week-stat-label-sm">TSS</span>
+                </div>
+                <div class="week-stat-inline">
+                  <span class="week-stat-value-sm">
+                    <span x-text="me.this_week.sessions_completed"></span>/<span x-text="me.this_week.sessions_planned"></span>
+                  </span>
+                  <span class="week-stat-label-sm">Sessions</span>
+                </div>
+                <div class="week-stat-inline">
+                  <span class="week-stat-value-sm" :class="'compliance-' + complianceClass(me.this_week.compliance_pct)" x-text="me.this_week.compliance_pct + '%'"></span>
+                  <span class="week-stat-label-sm">Compliance</span>
+                </div>
+              </div>
+            </div>
+            <div class="section" x-show="me.last_week">
+              <h2 class="section-title">Last Week</h2>
+              <template x-if="me.last_week">
+                <div class="week-summary-inline">
+                  <div class="week-stat-inline">
+                    <span class="week-stat-value-sm" x-text="me.last_week.total_hours ? me.last_week.total_hours.toFixed(1) + 'h' : '0h'"></span>
+                    <span class="week-stat-label-sm">Hours</span>
+                  </div>
+                  <div class="week-stat-inline">
+                    <span class="week-stat-value-sm" x-text="me.last_week.total_tss || 0"></span>
+                    <span class="week-stat-label-sm">TSS</span>
+                  </div>
+                  <div class="week-stat-inline">
+                    <span class="week-stat-value-sm">
+                      <span x-text="me.last_week.sessions_completed"></span>/<span x-text="me.last_week.sessions_planned"></span>
+                    </span>
+                    <span class="week-stat-label-sm">Sessions</span>
+                  </div>
+                  <div class="week-stat-inline">
+                    <span class="week-stat-value-sm" :class="'compliance-' + complianceClass(me.last_week.compliance_pct)" x-text="me.last_week.compliance_pct + '%'"></span>
+                    <span class="week-stat-label-sm">Compliance</span>
+                  </div>
+                </div>
+              </template>
             </div>
           </div>
 

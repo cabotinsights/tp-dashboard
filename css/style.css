@@ -782,6 +782,34 @@ body {
   color: var(--status-amber) !important;
 }
 
+/* === Week Summary Inline (This Week / Last Week cards) === */
+.week-summary-inline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.week-stat-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.week-stat-value-sm {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.week-stat-label-sm {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.4);
+}
+
 /* === AI Coach Summary === */
 .ai-summary {
   border-left: 3px solid #6C5CE7;

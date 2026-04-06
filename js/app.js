@@ -6,6 +6,7 @@ function app() {
     loading: true,
     refreshing: false,
     fitnessRange: '90d',
+    sportMixView: 'last',
 
     get me() {
       if (!this.data) return null;
@@ -136,10 +137,21 @@ function app() {
       this.refreshing = false;
     },
 
+    renderSportChart() {
+      if (!this.me) return;
+      var sportData;
+      if (this.sportMixView === 'last' && this.me.last_week && this.me.last_week.by_sport) {
+        sportData = this.me.last_week.by_sport;
+      } else {
+        sportData = this.me.this_week ? this.me.this_week.by_sport : {};
+      }
+      renderSportDonut('sportChart', sportData);
+    },
+
     renderPersonalCharts(athlete) {
       renderFitnessTrend('fitnessChart', this.filteredFitness(athlete));
       renderWeeklyVolume('volumeChart', athlete.weekly_trend || []);
-      renderSportDonut('sportChart', athlete.this_week ? athlete.this_week.by_sport : {});
+      this.renderSportChart();
     },
 
     watchCharts() {
