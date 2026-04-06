@@ -38,7 +38,18 @@
           "Run": { "hours": 3.6, "tss": 314 },
           "Swim": { "hours": 0.93, "tss": 141 },
           "Other": { "hours": 0.89, "tss": 32 }
-        }
+        },
+        "sessions": [
+          { "date": "2026-03-30", "title": "15x 1min ON/OFF @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55.4, "distance_km": null, "_status": "done" },
+          { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 150.61, "distance_km": 12.6, "_status": "done" },
+          { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55.43, "distance_km": 27.0, "_status": "done" },
+          { "date": "2026-04-01", "title": "Hot Yoga", "sport": "Other", "duration_hours": 0.89, "tss": 31.92, "distance_km": null, "_status": "done" },
+          { "date": "2026-04-02", "title": "Swim | 18x 100m PB | Recovery", "sport": "Swim", "duration_hours": 0.93, "tss": 140.54, "distance_km": 2.8, "_status": "done" },
+          { "date": "2026-04-03", "title": "Open water - Group Swim", "sport": "Swim", "duration_hours": null, "tss": null, "distance_km": null, "_status": "missed" },
+          { "date": "2026-04-03", "title": "Running", "sport": "Run", "duration_hours": 0.79, "tss": 88.77, "distance_km": 9.1, "_status": "done" },
+          { "date": "2026-04-04", "title": "Endurance 3h30 | FTP", "sport": "Bike", "duration_hours": 3.69, "tss": 235.68, "distance_km": 100.0, "_status": "done" },
+          { "date": "2026-04-05", "title": "1h45 Easy AT pace + strides", "sport": "Run", "duration_hours": 1.68, "tss": 74.0, "distance_km": 17.1, "_status": "done" }
+        ]
       },
       "completed_sessions": [
         { "date": "2026-04-06", "title": "18x 1min ON/OFF - Bike Intervals", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },

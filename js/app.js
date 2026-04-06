@@ -43,6 +43,38 @@ function app() {
       return Math.round(sum / r.length);
     },
 
+    thisWeekSessions() {
+      if (!this.me) return [];
+      var start = this.me.this_week ? this.me.this_week.start : null;
+      var end = this.me.this_week ? this.me.this_week.end : null;
+      var sessions = [];
+
+      // Add completed sessions from this week
+      (this.me.completed_sessions || []).forEach(function(s) {
+        if ((!start || s.date >= start) && (!end || s.date <= end)) {
+          sessions.push(Object.assign({}, s, { _status: 'done' }));
+        }
+      });
+
+      // Add upcoming sessions for this week
+      (this.me.upcoming_sessions || []).forEach(function(s) {
+        if ((!start || s.date >= start) && (!end || s.date <= end)) {
+          sessions.push(Object.assign({}, s, { _status: 'upcoming' }));
+        }
+      });
+
+      // Add missed sessions if any
+      (this.me.missed_sessions || []).forEach(function(s) {
+        if ((!start || s.date >= start) && (!end || s.date <= end)) {
+          sessions.push(Object.assign({}, s, { _status: 'missed' }));
+        }
+      });
+
+      // Sort by date
+      sessions.sort(function(a, b) { return a.date.localeCompare(b.date); });
+      return sessions;
+    },
+
     weeklyRampRate() {
       if (!this.me || !this.me.weekly_trend || this.me.weekly_trend.length < 2) return 0;
       var trend = this.me.weekly_trend;

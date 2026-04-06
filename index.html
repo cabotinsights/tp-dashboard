@@ -188,39 +188,10 @@
             </div>
           </div>
 
-          <!-- Upcoming Sessions -->
-          <div class="section" x-show="me.upcoming_sessions && me.upcoming_sessions.length > 0">
-            <h2 class="section-title">Upcoming</h2>
-            <table class="sessions-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Day</th>
-                  <th>Session</th>
-                  <th>Sport</th>
-                  <th>Duration</th>
-                  <th>TSS</th>
-                </tr>
-              </thead>
-              <tbody>
-                <template x-for="s in me.upcoming_sessions" :key="s.date + s.title">
-                  <tr class="row-upcoming">
-                    <td>⏳</td>
-                    <td x-text="formatDate(s.date)"></td>
-                    <td x-text="s.title"></td>
-                    <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
-                    <td x-text="formatHours(s.duration_hours)"></td>
-                    <td x-text="s.tss_planned ? s.tss_planned : '—'"></td>
-                  </tr>
-                </template>
-              </tbody>
-            </table>
-          </div>
-
-          <!-- Completed Sessions (reverse chronological) -->
+          <!-- This Week (Mon-Sun, completed + upcoming merged) -->
           <div class="section">
             <h2 class="section-title">
-              Completed
+              This Week
               <span class="compliance-badge" :class="'compliance-' + complianceClass(me.this_week.compliance_pct)">
                 <span x-text="me.this_week.sessions_completed"></span>/<span x-text="me.this_week.sessions_planned"></span>
                 &nbsp;(<span x-text="me.this_week.compliance_pct"></span>%)
@@ -234,40 +205,65 @@
                   <th>Session</th>
                   <th>Sport</th>
                   <th>Duration</th>
-                  <th>TSS Planned</th>
-                  <th>TSS Actual</th>
+                  <th>TSS</th>
                   <th>Distance</th>
                 </tr>
               </thead>
               <tbody>
-                <template x-for="s in [...me.completed_sessions].reverse()" :key="s.date + s.title">
-                  <tr>
-                    <td>✅</td>
+                <template x-for="s in thisWeekSessions()" :key="s.date + s.title + s._status">
+                  <tr :class="{ 'row-upcoming': s._status === 'upcoming', 'row-missed': s._status === 'missed' }">
+                    <td x-text="s._status === 'done' ? '✅' : s._status === 'missed' ? '❌' : '⏳'"></td>
                     <td x-text="formatDate(s.date)"></td>
-                    <td x-text="s.title"></td>
+                    <td x-text="s.title + (s._status === 'missed' ? ' (missed)' : '')"></td>
                     <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
-                    <td x-text="formatHours(s.duration_hours)"></td>
-                    <td x-text="s.tss_planned ? s.tss_planned : '—'"></td>
-                    <td x-text="s.tss"></td>
+                    <td x-text="s._status === 'done' ? formatHours(s.duration_hours) : formatHours(s.duration_hours || s.duration_planned)"></td>
+                    <td x-text="s._status === 'done' ? s.tss : (s.tss_planned ? s.tss_planned + ' (plan)' : '—')"></td>
                     <td x-text="s.distance_km ? s.distance_km + ' km' : '—'"></td>
                   </tr>
                 </template>
-                <template x-if="me.missed_sessions && me.missed_sessions.length > 0">
-                  <template x-for="s in me.missed_sessions" :key="s.date + s.title">
-                    <tr class="row-missed">
-                      <td>❌</td>
-                      <td x-text="formatDate(s.date)"></td>
-                      <td x-text="s.title + ' (missed)'" ></td>
-                      <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
-                      <td>—</td>
-                      <td>—</td>
-                      <td>—</td>
-                      <td>—</td>
-                    </tr>
-                  </template>
-                </template>
               </tbody>
             </table>
+          </div>
+
+          <!-- Last Week -->
+          <div class="section" x-show="me.last_week && me.last_week.sessions">
+            <h2 class="section-title">
+              Last Week
+              <template x-if="me.last_week">
+                <span class="compliance-badge" :class="'compliance-' + complianceClass(me.last_week.compliance_pct)">
+                  <span x-text="me.last_week.sessions_completed"></span>/<span x-text="me.last_week.sessions_planned"></span>
+                  &nbsp;(<span x-text="me.last_week.compliance_pct"></span>%)
+                </span>
+              </template>
+            </h2>
+            <template x-if="me.last_week && me.last_week.sessions">
+              <table class="sessions-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Day</th>
+                    <th>Session</th>
+                    <th>Sport</th>
+                    <th>Duration</th>
+                    <th>TSS</th>
+                    <th>Distance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="s in me.last_week.sessions" :key="s.date + s.title + s._status">
+                    <tr :class="{ 'row-missed': s._status === 'missed' }">
+                      <td x-text="s._status === 'missed' ? '❌' : '✅'"></td>
+                      <td x-text="formatDate(s.date)"></td>
+                      <td x-text="s.title + (s._status === 'missed' ? ' (missed)' : '')"></td>
+                      <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                      <td x-text="s._status === 'missed' ? '—' : formatHours(s.duration_hours)"></td>
+                      <td x-text="s._status === 'missed' ? '—' : s.tss"></td>
+                      <td x-text="s.distance_km ? s.distance_km + ' km' : '—'"></td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </template>
           </div>
 
           <!-- Race Countdown -->
