@@ -267,6 +267,7 @@ function renderSportDonut(canvasId, bySport) {
                 return {
                   text: label + '  ' + val.toFixed(1) + 'h  (' + pct + '%)',
                   fillStyle: d.datasets[0].backgroundColor[i],
+                  fontColor: '#F1F5F9',
                   strokeStyle: 'transparent',
                   lineWidth: 0,
                   pointStyle: 'circle',

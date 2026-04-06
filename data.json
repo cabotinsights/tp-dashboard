@@ -19,7 +19,7 @@
         "sessions_completed": 8,
         "compliance_pct": 89,
         "total_tss": 832,
-        "total_hours": 11.3,
+        "total_hours": 11.16,
         "by_sport": {
           "Bike": { "hours": 5.86, "tss": 346 },
           "Run": { "hours": 3.6, "tss": 314 },
