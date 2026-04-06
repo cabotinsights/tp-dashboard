@@ -7,6 +7,15 @@ function tsbStatus(tsb) {
   return { label: 'Overreaching', colour: 'red', cssClass: 'red' };
 }
 
+function tsbStatusHint(tsb) {
+  if (tsb >= 15) return 'Tapered and ready to perform. Ideal for race day or key sessions.';
+  if (tsb >= 5) return 'Well recovered. Good window for quality training or testing.';
+  if (tsb >= -10) return 'Normal training state. Balanced load and recovery.';
+  if (tsb >= -30) return 'Accumulating productive fatigue. Recovery needed soon.';
+  if (tsb >= -50) return 'Heavy training block. Plan recovery within the next few days.';
+  return 'Deep fatigue — risk of overtraining if sustained. Prioritise rest and easy sessions.';
+}
+
 function complianceClass(pct) {
   if (pct >= 80) return 'high';
   if (pct >= 50) return 'mid';

@@ -43,14 +43,17 @@
             <div class="card">
               <div class="card-label">CTL (Fitness)</div>
               <div class="card-value" x-text="me.current_fitness.ctl.toFixed(1)"></div>
+              <div class="card-hint">42-day training load. Higher = fitter base.</div>
             </div>
             <div class="card">
               <div class="card-label">ATL (Fatigue)</div>
               <div class="card-value" x-text="me.current_fitness.atl.toFixed(1)"></div>
+              <div class="card-hint">7-day training load. How tired you are right now.</div>
             </div>
             <div class="card">
               <div class="card-label">TSB (Form)</div>
               <div class="card-value" x-text="me.current_fitness.tsb.toFixed(1)"></div>
+              <div class="card-hint">CTL minus ATL. Positive = fresh, negative = fatigued.</div>
             </div>
             <div class="card">
               <div class="card-label">Status</div>
@@ -60,7 +63,40 @@
                   x-text="tsbStatus(me.current_fitness.tsb).label">
                 </span>
               </div>
+              <div class="card-hint" x-text="tsbStatusHint(me.current_fitness.tsb)"></div>
             </div>
+          </div>
+
+          <!-- Week Summary Bar -->
+          <div class="section week-summary-bar">
+            <div class="week-stat">
+              <span class="week-stat-value" x-text="me.this_week.total_hours ? me.this_week.total_hours.toFixed(1) + 'h' : '—'"></span>
+              <span class="week-stat-label">Total Hours</span>
+            </div>
+            <div class="week-stat">
+              <span class="week-stat-value" x-text="me.this_week.total_tss || '—'"></span>
+              <span class="week-stat-label">Total TSS</span>
+            </div>
+            <div class="week-stat">
+              <span class="week-stat-value">
+                <span x-text="me.this_week.sessions_completed"></span>/<span x-text="me.this_week.sessions_planned"></span>
+              </span>
+              <span class="week-stat-label">Sessions</span>
+            </div>
+            <div class="week-stat">
+              <span class="week-stat-value" :class="weeklyRampRate() > 10 ? 'text-warning' : weeklyRampRate() < -10 ? 'text-muted' : ''"
+                x-text="(weeklyRampRate() > 0 ? '+' : '') + weeklyRampRate() + '%'"></span>
+              <span class="week-stat-label">Load vs Last Week</span>
+            </div>
+          </div>
+
+          <!-- AI Coach Summary -->
+          <div class="section ai-summary" x-show="me.coach_summary">
+            <div class="ai-summary-header">
+              <span class="ai-icon">&#129302;</span>
+              <h2 class="section-title" style="margin-bottom:0">Coach Analysis</h2>
+            </div>
+            <p class="ai-summary-text" x-text="me.coach_summary"></p>
           </div>
 
           <!-- Fitness Trend Chart -->
@@ -140,7 +176,8 @@
                   <th>Session</th>
                   <th>Sport</th>
                   <th>Duration</th>
-                  <th>TSS</th>
+                  <th>TSS Planned</th>
+                  <th>TSS Actual</th>
                   <th>Distance</th>
                 </tr>
               </thead>
@@ -152,6 +189,7 @@
                     <td x-text="s.title"></td>
                     <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
                     <td x-text="formatHours(s.duration_hours)"></td>
+                    <td x-text="s.tss_planned ? s.tss_planned : '—'"></td>
                     <td x-text="s.tss"></td>
                     <td x-text="s.distance_km ? s.distance_km + ' km' : '—'"></td>
                   </tr>
@@ -163,6 +201,7 @@
                       <td x-text="formatDate(s.date)"></td>
                       <td x-text="s.title + ' (missed)'" ></td>
                       <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                      <td>—</td>
                       <td>—</td>
                       <td>—</td>
                       <td>—</td>

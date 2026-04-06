@@ -99,6 +99,7 @@
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 10.3, "ctl_end": 81.9 }
       ],
+      "coach_summary": "You've built fitness rapidly over the past 4 weeks — CTL jumped from ~15 to 82, which is an aggressive ramp. Your compliance is strong at 89%, showing great consistency across swim, bike, and run. However, your TSB at -73.6 is the deepest it's been, meaning fatigue is significantly outpacing adaptation. The big days in mid-March (700+ TSS on the 15th, back-to-back 350+ days on the 27th-28th) drove a huge fitness spike but left a fatigue debt you're still carrying. This week's load is lower (~830 TSS vs 1100+ two weeks ago), which is the right direction. Priority now: absorb the gains. Keep the next 7-10 days honest — easy sessions, hit the planned recovery swims, and don't add intensity. Your body has the fitness; it just needs time to catch up. If you stay disciplined with recovery, you should see TSB climb back toward -30 within 10 days, putting you in a much stronger position to build again.",
       "flags": ["overreaching"]
     },
     "sarah-johnson": {

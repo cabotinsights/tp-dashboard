@@ -292,7 +292,7 @@ body {
 }
 
 .chart-container--donut {
-  height: 240px;
+  height: 280px;
 }
 
 /* === Range Toggles === */
@@ -739,4 +739,68 @@ body {
   .card-value {
     font-size: 28px;
   }
+}
+
+/* === Card Hints === */
+.card-hint {
+  font-size: 11px;
+  color: rgba(241, 245, 249, 0.35);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* === Week Summary Bar === */
+.week-summary-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 24px !important;
+  margin-bottom: 24px;
+}
+
+.week-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.week-stat-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.week-stat-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.4);
+}
+
+.text-warning {
+  color: var(--status-amber) !important;
+}
+
+/* === AI Coach Summary === */
+.ai-summary {
+  border-left: 3px solid #6C5CE7;
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.08), rgba(49, 119, 255, 0.05)) !important;
+}
+
+.ai-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.ai-icon {
+  font-size: 22px;
+}
+
+.ai-summary-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(241, 245, 249, 0.75);
 }

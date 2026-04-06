@@ -42,6 +42,15 @@ function app() {
       return Math.round(sum / r.length);
     },
 
+    weeklyRampRate() {
+      if (!this.me || !this.me.weekly_trend || this.me.weekly_trend.length < 2) return 0;
+      var trend = this.me.weekly_trend;
+      var current = trend[trend.length - 1].tss;
+      var prev = trend[trend.length - 2].tss;
+      if (prev === 0) return 0;
+      return Math.round((current - prev) / prev * 100);
+    },
+
     athleteData(id) {
       if (!this.data) return null;
       return this.data.athletes[id] || null;
