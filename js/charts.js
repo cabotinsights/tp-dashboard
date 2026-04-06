@@ -256,8 +256,9 @@ function renderSportDonut(canvasId, bySport) {
             usePointStyle: true,
             pointStyle: 'circle',
             font: { family: 'Inter', size: 12 },
-            color: 'rgba(241,245,249,0.7)',
+            color: '#F1F5F9',
             padding: 14,
+            font: { family: 'Inter', size: 13, weight: '600' },
             generateLabels: function(chart) {
               var d = chart.data;
               return d.labels.map(function(label, i) {
