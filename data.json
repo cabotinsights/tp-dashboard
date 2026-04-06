@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T19:00:00Z",
+  "generated_at": "2026-04-06T08:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,16 +7,29 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 81.9,
-        "atl": 144.0,
-        "tsb": -73.6,
+        "ctl": 81.2,
+        "atl": 131.0,
+        "tsb": -62.1,
         "status": "overreaching"
       },
       "this_week": {
+        "start": "2026-04-06",
+        "end": "2026-04-12",
+        "sessions_planned": 6,
+        "sessions_completed": 1,
+        "compliance_pct": 100,
+        "total_tss": 52.81,
+        "total_hours": 1.1,
+        "by_sport": {
+          "Bike": { "hours": 1.1, "tss": 52.81 }
+        }
+      },
+      "last_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
         "sessions_planned": 9,
         "sessions_completed": 8,
+        "sessions_missed": 1,
         "compliance_pct": 89,
         "total_tss": 832,
         "total_hours": 11.16,
@@ -28,41 +41,42 @@
         }
       },
       "completed_sessions": [
-        { "date": "2026-03-30", "title": "15x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55, "distance_km": null },
-        { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 151, "distance_km": 12.6 },
-        { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55, "distance_km": 27.0 },
-        { "date": "2026-04-01", "title": "Hot Yoga", "sport": "Other", "duration_hours": 0.89, "tss": 32, "distance_km": null },
-        { "date": "2026-04-02", "title": "Swim | 18x 100m PB | Recovery", "sport": "Swim", "duration_hours": 0.93, "tss": 141, "distance_km": 2.8 },
-        { "date": "2026-04-03", "title": "Running", "sport": "Run", "duration_hours": 0.79, "tss": 89, "distance_km": 9.1 },
-        { "date": "2026-04-04", "title": "Endurance 3h30 | FTP", "sport": "Bike", "duration_hours": 3.69, "tss": 236, "distance_km": 100.0 },
-        { "date": "2026-04-05", "title": "1h45 Easy AT pace + strides", "sport": "Run", "duration_hours": 1.68, "tss": 74, "distance_km": 17.1 }
+        { "date": "2026-04-06", "title": "18x 1min ON/OFF - Bike Intervals", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },
+        { "date": "2026-03-30", "title": "15x 1min ON/OFF @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55.4, "distance_km": null },
+        { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 150.61, "distance_km": 12.6 },
+        { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55.43, "distance_km": 27.0 },
+        { "date": "2026-04-01", "title": "Hot Yoga", "sport": "Other", "duration_hours": 0.89, "tss": 31.92, "distance_km": null },
+        { "date": "2026-04-02", "title": "Swim | 18x 100m PB | Recovery", "sport": "Swim", "duration_hours": 0.93, "tss": 140.54, "distance_km": 2.8 },
+        { "date": "2026-04-03", "title": "Running", "sport": "Run", "duration_hours": 0.79, "tss": 88.77, "distance_km": 9.1 },
+        { "date": "2026-04-04", "title": "Endurance 3h30 | FTP", "sport": "Bike", "duration_hours": 3.69, "tss": 235.68, "distance_km": 100.0 },
+        { "date": "2026-04-05", "title": "1h45 Easy AT pace + strides", "sport": "Run", "duration_hours": 1.68, "tss": 74.0, "distance_km": 17.1 }
       ],
       "missed_sessions": [
         { "date": "2026-04-03", "title": "Open water - Group Swim", "sport": "Swim" }
       ],
       "upcoming_sessions": [
-        { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss_planned": 60 },
-        { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 1.0, "tss_planned": 67 },
-        { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min", "sport": "Bike", "duration_hours": 1.58, "tss_planned": 100 },
+        { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 1.0, "tss_planned": 66.6 },
+        { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min", "sport": "Bike", "duration_hours": 1.58, "tss_planned": 99.91 },
         { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 80 },
-        { "date": "2026-04-11", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": 0.33, "tss_planned": 20 },
-        { "date": "2026-04-12", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.42, "tss_planned": 99 }
+        { "date": "2026-04-11", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": 0.33, "tss_planned": 19.98 },
+        { "date": "2026-04-12", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.42, "tss_planned": 99.14 },
+        { "date": "2026-04-13", "title": "Swim Recovery Z2", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 23.26 }
       ],
       "next_event": {
         "name": "T100 Dubai",
         "date": "2026-11-15",
         "priority": "B",
-        "days_out": 224,
+        "days_out": 223,
         "ctl_target": null,
-        "ctl_current": 81.9
+        "ctl_current": 81.2
       },
       "focus_event": {
         "name": "Muscat IM",
         "date": "2026-12-05",
         "priority": "A",
-        "days_out": 244,
+        "days_out": 243,
         "ctl_target": null,
-        "ctl_current": 81.9
+        "ctl_current": 81.2
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -70,16 +84,28 @@
       },
       "fitness_history": [
         { "date": "2026-03-02", "ctl": 1.3, "atl": 8.1, "tsb": 0.0, "tss": 56.6 },
+        { "date": "2026-03-03", "ctl": 3.4, "atl": 19.4, "tsb": -6.7, "tss": 87.1 },
+        { "date": "2026-03-04", "ctl": 5.2, "atl": 27.9, "tsb": -16.0, "tss": 78.8 },
         { "date": "2026-03-05", "ctl": 6.4, "atl": 32.1, "tsb": -22.7, "tss": 57.7 },
+        { "date": "2026-03-06", "ctl": 8.7, "atl": 41.8, "tsb": -25.7, "tss": 100.2 },
+        { "date": "2026-03-07", "ctl": 9.8, "atl": 43.9, "tsb": -33.2, "tss": 56.0 },
         { "date": "2026-03-08", "ctl": 11.0, "atl": 46.5, "tsb": -34.1, "tss": 62.0 },
+        { "date": "2026-03-09", "ctl": 14.5, "atl": 62.2, "tsb": -35.4, "tss": 156.9 },
         { "date": "2026-03-10", "ctl": 15.8, "atl": 62.9, "tsb": -47.7, "tss": 67.2 },
+        { "date": "2026-03-11", "ctl": 16.4, "atl": 60.0, "tsb": -47.2, "tss": 42.1 },
         { "date": "2026-03-12", "ctl": 20.1, "atl": 75.8, "tsb": -43.6, "tss": 170.5 },
+        { "date": "2026-03-14", "ctl": 21.6, "atl": 70.4, "tsb": -45.3, "tss": 103.2 },
         { "date": "2026-03-15", "ctl": 37.8, "atl": 160.7, "tsb": -48.8, "tss": 702.2 },
+        { "date": "2026-03-16", "ctl": 40.1, "atl": 157.1, "tsb": -122.9, "tss": 136.1 },
         { "date": "2026-03-17", "ctl": 42.5, "atl": 154.4, "tsb": -117.0, "tss": 138.1 },
+        { "date": "2026-03-18", "ctl": 43.2, "atl": 142.9, "tsb": -112.0, "tss": 73.6 },
         { "date": "2026-03-19", "ctl": 45.3, "atl": 141.5, "tsb": -99.7, "tss": 133.2 },
+        { "date": "2026-03-20", "ctl": 47.7, "atl": 141.8, "tsb": -96.2, "tss": 143.4 },
         { "date": "2026-03-21", "ctl": 49.3, "atl": 138.3, "tsb": -94.1, "tss": 117.2 },
         { "date": "2026-03-22", "ctl": 55.0, "atl": 159.5, "tsb": -88.9, "tss": 286.7 },
+        { "date": "2026-03-23", "ctl": 54.8, "atl": 143.2, "tsb": -104.5, "tss": 45.8 },
         { "date": "2026-03-24", "ctl": 54.9, "atl": 131.3, "tsb": -88.5, "tss": 59.4 },
+        { "date": "2026-03-25", "ctl": 55.2, "atl": 122.5, "tsb": -76.4, "tss": 70.2 },
         { "date": "2026-03-26", "ctl": 60.5, "atl": 144.2, "tsb": -67.3, "tss": 274.5 },
         { "date": "2026-03-27", "ctl": 68.3, "atl": 179.2, "tsb": -83.8, "tss": 389.2 },
         { "date": "2026-03-28", "ctl": 75.3, "atl": 205.4, "tsb": -111.0, "tss": 362.1 },
@@ -90,16 +116,18 @@
         { "date": "2026-04-02", "ctl": 78.1, "atl": 151.3, "tsb": -76.5, "tss": 140.5 },
         { "date": "2026-04-03", "ctl": 78.3, "atl": 142.4, "tsb": -73.2, "tss": 88.8 },
         { "date": "2026-04-04", "ctl": 82.1, "atl": 155.7, "tsb": -64.0, "tss": 235.7 },
-        { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 }
+        { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
+        { "date": "2026-04-06", "ctl": 81.2, "atl": 131.0, "tsb": -62.1, "tss": 52.8 }
       ],
       "weekly_trend": [
         { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
         { "week_start": "2026-03-09", "tss": 612, "hours": 7.8, "ctl_end": 20.1 },
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
-        { "week_start": "2026-03-30", "tss": 832, "hours": 10.3, "ctl_end": 81.9 }
+        { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
+        { "week_start": "2026-04-06", "tss": 53, "hours": 1.1, "ctl_end": 81.2 }
       ],
-      "coach_summary": "You've built fitness rapidly over the past 4 weeks — CTL jumped from ~15 to 82, which is an aggressive ramp. Your compliance is strong at 89%, showing great consistency across swim, bike, and run. However, your TSB at -73.6 is the deepest it's been, meaning fatigue is significantly outpacing adaptation. The big days in mid-March (700+ TSS on the 15th, back-to-back 350+ days on the 27th-28th) drove a huge fitness spike but left a fatigue debt you're still carrying. This week's load is lower (~830 TSS vs 1100+ two weeks ago), which is the right direction. Priority now: absorb the gains. Keep the next 7-10 days honest — easy sessions, hit the planned recovery swims, and don't add intensity. Your body has the fitness; it just needs time to catch up. If you stay disciplined with recovery, you should see TSB climb back toward -30 within 10 days, putting you in a much stronger position to build again.",
+      "coach_summary": "Your TSB has improved from -73.6 to -62.1 overnight — fatigue is starting to drop while fitness holds at 81.2. Last week was solid: 11+ hours across swim, bike, run with 89% compliance. You've completed today's bike intervals, keeping the quality work ticking over without overloading. The next 6 days are deliberately lighter (~340 TSS planned vs 830+ last week) — this is your absorption week. Stick to the plan, don't add volume, and let your body consolidate 5 weeks of aggressive building. By next weekend your TSB should be back around -30, putting you in a much better position.",
       "flags": ["overreaching"]
     },
     "sarah-johnson": {
@@ -157,19 +185,8 @@
         { "week_start": "2026-03-24", "tss": 520, "hours": 7.2, "ctl_end": 69 },
         { "week_start": "2026-03-31", "tss": 620, "hours": 8.5, "ctl_end": 72 }
       ],
-      "next_event": {
-        "name": "IM Cork",
-        "date": "2026-05-17",
-        "priority": "A",
-        "days_out": 42,
-        "ctl_target": 75,
-        "ctl_current": 72
-      },
-      "focus_event": null,
-      "peaks": {
-        "bike_20min_power": { "value": 195, "date": "2026-03-22" },
-        "run_5k_pace": { "value": "4:45/km", "date": "2026-03-18" }
-      },
+      "next_event": { "name": "IM Cork", "date": "2026-05-17", "priority": "A", "days_out": 41, "ctl_target": 75, "ctl_current": 72 },
+      "peaks": { "bike_20min_power": { "value": 195, "date": "2026-03-22" }, "run_5k_pace": { "value": "4:45/km", "date": "2026-03-18" } },
       "flags": []
     },
     "mike-obrien": {
@@ -185,10 +202,7 @@
         "compliance_pct": 83,
         "total_tss": 410,
         "total_hours": 6.5,
-        "by_sport": {
-          "Run": { "hours": 6.0, "tss": 380 },
-          "Other": { "hours": 0.5, "tss": 30 }
-        }
+        "by_sport": { "Run": { "hours": 6.0, "tss": 380 }, "Other": { "hours": 0.5, "tss": 30 } }
       },
       "completed_sessions": [
         { "date": "2026-03-30", "title": "Easy Run 50min", "sport": "Run", "duration_hours": 0.83, "tss": 48, "distance_km": 8.5 },
@@ -220,18 +234,8 @@
         { "week_start": "2026-03-24", "tss": 360, "hours": 5.5, "ctl_end": 57 },
         { "week_start": "2026-03-31", "tss": 410, "hours": 6.5, "ctl_end": 58 }
       ],
-      "next_event": {
-        "name": "Dublin Marathon",
-        "date": "2026-05-03",
-        "priority": "A",
-        "days_out": 28,
-        "ctl_target": 62,
-        "ctl_current": 58
-      },
-      "focus_event": null,
-      "peaks": {
-        "run_5k_pace": { "value": "3:55/km", "date": "2026-03-31" }
-      },
+      "next_event": { "name": "Dublin Marathon", "date": "2026-05-03", "priority": "A", "days_out": 27, "ctl_target": 62, "ctl_current": 58 },
+      "peaks": { "run_5k_pace": { "value": "3:55/km", "date": "2026-03-31" } },
       "flags": []
     },
     "katie-walsh": {
@@ -247,9 +251,7 @@
         "compliance_pct": 60,
         "total_tss": 180,
         "total_hours": 3.0,
-        "by_sport": {
-          "Bike": { "hours": 3.0, "tss": 180 }
-        }
+        "by_sport": { "Bike": { "hours": 3.0, "tss": 180 } }
       },
       "completed_sessions": [
         { "date": "2026-03-31", "title": "Easy Spin 1h", "sport": "Bike", "duration_hours": 1.0, "tss": 45, "distance_km": 25 },
@@ -278,10 +280,7 @@
         { "week_start": "2026-03-31", "tss": 180, "hours": 3.0, "ctl_end": 42 }
       ],
       "next_event": null,
-      "focus_event": null,
-      "peaks": {
-        "bike_20min_power": { "value": 165, "date": "2026-03-05" }
-      },
+      "peaks": { "bike_20min_power": { "value": 165, "date": "2026-03-05" } },
       "flags": ["compliance_dropping"]
     },
     "tom-murphy": {
@@ -336,19 +335,8 @@
         { "week_start": "2026-03-24", "tss": 430, "hours": 6.5, "ctl_end": 53 },
         { "week_start": "2026-03-31", "tss": 510, "hours": 7.5, "ctl_end": 55 }
       ],
-      "next_event": {
-        "name": "HIM Dun Laoghaire",
-        "date": "2026-05-31",
-        "priority": "A",
-        "days_out": 56,
-        "ctl_target": 60,
-        "ctl_current": 55
-      },
-      "focus_event": null,
-      "peaks": {
-        "bike_20min_power": { "value": 240, "date": "2026-03-17" },
-        "run_5k_pace": { "value": "4:30/km", "date": "2026-04-01" }
-      },
+      "next_event": { "name": "HIM Dun Laoghaire", "date": "2026-05-31", "priority": "A", "days_out": 55, "ctl_target": 60, "ctl_current": 55 },
+      "peaks": { "bike_20min_power": { "value": 240, "date": "2026-03-17" }, "run_5k_pace": { "value": "4:30/km", "date": "2026-04-01" } },
       "flags": []
     },
     "aine-byrne": {
@@ -364,10 +352,7 @@
         "compliance_pct": 33,
         "total_tss": 95,
         "total_hours": 1.5,
-        "by_sport": {
-          "Run": { "hours": 0.75, "tss": 50 },
-          "Other": { "hours": 0.75, "tss": 45 }
-        }
+        "by_sport": { "Run": { "hours": 0.75, "tss": 50 }, "Other": { "hours": 0.75, "tss": 45 } }
       },
       "completed_sessions": [
         { "date": "2026-04-01", "title": "Easy Jog 45min", "sport": "Run", "duration_hours": 0.75, "tss": 50, "distance_km": 6 },
@@ -394,18 +379,8 @@
         { "week_start": "2026-03-24", "tss": 120, "hours": 2.0, "ctl_end": 41 },
         { "week_start": "2026-03-31", "tss": 95, "hours": 1.5, "ctl_end": 38 }
       ],
-      "next_event": {
-        "name": "Gaelforce West",
-        "date": "2026-04-19",
-        "priority": "A",
-        "days_out": 14,
-        "ctl_target": 65,
-        "ctl_current": 38
-      },
-      "focus_event": null,
-      "peaks": {
-        "run_5k_pace": { "value": "5:10/km", "date": "2026-03-01" }
-      },
+      "next_event": { "name": "Gaelforce West", "date": "2026-04-19", "priority": "A", "days_out": 13, "ctl_target": 65, "ctl_current": 38 },
+      "peaks": { "run_5k_pace": { "value": "5:10/km", "date": "2026-03-01" } },
       "flags": ["missed_2+", "race_risk"]
     }
   },
@@ -413,10 +388,10 @@
     {
       "id": "stephen-bates",
       "name": "Stephen Bates",
-      "compliance_pct": 89,
+      "compliance_pct": 100,
       "next_event": "T100 Dubai",
-      "days_to_event": 224,
-      "weekly_tss_trend": [498, 612, 1182, 860, 832],
+      "days_to_event": 223,
+      "weekly_tss_trend": [498, 612, 1182, 860, 832, 53],
       "flags": ["overreaching"]
     },
     {
@@ -424,8 +399,8 @@
       "name": "Sarah Johnson",
       "compliance_pct": 100,
       "next_event": "IM Cork",
-      "days_to_event": 42,
-      "weekly_tss_trend": [480, 550, 610, 580, 620],
+      "days_to_event": 41,
+      "weekly_tss_trend": [480, 550, 610, 580, 520, 620],
       "flags": []
     },
     {
@@ -433,8 +408,8 @@
       "name": "Mike O'Brien",
       "compliance_pct": 83,
       "next_event": "Dublin Marathon",
-      "days_to_event": 28,
-      "weekly_tss_trend": [350, 400, 430, 390, 410],
+      "days_to_event": 27,
+      "weekly_tss_trend": [350, 400, 430, 390, 360, 410],
       "flags": []
     },
     {
@@ -443,7 +418,7 @@
       "compliance_pct": 60,
       "next_event": null,
       "days_to_event": null,
-      "weekly_tss_trend": [420, 350, 280, 200, 180],
+      "weekly_tss_trend": [420, 350, 280, 240, 200, 180],
       "flags": ["compliance_dropping"]
     },
     {
@@ -451,8 +426,8 @@
       "name": "Tom Murphy",
       "compliance_pct": 86,
       "next_event": "HIM Dun Laoghaire",
-      "days_to_event": 56,
-      "weekly_tss_trend": [380, 440, 480, 430, 510],
+      "days_to_event": 55,
+      "weekly_tss_trend": [380, 440, 480, 460, 430, 510],
       "flags": []
     },
     {
@@ -460,8 +435,8 @@
       "name": "Aine Byrne",
       "compliance_pct": 33,
       "next_event": "Gaelforce West",
-      "days_to_event": 14,
-      "weekly_tss_trend": [380, 300, 220, 170, 95],
+      "days_to_event": 13,
+      "weekly_tss_trend": [380, 300, 220, 170, 120, 95],
       "flags": ["missed_2+", "race_risk"]
     }
   ]
