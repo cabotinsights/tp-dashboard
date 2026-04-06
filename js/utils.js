@@ -89,6 +89,8 @@ function sparklineSvg(data, width, height) {
   }).join(' ');
   return '<svg class="sparkline" width="' + width + '" height="' + height +
     '" viewBox="0 0 ' + width + ' ' + height + '">' +
-    '<polyline fill="none" stroke="#3177FF" stroke-width="1.5" points="' +
+    '<defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/>' +
+    '<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>' +
+    '<polyline fill="none" stroke="#3177FF" stroke-width="1.5" filter="url(#glow)" points="' +
     points + '"/></svg>';
 }

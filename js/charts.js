@@ -9,6 +9,28 @@ function _getOrCreate(canvasId) {
   return ctx.getContext('2d');
 }
 
+/* Shared dark-theme defaults */
+var _darkTooltip = {
+  backgroundColor: '#1E293B',
+  titleColor: '#F1F5F9',
+  bodyColor: '#F1F5F9',
+  borderColor: 'rgba(255,255,255,0.08)',
+  borderWidth: 1,
+  padding: 10,
+  titleFont: { family: 'Inter', weight: '600' },
+  bodyFont: { family: 'Inter' }
+};
+
+var _darkGrid = {
+  color: 'rgba(255,255,255,0.06)',
+  drawBorder: false
+};
+
+var _darkTicks = {
+  color: 'rgba(241,245,249,0.5)',
+  font: { family: 'Inter', size: 11 }
+};
+
 function renderFitnessTrend(canvasId, fitnessData) {
   var ctx = _getOrCreate(canvasId);
   if (!ctx) return;
@@ -26,11 +48,11 @@ function renderFitnessTrend(canvasId, fitnessData) {
           label: 'CTL (Fitness)',
           data: ctl,
           borderColor: '#3177FF',
-          backgroundColor: 'rgba(49, 119, 255, 0.08)',
+          backgroundColor: 'rgba(49, 119, 255, 0.12)',
           fill: true,
           tension: 0.3,
           pointRadius: 0,
-          borderWidth: 2
+          borderWidth: 2.5
         },
         {
           label: 'ATL (Fatigue)',
@@ -46,7 +68,7 @@ function renderFitnessTrend(canvasId, fitnessData) {
           label: 'TSB (Form)',
           data: tsb,
           borderColor: '#22C55E',
-          backgroundColor: 'rgba(34, 197, 94, 0.06)',
+          backgroundColor: 'rgba(34, 197, 94, 0.08)',
           fill: true,
           tension: 0.3,
           pointRadius: 0,
@@ -62,32 +84,39 @@ function renderFitnessTrend(canvasId, fitnessData) {
       plugins: {
         legend: {
           position: 'top',
-          labels: { usePointStyle: true, pointStyle: 'line', font: { size: 12 } }
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'line',
+            font: { family: 'Inter', size: 12 },
+            color: 'rgba(241,245,249,0.7)',
+            padding: 16
+          }
         },
-        tooltip: {
+        tooltip: Object.assign({}, _darkTooltip, {
           callbacks: {
             title: function(items) { return formatDate(items[0].label); },
             label: function(item) { return item.dataset.label + ': ' + item.raw.toFixed(1); }
           }
-        }
+        })
       },
       scales: {
         x: {
           display: true,
-          ticks: {
+          ticks: Object.assign({}, _darkTicks, {
             maxTicksLimit: 8,
             callback: function(val, i) {
               var label = this.getLabelForValue(val);
               return label ? label.substring(5) : '';
-            },
-            font: { size: 11 }
-          },
-          grid: { display: false }
+            }
+          }),
+          grid: { display: false },
+          border: { display: false }
         },
         y: {
           display: true,
-          grid: { color: 'rgba(0,0,0,0.04)' },
-          ticks: { font: { size: 11 } }
+          grid: _darkGrid,
+          ticks: _darkTicks,
+          border: { display: false }
         }
       }
     }
@@ -102,6 +131,11 @@ function renderWeeklyVolume(canvasId, weeklyTrend) {
   });
   var tss = weeklyTrend.map(function(w) { return w.tss; });
 
+  /* Create a gradient for bars */
+  var gradient = ctx.createLinearGradient(0, 0, 0, 280);
+  gradient.addColorStop(0, 'rgba(49, 119, 255, 0.9)');
+  gradient.addColorStop(1, 'rgba(108, 92, 231, 0.6)');
+
   _charts[canvasId] = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -109,8 +143,8 @@ function renderWeeklyVolume(canvasId, weeklyTrend) {
       datasets: [{
         label: 'Weekly TSS',
         data: tss,
-        backgroundColor: 'rgba(49, 119, 255, 0.7)',
-        borderRadius: 4,
+        backgroundColor: gradient,
+        borderRadius: 6,
         barPercentage: 0.6
       }]
     },
@@ -119,16 +153,25 @@ function renderWeeklyVolume(canvasId, weeklyTrend) {
       maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: {
+        tooltip: Object.assign({}, _darkTooltip, {
           callbacks: {
             title: function(items) { return 'Week of ' + items[0].label; },
             label: function(item) { return 'TSS: ' + item.raw; }
           }
-        }
+        })
       },
       scales: {
-        x: { grid: { display: false }, ticks: { font: { size: 11 } } },
-        y: { grid: { color: 'rgba(0,0,0,0.04)' }, ticks: { font: { size: 11 } }, beginAtZero: true }
+        x: {
+          grid: { display: false },
+          ticks: _darkTicks,
+          border: { display: false }
+        },
+        y: {
+          grid: _darkGrid,
+          ticks: _darkTicks,
+          border: { display: false },
+          beginAtZero: true
+        }
       }
     }
   });
@@ -139,19 +182,30 @@ function renderSportDonut(canvasId, bySport) {
   if (!ctx) return;
   var labels = [];
   var data = [];
-  var colors = { 'Bike': '#3177FF', 'Run': '#22C55E', 'Swim': '#F59E0B', 'Other': 'rgba(1, 15, 49, 0.2)' };
+  var colors = {
+    'Bike': '#3177FF',
+    'Run': '#22C55E',
+    'Swim': '#F59E0B',
+    'Other': 'rgba(255,255,255,0.15)'
+  };
   var bgColors = [];
   Object.keys(bySport).forEach(function(sport) {
     labels.push(sport);
     data.push(bySport[sport].hours);
-    bgColors.push(colors[sport] || 'rgba(1, 15, 49, 0.2)');
+    bgColors.push(colors[sport] || 'rgba(255,255,255,0.15)');
   });
 
   _charts[canvasId] = new Chart(ctx, {
     type: 'doughnut',
     data: {
       labels: labels,
-      datasets: [{ data: data, backgroundColor: bgColors, borderWidth: 0, spacing: 2 }]
+      datasets: [{
+        data: data,
+        backgroundColor: bgColors,
+        borderWidth: 0,
+        spacing: 3,
+        hoverOffset: 6
+      }]
     },
     options: {
       responsive: true,
@@ -160,13 +214,19 @@ function renderSportDonut(canvasId, bySport) {
       plugins: {
         legend: {
           position: 'right',
-          labels: { usePointStyle: true, pointStyle: 'circle', font: { size: 12 }, padding: 12 }
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            font: { family: 'Inter', size: 12 },
+            color: 'rgba(241,245,249,0.7)',
+            padding: 14
+          }
         },
-        tooltip: {
+        tooltip: Object.assign({}, _darkTooltip, {
           callbacks: {
             label: function(item) { return item.label + ': ' + item.raw.toFixed(1) + 'h'; }
           }
-        }
+        })
       }
     }
   });
