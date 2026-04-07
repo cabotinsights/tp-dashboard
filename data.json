@@ -98,7 +98,7 @@
       },
       "pbs": {
         "run": [
-          { "distance": "5K", "time": "19:06", "pace": "3:47/km", "date": "2024-12-07" },
+          { "distance": "5K", "time": "18:15", "pace": "3:39/km", "date": "2025-06-27" },
           { "distance": "10K", "time": "41:49", "pace": "4:08/km", "date": "2023-02-25" },
           { "distance": "Half Marathon", "time": "1:25:00", "pace": "4:01/km", "date": "2024-09-22" },
           { "distance": "Marathon", "time": "3:09:00", "pace": "4:28/km", "date": "2024-10-27" }
