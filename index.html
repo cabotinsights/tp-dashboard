@@ -377,17 +377,43 @@
           <!-- Personal Records -->
           <div class="section">
             <h2 class="section-title">Personal Records</h2>
-            <div class="peaks-grid">
-              <div class="peak-card">
-                <div class="peak-label">Bike 20min Power</div>
-                <div class="peak-value" x-text="me.peaks.bike_20min_power.value + ' W'"></div>
-                <div class="peak-date" x-text="formatDate(me.peaks.bike_20min_power.date)"></div>
-              </div>
-              <div class="peak-card">
-                <div class="peak-label">Run 5K Pace</div>
-                <div class="peak-value" x-text="me.peaks.run_5k_pace.value"></div>
-                <div class="peak-date" x-text="formatDate(me.peaks.run_5k_pace.date)"></div>
-              </div>
+
+            <!-- Running PBs -->
+            <h3 class="pb-category-title">&#127939; Running</h3>
+            <div class="pb-grid">
+              <template x-for="pb in (me.pbs && me.pbs.run ? me.pbs.run : [])" :key="pb.distance">
+                <div class="pb-card">
+                  <div class="pb-distance" x-text="pb.distance"></div>
+                  <div class="pb-time" x-text="pb.time"></div>
+                  <div class="pb-pace" x-text="pb.pace"></div>
+                  <div class="pb-date" x-text="formatDate(pb.date)"></div>
+                </div>
+              </template>
+            </div>
+
+            <!-- Bike PBs -->
+            <h3 class="pb-category-title">&#128692; Cycling</h3>
+            <div class="pb-grid">
+              <template x-for="pb in (me.pbs && me.pbs.bike ? me.pbs.bike : [])" :key="pb.metric">
+                <div class="pb-card">
+                  <div class="pb-distance" x-text="pb.metric"></div>
+                  <div class="pb-time" x-text="pb.value"></div>
+                  <div class="pb-date" x-text="formatDate(pb.date)"></div>
+                </div>
+              </template>
+            </div>
+
+            <!-- All-Time Stats -->
+            <h3 class="pb-category-title">&#128200; All-Time</h3>
+            <div class="alltime-grid" x-show="me.alltime_stats">
+              <template x-if="me.alltime_stats">
+                <template x-for="stat in me.alltime_stats" :key="stat.label">
+                  <div class="alltime-stat">
+                    <div class="alltime-value" x-text="stat.value"></div>
+                    <div class="alltime-label" x-text="stat.label"></div>
+                  </div>
+                </template>
+              </template>
             </div>
           </div>
 

@@ -935,6 +935,97 @@ body {
   }
 }
 
+/* === PB Section === */
+.pb-category-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(241, 245, 249, 0.6);
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.pb-category-title:first-of-type {
+  margin-top: 0;
+}
+
+.pb-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.pb-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+}
+
+.pb-distance {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.4);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.pb-time {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.pb-pace {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pb-date {
+  font-size: 11px;
+  color: rgba(241, 245, 249, 0.3);
+}
+
+/* All-Time Stats */
+.alltime-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.alltime-stat {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+}
+
+.alltime-value {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.alltime-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.4);
+}
+
+@media (max-width: 768px) {
+  .pb-grid, .alltime-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* === AI Coach Summary === */
 .ai-summary {
   border-left: 3px solid #6C5CE7;

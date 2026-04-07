@@ -96,6 +96,28 @@
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
         "run_5k_pace": { "value": "4:00/km", "date": "2022-01-23" }
       },
+      "pbs": {
+        "run": [
+          { "distance": "5K", "time": "19:06", "pace": "3:47/km", "date": "2024-12-07" },
+          { "distance": "10K", "time": "41:49", "pace": "4:08/km", "date": "2023-02-25" },
+          { "distance": "Half Marathon", "time": "1:25:00", "pace": "4:01/km", "date": "2024-09-22" },
+          { "distance": "Marathon", "time": "3:09:00", "pace": "4:28/km", "date": "2024-10-27" }
+        ],
+        "bike": [
+          { "metric": "20min Power", "value": "207W", "date": "2026-03-27" },
+          { "metric": "Longest Ride", "value": "185 km", "date": "2022-07-09" }
+        ]
+      },
+      "alltime_stats": [
+        { "label": "Total Runs", "value": "680" },
+        { "label": "Run Distance", "value": "5,992 km" },
+        { "label": "Total Rides", "value": "331" },
+        { "label": "Ride Distance", "value": "7,451 km" },
+        { "label": "Total Swims", "value": "163" },
+        { "label": "Run Hours", "value": "577h" },
+        { "label": "Ride Hours", "value": "452h" },
+        { "label": "Total Elevation", "value": "86,118 m" }
+      ],
       "fitness_history": [
         { "date": "2026-03-02", "ctl": 1.3, "atl": 8.1, "tsb": 0.0, "tss": 56.6 },
         { "date": "2026-03-03", "ctl": 3.4, "atl": 19.4, "tsb": -6.7, "tss": 87.1 },
