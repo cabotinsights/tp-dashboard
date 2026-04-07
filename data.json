@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T08:00:00Z",
+  "generated_at": "2026-04-07T08:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,21 +7,22 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 81.2,
-        "atl": 131.0,
-        "tsb": -62.1,
+        "ctl": 82.5,
+        "atl": 131.6,
+        "tsb": -52.4,
         "status": "overreaching"
       },
       "this_week": {
         "start": "2026-04-06",
         "end": "2026-04-12",
-        "sessions_planned": 6,
-        "sessions_completed": 1,
-        "compliance_pct": 100,
-        "total_tss": 52.81,
-        "total_hours": 1.1,
+        "sessions_planned": 8,
+        "sessions_completed": 3,
+        "compliance_pct": 38,
+        "total_tss": 124.56,
+        "total_hours": 2.6,
         "by_sport": {
-          "Bike": { "hours": 1.1, "tss": 52.81 }
+          "Bike": { "hours": 1.1, "tss": 52.81 },
+          "Other": { "hours": 1.5, "tss": 71.75 }
         }
       },
       "last_week": {
@@ -52,7 +53,9 @@
         ]
       },
       "completed_sessions": [
-        { "date": "2026-04-06", "title": "18x 1min ON/OFF - Bike Intervals", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },
+        { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },
+        { "date": "2026-04-06", "title": "Sauna", "sport": "Other", "duration_hours": 0.58, "tss": 21.92, "distance_km": null },
+        { "date": "2026-04-07", "title": "Other", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null },
         { "date": "2026-03-30", "title": "15x 1min ON/OFF @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55.4, "distance_km": null },
         { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 150.61, "distance_km": 12.6 },
         { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55.43, "distance_km": 27.0 },
@@ -67,27 +70,27 @@
       ],
       "upcoming_sessions": [
         { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 1.0, "tss_planned": 66.6 },
-        { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min", "sport": "Bike", "duration_hours": 1.58, "tss_planned": 99.91 },
+        { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp", "sport": "Bike", "duration_hours": 1.58, "tss_planned": 99.91 },
         { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 80 },
         { "date": "2026-04-11", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": 0.33, "tss_planned": 19.98 },
         { "date": "2026-04-12", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.42, "tss_planned": 99.14 },
-        { "date": "2026-04-13", "title": "Swim Recovery Z2", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 23.26 }
+        { "date": "2026-04-13", "title": "Swim | Recovery | Z2", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 23.26 }
       ],
       "next_event": {
         "name": "T100 Dubai",
         "date": "2026-11-15",
         "priority": "B",
-        "days_out": 223,
+        "days_out": 222,
         "ctl_target": null,
-        "ctl_current": 81.2
+        "ctl_current": 82.5
       },
       "focus_event": {
         "name": "Muscat IM",
         "date": "2026-12-05",
         "priority": "A",
-        "days_out": 243,
+        "days_out": 242,
         "ctl_target": null,
-        "ctl_current": 81.2
+        "ctl_current": 82.5
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -128,7 +131,8 @@
         { "date": "2026-04-03", "ctl": 78.3, "atl": 142.4, "tsb": -73.2, "tss": 88.8 },
         { "date": "2026-04-04", "ctl": 82.1, "atl": 155.7, "tsb": -64.0, "tss": 235.7 },
         { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
-        { "date": "2026-04-06", "ctl": 81.2, "atl": 131.0, "tsb": -62.1, "tss": 52.8 }
+        { "date": "2026-04-06", "ctl": 81.7, "atl": 134.1, "tsb": -62.1, "tss": 74.73 },
+        { "date": "2026-04-07", "ctl": 82.5, "atl": 131.6, "tsb": -52.4, "tss": 116.43 }
       ],
       "weekly_trend": [
         { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
@@ -136,9 +140,18 @@
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 53, "hours": 1.1, "ctl_end": 81.2 }
+        { "week_start": "2026-04-06", "tss": 125, "hours": 2.6, "ctl_end": 82.5 }
       ],
-      "coach_summary": "Your TSB has improved from -73.6 to -62.1 overnight — fatigue is starting to drop while fitness holds at 81.2. Last week was solid: 11+ hours across swim, bike, run with 89% compliance. You've completed today's bike intervals, keeping the quality work ticking over without overloading. The next 6 days are deliberately lighter (~340 TSS planned vs 830+ last week) — this is your absorption week. Stick to the plan, don't add volume, and let your body consolidate 5 weeks of aggressive building. By next weekend your TSB should be back around -30, putting you in a much better position.",
+      "coach_summary": "Day 3 of recovery week and TSB has climbed from -73.6 to -52.4 — a 21-point improvement in 48 hours. Your body is responding well to the reduced load. You completed the bike intervals yesterday plus a sauna session and an activity today. HRV is trending up (49 → 60 → 64), confirming the recovery is taking effect. Keep the hills session today honest — short reps, full recovery between sets, don't chase times. The back half of this week is deliberately easy. Stay patient and you'll enter next week's training block with much fresher legs.",
+      "recovery": [
+        { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
+        { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
+        { "date": "2026-04-03", "sleep_hours": 9.38, "deep": 1.21, "light": 5.53, "rem": 2.40, "awake": 0.24, "hrv": 70, "resting_hr": 52 },
+        { "date": "2026-04-04", "sleep_hours": 5.92, "deep": 1.11, "light": 3.63, "rem": 1.01, "awake": 0.17, "hrv": 49, "resting_hr": 53 },
+        { "date": "2026-04-05", "sleep_hours": 9.38, "deep": 1.36, "light": 5.76, "rem": 2.15, "awake": 0.11, "hrv": 53, "resting_hr": 55 },
+        { "date": "2026-04-06", "sleep_hours": 8.95, "deep": 1.86, "light": 4.30, "rem": 2.18, "awake": 0.61, "hrv": 60, "resting_hr": 55 },
+        { "date": "2026-04-07", "sleep_hours": 7.85, "deep": 1.50, "light": 3.50, "rem": 2.15, "awake": 0.70, "hrv": 64, "resting_hr": 55 }
+      ],
       "flags": ["overreaching"]
     },
     "sarah-johnson": {
@@ -399,10 +412,10 @@
     {
       "id": "stephen-bates",
       "name": "Stephen Bates",
-      "compliance_pct": 100,
+      "compliance_pct": 38,
       "next_event": "T100 Dubai",
-      "days_to_event": 223,
-      "weekly_tss_trend": [498, 612, 1182, 860, 832, 53],
+      "days_to_event": 222,
+      "weekly_tss_trend": [612, 1182, 860, 832, 125],
       "flags": ["overreaching"]
     },
     {
