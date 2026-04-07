@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T18:00:00Z",
+  "generated_at": "2026-04-07T20:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,8 +7,8 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 82.5,
-        "atl": 131.6,
+        "ctl": 82.3,
+        "atl": 129.8,
         "tsb": -52.4,
         "status": "overreaching"
       },
@@ -16,12 +16,13 @@
         "start": "2026-04-06",
         "end": "2026-04-12",
         "sessions_planned": 8,
-        "sessions_completed": 3,
-        "compliance_pct": 38,
-        "total_tss": 124.56,
-        "total_hours": 2.6,
+        "sessions_completed": 4,
+        "compliance_pct": 50,
+        "total_tss": 178.88,
+        "total_hours": 3.5,
         "by_sport": {
           "Bike": { "hours": 1.1, "tss": 52.81 },
+          "Run": { "hours": 0.9, "tss": 54.32 },
           "Other": { "hours": 1.5, "tss": 71.75 }
         }
       },
@@ -55,7 +56,8 @@
       "completed_sessions": [
         { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },
         { "date": "2026-04-06", "title": "Sauna", "sport": "Other", "duration_hours": 0.58, "tss": 21.92, "distance_km": null },
-        { "date": "2026-04-07", "title": "Other", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null },
+        { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 0.9, "tss": 54.32, "distance_km": 9.7 },
+        { "date": "2026-04-07", "title": "S&C class", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null },
         { "date": "2026-03-30", "title": "15x 1min ON/OFF @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55.4, "distance_km": null },
         { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 150.61, "distance_km": 12.6 },
         { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55.43, "distance_km": 27.0 },
@@ -69,12 +71,10 @@
         { "date": "2026-04-03", "title": "Open water - Group Swim", "sport": "Swim" }
       ],
       "upcoming_sessions": [
-        { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 1.0, "tss_planned": 66.6 },
         { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp", "sport": "Bike", "duration_hours": 1.58, "tss_planned": 99.91 },
         { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 80 },
         { "date": "2026-04-11", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": 0.33, "tss_planned": 19.98 },
-        { "date": "2026-04-12", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.42, "tss_planned": 99.14 },
-        { "date": "2026-04-13", "title": "Swim | Recovery | Z2", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 23.26 }
+        { "date": "2026-04-12", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.42, "tss_planned": 99.14 }
       ],
       "next_event": {
         "name": "T100 Dubai",
@@ -82,7 +82,7 @@
         "priority": "B",
         "days_out": 222,
         "ctl_target": null,
-        "ctl_current": 82.5
+        "ctl_current": 82.3
       },
       "focus_event": {
         "name": "Muscat IM",
@@ -90,7 +90,7 @@
         "priority": "A",
         "days_out": 242,
         "ctl_target": null,
-        "ctl_current": 82.5
+        "ctl_current": 82.3
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -165,7 +165,7 @@
         { "date": "2026-04-04", "ctl": 82.1, "atl": 155.7, "tsb": -64.0, "tss": 235.7 },
         { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
         { "date": "2026-04-06", "ctl": 81.7, "atl": 134.1, "tsb": -62.1, "tss": 74.73 },
-        { "date": "2026-04-07", "ctl": 82.5, "atl": 131.6, "tsb": -52.4, "tss": 116.43 }
+        { "date": "2026-04-07", "ctl": 82.3, "atl": 129.8, "tsb": -52.4, "tss": 104.15 }
       ],
       "weekly_trend": [
         { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
@@ -173,9 +173,9 @@
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 125, "hours": 2.6, "ctl_end": 82.5 }
+        { "week_start": "2026-04-06", "tss": 179, "hours": 3.5, "ctl_end": 82.3 }
       ],
-      "coach_summary": "TSB has climbed 21 points in 48 hours to -52.4, confirming your body is absorbing the recovery week well. HRV trending up (49 → 60 → 64) with solid sleep (7.85h last night). You got the S&C class done today — if the hills session is still on the cards, keep it honest: short reps, full jog-back recovery, no chasing pace. Torque intervals on Wednesday and a swim Thursday round out the key sessions before an easy weekend close.",
+      "coach_summary": "Day 2 of recovery week and you're executing well — hills session done plus S&C. TSB has climbed from -73.6 to -52.4 over 3 days, right on the edge of the overreaching threshold. ATL dropping steadily (129.8, down from 144 on Saturday) while CTL holds at 82.3. HRV this morning was 64 with 7.85h sleep — both solid. Tomorrow's torque intervals are the last hard session of the week, then it's easy running, swimming and recovery through to Sunday. Stay disciplined with the easy days.",
       "recovery": [
         { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
         { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
@@ -445,10 +445,10 @@
     {
       "id": "stephen-bates",
       "name": "Stephen Bates",
-      "compliance_pct": 38,
+      "compliance_pct": 50,
       "next_event": "T100 Dubai",
       "days_to_event": 222,
-      "weekly_tss_trend": [612, 1182, 860, 832, 125],
+      "weekly_tss_trend": [612, 1182, 860, 832, 179],
       "flags": ["overreaching"]
     },
     {
