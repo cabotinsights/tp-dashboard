@@ -875,6 +875,15 @@ body {
 }
 
 /* Sleep Breakdown Bars */
+.sleep-breakdown-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.4);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
 .sleep-breakdown {
   display: flex;
   flex-direction: column;

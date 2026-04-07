@@ -137,6 +137,7 @@
             </div>
             <!-- Sleep breakdown for last night -->
             <div class="sleep-breakdown" x-show="me.recovery.length > 0">
+              <h3 class="sleep-breakdown-title">Last Night's Sleep Breakdown</h3>
               <div class="sleep-stage">
                 <div class="sleep-stage-bar deep" :style="'width:' + (me.recovery[me.recovery.length-1].deep / me.recovery[me.recovery.length-1].sleep_hours * 100) + '%'"></div>
                 <span class="sleep-stage-label">Deep <strong x-text="me.recovery[me.recovery.length-1].deep.toFixed(1) + 'h'"></strong></span>
