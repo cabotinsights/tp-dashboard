@@ -75,6 +75,20 @@ function app() {
       return sessions;
     },
 
+    raceYears() {
+      if (!this.me || !this.me.race_history) return [];
+      var years = {};
+      this.me.race_history.forEach(function(r) { years[r.date.substring(0, 4)] = true; });
+      return Object.keys(years).sort().reverse();
+    },
+
+    racesForYear(year) {
+      if (!this.me || !this.me.race_history) return [];
+      return this.me.race_history
+        .filter(function(r) { return r.date.startsWith(year); })
+        .sort(function(a, b) { return b.date.localeCompare(a.date); });
+    },
+
     weeklyRampRate() {
       if (!this.me || !this.me.weekly_trend || this.me.weekly_trend.length < 2) return 0;
       var trend = this.me.weekly_trend;
