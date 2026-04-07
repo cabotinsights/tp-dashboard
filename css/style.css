@@ -810,6 +810,122 @@ body {
   color: rgba(241, 245, 249, 0.4);
 }
 
+/* === Recovery Panel === */
+.recovery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.recovery-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+
+.recovery-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.recovery-icon {
+  font-size: 16px;
+}
+
+.recovery-card-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.5);
+  font-weight: 600;
+}
+
+.recovery-big-number {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.recovery-label {
+  font-size: 11px;
+  color: rgba(241, 245, 249, 0.35);
+  margin-bottom: 8px;
+}
+
+.recovery-avg {
+  font-size: 12px;
+  color: rgba(241, 245, 249, 0.45);
+}
+
+.recovery-avg strong {
+  color: rgba(241, 245, 249, 0.7);
+}
+
+.recovery-chart-container {
+  position: relative;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* Sleep Breakdown Bars */
+.sleep-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sleep-stage {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sleep-stage-bar {
+  height: 10px;
+  border-radius: 5px;
+  min-width: 8px;
+  transition: width 0.3s;
+}
+
+.sleep-stage-bar.deep {
+  background: #6C5CE7;
+}
+
+.sleep-stage-bar.light {
+  background: rgba(108, 92, 231, 0.4);
+}
+
+.sleep-stage-bar.rem {
+  background: #3177FF;
+}
+
+.sleep-stage-bar.awake {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.sleep-stage-label {
+  font-size: 12px;
+  color: rgba(241, 245, 249, 0.5);
+  min-width: 100px;
+}
+
+.sleep-stage-label strong {
+  color: rgba(241, 245, 249, 0.8);
+}
+
+@media (max-width: 768px) {
+  .recovery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* === AI Coach Summary === */
 .ai-summary {
   border-left: 3px solid #6C5CE7;

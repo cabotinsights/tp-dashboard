@@ -184,6 +184,9 @@ function app() {
       renderFitnessTrend('fitnessChart', this.filteredFitness(athlete));
       renderWeeklyVolume('volumeChart', athlete.weekly_trend || []);
       this.renderSportChart();
+      if (athlete.recovery && athlete.recovery.length > 0) {
+        renderRecoveryChart('recoveryChart', athlete.recovery);
+      }
     },
 
     watchCharts() {

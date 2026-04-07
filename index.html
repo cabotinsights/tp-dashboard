@@ -90,6 +90,72 @@
             </div>
           </div>
 
+          <!-- Recovery Panel (Sleep + HRV) -->
+          <div class="section" x-show="me.recovery && me.recovery.length > 0">
+            <h2 class="section-title">Recovery</h2>
+            <div class="recovery-grid">
+              <!-- Sleep card -->
+              <div class="recovery-card">
+                <div class="recovery-card-header">
+                  <span class="recovery-icon">&#128564;</span>
+                  <span class="recovery-card-title">Sleep</span>
+                </div>
+                <div class="recovery-big-number" x-text="me.recovery.length > 0 ? me.recovery[me.recovery.length - 1].sleep_hours.toFixed(1) + 'h' : '—'"></div>
+                <div class="recovery-label">Last Night</div>
+                <div class="recovery-avg">
+                  Avg 7d: <strong x-text="me.recovery.length > 0 ? (me.recovery.reduce(function(a,b){ return a + b.sleep_hours; }, 0) / me.recovery.length).toFixed(1) + 'h' : '—'"></strong>
+                </div>
+              </div>
+              <!-- HRV card -->
+              <div class="recovery-card">
+                <div class="recovery-card-header">
+                  <span class="recovery-icon">&#128147;</span>
+                  <span class="recovery-card-title">HRV</span>
+                </div>
+                <div class="recovery-big-number" x-text="me.recovery.length > 0 ? me.recovery[me.recovery.length - 1].hrv : '—'"></div>
+                <div class="recovery-label">This Morning</div>
+                <div class="recovery-avg">
+                  Avg 7d: <strong x-text="me.recovery.length > 0 ? Math.round(me.recovery.reduce(function(a,b){ return a + b.hrv; }, 0) / me.recovery.length) : '—'"></strong>
+                </div>
+              </div>
+              <!-- Resting HR card -->
+              <div class="recovery-card">
+                <div class="recovery-card-header">
+                  <span class="recovery-icon">&#10084;&#65039;</span>
+                  <span class="recovery-card-title">Resting HR</span>
+                </div>
+                <div class="recovery-big-number" x-text="me.recovery.length > 0 ? me.recovery[me.recovery.length - 1].resting_hr + ' bpm' : '—'"></div>
+                <div class="recovery-label">This Morning</div>
+                <div class="recovery-avg">
+                  Avg 7d: <strong x-text="me.recovery.length > 0 ? Math.round(me.recovery.reduce(function(a,b){ return a + b.resting_hr; }, 0) / me.recovery.length) + ' bpm' : '—'"></strong>
+                </div>
+              </div>
+            </div>
+            <!-- Sleep + HRV trend chart -->
+            <div class="recovery-chart-container">
+              <canvas id="recoveryChart"></canvas>
+            </div>
+            <!-- Sleep breakdown for last night -->
+            <div class="sleep-breakdown" x-show="me.recovery.length > 0">
+              <div class="sleep-stage">
+                <div class="sleep-stage-bar deep" :style="'width:' + (me.recovery[me.recovery.length-1].deep / me.recovery[me.recovery.length-1].sleep_hours * 100) + '%'"></div>
+                <span class="sleep-stage-label">Deep <strong x-text="me.recovery[me.recovery.length-1].deep.toFixed(1) + 'h'"></strong></span>
+              </div>
+              <div class="sleep-stage">
+                <div class="sleep-stage-bar light" :style="'width:' + (me.recovery[me.recovery.length-1].light / me.recovery[me.recovery.length-1].sleep_hours * 100) + '%'"></div>
+                <span class="sleep-stage-label">Light <strong x-text="me.recovery[me.recovery.length-1].light.toFixed(1) + 'h'"></strong></span>
+              </div>
+              <div class="sleep-stage">
+                <div class="sleep-stage-bar rem" :style="'width:' + (me.recovery[me.recovery.length-1].rem / me.recovery[me.recovery.length-1].sleep_hours * 100) + '%'"></div>
+                <span class="sleep-stage-label">REM <strong x-text="me.recovery[me.recovery.length-1].rem.toFixed(1) + 'h'"></strong></span>
+              </div>
+              <div class="sleep-stage">
+                <div class="sleep-stage-bar awake" :style="'width:' + Math.max(3, (me.recovery[me.recovery.length-1].awake / me.recovery[me.recovery.length-1].sleep_hours * 100)) + '%'"></div>
+                <span class="sleep-stage-label">Awake <strong x-text="me.recovery[me.recovery.length-1].awake.toFixed(1) + 'h'"></strong></span>
+              </div>
+            </div>
+          </div>
+
           <!-- AI Coach Summary -->
           <div class="section ai-summary" x-show="me.coach_summary">
             <div class="ai-summary-header">

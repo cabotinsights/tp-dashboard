@@ -290,3 +290,97 @@ function renderSportDonut(canvasId, bySport) {
     }
   });
 }
+
+function renderRecoveryChart(canvasId, recoveryData) {
+  var ctx = _getOrCreate(canvasId);
+  if (!ctx) return;
+  var labels = recoveryData.map(function(d) { return d.date; });
+  var sleep = recoveryData.map(function(d) { return d.sleep_hours; });
+  var hrv = recoveryData.map(function(d) { return d.hrv; });
+
+  _charts[canvasId] = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: 'Sleep (hours)',
+          data: sleep,
+          backgroundColor: 'rgba(108, 92, 231, 0.6)',
+          borderRadius: 4,
+          barPercentage: 0.5,
+          yAxisID: 'y'
+        },
+        {
+          label: 'HRV',
+          data: hrv,
+          type: 'line',
+          borderColor: '#22C55E',
+          backgroundColor: 'transparent',
+          pointRadius: 5,
+          pointBackgroundColor: '#22C55E',
+          borderWidth: 2.5,
+          tension: 0.3,
+          yAxisID: 'y1'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            usePointStyle: true,
+            font: { family: 'Inter', size: 11 },
+            color: 'rgba(241,245,249,0.6)',
+            padding: 12
+          }
+        },
+        tooltip: Object.assign({}, _darkTooltip, {
+          callbacks: {
+            title: function(items) { return formatDate(items[0].label); },
+            label: function(item) {
+              if (item.datasetIndex === 0) return 'Sleep: ' + item.raw.toFixed(1) + 'h';
+              return 'HRV: ' + item.raw;
+            }
+          }
+        })
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: Object.assign({}, _darkTicks, {
+            callback: function(val) {
+              var label = this.getLabelForValue(val);
+              return label ? formatDay(label) : '';
+            }
+          }),
+          border: { display: false }
+        },
+        y: {
+          position: 'left',
+          min: 0,
+          max: 12,
+          grid: _darkGrid,
+          ticks: Object.assign({}, _darkTicks, {
+            callback: function(val) { return val + 'h'; }
+          }),
+          border: { display: false },
+          title: { display: true, text: 'Sleep', color: 'rgba(241,245,249,0.4)', font: { family: 'Inter', size: 11 } }
+        },
+        y1: {
+          position: 'right',
+          min: 0,
+          max: 100,
+          grid: { display: false },
+          ticks: _darkTicks,
+          border: { display: false },
+          title: { display: true, text: 'HRV', color: 'rgba(241,245,249,0.4)', font: { family: 'Inter', size: 11 } }
+        }
+      }
+    }
+  });
+}
