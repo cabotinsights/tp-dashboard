@@ -417,6 +417,50 @@
             </div>
           </div>
 
+          <!-- Race History -->
+          <div class="section" x-show="me.race_history && me.race_history.length > 0">
+            <h2 class="section-title">Race History</h2>
+            <div class="race-history-grid">
+              <template x-for="race in [...(me.race_history || [])].reverse()" :key="race.date + race.name">
+                <div class="race-card" :class="{ 'race-card--pb': race.pb }">
+                  <div class="race-card-header">
+                    <div>
+                      <div class="race-card-name" x-text="race.name"></div>
+                      <div class="race-card-meta">
+                        <span x-text="formatDate(race.date)"></span>
+                        <span class="race-type-badge" x-text="race.type"></span>
+                      </div>
+                    </div>
+                    <div class="race-card-total">
+                      <div class="race-total-time" x-text="race.total"></div>
+                      <div class="race-total-label" x-text="race.pb ? 'PB' : 'Total'"></div>
+                    </div>
+                  </div>
+                  <div class="race-splits">
+                    <div class="race-split">
+                      <span class="race-split-icon">&#127946;</span>
+                      <span class="race-split-label">Swim</span>
+                      <span class="race-split-dist" x-text="race.swim_dist"></span>
+                      <span class="race-split-time" x-text="race.swim"></span>
+                    </div>
+                    <div class="race-split">
+                      <span class="race-split-icon">&#128692;</span>
+                      <span class="race-split-label">Bike</span>
+                      <span class="race-split-dist" x-text="race.bike_dist"></span>
+                      <span class="race-split-time" x-text="race.bike"></span>
+                    </div>
+                    <div class="race-split">
+                      <span class="race-split-icon">&#127939;</span>
+                      <span class="race-split-label">Run</span>
+                      <span class="race-split-dist" x-text="race.run_dist"></span>
+                      <span class="race-split-time" x-text="race.run"></span>
+                    </div>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+
         </div>
       </template>
       <template x-if="!me && !loading">

@@ -108,6 +108,17 @@
           { "metric": "Longest Ride", "value": "185 km", "date": "2022-07-09" }
         ]
       },
+      "race_history": [
+        { "name": "Lusk Triathlon", "date": "2021-09-05", "type": "Sprint", "swim": "17:48", "swim_dist": "905m", "bike": "40:44", "bike_dist": "20.6km", "run": "23:53", "run_dist": "5km", "total": "1:28:08", "pb": false },
+        { "name": "Galway Triathlon", "date": "2022-05-29", "type": "Olympic", "swim": "39:54", "swim_dist": "2km", "bike": "1:18:22", "bike_dist": "39.5km", "run": "1:49:56", "run_dist": "10km", "total": "3:55:04", "pb": false },
+        { "name": "Waterville Triathlon", "date": "2022-07-09", "type": "Half IM", "swim": "36:33", "swim_dist": "2.1km", "bike": "3:52:59", "bike_dist": "93.6km", "run": "2:20:10", "run_dist": "22km", "total": "6:57:19", "pb": false },
+        { "name": "Youghal Triathlon", "date": "2022-08-13", "type": "Half IM", "swim": "37:10", "swim_dist": "2.3km", "bike": "3:02:19", "bike_dist": "89.2km", "run": "1:45:22", "run_dist": "21.2km", "total": "5:37:06", "pb": false },
+        { "name": "Galway Triathlon", "date": "2023-05-28", "type": "Olympic", "swim": "35:12", "swim_dist": "1.7km", "bike": "1:19:15", "bike_dist": "39.5km", "run": "49:15", "run_dist": "10km", "total": "2:55:44", "pb": true },
+        { "name": "County Kerry Triathlon", "date": "2023-07-08", "type": "Half IM", "swim": "21:33", "swim_dist": "4.6km", "bike": "3:25:08", "bike_dist": "93.5km", "run": "1:58:03", "run_dist": "21.6km", "total": "5:47:17", "pb": false },
+        { "name": "Youghal Triathlon", "date": "2023-08-20", "type": "Half IM", "swim": "29:16", "swim_dist": "1.5km", "bike": "2:57:18", "bike_dist": "90.1km", "run": "1:38:43", "run_dist": "20.9km", "total": "5:15:51", "pb": false },
+        { "name": "Serik Triathlon", "date": "2023-10-29", "type": "Half IM", "swim": "36:41", "swim_dist": "2.1km", "bike": "2:36:50", "bike_dist": "89.6km", "run": "1:42:38", "run_dist": "20.9km", "total": "5:04:29", "pb": true },
+        { "name": "Muscat Triathlon", "date": "2026-02-14", "type": "Half IM", "swim": "36:53", "swim_dist": "1.9km", "bike": "3:02:16", "bike_dist": "89.1km", "run": "1:35:58", "run_dist": "20.8km", "total": "5:25:00", "pb": false }
+      ],
       "alltime_stats": [
         { "label": "Total Runs", "value": "680" },
         { "label": "Run Distance", "value": "5,992 km" },
