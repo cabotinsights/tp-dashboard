@@ -1134,6 +1134,19 @@ body {
   color: #EF4444;
 }
 
+.race-note {
+  font-size: 11px;
+  color: rgba(241, 245, 249, 0.35);
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.race-type--duathlon {
+  background: rgba(108, 92, 231, 0.15);
+  color: #6C5CE7;
+}
+
 .race-card-total {
   text-align: right;
 }

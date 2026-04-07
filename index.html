@@ -441,8 +441,8 @@
                       </div>
                       <div class="race-splits">
                         <div class="race-split">
-                          <span class="race-split-icon">&#127946;</span>
-                          <span class="race-split-label">Swim</span>
+                          <span class="race-split-icon" x-text="race.type === 'Duathlon' ? '&#127939;' : '&#127946;'"></span>
+                          <span class="race-split-label" x-text="race.type === 'Duathlon' ? 'Run 1' : 'Swim'"></span>
                           <span class="race-split-dist" x-text="race.swim_dist"></span>
                           <span class="race-split-time" x-text="race.swim"></span>
                         </div>
@@ -454,11 +454,12 @@
                         </div>
                         <div class="race-split">
                           <span class="race-split-icon">&#127939;</span>
-                          <span class="race-split-label">Run</span>
+                          <span class="race-split-label" x-text="race.type === 'Duathlon' ? 'Run 2' : 'Run'"></span>
                           <span class="race-split-dist" x-text="race.run_dist"></span>
                           <span class="race-split-time" x-text="race.run"></span>
                         </div>
                       </div>
+                      <div class="race-note" x-show="race.note" x-text="race.note"></div>
                     </div>
                   </template>
                 </div>
