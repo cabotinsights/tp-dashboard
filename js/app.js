@@ -7,6 +7,10 @@ function app() {
     refreshing: false,
     fitnessRange: '90d',
     sportMixView: 'last',
+    coachQuestion: '',
+    coachMessages: [],
+    coachLoading: false,
+    coachMsgId: 0,
 
     get me() {
       if (!this.data) return null;
@@ -181,6 +185,47 @@ function app() {
       this.refreshing = true;
       await this.loadData();
       this.refreshing = false;
+    },
+
+    async askCoach(question) {
+      if (!question || !question.trim() || this.coachLoading) return;
+      var q = question.trim();
+      this.coachQuestion = '';
+      this.coachMsgId++;
+      this.coachMessages.push({ id: this.coachMsgId, role: 'user', text: q });
+      if (this.coachMessages.length > 8) this.coachMessages.splice(0, 2);
+      this.coachLoading = true;
+
+      try {
+        var athleteData = {
+          name: this.me.name,
+          current_fitness: this.me.current_fitness,
+          this_week: this.me.this_week,
+          last_week: this.me.last_week,
+          recovery: this.me.recovery ? this.me.recovery.slice(-7) : [],
+          upcoming_sessions: this.me.upcoming_sessions,
+          completed_sessions: this.me.completed_sessions ? this.me.completed_sessions.slice(-5) : [],
+          next_event: this.me.next_event,
+          focus_event: this.me.focus_event,
+          pbs: this.me.pbs,
+          race_history: this.me.race_history,
+          weekly_trend: this.me.weekly_trend ? this.me.weekly_trend.slice(-6) : []
+        };
+
+        var resp = await fetch('/.netlify/functions/ask-coach', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question: q, athleteData: athleteData })
+        });
+        var result = await resp.json();
+        this.coachMsgId++;
+        this.coachMessages.push({ id: this.coachMsgId, role: 'coach', text: result.reply });
+      } catch (err) {
+        this.coachMsgId++;
+        this.coachMessages.push({ id: this.coachMsgId, role: 'coach', text: 'Sorry, could not reach Coach AI. Try again.' });
+      }
+      this.coachLoading = false;
+      if (this.coachMessages.length > 8) this.coachMessages.splice(0, 2);
     },
 
     renderSportChart() {

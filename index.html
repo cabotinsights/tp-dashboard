@@ -164,6 +164,33 @@
               <h2 class="section-title" style="margin-bottom:0">Coach Analysis</h2>
             </div>
             <p class="ai-summary-text" x-text="me.coach_summary"></p>
+
+            <!-- Ask Coach AI -->
+            <div class="coach-chat">
+              <div class="coach-chat-header">Ask Coach AI</div>
+              <div class="coach-quick-asks">
+                <button class="quick-ask" @click="askCoach('Am I ready for a long ride this weekend?')">Ready for long ride?</button>
+                <button class="quick-ask" @click="askCoach('Should I rest tomorrow or train?')">Rest or train tomorrow?</button>
+                <button class="quick-ask" @click="askCoach('How is my recovery trending?')">Recovery trend?</button>
+                <button class="quick-ask" @click="askCoach('What pace should I target for my next half marathon?')">HM pace target?</button>
+              </div>
+              <div class="coach-input-row">
+                <input type="text" class="coach-input" placeholder="Ask anything about your training..."
+                  x-model="coachQuestion"
+                  @keydown.enter="askCoach(coachQuestion)">
+                <button class="coach-send" @click="askCoach(coachQuestion)" :disabled="coachLoading">
+                  <span x-show="!coachLoading">&#10148;</span>
+                  <span x-show="coachLoading">...</span>
+                </button>
+              </div>
+              <div class="coach-messages" x-show="coachMessages.length > 0">
+                <template x-for="msg in coachMessages" :key="msg.id">
+                  <div class="coach-msg" :class="'coach-msg--' + msg.role">
+                    <div class="coach-msg-text" x-text="msg.text"></div>
+                  </div>
+                </template>
+              </div>
+            </div>
           </div>
 
           <!-- Fitness Trend Chart -->

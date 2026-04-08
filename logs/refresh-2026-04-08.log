@@ -1,0 +1,11 @@
+=== DBT Dashboard Refresh ===
+Started: Wed Apr  8 07:06:59 +04 2026
+Dashboard refreshed. Key changes:
+
+- **Fitness**: CTL 82.3→82.7, ATL 129.8→125.6, TSB -52.4→**-47.6** (recovery trending well)
+- **Coach summary** updated — torque intervals today are the last hard session, then easy days through Sunday
+- **Fitness history** extended with Apr 8 data point
+- **Days-out** decremented for all athletes' events
+- Dummy athletes unchanged
+Finished: Wed Apr  8 08:40:37 +04 2026
+===

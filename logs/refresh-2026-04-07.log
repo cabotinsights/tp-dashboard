@@ -1,0 +1,5 @@
+=== DBT Dashboard Refresh ===
+Started: Tue  7 Apr 2026 11:16:54 +04
+Data refreshed and pushed. Changes: updated timestamp, refreshed coach summary (focused on S&C completion + upcoming torque/swim sessions), and decremented all dummy athlete event countdowns by 1 day. All fitness numbers (CTL 82.5, ATL 131.6, TSB -52.4) confirmed unchanged from TP — recovery week tracking well.
+Finished: Tue  7 Apr 2026 11:19:11 +04
+===

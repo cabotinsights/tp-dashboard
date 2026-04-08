@@ -1209,6 +1209,124 @@ body {
   }
 }
 
+/* === Coach Chat === */
+.coach-chat {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.coach-chat-header {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241, 245, 249, 0.5);
+  margin-bottom: 12px;
+}
+
+.coach-quick-asks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.quick-ask {
+  background: rgba(49, 119, 255, 0.1);
+  border: 1px solid rgba(49, 119, 255, 0.2);
+  color: var(--accent);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.quick-ask:hover {
+  background: rgba(49, 119, 255, 0.2);
+  border-color: rgba(49, 119, 255, 0.4);
+}
+
+.coach-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.coach-input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.coach-input:focus {
+  border-color: var(--accent);
+}
+
+.coach-input::placeholder {
+  color: rgba(241, 245, 249, 0.3);
+}
+
+.coach-send {
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.coach-send:hover {
+  background: var(--accent-hover);
+}
+
+.coach-send:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.coach-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.coach-msg {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 90%;
+}
+
+.coach-msg--user {
+  background: rgba(49, 119, 255, 0.15);
+  color: var(--text-primary);
+  align-self: flex-end;
+  border-bottom-right-radius: 2px;
+}
+
+.coach-msg--coach {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(241, 245, 249, 0.8);
+  align-self: flex-start;
+  border-bottom-left-radius: 2px;
+}
+
 /* === AI Coach Summary === */
 .ai-summary {
   border-left: 3px solid #6C5CE7;
