@@ -10,7 +10,7 @@
         "ctl": 82.7,
         "atl": 125.6,
         "tsb": -47.6,
-        "status": "overreaching"
+        "status": "tired"
       },
       "this_week": {
         "start": "2026-04-06",
@@ -176,7 +176,7 @@
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
         { "week_start": "2026-04-06", "tss": 179, "hours": 3.5, "ctl_end": 82.7 }
       ],
-      "coach_summary": "Day 3 of the recovery week — TSB climbing nicely from -73.6 to -47.6 as ATL drops to 125.6 while CTL holds at 82.7. Today's torque intervals (3x10min FTP) are the last hard session before easy days through Sunday. Sleep and HRV have been solid all week (7-9h, HRV 60-64) so the body is absorbing the load well. Swim and easy running to close out the week — stay disciplined with the recovery.",
+      "coach_summary": "TSB has crossed above -50 for the first time since mid-March — you're officially out of the overreaching zone. ATL continues to drop (125.6, down from 144 on Saturday) while fitness holds steady at 82.7. Last night was an excellent 8.9h sleep with strong REM (2.85h), and HRV at 61 confirms the recovery trend. Today's torque intervals are the last quality session of the week — after this it's easy running, swimming and recovery into Sunday. The absorption is working.",
       "recovery": [
         { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
         { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
@@ -184,9 +184,10 @@
         { "date": "2026-04-04", "sleep_hours": 5.92, "deep": 1.11, "light": 3.63, "rem": 1.01, "awake": 0.17, "hrv": 49, "resting_hr": 53 },
         { "date": "2026-04-05", "sleep_hours": 9.38, "deep": 1.36, "light": 5.76, "rem": 2.15, "awake": 0.11, "hrv": 53, "resting_hr": 55 },
         { "date": "2026-04-06", "sleep_hours": 8.95, "deep": 1.86, "light": 4.30, "rem": 2.18, "awake": 0.61, "hrv": 60, "resting_hr": 55 },
-        { "date": "2026-04-07", "sleep_hours": 7.85, "deep": 1.50, "light": 3.50, "rem": 2.15, "awake": 0.70, "hrv": 64, "resting_hr": 55 }
+        { "date": "2026-04-07", "sleep_hours": 7.85, "deep": 1.50, "light": 3.50, "rem": 2.15, "awake": 0.70, "hrv": 64, "resting_hr": 55 },
+        { "date": "2026-04-08", "sleep_hours": 8.88, "deep": 1.58, "light": 4.23, "rem": 2.85, "awake": 0.22, "hrv": 61, "resting_hr": 54 }
       ],
-      "flags": ["overreaching"]
+      "flags": []
     },
     "sarah-johnson": {
       "name": "Sarah Johnson",
