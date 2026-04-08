@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T20:00:00Z",
+  "generated_at": "2026-04-08T20:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,9 +7,9 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 82.3,
-        "atl": 129.8,
-        "tsb": -52.4,
+        "ctl": 82.7,
+        "atl": 125.6,
+        "tsb": -47.6,
         "status": "overreaching"
       },
       "this_week": {
@@ -80,17 +80,17 @@
         "name": "T100 Dubai",
         "date": "2026-11-15",
         "priority": "B",
-        "days_out": 222,
+        "days_out": 221,
         "ctl_target": null,
-        "ctl_current": 82.3
+        "ctl_current": 82.7
       },
       "focus_event": {
         "name": "Muscat IM",
         "date": "2026-12-05",
         "priority": "A",
-        "days_out": 242,
+        "days_out": 241,
         "ctl_target": null,
-        "ctl_current": 82.3
+        "ctl_current": 82.7
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -165,7 +165,8 @@
         { "date": "2026-04-04", "ctl": 82.1, "atl": 155.7, "tsb": -64.0, "tss": 235.7 },
         { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
         { "date": "2026-04-06", "ctl": 81.7, "atl": 134.1, "tsb": -62.1, "tss": 74.73 },
-        { "date": "2026-04-07", "ctl": 82.3, "atl": 129.8, "tsb": -52.4, "tss": 104.15 }
+        { "date": "2026-04-07", "ctl": 82.3, "atl": 129.8, "tsb": -52.4, "tss": 104.15 },
+        { "date": "2026-04-08", "ctl": 82.7, "atl": 125.6, "tsb": -47.6, "tss": 99.91 }
       ],
       "weekly_trend": [
         { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
@@ -173,9 +174,9 @@
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 179, "hours": 3.5, "ctl_end": 82.3 }
+        { "week_start": "2026-04-06", "tss": 179, "hours": 3.5, "ctl_end": 82.7 }
       ],
-      "coach_summary": "Day 2 of recovery week and you're executing well — hills session done plus S&C. TSB has climbed from -73.6 to -52.4 over 3 days, right on the edge of the overreaching threshold. ATL dropping steadily (129.8, down from 144 on Saturday) while CTL holds at 82.3. HRV this morning was 64 with 7.85h sleep — both solid. Tomorrow's torque intervals are the last hard session of the week, then it's easy running, swimming and recovery through to Sunday. Stay disciplined with the easy days.",
+      "coach_summary": "Day 3 of the recovery week — TSB climbing nicely from -73.6 to -47.6 as ATL drops to 125.6 while CTL holds at 82.7. Today's torque intervals (3x10min FTP) are the last hard session before easy days through Sunday. Sleep and HRV have been solid all week (7-9h, HRV 60-64) so the body is absorbing the load well. Swim and easy running to close out the week — stay disciplined with the recovery.",
       "recovery": [
         { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
         { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
@@ -242,7 +243,7 @@
         { "week_start": "2026-03-24", "tss": 520, "hours": 7.2, "ctl_end": 69 },
         { "week_start": "2026-03-31", "tss": 620, "hours": 8.5, "ctl_end": 72 }
       ],
-      "next_event": { "name": "IM Cork", "date": "2026-05-17", "priority": "A", "days_out": 40, "ctl_target": 75, "ctl_current": 72 },
+      "next_event": { "name": "IM Cork", "date": "2026-05-17", "priority": "A", "days_out": 39, "ctl_target": 75, "ctl_current": 72 },
       "peaks": { "bike_20min_power": { "value": 195, "date": "2026-03-22" }, "run_5k_pace": { "value": "4:45/km", "date": "2026-03-18" } },
       "flags": []
     },
@@ -291,7 +292,7 @@
         { "week_start": "2026-03-24", "tss": 360, "hours": 5.5, "ctl_end": 57 },
         { "week_start": "2026-03-31", "tss": 410, "hours": 6.5, "ctl_end": 58 }
       ],
-      "next_event": { "name": "Dublin Marathon", "date": "2026-05-03", "priority": "A", "days_out": 26, "ctl_target": 62, "ctl_current": 58 },
+      "next_event": { "name": "Dublin Marathon", "date": "2026-05-03", "priority": "A", "days_out": 25, "ctl_target": 62, "ctl_current": 58 },
       "peaks": { "run_5k_pace": { "value": "3:55/km", "date": "2026-03-31" } },
       "flags": []
     },
@@ -392,7 +393,7 @@
         { "week_start": "2026-03-24", "tss": 430, "hours": 6.5, "ctl_end": 53 },
         { "week_start": "2026-03-31", "tss": 510, "hours": 7.5, "ctl_end": 55 }
       ],
-      "next_event": { "name": "HIM Dun Laoghaire", "date": "2026-05-31", "priority": "A", "days_out": 54, "ctl_target": 60, "ctl_current": 55 },
+      "next_event": { "name": "HIM Dun Laoghaire", "date": "2026-05-31", "priority": "A", "days_out": 53, "ctl_target": 60, "ctl_current": 55 },
       "peaks": { "bike_20min_power": { "value": 240, "date": "2026-03-17" }, "run_5k_pace": { "value": "4:30/km", "date": "2026-04-01" } },
       "flags": []
     },
@@ -436,7 +437,7 @@
         { "week_start": "2026-03-24", "tss": 120, "hours": 2.0, "ctl_end": 41 },
         { "week_start": "2026-03-31", "tss": 95, "hours": 1.5, "ctl_end": 38 }
       ],
-      "next_event": { "name": "Gaelforce West", "date": "2026-04-19", "priority": "A", "days_out": 12, "ctl_target": 65, "ctl_current": 38 },
+      "next_event": { "name": "Gaelforce West", "date": "2026-04-19", "priority": "A", "days_out": 11, "ctl_target": 65, "ctl_current": 38 },
       "peaks": { "run_5k_pace": { "value": "5:10/km", "date": "2026-03-01" } },
       "flags": ["missed_2+", "race_risk"]
     }
@@ -447,7 +448,7 @@
       "name": "Stephen Bates",
       "compliance_pct": 50,
       "next_event": "T100 Dubai",
-      "days_to_event": 222,
+      "days_to_event": 221,
       "weekly_tss_trend": [612, 1182, 860, 832, 179],
       "flags": ["overreaching"]
     },
@@ -456,7 +457,7 @@
       "name": "Sarah Johnson",
       "compliance_pct": 100,
       "next_event": "IM Cork",
-      "days_to_event": 40,
+      "days_to_event": 39,
       "weekly_tss_trend": [480, 550, 610, 580, 520, 620],
       "flags": []
     },
@@ -465,7 +466,7 @@
       "name": "Mike O'Brien",
       "compliance_pct": 83,
       "next_event": "Dublin Marathon",
-      "days_to_event": 26,
+      "days_to_event": 25,
       "weekly_tss_trend": [350, 400, 430, 390, 360, 410],
       "flags": []
     },
@@ -483,7 +484,7 @@
       "name": "Tom Murphy",
       "compliance_pct": 86,
       "next_event": "HIM Dun Laoghaire",
-      "days_to_event": 54,
+      "days_to_event": 53,
       "weekly_tss_trend": [380, 440, 480, 460, 430, 510],
       "flags": []
     },
@@ -492,7 +493,7 @@
       "name": "Aine Byrne",
       "compliance_pct": 33,
       "next_event": "Gaelforce West",
-      "days_to_event": 12,
+      "days_to_event": 11,
       "weekly_tss_trend": [380, 300, 220, 170, 120, 95],
       "flags": ["missed_2+", "race_risk"]
     }
