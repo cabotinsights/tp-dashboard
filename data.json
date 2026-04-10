@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T21:00:00Z",
+  "generated_at": "2026-04-10T06:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,10 +7,10 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 81.8,
-        "atl": 120.6,
-        "tsb": -47.6,
-        "status": "tired"
+        "ctl": 78.0,
+        "atl": 88.6,
+        "tsb": -23.4,
+        "status": "neutral"
       },
       "this_week": {
         "start": "2026-04-06",
@@ -80,17 +80,17 @@
         "name": "T100 Dubai",
         "date": "2026-11-15",
         "priority": "B",
-        "days_out": 221,
+        "days_out": 219,
         "ctl_target": null,
-        "ctl_current": 81.8
+        "ctl_current": 78.0
       },
       "focus_event": {
         "name": "Muscat IM",
         "date": "2026-12-05",
         "priority": "A",
-        "days_out": 241,
+        "days_out": 239,
         "ctl_target": null,
-        "ctl_current": 81.8
+        "ctl_current": 78.0
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -166,7 +166,9 @@
         { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
         { "date": "2026-04-06", "ctl": 81.7, "atl": 134.1, "tsb": -62.1, "tss": 74.73 },
         { "date": "2026-04-07", "ctl": 82.3, "atl": 129.8, "tsb": -52.4, "tss": 104.15 },
-        { "date": "2026-04-08", "ctl": 81.8, "atl": 120.6, "tsb": -47.6, "tss": 64.85 }
+        { "date": "2026-04-08", "ctl": 81.8, "atl": 120.6, "tsb": -47.6, "tss": 64.85 },
+        { "date": "2026-04-09", "ctl": 79.9, "atl": 103.3, "tsb": -38.7, "tss": 0 },
+        { "date": "2026-04-10", "ctl": 78.0, "atl": 88.6, "tsb": -23.4, "tss": 0 }
       ],
       "weekly_trend": [
         { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
@@ -174,9 +176,9 @@
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 244, "hours": 4.83, "ctl_end": 81.8 }
+        { "week_start": "2026-04-06", "tss": 244, "hours": 4.83, "ctl_end": 78.0 }
       ],
-      "coach_summary": "Torque intervals done — that was the last quality session of the recovery week. CTL steady at 81.8, ATL continues dropping nicely to 120.6, TSB at -47.6. You've been above the overreaching threshold for 2 days now. The rest of the week is easy: swim Friday, short pre-gym run Saturday, and an easy 1h25 on Sunday. Sleep has been excellent (8.9h last night with 2.85h REM). Let the body absorb — by Sunday your TSB should be around -35 to -40, setting you up well for next week's training block.",
+      "coach_summary": "The recovery week is paying off significantly. Two full rest days brought your TSB from -47.6 up to -23.4 — you're now in the normal training zone for the first time since early March. ATL has dropped from 144 (last Saturday) to 88.6, meaning your body has shed most of the accumulated fatigue. Last night's 10h sleep with 3h REM and an HRV of 71 (your highest reading this block) confirms the adaptation is happening. Today's swim is the right session — low-impact, aerobic work. Easy pre-gym run tomorrow and a long easy run Sunday will close out the week nicely. You'll enter next week's training block genuinely refreshed with CTL still at 78 — ready to build again.",
       "recovery": [
         { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
         { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
@@ -185,7 +187,9 @@
         { "date": "2026-04-05", "sleep_hours": 9.38, "deep": 1.36, "light": 5.76, "rem": 2.15, "awake": 0.11, "hrv": 53, "resting_hr": 55 },
         { "date": "2026-04-06", "sleep_hours": 8.95, "deep": 1.86, "light": 4.30, "rem": 2.18, "awake": 0.61, "hrv": 60, "resting_hr": 55 },
         { "date": "2026-04-07", "sleep_hours": 7.85, "deep": 1.50, "light": 3.50, "rem": 2.15, "awake": 0.70, "hrv": 64, "resting_hr": 55 },
-        { "date": "2026-04-08", "sleep_hours": 8.88, "deep": 1.58, "light": 4.23, "rem": 2.85, "awake": 0.22, "hrv": 61, "resting_hr": 54 }
+        { "date": "2026-04-08", "sleep_hours": 8.88, "deep": 1.58, "light": 4.23, "rem": 2.85, "awake": 0.22, "hrv": 61, "resting_hr": 54 },
+        { "date": "2026-04-09", "sleep_hours": 6.2, "deep": 1.46, "light": 2.96, "rem": 0.98, "awake": 0.8, "hrv": 55, "resting_hr": 59 },
+        { "date": "2026-04-10", "sleep_hours": 9.98, "deep": 0.98, "light": 5.71, "rem": 3.03, "awake": 0.26, "hrv": 71, "resting_hr": 53 }
       ],
       "flags": []
     },
