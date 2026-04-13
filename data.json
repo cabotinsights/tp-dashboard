@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T08:00:00Z",
+  "generated_at": "2026-04-13T18:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,17 +7,33 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 80.1,
-        "atl": 94.9,
-        "tsb": -25.8,
-        "status": "tired"
+        "ctl": 79.4,
+        "atl": 88.8,
+        "tsb": -12.4,
+        "status": "neutral"
       },
       "this_week": {
+        "start": "2026-04-13",
+        "end": "2026-04-19",
+        "sessions_planned": 6,
+        "sessions_completed": 2,
+        "sessions_planned_today": 0,
+        "compliance_pct": 100,
+        "total_tss": 68.97,
+        "total_hours": 1.28,
+        "by_sport": {
+          "Bike": { "hours": 0, "tss": 0 },
+          "Run": { "hours": 0.4, "tss": 33.52 },
+          "Swim": { "hours": 0.88, "tss": 35.45 },
+          "Other": { "hours": 0, "tss": 0 }
+        }
+      },
+      "last_week": {
         "start": "2026-04-06",
         "end": "2026-04-12",
         "sessions_planned": 8,
         "sessions_completed": 7,
-        "sessions_planned_today": 1,
+        "sessions_missed": 1,
         "compliance_pct": 88,
         "total_tss": 473.45,
         "total_hours": 6.75,
@@ -26,71 +42,45 @@
           "Run": { "hours": 2.34, "tss": 218.52 },
           "Swim": { "hours": 0.48, "tss": 65.52 },
           "Other": { "hours": 1.5, "tss": 71.75 }
-        }
-      },
-      "last_week": {
-        "start": "2026-03-30",
-        "end": "2026-04-05",
-        "sessions_planned": 9,
-        "sessions_completed": 8,
-        "sessions_missed": 1,
-        "compliance_pct": 89,
-        "total_tss": 832,
-        "total_hours": 11.16,
-        "by_sport": {
-          "Bike": { "hours": 5.86, "tss": 346 },
-          "Run": { "hours": 3.6, "tss": 314 },
-          "Swim": { "hours": 0.93, "tss": 141 },
-          "Other": { "hours": 0.89, "tss": 32 }
         },
         "sessions": [
-          { "date": "2026-03-30", "title": "15x 1min ON/OFF @ 95%", "sport": "Bike", "duration_hours": 1.0, "tss": 55.4, "distance_km": null, "_status": "done" },
-          { "date": "2026-03-31", "title": "HILLS | 3x (5x 35s) | Pace", "sport": "Run", "duration_hours": 1.13, "tss": 150.61, "distance_km": 12.6, "_status": "done" },
-          { "date": "2026-04-01", "title": "Muscular Endurance: Low Cadence Efforts", "sport": "Bike", "duration_hours": 1.17, "tss": 55.43, "distance_km": 27.0, "_status": "done" },
-          { "date": "2026-04-01", "title": "Hot Yoga", "sport": "Other", "duration_hours": 0.89, "tss": 31.92, "distance_km": null, "_status": "done" },
-          { "date": "2026-04-02", "title": "Swim | 18x 100m PB | Recovery", "sport": "Swim", "duration_hours": 0.93, "tss": 140.54, "distance_km": 2.8, "_status": "done" },
-          { "date": "2026-04-03", "title": "Open water - Group Swim", "sport": "Swim", "duration_hours": null, "tss": null, "distance_km": null, "_status": "missed" },
-          { "date": "2026-04-03", "title": "Running", "sport": "Run", "duration_hours": 0.79, "tss": 88.77, "distance_km": 9.1, "_status": "done" },
-          { "date": "2026-04-04", "title": "Endurance 3h30 | FTP", "sport": "Bike", "duration_hours": 3.69, "tss": 235.68, "distance_km": 100.0, "_status": "done" },
-          { "date": "2026-04-05", "title": "1h45 Easy AT pace + strides", "sport": "Run", "duration_hours": 1.68, "tss": 74.0, "distance_km": 17.1, "_status": "done" }
+          { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0, "_status": "done" },
+          { "date": "2026-04-06", "title": "Sauna", "sport": "Other", "duration_hours": 0.58, "tss": 21.92, "distance_km": null, "_status": "done" },
+          { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 0.9, "tss": 54.32, "distance_km": 9.7, "_status": "done" },
+          { "date": "2026-04-07", "title": "S&C class", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null, "_status": "done" },
+          { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp", "sport": "Bike", "duration_hours": 1.33, "tss": 64.85, "distance_km": 33.4, "_status": "done" },
+          { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 0.48, "tss": 65.52, "distance_km": 1.4, "_status": "done" },
+          { "date": "2026-04-11", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.44, "tss": 164.2, "distance_km": 16.0, "_status": "done" },
+          { "date": "2026-04-12", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": null, "tss": null, "distance_km": null, "_status": "missed" }
         ]
       },
       "completed_sessions": [
-        { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0 },
-        { "date": "2026-04-06", "title": "Sauna", "sport": "Other", "duration_hours": 0.58, "tss": 21.92, "distance_km": null },
-        { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 0.9, "tss": 54.32, "distance_km": 9.7 },
-        { "date": "2026-04-07", "title": "S&C class", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null },
-        { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp", "sport": "Bike", "duration_hours": 1.33, "tss": 64.85, "distance_km": 33.4 },
-        { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 0.48, "tss": 65.52, "distance_km": 1.4 },
-        { "date": "2026-04-11", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.44, "tss": 164.2, "distance_km": 16.0 }
+        { "date": "2026-04-13", "title": "Swim | Recovery | Z2", "sport": "Swim", "duration_hours": 0.88, "tss": 35.45, "distance_km": 2.7 },
+        { "date": "2026-04-13", "title": "Running", "sport": "Run", "duration_hours": 0.4, "tss": 33.52, "distance_km": 4.1 }
       ],
-      "missed_sessions": [
-        { "date": "2026-04-03", "title": "Open water - Group Swim", "sport": "Swim" }
-      ],
-      "planned_sessions": [
-        { "date": "2026-04-12", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": 0.33, "tss_planned": 19.98 }
-      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-13", "title": "Swim | Recovery | Z2", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 23.26 },
         { "date": "2026-04-14", "title": "HILLS | 4x (5x 30s) | Pace", "sport": "Run", "duration_hours": 1.18, "tss_planned": 91.06 },
-        { "date": "2026-04-15", "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)", "sport": "Swim", "duration_hours": 1.0, "tss_planned": null },
+        { "date": "2026-04-15", "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)", "sport": "Swim", "duration_hours": null, "tss_planned": null },
+        { "date": "2026-04-17", "title": "Recovery: Full Day Off", "sport": "Other", "duration_hours": 0, "tss_planned": 0 },
         { "date": "2026-04-18", "title": "Run | 40min Easy | HR", "sport": "Run", "duration_hours": 0.67, "tss_planned": 33.32 }
       ],
       "next_event": {
         "name": "T100 Dubai",
         "date": "2026-11-15",
         "priority": "B",
-        "days_out": 217,
+        "days_out": 216,
         "ctl_target": null,
-        "ctl_current": 80.1
+        "ctl_current": 79.4
       },
       "focus_event": {
         "name": "Muscat IM",
         "date": "2026-12-05",
         "priority": "A",
-        "days_out": 237,
+        "days_out": 236,
         "ctl_target": null,
-        "ctl_current": 80.1
+        "ctl_current": 79.4
       },
       "peaks": {
         "bike_20min_power": { "value": 207, "date": "2026-03-27" },
@@ -170,19 +160,18 @@
         { "date": "2026-04-09", "ctl": 79.9, "atl": 103.3, "tsb": -38.7, "tss": 0 },
         { "date": "2026-04-10", "ctl": 78.0, "atl": 88.6, "tsb": -23.4, "tss": 65.52 },
         { "date": "2026-04-11", "ctl": 81.6, "atl": 107.4, "tsb": -18.4, "tss": 164.2 },
-        { "date": "2026-04-12", "ctl": 80.1, "atl": 94.9, "tsb": -25.8, "tss": 19.98 }
+        { "date": "2026-04-12", "ctl": 79.6, "atl": 92.1, "tsb": -25.8, "tss": 0 },
+        { "date": "2026-04-13", "ctl": 79.4, "atl": 88.8, "tsb": -12.4, "tss": 68.97 }
       ],
       "weekly_trend": [
-        { "week_start": "2026-03-02", "tss": 498, "hours": 6.2, "ctl_end": 14.5 },
-        { "week_start": "2026-03-09", "tss": 612, "hours": 7.8, "ctl_end": 20.1 },
         { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
         { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
         { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 473, "hours": 6.75, "ctl_end": 80.1 }
+        { "week_start": "2026-04-06", "tss": 473, "hours": 6.75, "ctl_end": 79.6 },
+        { "week_start": "2026-04-13", "tss": 69, "hours": 1.28, "ctl_end": 79.4 }
       ],
-      "coach_summary": "Recovery week nearly done — 7 of 8 sessions completed at 88% compliance. TSB improved dramatically from -73.6 to -25.8 over the week, and ATL dropped from 144 to 95. Yesterday's 'easy' run came in at 164 TSS which is high for a recovery session — worth checking if the pace crept up. Last night's sleep was poor (3.65h, HRV 24, resting HR 65) which is a red flag after a good recovery trend. Keep today's pre-gym run genuinely easy and prioritise sleep tonight. Next week ramps back up with 4x hill sets on Monday — you want to arrive fresh.",
+      "coach_summary": "New training block begins. Last week's recovery was excellent — TSB climbed from -73.6 to -12.4 over 8 days, the best form you've had since returning to training in March. Last night's 10.2h sleep with HRV 70 shows your body has bounced back fully from Friday night (HRV was 24 on Saturday). You completed a recovery swim and easy run today to start the week. Tomorrow's 4x hill sets will be the first real quality session since the torque intervals on Wednesday — your legs should feel sharp. CTL at 79.4 means you haven't lost meaningful fitness during the deload. Time to build.",
       "recovery": [
-        { "date": "2026-04-01", "sleep_hours": 7.77, "deep": 1.15, "light": 5.06, "rem": 1.40, "awake": 0.16, "hrv": 85, "resting_hr": 52 },
         { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
         { "date": "2026-04-03", "sleep_hours": 9.38, "deep": 1.21, "light": 5.53, "rem": 2.40, "awake": 0.24, "hrv": 70, "resting_hr": 52 },
         { "date": "2026-04-04", "sleep_hours": 5.92, "deep": 1.11, "light": 3.63, "rem": 1.01, "awake": 0.17, "hrv": 49, "resting_hr": 53 },
@@ -193,7 +182,8 @@
         { "date": "2026-04-09", "sleep_hours": 6.2, "deep": 1.46, "light": 2.96, "rem": 0.98, "awake": 0.8, "hrv": 55, "resting_hr": 59 },
         { "date": "2026-04-10", "sleep_hours": 9.98, "deep": 0.98, "light": 5.71, "rem": 3.03, "awake": 0.26, "hrv": 71, "resting_hr": 53 },
         { "date": "2026-04-11", "sleep_hours": 9.38, "deep": 1.65, "light": 5.23, "rem": 2.2, "awake": 0.3, "hrv": 65, "resting_hr": 55 },
-        { "date": "2026-04-12", "sleep_hours": 3.65, "deep": 0.45, "light": 1.53, "rem": 0.36, "awake": 1.31, "hrv": 24, "resting_hr": 65 }
+        { "date": "2026-04-12", "sleep_hours": 3.65, "deep": 0.45, "light": 1.53, "rem": 0.36, "awake": 1.31, "hrv": 24, "resting_hr": 65 },
+        { "date": "2026-04-13", "sleep_hours": 10.2, "deep": 1.75, "light": 5.23, "rem": 2.98, "awake": 0.24, "hrv": 70, "resting_hr": 56 }
       ],
       "flags": []
     },
@@ -455,10 +445,10 @@
     {
       "id": "stephen-bates",
       "name": "Stephen Bates",
-      "compliance_pct": 88,
+      "compliance_pct": 100,
       "next_event": "T100 Dubai",
-      "days_to_event": 217,
-      "weekly_tss_trend": [1182, 860, 832, 473],
+      "days_to_event": 216,
+      "weekly_tss_trend": [860, 832, 473, 69],
       "flags": []
     },
     {
