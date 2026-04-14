@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T18:00:00Z",
+  "generated_at": "2026-04-14T20:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -7,25 +7,37 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 79.4,
-        "atl": 88.8,
-        "tsb": -12.4,
-        "status": "neutral"
+        "ctl": 80.7,
+        "atl": 95.3,
+        "tsb": -9.4,
+        "status": "tired"
       },
       "this_week": {
         "start": "2026-04-13",
         "end": "2026-04-19",
         "sessions_planned": 6,
-        "sessions_completed": 2,
+        "sessions_completed": 3,
         "sessions_planned_today": 0,
         "compliance_pct": 100,
-        "total_tss": 68.97,
-        "total_hours": 1.28,
+        "total_tss": 203.76,
+        "total_hours": 2.43,
         "by_sport": {
-          "Bike": { "hours": 0, "tss": 0 },
-          "Run": { "hours": 0.4, "tss": 33.52 },
-          "Swim": { "hours": 0.88, "tss": 35.45 },
-          "Other": { "hours": 0, "tss": 0 }
+          "Bike": {
+            "hours": 0,
+            "tss": 0
+          },
+          "Run": {
+            "hours": 1.55,
+            "tss": 168.31
+          },
+          "Swim": {
+            "hours": 0.88,
+            "tss": 35.45
+          },
+          "Other": {
+            "hours": 0,
+            "tss": 0
+          }
         }
       },
       "last_week": {
@@ -38,33 +50,148 @@
         "total_tss": 473.45,
         "total_hours": 6.75,
         "by_sport": {
-          "Bike": { "hours": 2.43, "tss": 117.66 },
-          "Run": { "hours": 2.34, "tss": 218.52 },
-          "Swim": { "hours": 0.48, "tss": 65.52 },
-          "Other": { "hours": 1.5, "tss": 71.75 }
+          "Bike": {
+            "hours": 2.43,
+            "tss": 117.66
+          },
+          "Run": {
+            "hours": 2.34,
+            "tss": 218.52
+          },
+          "Swim": {
+            "hours": 0.48,
+            "tss": 65.52
+          },
+          "Other": {
+            "hours": 1.5,
+            "tss": 71.75
+          }
         },
         "sessions": [
-          { "date": "2026-04-06", "title": "18x 1min ON/OFF (low rpm) @ 95%", "sport": "Bike", "duration_hours": 1.1, "tss": 52.81, "distance_km": 28.0, "_status": "done" },
-          { "date": "2026-04-06", "title": "Sauna", "sport": "Other", "duration_hours": 0.58, "tss": 21.92, "distance_km": null, "_status": "done" },
-          { "date": "2026-04-07", "title": "HILLS | 2x (5x 40s) | Pace", "sport": "Run", "duration_hours": 0.9, "tss": 54.32, "distance_km": 9.7, "_status": "done" },
-          { "date": "2026-04-07", "title": "S&C class", "sport": "Other", "duration_hours": 0.92, "tss": 49.83, "distance_km": null, "_status": "done" },
-          { "date": "2026-04-08", "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp", "sport": "Bike", "duration_hours": 1.33, "tss": 64.85, "distance_km": 33.4, "_status": "done" },
-          { "date": "2026-04-10", "title": "Swim | 1000 + 6x250 | High Aerobic Set", "sport": "Swim", "duration_hours": 0.48, "tss": 65.52, "distance_km": 1.4, "_status": "done" },
-          { "date": "2026-04-11", "title": "1h25 Very Easy | HR", "sport": "Run", "duration_hours": 1.44, "tss": 164.2, "distance_km": 16.0, "_status": "done" },
-          { "date": "2026-04-12", "title": "Pre-GYM Run", "sport": "Run", "duration_hours": null, "tss": null, "distance_km": null, "_status": "missed" }
+          {
+            "date": "2026-04-06",
+            "title": "18x 1min ON/OFF (low rpm) @ 95%",
+            "sport": "Bike",
+            "duration_hours": 1.1,
+            "tss": 52.81,
+            "distance_km": 28.0,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-06",
+            "title": "Sauna",
+            "sport": "Other",
+            "duration_hours": 0.58,
+            "tss": 21.92,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-07",
+            "title": "HILLS | 2x (5x 40s) | Pace",
+            "sport": "Run",
+            "duration_hours": 0.9,
+            "tss": 54.32,
+            "distance_km": 9.7,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-07",
+            "title": "S&C class",
+            "sport": "Other",
+            "duration_hours": 0.92,
+            "tss": 49.83,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-08",
+            "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp",
+            "sport": "Bike",
+            "duration_hours": 1.33,
+            "tss": 64.85,
+            "distance_km": 33.4,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-10",
+            "title": "Swim | 1000 + 6x250 | High Aerobic Set",
+            "sport": "Swim",
+            "duration_hours": 0.48,
+            "tss": 65.52,
+            "distance_km": 1.4,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-11",
+            "title": "1h25 Very Easy | HR",
+            "sport": "Run",
+            "duration_hours": 1.44,
+            "tss": 164.2,
+            "distance_km": 16.0,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-12",
+            "title": "Pre-GYM Run",
+            "sport": "Run",
+            "duration_hours": null,
+            "tss": null,
+            "distance_km": null,
+            "_status": "missed"
+          }
         ]
       },
       "completed_sessions": [
-        { "date": "2026-04-13", "title": "Swim | Recovery | Z2", "sport": "Swim", "duration_hours": 0.88, "tss": 35.45, "distance_km": 2.7 },
-        { "date": "2026-04-13", "title": "Running", "sport": "Run", "duration_hours": 0.4, "tss": 33.52, "distance_km": 4.1 }
+        {
+          "date": "2026-04-14",
+          "title": "HILLS | 4x (5x 30s) | Pace",
+          "sport": "Run",
+          "duration_hours": 1.15,
+          "tss": 134.79,
+          "distance_km": 12.1
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Swim | Recovery | Z2",
+          "sport": "Swim",
+          "duration_hours": 0.88,
+          "tss": 35.45,
+          "distance_km": 2.7
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.4,
+          "tss": 33.52,
+          "distance_km": 4.1
+        }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-14", "title": "HILLS | 4x (5x 30s) | Pace", "sport": "Run", "duration_hours": 1.18, "tss_planned": 91.06 },
-        { "date": "2026-04-15", "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)", "sport": "Swim", "duration_hours": null, "tss_planned": null },
-        { "date": "2026-04-17", "title": "Recovery: Full Day Off", "sport": "Other", "duration_hours": 0, "tss_planned": 0 },
-        { "date": "2026-04-18", "title": "Run | 40min Easy | HR", "sport": "Run", "duration_hours": 0.67, "tss_planned": 33.32 }
+        {
+          "date": "2026-04-15",
+          "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)",
+          "sport": "Swim",
+          "duration_hours": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-04-17",
+          "title": "Recovery: Full Day Off",
+          "sport": "Other",
+          "duration_hours": 0,
+          "tss_planned": 0
+        },
+        {
+          "date": "2026-04-18",
+          "title": "Run | 40min Easy | HR",
+          "sport": "Run",
+          "duration_hours": 0.67,
+          "tss_planned": 33.32
+        }
       ],
       "next_event": {
         "name": "T100 Dubai",
@@ -83,107 +210,666 @@
         "ctl_current": 79.4
       },
       "peaks": {
-        "bike_20min_power": { "value": 207, "date": "2026-03-27" },
-        "run_5k_pace": { "value": "4:00/km", "date": "2022-01-23" }
+        "bike_20min_power": {
+          "value": 207,
+          "date": "2026-03-27"
+        },
+        "run_5k_pace": {
+          "value": "4:00/km",
+          "date": "2022-01-23"
+        }
       },
       "pbs": {
         "run": [
-          { "distance": "5K", "time": "18:15", "pace": "3:39/km", "date": "2025-06-27" },
-          { "distance": "10K", "time": "39:44", "pace": "3:58/km", "date": "2026-03-08" },
-          { "distance": "Half Marathon", "time": "1:25:00", "pace": "4:01/km", "date": "2024-09-22" },
-          { "distance": "Marathon", "time": "3:09:00", "pace": "4:28/km", "date": "2024-10-27" }
+          {
+            "distance": "5K",
+            "time": "18:15",
+            "pace": "3:39/km",
+            "date": "2025-06-27"
+          },
+          {
+            "distance": "10K",
+            "time": "39:44",
+            "pace": "3:58/km",
+            "date": "2026-03-08"
+          },
+          {
+            "distance": "Half Marathon",
+            "time": "1:25:00",
+            "pace": "4:01/km",
+            "date": "2024-09-22"
+          },
+          {
+            "distance": "Marathon",
+            "time": "3:09:00",
+            "pace": "4:28/km",
+            "date": "2024-10-27"
+          }
         ],
         "bike": [
-          { "metric": "20min Power", "value": "207W", "date": "2026-03-27" },
-          { "metric": "Longest Ride", "value": "185 km", "date": "2022-07-09" }
+          {
+            "metric": "20min Power",
+            "value": "207W",
+            "date": "2026-03-27"
+          },
+          {
+            "metric": "Longest Ride",
+            "value": "185 km",
+            "date": "2022-07-09"
+          }
         ]
       },
       "race_history": [
-        { "name": "Lusk Triathlon", "date": "2021-09-05", "type": "Sprint", "swim": "17:48", "swim_dist": "905m", "bike": "40:44", "bike_dist": "20.6km", "run": "23:53", "run_dist": "5km", "total": "1:28:08", "pb": false },
-        { "name": "Galway Triathlon", "date": "2022-05-29", "type": "Olympic", "swim": "39:54", "swim_dist": "2km", "bike": "1:18:22", "bike_dist": "39.5km", "run": "1:49:56", "run_dist": "10km", "total": "3:55:04", "pb": false },
-        { "name": "Waterville Triathlon", "date": "2022-07-09", "type": "Half IM", "swim": "36:33", "swim_dist": "2.1km", "bike": "3:52:59", "bike_dist": "93.6km", "run": "2:20:10", "run_dist": "22km", "total": "6:57:19", "pb": false },
-        { "name": "Youghal Triathlon", "date": "2022-08-13", "type": "Half IM", "swim": "37:10", "swim_dist": "2.3km", "bike": "3:02:19", "bike_dist": "89.2km", "run": "1:45:22", "run_dist": "21.2km", "total": "5:37:06", "pb": false },
-        { "name": "Galway Triathlon", "date": "2023-05-28", "type": "Olympic", "swim": "35:12", "swim_dist": "1.7km", "bike": "1:19:15", "bike_dist": "39.5km", "run": "49:15", "run_dist": "10km", "total": "2:55:44", "pb": true },
-        { "name": "County Kerry Triathlon", "date": "2023-07-08", "type": "Duathlon", "swim": "21:33", "swim_dist": "4.6km", "bike": "3:25:08", "bike_dist": "93.5km", "run": "1:58:03", "run_dist": "21.6km", "total": "5:47:17", "pb": false, "note": "Run-Bike-Run (swim cancelled)" },
-        { "name": "Youghal Triathlon", "date": "2023-08-20", "type": "Half IM", "swim": "29:16", "swim_dist": "1.5km", "bike": "2:57:18", "bike_dist": "90.1km", "run": "1:38:43", "run_dist": "20.9km", "total": "5:15:51", "pb": false },
-        { "name": "Serik Triathlon", "date": "2023-10-29", "type": "Half IM", "swim": "36:41", "swim_dist": "2.1km", "bike": "2:36:50", "bike_dist": "89.6km", "run": "1:42:38", "run_dist": "20.9km", "total": "5:04:29", "pb": true },
-        { "name": "Muscat Triathlon", "date": "2026-02-14", "type": "Half IM", "swim": "36:53", "swim_dist": "1.9km", "bike": "3:02:16", "bike_dist": "89.1km", "run": "1:35:58", "run_dist": "20.8km", "total": "5:25:00", "pb": false }
+        {
+          "name": "Lusk Triathlon",
+          "date": "2021-09-05",
+          "type": "Sprint",
+          "swim": "17:48",
+          "swim_dist": "905m",
+          "bike": "40:44",
+          "bike_dist": "20.6km",
+          "run": "23:53",
+          "run_dist": "5km",
+          "total": "1:28:08",
+          "pb": false
+        },
+        {
+          "name": "Galway Triathlon",
+          "date": "2022-05-29",
+          "type": "Olympic",
+          "swim": "39:54",
+          "swim_dist": "2km",
+          "bike": "1:18:22",
+          "bike_dist": "39.5km",
+          "run": "1:49:56",
+          "run_dist": "10km",
+          "total": "3:55:04",
+          "pb": false
+        },
+        {
+          "name": "Waterville Triathlon",
+          "date": "2022-07-09",
+          "type": "Half IM",
+          "swim": "36:33",
+          "swim_dist": "2.1km",
+          "bike": "3:52:59",
+          "bike_dist": "93.6km",
+          "run": "2:20:10",
+          "run_dist": "22km",
+          "total": "6:57:19",
+          "pb": false
+        },
+        {
+          "name": "Youghal Triathlon",
+          "date": "2022-08-13",
+          "type": "Half IM",
+          "swim": "37:10",
+          "swim_dist": "2.3km",
+          "bike": "3:02:19",
+          "bike_dist": "89.2km",
+          "run": "1:45:22",
+          "run_dist": "21.2km",
+          "total": "5:37:06",
+          "pb": false
+        },
+        {
+          "name": "Galway Triathlon",
+          "date": "2023-05-28",
+          "type": "Olympic",
+          "swim": "35:12",
+          "swim_dist": "1.7km",
+          "bike": "1:19:15",
+          "bike_dist": "39.5km",
+          "run": "49:15",
+          "run_dist": "10km",
+          "total": "2:55:44",
+          "pb": true
+        },
+        {
+          "name": "County Kerry Triathlon",
+          "date": "2023-07-08",
+          "type": "Duathlon",
+          "swim": "21:33",
+          "swim_dist": "4.6km",
+          "bike": "3:25:08",
+          "bike_dist": "93.5km",
+          "run": "1:58:03",
+          "run_dist": "21.6km",
+          "total": "5:47:17",
+          "pb": false,
+          "note": "Run-Bike-Run (swim cancelled)"
+        },
+        {
+          "name": "Youghal Triathlon",
+          "date": "2023-08-20",
+          "type": "Half IM",
+          "swim": "29:16",
+          "swim_dist": "1.5km",
+          "bike": "2:57:18",
+          "bike_dist": "90.1km",
+          "run": "1:38:43",
+          "run_dist": "20.9km",
+          "total": "5:15:51",
+          "pb": false
+        },
+        {
+          "name": "Serik Triathlon",
+          "date": "2023-10-29",
+          "type": "Half IM",
+          "swim": "36:41",
+          "swim_dist": "2.1km",
+          "bike": "2:36:50",
+          "bike_dist": "89.6km",
+          "run": "1:42:38",
+          "run_dist": "20.9km",
+          "total": "5:04:29",
+          "pb": true
+        },
+        {
+          "name": "Muscat Triathlon",
+          "date": "2026-02-14",
+          "type": "Half IM",
+          "swim": "36:53",
+          "swim_dist": "1.9km",
+          "bike": "3:02:16",
+          "bike_dist": "89.1km",
+          "run": "1:35:58",
+          "run_dist": "20.8km",
+          "total": "5:25:00",
+          "pb": false
+        }
       ],
       "alltime_stats": [
-        { "label": "Total Runs", "value": "680" },
-        { "label": "Run Distance", "value": "5,992 km" },
-        { "label": "Total Rides", "value": "331" },
-        { "label": "Ride Distance", "value": "7,451 km" },
-        { "label": "Total Swims", "value": "163" },
-        { "label": "Run Hours", "value": "577h" },
-        { "label": "Ride Hours", "value": "452h" },
-        { "label": "Total Elevation", "value": "86,118 m" }
+        {
+          "label": "Total Runs",
+          "value": "680"
+        },
+        {
+          "label": "Run Distance",
+          "value": "5,992 km"
+        },
+        {
+          "label": "Total Rides",
+          "value": "331"
+        },
+        {
+          "label": "Ride Distance",
+          "value": "7,451 km"
+        },
+        {
+          "label": "Total Swims",
+          "value": "163"
+        },
+        {
+          "label": "Run Hours",
+          "value": "577h"
+        },
+        {
+          "label": "Ride Hours",
+          "value": "452h"
+        },
+        {
+          "label": "Total Elevation",
+          "value": "86,118 m"
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-02", "ctl": 1.3, "atl": 8.1, "tsb": 0.0, "tss": 56.6 },
-        { "date": "2026-03-03", "ctl": 3.4, "atl": 19.4, "tsb": -6.7, "tss": 87.1 },
-        { "date": "2026-03-04", "ctl": 5.2, "atl": 27.9, "tsb": -16.0, "tss": 78.8 },
-        { "date": "2026-03-05", "ctl": 6.4, "atl": 32.1, "tsb": -22.7, "tss": 57.7 },
-        { "date": "2026-03-06", "ctl": 8.7, "atl": 41.8, "tsb": -25.7, "tss": 100.2 },
-        { "date": "2026-03-07", "ctl": 9.8, "atl": 43.9, "tsb": -33.2, "tss": 56.0 },
-        { "date": "2026-03-08", "ctl": 11.0, "atl": 46.5, "tsb": -34.1, "tss": 62.0 },
-        { "date": "2026-03-09", "ctl": 14.5, "atl": 62.2, "tsb": -35.4, "tss": 156.9 },
-        { "date": "2026-03-10", "ctl": 15.8, "atl": 62.9, "tsb": -47.7, "tss": 67.2 },
-        { "date": "2026-03-11", "ctl": 16.4, "atl": 60.0, "tsb": -47.2, "tss": 42.1 },
-        { "date": "2026-03-12", "ctl": 20.1, "atl": 75.8, "tsb": -43.6, "tss": 170.5 },
-        { "date": "2026-03-14", "ctl": 21.6, "atl": 70.4, "tsb": -45.3, "tss": 103.2 },
-        { "date": "2026-03-15", "ctl": 37.8, "atl": 160.7, "tsb": -48.8, "tss": 702.2 },
-        { "date": "2026-03-16", "ctl": 40.1, "atl": 157.1, "tsb": -122.9, "tss": 136.1 },
-        { "date": "2026-03-17", "ctl": 42.5, "atl": 154.4, "tsb": -117.0, "tss": 138.1 },
-        { "date": "2026-03-18", "ctl": 43.2, "atl": 142.9, "tsb": -112.0, "tss": 73.6 },
-        { "date": "2026-03-19", "ctl": 45.3, "atl": 141.5, "tsb": -99.7, "tss": 133.2 },
-        { "date": "2026-03-20", "ctl": 47.7, "atl": 141.8, "tsb": -96.2, "tss": 143.4 },
-        { "date": "2026-03-21", "ctl": 49.3, "atl": 138.3, "tsb": -94.1, "tss": 117.2 },
-        { "date": "2026-03-22", "ctl": 55.0, "atl": 159.5, "tsb": -88.9, "tss": 286.7 },
-        { "date": "2026-03-23", "ctl": 54.8, "atl": 143.2, "tsb": -104.5, "tss": 45.8 },
-        { "date": "2026-03-24", "ctl": 54.9, "atl": 131.3, "tsb": -88.5, "tss": 59.4 },
-        { "date": "2026-03-25", "ctl": 55.2, "atl": 122.5, "tsb": -76.4, "tss": 70.2 },
-        { "date": "2026-03-26", "ctl": 60.5, "atl": 144.2, "tsb": -67.3, "tss": 274.5 },
-        { "date": "2026-03-27", "ctl": 68.3, "atl": 179.2, "tsb": -83.8, "tss": 389.2 },
-        { "date": "2026-03-28", "ctl": 75.3, "atl": 205.4, "tsb": -111.0, "tss": 362.1 },
-        { "date": "2026-03-29", "ctl": 74.9, "atl": 184.8, "tsb": -130.1, "tss": 61.4 },
-        { "date": "2026-03-30", "ctl": 74.5, "atl": 166.3, "tsb": -109.8, "tss": 55.4 },
-        { "date": "2026-03-31", "ctl": 76.3, "atl": 164.1, "tsb": -91.8, "tss": 150.6 },
-        { "date": "2026-04-01", "ctl": 76.6, "atl": 153.1, "tsb": -87.8, "tss": 87.4 },
-        { "date": "2026-04-02", "ctl": 78.1, "atl": 151.3, "tsb": -76.5, "tss": 140.5 },
-        { "date": "2026-04-03", "ctl": 78.3, "atl": 142.4, "tsb": -73.2, "tss": 88.8 },
-        { "date": "2026-04-04", "ctl": 82.1, "atl": 155.7, "tsb": -64.0, "tss": 235.7 },
-        { "date": "2026-04-05", "ctl": 81.9, "atl": 144.0, "tsb": -73.6, "tss": 74.0 },
-        { "date": "2026-04-06", "ctl": 81.7, "atl": 134.1, "tsb": -62.1, "tss": 74.73 },
-        { "date": "2026-04-07", "ctl": 82.3, "atl": 129.8, "tsb": -52.4, "tss": 104.15 },
-        { "date": "2026-04-08", "ctl": 81.8, "atl": 120.6, "tsb": -47.6, "tss": 64.85 },
-        { "date": "2026-04-09", "ctl": 79.9, "atl": 103.3, "tsb": -38.7, "tss": 0 },
-        { "date": "2026-04-10", "ctl": 78.0, "atl": 88.6, "tsb": -23.4, "tss": 65.52 },
-        { "date": "2026-04-11", "ctl": 81.6, "atl": 107.4, "tsb": -18.4, "tss": 164.2 },
-        { "date": "2026-04-12", "ctl": 79.6, "atl": 92.1, "tsb": -25.8, "tss": 0 },
-        { "date": "2026-04-13", "ctl": 79.4, "atl": 88.8, "tsb": -12.4, "tss": 68.97 }
+        {
+          "date": "2026-03-02",
+          "ctl": 1.3,
+          "atl": 8.1,
+          "tsb": 0.0,
+          "tss": 56.6
+        },
+        {
+          "date": "2026-03-03",
+          "ctl": 3.4,
+          "atl": 19.4,
+          "tsb": -6.7,
+          "tss": 87.1
+        },
+        {
+          "date": "2026-03-04",
+          "ctl": 5.2,
+          "atl": 27.9,
+          "tsb": -16.0,
+          "tss": 78.8
+        },
+        {
+          "date": "2026-03-05",
+          "ctl": 6.4,
+          "atl": 32.1,
+          "tsb": -22.7,
+          "tss": 57.7
+        },
+        {
+          "date": "2026-03-06",
+          "ctl": 8.7,
+          "atl": 41.8,
+          "tsb": -25.7,
+          "tss": 100.2
+        },
+        {
+          "date": "2026-03-07",
+          "ctl": 9.8,
+          "atl": 43.9,
+          "tsb": -33.2,
+          "tss": 56.0
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 11.0,
+          "atl": 46.5,
+          "tsb": -34.1,
+          "tss": 62.0
+        },
+        {
+          "date": "2026-03-09",
+          "ctl": 14.5,
+          "atl": 62.2,
+          "tsb": -35.4,
+          "tss": 156.9
+        },
+        {
+          "date": "2026-03-10",
+          "ctl": 15.8,
+          "atl": 62.9,
+          "tsb": -47.7,
+          "tss": 67.2
+        },
+        {
+          "date": "2026-03-11",
+          "ctl": 16.4,
+          "atl": 60.0,
+          "tsb": -47.2,
+          "tss": 42.1
+        },
+        {
+          "date": "2026-03-12",
+          "ctl": 20.1,
+          "atl": 75.8,
+          "tsb": -43.6,
+          "tss": 170.5
+        },
+        {
+          "date": "2026-03-14",
+          "ctl": 21.6,
+          "atl": 70.4,
+          "tsb": -45.3,
+          "tss": 103.2
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 37.8,
+          "atl": 160.7,
+          "tsb": -48.8,
+          "tss": 702.2
+        },
+        {
+          "date": "2026-03-16",
+          "ctl": 40.1,
+          "atl": 157.1,
+          "tsb": -122.9,
+          "tss": 136.1
+        },
+        {
+          "date": "2026-03-17",
+          "ctl": 42.5,
+          "atl": 154.4,
+          "tsb": -117.0,
+          "tss": 138.1
+        },
+        {
+          "date": "2026-03-18",
+          "ctl": 43.2,
+          "atl": 142.9,
+          "tsb": -112.0,
+          "tss": 73.6
+        },
+        {
+          "date": "2026-03-19",
+          "ctl": 45.3,
+          "atl": 141.5,
+          "tsb": -99.7,
+          "tss": 133.2
+        },
+        {
+          "date": "2026-03-20",
+          "ctl": 47.7,
+          "atl": 141.8,
+          "tsb": -96.2,
+          "tss": 143.4
+        },
+        {
+          "date": "2026-03-21",
+          "ctl": 49.3,
+          "atl": 138.3,
+          "tsb": -94.1,
+          "tss": 117.2
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 55.0,
+          "atl": 159.5,
+          "tsb": -88.9,
+          "tss": 286.7
+        },
+        {
+          "date": "2026-03-23",
+          "ctl": 54.8,
+          "atl": 143.2,
+          "tsb": -104.5,
+          "tss": 45.8
+        },
+        {
+          "date": "2026-03-24",
+          "ctl": 54.9,
+          "atl": 131.3,
+          "tsb": -88.5,
+          "tss": 59.4
+        },
+        {
+          "date": "2026-03-25",
+          "ctl": 55.2,
+          "atl": 122.5,
+          "tsb": -76.4,
+          "tss": 70.2
+        },
+        {
+          "date": "2026-03-26",
+          "ctl": 60.5,
+          "atl": 144.2,
+          "tsb": -67.3,
+          "tss": 274.5
+        },
+        {
+          "date": "2026-03-27",
+          "ctl": 68.3,
+          "atl": 179.2,
+          "tsb": -83.8,
+          "tss": 389.2
+        },
+        {
+          "date": "2026-03-28",
+          "ctl": 75.3,
+          "atl": 205.4,
+          "tsb": -111.0,
+          "tss": 362.1
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 74.9,
+          "atl": 184.8,
+          "tsb": -130.1,
+          "tss": 61.4
+        },
+        {
+          "date": "2026-03-30",
+          "ctl": 74.5,
+          "atl": 166.3,
+          "tsb": -109.8,
+          "tss": 55.4
+        },
+        {
+          "date": "2026-03-31",
+          "ctl": 76.3,
+          "atl": 164.1,
+          "tsb": -91.8,
+          "tss": 150.6
+        },
+        {
+          "date": "2026-04-01",
+          "ctl": 76.6,
+          "atl": 153.1,
+          "tsb": -87.8,
+          "tss": 87.4
+        },
+        {
+          "date": "2026-04-02",
+          "ctl": 78.1,
+          "atl": 151.3,
+          "tsb": -76.5,
+          "tss": 140.5
+        },
+        {
+          "date": "2026-04-03",
+          "ctl": 78.3,
+          "atl": 142.4,
+          "tsb": -73.2,
+          "tss": 88.8
+        },
+        {
+          "date": "2026-04-04",
+          "ctl": 82.1,
+          "atl": 155.7,
+          "tsb": -64.0,
+          "tss": 235.7
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 81.9,
+          "atl": 144.0,
+          "tsb": -73.6,
+          "tss": 74.0
+        },
+        {
+          "date": "2026-04-06",
+          "ctl": 81.7,
+          "atl": 134.1,
+          "tsb": -62.1,
+          "tss": 74.73
+        },
+        {
+          "date": "2026-04-07",
+          "ctl": 82.3,
+          "atl": 129.8,
+          "tsb": -52.4,
+          "tss": 104.15
+        },
+        {
+          "date": "2026-04-08",
+          "ctl": 81.8,
+          "atl": 120.6,
+          "tsb": -47.6,
+          "tss": 64.85
+        },
+        {
+          "date": "2026-04-09",
+          "ctl": 79.9,
+          "atl": 103.3,
+          "tsb": -38.7,
+          "tss": 0
+        },
+        {
+          "date": "2026-04-10",
+          "ctl": 78.0,
+          "atl": 88.6,
+          "tsb": -23.4,
+          "tss": 65.52
+        },
+        {
+          "date": "2026-04-11",
+          "ctl": 81.6,
+          "atl": 107.4,
+          "tsb": -18.4,
+          "tss": 164.2
+        },
+        {
+          "date": "2026-04-12",
+          "ctl": 79.6,
+          "atl": 92.1,
+          "tsb": -25.8,
+          "tss": 0
+        },
+        {
+          "date": "2026-04-13",
+          "ctl": 79.4,
+          "atl": 88.8,
+          "tsb": -12.4,
+          "tss": 68.97
+        },
+        {
+          "date": "2026-04-14",
+          "ctl": 80.7,
+          "atl": 95.3,
+          "tsb": -9.4,
+          "tss": 134.79
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-03-16", "tss": 1182, "hours": 13.5, "ctl_end": 55.0 },
-        { "week_start": "2026-03-23", "tss": 860, "hours": 10.2, "ctl_end": 60.5 },
-        { "week_start": "2026-03-30", "tss": 832, "hours": 11.16, "ctl_end": 81.9 },
-        { "week_start": "2026-04-06", "tss": 473, "hours": 6.75, "ctl_end": 79.6 },
-        { "week_start": "2026-04-13", "tss": 69, "hours": 1.28, "ctl_end": 79.4 }
+        {
+          "week_start": "2026-03-16",
+          "tss": 1182,
+          "hours": 13.5,
+          "ctl_end": 55.0
+        },
+        {
+          "week_start": "2026-03-23",
+          "tss": 860,
+          "hours": 10.2,
+          "ctl_end": 60.5
+        },
+        {
+          "week_start": "2026-03-30",
+          "tss": 832,
+          "hours": 11.16,
+          "ctl_end": 81.9
+        },
+        {
+          "week_start": "2026-04-06",
+          "tss": 473,
+          "hours": 6.75,
+          "ctl_end": 79.6
+        },
+        {
+          "week_start": "2026-04-13",
+          "tss": 204,
+          "hours": 2.43,
+          "ctl_end": 80.7
+        }
       ],
-      "coach_summary": "New training block begins. Last week's recovery was excellent — TSB climbed from -73.6 to -12.4 over 8 days, the best form you've had since returning to training in March. Last night's 10.2h sleep with HRV 70 shows your body has bounced back fully from Friday night (HRV was 24 on Saturday). You completed a recovery swim and easy run today to start the week. Tomorrow's 4x hill sets will be the first real quality session since the torque intervals on Wednesday — your legs should feel sharp. CTL at 79.4 means you haven't lost meaningful fitness during the deload. Time to build.",
+      "coach_summary": "Strong Tuesday hill session — 4x (5x30s) at pace, 134 TSS banked and TSB up to -9.4, best form of the block so far. CTL climbed to 80.7 (+1.3 vs yesterday) showing the deload absorbed well. Monday opened easy with a recovery swim plus short run. Ahead: quality swim Wednesday (speed endurance PB/PD set), full day off Friday, easy aerobic run Saturday. Body is handling the load — green light to keep building.",
       "recovery": [
-        { "date": "2026-04-02", "sleep_hours": 7.82, "deep": 1.38, "light": 3.73, "rem": 2.50, "awake": 0.21, "hrv": 64, "resting_hr": 52 },
-        { "date": "2026-04-03", "sleep_hours": 9.38, "deep": 1.21, "light": 5.53, "rem": 2.40, "awake": 0.24, "hrv": 70, "resting_hr": 52 },
-        { "date": "2026-04-04", "sleep_hours": 5.92, "deep": 1.11, "light": 3.63, "rem": 1.01, "awake": 0.17, "hrv": 49, "resting_hr": 53 },
-        { "date": "2026-04-05", "sleep_hours": 9.38, "deep": 1.36, "light": 5.76, "rem": 2.15, "awake": 0.11, "hrv": 53, "resting_hr": 55 },
-        { "date": "2026-04-06", "sleep_hours": 8.95, "deep": 1.86, "light": 4.30, "rem": 2.18, "awake": 0.61, "hrv": 60, "resting_hr": 55 },
-        { "date": "2026-04-07", "sleep_hours": 7.85, "deep": 1.50, "light": 3.50, "rem": 2.15, "awake": 0.70, "hrv": 64, "resting_hr": 55 },
-        { "date": "2026-04-08", "sleep_hours": 8.88, "deep": 1.58, "light": 4.23, "rem": 2.85, "awake": 0.22, "hrv": 61, "resting_hr": 54 },
-        { "date": "2026-04-09", "sleep_hours": 6.2, "deep": 1.46, "light": 2.96, "rem": 0.98, "awake": 0.8, "hrv": 55, "resting_hr": 59 },
-        { "date": "2026-04-10", "sleep_hours": 9.98, "deep": 0.98, "light": 5.71, "rem": 3.03, "awake": 0.26, "hrv": 71, "resting_hr": 53 },
-        { "date": "2026-04-11", "sleep_hours": 9.38, "deep": 1.65, "light": 5.23, "rem": 2.2, "awake": 0.3, "hrv": 65, "resting_hr": 55 },
-        { "date": "2026-04-12", "sleep_hours": 3.65, "deep": 0.45, "light": 1.53, "rem": 0.36, "awake": 1.31, "hrv": 24, "resting_hr": 65 },
-        { "date": "2026-04-13", "sleep_hours": 10.2, "deep": 1.75, "light": 5.23, "rem": 2.98, "awake": 0.24, "hrv": 70, "resting_hr": 56 }
+        {
+          "date": "2026-04-02",
+          "sleep_hours": 7.82,
+          "deep": 1.38,
+          "light": 3.73,
+          "rem": 2.50,
+          "awake": 0.21,
+          "hrv": 64,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-04-03",
+          "sleep_hours": 9.38,
+          "deep": 1.21,
+          "light": 5.53,
+          "rem": 2.40,
+          "awake": 0.24,
+          "hrv": 70,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-04-04",
+          "sleep_hours": 5.92,
+          "deep": 1.11,
+          "light": 3.63,
+          "rem": 1.01,
+          "awake": 0.17,
+          "hrv": 49,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-04-05",
+          "sleep_hours": 9.38,
+          "deep": 1.36,
+          "light": 5.76,
+          "rem": 2.15,
+          "awake": 0.11,
+          "hrv": 53,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-06",
+          "sleep_hours": 8.95,
+          "deep": 1.86,
+          "light": 4.30,
+          "rem": 2.18,
+          "awake": 0.61,
+          "hrv": 60,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-07",
+          "sleep_hours": 7.85,
+          "deep": 1.50,
+          "light": 3.50,
+          "rem": 2.15,
+          "awake": 0.70,
+          "hrv": 64,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-08",
+          "sleep_hours": 8.88,
+          "deep": 1.58,
+          "light": 4.23,
+          "rem": 2.85,
+          "awake": 0.22,
+          "hrv": 61,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-04-09",
+          "sleep_hours": 6.2,
+          "deep": 1.46,
+          "light": 2.96,
+          "rem": 0.98,
+          "awake": 0.8,
+          "hrv": 55,
+          "resting_hr": 59
+        },
+        {
+          "date": "2026-04-10",
+          "sleep_hours": 9.98,
+          "deep": 0.98,
+          "light": 5.71,
+          "rem": 3.03,
+          "awake": 0.26,
+          "hrv": 71,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-04-11",
+          "sleep_hours": 9.38,
+          "deep": 1.65,
+          "light": 5.23,
+          "rem": 2.2,
+          "awake": 0.3,
+          "hrv": 65,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-12",
+          "sleep_hours": 3.65,
+          "deep": 0.45,
+          "light": 1.53,
+          "rem": 0.36,
+          "awake": 1.31,
+          "hrv": 24,
+          "resting_hr": 65
+        },
+        {
+          "date": "2026-04-13",
+          "sleep_hours": 10.2,
+          "deep": 1.75,
+          "light": 5.23,
+          "rem": 2.98,
+          "awake": 0.24,
+          "hrv": 70,
+          "resting_hr": 56
+        }
       ],
       "flags": []
     },
@@ -191,7 +877,12 @@
       "name": "Sarah Johnson",
       "avatar_initials": "SJ",
       "is_real": false,
-      "current_fitness": { "ctl": 72, "atl": 68, "tsb": 4, "status": "neutral" },
+      "current_fitness": {
+        "ctl": 72,
+        "atl": 68,
+        "tsb": 4,
+        "status": "neutral"
+      },
       "this_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
@@ -201,56 +892,247 @@
         "total_tss": 620,
         "total_hours": 8.5,
         "by_sport": {
-          "Bike": { "hours": 3.5, "tss": 250 },
-          "Run": { "hours": 2.5, "tss": 200 },
-          "Swim": { "hours": 2.0, "tss": 140 },
-          "Other": { "hours": 0.5, "tss": 30 }
+          "Bike": {
+            "hours": 3.5,
+            "tss": 250
+          },
+          "Run": {
+            "hours": 2.5,
+            "tss": 200
+          },
+          "Swim": {
+            "hours": 2.0,
+            "tss": 140
+          },
+          "Other": {
+            "hours": 0.5,
+            "tss": 30
+          }
         }
       },
       "completed_sessions": [
-        { "date": "2026-03-30", "title": "Easy Spin 1h", "sport": "Bike", "duration_hours": 1.0, "tss": 45, "distance_km": 28 },
-        { "date": "2026-03-31", "title": "Tempo Run 50min", "sport": "Run", "duration_hours": 0.83, "tss": 68, "distance_km": 9.5 },
-        { "date": "2026-04-01", "title": "Swim Drills 2.5km", "sport": "Swim", "duration_hours": 1.0, "tss": 70, "distance_km": 2.5 },
-        { "date": "2026-04-02", "title": "Bike Intervals 1h30", "sport": "Bike", "duration_hours": 1.5, "tss": 110, "distance_km": 38 },
-        { "date": "2026-04-02", "title": "Brick Run 20min", "sport": "Run", "duration_hours": 0.33, "tss": 32, "distance_km": 3.5 },
-        { "date": "2026-04-03", "title": "Swim Endurance 3km", "sport": "Swim", "duration_hours": 1.0, "tss": 70, "distance_km": 3.0 },
-        { "date": "2026-04-04", "title": "Long Ride 2h30", "sport": "Bike", "duration_hours": 2.5, "tss": 155, "distance_km": 72 },
-        { "date": "2026-04-05", "title": "Easy Run + Yoga", "sport": "Run", "duration_hours": 1.33, "tss": 70, "distance_km": 10 }
+        {
+          "date": "2026-03-30",
+          "title": "Easy Spin 1h",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss": 45,
+          "distance_km": 28
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Tempo Run 50min",
+          "sport": "Run",
+          "duration_hours": 0.83,
+          "tss": 68,
+          "distance_km": 9.5
+        },
+        {
+          "date": "2026-04-01",
+          "title": "Swim Drills 2.5km",
+          "sport": "Swim",
+          "duration_hours": 1.0,
+          "tss": 70,
+          "distance_km": 2.5
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Bike Intervals 1h30",
+          "sport": "Bike",
+          "duration_hours": 1.5,
+          "tss": 110,
+          "distance_km": 38
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Brick Run 20min",
+          "sport": "Run",
+          "duration_hours": 0.33,
+          "tss": 32,
+          "distance_km": 3.5
+        },
+        {
+          "date": "2026-04-03",
+          "title": "Swim Endurance 3km",
+          "sport": "Swim",
+          "duration_hours": 1.0,
+          "tss": 70,
+          "distance_km": 3.0
+        },
+        {
+          "date": "2026-04-04",
+          "title": "Long Ride 2h30",
+          "sport": "Bike",
+          "duration_hours": 2.5,
+          "tss": 155,
+          "distance_km": 72
+        },
+        {
+          "date": "2026-04-05",
+          "title": "Easy Run + Yoga",
+          "sport": "Run",
+          "duration_hours": 1.33,
+          "tss": 70,
+          "distance_km": 10
+        }
       ],
       "missed_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-06", "title": "Recovery Swim", "sport": "Swim", "duration_hours": 0.75, "tss_planned": 30 },
-        { "date": "2026-04-07", "title": "Tempo Bike 1h15", "sport": "Bike", "duration_hours": 1.25, "tss_planned": 85 },
-        { "date": "2026-04-08", "title": "Track Session 800s", "sport": "Run", "duration_hours": 1.0, "tss_planned": 90 },
-        { "date": "2026-04-09", "title": "OW Swim Practice", "sport": "Swim", "duration_hours": 1.0, "tss_planned": 75 },
-        { "date": "2026-04-10", "title": "Easy Spin", "sport": "Bike", "duration_hours": 1.0, "tss_planned": 40 },
-        { "date": "2026-04-11", "title": "Long Run 1h40", "sport": "Run", "duration_hours": 1.67, "tss_planned": 110 }
+        {
+          "date": "2026-04-06",
+          "title": "Recovery Swim",
+          "sport": "Swim",
+          "duration_hours": 0.75,
+          "tss_planned": 30
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Tempo Bike 1h15",
+          "sport": "Bike",
+          "duration_hours": 1.25,
+          "tss_planned": 85
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Track Session 800s",
+          "sport": "Run",
+          "duration_hours": 1.0,
+          "tss_planned": 90
+        },
+        {
+          "date": "2026-04-09",
+          "title": "OW Swim Practice",
+          "sport": "Swim",
+          "duration_hours": 1.0,
+          "tss_planned": 75
+        },
+        {
+          "date": "2026-04-10",
+          "title": "Easy Spin",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss_planned": 40
+        },
+        {
+          "date": "2026-04-11",
+          "title": "Long Run 1h40",
+          "sport": "Run",
+          "duration_hours": 1.67,
+          "tss_planned": 110
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-01", "ctl": 55, "atl": 50, "tsb": 5, "tss": 60 },
-        { "date": "2026-03-08", "ctl": 58, "atl": 62, "tsb": -4, "tss": 85 },
-        { "date": "2026-03-15", "ctl": 62, "atl": 70, "tsb": -8, "tss": 95 },
-        { "date": "2026-03-22", "ctl": 66, "atl": 72, "tsb": -6, "tss": 80 },
-        { "date": "2026-03-29", "ctl": 69, "atl": 65, "tsb": 4, "tss": 55 },
-        { "date": "2026-04-05", "ctl": 72, "atl": 68, "tsb": 4, "tss": 70 }
+        {
+          "date": "2026-03-01",
+          "ctl": 55,
+          "atl": 50,
+          "tsb": 5,
+          "tss": 60
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 58,
+          "atl": 62,
+          "tsb": -4,
+          "tss": 85
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 62,
+          "atl": 70,
+          "tsb": -8,
+          "tss": 95
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 66,
+          "atl": 72,
+          "tsb": -6,
+          "tss": 80
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 69,
+          "atl": 65,
+          "tsb": 4,
+          "tss": 55
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 72,
+          "atl": 68,
+          "tsb": 4,
+          "tss": 70
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-02-24", "tss": 480, "hours": 7.0, "ctl_end": 55 },
-        { "week_start": "2026-03-03", "tss": 550, "hours": 7.5, "ctl_end": 58 },
-        { "week_start": "2026-03-10", "tss": 610, "hours": 8.0, "ctl_end": 62 },
-        { "week_start": "2026-03-17", "tss": 580, "hours": 7.8, "ctl_end": 66 },
-        { "week_start": "2026-03-24", "tss": 520, "hours": 7.2, "ctl_end": 69 },
-        { "week_start": "2026-03-31", "tss": 620, "hours": 8.5, "ctl_end": 72 }
+        {
+          "week_start": "2026-02-24",
+          "tss": 480,
+          "hours": 7.0,
+          "ctl_end": 55
+        },
+        {
+          "week_start": "2026-03-03",
+          "tss": 550,
+          "hours": 7.5,
+          "ctl_end": 58
+        },
+        {
+          "week_start": "2026-03-10",
+          "tss": 610,
+          "hours": 8.0,
+          "ctl_end": 62
+        },
+        {
+          "week_start": "2026-03-17",
+          "tss": 580,
+          "hours": 7.8,
+          "ctl_end": 66
+        },
+        {
+          "week_start": "2026-03-24",
+          "tss": 520,
+          "hours": 7.2,
+          "ctl_end": 69
+        },
+        {
+          "week_start": "2026-03-31",
+          "tss": 620,
+          "hours": 8.5,
+          "ctl_end": 72
+        }
       ],
-      "next_event": { "name": "IM Cork", "date": "2026-05-17", "priority": "A", "days_out": 39, "ctl_target": 75, "ctl_current": 72 },
-      "peaks": { "bike_20min_power": { "value": 195, "date": "2026-03-22" }, "run_5k_pace": { "value": "4:45/km", "date": "2026-03-18" } },
+      "next_event": {
+        "name": "IM Cork",
+        "date": "2026-05-17",
+        "priority": "A",
+        "days_out": 39,
+        "ctl_target": 75,
+        "ctl_current": 72
+      },
+      "peaks": {
+        "bike_20min_power": {
+          "value": 195,
+          "date": "2026-03-22"
+        },
+        "run_5k_pace": {
+          "value": "4:45/km",
+          "date": "2026-03-18"
+        }
+      },
       "flags": []
     },
     "mike-obrien": {
       "name": "Mike O'Brien",
       "avatar_initials": "MO",
       "is_real": false,
-      "current_fitness": { "ctl": 58, "atl": 52, "tsb": 6, "status": "fresh" },
+      "current_fitness": {
+        "ctl": 58,
+        "atl": 52,
+        "tsb": 6,
+        "status": "fresh"
+      },
       "this_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
@@ -259,47 +1141,198 @@
         "compliance_pct": 83,
         "total_tss": 410,
         "total_hours": 6.5,
-        "by_sport": { "Run": { "hours": 6.0, "tss": 380 }, "Other": { "hours": 0.5, "tss": 30 } }
+        "by_sport": {
+          "Run": {
+            "hours": 6.0,
+            "tss": 380
+          },
+          "Other": {
+            "hours": 0.5,
+            "tss": 30
+          }
+        }
       },
       "completed_sessions": [
-        { "date": "2026-03-30", "title": "Easy Run 50min", "sport": "Run", "duration_hours": 0.83, "tss": 48, "distance_km": 8.5 },
-        { "date": "2026-03-31", "title": "Track 6x1km", "sport": "Run", "duration_hours": 1.17, "tss": 95, "distance_km": 12 },
-        { "date": "2026-04-02", "title": "Tempo Run 1h", "sport": "Run", "duration_hours": 1.0, "tss": 82, "distance_km": 12.5 },
-        { "date": "2026-04-04", "title": "Long Run 2h", "sport": "Run", "duration_hours": 2.0, "tss": 125, "distance_km": 24 },
-        { "date": "2026-04-05", "title": "Strength + Core", "sport": "Other", "duration_hours": 0.5, "tss": 30, "distance_km": null }
+        {
+          "date": "2026-03-30",
+          "title": "Easy Run 50min",
+          "sport": "Run",
+          "duration_hours": 0.83,
+          "tss": 48,
+          "distance_km": 8.5
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Track 6x1km",
+          "sport": "Run",
+          "duration_hours": 1.17,
+          "tss": 95,
+          "distance_km": 12
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Tempo Run 1h",
+          "sport": "Run",
+          "duration_hours": 1.0,
+          "tss": 82,
+          "distance_km": 12.5
+        },
+        {
+          "date": "2026-04-04",
+          "title": "Long Run 2h",
+          "sport": "Run",
+          "duration_hours": 2.0,
+          "tss": 125,
+          "distance_km": 24
+        },
+        {
+          "date": "2026-04-05",
+          "title": "Strength + Core",
+          "sport": "Other",
+          "duration_hours": 0.5,
+          "tss": 30,
+          "distance_km": null
+        }
       ],
       "missed_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-06", "title": "Recovery Jog 30min", "sport": "Run", "duration_hours": 0.5, "tss_planned": 25 },
-        { "date": "2026-04-08", "title": "Hill Repeats 10x90s", "sport": "Run", "duration_hours": 1.0, "tss_planned": 88 },
-        { "date": "2026-04-10", "title": "Easy Run 45min", "sport": "Run", "duration_hours": 0.75, "tss_planned": 42 },
-        { "date": "2026-04-11", "title": "Long Run 2h15", "sport": "Run", "duration_hours": 2.25, "tss_planned": 140 }
+        {
+          "date": "2026-04-06",
+          "title": "Recovery Jog 30min",
+          "sport": "Run",
+          "duration_hours": 0.5,
+          "tss_planned": 25
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Hill Repeats 10x90s",
+          "sport": "Run",
+          "duration_hours": 1.0,
+          "tss_planned": 88
+        },
+        {
+          "date": "2026-04-10",
+          "title": "Easy Run 45min",
+          "sport": "Run",
+          "duration_hours": 0.75,
+          "tss_planned": 42
+        },
+        {
+          "date": "2026-04-11",
+          "title": "Long Run 2h15",
+          "sport": "Run",
+          "duration_hours": 2.25,
+          "tss_planned": 140
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-01", "ctl": 45, "atl": 40, "tsb": 5, "tss": 50 },
-        { "date": "2026-03-08", "ctl": 48, "atl": 55, "tsb": -7, "tss": 75 },
-        { "date": "2026-03-15", "ctl": 52, "atl": 60, "tsb": -8, "tss": 80 },
-        { "date": "2026-03-22", "ctl": 55, "atl": 58, "tsb": -3, "tss": 65 },
-        { "date": "2026-03-29", "ctl": 57, "atl": 50, "tsb": 7, "tss": 45 },
-        { "date": "2026-04-05", "ctl": 58, "atl": 52, "tsb": 6, "tss": 55 }
+        {
+          "date": "2026-03-01",
+          "ctl": 45,
+          "atl": 40,
+          "tsb": 5,
+          "tss": 50
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 48,
+          "atl": 55,
+          "tsb": -7,
+          "tss": 75
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 52,
+          "atl": 60,
+          "tsb": -8,
+          "tss": 80
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 55,
+          "atl": 58,
+          "tsb": -3,
+          "tss": 65
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 57,
+          "atl": 50,
+          "tsb": 7,
+          "tss": 45
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 58,
+          "atl": 52,
+          "tsb": 6,
+          "tss": 55
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-02-24", "tss": 350, "hours": 5.5, "ctl_end": 45 },
-        { "week_start": "2026-03-03", "tss": 400, "hours": 6.0, "ctl_end": 48 },
-        { "week_start": "2026-03-10", "tss": 430, "hours": 6.5, "ctl_end": 52 },
-        { "week_start": "2026-03-17", "tss": 390, "hours": 6.0, "ctl_end": 55 },
-        { "week_start": "2026-03-24", "tss": 360, "hours": 5.5, "ctl_end": 57 },
-        { "week_start": "2026-03-31", "tss": 410, "hours": 6.5, "ctl_end": 58 }
+        {
+          "week_start": "2026-02-24",
+          "tss": 350,
+          "hours": 5.5,
+          "ctl_end": 45
+        },
+        {
+          "week_start": "2026-03-03",
+          "tss": 400,
+          "hours": 6.0,
+          "ctl_end": 48
+        },
+        {
+          "week_start": "2026-03-10",
+          "tss": 430,
+          "hours": 6.5,
+          "ctl_end": 52
+        },
+        {
+          "week_start": "2026-03-17",
+          "tss": 390,
+          "hours": 6.0,
+          "ctl_end": 55
+        },
+        {
+          "week_start": "2026-03-24",
+          "tss": 360,
+          "hours": 5.5,
+          "ctl_end": 57
+        },
+        {
+          "week_start": "2026-03-31",
+          "tss": 410,
+          "hours": 6.5,
+          "ctl_end": 58
+        }
       ],
-      "next_event": { "name": "Dublin Marathon", "date": "2026-05-03", "priority": "A", "days_out": 25, "ctl_target": 62, "ctl_current": 58 },
-      "peaks": { "run_5k_pace": { "value": "3:55/km", "date": "2026-03-31" } },
+      "next_event": {
+        "name": "Dublin Marathon",
+        "date": "2026-05-03",
+        "priority": "A",
+        "days_out": 25,
+        "ctl_target": 62,
+        "ctl_current": 58
+      },
+      "peaks": {
+        "run_5k_pace": {
+          "value": "3:55/km",
+          "date": "2026-03-31"
+        }
+      },
       "flags": []
     },
     "katie-walsh": {
       "name": "Katie Walsh",
       "avatar_initials": "KW",
       "is_real": false,
-      "current_fitness": { "ctl": 42, "atl": 25, "tsb": 17, "status": "fresh" },
+      "current_fitness": {
+        "ctl": 42,
+        "atl": 25,
+        "tsb": 17,
+        "status": "fresh"
+      },
       "this_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
@@ -308,43 +1341,159 @@
         "compliance_pct": 60,
         "total_tss": 180,
         "total_hours": 3.0,
-        "by_sport": { "Bike": { "hours": 3.0, "tss": 180 } }
+        "by_sport": {
+          "Bike": {
+            "hours": 3.0,
+            "tss": 180
+          }
+        }
       },
       "completed_sessions": [
-        { "date": "2026-03-31", "title": "Easy Spin 1h", "sport": "Bike", "duration_hours": 1.0, "tss": 45, "distance_km": 25 },
-        { "date": "2026-04-02", "title": "Sweet Spot 1h", "sport": "Bike", "duration_hours": 1.0, "tss": 75, "distance_km": 28 },
-        { "date": "2026-04-04", "title": "Endurance 1h", "sport": "Bike", "duration_hours": 1.0, "tss": 60, "distance_km": 30 }
+        {
+          "date": "2026-03-31",
+          "title": "Easy Spin 1h",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss": 45,
+          "distance_km": 25
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Sweet Spot 1h",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss": 75,
+          "distance_km": 28
+        },
+        {
+          "date": "2026-04-04",
+          "title": "Endurance 1h",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss": 60,
+          "distance_km": 30
+        }
       ],
       "missed_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-07", "title": "Threshold Intervals", "sport": "Bike", "duration_hours": 1.25, "tss_planned": 90 },
-        { "date": "2026-04-09", "title": "Easy Spin", "sport": "Bike", "duration_hours": 1.0, "tss_planned": 40 }
+        {
+          "date": "2026-04-07",
+          "title": "Threshold Intervals",
+          "sport": "Bike",
+          "duration_hours": 1.25,
+          "tss_planned": 90
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Easy Spin",
+          "sport": "Bike",
+          "duration_hours": 1.0,
+          "tss_planned": 40
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-01", "ctl": 55, "atl": 58, "tsb": -3, "tss": 70 },
-        { "date": "2026-03-08", "ctl": 53, "atl": 50, "tsb": 3, "tss": 45 },
-        { "date": "2026-03-15", "ctl": 50, "atl": 42, "tsb": 8, "tss": 35 },
-        { "date": "2026-03-22", "ctl": 48, "atl": 35, "tsb": 13, "tss": 30 },
-        { "date": "2026-03-29", "ctl": 45, "atl": 28, "tsb": 17, "tss": 25 },
-        { "date": "2026-04-05", "ctl": 42, "atl": 25, "tsb": 17, "tss": 30 }
+        {
+          "date": "2026-03-01",
+          "ctl": 55,
+          "atl": 58,
+          "tsb": -3,
+          "tss": 70
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 53,
+          "atl": 50,
+          "tsb": 3,
+          "tss": 45
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 50,
+          "atl": 42,
+          "tsb": 8,
+          "tss": 35
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 48,
+          "atl": 35,
+          "tsb": 13,
+          "tss": 30
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 45,
+          "atl": 28,
+          "tsb": 17,
+          "tss": 25
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 42,
+          "atl": 25,
+          "tsb": 17,
+          "tss": 30
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-02-24", "tss": 420, "hours": 6.5, "ctl_end": 55 },
-        { "week_start": "2026-03-03", "tss": 350, "hours": 5.5, "ctl_end": 53 },
-        { "week_start": "2026-03-10", "tss": 280, "hours": 4.0, "ctl_end": 50 },
-        { "week_start": "2026-03-17", "tss": 240, "hours": 3.5, "ctl_end": 48 },
-        { "week_start": "2026-03-24", "tss": 200, "hours": 3.0, "ctl_end": 45 },
-        { "week_start": "2026-03-31", "tss": 180, "hours": 3.0, "ctl_end": 42 }
+        {
+          "week_start": "2026-02-24",
+          "tss": 420,
+          "hours": 6.5,
+          "ctl_end": 55
+        },
+        {
+          "week_start": "2026-03-03",
+          "tss": 350,
+          "hours": 5.5,
+          "ctl_end": 53
+        },
+        {
+          "week_start": "2026-03-10",
+          "tss": 280,
+          "hours": 4.0,
+          "ctl_end": 50
+        },
+        {
+          "week_start": "2026-03-17",
+          "tss": 240,
+          "hours": 3.5,
+          "ctl_end": 48
+        },
+        {
+          "week_start": "2026-03-24",
+          "tss": 200,
+          "hours": 3.0,
+          "ctl_end": 45
+        },
+        {
+          "week_start": "2026-03-31",
+          "tss": 180,
+          "hours": 3.0,
+          "ctl_end": 42
+        }
       ],
       "next_event": null,
-      "peaks": { "bike_20min_power": { "value": 165, "date": "2026-03-05" } },
-      "flags": ["compliance_dropping"]
+      "peaks": {
+        "bike_20min_power": {
+          "value": 165,
+          "date": "2026-03-05"
+        }
+      },
+      "flags": [
+        "compliance_dropping"
+      ]
     },
     "tom-murphy": {
       "name": "Tom Murphy",
       "avatar_initials": "TM",
       "is_real": false,
-      "current_fitness": { "ctl": 55, "atl": 60, "tsb": -5, "status": "neutral" },
+      "current_fitness": {
+        "ctl": 55,
+        "atl": 60,
+        "tsb": -5,
+        "status": "neutral"
+      },
       "this_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
@@ -354,53 +1503,224 @@
         "total_tss": 510,
         "total_hours": 7.5,
         "by_sport": {
-          "Bike": { "hours": 3.0, "tss": 210 },
-          "Run": { "hours": 2.5, "tss": 180 },
-          "Swim": { "hours": 1.5, "tss": 100 },
-          "Other": { "hours": 0.5, "tss": 20 }
+          "Bike": {
+            "hours": 3.0,
+            "tss": 210
+          },
+          "Run": {
+            "hours": 2.5,
+            "tss": 180
+          },
+          "Swim": {
+            "hours": 1.5,
+            "tss": 100
+          },
+          "Other": {
+            "hours": 0.5,
+            "tss": 20
+          }
         }
       },
       "completed_sessions": [
-        { "date": "2026-03-30", "title": "Easy Swim 1.5km", "sport": "Swim", "duration_hours": 0.75, "tss": 40, "distance_km": 1.5 },
-        { "date": "2026-03-31", "title": "Bike Tempo 1h30", "sport": "Bike", "duration_hours": 1.5, "tss": 105, "distance_km": 42 },
-        { "date": "2026-04-01", "title": "Track 5x1km", "sport": "Run", "duration_hours": 1.0, "tss": 88, "distance_km": 10 },
-        { "date": "2026-04-02", "title": "Swim Speed Set", "sport": "Swim", "duration_hours": 0.75, "tss": 60, "distance_km": 2.0 },
-        { "date": "2026-04-03", "title": "Easy Run 45min", "sport": "Run", "duration_hours": 0.75, "tss": 42, "distance_km": 7.5 },
-        { "date": "2026-04-04", "title": "Long Ride 2h", "sport": "Bike", "duration_hours": 2.0, "tss": 135, "distance_km": 58 }
+        {
+          "date": "2026-03-30",
+          "title": "Easy Swim 1.5km",
+          "sport": "Swim",
+          "duration_hours": 0.75,
+          "tss": 40,
+          "distance_km": 1.5
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Bike Tempo 1h30",
+          "sport": "Bike",
+          "duration_hours": 1.5,
+          "tss": 105,
+          "distance_km": 42
+        },
+        {
+          "date": "2026-04-01",
+          "title": "Track 5x1km",
+          "sport": "Run",
+          "duration_hours": 1.0,
+          "tss": 88,
+          "distance_km": 10
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Swim Speed Set",
+          "sport": "Swim",
+          "duration_hours": 0.75,
+          "tss": 60,
+          "distance_km": 2.0
+        },
+        {
+          "date": "2026-04-03",
+          "title": "Easy Run 45min",
+          "sport": "Run",
+          "duration_hours": 0.75,
+          "tss": 42,
+          "distance_km": 7.5
+        },
+        {
+          "date": "2026-04-04",
+          "title": "Long Ride 2h",
+          "sport": "Bike",
+          "duration_hours": 2.0,
+          "tss": 135,
+          "distance_km": 58
+        }
       ],
       "missed_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-06", "title": "Recovery Swim", "sport": "Swim", "duration_hours": 0.75, "tss_planned": 30 },
-        { "date": "2026-04-07", "title": "Run Tempo 50min", "sport": "Run", "duration_hours": 0.83, "tss_planned": 65 },
-        { "date": "2026-04-08", "title": "Bike Intervals", "sport": "Bike", "duration_hours": 1.25, "tss_planned": 95 },
-        { "date": "2026-04-10", "title": "Easy Run 40min", "sport": "Run", "duration_hours": 0.67, "tss_planned": 35 },
-        { "date": "2026-04-11", "title": "Long Ride 2h30", "sport": "Bike", "duration_hours": 2.5, "tss_planned": 155 }
+        {
+          "date": "2026-04-06",
+          "title": "Recovery Swim",
+          "sport": "Swim",
+          "duration_hours": 0.75,
+          "tss_planned": 30
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Run Tempo 50min",
+          "sport": "Run",
+          "duration_hours": 0.83,
+          "tss_planned": 65
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Bike Intervals",
+          "sport": "Bike",
+          "duration_hours": 1.25,
+          "tss_planned": 95
+        },
+        {
+          "date": "2026-04-10",
+          "title": "Easy Run 40min",
+          "sport": "Run",
+          "duration_hours": 0.67,
+          "tss_planned": 35
+        },
+        {
+          "date": "2026-04-11",
+          "title": "Long Ride 2h30",
+          "sport": "Bike",
+          "duration_hours": 2.5,
+          "tss_planned": 155
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-01", "ctl": 40, "atl": 35, "tsb": 5, "tss": 45 },
-        { "date": "2026-03-08", "ctl": 44, "atl": 50, "tsb": -6, "tss": 70 },
-        { "date": "2026-03-15", "ctl": 48, "atl": 55, "tsb": -7, "tss": 75 },
-        { "date": "2026-03-22", "ctl": 51, "atl": 58, "tsb": -7, "tss": 72 },
-        { "date": "2026-03-29", "ctl": 53, "atl": 55, "tsb": -2, "tss": 60 },
-        { "date": "2026-04-05", "ctl": 55, "atl": 60, "tsb": -5, "tss": 68 }
+        {
+          "date": "2026-03-01",
+          "ctl": 40,
+          "atl": 35,
+          "tsb": 5,
+          "tss": 45
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 44,
+          "atl": 50,
+          "tsb": -6,
+          "tss": 70
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 48,
+          "atl": 55,
+          "tsb": -7,
+          "tss": 75
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 51,
+          "atl": 58,
+          "tsb": -7,
+          "tss": 72
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 53,
+          "atl": 55,
+          "tsb": -2,
+          "tss": 60
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 55,
+          "atl": 60,
+          "tsb": -5,
+          "tss": 68
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-02-24", "tss": 380, "hours": 5.5, "ctl_end": 40 },
-        { "week_start": "2026-03-03", "tss": 440, "hours": 6.5, "ctl_end": 44 },
-        { "week_start": "2026-03-10", "tss": 480, "hours": 7.0, "ctl_end": 48 },
-        { "week_start": "2026-03-17", "tss": 460, "hours": 6.8, "ctl_end": 51 },
-        { "week_start": "2026-03-24", "tss": 430, "hours": 6.5, "ctl_end": 53 },
-        { "week_start": "2026-03-31", "tss": 510, "hours": 7.5, "ctl_end": 55 }
+        {
+          "week_start": "2026-02-24",
+          "tss": 380,
+          "hours": 5.5,
+          "ctl_end": 40
+        },
+        {
+          "week_start": "2026-03-03",
+          "tss": 440,
+          "hours": 6.5,
+          "ctl_end": 44
+        },
+        {
+          "week_start": "2026-03-10",
+          "tss": 480,
+          "hours": 7.0,
+          "ctl_end": 48
+        },
+        {
+          "week_start": "2026-03-17",
+          "tss": 460,
+          "hours": 6.8,
+          "ctl_end": 51
+        },
+        {
+          "week_start": "2026-03-24",
+          "tss": 430,
+          "hours": 6.5,
+          "ctl_end": 53
+        },
+        {
+          "week_start": "2026-03-31",
+          "tss": 510,
+          "hours": 7.5,
+          "ctl_end": 55
+        }
       ],
-      "next_event": { "name": "HIM Dun Laoghaire", "date": "2026-05-31", "priority": "A", "days_out": 53, "ctl_target": 60, "ctl_current": 55 },
-      "peaks": { "bike_20min_power": { "value": 240, "date": "2026-03-17" }, "run_5k_pace": { "value": "4:30/km", "date": "2026-04-01" } },
+      "next_event": {
+        "name": "HIM Dun Laoghaire",
+        "date": "2026-05-31",
+        "priority": "A",
+        "days_out": 53,
+        "ctl_target": 60,
+        "ctl_current": 55
+      },
+      "peaks": {
+        "bike_20min_power": {
+          "value": 240,
+          "date": "2026-03-17"
+        },
+        "run_5k_pace": {
+          "value": "4:30/km",
+          "date": "2026-04-01"
+        }
+      },
       "flags": []
     },
     "aine-byrne": {
       "name": "Aine Byrne",
       "avatar_initials": "AB",
       "is_real": false,
-      "current_fitness": { "ctl": 38, "atl": 15, "tsb": 23, "status": "fresh" },
+      "current_fitness": {
+        "ctl": 38,
+        "atl": 15,
+        "tsb": 23,
+        "status": "fresh"
+      },
       "this_week": {
         "start": "2026-03-30",
         "end": "2026-04-05",
@@ -409,36 +1729,152 @@
         "compliance_pct": 33,
         "total_tss": 95,
         "total_hours": 1.5,
-        "by_sport": { "Run": { "hours": 0.75, "tss": 50 }, "Other": { "hours": 0.75, "tss": 45 } }
+        "by_sport": {
+          "Run": {
+            "hours": 0.75,
+            "tss": 50
+          },
+          "Other": {
+            "hours": 0.75,
+            "tss": 45
+          }
+        }
       },
       "completed_sessions": [
-        { "date": "2026-04-01", "title": "Easy Jog 45min", "sport": "Run", "duration_hours": 0.75, "tss": 50, "distance_km": 6 },
-        { "date": "2026-04-03", "title": "Strength Session", "sport": "Other", "duration_hours": 0.75, "tss": 45, "distance_km": null }
+        {
+          "date": "2026-04-01",
+          "title": "Easy Jog 45min",
+          "sport": "Run",
+          "duration_hours": 0.75,
+          "tss": 50,
+          "distance_km": 6
+        },
+        {
+          "date": "2026-04-03",
+          "title": "Strength Session",
+          "sport": "Other",
+          "duration_hours": 0.75,
+          "tss": 45,
+          "distance_km": null
+        }
       ],
       "missed_sessions": [],
       "upcoming_sessions": [
-        { "date": "2026-04-06", "title": "Trail Run 1h", "sport": "Run", "duration_hours": 1.0, "tss_planned": 70 },
-        { "date": "2026-04-08", "title": "Bike + Run Brick", "sport": "Bike", "duration_hours": 1.5, "tss_planned": 95 }
+        {
+          "date": "2026-04-06",
+          "title": "Trail Run 1h",
+          "sport": "Run",
+          "duration_hours": 1.0,
+          "tss_planned": 70
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Bike + Run Brick",
+          "sport": "Bike",
+          "duration_hours": 1.5,
+          "tss_planned": 95
+        }
       ],
       "fitness_history": [
-        { "date": "2026-03-01", "ctl": 52, "atl": 55, "tsb": -3, "tss": 65 },
-        { "date": "2026-03-08", "ctl": 50, "atl": 45, "tsb": 5, "tss": 40 },
-        { "date": "2026-03-15", "ctl": 47, "atl": 35, "tsb": 12, "tss": 30 },
-        { "date": "2026-03-22", "ctl": 44, "atl": 28, "tsb": 16, "tss": 22 },
-        { "date": "2026-03-29", "ctl": 41, "atl": 20, "tsb": 21, "tss": 15 },
-        { "date": "2026-04-05", "ctl": 38, "atl": 15, "tsb": 23, "tss": 12 }
+        {
+          "date": "2026-03-01",
+          "ctl": 52,
+          "atl": 55,
+          "tsb": -3,
+          "tss": 65
+        },
+        {
+          "date": "2026-03-08",
+          "ctl": 50,
+          "atl": 45,
+          "tsb": 5,
+          "tss": 40
+        },
+        {
+          "date": "2026-03-15",
+          "ctl": 47,
+          "atl": 35,
+          "tsb": 12,
+          "tss": 30
+        },
+        {
+          "date": "2026-03-22",
+          "ctl": 44,
+          "atl": 28,
+          "tsb": 16,
+          "tss": 22
+        },
+        {
+          "date": "2026-03-29",
+          "ctl": 41,
+          "atl": 20,
+          "tsb": 21,
+          "tss": 15
+        },
+        {
+          "date": "2026-04-05",
+          "ctl": 38,
+          "atl": 15,
+          "tsb": 23,
+          "tss": 12
+        }
       ],
       "weekly_trend": [
-        { "week_start": "2026-02-24", "tss": 380, "hours": 5.5, "ctl_end": 52 },
-        { "week_start": "2026-03-03", "tss": 300, "hours": 4.5, "ctl_end": 50 },
-        { "week_start": "2026-03-10", "tss": 220, "hours": 3.5, "ctl_end": 47 },
-        { "week_start": "2026-03-17", "tss": 170, "hours": 2.5, "ctl_end": 44 },
-        { "week_start": "2026-03-24", "tss": 120, "hours": 2.0, "ctl_end": 41 },
-        { "week_start": "2026-03-31", "tss": 95, "hours": 1.5, "ctl_end": 38 }
+        {
+          "week_start": "2026-02-24",
+          "tss": 380,
+          "hours": 5.5,
+          "ctl_end": 52
+        },
+        {
+          "week_start": "2026-03-03",
+          "tss": 300,
+          "hours": 4.5,
+          "ctl_end": 50
+        },
+        {
+          "week_start": "2026-03-10",
+          "tss": 220,
+          "hours": 3.5,
+          "ctl_end": 47
+        },
+        {
+          "week_start": "2026-03-17",
+          "tss": 170,
+          "hours": 2.5,
+          "ctl_end": 44
+        },
+        {
+          "week_start": "2026-03-24",
+          "tss": 120,
+          "hours": 2.0,
+          "ctl_end": 41
+        },
+        {
+          "week_start": "2026-03-31",
+          "tss": 95,
+          "hours": 1.5,
+          "ctl_end": 38
+        }
       ],
-      "next_event": { "name": "Gaelforce West", "date": "2026-04-19", "priority": "A", "days_out": 11, "ctl_target": 65, "ctl_current": 38 },
-      "peaks": { "run_5k_pace": { "value": "5:10/km", "date": "2026-03-01" } },
-      "flags": ["missed_2+", "race_risk"]
+      "next_event": {
+        "name": "Gaelforce West",
+        "date": "2026-04-19",
+        "priority": "A",
+        "days_out": 11,
+        "ctl_target": 65,
+        "ctl_current": 38
+      },
+      "peaks": {
+        "run_5k_pace": {
+          "value": "5:10/km",
+          "date": "2026-03-01"
+        }
+      },
+      "flags": [
+        "missed_2+",
+        "race_risk"
+      ]
     }
   },
   "roster_summary": [
@@ -448,7 +1884,12 @@
       "compliance_pct": 100,
       "next_event": "T100 Dubai",
       "days_to_event": 216,
-      "weekly_tss_trend": [860, 832, 473, 69],
+      "weekly_tss_trend": [
+        860,
+        832,
+        473,
+        69
+      ],
       "flags": []
     },
     {
@@ -457,7 +1898,14 @@
       "compliance_pct": 100,
       "next_event": "IM Cork",
       "days_to_event": 39,
-      "weekly_tss_trend": [480, 550, 610, 580, 520, 620],
+      "weekly_tss_trend": [
+        480,
+        550,
+        610,
+        580,
+        520,
+        620
+      ],
       "flags": []
     },
     {
@@ -466,7 +1914,14 @@
       "compliance_pct": 83,
       "next_event": "Dublin Marathon",
       "days_to_event": 25,
-      "weekly_tss_trend": [350, 400, 430, 390, 360, 410],
+      "weekly_tss_trend": [
+        350,
+        400,
+        430,
+        390,
+        360,
+        410
+      ],
       "flags": []
     },
     {
@@ -475,8 +1930,17 @@
       "compliance_pct": 60,
       "next_event": null,
       "days_to_event": null,
-      "weekly_tss_trend": [420, 350, 280, 240, 200, 180],
-      "flags": ["compliance_dropping"]
+      "weekly_tss_trend": [
+        420,
+        350,
+        280,
+        240,
+        200,
+        180
+      ],
+      "flags": [
+        "compliance_dropping"
+      ]
     },
     {
       "id": "tom-murphy",
@@ -484,7 +1948,14 @@
       "compliance_pct": 86,
       "next_event": "HIM Dun Laoghaire",
       "days_to_event": 53,
-      "weekly_tss_trend": [380, 440, 480, 460, 430, 510],
+      "weekly_tss_trend": [
+        380,
+        440,
+        480,
+        460,
+        430,
+        510
+      ],
       "flags": []
     },
     {
@@ -493,8 +1964,18 @@
       "compliance_pct": 33,
       "next_event": "Gaelforce West",
       "days_to_event": 11,
-      "weekly_tss_trend": [380, 300, 220, 170, 120, 95],
-      "flags": ["missed_2+", "race_risk"]
+      "weekly_tss_trend": [
+        380,
+        300,
+        220,
+        170,
+        120,
+        95
+      ],
+      "flags": [
+        "missed_2+",
+        "race_risk"
+      ]
     }
   ]
 }
