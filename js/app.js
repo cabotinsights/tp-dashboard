@@ -23,7 +23,9 @@ function app() {
 
     get roster() {
       if (!this.data) return [];
-      return this.data.roster_summary || [];
+      if (Array.isArray(this.data.roster)) return this.data.roster;
+      if (Array.isArray(this.data.roster_summary)) return this.data.roster_summary;
+      return [];
     },
 
     get activeAthlete() {
@@ -34,17 +36,30 @@ function app() {
     },
 
     get rosterCounts() {
+      var summary = this.data && this.data.roster_summary;
+      if (summary && typeof summary === 'object' && !Array.isArray(summary)) {
+        return {
+          onTrack: summary.on_track || 0,
+          watch: summary.watch || 0,
+          needsCheckin: summary.needs_checkin || 0,
+          total: summary.total || 0
+        };
+      }
       var r = this.roster;
-      var onTrack = 0, watch = 0, flagged = 0;
+      var onTrack = 0, watch = 0, needsCheckin = 0;
       r.forEach(function(a) {
-        if (a.flags && a.flags.length > 0) { flagged++; }
-        else if (a.compliance_pct < 70) { watch++; }
-        else { onTrack++; }
+        if (a.status === 'needs_checkin') needsCheckin++;
+        else if (a.status === 'watch') watch++;
+        else onTrack++;
       });
-      return { onTrack: onTrack, watch: watch, flagged: flagged };
+      return { onTrack: onTrack, watch: watch, needsCheckin: needsCheckin, total: r.length };
     },
 
     get avgCompliance() {
+      var s = this.data && this.data.roster_summary;
+      if (s && typeof s === 'object' && !Array.isArray(s) && typeof s.avg_compliance_pct === 'number') {
+        return s.avg_compliance_pct;
+      }
       var r = this.roster;
       if (r.length === 0) return 0;
       var sum = r.reduce(function(acc, a) { return acc + (a.compliance_pct || 0); }, 0);

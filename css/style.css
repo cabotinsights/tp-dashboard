@@ -1378,3 +1378,13 @@ body {
   opacity: 0.3;
   cursor: not-allowed;
 }
+
+.alert-card {
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.15s;
+}
+.alert-card:hover { transform: translateY(-1px); }
+.alert-card--active {
+  outline: 2px solid #3177FF;
+  outline-offset: -2px;
+}

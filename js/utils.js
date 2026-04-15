@@ -65,14 +65,46 @@ function sportClass(sport) {
 }
 
 function flagEmoji(flag) {
+  var type = typeof flag === 'string' ? flag : (flag && flag.type);
   var map = {
+    'missed_sessions': '❌',
+    'fatigue_risk': '⚠️',
+    'training_gap': '💤',
+    'mood_keyword': '🗨️',
+    'race_not_ready': '🏁',
     'overreaching': '⚠️',
     'missed_2+': '❌',
     'compliance_dropping': '📉',
     'stale': '💤',
-    'race_risk': '🔴'
+    'race_risk': '🏁'
   };
-  return map[flag] || '⚪';
+  return map[type] || '⚪';
+}
+
+function flagLabel(flag) {
+  var type = typeof flag === 'string' ? flag : (flag && flag.type);
+  var map = {
+    'missed_sessions': 'Missed Sessions',
+    'fatigue_risk': 'Fatigue Risk',
+    'training_gap': 'Training Gap',
+    'mood_keyword': 'Mood Warning',
+    'race_not_ready': 'Race Not Ready'
+  };
+  return map[type] || type || '';
+}
+
+function statusLabel(status) {
+  if (status === 'needs_checkin') return 'Needs Check-In';
+  if (status === 'watch') return 'Watch';
+  if (status === 'on_track') return 'On Track';
+  return '—';
+}
+
+function statusClass(status) {
+  if (status === 'needs_checkin') return 'status-red';
+  if (status === 'watch') return 'status-amber';
+  if (status === 'on_track') return 'status-green';
+  return 'status-grey';
 }
 
 function raceRag(ctlCurrent, ctlTarget, daysOut) {
