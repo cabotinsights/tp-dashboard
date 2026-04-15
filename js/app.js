@@ -517,6 +517,16 @@ function app() {
           if (a) renderFitnessTrend('fitnessChart-drill', self.filteredFitness(a));
         }
       });
+      this.$watch('drillAthlete', function(id) {
+        if (id) {
+          self.$nextTick(function() {
+            var a = self.athleteData(id);
+            if (a && a.fitness_history) {
+              renderDrillFitnessTrend('detailTrendChart', a.fitness_history);
+            }
+          });
+        }
+      });
     }
   };
 }

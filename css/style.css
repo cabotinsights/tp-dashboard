@@ -1691,3 +1691,16 @@ body {
   line-height: 1.4;
 }
 .mood-flag { color: #FBBF24; font-size: 14px; }
+
+.detail-header-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.last-reviewed {
+  font-size: 11px;
+  color: rgba(241,245,249,0.4);
+  margin-left: auto;
+}
