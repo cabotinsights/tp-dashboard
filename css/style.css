@@ -1591,3 +1591,58 @@ body {
 .card-delta { font-size: 11px; margin-top: 4px; }
 .delta-up { color: #4ADE80; }
 .delta-down { color: #F87171; }
+
+.coach-heatmap-wrap {
+  overflow-x: auto;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.coach-heatmap {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 3px;
+  font-size: 12px;
+}
+.coach-heatmap th {
+  position: sticky;
+  top: 0;
+  background: #0F172A;
+  color: rgba(241,245,249,0.6);
+  font-weight: 500;
+  padding: 8px 6px;
+  z-index: 2;
+  text-align: center;
+}
+.coach-heatmap th.heatmap-name-col, .coach-heatmap td.heatmap-name-col {
+  position: sticky;
+  left: 0;
+  background: #0F172A;
+  text-align: left;
+  min-width: 180px;
+  padding: 6px 10px;
+  z-index: 3;
+}
+.coach-heatmap .heatmap-date {
+  font-size: 10px;
+  color: rgba(241,245,249,0.4);
+}
+.coach-cell {
+  min-width: 54px;
+  height: 52px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  position: relative;
+  transition: transform 0.1s;
+}
+.coach-cell:hover { transform: scale(1.04); }
+.cell-icon { font-size: 16px; line-height: 1; }
+.cell-tss { font-size: 11px; font-weight: 600; margin-top: 2px; color: #F1F5F9; }
+.cell-multi {
+  position: absolute; top: 2px; right: 4px;
+  font-size: 9px; font-weight: 700; color: #3177FF;
+}
+.cell-done { background: rgba(34, 197, 94, 0.15); border-color: rgba(34, 197, 94, 0.35); }
+.cell-missed { background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.35); }
+.cell-upcoming { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.08); }
+.cell-rest { background: rgba(255,255,255,0.02); border-color: rgba(255,255,255,0.04); }

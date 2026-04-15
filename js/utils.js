@@ -135,3 +135,10 @@ function sparklineSvg(data, width, height) {
     '<polyline fill="none" stroke="#3177FF" stroke-width="1.5" filter="url(#glow)" points="' +
     points + '"/></svg>';
 }
+
+function addDaysIso(iso, n) {
+  if (!iso) return '';
+  var d = new Date(iso + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
