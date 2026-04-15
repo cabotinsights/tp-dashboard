@@ -550,6 +550,34 @@
         </div>
       </div>
 
+      <!-- Filter bar -->
+      <div class="filter-bar">
+        <input type="text" class="filter-search" placeholder="Search athletes..." x-model="triageFilters.search">
+        <div class="filter-chips">
+          <span class="filter-label">Sport:</span>
+          <template x-for="sport in ['run', 'bike', 'swim', 'other']" :key="sport">
+            <button class="filter-chip" :class="{ 'active': triageFilters.sports.includes(sport) }"
+                    @click="toggleSportFilter(sport)">
+              <span x-text="sport === 'run' ? '🏃' : sport === 'bike' ? '🚴' : sport === 'swim' ? '🏊' : '•'"></span>
+              <span x-text="sport.charAt(0).toUpperCase() + sport.slice(1)"></span>
+            </button>
+          </template>
+        </div>
+        <div class="filter-chips">
+          <span class="filter-label">Flag:</span>
+          <template x-for="flagType in ['missed_sessions', 'fatigue_risk', 'training_gap', 'mood_keyword', 'race_not_ready']" :key="flagType">
+            <button class="filter-chip" :class="{ 'active': triageFilters.flagTypes.includes(flagType) }"
+                    @click="toggleFlagFilter(flagType)">
+              <span x-text="flagEmoji(flagType)"></span>
+              <span x-text="flagLabel(flagType)"></span>
+            </button>
+          </template>
+        </div>
+        <button class="filter-clear" x-show="hasActiveFilters()" @click="clearTriageFilters()">
+          ✕ Clear filters
+        </button>
+      </div>
+
       <!-- Roster Table -->
       <div class="section">
         <h2 class="section-title">Athlete Roster</h2>

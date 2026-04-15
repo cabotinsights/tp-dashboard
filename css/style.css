@@ -1388,3 +1388,74 @@ body {
   outline: 2px solid #3177FF;
   outline-offset: -2px;
 }
+
+/* Triage filter bar */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.filter-search {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #F1F5F9;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  min-width: 220px;
+  flex: 0 1 260px;
+}
+.filter-search::placeholder { color: rgba(241,245,249,0.4); }
+.filter-search:focus {
+  outline: none;
+  border-color: #3177FF;
+}
+.filter-chips {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.filter-label {
+  font-size: 12px;
+  color: rgba(241,245,249,0.5);
+  margin-right: 4px;
+}
+.filter-chip {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(241,245,249,0.8);
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.filter-chip:hover {
+  background: rgba(255,255,255,0.08);
+}
+.filter-chip.active {
+  background: rgba(49, 119, 255, 0.2);
+  border-color: #3177FF;
+  color: #F1F5F9;
+}
+.filter-clear {
+  background: none;
+  border: none;
+  color: rgba(241,245,249,0.5);
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.filter-clear:hover { color: #F1F5F9; }

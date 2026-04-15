@@ -28,6 +28,72 @@ function app() {
       return [];
     },
 
+    get triageRoster() {
+      var r = this.roster.slice();
+      var f = this.triageFilters;
+
+      if (f.search) {
+        var q = f.search.toLowerCase();
+        r = r.filter(function(a) { return (a.name || '').toLowerCase().indexOf(q) !== -1; });
+      }
+      if (f.statusFilter) {
+        r = r.filter(function(a) { return a.status === f.statusFilter; });
+      }
+      if (f.sports && f.sports.length > 0) {
+        var athletes = (this.data && this.data.athletes) || {};
+        r = r.filter(function(entry) {
+          var a = athletes[entry.id];
+          if (!a || !a.sessions_by_week) return false;
+          for (var wk in a.sessions_by_week) {
+            var sessions = a.sessions_by_week[wk] || [];
+            for (var i = 0; i < sessions.length; i++) {
+              if (f.sports.indexOf(sportClass(sessions[i].sport)) !== -1) return true;
+            }
+          }
+          return false;
+        });
+      }
+      if (f.flagTypes && f.flagTypes.length > 0) {
+        r = r.filter(function(a) {
+          if (!a.flags || a.flags.length === 0) return false;
+          return a.flags.some(function(fl) { return f.flagTypes.indexOf(fl.type) !== -1; });
+        });
+      }
+
+      var severityOrder = { needs_checkin: 0, watch: 1, on_track: 2 };
+      r.sort(function(a, b) {
+        var da = severityOrder[a.status] != null ? severityOrder[a.status] : 99;
+        var db = severityOrder[b.status] != null ? severityOrder[b.status] : 99;
+        if (da !== db) return da - db;
+        var ra = a.days_to_event == null ? 9999 : a.days_to_event;
+        var rb = b.days_to_event == null ? 9999 : b.days_to_event;
+        return ra - rb;
+      });
+
+      return r;
+    },
+
+    toggleFlagFilter(type) {
+      var idx = this.triageFilters.flagTypes.indexOf(type);
+      if (idx === -1) this.triageFilters.flagTypes.push(type);
+      else this.triageFilters.flagTypes.splice(idx, 1);
+    },
+
+    toggleSportFilter(sport) {
+      var idx = this.triageFilters.sports.indexOf(sport);
+      if (idx === -1) this.triageFilters.sports.push(sport);
+      else this.triageFilters.sports.splice(idx, 1);
+    },
+
+    clearTriageFilters() {
+      this.triageFilters = { search: '', sports: [], flagTypes: [], statusFilter: null };
+    },
+
+    hasActiveFilters() {
+      var f = this.triageFilters;
+      return !!(f.search || f.statusFilter || (f.flagTypes && f.flagTypes.length > 0) || (f.sports && f.sports.length > 0));
+    },
+
     get activeAthlete() {
       if (this.drillAthlete && this.data) {
         return this.data.athletes[this.drillAthlete] || null;
