@@ -1,41 +1,37 @@
 #!/bin/bash
-# DBT Dashboard - Automated Data Refresh
-# Called by launchd daily at 7am
-# Logs to ~/tp-dashboard/logs/
+# DBT Dashboard - Daily Refresh Orchestrator
+# Called by launchd at 7am. Two stages: pull raw TP data, then build data.json.
 
+set -e
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 LOG_DIR="$HOME/tp-dashboard/logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/refresh-$(date +%Y-%m-%d).log"
 
-echo "=== DBT Dashboard Refresh ===" >> "$LOG_FILE"
-echo "Started: $(date)" >> "$LOG_FILE"
+echo "=== DBT Dashboard Refresh $(date) ===" >> "$LOG_FILE"
 
-# Run Claude Code non-interactively
-claude -p "You are refreshing the DBT Dashboard data. Do these steps silently and efficiently:
+# Stage A: pull raw data from TP MCP (non-fatal on failure — last-good raw is reused)
+if ! "$REPO_ROOT/scripts/pull-tp-data.sh"; then
+  echo "Stage A (pull) FAILED — continuing with last-good raw data" >> "$LOG_FILE"
+fi
 
-1. Use the TrainingPeaks MCP tools to pull fresh data:
-   - tp_get_fitness(days: 90)
-   - tp_get_workouts for the current TP week (Mon-Sun) with type all
-   - tp_get_workouts for the next 7 days with type planned
-   - tp_get_weekly_summary for current week
-   - tp_get_next_event and tp_get_focus_event
-   - tp_get_peaks for Bike power20min and Run speed5K
-   - tp_get_metrics for the last 7 days (sleep/HRV data)
+# Stage B: build data.json from raw + dummy (must succeed)
+cd "$REPO_ROOT"
+node scripts/build-data-json.mjs >> "$LOG_FILE" 2>&1
 
-2. Read /Users/stephenbates/tp-dashboard/data.json and /Users/stephenbates/tp-dashboard/dummy-athletes.json
+# Run tests before committing — if a rule broke, don't publish
+node --test scripts/flag-rules.test.mjs scripts/build-data-json.test.mjs >> "$LOG_FILE" 2>&1 || {
+  echo "Tests FAILED — not committing" >> "$LOG_FILE"
+  exit 1
+}
 
-3. Rebuild data.json with:
-   - Updated fitness numbers, sessions, compliance
-   - Fresh sleep/recovery data
-   - Updated coach_summary (2-3 sentences on current state)
-   - All dummy athletes kept as-is
-   - Updated roster_summary
+# Commit & push (only if data.json changed)
+if ! git diff --quiet data.json; then
+  git add data.json
+  git commit -m "data: auto-refresh $(date +%Y-%m-%d)" >> "$LOG_FILE" 2>&1
+  GITHUB_TOKEN= git push origin "$(git rev-parse --abbrev-ref HEAD)" >> "$LOG_FILE" 2>&1 || echo "Push failed" >> "$LOG_FILE"
+else
+  echo "No data.json changes to commit" >> "$LOG_FILE"
+fi
 
-4. Write to /Users/stephenbates/tp-dashboard/data.json
-
-5. Run: cd /Users/stephenbates/tp-dashboard && git add data.json && git commit -m 'data: auto-refresh $(date +%Y-%m-%d)' && GITHUB_TOKEN= git push origin main
-
-Only output a brief summary of what changed." --allowedTools "mcp__trainingpeaks__*,Read,Write,Bash,Edit,Glob,Grep" >> "$LOG_FILE" 2>&1
-
-echo "Finished: $(date)" >> "$LOG_FILE"
-echo "===" >> "$LOG_FILE"
+echo "=== Done $(date) ===" >> "$LOG_FILE"
