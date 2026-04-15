@@ -585,36 +585,57 @@
           <thead>
             <tr>
               <th>Athlete</th>
+              <th>Status</th>
               <th>Compliance</th>
+              <th>Why Flagged</th>
               <th>Next Race</th>
               <th>Days</th>
               <th>Trend</th>
-              <th>Flags</th>
+              <th>CTL</th>
+              <th>TSB</th>
             </tr>
           </thead>
           <tbody>
-            <template x-for="a in roster" :key="a.id">
-              <tr class="roster-row" @click="drillAthlete = a.id" style="cursor:pointer">
-                <td x-text="a.name"></td>
+            <template x-for="a in triageRoster" :key="a.id">
+              <tr class="roster-row" @click="drillAthlete = a.id; coachTab = 'detail'" style="cursor:pointer">
+                <td>
+                  <span class="avatar-pill" x-text="a.avatar_initials || (a.name||'').slice(0,2)"></span>
+                  <span x-text="a.name"></span>
+                </td>
+                <td>
+                  <span class="status-pill" :class="statusClass(a.status)" x-text="statusLabel(a.status)"></span>
+                </td>
                 <td>
                   <span class="compliance-badge" :class="'compliance-' + complianceClass(a.compliance_pct)">
                     <span x-text="a.compliance_pct"></span>%
                   </span>
                 </td>
-                <td x-text="a.next_event ? a.next_event : '—'"></td>
-                <td x-text="a.days_to_event != null ? a.days_to_event : '—'"></td>
-                <td x-html="a.weekly_tss_trend ? sparklineSvg(a.weekly_tss_trend, 80, 24) : ''"></td>
-                <td>
-                  <template x-if="a.flags && a.flags.length > 0">
-                    <span>
-                      <template x-for="f in a.flags" :key="f">
-                        <span :title="f" x-text="flagEmoji(f)"></span>
-                      </template>
-                    </span>
-                  </template>
+                <td class="why-flagged">
                   <template x-if="!a.flags || a.flags.length === 0">
                     <span class="text-muted">—</span>
                   </template>
+                  <template x-if="a.flags && a.flags.length > 0">
+                    <span>
+                      <template x-for="f in a.flags.slice(0, 3)" :key="f.type">
+                        <span class="flag-pill" :class="'flag-' + (f.severity || 'amber')" :title="f.reason">
+                          <span x-text="flagEmoji(f)"></span>
+                          <span class="flag-pill-reason" x-text="f.reason"></span>
+                        </span>
+                      </template>
+                    </span>
+                  </template>
+                </td>
+                <td x-text="a.next_event || '—'"></td>
+                <td x-text="a.days_to_event != null ? a.days_to_event : '—'"></td>
+                <td x-html="a.weekly_tss_trend ? sparklineSvg(a.weekly_tss_trend, 80, 24) : ''"></td>
+                <td x-text="a.ctl != null ? a.ctl.toFixed(0) : '—'"></td>
+                <td x-text="a.tsb != null ? a.tsb.toFixed(0) : '—'"></td>
+              </tr>
+            </template>
+            <template x-if="triageRoster.length === 0">
+              <tr>
+                <td colspan="9" class="text-muted" style="text-align:center;padding:32px">
+                  No athletes match these filters.
                 </td>
               </tr>
             </template>

@@ -1459,3 +1459,83 @@ body {
   margin-left: auto;
 }
 .filter-clear:hover { color: #F1F5F9; }
+
+/* Avatar initials pill */
+.avatar-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(49, 119, 255, 0.15);
+  color: #3177FF;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Status pill */
+.status-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.status-red {
+  background: rgba(239, 68, 68, 0.15);
+  color: #F87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+.status-amber {
+  background: rgba(245, 158, 11, 0.15);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+.status-green {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ADE80;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.status-grey {
+  background: rgba(255,255,255,0.06);
+  color: rgba(241,245,249,0.5);
+}
+
+/* Flag pills inside "Why Flagged" column */
+.why-flagged { max-width: 320px; }
+.flag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  margin-right: 4px;
+  margin-bottom: 3px;
+  max-width: 280px;
+  vertical-align: middle;
+}
+.flag-pill-reason {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+}
+.flag-red {
+  background: rgba(239, 68, 68, 0.1);
+  color: #F87171;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+.flag-amber {
+  background: rgba(245, 158, 11, 0.1);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+.roster-row:hover {
+  background: rgba(255,255,255,0.03);
+}
