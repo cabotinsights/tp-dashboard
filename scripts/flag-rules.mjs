@@ -56,7 +56,23 @@ const fatigueRiskRule = {
     return null;
   },
 };
-const trainingGapRule = { type: 'training_gap', evaluate() { return null; } };
+const trainingGapRule = {
+  type: 'training_gap',
+  evaluate(athlete) {
+    const sessions = flattenSessions(athlete)
+      .filter(s => s.status === 'completed')
+      .sort((a, b) => b.date.localeCompare(a.date));
+    const last = sessions[0];
+    const gap = last ? daysBetween(last.date, athlete.asOf) : 999;
+    if (gap >= 6) {
+      return { severity: 'red', reason: last ? `No workouts logged for ${gap} days` : 'No workouts logged' };
+    }
+    if (gap >= 4) {
+      return { severity: 'amber', reason: `No workouts logged for ${gap} days` };
+    }
+    return null;
+  },
+};
 const moodKeywordRule = { type: 'mood_keyword', evaluate() { return null; } };
 const raceNotReadyRule = { type: 'race_not_ready', evaluate() { return null; } };
 

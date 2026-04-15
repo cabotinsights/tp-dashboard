@@ -87,3 +87,46 @@ test('fatigue_risk: exactly -15 → amber (boundary)', () => {
   assert.ok(f);
   assert.equal(f.severity, 'amber');
 });
+
+test('training_gap: 3 days silent → no flag', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-04-06'] = [
+    { date: '2026-04-12', status: 'completed', tss_actual: 40 },
+  ];
+  const flags = evaluateFlags(a);
+  assert.equal(flags.filter(f => f.type === 'training_gap').length, 0);
+});
+
+test('training_gap: 4 days silent → amber', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-04-06'] = [
+    { date: '2026-04-11', status: 'completed', tss_actual: 40 },
+  ];
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'training_gap');
+  assert.ok(f);
+  assert.equal(f.severity, 'amber');
+});
+
+test('training_gap: 6 days silent → red', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-04-06'] = [
+    { date: '2026-04-09', status: 'completed', tss_actual: 40 },
+  ];
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'training_gap');
+  assert.ok(f);
+  assert.equal(f.severity, 'red');
+});
+
+test('training_gap: no sessions at all → red', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'training_gap');
+  assert.ok(f);
+  assert.equal(f.severity, 'red');
+});
