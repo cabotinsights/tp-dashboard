@@ -6,6 +6,7 @@ function app() {
     triageFilters: { search: '', sports: [], flagTypes: [], statusFilter: null },
     triageSort: { column: 'status', direction: 'desc' },
     weekOffset: 0,
+    reviewState: {},
     data: null,
     loading: true,
     refreshing: false,
@@ -92,6 +93,39 @@ function app() {
     hasActiveFilters() {
       var f = this.triageFilters;
       return !!(f.search || f.statusFilter || (f.flagTypes && f.flagTypes.length > 0) || (f.sports && f.sports.length > 0));
+    },
+
+    loadReviewState() {
+      try {
+        var raw = localStorage.getItem('coach_review_state_v1');
+        this.reviewState = raw ? JSON.parse(raw) : {};
+      } catch (e) {
+        this.reviewState = {};
+      }
+    },
+
+    saveReviewState() {
+      try {
+        localStorage.setItem('coach_review_state_v1', JSON.stringify(this.reviewState));
+      } catch (e) { }
+    },
+
+    markReviewed(athleteId) {
+      if (!this.reviewState) this.reviewState = {};
+      this.reviewState[athleteId] = new Date().toISOString();
+      this.saveReviewState();
+    },
+
+    markAllReviewed() {
+      var now = new Date().toISOString();
+      var self = this;
+      this.triageRoster.forEach(function(a) { self.reviewState[a.id] = now; });
+      this.saveReviewState();
+    },
+
+    lastReviewed(athleteId) {
+      if (!this.reviewState) return null;
+      return this.reviewState[athleteId] || null;
     },
 
     get activeAthlete() {
@@ -245,6 +279,7 @@ function app() {
     },
 
     async init() {
+      this.loadReviewState();
       await this.loadData();
       this.watchCharts();
     },

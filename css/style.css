@@ -1539,3 +1539,24 @@ body {
 .roster-row:hover {
   background: rgba(255,255,255,0.03);
 }
+
+.bulk-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.btn-bulk {
+  background: rgba(49, 119, 255, 0.1);
+  border: 1px solid rgba(49, 119, 255, 0.3);
+  color: #3177FF;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn-bulk:hover { background: rgba(49, 119, 255, 0.2); }
+.bulk-hint { color: rgba(241,245,249,0.4); }

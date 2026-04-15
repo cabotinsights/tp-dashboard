@@ -641,6 +641,12 @@
             </template>
           </tbody>
         </table>
+        <div class="bulk-actions">
+          <button class="btn-bulk" @click="markAllReviewed()">
+            ✓ Mark visible athletes as reviewed
+          </button>
+          <span class="bulk-hint" x-text="'Reviewed: ' + Object.keys(reviewState || {}).length + ' / ' + roster.length"></span>
+        </div>
       </div>
 
       <!-- Compliance Heatmap -->
