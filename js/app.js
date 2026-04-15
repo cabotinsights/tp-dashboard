@@ -7,6 +7,7 @@ function app() {
     triageSort: { column: 'status', direction: 'desc' },
     weekOffset: 0,
     selectedDetailWeek: null,
+    expandedSessionId: null,
     reviewState: {},
     data: null,
     loading: true,

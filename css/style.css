@@ -1715,3 +1715,66 @@ body {
 }
 .pva-stat strong { color: #F1F5F9; }
 .pva-gap { color: #FBBF24; }
+
+.tss-delta { font-size: 11px; margin-left: 4px; }
+.row-expanded {
+  background: rgba(49, 119, 255, 0.08);
+}
+.session-detail-panel {
+  margin-top: 12px;
+  padding: 16px 20px;
+  background: rgba(49, 119, 255, 0.04);
+  border: 1px solid rgba(49, 119, 255, 0.15);
+  border-radius: 8px;
+}
+.session-detail-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.btn-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: rgba(241,245,249,0.5);
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-close:hover { color: #F1F5F9; }
+.session-detail { max-width: 800px; }
+.session-description {
+  color: rgba(241,245,249,0.7);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.session-comments h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(241,245,249,0.5);
+  margin: 0 0 8px 0;
+}
+.session-comment {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.comment-role-athlete {
+  background: rgba(49, 119, 255, 0.08);
+  border-left: 2px solid #3177FF;
+}
+.comment-role-coach {
+  background: rgba(34, 197, 94, 0.08);
+  border-left: 2px solid #22C55E;
+}
+.comment-author {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-right: 6px;
+  color: rgba(241,245,249,0.5);
+  font-size: 11px;
+}

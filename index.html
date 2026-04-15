@@ -918,6 +918,74 @@
               </div>
             </div>
 
+            <!-- Row 4: Session list -->
+            <div class="section">
+              <h2 class="section-title">Sessions This Week</h2>
+              <table class="sessions-table detail-sessions">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Day</th>
+                    <th>Session</th>
+                    <th>Sport</th>
+                    <th>Duration</th>
+                    <th>Planned → Actual</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="s in detailThisWeekSessions()" :key="s.id">
+                    <tr @click="expandedSessionId = (expandedSessionId === s.id ? null : s.id)" style="cursor:pointer"
+                        :class="{ 'row-expanded': expandedSessionId === s.id }">
+                      <td>
+                        <template x-if="s.status === 'completed'"><span>✅</span></template>
+                        <template x-if="s.status === 'missed'"><span>❌</span></template>
+                        <template x-if="s.status === 'upcoming'"><span>⏳</span></template>
+                      </td>
+                      <td x-text="formatDay(s.date)"></td>
+                      <td x-text="s.title"></td>
+                      <td><span class="sport-tag" :class="'sport-' + sportClass(s.sport)" x-text="s.sport"></span></td>
+                      <td x-text="formatHours(s.duration_hours)"></td>
+                      <td>
+                        <span x-text="(s.tss_planned || 0) + ' → ' + (s.tss_actual != null ? s.tss_actual : '—')"></span>
+                        <template x-if="s.status === 'completed' && s.tss_planned">
+                          <span class="tss-delta" :class="(s.tss_actual - s.tss_planned) >= 0 ? 'delta-up' : 'delta-down'"
+                                x-text="' (' + ((s.tss_actual - s.tss_planned) >= 0 ? '+' : '') + (s.tss_actual - s.tss_planned) + ')'"></span>
+                        </template>
+                      </td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+              <template x-if="expandedSessionId">
+                <div class="session-detail-panel" x-data="{ s: detailThisWeekSessions().find(function(x) { return x.id === expandedSessionId; }) }">
+                  <template x-if="s">
+                    <div class="session-detail">
+                      <div class="session-detail-head">
+                        <strong x-text="s.title"></strong>
+                        <span x-text="formatDay(s.date)"></span>
+                        <button class="btn-close" @click="expandedSessionId = null">✕</button>
+                      </div>
+                      <p class="session-description" x-text="s.description || 'No description.'"></p>
+                      <template x-if="s.comments && s.comments.length > 0">
+                        <div class="session-comments">
+                          <h4>Comments</h4>
+                          <template x-for="c in s.comments" :key="c.author + c.created_at">
+                            <div class="session-comment" :class="'comment-role-' + c.author_role">
+                              <span class="comment-author" x-text="c.author_role + ':'"></span>
+                              <span x-text="c.text"></span>
+                            </div>
+                          </template>
+                        </div>
+                      </template>
+                      <template x-if="!s.comments || s.comments.length === 0">
+                        <p class="text-muted" style="margin:0">No comments on this session.</p>
+                      </template>
+                    </div>
+                  </template>
+                </div>
+              </template>
+            </div>
+
           </div>
         </template>
       </div>
