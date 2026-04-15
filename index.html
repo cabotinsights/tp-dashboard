@@ -649,55 +649,6 @@
         </div>
       </div>
 
-      <!-- Compliance Heatmap -->
-      <div class="section">
-        <h2 class="section-title">Weekly Heatmap</h2>
-        <div class="heatmap-container">
-          <table class="heatmap-table">
-            <thead>
-              <tr>
-                <th class="heatmap-name-col">Athlete</th>
-                <template x-if="heatmapData().length > 0 && heatmapData()[0].days.length > 0">
-                  <template x-for="day in heatmapData()[0].days" :key="day.date">
-                    <th x-text="formatDay(day.date)"></th>
-                  </template>
-                </template>
-              </tr>
-            </thead>
-            <tbody>
-              <template x-for="row in heatmapData()" :key="row.name">
-                <tr>
-                  <td class="heatmap-name-col" x-text="row.name"></td>
-                  <template x-for="day in row.days" :key="day.date">
-                    <td class="heatmap-cell" :title="day.date" x-text="heatmapIcon(day.status)"></td>
-                  </template>
-                </tr>
-              </template>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Upcoming Races -->
-      <div class="section">
-        <h2 class="section-title">Upcoming Races</h2>
-        <ul class="upcoming-list">
-          <template x-for="a in roster.filter(r => r.next_event && r.days_to_event != null).sort((x,y) => x.days_to_event - y.days_to_event)" :key="a.id">
-            <li class="upcoming-item">
-              <span class="upcoming-day" x-text="a.days_to_event + 'd'"></span>
-              <span class="upcoming-session">
-                <strong x-text="a.name"></strong>
-                &nbsp;—&nbsp;
-                <span x-text="a.next_event"></span>
-              </span>
-            </li>
-          </template>
-          <template x-if="roster.filter(r => r.next_event && r.days_to_event != null).length === 0">
-            <li class="text-muted">No upcoming races scheduled.</li>
-          </template>
-        </ul>
-      </div>
-
       </div>
 
       <!-- Week View Tab -->
@@ -873,19 +824,19 @@
             <div class="cards-grid">
               <div class="card">
                 <div class="card-label">CTL (Fitness)</div>
-                <div class="card-value" x-text="activeAthlete.current_fitness.ctl.toFixed(1)"></div>
+                <div class="card-value" x-text="activeAthlete.current_fitness && activeAthlete.current_fitness.ctl != null ? activeAthlete.current_fitness.ctl.toFixed(1) : '—'"></div>
               </div>
               <div class="card">
                 <div class="card-label">ATL (Fatigue)</div>
-                <div class="card-value" x-text="activeAthlete.current_fitness.atl.toFixed(1)"></div>
+                <div class="card-value" x-text="activeAthlete.current_fitness && activeAthlete.current_fitness.atl != null ? activeAthlete.current_fitness.atl.toFixed(1) : '—'"></div>
               </div>
               <div class="card">
                 <div class="card-label">TSB (Form)</div>
-                <div class="card-value" x-text="activeAthlete.current_fitness.tsb.toFixed(1)"></div>
+                <div class="card-value" x-text="activeAthlete.current_fitness && activeAthlete.current_fitness.tsb != null ? activeAthlete.current_fitness.tsb.toFixed(1) : '—'"></div>
               </div>
               <div class="card">
                 <div class="card-label">Compliance (this week)</div>
-                <div class="card-value"><span x-text="activeAthlete.compliance_pct"></span>%</div>
+                <div class="card-value"><span x-text="activeAthlete.compliance_pct != null ? activeAthlete.compliance_pct : 0"></span>%</div>
               </div>
             </div>
 

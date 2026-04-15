@@ -4,7 +4,6 @@ function app() {
     drillAthlete: null,
     coachTab: 'triage',
     triageFilters: { search: '', sports: [], flagTypes: [], statusFilter: null },
-    triageSort: { column: 'status', direction: 'desc' },
     weekOffset: 0,
     selectedDetailWeek: null,
     expandedSessionId: null,
@@ -403,43 +402,6 @@ function app() {
         cutoff = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
       }
       return hist.filter(function(d) { return new Date(d.date) >= cutoff; });
-    },
-
-    heatmapData() {
-      if (!this.data) return [];
-      var athletes = this.data.athletes;
-      var result = [];
-      var self = this;
-      this.roster.forEach(function(r) {
-        var a = athletes[r.id];
-        if (!a) return;
-        var week = a.this_week || {};
-        var days = [];
-        if (week.start) {
-          var d = new Date(week.start + 'T00:00:00');
-          for (var i = 0; i < 7; i++) {
-            var ds = d.toISOString().split('T')[0];
-            var completedOnDay = (a.completed_sessions || []).filter(function(s) { return s.date === ds; });
-            var allOnDay = (a.completed_sessions || []).concat(a.upcoming_sessions || []).filter(function(s) { return s.date === ds; });
-            var status = 'rest';
-            if (completedOnDay.length > 0) {
-              status = completedOnDay.length > 1 ? 'double' : 'done';
-            } else if (allOnDay.length > 0) {
-              var today = new Date().toISOString().split('T')[0];
-              status = ds <= today ? 'missed' : 'upcoming';
-            }
-            days.push({ date: ds, status: status });
-            d.setDate(d.getDate() + 1);
-          }
-        }
-        result.push({ name: a.name, days: days });
-      });
-      return result;
-    },
-
-    heatmapIcon(status) {
-      var map = { done: '✅', double: '✅✅', missed: '❌', upcoming: '⏳', rest: '🔘' };
-      return map[status] || '·';
     },
 
     async init() {
