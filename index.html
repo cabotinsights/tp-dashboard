@@ -986,6 +986,60 @@
               </template>
             </div>
 
+            <!-- Row 5: Race Countdown -->
+            <div class="section" x-show="activeAthlete.focus_event || activeAthlete.next_event">
+              <h2 class="section-title">Race Countdown</h2>
+              <template x-if="activeAthlete.focus_event">
+                <div class="race-countdown">
+                  <div class="race-name" x-text="activeAthlete.focus_event.name"></div>
+                  <div class="race-date" x-text="activeAthlete.focus_event.date"></div>
+                  <div class="race-days">
+                    <span class="days-big" x-text="activeAthlete.focus_event.days_out"></span>
+                    <span class="days-label"> days out</span>
+                  </div>
+                  <template x-if="activeAthlete.focus_event.ctl_target">
+                    <div class="ctl-progress">
+                      <div class="ctl-progress-labels">
+                        <span>CTL <span x-text="activeAthlete.focus_event.ctl_current.toFixed(1)"></span></span>
+                        <span>Target <span x-text="activeAthlete.focus_event.ctl_target"></span></span>
+                      </div>
+                      <div class="progress-bar">
+                        <div class="progress-fill"
+                          :class="'rag-' + raceRag(activeAthlete.focus_event.ctl_current, activeAthlete.focus_event.ctl_target, activeAthlete.focus_event.days_out)"
+                          :style="'width: ' + Math.min(100, Math.round(activeAthlete.focus_event.ctl_current / activeAthlete.focus_event.ctl_target * 100)) + '%'">
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </template>
+              <template x-if="!activeAthlete.focus_event && activeAthlete.next_event">
+                <div class="race-countdown">
+                  <div class="race-name" x-text="activeAthlete.next_event.name"></div>
+                  <div class="race-date" x-text="activeAthlete.next_event.date"></div>
+                  <div class="race-days">
+                    <span class="days-big" x-text="activeAthlete.next_event.days_out"></span>
+                    <span class="days-label"> days out</span>
+                  </div>
+                </div>
+              </template>
+            </div>
+
+            <!-- Row 6: Flag History -->
+            <div class="section" x-show="activeAthlete.flag_history && activeAthlete.flag_history.length > 0">
+              <h2 class="section-title">Flag History (4 weeks)</h2>
+              <div class="flag-timeline">
+                <template x-for="ev in (activeAthlete.flag_history || [])" :key="ev.type + ev.triggered_at">
+                  <div class="flag-dot" :class="'flag-' + ev.severity" :title="flagLabel(ev) + ' — ' + ev.triggered_at + ': ' + ev.reason">
+                    <span x-text="flagEmoji(ev)"></span>
+                  </div>
+                </template>
+                <template x-if="!activeAthlete.flag_history || activeAthlete.flag_history.length === 0">
+                  <p class="text-muted">No flags in the past 4 weeks.</p>
+                </template>
+              </div>
+            </div>
+
           </div>
         </template>
       </div>
