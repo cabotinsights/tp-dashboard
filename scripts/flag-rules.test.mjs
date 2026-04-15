@@ -186,3 +186,44 @@ test('mood_keyword: older than 14d → no flag', () => {
   ];
   assert.equal(evaluateFlags(a).filter(f => f.type === 'mood_keyword').length, 0);
 });
+
+test('race_not_ready: no focus event → no flag', () => {
+  const a = baseAthlete();
+  assert.equal(evaluateFlags(a).filter(f => f.type === 'race_not_ready').length, 0);
+});
+
+test('race_not_ready: race in 28d, CTL 80% of target → amber', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.current_fitness.ctl = 80;
+  a.focus_event = { name: 'IM Cork', date: '2026-05-13', ctl_target: 100 };
+  const f = evaluateFlags(a).find(x => x.type === 'race_not_ready');
+  assert.ok(f);
+  assert.equal(f.severity, 'amber');
+});
+
+test('race_not_ready: race in 10d, CTL 75% of target → red', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.current_fitness.ctl = 75;
+  a.focus_event = { name: 'IM Cork', date: '2026-04-25', ctl_target: 100 };
+  const f = evaluateFlags(a).find(x => x.type === 'race_not_ready');
+  assert.ok(f);
+  assert.equal(f.severity, 'red');
+});
+
+test('race_not_ready: race in 28d, CTL at target → no flag', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.current_fitness.ctl = 95;
+  a.focus_event = { name: 'IM Cork', date: '2026-05-13', ctl_target: 100 };
+  assert.equal(evaluateFlags(a).filter(f => f.type === 'race_not_ready').length, 0);
+});
+
+test('race_not_ready: race 60 days away → no flag regardless of CTL', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.current_fitness.ctl = 50;
+  a.focus_event = { name: 'IM Cork', date: '2026-06-15', ctl_target: 100 };
+  assert.equal(evaluateFlags(a).filter(f => f.type === 'race_not_ready').length, 0);
+});

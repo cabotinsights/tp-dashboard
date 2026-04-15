@@ -96,7 +96,30 @@ const moodKeywordRule = {
     return null;
   },
 };
-const raceNotReadyRule = { type: 'race_not_ready', evaluate() { return null; } };
+const raceNotReadyRule = {
+  type: 'race_not_ready',
+  evaluate(athlete) {
+    const ev = athlete.focus_event;
+    if (!ev || !ev.ctl_target || !ev.date) return null;
+    const daysOut = daysBetween(athlete.asOf, ev.date);
+    if (daysOut < 0 || daysOut > 28) return null;
+    const ctl = athlete.current_fitness?.ctl || 0;
+    const pct = ctl / ev.ctl_target;
+    if (daysOut <= 14 && pct < 0.8) {
+      return {
+        severity: 'red',
+        reason: `${ev.name} in ${daysOut}d — CTL ${ctl.toFixed(0)} / target ${ev.ctl_target}`,
+      };
+    }
+    if (daysOut <= 28 && pct < 0.85) {
+      return {
+        severity: 'amber',
+        reason: `${ev.name} in ${daysOut}d — CTL ${ctl.toFixed(0)} / target ${ev.ctl_target}`,
+      };
+    }
+    return null;
+  },
+};
 
 export const RULES = [
   missedSessionsRule,
