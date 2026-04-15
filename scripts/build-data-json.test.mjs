@@ -109,3 +109,21 @@ test('buildDataJson: roster sorted (or sortable) with correct status counts', ()
   assert.equal(out.roster_summary.watch, 1);
   assert.equal(out.roster_summary.on_track, 2);
 });
+
+test('buildDataJson: populates flag_history for past 28 days by re-evaluating', () => {
+  const a = {
+    id: 'hist', name: 'Hist', avatar_initials: 'HH', is_real: false,
+    current_fitness: { ctl: 80, atl: 80, tsb: 0 },
+    sessions_by_week: {
+      '2026-04-06': [{
+        id: 's1', date: '2026-04-05', title: 'Run', sport: 'Run', status: 'completed',
+        tss_planned: 50, tss_actual: 50,
+        comments: [{ text: 'legs tired', author_role: 'athlete', created_at: '2026-04-05' }],
+      }],
+    },
+  };
+  const out = buildDataJson({ realAthletes: [], dummyAthletes: [a], asOf: '2026-04-15' });
+  const entry = out.athletes['hist'];
+  assert.ok(Array.isArray(entry.flag_history));
+  assert.ok(entry.flag_history.length > 0, 'expected at least one historical flag entry');
+});

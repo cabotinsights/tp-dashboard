@@ -26,6 +26,22 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
     const flags = evaluateFlags(athleteWithAsOf);
     const status = rollupStatus(flags);
 
+    // Build flag history by re-evaluating at 4 sample points within the past 28 days
+    const history = [];
+    const seen = new Set();
+    for (let offset = 0; offset <= 28; offset += 7) {
+      const histAsOf = shiftIso(asOf, -offset);
+      const histFlags = evaluateFlags({ ...a, asOf: histAsOf });
+      for (const f of histFlags) {
+        const key = f.type + '|' + histAsOf;
+        if (!seen.has(key)) {
+          seen.add(key);
+          history.push({ ...f, triggered_at: histAsOf });
+        }
+      }
+    }
+    history.sort((x, y) => x.triggered_at.localeCompare(y.triggered_at));
+
     const thisWeekStart = weekStartIso(asOf);
     const thisWeekSessions = a.sessions_by_week?.[thisWeekStart] || [];
     const planned = thisWeekSessions.length;
@@ -41,6 +57,7 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
     athletes[a.id] = {
       ...a,
       flags,
+      flag_history: history,
       status,
       compliance_pct,
       weekly_tss_trend: weeklyTssTrend,
@@ -120,6 +137,12 @@ function weekStartIso(iso) {
   const day = d.getUTCDay();
   const offset = day === 0 ? -6 : 1 - day;
   d.setUTCDate(d.getUTCDate() + offset);
+  return d.toISOString().slice(0, 10);
+}
+
+function shiftIso(iso, days) {
+  const d = new Date(iso + 'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate() + days);
   return d.toISOString().slice(0, 10);
 }
 

@@ -854,6 +854,14 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "watch",
       "compliance_pct": 63,
       "weekly_tss_trend": [
@@ -1676,6 +1684,7 @@
         "days_out": 53
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -2443,6 +2452,7 @@
         "days_out": 186
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 60,
       "weekly_tss_trend": [
@@ -3289,6 +3299,50 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 29,
       "weekly_tss_trend": [
@@ -4087,6 +4141,32 @@
       "focus_event": null,
       "next_event": null,
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "5 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "red",
@@ -4945,6 +5025,38 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "Connemarathon in 25d — CTL 48 / target 93",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "Connemarathon in 18d — CTL 48 / target 93",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "red",
+          "reason": "Connemarathon in 11d — CTL 48 / target 93",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 0,
       "weekly_tss_trend": [
@@ -5781,6 +5893,14 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "IM Cork 70.3 in 28d — CTL 79 / target 101",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "watch",
       "compliance_pct": 38,
       "weekly_tss_trend": [
@@ -6591,6 +6711,7 @@
         "days_out": 143
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 29,
       "weekly_tss_trend": [
@@ -7394,6 +7515,7 @@
         "days_out": 11
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 40,
       "weekly_tss_trend": [
@@ -8197,6 +8319,7 @@
         "days_out": 172
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 29,
       "weekly_tss_trend": [
@@ -9069,6 +9192,56 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "3 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -9860,6 +10033,32 @@
         "days_out": 172
       },
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "5 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "red",
@@ -10711,6 +10910,20 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "watch",
       "compliance_pct": 0,
       "weekly_tss_trend": [
@@ -11528,6 +11741,14 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "IM Cork 70.3 in 28d — CTL 79 / target 111",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "watch",
       "compliance_pct": 33,
       "weekly_tss_trend": [
@@ -12286,6 +12507,7 @@
         "days_out": 193
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 100,
       "weekly_tss_trend": [
@@ -13094,6 +13316,7 @@
         "days_out": 53
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 43,
       "weekly_tss_trend": [
@@ -13868,6 +14091,7 @@
         "days_out": 53
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -14716,6 +14940,50 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "3 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -15534,6 +15802,26 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 13,
       "weekly_tss_trend": [
@@ -16335,6 +16623,14 @@
         "days_out": 143
       },
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
         {
           "type": "missed_sessions",
           "severity": "amber",
@@ -17207,6 +17503,7 @@
         "days_out": 143
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 14,
       "weekly_tss_trend": [
@@ -17969,6 +18266,7 @@
       "focus_event": null,
       "next_event": null,
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 40,
       "weekly_tss_trend": [
@@ -18810,6 +19108,7 @@
         "days_out": 186
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 43,
       "weekly_tss_trend": [
@@ -19646,6 +19945,7 @@
         "days_out": 53
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 38,
       "weekly_tss_trend": [
@@ -20432,6 +20732,56 @@
       "focus_event": null,
       "next_event": null,
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "amber",
@@ -21250,6 +21600,50 @@
         "days_out": 53
       },
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "7 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "red",
@@ -22089,6 +22483,32 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "Connemarathon in 25d — CTL 31 / target 109",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "amber",
+          "reason": "Connemarathon in 18d — CTL 31 / target 109",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "red",
+          "reason": "Connemarathon in 11d — CTL 31 / target 109",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -22896,6 +23316,7 @@
         "days_out": 143
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 67,
       "weekly_tss_trend": [
@@ -23687,6 +24108,7 @@
         "days_out": 186
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 20,
       "weekly_tss_trend": [
@@ -24535,6 +24957,7 @@
         "days_out": 53
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 29,
       "weekly_tss_trend": [
@@ -25357,6 +25780,7 @@
       "focus_event": null,
       "next_event": null,
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 57,
       "weekly_tss_trend": [
@@ -26194,6 +26618,50 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "5 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 0,
       "weekly_tss_trend": [
@@ -26989,6 +27457,20 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 60,
       "weekly_tss_trend": [
@@ -27766,6 +28248,20 @@
         "days_out": 143
       },
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "red",
@@ -28590,6 +29086,7 @@
       "focus_event": null,
       "next_event": null,
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 43,
       "weekly_tss_trend": [
@@ -29426,6 +29923,7 @@
         "days_out": 172
       },
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 43,
       "weekly_tss_trend": [
@@ -30226,6 +30724,7 @@
       "focus_event": null,
       "next_event": null,
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 50,
       "weekly_tss_trend": [
@@ -30978,6 +31477,7 @@
       "focus_event": null,
       "next_event": null,
       "flags": [],
+      "flag_history": [],
       "status": "on_track",
       "compliance_pct": 60,
       "weekly_tss_trend": [
@@ -31861,6 +32361,44 @@
           "triggered_at": "2026-04-15"
         }
       ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-03-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-03-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-01"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-08"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-15"
+        }
+      ],
       "status": "needs_checkin",
       "compliance_pct": 38,
       "weekly_tss_trend": [
@@ -32659,6 +33197,26 @@
       "focus_event": null,
       "next_event": null,
       "flags": [
+        {
+          "type": "missed_sessions",
+          "severity": "red",
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-15"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Exhausted — tough week at work too\"",
+          "triggered_at": "2026-04-15"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-08"
+        },
         {
           "type": "missed_sessions",
           "severity": "red",
