@@ -42,7 +42,20 @@ const missedSessionsRule = {
 };
 
 // Placeholders filled in by later tasks
-const fatigueRiskRule = { type: 'fatigue_risk', evaluate() { return null; } };
+const fatigueRiskRule = {
+  type: 'fatigue_risk',
+  evaluate(athlete) {
+    const tsb = athlete.current_fitness?.tsb;
+    if (tsb == null) return null;
+    if (tsb <= -25) {
+      return { severity: 'red', reason: `TSB ${tsb.toFixed(0)} — deep fatigue, overtraining risk` };
+    }
+    if (tsb <= -15) {
+      return { severity: 'amber', reason: `TSB ${tsb.toFixed(0)} — accumulating fatigue` };
+    }
+    return null;
+  },
+};
 const trainingGapRule = { type: 'training_gap', evaluate() { return null; } };
 const moodKeywordRule = { type: 'mood_keyword', evaluate() { return null; } };
 const raceNotReadyRule = { type: 'race_not_ready', evaluate() { return null; } };

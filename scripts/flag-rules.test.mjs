@@ -53,3 +53,37 @@ test('RULES exposes expected rule types', () => {
     ['fatigue_risk', 'missed_sessions', 'mood_keyword', 'race_not_ready', 'training_gap'].sort()
   );
 });
+
+test('fatigue_risk: TSB -10 → no flag', () => {
+  const a = baseAthlete();
+  a.current_fitness.tsb = -10;
+  const flags = evaluateFlags(a);
+  assert.equal(flags.filter(f => f.type === 'fatigue_risk').length, 0);
+});
+
+test('fatigue_risk: TSB -20 → amber', () => {
+  const a = baseAthlete();
+  a.current_fitness.tsb = -20;
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'fatigue_risk');
+  assert.ok(f);
+  assert.equal(f.severity, 'amber');
+});
+
+test('fatigue_risk: TSB -30 → red', () => {
+  const a = baseAthlete();
+  a.current_fitness.tsb = -30;
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'fatigue_risk');
+  assert.ok(f);
+  assert.equal(f.severity, 'red');
+});
+
+test('fatigue_risk: exactly -15 → amber (boundary)', () => {
+  const a = baseAthlete();
+  a.current_fitness.tsb = -15;
+  const flags = evaluateFlags(a);
+  const f = flags.find(x => x.type === 'fatigue_risk');
+  assert.ok(f);
+  assert.equal(f.severity, 'amber');
+});
