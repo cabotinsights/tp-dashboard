@@ -6,6 +6,7 @@ function app() {
     triageFilters: { search: '', sports: [], flagTypes: [], statusFilter: null },
     triageSort: { column: 'status', direction: 'desc' },
     weekOffset: 0,
+    selectedDetailWeek: null,
     reviewState: {},
     data: null,
     loading: true,
@@ -260,6 +261,34 @@ function app() {
     recentComments() {
       if (!this.data) return [];
       return this.data.recent_comments_feed || [];
+    },
+
+    detailThisWeekSessions() {
+      if (!this.activeAthlete) return [];
+      var wk = this.selectedDetailWeek || weekStartForIso(this.data.generated_at);
+      return (this.activeAthlete.sessions_by_week && this.activeAthlete.sessions_by_week[wk]) || [];
+    },
+
+    detailStats() {
+      var sessions = this.detailThisWeekSessions();
+      var completed = sessions.filter(function(s) { return s.status === 'completed'; });
+      var missedOrPending = sessions.filter(function(s) { return s.status !== 'completed'; });
+      var tssPlanned = sessions.reduce(function(acc, s) { return acc + (s.tss_planned || 0); }, 0);
+      var tssActual = completed.reduce(function(acc, s) { return acc + (s.tss_actual || 0); }, 0);
+      var biggestGap = null;
+      missedOrPending.forEach(function(s) {
+        if (s.status === 'missed' && (!biggestGap || (s.tss_planned || 0) > (biggestGap.tss_planned || 0))) {
+          biggestGap = s;
+        }
+      });
+      return {
+        compliance: sessions.length > 0 ? Math.round((completed.length / sessions.length) * 100) : 0,
+        completed: completed.length,
+        total: sessions.length,
+        tssActual: Math.round(tssActual),
+        tssPlanned: Math.round(tssPlanned),
+        biggestGap: biggestGap
+      };
     },
 
     get activeAthlete() {
@@ -524,6 +553,7 @@ function app() {
             if (a && a.fitness_history) {
               renderDrillFitnessTrend('detailTrendChart', a.fitness_history);
             }
+            renderPlannedVsActual('detailPvaChart', self.detailThisWeekSessions());
           });
         }
       });

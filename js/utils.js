@@ -142,3 +142,12 @@ function addDaysIso(iso, n) {
   d.setUTCDate(d.getUTCDate() + n);
   return d.toISOString().slice(0, 10);
 }
+
+function weekStartForIso(isoDateTime) {
+  if (!isoDateTime) return null;
+  var d = new Date(isoDateTime);
+  var day = d.getUTCDay();
+  var offset = day === 0 ? -6 : 1 - day;
+  d.setUTCDate(d.getUTCDate() + offset);
+  return d.toISOString().slice(0, 10);
+}

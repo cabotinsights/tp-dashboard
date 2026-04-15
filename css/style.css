@@ -1704,3 +1704,14 @@ body {
   color: rgba(241,245,249,0.4);
   margin-left: auto;
 }
+
+.pva-stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: rgba(241,245,249,0.7);
+}
+.pva-stat strong { color: #F1F5F9; }
+.pva-gap { color: #FBBF24; }

@@ -897,6 +897,27 @@
               </div>
             </div>
 
+            <!-- Row 3: Planned vs Actual -->
+            <div class="section">
+              <h2 class="section-title">This Week — Planned vs Actual</h2>
+              <div class="chart-container" style="height: 220px">
+                <canvas id="detailPvaChart"></canvas>
+              </div>
+              <div class="pva-stats">
+                <span class="pva-stat">
+                  Compliance: <strong x-text="detailStats().completed + ' / ' + detailStats().total + ' (' + detailStats().compliance + '%)'"></strong>
+                </span>
+                <span class="pva-stat">
+                  TSS: <strong x-text="detailStats().tssActual + ' / ' + detailStats().tssPlanned"></strong>
+                </span>
+                <template x-if="detailStats().biggestGap">
+                  <span class="pva-stat pva-gap">
+                    Biggest gap: <strong x-text="formatDay(detailStats().biggestGap.date) + ' ' + detailStats().biggestGap.sport.toLowerCase() + ' — planned ' + detailStats().biggestGap.tss_planned + ', done 0'"></strong>
+                  </span>
+                </template>
+              </div>
+            </div>
+
           </div>
         </template>
       </div>
