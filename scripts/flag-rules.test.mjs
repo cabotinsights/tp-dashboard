@@ -130,3 +130,59 @@ test('training_gap: no sessions at all → red', () => {
   assert.ok(f);
   assert.equal(f.severity, 'red');
 });
+
+test('mood_keyword: no comments → no flag', () => {
+  const a = baseAthlete();
+  a.sessions_by_week['2026-04-13'] = [
+    { date: '2026-04-14', status: 'completed', comments: [] },
+  ];
+  assert.equal(evaluateFlags(a).filter(f => f.type === 'mood_keyword').length, 0);
+});
+
+test('mood_keyword: 1 "tired" in last 14d → amber', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-04-13'] = [
+    {
+      date: '2026-04-14',
+      status: 'completed',
+      comments: [{ author: 'stephen', author_role: 'athlete', text: 'legs really tired today', created_at: '2026-04-14' }],
+    },
+  ];
+  const f = evaluateFlags(a).find(x => x.type === 'mood_keyword');
+  assert.ok(f);
+  assert.equal(f.severity, 'amber');
+});
+
+test('mood_keyword: 2 hits in 14d → red', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-04-06'] = [
+    {
+      date: '2026-04-08',
+      status: 'completed',
+      comments: [{ text: 'feeling sick', author_role: 'athlete', created_at: '2026-04-08' }],
+    },
+    {
+      date: '2026-04-12',
+      status: 'completed',
+      comments: [{ text: 'really exhausted', author_role: 'athlete', created_at: '2026-04-12' }],
+    },
+  ];
+  const f = evaluateFlags(a).find(x => x.type === 'mood_keyword');
+  assert.ok(f);
+  assert.equal(f.severity, 'red');
+});
+
+test('mood_keyword: older than 14d → no flag', () => {
+  const a = baseAthlete();
+  a.asOf = '2026-04-15';
+  a.sessions_by_week['2026-03-23'] = [
+    {
+      date: '2026-03-25',
+      status: 'completed',
+      comments: [{ text: 'tired', author_role: 'athlete', created_at: '2026-03-25' }],
+    },
+  ];
+  assert.equal(evaluateFlags(a).filter(f => f.type === 'mood_keyword').length, 0);
+});

@@ -73,7 +73,29 @@ const trainingGapRule = {
     return null;
   },
 };
-const moodKeywordRule = { type: 'mood_keyword', evaluate() { return null; } };
+const moodKeywordRule = {
+  type: 'mood_keyword',
+  evaluate(athlete) {
+    const hits = [];
+    for (const s of flattenSessions(athlete)) {
+      if (!s.comments || s.comments.length === 0) continue;
+      const gap = daysBetween(s.date, athlete.asOf);
+      if (gap < 0 || gap > 14) continue;
+      for (const c of s.comments) {
+        if (c.author_role === 'athlete' && MOOD_REGEX.test(c.text || '')) {
+          hits.push({ date: s.date, text: c.text });
+        }
+      }
+    }
+    if (hits.length >= 2) {
+      return { severity: 'red', reason: `${hits.length} mood-warning comments in the last 14 days` };
+    }
+    if (hits.length >= 1) {
+      return { severity: 'amber', reason: `Mood warning: "${hits[0].text.slice(0, 40)}"` };
+    }
+    return null;
+  },
+};
 const raceNotReadyRule = { type: 'race_not_ready', evaluate() { return null; } };
 
 export const RULES = [
