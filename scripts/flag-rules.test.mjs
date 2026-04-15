@@ -227,3 +227,45 @@ test('race_not_ready: race 60 days away → no flag regardless of CTL', () => {
   a.focus_event = { name: 'IM Cork', date: '2026-06-15', ctl_target: 100 };
   assert.equal(evaluateFlags(a).filter(f => f.type === 'race_not_ready').length, 0);
 });
+
+import { rollupStatus } from './flag-rules.mjs';
+
+test('rollupStatus: no flags → on_track', () => {
+  assert.equal(rollupStatus([]), 'on_track');
+});
+
+test('rollupStatus: only amber → watch', () => {
+  assert.equal(rollupStatus([{ severity: 'amber' }]), 'watch');
+});
+
+test('rollupStatus: any red → needs_checkin', () => {
+  assert.equal(rollupStatus([{ severity: 'amber' }, { severity: 'red' }]), 'needs_checkin');
+});
+
+test('all 5 rules fire on a maximally bad athlete', () => {
+  const a = {
+    id: 'worst',
+    name: 'Worst Case',
+    current_fitness: { ctl: 60, atl: 100, tsb: -30 },
+    asOf: '2026-04-15',
+    sessions_by_week: {
+      '2026-04-06': [
+        { date: '2026-04-07', status: 'missed', tss_planned: 80 },
+        { date: '2026-04-09', status: 'missed', tss_planned: 80 },
+        { date: '2026-04-12', status: 'missed', tss_planned: 80 },
+        { date: '2026-04-08', status: 'completed', tss_actual: 50,
+          comments: [{ text: 'feeling sick', author_role: 'athlete', created_at: '2026-04-08' }] },
+        { date: '2026-04-04', status: 'completed', tss_actual: 50,
+          comments: [{ text: 'very tired', author_role: 'athlete', created_at: '2026-04-04' }] },
+      ],
+    },
+    focus_event: { name: 'IM Cork', date: '2026-04-22', ctl_target: 100 },
+  };
+  const flags = evaluateFlags(a);
+  const types = new Set(flags.map(f => f.type));
+  assert.ok(types.has('missed_sessions'));
+  assert.ok(types.has('fatigue_risk'));
+  assert.ok(types.has('mood_keyword'));
+  assert.ok(types.has('race_not_ready'));
+  assert.equal(rollupStatus(flags), 'needs_checkin');
+});
