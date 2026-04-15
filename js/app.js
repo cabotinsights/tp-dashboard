@@ -128,6 +128,140 @@ function app() {
       return this.reviewState[athleteId] || null;
     },
 
+    get selectedWeekStart() {
+      if (!this.data || !this.data.weekly_totals) return null;
+      var keys = Object.keys(this.data.weekly_totals).sort();
+      if (keys.length === 0) return null;
+      var idx = keys.length - 1 + this.weekOffset;
+      if (idx < 0) idx = 0;
+      if (idx >= keys.length) idx = keys.length - 1;
+      return keys[idx];
+    },
+
+    get previousWeekStart() {
+      if (!this.data || !this.data.weekly_totals) return null;
+      var keys = Object.keys(this.data.weekly_totals).sort();
+      var idx = keys.indexOf(this.selectedWeekStart);
+      return idx > 0 ? keys[idx - 1] : null;
+    },
+
+    get selectedWeekTotals() {
+      var wk = this.selectedWeekStart;
+      if (!wk || !this.data || !this.data.weekly_totals) return null;
+      return this.data.weekly_totals[wk] || null;
+    },
+
+    get previousWeekTotals() {
+      var wk = this.previousWeekStart;
+      if (!wk || !this.data || !this.data.weekly_totals) return null;
+      return this.data.weekly_totals[wk] || null;
+    },
+
+    weekDelta(current, previous) {
+      if (previous == null || previous === 0) return null;
+      return Math.round(((current - previous) / previous) * 100);
+    },
+
+    stepWeek(dir) {
+      if (!this.data || !this.data.weekly_totals) return;
+      var keys = Object.keys(this.data.weekly_totals).sort();
+      var idx = keys.length - 1 + this.weekOffset + dir;
+      if (idx < 0 || idx >= keys.length) return;
+      this.weekOffset += dir;
+    },
+
+    formatWeekRange(wkStart) {
+      if (!wkStart) return '';
+      var start = new Date(wkStart + 'T00:00:00');
+      var end = new Date(start.getTime() + 6 * 86400000);
+      var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      return months[start.getMonth()] + ' ' + start.getDate() + ' – ' + months[end.getMonth()] + ' ' + end.getDate();
+    },
+
+    coachHeatmapData() {
+      if (!this.data) return [];
+      var wk = this.selectedWeekStart;
+      if (!wk) return [];
+      var athletes = this.data.athletes;
+      var out = [];
+
+      this.triageRoster.forEach(function(r) {
+        var a = athletes[r.id];
+        if (!a) return;
+        var weekSessions = (a.sessions_by_week && a.sessions_by_week[wk]) || [];
+        var days = [];
+        for (var i = 0; i < 7; i++) {
+          var d = new Date(wk + 'T00:00:00Z');
+          d.setUTCDate(d.getUTCDate() + i);
+          var ds = d.toISOString().slice(0, 10);
+          var daySessions = weekSessions.filter(function(s) { return s.date === ds; });
+          var primary = daySessions.slice().sort(function(a, b) {
+            return (b.tss_planned || 0) - (a.tss_planned || 0);
+          })[0];
+          var status = 'rest';
+          if (primary) {
+            if (primary.status === 'completed') status = 'done';
+            else if (primary.status === 'missed') status = 'missed';
+            else status = 'upcoming';
+          }
+          days.push({
+            date: ds,
+            status: status,
+            count: daySessions.length,
+            primary: primary || null,
+            sessions: daySessions
+          });
+        }
+        out.push({
+          id: r.id,
+          name: r.name,
+          avatar_initials: r.avatar_initials || r.name.slice(0, 2).toUpperCase(),
+          days: days
+        });
+      });
+      return out;
+    },
+
+    sportIcon(sport) {
+      if (!sport) return '•';
+      var s = sport.toLowerCase();
+      if (s === 'run') return '🏃';
+      if (s === 'bike' || s === 'mtnbike') return '🚴';
+      if (s === 'swim') return '🏊';
+      return '•';
+    },
+
+    heatmapTooltip(day) {
+      if (!day.sessions || day.sessions.length === 0) return 'Rest';
+      return day.sessions.map(function(s) {
+        var tss = (s.tss_actual != null ? s.tss_actual : s.tss_planned) + ' TSS';
+        return s.title + ' (' + s.sport + ', ' + tss + ')';
+      }).join('\n');
+    },
+
+    upcomingRaces() {
+      var out = { this_week: [], next_2w: [], this_month: [], later: [] };
+      this.roster.forEach(function(r) {
+        if (!r.next_event || r.days_to_event == null || r.days_to_event < 0) return;
+        var entry = {
+          id: r.id, athlete: r.name, avatar: r.avatar_initials,
+          race: r.next_event, days: r.days_to_event,
+          ctl: r.ctl, tsb: r.tsb
+        };
+        if (r.days_to_event <= 7) out.this_week.push(entry);
+        else if (r.days_to_event <= 14) out.next_2w.push(entry);
+        else if (r.days_to_event <= 31) out.this_month.push(entry);
+        else out.later.push(entry);
+      });
+      for (var k in out) out[k].sort(function(a, b) { return a.days - b.days; });
+      return out;
+    },
+
+    recentComments() {
+      if (!this.data) return [];
+      return this.data.recent_comments_feed || [];
+    },
+
     get activeAthlete() {
       if (this.drillAthlete && this.data) {
         return this.data.athletes[this.drillAthlete] || null;

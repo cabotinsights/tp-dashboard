@@ -1560,3 +1560,34 @@ body {
 }
 .btn-bulk:hover { background: rgba(49, 119, 255, 0.2); }
 .bulk-hint { color: rgba(241,245,249,0.4); }
+
+.week-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.week-nav {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #F1F5F9;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.week-nav:hover:not(:disabled) { background: rgba(255,255,255,0.1); }
+.week-nav:disabled { opacity: 0.3; cursor: not-allowed; }
+.week-range {
+  font-size: 16px;
+  font-weight: 600;
+  color: #F1F5F9;
+  min-width: 180px;
+  text-align: center;
+}
+.card-delta { font-size: 11px; margin-top: 4px; }
+.delta-up { color: #4ADE80; }
+.delta-down { color: #F87171; }

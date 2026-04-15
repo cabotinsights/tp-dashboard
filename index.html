@@ -700,8 +700,52 @@
 
       </div>
 
+      <!-- Week View Tab -->
       <div x-show="coachTab === 'week' && !drillAthlete">
-        <p class="text-muted">Week View coming next.</p>
+
+        <!-- Week picker + totals strip -->
+        <div class="week-picker">
+          <button class="week-nav" @click="stepWeek(-1)">◀</button>
+          <span class="week-range" x-text="formatWeekRange(selectedWeekStart)"></span>
+          <button class="week-nav" @click="stepWeek(1)" :disabled="weekOffset >= 0">▶</button>
+        </div>
+
+        <div class="cards-grid" x-show="selectedWeekTotals">
+          <div class="card">
+            <div class="card-label">Sessions Planned</div>
+            <div class="card-value" x-text="selectedWeekTotals && selectedWeekTotals.sessions_planned"></div>
+            <div class="card-delta" x-show="previousWeekTotals">
+              <template x-if="weekDelta(selectedWeekTotals?.sessions_planned, previousWeekTotals?.sessions_planned) != null">
+                <span :class="weekDelta(selectedWeekTotals.sessions_planned, previousWeekTotals.sessions_planned) >= 0 ? 'delta-up' : 'delta-down'"
+                      x-text="(weekDelta(selectedWeekTotals.sessions_planned, previousWeekTotals.sessions_planned) >= 0 ? '↑ +' : '↓ ') + weekDelta(selectedWeekTotals.sessions_planned, previousWeekTotals.sessions_planned) + '%'"></span>
+              </template>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-label">Sessions Completed</div>
+            <div class="card-value" x-text="selectedWeekTotals && selectedWeekTotals.sessions_completed"></div>
+          </div>
+          <div class="card">
+            <div class="card-label">Planned TSS</div>
+            <div class="card-value" x-text="selectedWeekTotals && Math.round(selectedWeekTotals.tss_planned)"></div>
+          </div>
+          <div class="card">
+            <div class="card-label">Actual TSS</div>
+            <div class="card-value" x-text="selectedWeekTotals && Math.round(selectedWeekTotals.tss_actual)"></div>
+            <div class="card-delta" x-show="previousWeekTotals">
+              <template x-if="weekDelta(selectedWeekTotals?.tss_actual, previousWeekTotals?.tss_actual) != null">
+                <span :class="weekDelta(selectedWeekTotals.tss_actual, previousWeekTotals.tss_actual) >= 0 ? 'delta-up' : 'delta-down'"
+                      x-text="(weekDelta(selectedWeekTotals.tss_actual, previousWeekTotals.tss_actual) >= 0 ? '↑ +' : '↓ ') + weekDelta(selectedWeekTotals.tss_actual, previousWeekTotals.tss_actual) + '%'"></span>
+              </template>
+            </div>
+          </div>
+        </div>
+
+        <!-- Heatmap placeholder, filled in next task -->
+        <div class="section">
+          <h2 class="section-title">Weekly Sessions (heatmap coming next)</h2>
+        </div>
+
       </div>
 
     <!-- Athlete Drill-down -->
