@@ -1646,3 +1646,48 @@ body {
 .cell-missed { background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.35); }
 .cell-upcoming { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.08); }
 .cell-rest { background: rgba(255,255,255,0.02); border-color: rgba(255,255,255,0.04); }
+
+.race-buckets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.race-bucket-label {
+  font-size: 12px;
+  color: rgba(241,245,249,0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px 0;
+}
+.comments-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+.comment-item {
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.03);
+  border-left: 2px solid rgba(49, 119, 255, 0.4);
+  border-radius: 6px;
+  transition: background 0.1s;
+}
+.comment-item:hover { background: rgba(255,255,255,0.06); }
+.comment-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.comment-session { color: rgba(241,245,249,0.6); }
+.comment-date { color: rgba(241,245,249,0.4); margin-left: auto; }
+.comment-text {
+  margin: 0;
+  color: rgba(241,245,249,0.85);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.mood-flag { color: #FBBF24; font-size: 14px; }

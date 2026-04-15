@@ -784,6 +784,64 @@
           </div>
         </div>
 
+        <!-- Upcoming Races -->
+        <div class="section">
+          <h2 class="section-title">Upcoming Races</h2>
+          <div class="race-buckets">
+            <template x-for="bucket in [
+              {key: 'this_week', label: 'This Week'},
+              {key: 'next_2w', label: 'Next 2 Weeks'},
+              {key: 'this_month', label: 'Within a Month'},
+              {key: 'later', label: 'Later'}
+            ]" :key="bucket.key">
+              <div class="race-bucket" x-show="upcomingRaces()[bucket.key].length > 0">
+                <h3 class="race-bucket-label" x-text="bucket.label"></h3>
+                <ul class="upcoming-list">
+                  <template x-for="r in upcomingRaces()[bucket.key]" :key="r.id + r.race">
+                    <li class="upcoming-item" @click="drillAthlete = r.id; coachTab = 'detail'" style="cursor:pointer">
+                      <span class="upcoming-day" x-text="r.days + 'd'"></span>
+                      <span class="upcoming-session">
+                        <span class="avatar-pill" x-text="r.avatar"></span>
+                        <strong x-text="r.athlete"></strong>
+                        &nbsp;—&nbsp;
+                        <span x-text="r.race"></span>
+                      </span>
+                    </li>
+                  </template>
+                </ul>
+              </div>
+            </template>
+            <template x-if="Object.values(upcomingRaces()).every(function(a) { return a.length === 0; })">
+              <p class="text-muted">No upcoming races.</p>
+            </template>
+          </div>
+        </div>
+
+        <!-- Recent Comments Feed -->
+        <div class="section">
+          <h2 class="section-title">Recent Comments</h2>
+          <div class="comments-feed">
+            <template x-for="c in recentComments()" :key="c.athlete_id + c.session_id + c.created_at">
+              <div class="comment-item" @click="drillAthlete = c.athlete_id; coachTab = 'detail'" style="cursor:pointer">
+                <div class="comment-head">
+                  <span class="avatar-pill" x-text="(c.athlete_name || '').slice(0, 2).toUpperCase()"></span>
+                  <strong x-text="c.athlete_name"></strong>
+                  <span class="comment-session" x-text="c.session_title"></span>
+                  <span class="sport-tag" :class="'sport-' + sportClass(c.sport)" x-text="c.sport"></span>
+                  <span class="comment-date" x-text="formatDate(c.date)"></span>
+                  <template x-if="c.mood_flag">
+                    <span class="mood-flag" title="Triggered mood-warning flag">⚠️</span>
+                  </template>
+                </div>
+                <p class="comment-text" x-text="c.text"></p>
+              </div>
+            </template>
+            <template x-if="recentComments().length === 0">
+              <p class="text-muted">No recent comments.</p>
+            </template>
+          </div>
+        </div>
+
       </div>
 
     <!-- Athlete Drill-down -->
