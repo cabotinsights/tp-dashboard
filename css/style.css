@@ -1349,3 +1349,32 @@ body {
   line-height: 1.7;
   color: rgba(241, 245, 249, 0.75);
 }
+
+/* Coach sub-tab navigation */
+.coach-subnav {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.coach-subnav-btn {
+  background: none;
+  border: none;
+  color: rgba(241,245,249,0.5);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 18px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.coach-subnav-btn:hover:not(:disabled) { color: #F1F5F9; }
+.coach-subnav-btn.active {
+  color: #3177FF;
+  border-bottom-color: #3177FF;
+}
+.coach-subnav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

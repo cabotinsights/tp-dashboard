@@ -502,7 +502,14 @@
     </div>
 
     <!-- Coach View -->
-    <div x-show="view === 'coach' && !drillAthlete" x-cloak>
+    <div x-show="view === 'coach'" x-cloak>
+      <div class="coach-subnav">
+        <button class="coach-subnav-btn" :class="{ active: coachTab === 'triage' && !drillAthlete }" @click="coachTab = 'triage'; drillAthlete = null">Triage</button>
+        <button class="coach-subnav-btn" :class="{ active: coachTab === 'week' && !drillAthlete }" @click="coachTab = 'week'; drillAthlete = null">Week View</button>
+        <button class="coach-subnav-btn" :class="{ active: drillAthlete !== null }" :disabled="!drillAthlete">Athlete Detail</button>
+      </div>
+
+      <div x-show="coachTab === 'triage' && !drillAthlete">
 
       <!-- Header -->
       <div class="section-header">
@@ -633,7 +640,11 @@
         </ul>
       </div>
 
-    </div>
+      </div>
+
+      <div x-show="coachTab === 'week' && !drillAthlete">
+        <p class="text-muted">Week View coming next.</p>
+      </div>
 
     <!-- Athlete Drill-down -->
     <div x-show="view === 'coach' && drillAthlete" x-cloak>
@@ -776,6 +787,7 @@
 
         </div>
       </template>
+    </div>
     </div>
   </main>
 

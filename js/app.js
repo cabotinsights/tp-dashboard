@@ -2,6 +2,10 @@ function app() {
   return {
     view: 'personal',
     drillAthlete: null,
+    coachTab: 'triage',
+    triageFilters: { search: '', sports: [], flagTypes: [], statusFilter: null },
+    triageSort: { column: 'status', direction: 'desc' },
+    weekOffset: 0,
     data: null,
     loading: true,
     refreshing: false,
