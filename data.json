@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T00:00:00Z",
+  "generated_at": "2026-04-21T00:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -1722,10 +1722,24 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 63,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         567,
         466,
@@ -2545,10 +2559,24 @@
         "date": "2026-06-07",
         "days_out": 53
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 50,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         492,
         258,
@@ -3313,10 +3341,24 @@
         "date": "2026-10-18",
         "days_out": 186
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 60,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         318,
         224,
@@ -4143,22 +4185,22 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -4166,53 +4208,59 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "red",
-          "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -28 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 29,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         397,
         112,
@@ -5010,46 +5058,52 @@
       "next_event": null,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
-        }
-      ],
-      "flag_history": [
-        {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "6 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 14,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         195,
         71,
@@ -5881,60 +5935,60 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 48 / target 93",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 5d — CTL 48 / target 93",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 24d — CTL 48 / target 93",
-          "triggered_at": "2026-04-02"
+          "reason": "Connemarathon in 26d — CTL 48 / target 93",
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 17d — CTL 48 / target 93",
-          "triggered_at": "2026-04-09"
+          "reason": "Connemarathon in 19d — CTL 48 / target 93",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 48 / target 93",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 12d — CTL 48 / target 93",
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "red",
+          "reason": "Connemarathon in 5d — CTL 48 / target 93",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
@@ -6767,22 +6821,34 @@
       },
       "flags": [
         {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 101",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 101",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 101",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 101",
+          "triggered_at": "2026-04-21"
         }
       ],
-      "status": "watch",
-      "compliance_pct": 38,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         409,
         175,
@@ -7590,10 +7656,24 @@
         "date": "2026-09-05",
         "days_out": 143
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 29,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         591,
         209,
@@ -8394,10 +8474,24 @@
         "date": "2026-04-26",
         "days_out": 11
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 40,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         623,
         150,
@@ -9198,10 +9292,24 @@
         "date": "2026-10-04",
         "days_out": 172
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 29,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         342,
         245,
@@ -10054,22 +10162,22 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -10077,53 +10185,65 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "3 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         529,
         191,
@@ -10914,48 +11034,42 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 5 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
           "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "missed_sessions",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 5 days",
-          "triggered_at": "2026-04-16"
+          "reason": "6 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
@@ -11784,39 +11898,33 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
           "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         }
       ],
-      "status": "watch",
+      "status": "needs_checkin",
       "compliance_pct": 0,
       "weekly_tss_trend": [
         398,
@@ -12627,22 +12735,34 @@
       },
       "flags": [
         {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 111",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 111",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 111",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 111",
+          "triggered_at": "2026-04-21"
         }
       ],
-      "status": "watch",
-      "compliance_pct": 33,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         539,
         117,
@@ -13398,10 +13518,24 @@
         "date": "2026-10-25",
         "days_out": 193
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 100,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         506,
         303,
@@ -14207,10 +14341,24 @@
         "date": "2026-06-07",
         "days_out": 53
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 43,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         416,
         226,
@@ -14982,10 +15130,24 @@
         "date": "2026-06-07",
         "days_out": 53
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 50,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         352,
         339,
@@ -15814,22 +15976,22 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -15837,47 +15999,59 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -19 — accumulating fatigue",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         507,
         241,
@@ -16682,16 +16856,16 @@
       "next_event": null,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 8 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -16699,29 +16873,29 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 8 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 13,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         287,
         121,
@@ -17522,10 +17696,10 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -17533,11 +17707,17 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         }
       ],
-      "status": "watch",
-      "compliance_pct": 50,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         429,
         253,
@@ -18400,10 +18580,24 @@
         "date": "2026-09-05",
         "days_out": 143
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 14,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         709,
         68,
@@ -19163,10 +19357,24 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 40,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         474,
         232,
@@ -20005,10 +20213,24 @@
         "date": "2026-10-18",
         "days_out": 186
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 43,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         628,
         307,
@@ -20842,10 +21064,24 @@
         "date": "2026-06-07",
         "days_out": 53
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 38,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         603,
         164,
@@ -21631,22 +21867,22 @@
       "next_event": null,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -21654,53 +21890,65 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-09"
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -21 — accumulating fatigue",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 57,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         264,
         413,
@@ -22499,16 +22747,10 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "6 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -22516,43 +22758,43 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-03-26"
-        },
-        {
-          "type": "training_gap",
-          "severity": "red",
-          "reason": "No workouts logged",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "4 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "6 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
@@ -23369,46 +23611,58 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 31 / target 109",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 5d — CTL 31 / target 109",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 24d — CTL 31 / target 109",
-          "triggered_at": "2026-04-02"
+          "reason": "Connemarathon in 26d — CTL 31 / target 109",
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 17d — CTL 31 / target 109",
-          "triggered_at": "2026-04-09"
+          "reason": "Connemarathon in 19d — CTL 31 / target 109",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 31 / target 109",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 12d — CTL 31 / target 109",
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "race_not_ready",
+          "severity": "red",
+          "reason": "Connemarathon in 5d — CTL 31 / target 109",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         303,
         362,
@@ -24213,10 +24467,24 @@
         "date": "2026-09-05",
         "days_out": 143
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 67,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         445,
         268,
@@ -25005,10 +25273,24 @@
         "date": "2026-10-18",
         "days_out": 186
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 20,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         474,
         116,
@@ -25854,10 +26136,24 @@
         "date": "2026-06-07",
         "days_out": 53
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 29,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         717,
         191,
@@ -26677,10 +26973,24 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 57,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         542,
         338,
@@ -27507,19 +27817,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "5 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "reason": "4 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -27527,49 +27837,55 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-09"
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "5 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -24 — accumulating fatigue",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "4 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
@@ -28355,40 +28671,46 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-09"
-        },
-        {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 60,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         192,
         253,
@@ -29165,10 +29487,10 @@
       },
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -29176,17 +29498,23 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         0,
         155,
@@ -30001,10 +30329,24 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 43,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         532,
         196,
@@ -30838,10 +31180,24 @@
         "date": "2026-10-04",
         "days_out": 172
       },
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 43,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         823,
         202,
@@ -31639,10 +31995,24 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 50,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         410,
         330,
@@ -32392,10 +32762,30 @@
       },
       "focus_event": null,
       "next_event": null,
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 60,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         284,
         290,
@@ -33268,13 +33658,19 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
@@ -33282,41 +33678,53 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-19"
+          "triggered_at": "2026-03-24"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-31"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "red",
-          "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "red",
+          "reason": "TSB -30 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 38,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         714,
         313,
@@ -34114,40 +34522,52 @@
       "next_event": null,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "flag_history": [
         {
           "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-07"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-14"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-14"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Exhausted — tough week at work too\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 14,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         194,
         94,
@@ -34160,9 +34580,16 @@
       "id": "dummy-1",
       "name": "Alex Murphy",
       "avatar_initials": "AM",
-      "status": "on_track",
-      "compliance_pct": 63,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         567,
         466,
@@ -34177,9 +34604,16 @@
       "id": "dummy-2",
       "name": "Sam Daly",
       "avatar_initials": "SD",
-      "status": "on_track",
-      "compliance_pct": 50,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         492,
         258,
@@ -34194,9 +34628,16 @@
       "id": "dummy-3",
       "name": "Morgan Gallagher",
       "avatar_initials": "MG",
-      "status": "on_track",
-      "compliance_pct": 60,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         318,
         224,
@@ -34212,25 +34653,25 @@
       "name": "Jamie Nolan",
       "avatar_initials": "JN",
       "status": "needs_checkin",
-      "compliance_pct": 29,
+      "compliance_pct": 0,
       "flags": [
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34248,19 +34689,19 @@
       "name": "Taylor Walsh",
       "avatar_initials": "TW",
       "status": "needs_checkin",
-      "compliance_pct": 14,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34281,22 +34722,16 @@
       "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 48 / target 93",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 5d — CTL 48 / target 93",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34313,14 +34748,20 @@
       "id": "dummy-7",
       "name": "Jordan Byrne",
       "avatar_initials": "JB",
-      "status": "watch",
-      "compliance_pct": 38,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 101",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 101",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34337,9 +34778,16 @@
       "id": "dummy-8",
       "name": "Riley Moore",
       "avatar_initials": "RM",
-      "status": "on_track",
-      "compliance_pct": 29,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         591,
         209,
@@ -34354,9 +34802,16 @@
       "id": "dummy-9",
       "name": "Cameron Higgins",
       "avatar_initials": "CH",
-      "status": "on_track",
-      "compliance_pct": 40,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         623,
         150,
@@ -34371,9 +34826,16 @@
       "id": "dummy-10",
       "name": "Avery Power",
       "avatar_initials": "AP",
-      "status": "on_track",
-      "compliance_pct": 29,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         342,
         245,
@@ -34389,25 +34851,25 @@
       "name": "Quinn Yates",
       "avatar_initials": "QY",
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "flags": [
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34428,22 +34890,16 @@
       "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 5 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34460,20 +34916,14 @@
       "id": "dummy-13",
       "name": "Sage O'Brien",
       "avatar_initials": "SO",
-      "status": "watch",
+      "status": "needs_checkin",
       "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34490,14 +34940,20 @@
       "id": "dummy-14",
       "name": "Drew Doyle",
       "avatar_initials": "DD",
-      "status": "watch",
-      "compliance_pct": 33,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 111",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 22d — CTL 79 / target 111",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34514,9 +34970,16 @@
       "id": "dummy-15",
       "name": "Finley Lynch",
       "avatar_initials": "FL",
-      "status": "on_track",
-      "compliance_pct": 100,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         506,
         303,
@@ -34531,9 +34994,16 @@
       "id": "dummy-16",
       "name": "Harper Reilly",
       "avatar_initials": "HR",
-      "status": "on_track",
-      "compliance_pct": 43,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         416,
         226,
@@ -34548,9 +35018,16 @@
       "id": "dummy-17",
       "name": "Emerson Allen",
       "avatar_initials": "EA",
-      "status": "on_track",
-      "compliance_pct": 50,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         352,
         339,
@@ -34566,25 +35043,25 @@
       "name": "Blake Hall",
       "avatar_initials": "BH",
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "flags": [
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34602,19 +35079,19 @@
       "name": "Parker Kennedy",
       "avatar_initials": "PK",
       "status": "needs_checkin",
-      "compliance_pct": 13,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 8 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34631,14 +35108,14 @@
       "id": "dummy-20",
       "name": "Reese Fitzgerald",
       "avatar_initials": "RF",
-      "status": "watch",
-      "compliance_pct": 50,
+      "status": "needs_checkin",
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34655,9 +35132,16 @@
       "id": "dummy-21",
       "name": "Phoenix McCarthy",
       "avatar_initials": "PM",
-      "status": "on_track",
-      "compliance_pct": 14,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         709,
         68,
@@ -34672,9 +35156,16 @@
       "id": "dummy-22",
       "name": "River Sullivan",
       "avatar_initials": "RS",
-      "status": "on_track",
-      "compliance_pct": 40,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         474,
         232,
@@ -34689,9 +35180,16 @@
       "id": "dummy-23",
       "name": "Sky Clarke",
       "avatar_initials": "SC",
-      "status": "on_track",
-      "compliance_pct": 43,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         628,
         307,
@@ -34706,9 +35204,16 @@
       "id": "dummy-24",
       "name": "Dakota Kelly",
       "avatar_initials": "DK",
-      "status": "on_track",
-      "compliance_pct": 38,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         603,
         164,
@@ -34724,25 +35229,25 @@
       "name": "Lennox Collins",
       "avatar_initials": "LC",
       "status": "needs_checkin",
-      "compliance_pct": 57,
+      "compliance_pct": 0,
       "flags": [
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34763,16 +35268,10 @@
       "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
-          "severity": "red",
-          "reason": "6 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34790,19 +35289,19 @@
       "name": "Remy O'Connor",
       "avatar_initials": "RO",
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 31 / target 109",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 5d — CTL 31 / target 109",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34819,9 +35318,16 @@
       "id": "dummy-28",
       "name": "Tatum Wilson",
       "avatar_initials": "TW",
-      "status": "on_track",
-      "compliance_pct": 67,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         445,
         268,
@@ -34836,9 +35342,16 @@
       "id": "dummy-29",
       "name": "Wren Evans",
       "avatar_initials": "WE",
-      "status": "on_track",
-      "compliance_pct": 20,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         474,
         116,
@@ -34853,9 +35366,16 @@
       "id": "dummy-30",
       "name": "Arden Ryan",
       "avatar_initials": "AR",
-      "status": "on_track",
-      "compliance_pct": 29,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         717,
         191,
@@ -34870,9 +35390,16 @@
       "id": "dummy-31",
       "name": "Bailey Brady",
       "avatar_initials": "BB",
-      "status": "on_track",
-      "compliance_pct": 57,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         542,
         338,
@@ -34894,19 +35421,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "5 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "reason": "4 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34924,19 +35451,19 @@
       "name": "Ellis Quinn",
       "avatar_initials": "EQ",
       "status": "needs_checkin",
-      "compliance_pct": 60,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34954,13 +35481,13 @@
       "name": "Frankie Young",
       "avatar_initials": "FY",
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -34977,9 +35504,16 @@
       "id": "dummy-35",
       "name": "Gray Green",
       "avatar_initials": "GG",
-      "status": "on_track",
-      "compliance_pct": 43,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         532,
         196,
@@ -34994,9 +35528,16 @@
       "id": "dummy-36",
       "name": "Hayden Walsh",
       "avatar_initials": "HW",
-      "status": "on_track",
-      "compliance_pct": 43,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         823,
         202,
@@ -35011,9 +35552,16 @@
       "id": "dummy-37",
       "name": "Indigo Dunne",
       "avatar_initials": "ID",
-      "status": "on_track",
-      "compliance_pct": 50,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         410,
         330,
@@ -35028,9 +35576,16 @@
       "id": "dummy-38",
       "name": "Kai Martin",
       "avatar_initials": "KM",
-      "status": "on_track",
-      "compliance_pct": 60,
-      "flags": [],
+      "status": "needs_checkin",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
+        }
+      ],
       "weekly_tss_trend": [
         284,
         290,
@@ -35046,19 +35601,25 @@
       "name": "Luca Shea",
       "avatar_initials": "LS",
       "status": "needs_checkin",
-      "compliance_pct": 38,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -35076,19 +35637,19 @@
       "name": "Marley Bell",
       "avatar_initials": "MB",
       "status": "needs_checkin",
-      "compliance_pct": 14,
+      "compliance_pct": 0,
       "flags": [
         {
-          "type": "missed_sessions",
+          "type": "training_gap",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-04-21"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-21"
         }
       ],
       "weekly_tss_trend": [
@@ -35104,10 +35665,10 @@
   ],
   "roster_summary": {
     "total": 40,
-    "needs_checkin": 15,
-    "watch": 4,
-    "on_track": 21,
-    "avg_compliance_pct": 37
+    "needs_checkin": 40,
+    "watch": 0,
+    "on_track": 0,
+    "avg_compliance_pct": 0
   },
   "recent_comments_feed": [
     {
