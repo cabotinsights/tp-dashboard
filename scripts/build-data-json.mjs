@@ -166,9 +166,17 @@ function buildWeeklyTrend(sessionsByWeek) {
 }
 
 const SPORT_MAP = { run: 'Run', running: 'Run', bike: 'Bike', cycling: 'Bike', swim: 'Swim', swimming: 'Swim' };
-function normalizeSport(s) {
+function normalizeSport(s, title, description) {
   const key = (s || '').toLowerCase();
-  return SPORT_MAP[key] || 'Other';
+  if (SPORT_MAP[key]) return SPORT_MAP[key];
+  // Fallback: infer from title + description. TP's /workouts endpoint frequently
+  // returns sport=null, so keyword inference is the only signal we have.
+  const text = ((title || '') + '\n' + (description || '')).toLowerCase();
+  if (/\bswim|open water|\bow\b|\bpads\b|pull\s*buoy|paddles|\bdrill\b|\d+\s*x\s*\d{2,3}\s*m?\b(?=.*(fast|easy|pads|pb|pace))|warm up.*\d+x\s*\d{2,3}/.test(text)) return 'Swim';
+  if (/\brun|hills|\beasy run|choice run|z\d run|tempo run|long run/.test(text)) return 'Run';
+  if (/\bbike|cycl|riding|\bftp\b|torque|rpm|cadence|watts|aero|endurance\s*\d*\s*hr|on\/?off/.test(text)) return 'Bike';
+  if (/sauna|s&c|strength|stretch|mobility|yoga|recovery: full day off/.test(text)) return 'Other';
+  return 'Other';
 }
 
 function sessionStatus(session, today) {
@@ -186,7 +194,7 @@ function summarizeWeek(sessions, weekStart, today) {
   const inlineSessions = [];
   for (const s of sessions) {
     const status = sessionStatus(s, today);
-    const sport = normalizeSport(s.sport);
+    const sport = normalizeSport(s.sport, s.title, s.description);
     planned++;
     if (status === 'done') {
       completed++;
