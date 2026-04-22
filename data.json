@@ -3,7 +3,6 @@
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
-      "id": "stephen-bates",
       "name": "Stephen Bates",
       "avatar_initials": "SB",
       "is_real": true,
@@ -13,6 +12,407 @@
         "tsb": 10.3,
         "status": "Fresh (race ready)"
       },
+      "this_week": {
+        "start": "2026-04-13",
+        "end": "2026-04-19",
+        "sessions_planned": 6,
+        "sessions_completed": 3,
+        "sessions_planned_today": 0,
+        "compliance_pct": 100,
+        "total_tss": 203.76,
+        "total_hours": 2.43,
+        "by_sport": {
+          "Bike": {
+            "hours": 0,
+            "tss": 0
+          },
+          "Run": {
+            "hours": 1.55,
+            "tss": 168.31
+          },
+          "Swim": {
+            "hours": 0.88,
+            "tss": 35.45
+          },
+          "Other": {
+            "hours": 0,
+            "tss": 0
+          }
+        }
+      },
+      "last_week": {
+        "start": "2026-04-06",
+        "end": "2026-04-12",
+        "sessions_planned": 8,
+        "sessions_completed": 7,
+        "sessions_missed": 1,
+        "compliance_pct": 88,
+        "total_tss": 473.45,
+        "total_hours": 6.75,
+        "by_sport": {
+          "Bike": {
+            "hours": 2.43,
+            "tss": 117.66
+          },
+          "Run": {
+            "hours": 2.34,
+            "tss": 218.52
+          },
+          "Swim": {
+            "hours": 0.48,
+            "tss": 65.52
+          },
+          "Other": {
+            "hours": 1.5,
+            "tss": 71.75
+          }
+        },
+        "sessions": [
+          {
+            "date": "2026-04-06",
+            "title": "18x 1min ON/OFF (low rpm) @ 95%",
+            "sport": "Bike",
+            "duration_hours": 1.1,
+            "tss": 52.81,
+            "distance_km": 28,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-06",
+            "title": "Sauna",
+            "sport": "Other",
+            "duration_hours": 0.58,
+            "tss": 21.92,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-07",
+            "title": "HILLS | 2x (5x 40s) | Pace",
+            "sport": "Run",
+            "duration_hours": 0.9,
+            "tss": 54.32,
+            "distance_km": 9.7,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-07",
+            "title": "S&C class",
+            "sport": "Other",
+            "duration_hours": 0.92,
+            "tss": 49.83,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-08",
+            "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp",
+            "sport": "Bike",
+            "duration_hours": 1.33,
+            "tss": 64.85,
+            "distance_km": 33.4,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-10",
+            "title": "Swim | 1000 + 6x250 | High Aerobic Set",
+            "sport": "Swim",
+            "duration_hours": 0.48,
+            "tss": 65.52,
+            "distance_km": 1.4,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-11",
+            "title": "1h25 Very Easy | HR",
+            "sport": "Run",
+            "duration_hours": 1.44,
+            "tss": 164.2,
+            "distance_km": 16,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-12",
+            "title": "Pre-GYM Run",
+            "sport": "Run",
+            "duration_hours": null,
+            "tss": null,
+            "distance_km": null,
+            "_status": "missed"
+          }
+        ]
+      },
+      "completed_sessions": [
+        {
+          "date": "2026-04-14",
+          "title": "HILLS | 4x (5x 30s) | Pace",
+          "sport": "Run",
+          "duration_hours": 1.15,
+          "tss": 134.79,
+          "distance_km": 12.1
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Swim | Recovery | Z2",
+          "sport": "Swim",
+          "duration_hours": 0.88,
+          "tss": 35.45,
+          "distance_km": 2.7
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.4,
+          "tss": 33.52,
+          "distance_km": 4.1
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
+        {
+          "date": "2026-04-15",
+          "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)",
+          "sport": "Swim",
+          "duration_hours": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-04-17",
+          "title": "Recovery: Full Day Off",
+          "sport": "Other",
+          "duration_hours": 0,
+          "tss_planned": 0
+        },
+        {
+          "date": "2026-04-18",
+          "title": "Run | 40min Easy | HR",
+          "sport": "Run",
+          "duration_hours": 0.67,
+          "tss_planned": 33.32
+        }
+      ],
+      "next_event": {
+        "id": 37280228,
+        "name": "T100 Dubai",
+        "date": "2026-11-15",
+        "type": "MultisportTriathlon",
+        "priority": "B",
+        "race_type_duration": "TriTwoToFourHours"
+      },
+      "focus_event": {
+        "id": 37280222,
+        "name": "Muscat IM",
+        "date": "2026-12-05",
+        "type": "MultisportTriathlon",
+        "priority": "A",
+        "race_type_duration": "TriOverFourHours"
+      },
+      "peaks": {
+        "bike_20min_power": {
+          "value": 207,
+          "date": "2026-03-27"
+        },
+        "run_5k_pace": {
+          "value": "4:00/km",
+          "date": "2022-01-23"
+        }
+      },
+      "pbs": {
+        "run": [
+          {
+            "distance": "5K",
+            "time": "18:15",
+            "pace": "3:39/km",
+            "date": "2025-06-27"
+          },
+          {
+            "distance": "10K",
+            "time": "39:44",
+            "pace": "3:58/km",
+            "date": "2026-03-08"
+          },
+          {
+            "distance": "Half Marathon",
+            "time": "1:25:00",
+            "pace": "4:01/km",
+            "date": "2024-09-22"
+          },
+          {
+            "distance": "Marathon",
+            "time": "3:09:00",
+            "pace": "4:28/km",
+            "date": "2024-10-27"
+          }
+        ],
+        "bike": [
+          {
+            "metric": "20min Power",
+            "value": "207W",
+            "date": "2026-03-27"
+          },
+          {
+            "metric": "Longest Ride",
+            "value": "185 km",
+            "date": "2022-07-09"
+          }
+        ]
+      },
+      "race_history": [
+        {
+          "name": "Lusk Triathlon",
+          "date": "2021-09-05",
+          "type": "Sprint",
+          "swim": "17:48",
+          "swim_dist": "905m",
+          "bike": "40:44",
+          "bike_dist": "20.6km",
+          "run": "23:53",
+          "run_dist": "5km",
+          "total": "1:28:08",
+          "pb": false
+        },
+        {
+          "name": "Galway Triathlon",
+          "date": "2022-05-29",
+          "type": "Olympic",
+          "swim": "39:54",
+          "swim_dist": "2km",
+          "bike": "1:18:22",
+          "bike_dist": "39.5km",
+          "run": "1:49:56",
+          "run_dist": "10km",
+          "total": "3:55:04",
+          "pb": false
+        },
+        {
+          "name": "Waterville Triathlon",
+          "date": "2022-07-09",
+          "type": "Half IM",
+          "swim": "36:33",
+          "swim_dist": "2.1km",
+          "bike": "3:52:59",
+          "bike_dist": "93.6km",
+          "run": "2:20:10",
+          "run_dist": "22km",
+          "total": "6:57:19",
+          "pb": false
+        },
+        {
+          "name": "Youghal Triathlon",
+          "date": "2022-08-13",
+          "type": "Half IM",
+          "swim": "37:10",
+          "swim_dist": "2.3km",
+          "bike": "3:02:19",
+          "bike_dist": "89.2km",
+          "run": "1:45:22",
+          "run_dist": "21.2km",
+          "total": "5:37:06",
+          "pb": false
+        },
+        {
+          "name": "Galway Triathlon",
+          "date": "2023-05-28",
+          "type": "Olympic",
+          "swim": "35:12",
+          "swim_dist": "1.7km",
+          "bike": "1:19:15",
+          "bike_dist": "39.5km",
+          "run": "49:15",
+          "run_dist": "10km",
+          "total": "2:55:44",
+          "pb": true
+        },
+        {
+          "name": "County Kerry Triathlon",
+          "date": "2023-07-08",
+          "type": "Duathlon",
+          "swim": "21:33",
+          "swim_dist": "4.6km",
+          "bike": "3:25:08",
+          "bike_dist": "93.5km",
+          "run": "1:58:03",
+          "run_dist": "21.6km",
+          "total": "5:47:17",
+          "pb": false,
+          "note": "Run-Bike-Run (swim cancelled)"
+        },
+        {
+          "name": "Youghal Triathlon",
+          "date": "2023-08-20",
+          "type": "Half IM",
+          "swim": "29:16",
+          "swim_dist": "1.5km",
+          "bike": "2:57:18",
+          "bike_dist": "90.1km",
+          "run": "1:38:43",
+          "run_dist": "20.9km",
+          "total": "5:15:51",
+          "pb": false
+        },
+        {
+          "name": "Serik Triathlon",
+          "date": "2023-10-29",
+          "type": "Half IM",
+          "swim": "36:41",
+          "swim_dist": "2.1km",
+          "bike": "2:36:50",
+          "bike_dist": "89.6km",
+          "run": "1:42:38",
+          "run_dist": "20.9km",
+          "total": "5:04:29",
+          "pb": true
+        },
+        {
+          "name": "Muscat Triathlon",
+          "date": "2026-02-14",
+          "type": "Half IM",
+          "swim": "36:53",
+          "swim_dist": "1.9km",
+          "bike": "3:02:16",
+          "bike_dist": "89.1km",
+          "run": "1:35:58",
+          "run_dist": "20.8km",
+          "total": "5:25:00",
+          "pb": false
+        }
+      ],
+      "alltime_stats": [
+        {
+          "label": "Total Runs",
+          "value": "680"
+        },
+        {
+          "label": "Run Distance",
+          "value": "5,992 km"
+        },
+        {
+          "label": "Total Rides",
+          "value": "331"
+        },
+        {
+          "label": "Ride Distance",
+          "value": "7,451 km"
+        },
+        {
+          "label": "Total Swims",
+          "value": "163"
+        },
+        {
+          "label": "Run Hours",
+          "value": "577h"
+        },
+        {
+          "label": "Ride Hours",
+          "value": "452h"
+        },
+        {
+          "label": "Total Elevation",
+          "value": "86,118 m"
+        }
+      ],
       "fitness_history": [
         {
           "date": "2026-01-28",
@@ -525,6 +925,163 @@
           "tsb": 10.3
         }
       ],
+      "weekly_trend": [
+        {
+          "week_start": "2026-03-16",
+          "tss": 1182,
+          "hours": 13.5,
+          "ctl_end": 55
+        },
+        {
+          "week_start": "2026-03-23",
+          "tss": 860,
+          "hours": 10.2,
+          "ctl_end": 60.5
+        },
+        {
+          "week_start": "2026-03-30",
+          "tss": 832,
+          "hours": 11.16,
+          "ctl_end": 81.9
+        },
+        {
+          "week_start": "2026-04-06",
+          "tss": 473,
+          "hours": 6.75,
+          "ctl_end": 79.6
+        },
+        {
+          "week_start": "2026-04-13",
+          "tss": 204,
+          "hours": 2.43,
+          "ctl_end": 80.7
+        }
+      ],
+      "coach_summary": "Strong Tuesday hill session — 4x (5x30s) at pace, 134 TSS banked and TSB up to -9.4, best form of the block so far. CTL climbed to 80.7 (+1.3 vs yesterday) showing the deload absorbed well. Monday opened easy with a recovery swim plus short run. Ahead: quality swim Wednesday (speed endurance PB/PD set), full day off Friday, easy aerobic run Saturday. Body is handling the load — green light to keep building.",
+      "recovery": [
+        {
+          "date": "2026-04-02",
+          "sleep_hours": 7.82,
+          "deep": 1.38,
+          "light": 3.73,
+          "rem": 2.5,
+          "awake": 0.21,
+          "hrv": 64,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-04-03",
+          "sleep_hours": 9.38,
+          "deep": 1.21,
+          "light": 5.53,
+          "rem": 2.4,
+          "awake": 0.24,
+          "hrv": 70,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-04-04",
+          "sleep_hours": 5.92,
+          "deep": 1.11,
+          "light": 3.63,
+          "rem": 1.01,
+          "awake": 0.17,
+          "hrv": 49,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-04-05",
+          "sleep_hours": 9.38,
+          "deep": 1.36,
+          "light": 5.76,
+          "rem": 2.15,
+          "awake": 0.11,
+          "hrv": 53,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-06",
+          "sleep_hours": 8.95,
+          "deep": 1.86,
+          "light": 4.3,
+          "rem": 2.18,
+          "awake": 0.61,
+          "hrv": 60,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-07",
+          "sleep_hours": 7.85,
+          "deep": 1.5,
+          "light": 3.5,
+          "rem": 2.15,
+          "awake": 0.7,
+          "hrv": 64,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-08",
+          "sleep_hours": 8.88,
+          "deep": 1.58,
+          "light": 4.23,
+          "rem": 2.85,
+          "awake": 0.22,
+          "hrv": 61,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-04-09",
+          "sleep_hours": 6.2,
+          "deep": 1.46,
+          "light": 2.96,
+          "rem": 0.98,
+          "awake": 0.8,
+          "hrv": 55,
+          "resting_hr": 59
+        },
+        {
+          "date": "2026-04-10",
+          "sleep_hours": 9.98,
+          "deep": 0.98,
+          "light": 5.71,
+          "rem": 3.03,
+          "awake": 0.26,
+          "hrv": 71,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-04-11",
+          "sleep_hours": 9.38,
+          "deep": 1.65,
+          "light": 5.23,
+          "rem": 2.2,
+          "awake": 0.3,
+          "hrv": 65,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-12",
+          "sleep_hours": 3.65,
+          "deep": 0.45,
+          "light": 1.53,
+          "rem": 0.36,
+          "awake": 1.31,
+          "hrv": 24,
+          "resting_hr": 65
+        },
+        {
+          "date": "2026-04-13",
+          "sleep_hours": 10.2,
+          "deep": 1.75,
+          "light": 5.23,
+          "rem": 2.98,
+          "awake": 0.24,
+          "hrv": 70,
+          "resting_hr": 56
+        }
+      ],
+      "flags": [],
+      "id": "stephen-bates",
       "sessions_by_week": {
         "2026-04-06": [
           {
@@ -775,23 +1332,6 @@
           }
         ]
       },
-      "focus_event": {
-        "id": 37280222,
-        "name": "Muscat IM",
-        "date": "2026-12-05",
-        "type": "MultisportTriathlon",
-        "priority": "A",
-        "race_type_duration": "TriOverFourHours"
-      },
-      "next_event": {
-        "id": 37280228,
-        "name": "T100 Dubai",
-        "date": "2026-11-15",
-        "type": "MultisportTriathlon",
-        "priority": "B",
-        "race_type_duration": "TriTwoToFourHours"
-      },
-      "flags": [],
       "flag_history": [],
       "status": "on_track",
       "compliance_pct": 38,

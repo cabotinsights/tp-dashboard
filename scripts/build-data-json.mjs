@@ -192,9 +192,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   const rawAthletes = readAthletesFrom(join(__dirname, 'raw'));
   const seedAthletes = readAthletesFrom(join(__dirname, 'seed'));
+  const seedById = new Map(seedAthletes.map(a => [a.id, a]));
   const rawIds = new Set(rawAthletes.map(a => a.id));
+  // Merge raw onto seed so fresh pull fields (fitness, events) override,
+  // but seed-only view fields (this_week, completed_sessions, weekly_trend,
+  // race_history, pbs, recovery, coach_summary, ...) survive until the pull
+  // script is expanded to produce the full Personal-view shape.
+  const mergedRaw = rawAthletes.map(raw => {
+    const seed = seedById.get(raw.id);
+    return seed ? { ...seed, ...raw } : raw;
+  });
   const realAthletes = [
-    ...rawAthletes,
+    ...mergedRaw,
     ...seedAthletes.filter(a => !rawIds.has(a.id)),
   ];
 
