@@ -165,6 +165,142 @@ function buildWeeklyTrend(sessionsByWeek) {
   });
 }
 
+const SPORT_MAP = { run: 'Run', running: 'Run', bike: 'Bike', cycling: 'Bike', swim: 'Swim', swimming: 'Swim' };
+function normalizeSport(s) {
+  const key = (s || '').toLowerCase();
+  return SPORT_MAP[key] || 'Other';
+}
+
+function sessionStatus(session, today) {
+  if (session.status === 'completed' || (session.tss_actual != null && session.tss_actual > 0)) return 'done';
+  if (session.date < today) return 'missed';
+  return 'upcoming';
+}
+
+function summarizeWeek(sessions, weekStart, today) {
+  const end = shiftIso(weekStart, 6);
+  const by_sport = { Bike: { hours: 0, tss: 0 }, Run: { hours: 0, tss: 0 }, Swim: { hours: 0, tss: 0 }, Other: { hours: 0, tss: 0 } };
+  let planned = 0, completed = 0, missed = 0;
+  let total_tss = 0, total_hours = 0;
+  let planned_today = 0;
+  const inlineSessions = [];
+  for (const s of sessions) {
+    const status = sessionStatus(s, today);
+    const sport = normalizeSport(s.sport);
+    planned++;
+    if (status === 'done') {
+      completed++;
+      const h = s.duration_hours || 0;
+      const tss = s.tss_actual || 0;
+      total_hours += h;
+      total_tss += tss;
+      by_sport[sport].hours += h;
+      by_sport[sport].tss += tss;
+    } else if (status === 'missed') {
+      missed++;
+    }
+    if (s.date === today) planned_today++;
+    inlineSessions.push({
+      date: s.date,
+      title: s.title,
+      sport,
+      duration_hours: s.duration_hours,
+      tss: s.tss_actual,
+      tss_planned: s.tss_planned,
+      _status: status,
+    });
+  }
+  // Round to 2 decimals
+  total_hours = Math.round(total_hours * 100) / 100;
+  total_tss = Math.round(total_tss * 100) / 100;
+  for (const k of Object.keys(by_sport)) {
+    by_sport[k].hours = Math.round(by_sport[k].hours * 100) / 100;
+    by_sport[k].tss = Math.round(by_sport[k].tss * 100) / 100;
+  }
+  const compliance_pct = planned > 0 ? Math.round((completed / planned) * 100) : 0;
+  return {
+    start: weekStart,
+    end,
+    sessions_planned: planned,
+    sessions_completed: completed,
+    sessions_missed: missed,
+    sessions_planned_today: planned_today,
+    compliance_pct,
+    total_tss,
+    total_hours,
+    by_sport,
+    sessions: inlineSessions,
+  };
+}
+
+export function deriveViewFields(athlete, asOf) {
+  // For real/viewer athletes: derive Personal-view fields from sessions_by_week
+  // and fitness_history. Leaves other fields (pbs, race_history, recovery, etc.)
+  // untouched so seed data continues to populate them.
+  if (!athlete.sessions_by_week) return {};
+  const thisWeekStart = weekStartIso(asOf);
+  const lastWeekStart = shiftIso(thisWeekStart, -7);
+
+  const thisWeekSessions = athlete.sessions_by_week[thisWeekStart] || [];
+  const lastWeekSessions = athlete.sessions_by_week[lastWeekStart] || [];
+
+  const thisWeek = summarizeWeek(thisWeekSessions, thisWeekStart, asOf);
+  const lastWeek = summarizeWeek(lastWeekSessions, lastWeekStart, asOf);
+
+  // Flatten this-week sessions into the three arrays the Personal view reads.
+  const completed_sessions = [];
+  const upcoming_sessions = [];
+  const missed_sessions = [];
+  for (const s of thisWeek.sessions) {
+    const base = { date: s.date, title: s.title, sport: s.sport, duration_hours: s.duration_hours };
+    if (s._status === 'done') {
+      completed_sessions.push({ ...base, tss: s.tss });
+    } else if (s._status === 'upcoming') {
+      upcoming_sessions.push({ ...base, tss_planned: s.tss_planned });
+    } else {
+      missed_sessions.push({ ...base, tss_planned: s.tss_planned });
+    }
+  }
+
+  // weekly_trend: one entry per week we have session data for, with ctl_end pulled
+  // from fitness_history (last reading on/before week end).
+  const historyByDate = {};
+  for (const h of (athlete.fitness_history || [])) historyByDate[h.date] = h.ctl;
+  const weekKeys = Object.keys(athlete.sessions_by_week).sort();
+  const weekly_trend = weekKeys.map(wk => {
+    const sessions = athlete.sessions_by_week[wk] || [];
+    let tss = 0, hours = 0;
+    for (const s of sessions) {
+      if (s.status === 'completed' || (s.tss_actual != null && s.tss_actual > 0)) {
+        tss += s.tss_actual || 0;
+        hours += s.duration_hours || 0;
+      }
+    }
+    // ctl_end: walk back up to 7 days from week end to find a fitness reading
+    let ctl_end = null;
+    const weekEnd = shiftIso(wk, 6);
+    for (let i = 0; i <= 7 && ctl_end == null; i++) {
+      const d = shiftIso(weekEnd, -i);
+      if (historyByDate[d] != null) ctl_end = Math.round(historyByDate[d] * 10) / 10;
+    }
+    return {
+      week_start: wk,
+      tss: Math.round(tss),
+      hours: Math.round(hours * 100) / 100,
+      ctl_end,
+    };
+  });
+
+  return {
+    this_week: thisWeek,
+    last_week: lastWeek,
+    completed_sessions,
+    upcoming_sessions,
+    missed_sessions,
+    weekly_trend,
+  };
+}
+
 // CLI
 if (import.meta.url === `file://${process.argv[1]}`) {
   const dummyPath = join(__dirname, 'dummy', 'athletes.json');
@@ -194,20 +330,21 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const seedAthletes = readAthletesFrom(join(__dirname, 'seed'));
   const seedById = new Map(seedAthletes.map(a => [a.id, a]));
   const rawIds = new Set(rawAthletes.map(a => a.id));
-  // Merge raw onto seed so fresh pull fields (fitness, events) override,
-  // but seed-only view fields (this_week, completed_sessions, weekly_trend,
-  // race_history, pbs, recovery, coach_summary, ...) survive until the pull
-  // script is expanded to produce the full Personal-view shape.
+  const asOf = new Date().toISOString().slice(0, 10);
+  // For each raw athlete: start from seed (preserves pbs, race_history, recovery,
+  // coach_summary, etc.), overlay raw fields (fresh fitness + events + sessions),
+  // then overlay freshly derived view fields (this_week, last_week,
+  // completed/upcoming/missed_sessions, weekly_trend) so stale seed values
+  // don't win for weeks the fresh pull covers.
   const mergedRaw = rawAthletes.map(raw => {
     const seed = seedById.get(raw.id);
-    return seed ? { ...seed, ...raw } : raw;
+    const base = seed ? { ...seed, ...raw } : raw;
+    return { ...base, ...deriveViewFields(base, asOf) };
   });
   const realAthletes = [
     ...mergedRaw,
     ...seedAthletes.filter(a => !rawIds.has(a.id)),
   ];
-
-  const asOf = new Date().toISOString().slice(0, 10);
   const out = buildDataJson({ realAthletes, dummyAthletes, asOf });
   const outPath = join(REPO_ROOT, 'data.json');
   writeFileSync(outPath, JSON.stringify(out, null, 2));

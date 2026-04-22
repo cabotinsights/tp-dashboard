@@ -13,22 +13,126 @@
         "status": "Fresh (race ready)"
       },
       "this_week": {
+        "start": "2026-04-20",
+        "end": "2026-04-26",
+        "sessions_planned": 8,
+        "sessions_completed": 3,
+        "sessions_missed": 0,
+        "sessions_planned_today": 2,
+        "compliance_pct": 38,
+        "total_tss": 234.96,
+        "total_hours": 3.21,
+        "by_sport": {
+          "Bike": {
+            "hours": 1.5,
+            "tss": 54.29
+          },
+          "Run": {
+            "hours": 1.71,
+            "tss": 180.67
+          },
+          "Swim": {
+            "hours": 0,
+            "tss": 0
+          },
+          "Other": {
+            "hours": 0,
+            "tss": 0
+          }
+        },
+        "sessions": [
+          {
+            "date": "2026-04-20",
+            "title": "Run |30-40min Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.5279027819633484,
+            "tss": 41.13,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-21",
+            "title": "HILLS | 4x (5x 30s) | Pace",
+            "sport": "Run",
+            "duration_hours": 1.1777777671813965,
+            "tss": 139.54,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-22",
+            "title": "Easy riding 90min | HR",
+            "sport": "Bike",
+            "duration_hours": 1.5,
+            "tss": 54.29,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-22",
+            "title": "Session",
+            "sport": "Swim",
+            "duration_hours": 0.8333333333333334,
+            "tss": null,
+            "tss_planned": 109.71,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-04-23",
+            "title": "50min Easy - choice run",
+            "sport": "Run",
+            "duration_hours": 0.8333333333333334,
+            "tss": null,
+            "tss_planned": 41.65,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-04-23",
+            "title": "Swim | 40x 50m | Steady State",
+            "sport": "Swim",
+            "duration_hours": 1,
+            "tss": null,
+            "tss_planned": 108.48,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-04-24",
+            "title": "Open water - Group Swim",
+            "sport": "Swim",
+            "duration_hours": 1,
+            "tss": null,
+            "tss_planned": 127.14,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-04-25",
+            "title": "Endurance 3hr",
+            "sport": "Bike",
+            "duration_hours": 3,
+            "tss": null,
+            "tss_planned": 127.24,
+            "_status": "upcoming"
+          }
+        ]
+      },
+      "last_week": {
         "start": "2026-04-13",
         "end": "2026-04-19",
         "sessions_planned": 6,
-        "sessions_completed": 3,
+        "sessions_completed": 4,
+        "sessions_missed": 2,
         "sessions_planned_today": 0,
-        "compliance_pct": 100,
-        "total_tss": 203.76,
-        "total_hours": 2.43,
+        "compliance_pct": 67,
+        "total_tss": 274.42,
+        "total_hours": 3.1,
         "by_sport": {
           "Bike": {
             "hours": 0,
             "tss": 0
           },
           "Run": {
-            "hours": 1.55,
-            "tss": 168.31
+            "hours": 2.21,
+            "tss": 238.97
           },
           "Swim": {
             "hours": 0.88,
@@ -38,159 +142,124 @@
             "hours": 0,
             "tss": 0
           }
-        }
-      },
-      "last_week": {
-        "start": "2026-04-06",
-        "end": "2026-04-12",
-        "sessions_planned": 8,
-        "sessions_completed": 7,
-        "sessions_missed": 1,
-        "compliance_pct": 88,
-        "total_tss": 473.45,
-        "total_hours": 6.75,
-        "by_sport": {
-          "Bike": {
-            "hours": 2.43,
-            "tss": 117.66
-          },
-          "Run": {
-            "hours": 2.34,
-            "tss": 218.52
-          },
-          "Swim": {
-            "hours": 0.48,
-            "tss": 65.52
-          },
-          "Other": {
-            "hours": 1.5,
-            "tss": 71.75
-          }
         },
         "sessions": [
           {
-            "date": "2026-04-06",
-            "title": "18x 1min ON/OFF (low rpm) @ 95%",
-            "sport": "Bike",
-            "duration_hours": 1.1,
-            "tss": 52.81,
-            "distance_km": 28,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-06",
-            "title": "Sauna",
-            "sport": "Other",
-            "duration_hours": 0.58,
-            "tss": 21.92,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-07",
-            "title": "HILLS | 2x (5x 40s) | Pace",
-            "sport": "Run",
-            "duration_hours": 0.9,
-            "tss": 54.32,
-            "distance_km": 9.7,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-07",
-            "title": "S&C class",
-            "sport": "Other",
-            "duration_hours": 0.92,
-            "tss": 49.83,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-08",
-            "title": "Torque Interval low rpm + Metabolic | 3x 10min | ftp",
-            "sport": "Bike",
-            "duration_hours": 1.33,
-            "tss": 64.85,
-            "distance_km": 33.4,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-10",
-            "title": "Swim | 1000 + 6x250 | High Aerobic Set",
+            "date": "2026-04-13",
+            "title": "Swim | Recovery | Z2",
             "sport": "Swim",
-            "duration_hours": 0.48,
-            "tss": 65.52,
-            "distance_km": 1.4,
+            "duration_hours": 0.8818944443596733,
+            "tss": 35.45,
+            "tss_planned": null,
             "_status": "done"
           },
           {
-            "date": "2026-04-11",
-            "title": "1h25 Very Easy | HR",
+            "date": "2026-04-13",
+            "title": "Running",
             "sport": "Run",
-            "duration_hours": 1.44,
-            "tss": 164.2,
-            "distance_km": 16,
+            "duration_hours": 0.40011391043663025,
+            "tss": 33.52,
+            "tss_planned": null,
             "_status": "done"
           },
           {
-            "date": "2026-04-12",
-            "title": "Pre-GYM Run",
+            "date": "2026-04-14",
+            "title": "HILLS | 4x (5x 30s) | Pace",
             "sport": "Run",
+            "duration_hours": 1.1460750102996826,
+            "tss": 134.79,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-04-15",
+            "title": "Swim Speed Endurance | 3 x (2 x 50 PB PD, 4 x 25/25) |",
+            "sport": "Swim",
             "duration_hours": null,
             "tss": null,
-            "distance_km": null,
+            "tss_planned": null,
             "_status": "missed"
+          },
+          {
+            "date": "2026-04-17",
+            "title": "Recovery: Full Day Off (All Levels)",
+            "sport": "Other",
+            "duration_hours": null,
+            "tss": null,
+            "tss_planned": null,
+            "_status": "missed"
+          },
+          {
+            "date": "2026-04-18",
+            "title": "Run | 40min Easy - choice run | HR",
+            "sport": "Run",
+            "duration_hours": 0.6671444177627563,
+            "tss": 70.66,
+            "tss_planned": null,
+            "_status": "done"
           }
         ]
       },
       "completed_sessions": [
         {
-          "date": "2026-04-14",
+          "date": "2026-04-20",
+          "title": "Run |30-40min Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.5279027819633484,
+          "tss": 41.13
+        },
+        {
+          "date": "2026-04-21",
           "title": "HILLS | 4x (5x 30s) | Pace",
           "sport": "Run",
-          "duration_hours": 1.15,
-          "tss": 134.79,
-          "distance_km": 12.1
+          "duration_hours": 1.1777777671813965,
+          "tss": 139.54
         },
         {
-          "date": "2026-04-13",
-          "title": "Swim | Recovery | Z2",
-          "sport": "Swim",
-          "duration_hours": 0.88,
-          "tss": 35.45,
-          "distance_km": 2.7
-        },
-        {
-          "date": "2026-04-13",
-          "title": "Running",
-          "sport": "Run",
-          "duration_hours": 0.4,
-          "tss": 33.52,
-          "distance_km": 4.1
+          "date": "2026-04-22",
+          "title": "Easy riding 90min | HR",
+          "sport": "Bike",
+          "duration_hours": 1.5,
+          "tss": 54.29
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-04-15",
-          "title": "Swim Speed Endurance | 3x (2x50 PB PD, 4x25/25)",
+          "date": "2026-04-22",
+          "title": "Session",
           "sport": "Swim",
-          "duration_hours": null,
-          "tss_planned": null
+          "duration_hours": 0.8333333333333334,
+          "tss_planned": 109.71
         },
         {
-          "date": "2026-04-17",
-          "title": "Recovery: Full Day Off",
-          "sport": "Other",
-          "duration_hours": 0,
-          "tss_planned": 0
-        },
-        {
-          "date": "2026-04-18",
-          "title": "Run | 40min Easy | HR",
+          "date": "2026-04-23",
+          "title": "50min Easy - choice run",
           "sport": "Run",
-          "duration_hours": 0.67,
-          "tss_planned": 33.32
+          "duration_hours": 0.8333333333333334,
+          "tss_planned": 41.65
+        },
+        {
+          "date": "2026-04-23",
+          "title": "Swim | 40x 50m | Steady State",
+          "sport": "Swim",
+          "duration_hours": 1,
+          "tss_planned": 108.48
+        },
+        {
+          "date": "2026-04-24",
+          "title": "Open water - Group Swim",
+          "sport": "Swim",
+          "duration_hours": 1,
+          "tss_planned": 127.14
+        },
+        {
+          "date": "2026-04-25",
+          "title": "Endurance 3hr",
+          "sport": "Bike",
+          "duration_hours": 3,
+          "tss_planned": 127.24
         }
       ],
       "next_event": {
@@ -927,34 +996,28 @@
       ],
       "weekly_trend": [
         {
-          "week_start": "2026-03-16",
-          "tss": 1182,
-          "hours": 13.5,
-          "ctl_end": 55
-        },
-        {
-          "week_start": "2026-03-23",
-          "tss": 860,
-          "hours": 10.2,
-          "ctl_end": 60.5
-        },
-        {
-          "week_start": "2026-03-30",
-          "tss": 832,
-          "hours": 11.16,
-          "ctl_end": 81.9
-        },
-        {
           "week_start": "2026-04-06",
-          "tss": 473,
-          "hours": 6.75,
+          "tss": 295,
+          "hours": 3.25,
           "ctl_end": 79.6
         },
         {
           "week_start": "2026-04-13",
-          "tss": 204,
-          "hours": 2.43,
-          "ctl_end": 80.7
+          "tss": 274,
+          "hours": 3.1,
+          "ctl_end": 73.2
+        },
+        {
+          "week_start": "2026-04-20",
+          "tss": 235,
+          "hours": 3.21,
+          "ctl_end": 76.2
+        },
+        {
+          "week_start": "2026-04-27",
+          "tss": 0,
+          "hours": 0,
+          "ctl_end": null
         }
       ],
       "coach_summary": "Strong Tuesday hill session — 4x (5x30s) at pace, 134 TSS banked and TSB up to -9.4, best form of the block so far. CTL climbed to 80.7 (+1.3 vs yesterday) showing the deload absorbed well. Monday opened easy with a recovery swim plus short run. Ahead: quality swim Wednesday (speed endurance PB/PD set), full day off Friday, easy aerobic run Saturday. Body is handling the load — green light to keep building.",
