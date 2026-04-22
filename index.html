@@ -158,12 +158,14 @@
           </div>
 
           <!-- AI Coach Summary -->
-          <div class="section ai-summary" x-show="me.coach_summary">
+          <div class="section ai-summary" x-show="aiSummary || aiSummaryLoading || me.coach_summary">
             <div class="ai-summary-header">
               <span class="ai-icon">&#129302;</span>
               <h2 class="section-title" style="margin-bottom:0">Coach Analysis</h2>
             </div>
-            <p class="ai-summary-text" x-text="me.coach_summary"></p>
+            <p class="ai-summary-text" x-show="aiSummaryLoading && !aiSummary" style="opacity:0.6">Generating coach analysis...</p>
+            <p class="ai-summary-text" x-show="aiSummary" x-text="aiSummary"></p>
+            <p class="ai-summary-text" x-show="!aiSummary && !aiSummaryLoading" x-text="me.coach_summary"></p>
 
             <!-- Ask Coach AI -->
             <div class="coach-chat">

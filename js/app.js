@@ -17,6 +17,8 @@ function app() {
     coachMessages: [],
     coachLoading: false,
     coachMsgId: 0,
+    aiSummary: '',
+    aiSummaryLoading: false,
 
     get me() {
       if (!this.data) return null;
@@ -423,8 +425,50 @@ function app() {
       this.$nextTick(function() {
         if (self.view === 'personal' && self.me) {
           self.renderPersonalCharts(self.me);
+          self.loadAiSummary();
         }
       });
+    },
+
+    async loadAiSummary() {
+      if (!this.me) return;
+      // Cache per athlete+date so we don't re-bill the API on every page load.
+      var today = new Date().toISOString().slice(0, 10);
+      var cacheKey = 'aiSummary:' + this.me.id + ':' + today;
+      var cached = sessionStorage.getItem(cacheKey);
+      if (cached) { this.aiSummary = cached; return; }
+
+      this.aiSummaryLoading = true;
+      try {
+        var athleteData = {
+          name: this.me.name,
+          current_fitness: this.me.current_fitness,
+          this_week: this.me.this_week,
+          last_week: this.me.last_week,
+          completed_sessions: this.me.completed_sessions,
+          upcoming_sessions: this.me.upcoming_sessions,
+          missed_sessions: this.me.missed_sessions,
+          weekly_trend: this.me.weekly_trend ? this.me.weekly_trend.slice(-6) : [],
+          next_event: this.me.next_event,
+          focus_event: this.me.focus_event,
+        };
+        var resp = await fetch('/.netlify/functions/ask-coach', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question: 'Give me a 3-4 sentence coach-style summary of where I am this week. Reference actual numbers (CTL/TSB, sessions done, upcoming highlights). Tone: direct and confident, like a coach writing a quick check-in note.',
+            athleteData: athleteData,
+          }),
+        });
+        var result = await resp.json();
+        if (result && result.reply) {
+          this.aiSummary = result.reply;
+          try { sessionStorage.setItem(cacheKey, result.reply); } catch (e) {}
+        }
+      } catch (err) {
+        console.error('Failed to load AI summary:', err);
+      }
+      this.aiSummaryLoading = false;
     },
 
     async refresh() {
