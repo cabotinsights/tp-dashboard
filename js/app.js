@@ -439,6 +439,8 @@ function app() {
 
       this.aiSummaryLoading = true;
       this.aiSummary = '';
+      var controller = new AbortController();
+      var timeoutId = setTimeout(function() { controller.abort(); }, 20000);
       try {
         var athleteData = {
           name: this.me.name,
@@ -459,6 +461,7 @@ function app() {
             question: 'Give me a 3-4 sentence coach-style summary of where I am this week. Reference actual numbers (CTL/TSB, sessions done, upcoming highlights). Tone: direct and confident, like a coach writing a quick check-in note.',
             athleteData: athleteData,
           }),
+          signal: controller.signal,
         });
         var result = await resp.json();
         if (result && result.reply) {
@@ -467,8 +470,10 @@ function app() {
         }
       } catch (err) {
         console.error('Failed to load AI summary:', err);
+      } finally {
+        clearTimeout(timeoutId);
+        this.aiSummaryLoading = false;
       }
-      this.aiSummaryLoading = false;
     },
 
     async refresh() {
