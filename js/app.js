@@ -432,13 +432,13 @@ function app() {
 
     async loadAiSummary() {
       if (!this.me) return;
-      // Cache per athlete+date so we don't re-bill the API on every page load.
-      var today = new Date().toISOString().slice(0, 10);
-      var cacheKey = 'aiSummary:' + this.me.id + ':' + today;
+      var fitness = this.me.current_fitness || {};
+      var cacheKey = 'aiSummary:' + this.me.id + ':' + fitness.ctl + ':' + fitness.atl + ':' + fitness.tsb;
       var cached = sessionStorage.getItem(cacheKey);
       if (cached) { this.aiSummary = cached; return; }
 
       this.aiSummaryLoading = true;
+      this.aiSummary = '';
       try {
         var athleteData = {
           name: this.me.name,
