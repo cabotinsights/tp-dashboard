@@ -433,7 +433,8 @@ function app() {
     async loadAiSummary() {
       if (!this.me) return;
       var fitness = this.me.current_fitness || {};
-      var cacheKey = 'aiSummary:' + this.me.id + ':' + fitness.ctl + ':' + fitness.atl + ':' + fitness.tsb;
+      var today = new Date().toISOString().slice(0, 10);
+      var cacheKey = 'aiSummary:v2:' + this.me.id + ':' + today + ':' + fitness.ctl + ':' + fitness.atl + ':' + fitness.tsb;
       var cached = sessionStorage.getItem(cacheKey);
       if (cached) { this.aiSummary = cached; return; }
 
