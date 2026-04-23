@@ -14,14 +14,37 @@ exports.handler = async function(event) {
 
     var todayIso = new Date().toISOString().slice(0, 10);
     var weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-    var todayName = weekdays[new Date(todayIso + 'T00:00:00Z').getUTCDay()];
+    var weekdayFor = function(iso) {
+      return weekdays[new Date(iso + 'T00:00:00Z').getUTCDay()];
+    };
+    var todayName = weekdayFor(todayIso);
+
+    var annotateSessions = function(arr) {
+      if (!Array.isArray(arr)) return arr;
+      return arr.map(function(s) {
+        if (!s || !s.date) return s;
+        var wd = weekdayFor(s.date);
+        var rel = s.date === todayIso ? 'today'
+          : s.date < todayIso ? 'past'
+          : 'upcoming';
+        return Object.assign({}, s, { weekday: wd, relative: rel });
+      });
+    };
+    var enriched = Object.assign({}, athleteData, {
+      completed_sessions: annotateSessions(athleteData && athleteData.completed_sessions),
+      upcoming_sessions: annotateSessions(athleteData && athleteData.upcoming_sessions),
+      missed_sessions: annotateSessions(athleteData && athleteData.missed_sessions),
+    });
+    if (enriched.this_week && Array.isArray(enriched.this_week.sessions)) {
+      enriched.this_week = Object.assign({}, enriched.this_week, { sessions: annotateSessions(enriched.this_week.sessions) });
+    }
 
     var systemPrompt = `You are an expert triathlon and endurance coach AI assistant embedded in a training dashboard. You have access to the athlete's real-time training data provided below. Answer questions conversationally, with specific numbers and actionable advice. Be direct, confident, and reference the actual data. Keep responses under 150 words unless the question requires more detail.
 
-TODAY IS ` + todayName + ' ' + todayIso + `. Always anchor date references ("today", "tomorrow", "yesterday", weekday names) to this date — never guess. Sessions with date == today are today's sessions; date == today+1 is tomorrow. Don't assume a session was on a different weekday than its ISO date implies.
+TODAY IS ` + todayName + ' ' + todayIso + `. Every session in the data is pre-labeled with its correct weekday and a "relative" tag (today / past / upcoming). Use those labels verbatim — do not compute your own weekday from an ISO date, and never contradict the pre-labeled weekday. "Tomorrow" means the upcoming session whose date is exactly one day after today.
 
 ATHLETE DATA:
-` + JSON.stringify(athleteData, null, 0);
+` + JSON.stringify(enriched, null, 0);
 
     var response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
