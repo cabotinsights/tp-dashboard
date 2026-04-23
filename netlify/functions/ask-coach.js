@@ -12,7 +12,13 @@ exports.handler = async function(event) {
     var question = body.question;
     var athleteData = body.athleteData;
 
+    var todayIso = new Date().toISOString().slice(0, 10);
+    var weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var todayName = weekdays[new Date(todayIso + 'T00:00:00Z').getUTCDay()];
+
     var systemPrompt = `You are an expert triathlon and endurance coach AI assistant embedded in a training dashboard. You have access to the athlete's real-time training data provided below. Answer questions conversationally, with specific numbers and actionable advice. Be direct, confident, and reference the actual data. Keep responses under 150 words unless the question requires more detail.
+
+TODAY IS ` + todayName + ' ' + todayIso + `. Always anchor date references ("today", "tomorrow", "yesterday", weekday names) to this date — never guess. Sessions with date == today are today's sessions; date == today+1 is tomorrow. Don't assume a session was on a different weekday than its ISO date implies.
 
 ATHLETE DATA:
 ` + JSON.stringify(athleteData, null, 0);
