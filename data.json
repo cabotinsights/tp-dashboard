@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T00:00:00Z",
+  "generated_at": "2026-04-24T00:00:00Z",
   "me": "stephen-bates",
   "athletes": {
     "stephen-bates": {
@@ -18,7 +18,7 @@
         "sessions_planned": 8,
         "sessions_completed": 6,
         "sessions_missed": 0,
-        "sessions_planned_today": 2,
+        "sessions_planned_today": 1,
         "compliance_pct": 75,
         "total_tss": 536.02,
         "total_hours": 5.49,
@@ -2240,16 +2240,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -3077,16 +3077,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -3859,16 +3859,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -4702,19 +4702,19 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -4722,61 +4722,61 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -5580,52 +5580,52 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -6463,64 +6463,64 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 48 / target 93",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 48 / target 93",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 24d — CTL 48 / target 93",
-          "triggered_at": "2026-04-02"
+          "reason": "Connemarathon in 23d — CTL 48 / target 93",
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 17d — CTL 48 / target 93",
-          "triggered_at": "2026-04-09"
+          "reason": "Connemarathon in 16d — CTL 48 / target 93",
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 48 / target 93",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 9d — CTL 48 / target 93",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 48 / target 93",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 48 / target 93",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -7355,34 +7355,34 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 101",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 101",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 101",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 26d — CTL 79 / target 101",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 101",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 101",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -8198,16 +8198,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -9016,16 +9016,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -9834,16 +9834,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -10703,19 +10703,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -10723,61 +10723,61 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "red",
-          "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
-        },
-        {
-          "type": "training_gap",
-          "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-10"
+        },
+        {
+          "type": "missed_sessions",
+          "severity": "amber",
+          "reason": "2 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-17"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-17"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "3 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-17"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -18 — accumulating fatigue",
+          "triggered_at": "2026-04-24"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -11574,52 +11574,58 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 12 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 13 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "missed_sessions",
+          "severity": "red",
+          "reason": "3 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-10"
+        },
+        {
+          "type": "mood_keyword",
           "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
-          "reason": "5 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 5 days",
-          "triggered_at": "2026-04-16"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "reason": "4 missed sessions in the last 7 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 12 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 6 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-17"
+        },
+        {
+          "type": "training_gap",
+          "severity": "red",
+          "reason": "No workouts logged for 13 days",
+          "triggered_at": "2026-04-24"
+        },
+        {
+          "type": "mood_keyword",
+          "severity": "amber",
+          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -12450,8 +12456,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -12459,25 +12465,25 @@
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -13293,34 +13299,34 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 111",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 111",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 27d — CTL 79 / target 111",
-          "triggered_at": "2026-04-16"
+          "reason": "IM Cork 70.3 in 26d — CTL 79 / target 111",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 111",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 111",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -14084,16 +14090,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -14907,16 +14913,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -15696,16 +15702,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -16541,19 +16547,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -16561,55 +16567,49 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
-        },
-        {
-          "type": "missed_sessions",
-          "severity": "amber",
-          "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -17420,14 +17420,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -17435,37 +17435,43 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-09"
+          "severity": "red",
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
+        },
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -18272,8 +18278,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -18281,13 +18287,13 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -19158,16 +19164,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -19935,16 +19941,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -20791,16 +20797,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -21642,16 +21648,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -22444,13 +22450,13 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -22458,55 +22464,55 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -23312,7 +23318,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -23320,43 +23326,43 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "4 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "6 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -24175,52 +24181,52 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 31 / target 109",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 31 / target 109",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 24d — CTL 31 / target 109",
-          "triggered_at": "2026-04-02"
+          "reason": "Connemarathon in 23d — CTL 31 / target 109",
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "Connemarathon in 17d — CTL 31 / target 109",
-          "triggered_at": "2026-04-09"
+          "reason": "Connemarathon in 16d — CTL 31 / target 109",
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 10d — CTL 31 / target 109",
-          "triggered_at": "2026-04-16"
+          "reason": "Connemarathon in 9d — CTL 31 / target 109",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 31 / target 109",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 31 / target 109",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -25033,16 +25039,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -25839,16 +25845,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -26702,16 +26708,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -27539,16 +27545,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -28379,19 +28385,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -28399,61 +28405,61 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-04-16"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "5 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -29241,14 +29247,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -29256,31 +29256,25 @@
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -30063,8 +30057,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -30072,19 +30066,19 @@
           "type": "missed_sessions",
           "severity": "amber",
           "reason": "2 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -30907,16 +30901,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -31758,16 +31752,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -32573,16 +32567,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -33340,16 +33334,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -34226,19 +34220,19 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -34246,49 +34240,49 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-03-26"
+          "triggered_at": "2026-03-27"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-02"
+          "triggered_at": "2026-04-03"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -35092,14 +35086,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "flag_history": [
@@ -35107,31 +35101,31 @@
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-09"
+          "triggered_at": "2026-04-10"
         },
         {
           "type": "missed_sessions",
           "severity": "red",
           "reason": "3 missed sessions in the last 7 days",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-16"
+          "triggered_at": "2026-04-17"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "status": "needs_checkin",
@@ -35154,8 +35148,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35178,8 +35172,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35202,8 +35196,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35227,19 +35221,19 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Legs really tired today, might need easy\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35262,14 +35256,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35292,14 +35286,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 48 / target 93",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 48 / target 93",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35322,14 +35316,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 101",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 101",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35352,8 +35346,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35376,8 +35370,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35400,8 +35394,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35425,19 +35419,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35460,14 +35454,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 12 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 13 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35490,8 +35484,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35514,14 +35508,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "amber",
-          "reason": "IM Cork 70.3 in 20d — CTL 79 / target 111",
-          "triggered_at": "2026-04-23"
+          "reason": "IM Cork 70.3 in 19d — CTL 79 / target 111",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35544,8 +35538,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35568,8 +35562,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35592,8 +35586,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35617,19 +35611,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35652,14 +35646,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
-          "severity": "red",
-          "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "severity": "amber",
+          "reason": "Mood warning: \"Slight pain in left knee — monitoring\"",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35682,8 +35676,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35706,8 +35700,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35730,8 +35724,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35754,8 +35748,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35778,8 +35772,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35803,13 +35797,13 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35833,7 +35827,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35856,14 +35850,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "race_not_ready",
           "severity": "red",
-          "reason": "Connemarathon in 3d — CTL 31 / target 109",
-          "triggered_at": "2026-04-23"
+          "reason": "Connemarathon in 2d — CTL 31 / target 109",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35886,8 +35880,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35910,8 +35904,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35934,8 +35928,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35958,8 +35952,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -35983,19 +35977,19 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
-          "reason": "3 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "reason": "2 mood-warning comments in the last 14 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36018,14 +36012,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
-        },
-        {
-          "type": "mood_keyword",
-          "severity": "amber",
-          "reason": "Mood warning: \"Felt sore from Sunday long run\"",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36048,8 +36036,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36072,8 +36060,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36096,8 +36084,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36120,8 +36108,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36144,8 +36132,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36169,19 +36157,19 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -30 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "red",
           "reason": "2 mood-warning comments in the last 14 days",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
@@ -36204,14 +36192,14 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-04-23"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-04-24"
         },
         {
           "type": "mood_keyword",
           "severity": "amber",
           "reason": "Mood warning: \"Exhausted — tough week at work too\"",
-          "triggered_at": "2026-04-23"
+          "triggered_at": "2026-04-24"
         }
       ],
       "weekly_tss_trend": [
