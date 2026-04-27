@@ -43,21 +43,21 @@
         "sessions": [
           {
             "date": "2026-04-27",
-            "title": "5x 400m",
-            "sport": "Swim",
-            "duration_hours": 0.701594451268514,
-            "tss": 89.57,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-04-27",
             "title": "20x 1min ON/OFF repeats | FTP",
             "sport": "Bike",
             "duration_hours": 1.1666666666666667,
             "tss": null,
             "tss_planned": 60.7,
             "_status": "upcoming"
+          },
+          {
+            "date": "2026-04-27",
+            "title": "5x 400m",
+            "sport": "Swim",
+            "duration_hours": 0.701594451268514,
+            "tss": 89.57,
+            "tss_planned": null,
+            "_status": "done"
           },
           {
             "date": "2026-04-28",
@@ -1075,12 +1075,62 @@
       ],
       "recovery": [
         {
+          "date": "2026-03-28",
+          "sleep_hours": 7.92,
+          "deep": 1.35,
+          "light": 5.31,
+          "rem": 0.93,
+          "awake": 0.33000022,
+          "hrv": 75,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-03-29",
+          "sleep_hours": 8.18,
+          "deep": 0.91,
+          "light": 4.65,
+          "rem": 2.41,
+          "awake": 0.21000028,
+          "hrv": 47,
+          "resting_hr": 56
+        },
+        {
+          "date": "2026-03-30",
+          "sleep_hours": 10.98,
+          "deep": 1.3,
+          "light": 5.71,
+          "rem": 3.73,
+          "awake": 0.2399993,
+          "hrv": 72,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-03-31",
+          "sleep_hours": 7.28,
+          "deep": 1.25,
+          "light": 3.51,
+          "rem": 2.4,
+          "awake": 0.120000124,
+          "hrv": 73,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-04-01",
+          "sleep_hours": 7.77,
+          "deep": 1.15,
+          "light": 5.06,
+          "rem": 1.4,
+          "awake": 0.15999997,
+          "hrv": 85,
+          "resting_hr": 52
+        },
+        {
           "date": "2026-04-02",
           "sleep_hours": 7.82,
           "deep": 1.38,
           "light": 3.73,
           "rem": 2.5,
-          "awake": 0.21,
+          "awake": 0.21000004,
           "hrv": 64,
           "resting_hr": 52
         },
@@ -1090,7 +1140,7 @@
           "deep": 1.21,
           "light": 5.53,
           "rem": 2.4,
-          "awake": 0.24,
+          "awake": 0.23999977,
           "hrv": 70,
           "resting_hr": 52
         },
@@ -1100,7 +1150,7 @@
           "deep": 1.11,
           "light": 3.63,
           "rem": 1.01,
-          "awake": 0.17,
+          "awake": 0.16999984,
           "hrv": 49,
           "resting_hr": 53
         },
@@ -1110,7 +1160,7 @@
           "deep": 1.36,
           "light": 5.76,
           "rem": 2.15,
-          "awake": 0.11,
+          "awake": 0.11000013,
           "hrv": 53,
           "resting_hr": 55
         },
@@ -1120,7 +1170,7 @@
           "deep": 1.86,
           "light": 4.3,
           "rem": 2.18,
-          "awake": 0.61,
+          "awake": 0.6099994,
           "hrv": 60,
           "resting_hr": 55
         },
@@ -1130,7 +1180,7 @@
           "deep": 1.5,
           "light": 3.5,
           "rem": 2.15,
-          "awake": 0.7,
+          "awake": 0.6999998,
           "hrv": 64,
           "resting_hr": 55
         },
@@ -1140,7 +1190,7 @@
           "deep": 1.58,
           "light": 4.23,
           "rem": 2.85,
-          "awake": 0.22,
+          "awake": 0.22000027,
           "hrv": 61,
           "resting_hr": 54
         },
@@ -1150,7 +1200,7 @@
           "deep": 1.46,
           "light": 2.96,
           "rem": 0.98,
-          "awake": 0.8,
+          "awake": 0.7999997,
           "hrv": 55,
           "resting_hr": 59
         },
@@ -1170,7 +1220,7 @@
           "deep": 1.65,
           "light": 5.23,
           "rem": 2.2,
-          "awake": 0.3,
+          "awake": 0.29999995,
           "hrv": 65,
           "resting_hr": 55
         },
@@ -1180,7 +1230,7 @@
           "deep": 0.45,
           "light": 1.53,
           "rem": 0.36,
-          "awake": 1.31,
+          "awake": 1.3100001,
           "hrv": 24,
           "resting_hr": 65
         },
@@ -1190,8 +1240,138 @@
           "deep": 1.75,
           "light": 5.23,
           "rem": 2.98,
-          "awake": 0.24,
+          "awake": 0.23999977,
           "hrv": 70,
+          "resting_hr": 56
+        },
+        {
+          "date": "2026-04-14",
+          "sleep_hours": 9.62,
+          "deep": 2.25,
+          "light": 4.91,
+          "rem": 1.75,
+          "awake": 0.71000004,
+          "hrv": 57,
+          "resting_hr": 56
+        },
+        {
+          "date": "2026-04-15",
+          "sleep_hours": 9.27,
+          "deep": 2.08,
+          "light": 4.6,
+          "rem": 2.15,
+          "awake": 0.44000053,
+          "hrv": 45,
+          "resting_hr": 58
+        },
+        {
+          "date": "2026-04-16",
+          "sleep_hours": 8.5,
+          "deep": 1.01,
+          "light": 5.7,
+          "rem": 1.55,
+          "awake": 0.24000001,
+          "hrv": 56,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-18",
+          "sleep_hours": 8.63,
+          "deep": 1.18,
+          "light": 5.35,
+          "rem": 1.76,
+          "awake": 0.3400004,
+          "hrv": 71,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-19",
+          "sleep_hours": 8.83,
+          "deep": 1.45,
+          "light": 4.15,
+          "rem": 3.08,
+          "awake": 0.1500001,
+          "hrv": 65,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-04-20",
+          "sleep_hours": 4.95,
+          "deep": 1.36,
+          "light": 2.76,
+          "rem": 0.4,
+          "awake": 0.42999968,
+          "hrv": 69,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-21",
+          "sleep_hours": 6.95,
+          "deep": 0.81,
+          "light": 4.71,
+          "rem": 1.21,
+          "awake": 0.21999979,
+          "hrv": 42,
+          "resting_hr": 56
+        },
+        {
+          "date": "2026-04-22",
+          "sleep_hours": 6.27,
+          "deep": 1.43,
+          "light": 2.68,
+          "rem": 1.38,
+          "awake": 0.7800001,
+          "hrv": 54,
+          "resting_hr": 58
+        },
+        {
+          "date": "2026-04-23",
+          "sleep_hours": 10.88,
+          "deep": 1.53,
+          "light": 5.76,
+          "rem": 2.8,
+          "awake": 0.7900002,
+          "hrv": 64,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-24",
+          "sleep_hours": 8,
+          "deep": 1.45,
+          "light": 4.01,
+          "rem": 1.78,
+          "awake": 0.76,
+          "hrv": 64,
+          "resting_hr": 58
+        },
+        {
+          "date": "2026-04-25",
+          "sleep_hours": 5.73,
+          "deep": 1.08,
+          "light": 3.15,
+          "rem": 0.98,
+          "awake": 0.52,
+          "hrv": 53,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-04-26",
+          "sleep_hours": 10.07,
+          "deep": 1.35,
+          "light": 5.13,
+          "rem": 3.15,
+          "awake": 0.4399991,
+          "hrv": 65,
+          "resting_hr": 56
+        },
+        {
+          "date": "2026-04-27",
+          "sleep_hours": 7.68,
+          "deep": 1.3,
+          "light": 4.51,
+          "rem": 1.05,
+          "awake": 0.81999993,
+          "hrv": 67,
           "resting_hr": 56
         }
       ],
@@ -1366,7 +1546,7 @@
             "tss_planned": null,
             "tss_actual": 200.6,
             "status": "completed",
-            "description": "4H @ 60-70% FTP.\n\nKeep intensity in check wherever possible, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.\n\nPURPOSE: Enhances aerobic endurance by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarisation around the slow twitch (Type I) muscle fibres and trains body to more efficiently use fat as primary fuel source, reducing the use of carbohydrates for fuel and resulting in a greater lactate threshold since less lactate is produced of a byproduct of glycolysis (breakdown of carbohydrates).\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.",
+            "description": "4H @ 60-70% FTP.\n\nKeep intensity in check wherever possible, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.\n\nPURPOSE: Enhances aerobic endurance by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarisation around the slow twitch (Type I) muscle fibres and trains body to more efficiently use fat as primary fuel source, reducing the use of carbohydrates for fuel and resulting in a greater lactate threshold since less lactate is produced of a byproduct of glycolysis (breakdown of carbohydrates).\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
           },
           {
@@ -1384,18 +1564,6 @@
         ],
         "2026-04-27": [
           {
-            "id": "3699833037",
-            "date": "2026-04-27",
-            "title": "5x 400m",
-            "sport": "swim",
-            "duration_hours": 0.701594451268514,
-            "tss_planned": null,
-            "tss_actual": 89.57,
-            "status": "completed",
-            "description": "Recovery Swim:\n5 x 400m paddles and PB",
-            "comments": []
-          },
-          {
             "id": "3632642831",
             "date": "2026-04-27",
             "title": "20x 1min ON/OFF repeats | FTP",
@@ -1405,6 +1573,18 @@
             "tss_actual": null,
             "status": "planned",
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nWU: 15min easy\n\nMS: 20x 1min *Strong in aero position /\n1 min easy recovery down hill (or spin indoor)\n*Effort – 55-60 RPM\n\nCD: 15min",
+            "comments": []
+          },
+          {
+            "id": "3699833037",
+            "date": "2026-04-27",
+            "title": "5x 400m",
+            "sport": "swim",
+            "duration_hours": 0.701594451268514,
+            "tss_planned": null,
+            "tss_actual": 89.57,
+            "status": "completed",
+            "description": "Recovery Swim:\n5 x 400m paddles and PB",
             "comments": []
           },
           {
@@ -1440,7 +1620,7 @@
             "tss_planned": 18.1,
             "tss_actual": null,
             "status": "planned",
-            "description": "Warm Up:\n---------------------------------------\n200m easy\n2x100m easy rest 15's\n2x 50m (15 fast / 35 easy) rest 15's\n---------------------------------------\nMS:\n400m pb&pd easy\n4x 50m easy rest 20's\n300m pb&pd easy\n4x 50m mod rest 20's\n200m pb&pd easy\n4x 50m mod-hard rest 20's\n100m pb&pd easy\n4x 50m hard rest 20's\n---------------------------------------\nCD: 100m Easy",
+            "description": "Warm Up:\n---------------------------------------\n200m easy\n2x100m easy rest 15's\n2x 50m (15 fast / 35 easy) rest 15's\n---------------------------------------\nMS:\n400m pb&pd easy\n4x 50m easy rest 20's\n300m pb&pd easy\n4x 50m mod rest 20's\n200m pb&pd easy\n4x 50m mod-hard rest 20's\n100m pb&pd easy\n4x 50m hard rest 20's\n---------------------------------------\nCD: 100m Easy",
             "comments": []
           },
           {
@@ -1488,7 +1668,7 @@
             "tss_planned": 149.98,
             "tss_actual": null,
             "status": "planned",
-            "description": "3H @ 60-75% Max HR.\n\nDon't worry about straying out of the target intensity range for short periods on steeper climbs or descents - just try for as much time within target zone as possible. Try to choose as flat or rolling course if possible to maximise time in target zone.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.",
+            "description": "3H @ 60-75% Max HR.\n\nDon't worry about straying out of the target intensity range for short periods on steeper climbs or descents - just try for as much time within target zone as possible. Try to choose as flat or rolling course if possible to maximise time in target zone.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
           },
           {
