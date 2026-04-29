@@ -7,25 +7,25 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 84,
-        "atl": 111.4,
-        "tsb": -26.9,
+        "ctl": 84.6,
+        "atl": 110.5,
+        "tsb": -31.3,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-04-27",
         "end": "2026-05-03",
-        "sessions_planned": 10,
-        "sessions_completed": 3,
+        "sessions_planned": 11,
+        "sessions_completed": 5,
         "sessions_missed": 0,
         "sessions_planned_today": 2,
-        "compliance_pct": 30,
-        "total_tss": 268.31,
-        "total_hours": 2.86,
+        "compliance_pct": 45,
+        "total_tss": 360.38,
+        "total_hours": 5.29,
         "by_sport": {
           "Bike": {
-            "hours": 1.17,
-            "tss": 59.27
+            "hours": 2.76,
+            "tss": 118.71
           },
           "Run": {
             "hours": 0.99,
@@ -36,8 +36,8 @@
             "tss": 89.57
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.83,
+            "tss": 32.63
           }
         },
         "sessions": [
@@ -69,13 +69,22 @@
             "_status": "done"
           },
           {
+            "date": "2026-04-28",
+            "title": "S&C",
+            "sport": "Other",
+            "duration_hours": 0.8336666822433472,
+            "tss": 32.63,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
             "date": "2026-04-29",
             "title": "Bike | Endurance | HR",
             "sport": "Bike",
-            "duration_hours": 1.5,
-            "tss": null,
-            "tss_planned": 59.99,
-            "_status": "upcoming"
+            "duration_hours": 1.5920915603637695,
+            "tss": 59.44,
+            "tss_planned": null,
+            "_status": "done"
           },
           {
             "date": "2026-04-29",
@@ -266,18 +275,25 @@
           "sport": "Run",
           "duration_hours": 0.9919916391372681,
           "tss": 119.47
+        },
+        {
+          "date": "2026-04-28",
+          "title": "S&C",
+          "sport": "Other",
+          "duration_hours": 0.8336666822433472,
+          "tss": 32.63
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Bike | Endurance | HR",
+          "sport": "Bike",
+          "duration_hours": 1.5920915603637695,
+          "tss": 59.44
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-04-29",
-          "title": "Bike | Endurance | HR",
-          "sport": "Bike",
-          "duration_hours": 1.5,
-          "tss_planned": 59.99
-        },
         {
           "date": "2026-04-29",
           "title": "Endurance | 400m-100m PBP 4x 50m Build | Hr",
@@ -542,12 +558,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-02-03",
-          "ctl": 0,
-          "atl": 0,
-          "tsb": 0
-        },
         {
           "date": "2026-02-04",
           "ctl": 0,
@@ -1048,16 +1058,22 @@
         },
         {
           "date": "2026-04-28",
-          "ctl": 84,
-          "atl": 111.4,
+          "ctl": 84.7,
+          "atl": 116,
           "tsb": -26.9
+        },
+        {
+          "date": "2026-04-29",
+          "ctl": 84.6,
+          "atl": 110.5,
+          "tsb": -31.3
         }
       ],
       "weekly_trend": [
         {
           "week_start": "2026-04-13",
-          "tss": 205,
-          "hours": 1.81,
+          "tss": 71,
+          "hours": 0.67,
           "ctl_end": 73.2
         },
         {
@@ -1068,22 +1084,12 @@
         },
         {
           "week_start": "2026-04-27",
-          "tss": 268,
-          "hours": 2.86,
-          "ctl_end": 84
+          "tss": 360,
+          "hours": 5.29,
+          "ctl_end": 84.6
         }
       ],
       "recovery": [
-        {
-          "date": "2026-03-29",
-          "sleep_hours": 8.18,
-          "deep": 0.91,
-          "light": 4.65,
-          "rem": 2.41,
-          "awake": 0.21000028,
-          "hrv": 47,
-          "resting_hr": 56
-        },
         {
           "date": "2026-03-30",
           "sleep_hours": 10.98,
@@ -1373,24 +1379,22 @@
           "awake": 0.19999993,
           "hrv": 58,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-04-29",
+          "sleep_hours": 7.2,
+          "deep": 0.6,
+          "light": 4.45,
+          "rem": 1.76,
+          "awake": 0.3900001,
+          "hrv": 71,
+          "resting_hr": 53
         }
       ],
       "flags": [],
       "id": "stephen-bates",
       "sessions_by_week": {
         "2026-04-13": [
-          {
-            "id": "3632645325",
-            "date": "2026-04-14",
-            "title": "HILLS | 4x (5x 30s) | Pace",
-            "sport": "run",
-            "duration_hours": 1.1460750102996826,
-            "tss_planned": null,
-            "tss_actual": 134.79,
-            "status": "completed",
-            "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\njog 3min\n-----------------------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n------------------------------------------\nCool down 10min +",
-            "comments": []
-          },
           {
             "id": "3661888498",
             "date": "2026-04-15",
@@ -1543,7 +1547,7 @@
             "id": "3699833037",
             "date": "2026-04-27",
             "title": "5x 400m",
-            "sport": "swim",
+            "sport": "other",
             "duration_hours": 0.701594451268514,
             "tss_planned": null,
             "tss_actual": 89.57,
@@ -1576,14 +1580,26 @@
             "comments": []
           },
           {
+            "id": "3707614771",
+            "date": "2026-04-28",
+            "title": "S&C",
+            "sport": "strength",
+            "duration_hours": 0.8336666822433472,
+            "tss_planned": null,
+            "tss_actual": 32.63,
+            "status": "completed",
+            "description": null,
+            "comments": []
+          },
+          {
             "id": "3699832500",
             "date": "2026-04-29",
             "title": "Bike | Endurance | HR",
             "sport": "bike",
-            "duration_hours": 1.5,
-            "tss_planned": 59.99,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 1.5920915603637695,
+            "tss_planned": null,
+            "tss_actual": 59.44,
+            "status": "completed",
             "description": "1H30 recovery ride @ 55-70% Max HR.\n\nPURPOSE: Allow for adaptations from previous hard workout, whilst keeping rhythm of training and muscles working without adding any further stress to the body.",
             "comments": []
           },
@@ -1663,11 +1679,11 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 30,
+      "compliance_pct": 45,
       "weekly_tss_trend": [
-        205.45,
+        70.66,
         882.62,
-        268.31
+        360.38
       ]
     },
     "dummy-1": {
@@ -36870,10 +36886,10 @@
   ],
   "weekly_totals": {
     "2026-04-13": {
-      "sessions_planned": 269,
-      "sessions_completed": 99,
+      "sessions_planned": 268,
+      "sessions_completed": 98,
       "tss_planned": 22532,
-      "tss_actual": 8198.45
+      "tss_actual": 8063.66
     },
     "2026-04-20": {
       "sessions_planned": 271,
@@ -36882,10 +36898,10 @@
       "tss_actual": 882.62
     },
     "2026-04-27": {
-      "sessions_planned": 10,
-      "sessions_completed": 3,
-      "tss_planned": 416.08,
-      "tss_actual": 268.31
+      "sessions_planned": 11,
+      "sessions_completed": 5,
+      "tss_planned": 356.09,
+      "tss_actual": 360.38
     },
     "2026-04-06": {
       "sessions_planned": 262,
