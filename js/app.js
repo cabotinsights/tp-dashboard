@@ -506,7 +506,8 @@ function app() {
       this.aiSummaryLoading = true;
       this.aiSummary = '';
       var controller = new AbortController();
-      var timeoutId = setTimeout(function() { controller.abort(); }, 20000);
+      // 45s — Netlify functions cold-start can run 15-25s after idle.
+      var timeoutId = setTimeout(function() { controller.abort(); }, 45000);
       try {
         var athleteData = {
           name: this.me.name,
@@ -614,6 +615,11 @@ function app() {
       this.$watch('view', function(val) {
         if (val === 'personal' && self.me) {
           self.$nextTick(function() { self.renderPersonalCharts(self.me); });
+          // If the user switched to Coach before data loaded, the initial
+          // loadAiSummary() never fired. Catch up here when they return.
+          if (!self.aiSummary && !self.aiSummaryLoading) {
+            self.loadAiSummary();
+          }
         }
       });
       this.$watch('fitnessRange', function() {
