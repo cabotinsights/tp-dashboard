@@ -15,8 +15,12 @@ if ! "$REPO_ROOT/scripts/pull-tp-data.sh"; then
   echo "Stage A (pull) FAILED — continuing with last-good raw data" >> "$LOG_FILE"
 fi
 
-# Stage B: build data.json from raw + dummy (must succeed)
+# Stage A.5: regenerate dummy roster against today's date so session windows
+# and recovery dates stay aligned with the build's asOf. Deterministic per-day.
 cd "$REPO_ROOT"
+node scripts/generate-dummy-roster.mjs >> "$LOG_FILE" 2>&1
+
+# Stage B: build data.json from raw + dummy (must succeed)
 node scripts/build-data-json.mjs >> "$LOG_FILE" 2>&1
 
 # Run tests before committing — if a rule broke, don't publish

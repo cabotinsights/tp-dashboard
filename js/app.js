@@ -300,6 +300,71 @@ function app() {
       return null;
     },
 
+    get rosterRecovery() {
+      // Roster-level Recovery Pulse: counts athletes flagged on sleep / HRV / RHR
+      // using their last 7 days of recovery data vs the prior 14d baseline.
+      // Returns example top-3 lists per metric so cards can show concrete names.
+      var out = {
+        low_sleep_count: 0,         lowSleepExamples: [],
+        declining_hrv_count: 0,     decliningHrvExamples: [],
+        elevated_rhr_count: 0,      elevatedRhrExamples: [],
+        with_recovery: 0,
+      };
+      if (!this.data || !this.data.athletes) return out;
+      var athletes = this.data.athletes;
+      // Build the candidate list from the coach roster (excludes the viewer).
+      var roster = this.roster;
+      for (var i = 0; i < roster.length; i++) {
+        var a = athletes[roster[i].id];
+        if (!a || !a.recovery || a.recovery.length < 14) continue;
+        out.with_recovery++;
+        var rec = a.recovery.slice().sort(function(x, y) {
+          return x.date.localeCompare(y.date);
+        });
+        var last7 = rec.slice(-7);
+        var prev14 = rec.slice(-21, -7);
+        var avg = function(arr, key) {
+          if (!arr.length) return null;
+          var s = 0, n = 0;
+          for (var j = 0; j < arr.length; j++) {
+            var v = arr[j][key];
+            if (typeof v === 'number') { s += v; n++; }
+          }
+          return n ? s / n : null;
+        };
+        var sleepAvg = avg(last7, 'sleep_hours');
+        var hrvAvg = avg(last7, 'hrv');
+        var hrvPrev = avg(prev14, 'hrv');
+        var rhrAvg = avg(last7, 'resting_hr');
+        var rhrPrev = avg(prev14, 'resting_hr');
+
+        if (sleepAvg != null && sleepAvg < 6.5) {
+          out.low_sleep_count++;
+          out.lowSleepExamples.push({ id: a.id, name: a.name, value: sleepAvg.toFixed(1) + 'h' });
+        }
+        if (hrvAvg != null && hrvPrev != null && hrvAvg < hrvPrev - 2) {
+          out.declining_hrv_count++;
+          var deltaH = Math.round(hrvAvg - hrvPrev);
+          out.decliningHrvExamples.push({ id: a.id, name: a.name, value: (deltaH > 0 ? '+' : '') + deltaH });
+        }
+        if (rhrAvg != null && rhrPrev != null && rhrAvg > rhrPrev + 2) {
+          out.elevated_rhr_count++;
+          var deltaR = Math.round(rhrAvg - rhrPrev);
+          out.elevatedRhrExamples.push({ id: a.id, name: a.name, value: '+' + deltaR + ' bpm' });
+        }
+      }
+      // Sort examples by severity (worst first) and trim to 3.
+      out.lowSleepExamples.sort(function(x, y) { return parseFloat(x.value) - parseFloat(y.value); });
+      out.lowSleepExamples = out.lowSleepExamples.slice(0, 3);
+      out.decliningHrvExamples.sort(function(x, y) { return parseInt(x.value, 10) - parseInt(y.value, 10); });
+      out.decliningHrvExamples = out.decliningHrvExamples.slice(0, 3);
+      out.elevatedRhrExamples.sort(function(x, y) {
+        return parseInt(y.value.replace('+', ''), 10) - parseInt(x.value.replace('+', ''), 10);
+      });
+      out.elevatedRhrExamples = out.elevatedRhrExamples.slice(0, 3);
+      return out;
+    },
+
     get rosterCounts() {
       var summary = this.data && this.data.roster_summary;
       if (summary && typeof summary === 'object' && !Array.isArray(summary)) {

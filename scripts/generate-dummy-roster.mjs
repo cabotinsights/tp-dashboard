@@ -35,13 +35,22 @@ const LAST = ['Murphy', 'Kelly', 'Byrne', 'Ryan', "O'Brien", 'Walsh', 'Kennedy',
   'Bell', 'Clarke', 'Davis', 'Evans', 'Foster', 'Green', 'Hall'];
 
 const PROFILES = [
-  { type: 'building', ctlBase: [70, 95], tsb: [-12, -3], compliance: [85, 100] },
-  { type: 'peaking', ctlBase: [90, 120], tsb: [-5, 8], compliance: [90, 100] },
-  { type: 'recovering', ctlBase: [55, 75], tsb: [5, 18], compliance: [80, 100] },
-  { type: 'overreaching', ctlBase: [85, 105], tsb: [-30, -18], compliance: [70, 95] },
-  { type: 'injured', ctlBase: [40, 60], tsb: [5, 20], compliance: [20, 60] },
-  { type: 'detrained', ctlBase: [30, 55], tsb: [-5, 10], compliance: [50, 80] },
-  { type: 'steady', ctlBase: [75, 90], tsb: [-8, 3], compliance: [80, 100] },
+  // recovery profile: hrvBase [lo,hi], hrvDrift (per-day drift over the last 14d for trend),
+  //                   sleepBase [lo,hi] in hours, rhrBase [lo,hi] in bpm
+  { type: 'building', ctlBase: [70, 95], tsb: [-12, -3], compliance: [85, 100],
+    hrvBase: [50, 70], hrvDrift: 0,    sleepBase: [7.0, 8.5], rhrBase: [48, 56] },
+  { type: 'peaking', ctlBase: [90, 120], tsb: [-5, 8], compliance: [90, 100],
+    hrvBase: [55, 75], hrvDrift: 0.2,  sleepBase: [7.5, 8.5], rhrBase: [46, 54] },
+  { type: 'recovering', ctlBase: [55, 75], tsb: [5, 18], compliance: [80, 100],
+    hrvBase: [50, 70], hrvDrift: 0.3,  sleepBase: [7.5, 9.0], rhrBase: [50, 58] },
+  { type: 'overreaching', ctlBase: [85, 105], tsb: [-30, -18], compliance: [70, 95],
+    hrvBase: [30, 50], hrvDrift: -0.4, sleepBase: [5.5, 7.0], rhrBase: [56, 66] },
+  { type: 'injured', ctlBase: [40, 60], tsb: [5, 20], compliance: [20, 60],
+    hrvBase: [40, 60], hrvDrift: -0.1, sleepBase: [6.5, 8.0], rhrBase: [54, 62] },
+  { type: 'detrained', ctlBase: [30, 55], tsb: [-5, 10], compliance: [50, 80],
+    hrvBase: [40, 55], hrvDrift: 0,    sleepBase: [7.0, 8.5], rhrBase: [52, 60] },
+  { type: 'steady', ctlBase: [75, 90], tsb: [-8, 3], compliance: [80, 100],
+    hrvBase: [48, 65], hrvDrift: 0,    sleepBase: [7.0, 8.5], rhrBase: [50, 58] },
 ];
 
 const SPORTS = ['Run', 'Bike', 'Swim'];
@@ -64,6 +73,20 @@ const NEUTRAL_COMMENTS = [
   'Hit all the splits',
   'Solid effort',
   'Recovery was easy as planned',
+  'Legs came around after the warm-up',
+  'Negative split on the run, happy with that',
+  'Power held well in the last interval',
+  'Felt smooth in the water today',
+  'HR was higher than usual but pace was on',
+  'Slow start, finished strong',
+  'Cadence felt locked in',
+  'Got the prescribed reps in, no drama',
+  'Beautiful morning, easy effort',
+  'Stomach a bit off, kept it easy',
+  'Hill repeats hurt but in a good way',
+  'Average week, just ticking sessions over',
+  'Tempo felt comfortable today',
+  'Stayed in zone the whole ride',
 ];
 
 const RACES = [
@@ -92,7 +115,35 @@ function weekStart(iso) {
   return toIso(d);
 }
 
-const TODAY = '2026-04-15';
+// TODAY: pinned to current calendar day so the dummy roster always looks
+// fresh relative to the build's `asOf`. Override with TODAY env var for
+// reproducible runs (tests / fixtures).
+const TODAY = process.env.TODAY || new Date().toISOString().slice(0, 10);
+
+function genRecovery(profile) {
+  // 30 days of HRV / sleep / RHR ending today. hrvDrift moves the centre of the
+  // HRV window across the window so coach-view trend logic can detect direction.
+  const out = [];
+  const [hrvLo, hrvHi] = profile.hrvBase;
+  const [slpLo, slpHi] = profile.sleepBase;
+  const [rhrLo, rhrHi] = profile.rhrBase;
+  const drift = profile.hrvDrift || 0;
+  for (let i = 29; i >= 0; i--) {
+    const date = addDays(TODAY, -i);
+    // i counts down from 29 → 0 (today). hrvOffset moves with i so drift>0 ⇒ HRV rising.
+    const t = (29 - i) / 29; // 0 at oldest, 1 at today
+    const hrv = Math.round(hrvLo + (hrvHi - hrvLo) * rand() + drift * (29 * t));
+    const sleep_hours = +(slpLo + (slpHi - slpLo) * rand()).toFixed(1);
+    // Sleep stages in hours, sum ≈ sleep_hours
+    const deep = +(sleep_hours * (0.13 + rand() * 0.08)).toFixed(2);
+    const rem = +(sleep_hours * (0.18 + rand() * 0.07)).toFixed(2);
+    const awake = +(sleep_hours * (0.04 + rand() * 0.06)).toFixed(2);
+    const light = +(sleep_hours - deep - rem - awake).toFixed(2);
+    const resting_hr = randInt(rhrLo, rhrHi);
+    out.push({ date, sleep_hours, deep, light, rem, awake, hrv, resting_hr });
+  }
+  return out;
+}
 
 function genFitnessHistory(profile) {
   const out = [];
@@ -219,6 +270,7 @@ function genAthlete(i) {
     sessions_by_week,
     focus_event,
     next_event,
+    recovery: genRecovery(profile),
   };
 }
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DBT Dashboard</title>
+  <title>PeakCoach</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 
   <!-- Sidebar -->
   <nav class="sidebar">
-    <div class="sidebar-logo">DBT Dashboard</div>
+    <div class="sidebar-logo">PeakCoach</div>
     <ul class="sidebar-nav">
       <li :class="{ active: view === 'personal' }" @click="view = 'personal'; drillAthlete = null">Personal</li>
       <li :class="{ active: view === 'coach' }" @click="view = 'coach'; drillAthlete = null">Coach</li>
@@ -516,7 +516,7 @@
       <!-- Header -->
       <div class="section-header">
         <div>
-          <h1 class="page-title">Coach Dashboard</h1>
+          <h1 class="page-title">Coach Cockpit</h1>
           <span class="last-updated">
             <span x-text="roster.length"></span> athletes
             <template x-if="data">
@@ -549,6 +549,66 @@
         <div class="card">
           <div class="card-label">Avg Compliance</div>
           <div class="card-value"><span x-text="avgCompliance"></span>%</div>
+        </div>
+      </div>
+
+      <!-- Roster Recovery Pulse -->
+      <div class="section recovery-pulse" x-show="rosterRecovery.with_recovery > 0">
+        <div class="recovery-pulse-head">
+          <h2 class="section-title" style="margin-bottom:0">Roster Health Pulse</h2>
+          <span class="recovery-pulse-sub">Last 7 days vs prior 14 · <span x-text="rosterRecovery.with_recovery"></span> athletes with wearable data</span>
+        </div>
+        <div class="cards-grid">
+          <!-- Low sleep -->
+          <div class="card pulse-card" :class="{ 'pulse-card--alert': rosterRecovery.low_sleep_count > 0 }">
+            <div class="card-label">😴 Low Sleep <span class="pulse-thresh">&lt; 6.5h avg</span></div>
+            <div class="card-value">
+              <span x-text="rosterRecovery.low_sleep_count"></span>
+              <span class="pulse-of">/ <span x-text="rosterRecovery.with_recovery"></span></span>
+            </div>
+            <div class="pulse-examples" x-show="rosterRecovery.lowSleepExamples.length > 0">
+              <template x-for="ex in rosterRecovery.lowSleepExamples" :key="ex.id">
+                <span class="pulse-chip" @click="drillAthlete = ex.id; coachTab = 'detail'" style="cursor:pointer">
+                  <strong x-text="ex.name"></strong> · <span x-text="ex.value"></span>
+                </span>
+              </template>
+            </div>
+            <div class="pulse-empty" x-show="rosterRecovery.low_sleep_count === 0">All athletes sleeping ≥ 6.5h on average</div>
+          </div>
+
+          <!-- Declining HRV -->
+          <div class="card pulse-card" :class="{ 'pulse-card--alert': rosterRecovery.declining_hrv_count > 0 }">
+            <div class="card-label">💗 Declining HRV <span class="pulse-thresh">↓ 7d vs prior 14d</span></div>
+            <div class="card-value">
+              <span x-text="rosterRecovery.declining_hrv_count"></span>
+              <span class="pulse-of">/ <span x-text="rosterRecovery.with_recovery"></span></span>
+            </div>
+            <div class="pulse-examples" x-show="rosterRecovery.decliningHrvExamples.length > 0">
+              <template x-for="ex in rosterRecovery.decliningHrvExamples" :key="ex.id">
+                <span class="pulse-chip" @click="drillAthlete = ex.id; coachTab = 'detail'" style="cursor:pointer">
+                  <strong x-text="ex.name"></strong> · <span x-text="ex.value"></span>
+                </span>
+              </template>
+            </div>
+            <div class="pulse-empty" x-show="rosterRecovery.declining_hrv_count === 0">HRV stable across the roster</div>
+          </div>
+
+          <!-- Elevated RHR -->
+          <div class="card pulse-card" :class="{ 'pulse-card--alert': rosterRecovery.elevated_rhr_count > 0 }">
+            <div class="card-label">❤️ Elevated RHR <span class="pulse-thresh">↑ &gt; 2 bpm</span></div>
+            <div class="card-value">
+              <span x-text="rosterRecovery.elevated_rhr_count"></span>
+              <span class="pulse-of">/ <span x-text="rosterRecovery.with_recovery"></span></span>
+            </div>
+            <div class="pulse-examples" x-show="rosterRecovery.elevatedRhrExamples.length > 0">
+              <template x-for="ex in rosterRecovery.elevatedRhrExamples" :key="ex.id">
+                <span class="pulse-chip" @click="drillAthlete = ex.id; coachTab = 'detail'" style="cursor:pointer">
+                  <strong x-text="ex.name"></strong> · <span x-text="ex.value"></span>
+                </span>
+              </template>
+            </div>
+            <div class="pulse-empty" x-show="rosterRecovery.elevated_rhr_count === 0">No elevated resting heart rates</div>
+          </div>
         </div>
       </div>
 
