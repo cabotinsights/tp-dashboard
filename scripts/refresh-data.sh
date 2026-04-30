@@ -15,10 +15,19 @@ if ! "$REPO_ROOT/scripts/pull-tp-data.sh"; then
   echo "Stage A (pull) FAILED — continuing with last-good raw data" >> "$LOG_FILE"
 fi
 
-# Stage A.5: regenerate dummy roster against today's date so session windows
-# and recovery dates stay aligned with the build's asOf. Deterministic per-day.
+# Stage A.2: pull Gerhard's Dubai roster (56 real athletes, throttled).
+# Uses pull-dubai-fast.py (direct MCP JSON-RPC, ~2 min total) instead of the
+# old pull-dubai-data.sh which spawned `claude -p` per batch (~50 min).
+# Idempotent — skips athletes already pulled today.
+if ! python3 "$REPO_ROOT/scripts/pull-dubai-fast.py" >> "$LOG_FILE" 2>&1; then
+  echo "Stage A.2 (Dubai pull) FAILED — continuing with last-good Dubai raw data" >> "$LOG_FILE"
+fi
+
+# Stage A.5: rebuild the coach roster from the Dubai raw pull.
+# (Replaces the old generate-dummy-roster.mjs step. Dummy generator is kept
+# in the repo as a fallback but no longer runs in the daily refresh.)
 cd "$REPO_ROOT"
-node scripts/generate-dummy-roster.mjs >> "$LOG_FILE" 2>&1
+node scripts/build-dubai-roster.mjs >> "$LOG_FILE" 2>&1
 
 # Stage B: build data.json from raw + dummy (must succeed)
 node scripts/build-data-json.mjs >> "$LOG_FILE" 2>&1
