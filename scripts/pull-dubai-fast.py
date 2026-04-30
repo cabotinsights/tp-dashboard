@@ -24,9 +24,20 @@ MCP_BIN = Path.home() / "trainingpeaks-mcp" / ".venv" / "bin" / "tp-mcp-gerhard"
 BATCH_SIZE = 10
 BATCH_SLEEP_S = 15
 TODAY = time.strftime("%Y-%m-%d")
-# Pull window: 14 days back, 7 days forward (matches shell version)
+# Workouts window: 14 days back, 7 days forward
 RANGE_START = time.strftime("%Y-%m-%d", time.localtime(time.time() - 14 * 86400))
 RANGE_END = time.strftime("%Y-%m-%d", time.localtime(time.time() + 7 * 86400))
+# Metrics window: 30 days back (sleep/HRV/RHR for Roster Health Pulse)
+METRICS_START = time.strftime("%Y-%m-%d", time.localtime(time.time() - 30 * 86400))
+
+# TP metric type ids — see pull-tp-data.sh for the canonical mapping.
+METRIC_TYPE_SLEEP_HOURS = 6
+METRIC_TYPE_HRV = 60
+METRIC_TYPE_PULSE = 5
+METRIC_TYPE_DEEP = 46
+METRIC_TYPE_REM = 47
+METRIC_TYPE_LIGHT = 48
+METRIC_TYPE_AWAKE = 50
 
 
 class MCPClient:
@@ -113,18 +124,79 @@ class MCPClient:
 
 
 def already_pulled(athlete_id):
-    """Skip an athlete only if their file is fresh (pulled_at == today)."""
+    """Skip an athlete only if their file is fresh AND has all three blocks."""
     f = RAW_DIR / f"{athlete_id}.json"
     if not f.exists() or f.stat().st_size == 0:
         return False
     try:
         data = json.loads(f.read_text())
-        if "fitness" not in data or "workouts" not in data:
+        if "fitness" not in data or "workouts" not in data or "recovery" not in data:
             return False
         # Re-pull if the file is older than today, so daily cron picks up fresh data.
         return data.get("pulled_at") == TODAY
     except (json.JSONDecodeError, OSError):
         return False
+
+
+def parse_recovery(metrics_response):
+    """Convert tp_get_metrics response into a per-day recovery array.
+
+    Each day may have multiple parent records (e.g. nap + main sleep).
+    For each calendar date, pick the parent record with the largest
+    Sleep Hours, and read the rest of that group's labelled values.
+    Skip dates with no group having Sleep Hours > 0.
+    Returns a list sorted ascending by date.
+    """
+    if not metrics_response or "metrics" not in metrics_response:
+        return []
+
+    by_date = {}  # date -> list of {parent_id: {type: value}}
+
+    for record in metrics_response.get("metrics", []):
+        timestamp = record.get("timeStamp", "")
+        if not timestamp:
+            continue
+        date = timestamp[:10]  # YYYY-MM-DD
+        details = record.get("details", [])
+
+        # Group details by parentId so we can pick the longest-sleep group.
+        groups = {}
+        for d in details:
+            parent_id = d.get("parentId")
+            if parent_id is None:
+                continue
+            if parent_id not in groups:
+                groups[parent_id] = {}
+            groups[parent_id][d.get("type")] = d.get("value")
+
+        if date not in by_date:
+            by_date[date] = []
+        by_date[date].extend(groups.values())
+
+    out = []
+    for date in sorted(by_date.keys()):
+        candidate_groups = by_date[date]
+        # Pick group with largest Sleep Hours
+        best = None
+        best_sleep = 0
+        for group in candidate_groups:
+            sh = group.get(METRIC_TYPE_SLEEP_HOURS, 0) or 0
+            if sh > best_sleep:
+                best_sleep = sh
+                best = group
+        if best is None or best_sleep <= 0:
+            continue
+        out.append({
+            "date": date,
+            "sleep_hours": round(best.get(METRIC_TYPE_SLEEP_HOURS, 0) or 0, 2),
+            "deep": round(best.get(METRIC_TYPE_DEEP, 0) or 0, 2),
+            "light": round(best.get(METRIC_TYPE_LIGHT, 0) or 0, 2),
+            "rem": round(best.get(METRIC_TYPE_REM, 0) or 0, 2),
+            "awake": round(best.get(METRIC_TYPE_AWAKE, 0) or 0, 2),
+            "hrv": best.get(METRIC_TYPE_HRV),
+            "resting_hr": best.get(METRIC_TYPE_PULSE),
+        })
+    return out
 
 
 def main():
@@ -167,20 +239,28 @@ def main():
                     "end_date": RANGE_END,
                     "type": "all",
                 })
+                metrics_raw = client.call_tool("tp_get_metrics", {
+                    "athlete": aid,
+                    "start_date": METRICS_START,
+                    "end_date": TODAY,
+                })
             except RuntimeError as e:
                 print(f"  [{i+1}/{len(pending)}] {aid} {name}: ERROR {e}")
                 continue
 
+            recovery = parse_recovery(metrics_raw)
             out = {
                 "id": athlete["id"],
                 "name": name,
                 "pulled_at": TODAY,
                 "fitness": fitness,
                 "workouts": workouts,
+                "recovery": recovery,
             }
             (RAW_DIR / f"{aid}.json").write_text(json.dumps(out, indent=2))
             elapsed = time.time() - t_athlete
-            print(f"  [{i+1}/{len(pending)}] {aid} {name}  ({elapsed:.1f}s)")
+            rec_count = len(recovery)
+            print(f"  [{i+1}/{len(pending)}] {aid} {name}  ({elapsed:.1f}s, {rec_count}d recovery)")
 
             # Throttle: sleep between batches (not after the very last athlete)
             is_batch_end = (i + 1) % BATCH_SIZE == 0

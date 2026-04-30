@@ -104,6 +104,7 @@ function buildCurrentFitness(fitness) {
 function transform(raw) {
   const fitness = raw.fitness || {};
   const workouts = (raw.workouts && raw.workouts.workouts) || [];
+  const recovery = Array.isArray(raw.recovery) ? raw.recovery : [];
   return {
     id: String(raw.id),
     name: raw.name,
@@ -114,7 +115,7 @@ function transform(raw) {
     sessions_by_week: buildSessionsByWeek(workouts),
     focus_event: null,
     next_event: null,
-    recovery: [],
+    recovery,
   };
 }
 
