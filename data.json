@@ -45666,7 +45666,7 @@
             "sport": "Swim",
             "duration_hours": 0.701594451268514,
             "tss": 89.57,
-            "tss_planned": null,
+            "tss_planned": 89.57,
             "_status": "done"
           },
           {
@@ -45675,7 +45675,7 @@
             "sport": "Bike",
             "duration_hours": 1.1666666269302368,
             "tss": 59.27,
-            "tss_planned": null,
+            "tss_planned": 59.27,
             "_status": "done"
           },
           {
@@ -45684,7 +45684,7 @@
             "sport": "Swim",
             "duration_hours": 0.9919916391372681,
             "tss": 119.47,
-            "tss_planned": null,
+            "tss_planned": 119.47,
             "_status": "done"
           },
           {
@@ -45693,7 +45693,7 @@
             "sport": "Other",
             "duration_hours": 0.8336666822433472,
             "tss": 32.63,
-            "tss_planned": null,
+            "tss_planned": 32.63,
             "_status": "done"
           },
           {
@@ -45702,7 +45702,7 @@
             "sport": "Bike",
             "duration_hours": 1.5920915603637695,
             "tss": 59.44,
-            "tss_planned": null,
+            "tss_planned": 59.44,
             "_status": "done"
           },
           {
@@ -45711,7 +45711,7 @@
             "sport": "Swim",
             "duration_hours": 0.6500555578867594,
             "tss": 104.34,
-            "tss_planned": null,
+            "tss_planned": 104.34,
             "_status": "done"
           },
           {
@@ -45720,7 +45720,7 @@
             "sport": "Run",
             "duration_hours": 1.000249981880188,
             "tss": 53.93,
-            "tss_planned": null,
+            "tss_planned": 53.93,
             "_status": "done"
           },
           {
@@ -45729,7 +45729,7 @@
             "sport": "Other",
             "duration_hours": 0.5268944501876831,
             "tss": 20.39,
-            "tss_planned": null,
+            "tss_planned": 20.39,
             "_status": "done"
           },
           {
@@ -45738,7 +45738,7 @@
             "sport": "Swim",
             "duration_hours": 0.7879249980714587,
             "tss": 156.03,
-            "tss_planned": null,
+            "tss_planned": 156.03,
             "_status": "done"
           },
           {
@@ -45747,7 +45747,7 @@
             "sport": "Bike",
             "duration_hours": 3.2789666652679443,
             "tss": 160.02,
-            "tss_planned": null,
+            "tss_planned": 160.02,
             "_status": "done"
           },
           {
@@ -45756,7 +45756,7 @@
             "sport": "Other",
             "duration_hours": 1.5099694728851318,
             "tss": 103.04,
-            "tss_planned": null,
+            "tss_planned": 103.04,
             "_status": "done"
           },
           {
@@ -45834,16 +45834,16 @@
       "next_event": {
         "id": 37280228,
         "name": "T100 Dubai",
-        "event_date": "2026-11-15",
-        "event_type": "MultisportTriathlon",
+        "date": "2026-11-15",
+        "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours"
       },
       "focus_event": {
         "id": 37280222,
         "name": "Muscat IM",
-        "event_date": "2026-12-05",
-        "event_type": "MultisportTriathlon",
+        "date": "2026-12-05",
+        "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours"
       },
@@ -46565,12 +46565,6 @@
       ],
       "weekly_trend": [
         {
-          "week_start": "2026-04-20",
-          "tss": 883,
-          "hours": 11.44,
-          "ctl_end": 81.5
-        },
-        {
           "week_start": "2026-04-27",
           "tss": 958,
           "hours": 13.04,
@@ -46879,121 +46873,21 @@
           "awake": 0.20000052,
           "hrv": 75,
           "resting_hr": 52
+        },
+        {
+          "date": "2026-05-04",
+          "sleep_hours": 9.87,
+          "deep": 1.18,
+          "light": 5.13,
+          "rem": 3.31,
+          "awake": 0.24999952,
+          "hrv": 80,
+          "resting_hr": 53
         }
       ],
       "flags": [],
       "id": "stephen-bates",
       "sessions_by_week": {
-        "2026-04-20": [
-          {
-            "id": "3683761874",
-            "date": "2026-04-20",
-            "title": "Run |30-40min Easy | Pace",
-            "sport": null,
-            "duration_hours": 0.5279027819633484,
-            "tss_planned": null,
-            "tss_actual": 41.13,
-            "status": "completed",
-            "description": "Just nice and easy, getting into a nice rhythm.",
-            "comments": []
-          },
-          {
-            "id": "3683761732",
-            "date": "2026-04-21",
-            "title": "HILLS | 4x (5x 30s) | Pace",
-            "sport": null,
-            "duration_hours": 1.1777777671813965,
-            "tss_planned": null,
-            "tss_actual": 139.54,
-            "status": "completed",
-            "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\njog 3min\n-----------------------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n-----------------------------------------\nSHORT HILLS – 5x 30 sec HILLS with a slow jog back.\n------------------------------------------\nCool down 10min +",
-            "comments": []
-          },
-          {
-            "id": "3661884973",
-            "date": "2026-04-22",
-            "title": "Easy riding 90min | HR",
-            "sport": null,
-            "duration_hours": 1.5,
-            "tss_planned": null,
-            "tss_actual": 54.29,
-            "status": "completed",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nNice and easy - conversational pace",
-            "comments": []
-          },
-          {
-            "id": "3683763936",
-            "date": "2026-04-22",
-            "title": "Session",
-            "sport": null,
-            "duration_hours": 0.6339444462458292,
-            "tss_planned": null,
-            "tss_actual": 109.71,
-            "status": "completed",
-            "description": "Warm Up:\n8x 25 (fast every 4th 25)\n6x 25 (fast every 3rd 25)\n4x 25 (fast every 2nd 25)\n2x 25 (fast, fast)\n\nMain Set:\n20x 50m (Fast, Easy)\n1x 400m pads + pb - all out effort\n\nCool Down:\n2x 25 (fast, fast)\n4x 25 (fast every 2nd 25)\n6x 25 (fast every 3rd 25)\n8x 25 (fast every 4th 25)",
-            "comments": []
-          },
-          {
-            "id": "3661885264",
-            "date": "2026-04-23",
-            "title": "50min Easy - choice run",
-            "sport": null,
-            "duration_hours": 0.8363833427429199,
-            "tss_planned": null,
-            "tss_actual": 45.21,
-            "status": "completed",
-            "description": "Just nice and easy, getting into a nice rhythm.",
-            "comments": []
-          },
-          {
-            "id": "3683767676",
-            "date": "2026-04-23",
-            "title": "Swim | 40x 50m | Steady State",
-            "sport": null,
-            "duration_hours": 0.814138888253106,
-            "tss_planned": null,
-            "tss_actual": 146.14,
-            "status": "completed",
-            "description": "Warm Up:\n8x 25 (fast every 4th 25)\n6x 25 (fast every 3rd 25)\n4x 25 (fast every 2nd 25)\n2x 25 (fast, fast)\n\nMain Set:\n40x 50m steady fast + pb + pads\nRest 10s\n\nCool Down:\n200m",
-            "comments": []
-          },
-          {
-            "id": "3699165746",
-            "date": "2026-04-24",
-            "title": "S&C",
-            "sport": null,
-            "duration_hours": 0.8086333274841309,
-            "tss_planned": null,
-            "tss_actual": 32.54,
-            "status": "completed",
-            "description": null,
-            "comments": []
-          },
-          {
-            "id": "3699830386",
-            "date": "2026-04-25",
-            "title": "Endurance: Long Steady Ride (Level 3)",
-            "sport": null,
-            "duration_hours": 3.6290860176086426,
-            "tss_planned": null,
-            "tss_actual": 200.6,
-            "status": "completed",
-            "description": "4H @ 60-70% FTP.\n\nKeep intensity in check wherever possible, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.\n\nPURPOSE: Enhances aerobic endurance by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarisation around the slow twitch (Type I) muscle fibres and trains body to more efficiently use fat as primary fuel source, reducing the use of carbohydrates for fuel and resulting in a greater lactate threshold since less lactate is produced of a byproduct of glycolysis (breakdown of carbohydrates).\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
-            "comments": []
-          },
-          {
-            "id": "3699827558",
-            "date": "2026-04-26",
-            "title": "1h30 Easy AT pace",
-            "sport": null,
-            "duration_hours": 1.5171138048171997,
-            "tss_planned": null,
-            "tss_actual": 113.46,
-            "status": "completed",
-            "description": "Please follow the workout details, with prescribed zones (and pace targets if required) outlined below.",
-            "comments": []
-          }
-        ],
         "2026-04-27": [
           {
             "id": "3699833037",
@@ -47001,7 +46895,7 @@
             "title": "5x 400m",
             "sport": null,
             "duration_hours": 0.701594451268514,
-            "tss_planned": null,
+            "tss_planned": 89.57,
             "tss_actual": 89.57,
             "status": "completed",
             "description": "Recovery Swim:\n5 x 400m paddles and PB",
@@ -47013,7 +46907,7 @@
             "title": "20x 1min ON/OFF repeats | FTP",
             "sport": null,
             "duration_hours": 1.1666666269302368,
-            "tss_planned": null,
+            "tss_planned": 59.27,
             "tss_actual": 59.27,
             "status": "completed",
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nWU: 15min easy\n\nMS: 20x 1min *Strong in aero position /\n1 min easy recovery down hill (or spin indoor)\n*Effort – 55-60 RPM\n\nCD: 15min",
@@ -47025,7 +46919,7 @@
             "title": "Hills | 6-8% 1x 15/30/45s for 20mins | Pace",
             "sport": null,
             "duration_hours": 0.9919916391372681,
-            "tss_planned": null,
+            "tss_planned": 119.47,
             "tss_actual": 119.47,
             "status": "completed",
             "description": "WU: 25min Easy flat surface.\nMS: 20min of; (continues)\n15s/30s/45s - repeat\nCD: 12-15min E",
@@ -47037,7 +46931,7 @@
             "title": "S&C",
             "sport": null,
             "duration_hours": 0.8336666822433472,
-            "tss_planned": null,
+            "tss_planned": 32.63,
             "tss_actual": 32.63,
             "status": "completed",
             "description": null,
@@ -47049,7 +46943,7 @@
             "title": "Bike | Endurance | HR",
             "sport": null,
             "duration_hours": 1.5920915603637695,
-            "tss_planned": null,
+            "tss_planned": 59.44,
             "tss_actual": 59.44,
             "status": "completed",
             "description": "1H30 recovery ride @ 55-70% Max HR.\n\nPURPOSE: Allow for adaptations from previous hard workout, whilst keeping rhythm of training and muscles working without adding any further stress to the body.",
@@ -47061,7 +46955,7 @@
             "title": "Endurance | 400m-100m PBP 4x 50m Build | Hr",
             "sport": null,
             "duration_hours": 0.6500555578867594,
-            "tss_planned": null,
+            "tss_planned": 104.34,
             "tss_actual": 104.34,
             "status": "completed",
             "description": "Warm Up:\n---------------------------------------\n200m easy\n2x100m easy rest 15's\n2x 50m (15 fast / 35 easy) rest 15's\n---------------------------------------\nMS:\n400m pb&pd easy\n4x 50m easy rest 20's\n300m pb&pd easy\n4x 50m mod rest 20's\n200m pb&pd easy\n4x 50m mod-hard rest 20's\n100m pb&pd easy\n4x 50m hard rest 20's\n---------------------------------------\nCD: 100m Easy",
@@ -47073,7 +46967,7 @@
             "title": "56-60min | 8x 15s Sprints",
             "sport": null,
             "duration_hours": 1.000249981880188,
-            "tss_planned": null,
+            "tss_planned": 53.93,
             "tss_actual": 53.93,
             "status": "completed",
             "description": "Run:\n56-60 min Easy - with 8x 15s sprints during the run. The bridge would be ideal.",
@@ -47085,7 +46979,7 @@
             "title": "Sauna",
             "sport": null,
             "duration_hours": 0.5268944501876831,
-            "tss_planned": null,
+            "tss_planned": 20.39,
             "tss_actual": 20.39,
             "status": "completed",
             "description": null,
@@ -47097,7 +46991,7 @@
             "title": "Squad swim - AL Wasl Pool 6:30am",
             "sport": null,
             "duration_hours": 0.7879249980714587,
-            "tss_planned": null,
+            "tss_planned": 156.03,
             "tss_actual": 156.03,
             "status": "completed",
             "description": null,
@@ -47109,10 +47003,10 @@
             "title": "Bike | 3hr Steady Ride | Endurance",
             "sport": null,
             "duration_hours": 3.2789666652679443,
-            "tss_planned": null,
+            "tss_planned": 160.02,
             "tss_actual": 160.02,
             "status": "completed",
-            "description": "3H @ 60-75% Max HR.\n\nDon't worry about straying out of the target intensity range for short periods on steeper climbs or descents - just try for as much time within target zone as possible. Try to choose as flat or rolling course if possible to maximise time in target zone.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
+            "description": "3H @ 60-75% Max HR.\n\nDon't worry about straying out of the target intensity range for short periods on steeper climbs or descents - just try for as much time within target zone as possible. Try to choose as flat or rolling course if possible to maximise time in target zone.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.",
             "comments": []
           },
           {
@@ -47121,7 +47015,7 @@
             "title": "1h30 Easy AT pace",
             "sport": null,
             "duration_hours": 1.5099694728851318,
-            "tss_planned": null,
+            "tss_planned": 103.04,
             "tss_actual": 103.04,
             "status": "completed",
             "description": "Please follow the workout details, with prescribed zones (and pace targets if required) outlined below.",
@@ -47174,7 +47068,7 @@
             "tss_planned": 72.28,
             "tss_actual": null,
             "status": "planned",
-            "description": "Start with ~20M warm up in the range of 45-65% FTP.\n\nThen complete 6x 4M @ 85-92% FTP and 2.5M @ 50-60% FTP. Use a low cadence for muscular endurance intervals of ~60-65RPM to increase force demands on muscle fibres. This session could be done as a set of hill repeats.\n\nAfter this long set of tempo intervals, cool down for remainder of ride @ 50-60% FTP.\n\nPURPOSE: To develop greater fatigue resistance or muscular endurance through sustained work that places higher force demand on the muscle fibres. In doing so, you train the muscle fibres to become more resistance to micro tears and general damage. When muscle fibres (especially slow twitch or Type I fibres) become damaged because of a relatively high sustained workloads, they have to call upon the far less aerobically-efficient Type II fibres to help maintain a consistent power output an carry the load. This has the effect of reducing what's called your 'exercise economy/efficiency', which essentially means you need to supply more oxygen (and fuel) for the same power output (very similar to the fuel efficiency of a car). This is one of the reasons you can see heart rate drift for a given power as you become fatigued in a race or long training session, since the heart is required to pump more oxygen to sustain the workload once the muscles become fatigued. By improving your exercise economy via greater resistance to fatigue/damage, you're able to improve your endurance at a broad range of intensities.\n\nThese low-cadence tempo intervals also specifically target aerobic adaptations within Type IIa muscle fibres, which typically aren't substantially activated in a lower intensity endurance ride until the latter stages of the ride. These intervals are good for reducing VLamax, and thus improving lactate threshold.",
+            "description": "Start with ~20M warm up in the range of 45-65% FTP.\n\nThen complete 6x 4M @ 85-92% FTP and 2.5M @ 50-60% FTP. Use a low cadence for muscular endurance intervals of ~60-65RPM to increase force demands on muscle fibres. This session could be done as a set of hill repeats.\n\nAfter this long set of tempo intervals, cool down for remainder of ride @ 50-60% FTP.\n\nPURPOSE: To develop greater fatigue resistance or muscular endurance through sustained work that places higher force demand on the muscle fibres.",
             "comments": []
           },
           {
@@ -47222,7 +47116,7 @@
             "tss_planned": 143.38,
             "tss_actual": null,
             "status": "planned",
-            "description": "Ride for ~20M to warm up (feel free to extend this a little further if you need longer to get to a suitable test location).\n\nThen complete a 1M effort at the maximum power you think you can sustain across the effort.\n\nThen ride for around 2-3H (depending on existing endurance abilities), keeping power between 55-70% FTP as much as possible.\n\nThen complete another 60S effort at a maximal effort.\n\nFinally, complete remainder of ride at a Zone 2 (55-70% FTP) intensity.\n\nPURPOSE: This session also allows you to assess your fatigue resistance. You can compare your 1M power at the start and end of the ride of the ride, to see how much this has fallen (we recommend working of the % decline). Use this test to assess improvements in your fatigue resistance.",
+            "description": "Ride for ~20M to warm up (feel free to extend this a little further if you need longer to get to a suitable test location).\n\nThen complete a 1M effort at the maximum power you think you can sustain across the effort.\n\nThen ride for around 2-3H (depending on existing endurance abilities), keeping power between 55-70% FTP as much as possible.\n\nThen complete another 60S effort at a maximal effort.\n\nFinally, complete remainder of ride at a Zone 2 (55-70% FTP) intensity.\n\nPURPOSE: This session also allows you to assess your fatigue resistance.",
             "comments": []
           },
           {
@@ -47257,7 +47151,6 @@
       "status": "on_track",
       "compliance_pct": 0,
       "weekly_tss_trend": [
-        882.62,
         958.1299999999999,
         0,
         0
@@ -48416,16 +48309,10 @@
   },
   "recent_comments_feed": [],
   "weekly_totals": {
-    "2026-04-20": {
-      "sessions_planned": 409,
-      "sessions_completed": 304,
-      "tss_planned": 3650.819999999999,
-      "tss_actual": 27519.51
-    },
     "2026-04-27": {
       "sessions_planned": 413,
       "sessions_completed": 280,
-      "tss_planned": 5220.729999999999,
+      "tss_planned": 6178.859999999998,
       "tss_actual": 26603.02
     },
     "2026-05-04": {
@@ -48439,6 +48326,12 @@
       "sessions_completed": 0,
       "tss_planned": 1911.53,
       "tss_actual": 0
+    },
+    "2026-04-20": {
+      "sessions_planned": 400,
+      "sessions_completed": 295,
+      "tss_planned": 3650.819999999999,
+      "tss_actual": 26636.890000000003
     }
   }
 }
