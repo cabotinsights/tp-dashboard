@@ -1126,7 +1126,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 11,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1049.8,
         1182.5,
@@ -2216,7 +2216,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         135.9,
         478.99,
@@ -3308,7 +3308,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 9,
+      "compliance_pct": 25,
       "weekly_tss_trend": [
         1242.26,
         137.63,
@@ -4344,7 +4344,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 0,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         204.23000000000002,
         187.58999999999997,
@@ -5171,7 +5171,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 40,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         180.45,
         155.85,
@@ -6319,7 +6319,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         0,
         489.66,
@@ -7589,7 +7589,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         701.95,
         958.1299999999999,
@@ -8783,7 +8783,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 25,
       "weekly_tss_trend": [
         114.44,
         247.74999999999997,
@@ -9987,7 +9987,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 45,
+      "compliance_pct": 83,
       "weekly_tss_trend": [
         104.67,
         687.34,
@@ -11375,7 +11375,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 42,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         444.58000000000004,
         849.11,
@@ -12497,7 +12497,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 56,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         45.61,
         305.18,
@@ -13691,7 +13691,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         816.69,
         782.4300000000001,
@@ -14562,7 +14562,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 57,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         565.7,
         473.74,
@@ -15642,7 +15642,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 67,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         422.39,
         654.3699999999999,
@@ -16824,7 +16824,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         331.46999999999997,
         557.11,
@@ -18146,7 +18146,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 40,
+      "compliance_pct": 86,
       "weekly_tss_trend": [
         890.93,
         1236.46,
@@ -19154,7 +19154,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         530.97,
         680.16,
@@ -20510,7 +20510,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 33,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         521.99,
         1139.04,
@@ -23931,7 +23931,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 45,
+      "compliance_pct": 83,
       "weekly_tss_trend": [
         1106.75,
         1610.6100000000001,
@@ -25373,7 +25373,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 53,
+      "compliance_pct": 82,
       "weekly_tss_trend": [
         1744.02,
         2308.83,
@@ -26607,7 +26607,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         841.6,
         0,
@@ -27789,7 +27789,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 30,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
         579.26,
         769.6000000000001,
@@ -28889,7 +28889,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 17,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         540.51,
         680.36,
@@ -30679,7 +30679,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         368.17,
         488.82000000000005,
@@ -31550,7 +31550,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 10,
+      "compliance_pct": 25,
       "weekly_tss_trend": [
         1084.73,
         1108.2,
@@ -32840,7 +32840,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 78,
+      "compliance_pct": 88,
       "weekly_tss_trend": [
         856.41,
         831.13,
@@ -33986,7 +33986,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         451.92,
         425.89,
@@ -35116,7 +35116,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         167.79000000000002,
         383.31,
@@ -36286,7 +36286,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         1302.69,
         1009.12,
@@ -36964,7 +36964,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 40,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         0,
         0.24,
@@ -38170,7 +38170,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 22,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         169.17,
         293.61,
@@ -39438,7 +39438,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         855.3000000000001,
         1274.8899999999999,
@@ -40800,7 +40800,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 17,
+      "compliance_pct": 40,
       "weekly_tss_trend": [
         583.83,
         667.06,
@@ -42110,7 +42110,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 42,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         709.11,
         1296.46,
@@ -44364,7 +44364,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 36,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         535.25,
         305.33000000000004,
@@ -45594,7 +45594,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 36,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         0,
         801.17,
@@ -46788,7 +46788,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         626.08,
         864.7699999999999,
@@ -49857,7 +49857,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         0,
         493.34,
@@ -51163,7 +51163,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 86,
       "weekly_tss_trend": [
         553.51,
         1189.8799999999999,
@@ -53197,7 +53197,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 29,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         203.71,
         0,
@@ -54155,7 +54155,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         136.8,
         106.06,
@@ -56426,7 +56426,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         910.75,
         1275.23,
@@ -57491,7 +57491,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 19,
+      "compliance_pct": 60,
       "weekly_tss_trend": [
         411.01,
         373.87,
@@ -59813,7 +59813,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         904.2199999999999,
         857.36,
@@ -60998,7 +60998,7 @@
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 29,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         1031.68,
         1042.1399999999999,
@@ -61893,7 +61893,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         472.18999999999994,
         88.43,
@@ -62859,7 +62859,7 @@
         }
       ],
       "status": "watch",
-      "compliance_pct": 45,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         236.89999999999998,
         608.77,
@@ -62883,8 +62883,11 @@
         "sessions_planned": 9,
         "sessions_completed": 4,
         "sessions_missed": 0,
+        "sessions_due_to_date": 4,
+        "sessions_still_to_come": 5,
         "sessions_planned_today": 2,
-        "compliance_pct": 44,
+        "compliance_pct": 100,
+        "on_pace": true,
         "total_tss": 384.97,
         "total_hours": 4.34,
         "by_sport": {
@@ -62995,8 +62998,11 @@
         "sessions_planned": 12,
         "sessions_completed": 11,
         "sessions_missed": 1,
+        "sessions_due_to_date": 12,
+        "sessions_still_to_come": 0,
         "sessions_planned_today": 0,
         "compliance_pct": 92,
+        "on_pace": false,
         "total_tss": 958.13,
         "total_hours": 13.04,
         "by_sport": {
@@ -64657,7 +64663,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 44,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
         701.95,
         958.1299999999999,
@@ -64697,7 +64703,7 @@
       "name": "Ahmad Almarri",
       "avatar_initials": "AA",
       "status": "on_track",
-      "compliance_pct": 36,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         0,
@@ -64715,7 +64721,7 @@
       "name": "Alan Conway",
       "avatar_initials": "AC",
       "status": "on_track",
-      "compliance_pct": 78,
+      "compliance_pct": 88,
       "flags": [],
       "weekly_tss_trend": [
         856.41,
@@ -64733,7 +64739,7 @@
       "name": "Alexander Mishin",
       "avatar_initials": "AM",
       "status": "on_track",
-      "compliance_pct": 40,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         180.45,
@@ -64751,7 +64757,7 @@
       "name": "Alexandre Molina",
       "avatar_initials": "AM",
       "status": "on_track",
-      "compliance_pct": 11,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         1049.8,
@@ -64769,7 +64775,7 @@
       "name": "Ashleigh Georgiadis",
       "avatar_initials": "AG",
       "status": "needs_checkin",
-      "compliance_pct": 45,
+      "compliance_pct": 83,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -64794,7 +64800,7 @@
       "name": "Ashley Eaton",
       "avatar_initials": "AE",
       "status": "needs_checkin",
-      "compliance_pct": 42,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -64844,7 +64850,7 @@
       "name": "Binita Morar",
       "avatar_initials": "BM",
       "status": "on_track",
-      "compliance_pct": 9,
+      "compliance_pct": 25,
       "flags": [],
       "weekly_tss_trend": [
         1242.26,
@@ -64862,7 +64868,7 @@
       "name": "Cedric Bernier",
       "avatar_initials": "CB",
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         626.08,
@@ -64880,7 +64886,7 @@
       "name": "Charles rule",
       "avatar_initials": "CR",
       "status": "needs_checkin",
-      "compliance_pct": 67,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -64930,7 +64936,7 @@
       "name": "Daniella Cowden",
       "avatar_initials": "DC",
       "status": "on_track",
-      "compliance_pct": 30,
+      "compliance_pct": 75,
       "flags": [],
       "weekly_tss_trend": [
         579.26,
@@ -64948,7 +64954,7 @@
       "name": "Diana Mena",
       "avatar_initials": "DM",
       "status": "needs_checkin",
-      "compliance_pct": 50,
+      "compliance_pct": 86,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -64973,7 +64979,7 @@
       "name": "Diana Spasic",
       "avatar_initials": "DS",
       "status": "on_track",
-      "compliance_pct": 10,
+      "compliance_pct": 25,
       "flags": [],
       "weekly_tss_trend": [
         1084.73,
@@ -65016,7 +65022,7 @@
       "name": "Edward Dorling",
       "avatar_initials": "ED",
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65040,7 +65046,7 @@
       "name": "Emilio Dirlikov",
       "avatar_initials": "ED",
       "status": "on_track",
-      "compliance_pct": 53,
+      "compliance_pct": 82,
       "flags": [],
       "weekly_tss_trend": [
         1744.02,
@@ -65058,7 +65064,7 @@
       "name": "FIRAS I H AHMAD",
       "avatar_initials": "FI",
       "status": "watch",
-      "compliance_pct": 42,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65083,7 +65089,7 @@
       "name": "Francesca Muzi",
       "avatar_initials": "FM",
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65108,7 +65114,7 @@
       "name": "George Protonotarios",
       "avatar_initials": "GP",
       "status": "watch",
-      "compliance_pct": 19,
+      "compliance_pct": 60,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65133,7 +65139,7 @@
       "name": "Guillaume Sillani",
       "avatar_initials": "GS",
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 80,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65158,7 +65164,7 @@
       "name": "Guillaume Vandystadt",
       "avatar_initials": "GV",
       "status": "watch",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65183,7 +65189,7 @@
       "name": "Humaid Belhoul",
       "avatar_initials": "HB",
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         816.69,
@@ -65201,7 +65207,7 @@
       "name": "Husnu Uysal",
       "avatar_initials": "HU",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         331.46999999999997,
@@ -65219,7 +65225,7 @@
       "name": "Ivan Williams",
       "avatar_initials": "IW",
       "status": "watch",
-      "compliance_pct": 0,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "training_gap",
@@ -65243,7 +65249,7 @@
       "name": "Jack Jeffries",
       "avatar_initials": "JJ",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         530.97,
@@ -65261,7 +65267,7 @@
       "name": "Jamal Hussain",
       "avatar_initials": "JH",
       "status": "needs_checkin",
-      "compliance_pct": 33,
+      "compliance_pct": 67,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65310,7 +65316,7 @@
       "name": "James Kerry",
       "avatar_initials": "JK",
       "status": "on_track",
-      "compliance_pct": 40,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         0,
@@ -65328,7 +65334,7 @@
       "name": "Jay Cornforth",
       "avatar_initials": "JC",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         136.8,
@@ -65345,7 +65351,7 @@
       "name": "Joana Areias",
       "avatar_initials": "JA",
       "status": "on_track",
-      "compliance_pct": 22,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         169.17,
@@ -65363,7 +65369,7 @@
       "name": "Johan van Niekerk",
       "avatar_initials": "JV",
       "status": "watch",
-      "compliance_pct": 45,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65388,7 +65394,7 @@
       "name": "Lisa Hofheinz",
       "avatar_initials": "LH",
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 67,
       "flags": [],
       "weekly_tss_trend": [
         841.6,
@@ -65406,7 +65412,7 @@
       "name": "Lloyd Hayes",
       "avatar_initials": "LH",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         1302.69,
@@ -65424,7 +65430,7 @@
       "name": "Marc Bardsley",
       "avatar_initials": "MB",
       "status": "watch",
-      "compliance_pct": 50,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65449,7 +65455,7 @@
       "name": "Mariam Al Ali",
       "avatar_initials": "MA",
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 67,
       "flags": [],
       "weekly_tss_trend": [
         368.17,
@@ -65492,7 +65498,7 @@
       "name": "Mark Massouh",
       "avatar_initials": "MM",
       "status": "on_track",
-      "compliance_pct": 56,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         45.61,
@@ -65528,7 +65534,7 @@
       "name": "Mike Horseman",
       "avatar_initials": "MH",
       "status": "on_track",
-      "compliance_pct": 17,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         540.51,
@@ -65571,7 +65577,7 @@
       "name": "Mohd Saeed",
       "avatar_initials": "MS",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         0,
@@ -65589,7 +65595,7 @@
       "name": "Nicholas Georgiadis",
       "avatar_initials": "NG",
       "status": "watch",
-      "compliance_pct": 40,
+      "compliance_pct": 86,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65614,7 +65620,7 @@
       "name": "Nikolaus de Goederen",
       "avatar_initials": "ND",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         472.18999999999994,
@@ -65632,7 +65638,7 @@
       "name": "Noha Hesham",
       "avatar_initials": "NH",
       "status": "watch",
-      "compliance_pct": 45,
+      "compliance_pct": 83,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65657,7 +65663,7 @@
       "name": "Omair Rao",
       "avatar_initials": "OR",
       "status": "on_track",
-      "compliance_pct": 13,
+      "compliance_pct": 25,
       "flags": [],
       "weekly_tss_trend": [
         114.44,
@@ -65700,7 +65706,7 @@
       "name": "Ryan Sprott",
       "avatar_initials": "RS",
       "status": "on_track",
-      "compliance_pct": 57,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         565.7,
@@ -65718,7 +65724,7 @@
       "name": "saleh Al",
       "avatar_initials": "SA",
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
         451.92,
@@ -65736,7 +65742,7 @@
       "name": "Sana Sajid",
       "avatar_initials": "SS",
       "status": "on_track",
-      "compliance_pct": 17,
+      "compliance_pct": 40,
       "flags": [],
       "weekly_tss_trend": [
         583.83,
@@ -65754,7 +65760,7 @@
       "name": "Sherif Gharib",
       "avatar_initials": "SG",
       "status": "on_track",
-      "compliance_pct": 36,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         535.25,
@@ -65772,7 +65778,7 @@
       "name": "sidanth rajagopal",
       "avatar_initials": "SR",
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         135.9,
@@ -65790,7 +65796,7 @@
       "name": "Stephen Bates",
       "avatar_initials": "SB",
       "status": "needs_checkin",
-      "compliance_pct": 44,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65815,7 +65821,7 @@
       "name": "Tanya De Villiers",
       "avatar_initials": "TD",
       "status": "needs_checkin",
-      "compliance_pct": 29,
+      "compliance_pct": 100,
       "flags": [
         {
           "type": "fatigue_risk",
@@ -65840,7 +65846,7 @@
       "name": "Yajath Nair",
       "avatar_initials": "YN",
       "status": "on_track",
-      "compliance_pct": 29,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         203.71,
@@ -65859,7 +65865,7 @@
     "needs_checkin": 14,
     "watch": 12,
     "on_track": 30,
-    "avg_compliance_pct": 28
+    "avg_compliance_pct": 64
   },
   "recent_comments_feed": [],
   "weekly_totals": {

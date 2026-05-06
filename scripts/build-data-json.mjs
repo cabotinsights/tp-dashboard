@@ -53,7 +53,14 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
     const thisWeekSessions = a.sessions_by_week?.[thisWeekStart] || [];
     const planned = thisWeekSessions.length;
     const completed = thisWeekSessions.filter(s => s.status === 'completed').length;
-    const compliance_pct = planned > 0 ? Math.round((completed / planned) * 100) : (a.compliance_pct || 0);
+    // On-pace compliance: only count sessions whose date is in the past AND
+    // weren't completed as "missed". Upcoming sessions (today or future, not yet
+    // done) don't count yet. Default to 100 when nothing is due so far.
+    const missed = thisWeekSessions.filter(s => s.status !== 'completed' && s.date < asOf).length;
+    const due_to_date = completed + missed;
+    const compliance_pct = due_to_date > 0
+      ? Math.round((completed / due_to_date) * 100)
+      : (planned > 0 ? 100 : (a.compliance_pct || 0));
     if (planned > 0 && !isViewer) {
       complianceSum += compliance_pct;
       complianceCount++;
@@ -238,15 +245,26 @@ function summarizeWeek(sessions, weekStart, today) {
     by_sport[k].hours = Math.round(by_sport[k].hours * 100) / 100;
     by_sport[k].tss = Math.round(by_sport[k].tss * 100) / 100;
   }
-  const compliance_pct = planned > 0 ? Math.round((completed / planned) * 100) : 0;
+  // On-pace compliance: completed / (completed + missed) where missed = past and
+  // not done. Upcoming sessions (today or future, still in flight) don't count
+  // yet. Default to 100% when nothing is due so far this week.
+  const due_to_date = completed + missed;
+  const still_to_come = Math.max(0, planned - due_to_date);
+  const compliance_pct = due_to_date > 0
+    ? Math.round((completed / due_to_date) * 100)
+    : (planned > 0 ? 100 : 0);
+  const on_pace = missed === 0;
   return {
     start: weekStart,
     end,
     sessions_planned: planned,
     sessions_completed: completed,
     sessions_missed: missed,
+    sessions_due_to_date: due_to_date,
+    sessions_still_to_come: still_to_come,
     sessions_planned_today: planned_today,
     compliance_pct,
+    on_pace,
     total_tss,
     total_hours,
     by_sport,

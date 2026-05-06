@@ -43,6 +43,12 @@ exports.handler = async function(event) {
 
 TODAY IS ` + todayName + ' ' + todayIso + `. Every session in the data is pre-labeled with its correct weekday and a "relative" tag (today / past / upcoming). Use those labels verbatim — do not compute your own weekday from an ISO date, and never contradict the pre-labeled weekday. "Tomorrow" means the upcoming session whose date is exactly one day after today.
 
+WEEKLY PROGRESS — read this carefully:
+- compliance_pct is ON-PACE: completed / (completed + missed). Upcoming sessions (today's not-yet-done session, or future sessions later in the week) DO NOT count against compliance until their date has passed.
+- If sessions_missed === 0, the athlete is ON PACE for the week — describe them as "on track" or "100% on pace so far", even if there are sessions still to come.
+- Never frame mid-week as "X of Y completed" using the full week total — that wrongly counts upcoming sessions as misses. Use sessions_due_to_date as the denominator, or say "X done so far, Y still to come this week".
+- A missed session = a past-dated session that wasn't completed. Only those bring compliance below 100%.
+
 ATHLETE DATA:
 ` + JSON.stringify(enriched, null, 0);
 
