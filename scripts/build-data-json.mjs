@@ -63,6 +63,8 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
 
     athletes[a.id] = {
       ...a,
+      focus_event: withDaysOut(a.focus_event, asOf),
+      next_event: withDaysOut(a.next_event, asOf),
       flags,
       flag_history: isViewer ? (a.flag_history || []) : history,
       status,
@@ -153,6 +155,17 @@ function shiftIso(iso, days) {
   const d = new Date(iso + 'T00:00:00Z');
   d.setUTCDate(d.getUTCDate() + days);
   return d.toISOString().slice(0, 10);
+}
+
+function daysBetween(fromIso, toIso) {
+  const from = new Date(fromIso + 'T00:00:00Z').getTime();
+  const to = new Date(toIso + 'T00:00:00Z').getTime();
+  return Math.round((to - from) / 86400000);
+}
+
+function withDaysOut(event, asOf) {
+  if (!event || !event.date) return event;
+  return { ...event, days_out: daysBetween(asOf, event.date) };
 }
 
 function buildWeeklyTrend(sessionsByWeek) {

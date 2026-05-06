@@ -390,7 +390,7 @@
                   </template>
                 </div>
               </template>
-              <template x-if="me.next_event && !me.focus_event">
+              <template x-if="me.next_event && (!me.focus_event || me.next_event.id !== me.focus_event.id)">
                 <div class="race-countdown">
                   <div class="race-name" x-text="me.next_event.name"></div>
                   <div class="race-date" x-text="me.next_event.date"></div>

@@ -63203,7 +63203,8 @@
         "date": "2026-11-15",
         "type": "MultisportTriathlon",
         "priority": "B",
-        "raceTypeDuration": "TriTwoToFourHours"
+        "raceTypeDuration": "TriTwoToFourHours",
+        "days_out": 193
       },
       "focus_event": {
         "id": 37280222,
@@ -63211,7 +63212,8 @@
         "date": "2026-12-05",
         "type": "MultisportTriathlon",
         "priority": "A",
-        "raceTypeDuration": "TriOverFourHours"
+        "raceTypeDuration": "TriOverFourHours",
+        "days_out": 213
       },
       "peaks": {
         "bike_20min_power": {
