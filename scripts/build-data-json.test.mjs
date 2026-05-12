@@ -4,7 +4,8 @@ import { buildDataJson } from './build-data-json.mjs';
 
 test('buildDataJson: empty input produces skeleton', () => {
   const out = buildDataJson({ realAthletes: [], dummyAthletes: [], asOf: '2026-04-15' });
-  assert.equal(out.generated_at, '2026-04-15T00:00:00Z');
+  assert.equal(out.as_of_date, '2026-04-15');
+  assert.match(out.generated_at, /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
   assert.equal(Object.keys(out.athletes).length, 0);
   assert.deepEqual(out.roster_summary, {
     total: 0, needs_checkin: 0, watch: 0, on_track: 0, avg_compliance_pct: 0,

@@ -140,8 +140,12 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
     .slice(0, 20);
 
   return {
-    generated_at: asOf + 'T00:00:00Z',
-    me: realAthletes[0]?.id || (dummyAthletes[0]?.id ?? null),
+    generated_at: new Date().toISOString(),
+    as_of_date: asOf,
+    me: realAthletes.find(a => a?.is_real === true && a?.id)?.id
+        || realAthletes.find(a => a?.id)?.id
+        || dummyAthletes.find(a => a?.id)?.id
+        || null,
     athletes,
     roster,
     roster_summary: rosterSummary,
@@ -356,8 +360,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     if (!existsSync(dir)) return out;
     for (const file of readdirSync(dir)) {
       if (!file.endsWith('.json')) continue;
+      if (file.startsWith('_')) continue;
       try {
-        out.push(JSON.parse(readFileSync(join(dir, file), 'utf8')));
+        const parsed = JSON.parse(readFileSync(join(dir, file), 'utf8'));
+        if (!parsed || typeof parsed !== 'object' || !parsed.id) continue;
+        out.push(parsed);
       } catch (e) {
         console.error(`Failed to parse ${join(dir, file)}:`, e.message);
       }

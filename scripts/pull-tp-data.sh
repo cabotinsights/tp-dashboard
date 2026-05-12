@@ -4,7 +4,6 @@
 # Currently only pulls for Stephen (cookie-authed account).
 # DBT's 40 athletes remain dummy until his cookie is shared.
 
-set -e
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 RAW_DIR="$REPO_ROOT/scripts/raw"
 mkdir -p "$RAW_DIR"
@@ -15,11 +14,14 @@ LOG_FILE="$LOG_DIR/pull-$(date +%Y-%m-%d).log"
 
 echo "=== TP Pull $(date) ===" >> "$LOG_FILE"
 
-# Invoke Claude Code in non-interactive mode to use the TP MCP tools
-# and dump raw output into scripts/raw/stephen-bates.json
-claude -p "You are pulling TP data for the coach dashboard. Do this silently:
+# Prompt in a heredoc so quoting stays sane.
+PROMPT_FILE="$(mktemp -t tp-pull-prompt)"
+trap 'rm -f "$PROMPT_FILE"' EXIT
 
-1. Use TP MCP tools to pull for Stephen Bates:
+cat > "$PROMPT_FILE" <<EOF
+You are pulling TP data for the coach dashboard. Do this silently:
+
+1. Use TP MCP tools to pull for Stephen Bates (athlete name: "Stephen Bates"):
    - tp_get_fitness(days: 84)
    - tp_get_workouts for the last 7 days (type all)
    - tp_get_workouts for the current week (type all)
@@ -39,24 +41,49 @@ claude -p "You are pulling TP data for the coach dashboard. Do this silently:
 
 3. Assemble into this shape and write to $RAW_DIR/stephen-bates.json:
 {
-  \"id\": \"stephen-bates\",
-  \"name\": \"Stephen Bates\",
-  \"avatar_initials\": \"SB\",
-  \"is_real\": true,
-  \"current_fitness\": { ctl, atl, tsb, status },
-  \"fitness_history\": [{date, ctl, atl, tsb}, ...],
-  \"sessions_by_week\": {
-    \"<ISO Monday>\": [
+  "id": "stephen-bates",
+  "name": "Stephen Bates",
+  "avatar_initials": "SB",
+  "is_real": true,
+  "current_fitness": { ctl, atl, tsb, status },
+  "fitness_history": [{date, ctl, atl, tsb}, ...],
+  "sessions_by_week": {
+    "<ISO Monday>": [
       {id, date, title, sport, duration_hours, tss_planned, tss_actual, status, description, comments: [...]}
     ]
   },
-  \"focus_event\": {...} or null,
-  \"next_event\": {...} or null,
-  \"recovery\": [
-    {\"date\": \"YYYY-MM-DD\", \"sleep_hours\": <num>, \"deep\": <num>, \"light\": <num>, \"rem\": <num>, \"awake\": <num>, \"hrv\": <num>, \"resting_hr\": <num>}
+  "focus_event": {...} or null,
+  "next_event": {...} or null,
+  "recovery": [
+    {"date": "YYYY-MM-DD", "sleep_hours": <num>, "deep": <num>, "light": <num>, "rem": <num>, "awake": <num>, "hrv": <num>, "resting_hr": <num>}
   ]
 }
 
-Output only a one-line summary of what was written." --allowedTools "mcp__trainingpeaks__*,Read,Write,Bash" >> "$LOG_FILE" 2>&1
+Output only a one-line summary of what was written.
+EOF
 
-echo "Finished: $(date)" >> "$LOG_FILE"
+# Hard 30-min wall clock so a hung claude session can never pin the cron job.
+# macOS lacks GNU `timeout` by default; use perl alarm.
+perl -e '
+  my $timeout = shift @ARGV;
+  my $pid = fork();
+  die "fork: $!" unless defined $pid;
+  if ($pid == 0) { exec(@ARGV) or die "exec: $!"; }
+  local $SIG{ALRM} = sub {
+    kill "TERM", $pid; sleep 5; kill "KILL", $pid;
+    exit 124;
+  };
+  alarm $timeout;
+  waitpid($pid, 0);
+  exit($? >> 8);
+' 1800 claude -p "$(cat "$PROMPT_FILE")" \
+    --allowedTools "mcp__trainingpeaks-gerhard__*,Read,Write,Bash" \
+    >> "$LOG_FILE" 2>&1
+PULL_RC=$?
+
+if [ "$PULL_RC" = "124" ]; then
+  echo "TIMED OUT after 30min" >> "$LOG_FILE"
+fi
+
+echo "Finished: $(date) (rc=$PULL_RC)" >> "$LOG_FILE"
+exit $PULL_RC
