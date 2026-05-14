@@ -56,11 +56,23 @@ if [ "$STAGE_BUILD_DATA_RC" = "0" ] && [ "$STAGE_TESTS_RC" = "0" ]; then
   fi
 fi
 
+# Read build-time validation (warnings about partial-data athletes etc.)
+if [ -f "$LOG_DIR/build-validation.json" ]; then
+  VALIDATION_JSON=$(cat "$LOG_DIR/build-validation.json")
+  WARN_COUNT=$(python3 -c "import json,sys; print(len(json.load(sys.stdin).get('warnings',[])))" < "$LOG_DIR/build-validation.json" 2>/dev/null || echo 0)
+else
+  VALIDATION_JSON='{"errors":[],"warnings":[]}'
+  WARN_COUNT=0
+fi
+
 # Roll up status
 STATUS="ok"
 if [ "$STAGE_BUILD_DATA_RC" != "0" ] || [ "$STAGE_TESTS_RC" != "0" ] || [ "$STAGE_BUILD_ROSTER_RC" != "0" ]; then
   STATUS="error"
 elif [ "$STAGE_PULL_TP_RC" != "0" ] || [ "$STAGE_PULL_DUBAI_RC" != "0" ] || [ "$GIT_RC" != "0" ]; then
+  STATUS="warning"
+elif [ "${WARN_COUNT:-0}" -gt "0" ]; then
+  # Build succeeded but flagged some athletes — surface as warning so we get an email
   STATUS="warning"
 fi
 
@@ -101,6 +113,7 @@ STATUS_JSON=$(cat <<EOF
     "git_push":     {"rc": ${GIT_RC:-0},                "pushed": $GIT_PUSHED}
   },
   "raw_age_hours": $RAW_AGE_HOURS,
+  "validation": $VALIDATION_JSON,
   "log_tail": $LOG_TAIL
 }
 EOF

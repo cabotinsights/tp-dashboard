@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T03:09:19.654Z",
+  "generated_at": "2026-05-14T05:21:13.948Z",
   "as_of_date": "2026-05-14",
   "me": "stephen-bates",
   "athletes": {
@@ -66030,5 +66030,10 @@
       "tss_planned": 13344.099999999993,
       "tss_actual": 0
     }
+  },
+  "validation": {
+    "warnings": [],
+    "hard_error_count": 0,
+    "checked_at": "2026-05-14T05:21:13.948Z"
   }
 }

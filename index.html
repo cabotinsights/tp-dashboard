@@ -368,10 +368,10 @@
               <h2 class="section-title">Race Countdown</h2>
               <template x-if="me.focus_event">
                 <div class="race-countdown">
-                  <div class="race-name" x-text="me.focus_event.name"></div>
-                  <div class="race-date" x-text="me.focus_event.date"></div>
+                  <div class="race-name" x-text="me.focus_event.name || 'Unnamed event'"></div>
+                  <div class="race-date" x-text="me.focus_event.date || 'Date TBD'"></div>
                   <div class="race-days">
-                    <span class="days-big" x-text="me.focus_event.days_out"></span>
+                    <span class="days-big" x-text="me.focus_event.days_out ?? '—'"></span>
                     <span class="days-label"> days out</span>
                   </div>
                   <template x-if="me.focus_event.ctl_target">
@@ -392,10 +392,10 @@
               </template>
               <template x-if="me.next_event && (!me.focus_event || me.next_event.id !== me.focus_event.id)">
                 <div class="race-countdown">
-                  <div class="race-name" x-text="me.next_event.name"></div>
-                  <div class="race-date" x-text="me.next_event.date"></div>
+                  <div class="race-name" x-text="me.next_event.name || 'Unnamed event'"></div>
+                  <div class="race-date" x-text="me.next_event.date || 'Date TBD'"></div>
                   <div class="race-days">
-                    <span class="days-big" x-text="me.next_event.days_out"></span>
+                    <span class="days-big" x-text="me.next_event.days_out ?? '—'"></span>
                     <span class="days-label"> days out</span>
                   </div>
                 </div>
@@ -1004,10 +1004,10 @@
               <h2 class="section-title">Race Countdown</h2>
               <template x-if="activeAthlete.focus_event">
                 <div class="race-countdown">
-                  <div class="race-name" x-text="activeAthlete.focus_event.name"></div>
-                  <div class="race-date" x-text="activeAthlete.focus_event.date"></div>
+                  <div class="race-name" x-text="activeAthlete.focus_event.name || 'Unnamed event'"></div>
+                  <div class="race-date" x-text="activeAthlete.focus_event.date || 'Date TBD'"></div>
                   <div class="race-days">
-                    <span class="days-big" x-text="activeAthlete.focus_event.days_out"></span>
+                    <span class="days-big" x-text="activeAthlete.focus_event.days_out ?? '—'"></span>
                     <span class="days-label"> days out</span>
                   </div>
                   <template x-if="activeAthlete.focus_event.ctl_target">
@@ -1028,10 +1028,10 @@
               </template>
               <template x-if="!activeAthlete.focus_event && activeAthlete.next_event">
                 <div class="race-countdown">
-                  <div class="race-name" x-text="activeAthlete.next_event.name"></div>
-                  <div class="race-date" x-text="activeAthlete.next_event.date"></div>
+                  <div class="race-name" x-text="activeAthlete.next_event.name || 'Unnamed event'"></div>
+                  <div class="race-date" x-text="activeAthlete.next_event.date || 'Date TBD'"></div>
                   <div class="race-days">
-                    <span class="days-big" x-text="activeAthlete.next_event.days_out"></span>
+                    <span class="days-big" x-text="activeAthlete.next_event.days_out ?? '—'"></span>
                     <span class="days-label"> days out</span>
                   </div>
                 </div>

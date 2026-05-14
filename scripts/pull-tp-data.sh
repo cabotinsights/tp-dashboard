@@ -83,6 +83,18 @@ PULL_RC=$?
 
 if [ "$PULL_RC" = "124" ]; then
   echo "TIMED OUT after 30min" >> "$LOG_FILE"
+  echo "Finished: $(date) (rc=$PULL_RC TIMEOUT)" >> "$LOG_FILE"
+  exit $PULL_RC
+fi
+
+# Validate that what claude wrote actually looks like a fresh TP pull.
+# Catches silent failures: expired cookies, empty responses, partial writes.
+node "$(dirname "$0")/validate-pull.mjs" >> "$LOG_FILE" 2>&1
+VALIDATE_RC=$?
+
+if [ "$VALIDATE_RC" != "0" ]; then
+  echo "Pull validation failed (rc=$VALIDATE_RC) — treating pull as failed" >> "$LOG_FILE"
+  PULL_RC=$VALIDATE_RC
 fi
 
 echo "Finished: $(date) (rc=$PULL_RC)" >> "$LOG_FILE"

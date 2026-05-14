@@ -175,8 +175,10 @@ function daysBetween(fromIso, toIso) {
 }
 
 function withDaysOut(event, asOf) {
-  if (!event || !event.date) return event;
-  return { ...event, days_out: daysBetween(asOf, event.date) };
+  if (!event) return event;
+  const date = event.date || event.event_date || null;
+  if (!date) return { ...event, date: null, days_out: null };
+  return { ...event, date, days_out: daysBetween(asOf, date) };
 }
 
 function buildWeeklyTrend(sessionsByWeek) {
@@ -344,6 +346,49 @@ export function deriveViewFields(athlete, asOf) {
   };
 }
 
+// Validation: hard errors throw and fail the build (status=error in refresh-data.sh,
+// which fires the n8n alert). Warnings are surfaced in the alert payload but don't
+// block publishing — partial data is better than no data.
+export function validateBuildOutput(out, asOf) {
+  const errors = [];
+  const warnings = [];
+  const asOfMs = new Date(asOf + 'T00:00:00Z').getTime();
+  const HARD_STALE_DAYS = 21;
+
+  if (!out.me) errors.push('me is null — viewer athlete not identified');
+  if (out.me && !out.athletes?.[out.me]) errors.push(`me="${out.me}" not present in athletes map`);
+
+  for (const [id, a] of Object.entries(out.athletes || {})) {
+    if (!a || typeof a !== 'object') { errors.push(`athlete "${id}" is not an object`); continue; }
+    const label = a.name || id;
+    const cf = a.current_fitness;
+    if (!cf || typeof cf.ctl !== 'number' || !Number.isFinite(cf.ctl)) {
+      errors.push(`${label}: current_fitness.ctl missing or non-numeric`);
+    }
+    if (a.focus_event && !a.focus_event.date) {
+      warnings.push(`${label}: focus_event "${a.focus_event.name || '?'}" has no date`);
+    }
+    if (a.next_event && !a.next_event.date) {
+      warnings.push(`${label}: next_event "${a.next_event.name || '?'}" has no date`);
+    }
+    if (Array.isArray(a.fitness_history) && a.fitness_history.length > 0) {
+      const last = a.fitness_history[a.fitness_history.length - 1];
+      if (last?.date) {
+        const ageDays = (asOfMs - new Date(last.date + 'T00:00:00Z').getTime()) / 86400000;
+        if (ageDays > HARD_STALE_DAYS) {
+          warnings.push(`${label}: fitness_history is ${Math.round(ageDays)}d stale (last: ${last.date})`);
+        }
+      }
+    } else if (a.is_real) {
+      warnings.push(`${label}: fitness_history is empty (real athlete)`);
+    }
+    if (a.is_real && (!Array.isArray(a.recovery) || a.recovery.length === 0)) {
+      warnings.push(`${label}: recovery array is empty (real athlete)`);
+    }
+  }
+  return { errors, warnings };
+}
+
 // CLI
 if (import.meta.url === `file://${process.argv[1]}`) {
   const dummyPath = join(__dirname, 'dummy', 'athletes.json');
@@ -393,6 +438,34 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   ];
   const out = buildDataJson({ realAthletes, dummyAthletes, asOf });
   const outPath = join(REPO_ROOT, 'data.json');
+
+  const validation = validateBuildOutput(out, asOf);
+  out.validation = {
+    warnings: validation.warnings,
+    hard_error_count: validation.errors.length,
+    checked_at: new Date().toISOString(),
+  };
+
+  // Persist a separate copy so refresh-data.sh can include it in the alert payload.
+  const logDir = join(REPO_ROOT, 'logs');
+  if (existsSync(logDir)) {
+    writeFileSync(join(logDir, 'build-validation.json'), JSON.stringify(validation, null, 2));
+  }
+
+  if (validation.errors.length > 0) {
+    console.error(`Build failed validation with ${validation.errors.length} hard error(s):`);
+    for (const e of validation.errors) console.error('  - ' + e);
+    // Still write the file so a developer can inspect, but exit non-zero so the
+    // refresh-data.sh status rolls up to "error" and git push is skipped.
+    writeFileSync(outPath, JSON.stringify(out, null, 2));
+    process.exit(1);
+  }
+
+  if (validation.warnings.length > 0) {
+    console.warn(`Build has ${validation.warnings.length} warning(s):`);
+    for (const w of validation.warnings) console.warn('  - ' + w);
+  }
+
   writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log(`Wrote ${Object.keys(out.athletes).length} athletes (${realAthletes.length} real + ${dummyAthletes.length} dummy) to ${outPath}`);
 }
