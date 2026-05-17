@@ -363,7 +363,10 @@ export function validateBuildOutput(out, asOf) {
     const label = a.name || id;
     const cf = a.current_fitness;
     if (!cf || typeof cf.ctl !== 'number' || !Number.isFinite(cf.ctl)) {
-      errors.push(`${label}: current_fitness.ctl missing or non-numeric`);
+      // Hard-fail only for the viewer (`me`) — bad fitness on a roster athlete
+      // is degraded data, not corrupted output, so warn but don't block publish.
+      if (id === out.me) errors.push(`${label}: current_fitness.ctl missing or non-numeric (viewer athlete)`);
+      else warnings.push(`${label}: current_fitness.ctl missing or non-numeric`);
     }
     if (a.focus_event && !a.focus_event.date) {
       warnings.push(`${label}: focus_event "${a.focus_event.name || '?'}" has no date`);
