@@ -119,6 +119,18 @@ function transform(raw) {
   };
 }
 
+// Guard against the 2026-06-02 incident: a transient DNS failure made the MCP
+// write {isError:true} into a raw file. Such a file has truthy fitness/workouts
+// (so the old `!raw.fitness` check passed) but no usable CTL — transforming it
+// yields a 0%/no-workouts ghost athlete. Skip it so last-good data is used or
+// the athlete is omitted rather than shown as falsely zeroed.
+function isUsableRaw(raw) {
+  if (!raw || raw.fitness == null || raw.workouts == null) return false;
+  if (raw.fitness.isError === true || raw.workouts.isError === true) return false;
+  const cf = buildCurrentFitness(raw.fitness);
+  return cf != null && Number.isFinite(cf.ctl);
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   if (!existsSync(RAW_DIR)) {
     console.error(`No raw dir at ${RAW_DIR} — run scripts/pull-dubai-data.sh first`);
@@ -130,8 +142,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const f of files) {
     try {
       const raw = JSON.parse(readFileSync(join(RAW_DIR, f), 'utf8'));
-      if (!raw.fitness || !raw.workouts) {
-        console.warn(`Skipping ${f}: missing fitness or workouts`);
+      if (!isUsableRaw(raw)) {
+        console.warn(`Skipping ${f}: no usable fitness (error response or missing CTL)`);
         skipped++;
         continue;
       }
@@ -148,4 +160,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   console.log(`Wrote ${athletes.length} Dubai athletes to ${OUT_PATH} (skipped ${skipped})`);
 }
 
-export { transform, buildSessionsByWeek, buildFitnessHistory, buildCurrentFitness, inferSport };
+export { transform, buildSessionsByWeek, buildFitnessHistory, buildCurrentFitness, inferSport, isUsableRaw };

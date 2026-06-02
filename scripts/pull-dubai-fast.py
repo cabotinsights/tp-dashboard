@@ -123,14 +123,36 @@ class MCPClient:
             self.proc.kill()
 
 
+def has_usable_fitness(fitness):
+    """True only if `fitness` is a real payload with a numeric current CTL.
+
+    A transient network/DNS blip makes the TP MCP return a structured error
+    result ({"isError": true, ...}) as a *successful* tool response rather than
+    raising. Such a payload — or one with no numeric current.ctl — is NOT usable;
+    writing it would clobber good data and produce a 0%/no-workouts ghost athlete.
+    """
+    if not isinstance(fitness, dict) or fitness.get("isError") is True:
+        return False
+    current = fitness.get("current")
+    if not isinstance(current, dict):
+        return False
+    ctl = current.get("ctl")
+    # bool is a subclass of int — exclude it explicitly.
+    return isinstance(ctl, (int, float)) and not isinstance(ctl, bool)
+
+
 def already_pulled(athlete_id):
-    """Skip an athlete only if their file is fresh AND has all three blocks."""
+    """Skip an athlete only if their file is fresh AND holds usable data."""
     f = RAW_DIR / f"{athlete_id}.json"
     if not f.exists() or f.stat().st_size == 0:
         return False
     try:
         data = json.loads(f.read_text())
         if "fitness" not in data or "workouts" not in data or "recovery" not in data:
+            return False
+        # A file stamped TODAY but holding an error/empty fitness response must be
+        # re-pulled — otherwise a single bad pull suppresses retries all day.
+        if not has_usable_fitness(data.get("fitness")):
             return False
         # Re-pull if the file is older than today, so daily cron picks up fresh data.
         return data.get("pulled_at") == TODAY
@@ -246,6 +268,14 @@ def main():
                 })
             except RuntimeError as e:
                 print(f"  [{i+1}/{len(pending)}] {aid} {name}: ERROR {e}")
+                continue
+
+            # The MCP may return a structured error (isError=true) instead of
+            # raising. Skip the write so the last-good file survives and this
+            # athlete is re-pulled next run, rather than clobbering good data.
+            if not has_usable_fitness(fitness):
+                elapsed = time.time() - t_athlete
+                print(f"  [{i+1}/{len(pending)}] {aid} {name}: SKIP no usable fitness, kept last-good ({elapsed:.1f}s)")
                 continue
 
             recovery = parse_recovery(metrics_raw)
