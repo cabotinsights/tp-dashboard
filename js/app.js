@@ -396,6 +396,11 @@ function app() {
       return Math.round(sum / r.length);
     },
 
+    get dataHealth() {
+      if (typeof DataHealth === 'undefined') return { degraded: false, message: '' };
+      return DataHealth.computeDataHealth(this.data, Date.now());
+    },
+
     thisWeekSessions() {
       if (!this.me) return [];
       var start = this.me.this_week ? this.me.this_week.start : null;
