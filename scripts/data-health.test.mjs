@@ -45,6 +45,29 @@ test('stale data (older than 28h) is degraded even when complete', () => {
   assert.equal(h.degraded, true);
 });
 
+test('a missed daily refresh (~25h old) is flagged stale', () => {
+  // The daily build runs ~07:00; if the laptop sleeps through it, the prior
+  // day's build is seen mid-morning at ~25h old and must be flagged, not shown
+  // as if current (the 2026-06-03 "0/9 looked real" incident).
+  const h = computeDataHealth({
+    generated_at: '2026-06-01T11:00:00Z', // 25h before NOW
+    roster: roster(56, 0),
+    validation: { warnings: [] },
+  }, NOW);
+  assert.equal(h.stale, true);
+  assert.equal(h.degraded, true);
+});
+
+test('same-day data (~20h old) is not stale (no daily false positive)', () => {
+  const h = computeDataHealth({
+    generated_at: '2026-06-01T16:00:00Z', // 20h before NOW
+    roster: roster(56, 0),
+    validation: { warnings: [] },
+  }, NOW);
+  assert.equal(h.stale, false);
+  assert.equal(h.degraded, false);
+});
+
 test('null data does not throw and is not degraded', () => {
   const h = computeDataHealth(null, NOW);
   assert.equal(h.degraded, false);

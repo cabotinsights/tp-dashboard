@@ -10,8 +10,10 @@
   if (typeof module === 'object' && module.exports) module.exports = factory();
   else root.DataHealth = factory();
 }(typeof self !== 'undefined' ? self : this, function () {
-  // Daily refresh runs ~07:00; allow a generous window before calling it stale.
-  var STALE_HOURS = 28;
+  // Daily refresh runs ~07:00. Anything older than a full day means a refresh
+  // was missed (e.g. laptop asleep through the morning), so the data on screen
+  // is a day behind and should be flagged rather than shown as current.
+  var STALE_HOURS = 24;
 
   function computeDataHealth(data, nowMs) {
     if (!data) {
