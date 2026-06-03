@@ -33,6 +33,33 @@ test('buildDataJson: passes dummy athletes through', () => {
   assert.equal(out.roster[0].id, 'd1');
 });
 
+test('buildDataJson: computes days_out for curated key_races', () => {
+  const out = buildDataJson({
+    realAthletes: [{
+      id: 'sb',
+      name: 'Stephen Bates',
+      is_real: true,
+      current_fitness: { ctl: 50, atl: 50, tsb: 0 },
+      key_races: [{ name: 'T100 Dubai', date: '2026-11-15', event_type: 'MultisportTriathlon' }],
+    }],
+    dummyAthletes: [],
+    asOf: '2026-06-03',
+  });
+  const kr = out.athletes['sb'].key_races;
+  assert.equal(kr.length, 1);
+  assert.equal(kr[0].name, 'T100 Dubai');
+  assert.equal(kr[0].days_out, 165);
+});
+
+test('buildDataJson: key_races defaults to empty array when absent', () => {
+  const out = buildDataJson({
+    realAthletes: [{ id: 'x', name: 'X', is_real: true, current_fitness: { ctl: 1, atl: 1, tsb: 0 } }],
+    dummyAthletes: [],
+    asOf: '2026-06-03',
+  });
+  assert.deepEqual(out.athletes['x'].key_races, []);
+});
+
 test('buildDataJson: recent_comments_feed is newest-first and capped at 20', () => {
   const sessionsByWeek = { '2026-04-06': [] };
   for (let i = 0; i < 25; i++) {

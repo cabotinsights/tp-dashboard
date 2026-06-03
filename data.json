@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T06:16:28.809Z",
+  "generated_at": "2026-06-03T06:26:55.572Z",
   "as_of_date": "2026-06-03",
   "me": "stephen-bates",
   "athletes": {
@@ -1218,6 +1218,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -2358,6 +2359,7 @@
           "resting_hr": 53
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -3512,6 +3514,7 @@
           "resting_hr": 55
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -4658,6 +4661,7 @@
           "resting_hr": 61
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -5566,6 +5570,7 @@
           "resting_hr": 44
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -6822,6 +6827,7 @@
           "resting_hr": 49
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -8080,6 +8086,7 @@
           "resting_hr": 54
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -9298,6 +9305,7 @@
           "resting_hr": 65
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -10496,6 +10504,7 @@
           "resting_hr": 57
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -11824,6 +11833,7 @@
           "resting_hr": 42
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -12864,6 +12874,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -14071,6 +14082,7 @@
           "resting_hr": 54
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -14882,6 +14894,7 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -15959,6 +15972,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -17156,6 +17170,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -18454,6 +18469,7 @@
           "resting_hr": 40
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -19328,6 +19344,7 @@
           "resting_hr": 41
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -20403,6 +20420,7 @@
           "resting_hr": 76
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -21679,6 +21697,7 @@
           "resting_hr": 56
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -22825,6 +22844,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -24202,6 +24222,7 @@
           "resting_hr": 45
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -25436,6 +25457,7 @@
           "resting_hr": 55
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -26730,6 +26752,7 @@
           "resting_hr": 62
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -27976,6 +27999,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -29118,6 +29142,7 @@
           "resting_hr": 54
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -29952,6 +29977,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -30826,6 +30852,7 @@
           "resting_hr": 76
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -31840,6 +31867,7 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -33058,6 +33086,7 @@
           "resting_hr": 39
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -34203,6 +34232,7 @@
           "resting_hr": 59
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -35187,6 +35217,7 @@
           "resting_hr": 53
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -36295,6 +36326,7 @@
           "resting_hr": 46
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -37074,6 +37106,7 @@
           "resting_hr": 65
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -38350,6 +38383,7 @@
           "resting_hr": 56
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -39556,6 +39590,7 @@
           "resting_hr": 55
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -40774,6 +40809,7 @@
           "resting_hr": 76
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -41952,6 +41988,7 @@
           "resting_hr": 43
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -42869,6 +42906,7 @@
           "resting_hr": 56
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -44041,6 +44079,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -45259,6 +45298,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -46501,6 +46541,7 @@
           "resting_hr": 50
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -47513,6 +47554,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -48226,6 +48268,7 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -49493,6 +49536,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -50715,6 +50759,7 @@
           "resting_hr": 44
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -51417,6 +51462,7 @@
           "resting_hr": 49
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -52816,6 +52862,7 @@
           "resting_hr": 53
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -53572,6 +53619,7 @@
           "resting_hr": 56
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -54907,6 +54955,7 @@
           "resting_hr": 48
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -55987,6 +56036,7 @@
           "resting_hr": 45
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -56846,6 +56896,7 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [],
+      "key_races": [],
       "flags": [
         {
           "type": "training_gap",
@@ -57983,6 +58034,7 @@
           "resting_hr": 51
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -59152,6 +59204,7 @@
           "resting_hr": 43
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -60349,6 +60402,7 @@
           "resting_hr": 63
         }
       ],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -61208,6 +61262,7 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [],
+      "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
@@ -62474,6 +62529,7 @@
           "resting_hr": 44
         }
       ],
+      "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
@@ -63909,6 +63965,15 @@
       ],
       "flags": [],
       "id": "stephen-bates",
+      "key_races": [
+        {
+          "name": "T100 Dubai",
+          "date": "2026-11-15",
+          "event_type": "MultisportTriathlon",
+          "priority": "B",
+          "days_out": 165
+        }
+      ],
       "sessions_by_week": {
         "2026-05-18": [
           {
@@ -65505,6 +65570,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-06-03T06:16:28.809Z"
+    "checked_at": "2026-06-03T06:26:55.573Z"
   }
 }

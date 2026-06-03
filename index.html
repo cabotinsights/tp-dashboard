@@ -400,6 +400,16 @@
                   </div>
                 </div>
               </template>
+              <template x-for="race in (me.key_races || []).filter(r => r.name !== (me.focus_event && me.focus_event.name) && r.name !== (me.next_event && me.next_event.name))" :key="race.name + race.date">
+                <div class="race-countdown">
+                  <div class="race-name" x-text="race.name || 'Unnamed event'"></div>
+                  <div class="race-date" x-text="race.date || 'Date TBD'"></div>
+                  <div class="race-days">
+                    <span class="days-big" x-text="race.days_out ?? '—'"></span>
+                    <span class="days-label"> days out</span>
+                  </div>
+                </div>
+              </template>
             </div>
           </div>
 

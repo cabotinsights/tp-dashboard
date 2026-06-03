@@ -72,6 +72,9 @@ export function buildDataJson({ realAthletes, dummyAthletes, asOf }) {
       ...a,
       focus_event: withDaysOut(a.focus_event, asOf),
       next_event: withDaysOut(a.next_event, asOf),
+      // Curated extra races (e.g. from seed) that aren't the TP focus/next event.
+      // The TP pull never writes key_races, so a seed value persists across pulls.
+      key_races: (a.key_races || []).map(e => withDaysOut(e, asOf)),
       flags,
       flag_history: isViewer ? (a.flag_history || []) : history,
       status,
