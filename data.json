@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08T06:01:12.445Z",
-  "as_of_date": "2026-06-08",
+  "generated_at": "2026-06-09T04:25:45.543Z",
+  "as_of_date": "2026-06-09",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -1236,7 +1236,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -1244,35 +1244,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1176.71,
         1211.43,
@@ -2397,7 +2397,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         446.99,
         465.87,
@@ -3556,7 +3556,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -3564,35 +3564,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         296.98,
         401.97,
@@ -4703,7 +4703,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -4711,35 +4711,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         447.98,
         759.14,
@@ -5631,10 +5631,24 @@
       "next_event": null,
       "recovery": [],
       "key_races": [],
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 100,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
+      "status": "watch",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1254.55,
         363.26,
@@ -6855,7 +6869,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -6863,35 +6877,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         148.77,
         1053.31,
@@ -8080,7 +8094,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -8088,35 +8102,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         867.64,
         919.89,
@@ -9335,7 +9349,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         419.19,
         510.84000000000003,
@@ -10522,7 +10536,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -10530,35 +10544,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         718.4999999999999,
         1035.6999999999998,
@@ -11837,7 +11851,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         753.8,
         670.3,
@@ -12890,7 +12904,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         506.39000000000004,
         66.28,
@@ -14074,7 +14088,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1162.76,
         971.1199999999999,
@@ -17268,7 +17282,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -17276,35 +17290,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         340.5,
         567.77,
@@ -18625,7 +18639,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1292.5800000000002,
         942.2,
@@ -19547,10 +19561,24 @@
         }
       ],
       "key_races": [],
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 100,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
+      "status": "watch",
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         826.84,
         294.33000000000004,
@@ -20545,7 +20573,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -20553,31 +20581,31 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -21901,7 +21929,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -21909,35 +21937,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         602.77,
         539.28,
@@ -23096,7 +23124,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -23104,31 +23132,31 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -24510,7 +24538,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -24518,35 +24546,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1226.7199999999998,
         1676.69,
@@ -25727,7 +25755,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1682.1100000000001,
         1210,
@@ -27020,7 +27048,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -27028,35 +27056,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         2480.54,
         1902.2400000000002,
@@ -28250,20 +28278,20 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1793.7700000000002,
         72.63,
@@ -29401,7 +29429,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         561.1899999999999,
         618.43,
@@ -30241,7 +30269,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -30249,35 +30277,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         43.9,
         756.04,
@@ -31307,7 +31335,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -31315,35 +31343,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1618.93,
         2498.1,
@@ -33646,7 +33674,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -33654,35 +33682,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         569.17,
         824.0199999999999,
@@ -34641,16 +34669,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -35657,16 +35685,16 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
@@ -36490,7 +36518,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         431.58,
         1.71,
@@ -37746,7 +37774,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -37754,35 +37782,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         237.69,
         539.19,
@@ -39109,7 +39137,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -39117,35 +39145,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         835.41,
         1867.9,
@@ -40365,7 +40393,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -40373,35 +40401,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         616.26,
         1107.83,
@@ -41725,7 +41753,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -41733,35 +41761,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1193.57,
         1485.67,
@@ -43857,7 +43885,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         44.97,
         265.61,
@@ -45123,7 +45151,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -45131,35 +45159,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         771.46,
         900.48,
@@ -46415,7 +46443,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -46423,35 +46451,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1113.62,
         1053.78,
@@ -47415,20 +47443,20 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         29.25,
         56.9,
@@ -48096,7 +48124,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -48104,31 +48132,31 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -49354,7 +49382,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -49362,35 +49390,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         508.61,
         667.56,
@@ -50575,7 +50603,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -50583,35 +50611,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         755.11,
         3213.56,
@@ -51336,16 +51364,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -52822,7 +52850,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -52830,35 +52858,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         1597.24,
         1403.8900000000003,
@@ -54904,7 +54932,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -54912,35 +54940,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         1005.25,
         2243.8199999999997,
@@ -56023,7 +56051,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -56031,31 +56059,31 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
@@ -56894,26 +56922,26 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 14 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 15 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 7 days",
-          "triggered_at": "2026-06-01"
+          "reason": "No workouts logged for 8 days",
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 14 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 15 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         0.08,
         0,
@@ -59132,7 +59160,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         734.8199999999999,
         774.0500000000001,
@@ -60232,7 +60260,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         54.37,
         167.04000000000002,
@@ -61115,7 +61143,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         627.25,
         454.03000000000003,
@@ -62360,7 +62388,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "flag_history": [
@@ -62368,35 +62396,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-11"
+          "triggered_at": "2026-05-12"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-18"
+          "triggered_at": "2026-05-19"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-05-25"
+          "triggered_at": "2026-05-26"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-01"
+          "triggered_at": "2026-06-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         1167.17,
         1169,
@@ -62419,12 +62447,12 @@
         "end": "2026-06-14",
         "sessions_planned": 8,
         "sessions_completed": 0,
-        "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 8,
-        "sessions_planned_today": 1,
-        "compliance_pct": 100,
-        "on_pace": true,
+        "sessions_missed": 1,
+        "sessions_due_to_date": 1,
+        "sessions_still_to_come": 7,
+        "sessions_planned_today": 2,
+        "compliance_pct": 0,
+        "on_pace": false,
         "total_tss": 0,
         "total_hours": 0,
         "by_sport": {
@@ -62453,7 +62481,7 @@
             "duration_hours": 1.133,
             "tss": null,
             "tss_planned": 74.46,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-06-09",
@@ -62645,16 +62673,17 @@
         ]
       },
       "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "missed_sessions": [
         {
           "date": "2026-06-08",
           "title": "VO2 Max | 4x 6x(30/30s) | FTP",
           "sport": "Bike",
           "duration_hours": 1.133,
           "tss_planned": 74.46
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-06-09",
           "title": "Run | 5-7x 2:20s / 80s rest | Pace",
@@ -62714,7 +62743,7 @@
         "race_type_duration": "RunUnderOneHour",
         "ctl_target": null,
         "distance_m": 10000,
-        "days_out": 17
+        "days_out": 16
       },
       "focus_event": {
         "id": 37280222,
@@ -62725,7 +62754,7 @@
         "race_type_duration": "TriOverFourHours",
         "ctl_target": null,
         "distance": null,
-        "days_out": 180
+        "days_out": 179
       },
       "peaks": {
         "bike_20min_power": {
@@ -63769,7 +63798,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 160
+          "days_out": 159
         }
       ],
       "sessions_by_week": {
@@ -64177,7 +64206,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "weekly_tss_trend": [
         119.21,
         867.64,
@@ -64198,7 +64227,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64216,13 +64245,13 @@
       "name": "Ahmad Almarri",
       "avatar_initials": "AA",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64256,9 +64285,16 @@
       "id": "2966128",
       "name": "Alexander Mishin",
       "avatar_initials": "AM",
-      "status": "on_track",
-      "compliance_pct": 100,
-      "flags": [],
+      "status": "watch",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
       "weekly_tss_trend": [
         1254.55,
         363.26,
@@ -64275,13 +64311,13 @@
       "name": "Alexandre Molina",
       "avatar_initials": "AM",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64300,13 +64336,13 @@
       "name": "Ashleigh Georgiadis",
       "avatar_initials": "AG",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64325,13 +64361,13 @@
       "name": "Ashley Eaton",
       "avatar_initials": "AE",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -83 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64366,13 +64402,13 @@
       "name": "Binita Morar",
       "avatar_initials": "BM",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64391,13 +64427,13 @@
       "name": "Cedric Bernier",
       "avatar_initials": "CB",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64439,7 +64475,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64457,13 +64493,13 @@
       "name": "Daniella Cowden",
       "avatar_initials": "DC",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64481,13 +64517,13 @@
       "name": "Diana Mena",
       "avatar_initials": "DM",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -254 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64505,13 +64541,13 @@
       "name": "Diana Spasic",
       "avatar_initials": "DS",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -101 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64530,13 +64566,13 @@
       "name": "DJ Rust",
       "avatar_initials": "DR",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -40 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64555,7 +64591,7 @@
       "name": "Edward Dorling",
       "avatar_initials": "ED",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         734.8199999999999,
@@ -64572,7 +64608,7 @@
       "name": "Emilio Dirlikov",
       "avatar_initials": "ED",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         1682.1100000000001,
@@ -64590,7 +64626,7 @@
       "name": "FIRAS I H AHMAD",
       "avatar_initials": "FI",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         753.8,
@@ -64614,7 +64650,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64633,13 +64669,13 @@
       "name": "George Protonotarios",
       "avatar_initials": "GP",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 14 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 15 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64657,13 +64693,13 @@
       "name": "Guillaume Sillani",
       "avatar_initials": "GS",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -116 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64686,8 +64722,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64705,7 +64741,7 @@
       "name": "Humaid Belhoul",
       "avatar_initials": "HB",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         1162.76,
@@ -64722,13 +64758,13 @@
       "name": "Husnu Uysal",
       "avatar_initials": "HU",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64747,13 +64783,13 @@
       "name": "Ivan Williams",
       "avatar_initials": "IW",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -48 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64770,9 +64806,16 @@
       "id": "4737364",
       "name": "Jack Jeffries",
       "avatar_initials": "JJ",
-      "status": "on_track",
-      "compliance_pct": 100,
-      "flags": [],
+      "status": "watch",
+      "compliance_pct": 0,
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-06-09"
+        }
+      ],
       "weekly_tss_trend": [
         826.84,
         294.33000000000004,
@@ -64795,7 +64838,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64813,13 +64856,13 @@
       "name": "James Gough",
       "avatar_initials": "JG",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -89 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64838,7 +64881,7 @@
       "name": "James Kerry",
       "avatar_initials": "JK",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         431.58,
@@ -64871,13 +64914,13 @@
       "name": "Joana Areias",
       "avatar_initials": "JA",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64896,13 +64939,13 @@
       "name": "Johan van Niekerk",
       "avatar_initials": "JV",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -68 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64921,13 +64964,13 @@
       "name": "Lisa Hofheinz",
       "avatar_initials": "LH",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -123 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64951,8 +64994,8 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64969,13 +65012,13 @@
       "name": "Marc Bardsley",
       "avatar_initials": "MB",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -58 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65012,7 +65055,7 @@
       "name": "Mark Massouh",
       "avatar_initials": "MM",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         506.39000000000004,
@@ -65034,8 +65077,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65052,7 +65095,7 @@
       "name": "Mike Horseman",
       "avatar_initials": "MH",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         561.1899999999999,
@@ -65069,13 +65112,13 @@
       "name": "Mohammed Bagdadi",
       "avatar_initials": "MB",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-06-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65094,13 +65137,13 @@
       "name": "Mohd Saeed",
       "avatar_initials": "MS",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -36 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65119,7 +65162,7 @@
       "name": "Nicholas Georgiadis",
       "avatar_initials": "NG",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         1292.5800000000002,
@@ -65137,7 +65180,7 @@
       "name": "Nikolaus de Goederen",
       "avatar_initials": "ND",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         627.25,
@@ -65155,13 +65198,13 @@
       "name": "Noha Hesham",
       "avatar_initials": "NH",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -37 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65180,7 +65223,7 @@
       "name": "Omair Rao",
       "avatar_initials": "OR",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         419.19,
@@ -65198,13 +65241,13 @@
       "name": "pezhman modalal",
       "avatar_initials": "PM",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -26 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65241,13 +65284,13 @@
       "name": "saleh Al",
       "avatar_initials": "SA",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -31 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65265,13 +65308,13 @@
       "name": "Sana Sajid",
       "avatar_initials": "SS",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -59 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65289,7 +65332,7 @@
       "name": "Sherif Gharib",
       "avatar_initials": "SG",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         44.97,
@@ -65306,7 +65349,7 @@
       "name": "sidanth rajagopal",
       "avatar_initials": "SR",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         446.99,
@@ -65324,13 +65367,13 @@
       "name": "Stephen Bates",
       "avatar_initials": "SB",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -22 — accumulating fatigue",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65349,7 +65392,7 @@
       "name": "Tanya De Villiers",
       "avatar_initials": "TD",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 0,
       "flags": [],
       "weekly_tss_trend": [
         54.37,
@@ -65366,13 +65409,13 @@
       "name": "Yajath Nair",
       "avatar_initials": "YN",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -77 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-08"
+          "triggered_at": "2026-06-09"
         }
       ],
       "weekly_tss_trend": [
@@ -65390,9 +65433,9 @@
   "roster_summary": {
     "total": 55,
     "needs_checkin": 28,
-    "watch": 6,
-    "on_track": 21,
-    "avg_compliance_pct": 100
+    "watch": 8,
+    "on_track": 19,
+    "avg_compliance_pct": 24
   },
   "recent_comments_feed": [
     {
@@ -65521,6 +65564,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-06-08T06:01:12.445Z"
+    "checked_at": "2026-06-09T04:25:45.543Z"
   }
 }
