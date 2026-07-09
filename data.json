@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T05:09:31.958Z",
-  "as_of_date": "2026-07-08",
+  "generated_at": "2026-07-09T05:18:23.713Z",
+  "as_of_date": "2026-07-09",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -1090,7 +1090,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 25,
       "weekly_tss_trend": [
         182.86999999999998,
         396.7,
@@ -2217,7 +2217,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 60,
       "weekly_tss_trend": [
         0,
         319.12,
@@ -3586,7 +3586,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -3594,35 +3594,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 43,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         461.95000000000005,
         460.52000000000004,
@@ -4755,7 +4755,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 25,
       "weekly_tss_trend": [
         169.67,
         156.22,
@@ -5783,7 +5783,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -5791,35 +5791,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 40,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         1036.34,
         1133.6499999999999,
@@ -5832,18 +5832,12 @@
       "avatar_initials": "MB",
       "is_real": false,
       "current_fitness": {
-        "ctl": 113.1,
-        "atl": 111.2,
-        "tsb": -5.1,
-        "status": "Tired (absorbing training)"
+        "ctl": 116.7,
+        "atl": 133.3,
+        "tsb": 1.9,
+        "status": "Neutral (normal training)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 66.2,
-          "atl": 56.9,
-          "tsb": 12.4
-        },
         {
           "date": "2026-04-16",
           "ctl": 64.7,
@@ -6347,6 +6341,12 @@
           "ctl": 113.1,
           "atl": 111.2,
           "tsb": -5.1
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 116.7,
+          "atl": 133.3,
+          "tsb": 1.9
         }
       ],
       "sessions_by_week": {
@@ -6552,10 +6552,10 @@
             "date": "2026-07-09",
             "title": "8/6/4/2x 50m",
             "sport": "Other",
-            "duration_hours": 0.75,
-            "tss_planned": 32.83,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 0.76,
+            "tss_planned": null,
+            "tss_actual": 214.95,
+            "status": "completed",
             "description": "400m easy\n4x100m (15 sprint / 85 easy)\n200m easy\n8/6/4/2 x 50m, every 4/3/2/1 fast, rest 20'' (plus 10'rest after fast ones)\n500m easy",
             "comments": []
           },
@@ -6644,22 +6644,36 @@
             "status": "planned",
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.",
             "comments": []
+          },
+          {
+            "id": "3825783442",
+            "date": "2026-07-16",
+            "title": "Run |40-50min Easy |Pace",
+            "sport": "Run",
+            "duration_hours": 0.83,
+            "tss_planned": 55.91,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Run:\n\n40-50 min E",
+            "comments": []
+          },
+          {
+            "id": "3825783706",
+            "date": "2026-07-16",
+            "title": "Mod-Fast 40x 50m",
+            "sport": "Other",
+            "duration_hours": 0.67,
+            "tss_planned": 33.08,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "16x 50 as 3 x moderate, 1 x fast leaving on 50s\n12x 50 as 2 x moderate, 1 x fast leaving on 50s\n8x 50 as 2 x moderate, 1 x fast leaving on 55s\n4x 50 as every 1 fast leaving on 60 seconds",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 7,
-          "deep": 1.62,
-          "light": 5.22,
-          "rem": 0.17,
-          "awake": 0.15,
-          "hrv": null,
-          "resting_hr": 52
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 7.02,
@@ -6959,17 +6973,27 @@
           "awake": 0.03,
           "hrv": null,
           "resting_hr": 56
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 6.12,
+          "deep": 1.42,
+          "light": 3.47,
+          "rem": 1.23,
+          "awake": 0.6,
+          "hrv": 37.591152,
+          "resting_hr": 63
         }
       ],
       "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         548.7199999999999,
         1078.74,
-        175.03,
+        389.98,
         0
       ]
     },
@@ -6979,18 +7003,12 @@
       "avatar_initials": "SB",
       "is_real": false,
       "current_fitness": {
-        "ctl": 95.2,
-        "atl": 80.6,
-        "tsb": 17.3,
-        "status": "Fresh (race ready)"
+        "ctl": 95.3,
+        "atl": 81.9,
+        "tsb": 6.1,
+        "status": "Neutral (normal training)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 78.8,
-          "atl": 81.7,
-          "tsb": -14.6
-        },
         {
           "date": "2026-04-16",
           "ctl": 76.9,
@@ -7491,25 +7509,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 95.2,
-          "atl": 80.6,
+          "ctl": 96.9,
+          "atl": 90.8,
           "tsb": 17.3
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 95.3,
+          "atl": 81.9,
+          "tsb": 6.1
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3759184892",
-            "date": "2026-06-24",
-            "title": "Run | 22-28min Easy | Pace",
-            "sport": "Run",
-            "duration_hours": 0.42,
-            "tss_planned": null,
-            "tss_actual": 31.38,
-            "status": "completed",
-            "description": "Run:\n\n25 min Easy",
-            "comments": []
-          },
           {
             "id": "3810600187",
             "date": "2026-06-25",
@@ -7759,10 +7771,10 @@
             "date": "2026-07-08",
             "title": "Anaerobic Power: 30S Repeats (Level 3)",
             "sport": "Bike",
-            "duration_hours": 1.5,
-            "tss_planned": 72.36,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 1.27,
+            "tss_planned": null,
+            "tss_actual": 79.77,
+            "status": "completed",
             "description": "30M warm up, building up from 55-65% FTP towards 85-95% FTP, and then settling in to 55-75% FTP. Add in 2-3 10S surges at ~8/10 effort level to fully activate your muscles before the anaerobic efforts.\n\nThen perform 10x 30S intervals @ a near maximal effort, paced consistently across the 30S interval (for most people this will be about 130-150% FTP, but for others it may be higher/lower). The first time you do this workout you may need to do these efforts based on feel, but in subsequent workouts you will have a better idea of what power you can target. The goal is to hit a power that you can hold consistently across each of the intervals, so don't go so hard on the first one that you have nothing left for the last ones.\n\nTake 3M for active recovery @ 30-40% FTP (i.e. very easy spinning) after each interval. Take longer to recover if you feel you need to - the focus of this workout is to achieve maximal power in each interval, so the recovery can be as long as necessary to achieve this.\n\nRemaining time up to ~1-1H30M @ 50-65% FTP to return body to resting levels steadily.\n\nSee workout details below for further details.\n\nPURPOSE: The main effect of these intervals is to increase peak anaerobic power – that is the maximal rate at which energy can be produced anaerobically. This includes factors such as increased activity of enzymes associated with both the phosphocreatine system and the glycolytic system, and also increased glycogen storage within the muscles (Bangsbo et al., 2006).\n\nIn addition, these intervals can also contribute to improved anaerobic stamina through improved buffering of hydrogen ions (Bangsbo et al., 2006), and potential improvements in lactate transport (Pilegaard et al., 1999), aerobic capacity (Burgomaster et al., 2006) and mitochondrial function (Bishop et al., 2014, Tripp et al., 2022).\n\nBangsbo, J., Mohr, M., Poulsen, A., Perez-Gomez, J., & Krustrup, P. (2006). Training and testing the elite athlete. J Exerc Sci Fit, 4(1), 1-14.\n\nBishop, D. J., Granata, C., & Eynon, N. (2014). Can we optimise the exercise training prescription to maximise improvements in mitochondria function and content?. Biochimica et Biophysica Acta (BBA)-General Subjects, 1840(4), 1266-1275.\n\nBurgomaster, K. A., Heigenhauser, G. J., & Gibala, M. J. (2006). Effect of short-term sprint interval training on human skeletal muscle carbohydrate metabolism during exercise and time-trial performance. Journal of applied physiology, 100(6), 2041-2047.\n\nPilegaard, H., Domino, K., Noland, T., Juel, C., Hellsten, Y., Halestrap, A. P., & Bangsbo, J. (1999). Effect of high-intensity exercise training on lactate/H+ transport capacity in human skeletal muscle. American Journal of Physiology-Endocrinology And Metabolism, 276(2), E255-E261.\n\nTripp, T. R., Frankish, B. P., Lun, V., Wiley, J. P., Shearer, J., Murphy, R. M., & MacInnis, M. J. (2022). Time course and fibre type‐dependent nature of calcium‐handling protein responses to sprint interval exercise in human skeletal muscle. The Journal of Physiology.",
             "comments": []
           },
@@ -7771,10 +7783,10 @@
             "date": "2026-07-08",
             "title": "Swim Speed Endurance | Z3",
             "sport": "Swim",
-            "duration_hours": 0.92,
-            "tss_planned": 24.72,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 0.76,
+            "tss_planned": null,
+            "tss_actual": 88.55,
+            "status": "completed",
             "description": "Warm-up:\n400 easy rest 30's\n4x 50 (15 sprint / 35 easy) rest 20's\n200 easy\n----------------------------------------------\nMainset:\n2x rounds\n(8x 25m sprint rest 20's;\n4x 50m sprint rest 40's;\n300m pb easy rest 1min')\n-----------------------------------------------\n400m cool down",
             "comments": []
           },
@@ -7857,16 +7869,6 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 3.77,
-          "deep": 0.88,
-          "light": 1.8,
-          "rem": 0.96,
-          "awake": 0.13,
-          "hrv": 84,
-          "resting_hr": 52
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 6.83,
@@ -8136,6 +8138,26 @@
           "awake": 0.63,
           "hrv": 68,
           "resting_hr": 50
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 9.02,
+          "deep": 0.86,
+          "light": 5.88,
+          "rem": 1.26,
+          "awake": 1.02,
+          "hrv": 52,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 3.92,
+          "deep": 0.68,
+          "light": 2.5,
+          "rem": 0.51,
+          "awake": 0.23,
+          "hrv": 58,
+          "resting_hr": 54
         }
       ],
       "key_races": [],
@@ -8144,9 +8166,9 @@
       "status": "on_track",
       "compliance_pct": 100,
       "weekly_tss_trend": [
-        255.41,
+        224.03,
         539.94,
-        183.13,
+        351.45,
         0
       ]
     },
@@ -9190,9 +9212,23 @@
         }
       ],
       "key_races": [],
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "status": "watch",
       "compliance_pct": 0,
       "weekly_tss_trend": [
         98.05,
@@ -10416,7 +10452,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -10424,35 +10460,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         1310.79,
         1525.51,
@@ -11767,7 +11803,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         579.46,
         836.9499999999999,
@@ -13024,7 +13060,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -13032,35 +13068,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 83,
       "weekly_tss_trend": [
         31.48,
         582.1,
@@ -13074,18 +13110,12 @@
       "avatar_initials": "HB",
       "is_real": false,
       "current_fitness": {
-        "ctl": 170.5,
-        "atl": 148.8,
-        "tsb": 18.7,
+        "ctl": 169.5,
+        "atl": 145.8,
+        "tsb": 21.4,
         "status": "Fresh (race ready)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 228.6,
-          "atl": 211.8,
-          "tsb": -12.9
-        },
         {
           "date": "2026-04-16",
           "ctl": 227.2,
@@ -13587,36 +13617,18 @@
         {
           "date": "2026-07-08",
           "ctl": 170.5,
-          "atl": 148.8,
+          "atl": 149.1,
           "tsb": 18.7
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 169.5,
+          "atl": 145.8,
+          "tsb": 21.4
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3801991596",
-            "date": "2026-06-24",
-            "title": "Endurance 1h45 - Z2 | FTP",
-            "sport": "Bike",
-            "duration_hours": 1.8,
-            "tss_planned": null,
-            "tss_actual": 86.23,
-            "status": "completed",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
-            "comments": []
-          },
-          {
-            "id": "3801994052",
-            "date": "2026-06-24",
-            "title": "Swim | 1000 + 20 x 100 | Endurance Set 3.1",
-            "sport": "Swim",
-            "duration_hours": 0.42,
-            "tss_planned": null,
-            "tss_actual": 45.01,
-            "status": "completed",
-            "description": "Warm up:\n-----------------------------------------\n1000m easy swim (50 free / 50 any other\nstroke)\n\nMain set:\n-----------------------------------------\n20 x 100m @ Moderate – rest 15sec.\nAll the odds swim normal, all the evens with pull buoy.\n\nCool down\n-------------------------------------------\n200 easy",
-            "comments": []
-          },
           {
             "id": "3801986374",
             "date": "2026-06-25",
@@ -13950,10 +13962,10 @@
             "date": "2026-07-08",
             "title": "3x 10min MMM",
             "sport": "Bike",
-            "duration_hours": 0.83,
-            "tss_planned": 50.24,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 0.92,
+            "tss_planned": null,
+            "tss_actual": 52.4,
+            "status": "completed",
             "description": "Short warm Up.\n3x 10min in TT position - Moderate, Medium, Mad @ comfortable and sustainable cadence.",
             "comments": []
           },
@@ -14114,22 +14126,36 @@
             "status": "planned",
             "description": "Short warm Up.\n3x 10min in TT position - Moderate, Medium, Mad @ comfortable and sustainable cadence.",
             "comments": []
+          },
+          {
+            "id": "3827953436",
+            "date": "2026-07-16",
+            "title": "HILLS | 2x (5x 35s) | Pace",
+            "sport": "Run",
+            "duration_hours": 0.94,
+            "tss_planned": 60.62,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 5x 35 sec HILLS with a slow jog back.\n-----------------------------------------------------\njog 5min\n-----------------------------------------------------\nSHORT HILLS – 5x 35 sec HILLS with a slow jog back.\n-----------------------------------------------------\nCool down 10min +",
+            "comments": []
+          },
+          {
+            "id": "3827986183",
+            "date": "2026-07-16",
+            "title": "Session",
+            "sport": "Swim",
+            "duration_hours": 1.08,
+            "tss_planned": 65.39,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Warm Up:\n8x 25 (fast every 4th 25)\n6x 25 (fast every 3rd 25)\n4x 25 (fast every 2nd 25)\n2x 25 (fast, fast)\n\nMain Set:\n50x 50m steady fast + pb + pads\nRest 10s\n\nCool Down:\n200m",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 8.57,
-          "deep": 2.48,
-          "light": 3.98,
-          "rem": 2.1,
-          "awake": 0.3,
-          "hrv": 38,
-          "resting_hr": 60
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 8.38,
@@ -14409,17 +14435,27 @@
           "awake": 0,
           "hrv": 43,
           "resting_hr": 57
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 8.2,
+          "deep": 2.4,
+          "light": 4.15,
+          "rem": 1.65,
+          "awake": 0.22,
+          "hrv": 54,
+          "resting_hr": 54
         }
       ],
       "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 71,
       "weekly_tss_trend": [
-        380.20000000000005,
+        248.95999999999998,
         914.75,
-        391.31,
+        443.71,
         0
       ]
     },
@@ -16136,7 +16172,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -16144,35 +16180,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         588.37,
         624.2700000000001,
@@ -18604,7 +18640,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         365.24,
         982.9300000000001,
@@ -19492,22 +19528,22 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-01"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -21849,9 +21885,23 @@
         }
       ],
       "key_races": [],
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "status": "watch",
       "compliance_pct": 0,
       "weekly_tss_trend": [
         0,
@@ -22900,16 +22950,16 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
@@ -24206,7 +24256,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         1712.53,
         1379.9699999999998,
@@ -24220,18 +24270,12 @@
       "avatar_initials": "ED",
       "is_real": false,
       "current_fitness": {
-        "ctl": 188,
-        "atl": 113.6,
-        "tsb": 60.1,
+        "ctl": 196,
+        "atl": 150.5,
+        "tsb": 33.7,
         "status": "Very Fresh (detraining risk)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 248.3,
-          "atl": 297.9,
-          "tsb": -93.2
-        },
         {
           "date": "2026-04-16",
           "ctl": 247.5,
@@ -24720,37 +24764,31 @@
         },
         {
           "date": "2026-07-06",
-          "ctl": 197.3,
-          "atl": 154.6,
+          "ctl": 209.1,
+          "atl": 225.4,
           "tsb": 21.7
         },
         {
           "date": "2026-07-07",
-          "ctl": 192.6,
-          "atl": 132.5,
-          "tsb": 42.7
+          "ctl": 204.1,
+          "atl": 193.2,
+          "tsb": -16.3
         },
         {
           "date": "2026-07-08",
-          "ctl": 188,
-          "atl": 113.6,
-          "tsb": 60.1
+          "ctl": 199.3,
+          "atl": 165.6,
+          "tsb": 10.9
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 196,
+          "atl": 150.5,
+          "tsb": 33.7
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3802318172",
-            "date": "2026-06-24",
-            "title": "Recovery: Full Day Off (All Levels)",
-            "sport": "Other",
-            "duration_hours": null,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "SESSION:\nFull day off from any training. Can include some light stretching and mobility work today if you wish.\n\nPURPOSE:\nTo allow an opportunity for your body to recover and adapt to recent training, and to ensure you're feeling fresh for other key training sessions in the week.",
-            "comments": []
-          },
           {
             "id": "3802318367",
             "date": "2026-06-25",
@@ -24933,6 +24971,18 @@
             "tss_actual": null,
             "status": "planned",
             "description": "3)\nStill the is focus in building more volume and decreasing intensity so you can have a better aerobic base.\nStrength Endurance 4-6min - rest 4:1 or 6:1\nMetabolic rides - fuelled.\nFuelling for harder sessions is crucial as the volume is higher.\nDo fasted runs/rides on easy days.\nWeight (power to weight)",
+            "comments": []
+          },
+          {
+            "id": "3834025045",
+            "date": "2026-07-06",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 14.22,
+            "tss_planned": null,
+            "tss_actual": 495.64,
+            "status": "completed",
+            "description": "",
             "comments": []
           },
           {
@@ -25208,28 +25258,14 @@
         }
       ],
       "key_races": [],
-      "flags": [
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "flag_history": [
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "status": "watch",
-      "compliance_pct": 0,
+      "flags": [],
+      "flag_history": [],
+      "status": "on_track",
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         280.52,
         1468.64,
-        0,
+        495.64,
         0
       ]
     },
@@ -26558,7 +26594,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -26566,40 +26602,1200 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 83,
+      "compliance_pct": 63,
       "weekly_tss_trend": [
         1048.36,
         1313.17,
         542.24,
         0
+      ]
+    },
+    "5113030": {
+      "id": "5113030",
+      "name": "Daniella Cowden",
+      "avatar_initials": "DC",
+      "is_real": false,
+      "current_fitness": {
+        "ctl": 145.7,
+        "atl": 93.7,
+        "tsb": 43.2,
+        "status": "Very Fresh (detraining risk)"
+      },
+      "fitness_history": [
+        {
+          "date": "2026-04-16",
+          "ctl": 223.4,
+          "atl": 181.1,
+          "tsb": 33.8
+        },
+        {
+          "date": "2026-04-17",
+          "ctl": 219.7,
+          "atl": 164.6,
+          "tsb": 42.3
+        },
+        {
+          "date": "2026-04-18",
+          "ctl": 217.5,
+          "atl": 159.4,
+          "tsb": 55.1
+        },
+        {
+          "date": "2026-04-19",
+          "ctl": 242.2,
+          "atl": 315.9,
+          "tsb": 58.1
+        },
+        {
+          "date": "2026-04-20",
+          "ctl": 236.7,
+          "atl": 272.2,
+          "tsb": -73.7
+        },
+        {
+          "date": "2026-04-21",
+          "ctl": 231.9,
+          "atl": 238.7,
+          "tsb": -35.6
+        },
+        {
+          "date": "2026-04-22",
+          "ctl": 226.4,
+          "atl": 204.6,
+          "tsb": -6.8
+        },
+        {
+          "date": "2026-04-23",
+          "ctl": 223.4,
+          "atl": 189.9,
+          "tsb": 21.8
+        },
+        {
+          "date": "2026-04-24",
+          "ctl": 220.9,
+          "atl": 179.6,
+          "tsb": 33.5
+        },
+        {
+          "date": "2026-04-25",
+          "ctl": 221.5,
+          "atl": 189.1,
+          "tsb": 41.3
+        },
+        {
+          "date": "2026-04-26",
+          "ctl": 218.9,
+          "atl": 178.3,
+          "tsb": 32.4
+        },
+        {
+          "date": "2026-04-27",
+          "ctl": 218.5,
+          "atl": 181.5,
+          "tsb": 40.6
+        },
+        {
+          "date": "2026-04-28",
+          "ctl": 218.7,
+          "atl": 188.2,
+          "tsb": 37
+        },
+        {
+          "date": "2026-04-29",
+          "ctl": 215.9,
+          "atl": 175.8,
+          "tsb": 30.6
+        },
+        {
+          "date": "2026-04-30",
+          "ctl": 210.8,
+          "atl": 150.7,
+          "tsb": 40.2
+        },
+        {
+          "date": "2026-05-01",
+          "ctl": 208.3,
+          "atl": 144.4,
+          "tsb": 60.1
+        },
+        {
+          "date": "2026-05-02",
+          "ctl": 206.5,
+          "atl": 142.7,
+          "tsb": 63.9
+        },
+        {
+          "date": "2026-05-03",
+          "ctl": 201.6,
+          "atl": 122.3,
+          "tsb": 63.8
+        },
+        {
+          "date": "2026-05-04",
+          "ctl": 197.2,
+          "atl": 107.5,
+          "tsb": 79.3
+        },
+        {
+          "date": "2026-05-05",
+          "ctl": 200.5,
+          "atl": 140.1,
+          "tsb": 89.8
+        },
+        {
+          "date": "2026-05-06",
+          "ctl": 198.4,
+          "atl": 135.9,
+          "tsb": 60.5
+        },
+        {
+          "date": "2026-05-07",
+          "ctl": 202.3,
+          "atl": 168.3,
+          "tsb": 62.5
+        },
+        {
+          "date": "2026-05-08",
+          "ctl": 202.9,
+          "atl": 176.6,
+          "tsb": 34
+        },
+        {
+          "date": "2026-05-09",
+          "ctl": 206.3,
+          "atl": 201,
+          "tsb": 26.3
+        },
+        {
+          "date": "2026-05-10",
+          "ctl": 201.4,
+          "atl": 172.3,
+          "tsb": 5.3
+        },
+        {
+          "date": "2026-05-11",
+          "ctl": 199,
+          "atl": 161.9,
+          "tsb": 29.1
+        },
+        {
+          "date": "2026-05-12",
+          "ctl": 199.7,
+          "atl": 171.7,
+          "tsb": 37.1
+        },
+        {
+          "date": "2026-05-13",
+          "ctl": 197.3,
+          "atl": 161,
+          "tsb": 28
+        },
+        {
+          "date": "2026-05-14",
+          "ctl": 200.7,
+          "atl": 186.9,
+          "tsb": 36.3
+        },
+        {
+          "date": "2026-05-15",
+          "ctl": 201.7,
+          "atl": 194.7,
+          "tsb": 13.9
+        },
+        {
+          "date": "2026-05-16",
+          "ctl": 201.9,
+          "atl": 197.1,
+          "tsb": 7
+        },
+        {
+          "date": "2026-05-17",
+          "ctl": 211.6,
+          "atl": 255.6,
+          "tsb": 4.8
+        },
+        {
+          "date": "2026-05-18",
+          "ctl": 214,
+          "atl": 263.6,
+          "tsb": -44.1
+        },
+        {
+          "date": "2026-05-19",
+          "ctl": 218,
+          "atl": 280.6,
+          "tsb": -49.6
+        },
+        {
+          "date": "2026-05-20",
+          "ctl": 216.7,
+          "atl": 264,
+          "tsb": -62.6
+        },
+        {
+          "date": "2026-05-21",
+          "ctl": 221.3,
+          "atl": 285.1,
+          "tsb": -47.3
+        },
+        {
+          "date": "2026-05-22",
+          "ctl": 219.9,
+          "atl": 267.2,
+          "tsb": -63.7
+        },
+        {
+          "date": "2026-05-23",
+          "ctl": 217.1,
+          "atl": 243.8,
+          "tsb": -47.3
+        },
+        {
+          "date": "2026-05-24",
+          "ctl": 216.8,
+          "atl": 238.4,
+          "tsb": -26.7
+        },
+        {
+          "date": "2026-05-25",
+          "ctl": 211.7,
+          "atl": 204.3,
+          "tsb": -21.6
+        },
+        {
+          "date": "2026-05-26",
+          "ctl": 206.6,
+          "atl": 175.2,
+          "tsb": 7.3
+        },
+        {
+          "date": "2026-05-27",
+          "ctl": 205.2,
+          "atl": 171.2,
+          "tsb": 31.5
+        },
+        {
+          "date": "2026-05-28",
+          "ctl": 201.5,
+          "atl": 153.9,
+          "tsb": 34
+        },
+        {
+          "date": "2026-05-29",
+          "ctl": 201.4,
+          "atl": 160,
+          "tsb": 47.6
+        },
+        {
+          "date": "2026-05-30",
+          "ctl": 199.1,
+          "atl": 152.3,
+          "tsb": 41.5
+        },
+        {
+          "date": "2026-05-31",
+          "ctl": 225.2,
+          "atl": 315.3,
+          "tsb": 46.9
+        },
+        {
+          "date": "2026-06-01",
+          "ctl": 220.8,
+          "atl": 276.2,
+          "tsb": -90.1
+        },
+        {
+          "date": "2026-06-02",
+          "ctl": 216.3,
+          "atl": 241.2,
+          "tsb": -55.4
+        },
+        {
+          "date": "2026-06-03",
+          "ctl": 211.2,
+          "atl": 206.7,
+          "tsb": -24.9
+        },
+        {
+          "date": "2026-06-04",
+          "ctl": 206.1,
+          "atl": 177.2,
+          "tsb": 4.4
+        },
+        {
+          "date": "2026-06-05",
+          "ctl": 201.2,
+          "atl": 151.9,
+          "tsb": 28.9
+        },
+        {
+          "date": "2026-06-06",
+          "ctl": 196.4,
+          "atl": 130.2,
+          "tsb": 49.3
+        },
+        {
+          "date": "2026-06-07",
+          "ctl": 191.8,
+          "atl": 111.6,
+          "tsb": 66.2
+        },
+        {
+          "date": "2026-06-08",
+          "ctl": 187.2,
+          "atl": 95.7,
+          "tsb": 80.2
+        },
+        {
+          "date": "2026-06-09",
+          "ctl": 182.7,
+          "atl": 82,
+          "tsb": 91.5
+        },
+        {
+          "date": "2026-06-10",
+          "ctl": 180.2,
+          "atl": 81.4,
+          "tsb": 100.7
+        },
+        {
+          "date": "2026-06-11",
+          "ctl": 176,
+          "atl": 69.8,
+          "tsb": 98.8
+        },
+        {
+          "date": "2026-06-12",
+          "ctl": 175.2,
+          "atl": 80.5,
+          "tsb": 106.2
+        },
+        {
+          "date": "2026-06-13",
+          "ctl": 172.2,
+          "atl": 75.9,
+          "tsb": 94.7
+        },
+        {
+          "date": "2026-06-14",
+          "ctl": 197.7,
+          "atl": 242.9,
+          "tsb": 96.3
+        },
+        {
+          "date": "2026-06-15",
+          "ctl": 193.2,
+          "atl": 209.3,
+          "tsb": -45.1
+        },
+        {
+          "date": "2026-06-16",
+          "ctl": 188.6,
+          "atl": 179.4,
+          "tsb": -16.1
+        },
+        {
+          "date": "2026-06-17",
+          "ctl": 184.1,
+          "atl": 153.7,
+          "tsb": 9.2
+        },
+        {
+          "date": "2026-06-18",
+          "ctl": 182.1,
+          "atl": 146.2,
+          "tsb": 30.4
+        },
+        {
+          "date": "2026-06-19",
+          "ctl": 180.3,
+          "atl": 140.5,
+          "tsb": 35.9
+        },
+        {
+          "date": "2026-06-20",
+          "ctl": 176.8,
+          "atl": 125.2,
+          "tsb": 39.8
+        },
+        {
+          "date": "2026-06-21",
+          "ctl": 172.6,
+          "atl": 107.3,
+          "tsb": 51.6
+        },
+        {
+          "date": "2026-06-22",
+          "ctl": 169.4,
+          "atl": 97.1,
+          "tsb": 65.3
+        },
+        {
+          "date": "2026-06-23",
+          "ctl": 165.3,
+          "atl": 83.2,
+          "tsb": 72.3
+        },
+        {
+          "date": "2026-06-24",
+          "ctl": 163.7,
+          "atl": 85.1,
+          "tsb": 82.1
+        },
+        {
+          "date": "2026-06-25",
+          "ctl": 162,
+          "atl": 86.5,
+          "tsb": 78.6
+        },
+        {
+          "date": "2026-06-26",
+          "ctl": 162.5,
+          "atl": 99.9,
+          "tsb": 75.6
+        },
+        {
+          "date": "2026-06-27",
+          "ctl": 161,
+          "atl": 100,
+          "tsb": 62.6
+        },
+        {
+          "date": "2026-06-28",
+          "ctl": 161.4,
+          "atl": 111.1,
+          "tsb": 61
+        },
+        {
+          "date": "2026-06-29",
+          "ctl": 160.8,
+          "atl": 114.8,
+          "tsb": 50.3
+        },
+        {
+          "date": "2026-06-30",
+          "ctl": 159.5,
+          "atl": 113.3,
+          "tsb": 46
+        },
+        {
+          "date": "2026-07-01",
+          "ctl": 156.2,
+          "atl": 100.5,
+          "tsb": 46.2
+        },
+        {
+          "date": "2026-07-02",
+          "ctl": 153.3,
+          "atl": 91,
+          "tsb": 55.7
+        },
+        {
+          "date": "2026-07-03",
+          "ctl": 151.8,
+          "atl": 90.5,
+          "tsb": 62.3
+        },
+        {
+          "date": "2026-07-04",
+          "ctl": 151.5,
+          "atl": 97.8,
+          "tsb": 61.3
+        },
+        {
+          "date": "2026-07-05",
+          "ctl": 153.7,
+          "atl": 118.3,
+          "tsb": 53.7
+        },
+        {
+          "date": "2026-07-06",
+          "ctl": 152.8,
+          "atl": 118.4,
+          "tsb": 35.4
+        },
+        {
+          "date": "2026-07-07",
+          "ctl": 149.2,
+          "atl": 101.4,
+          "tsb": 34.5
+        },
+        {
+          "date": "2026-07-08",
+          "ctl": 148.7,
+          "atl": 105.5,
+          "tsb": 47.7
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 145.7,
+          "atl": 93.7,
+          "tsb": 43.2
+        }
+      ],
+      "sessions_by_week": {
+        "2026-06-22": [
+          {
+            "id": "3802013291",
+            "date": "2026-06-25",
+            "title": "Swim | 400/300/200 + 50s | Recovery",
+            "sport": "Swim",
+            "duration_hours": 0.51,
+            "tss_planned": null,
+            "tss_actual": 81.78,
+            "status": "completed",
+            "description": "Warm up:\n-----------------\n400 PB&PD easy rest 30's\n\nMain Set:\n-----------------\n6 x 50 easy rest 15's\n300 PB&PD easy rest 30's\n4 x 50 easy rest 15's\n200 PB&PD easy rest 30's\n\nCool Down:\n----------------\n200 easy",
+            "comments": []
+          },
+          {
+            "id": "3804468121",
+            "date": "2026-06-25",
+            "title": "Recovery: Easy Ride (Level 1, Level 2, Level 3)",
+            "sport": "Bike",
+            "duration_hours": 0.51,
+            "tss_planned": null,
+            "tss_actual": 12.93,
+            "status": "completed",
+            "description": "30M @ 45-55% FTP.\n\nPURPOSE: Allow for adaptations from previously challenging workouts, whilst maintaining rhythm of training without adding any further stress to the body. Also helps to circulate oxygenated blood around the body and remove any metabolic waste products that may be lingering in the muscles from these previous workouts, since lactate is combusted as a fuel in the aerobic energy process better at a lower power output than it is when completely resting.",
+            "comments": []
+          },
+          {
+            "id": "3802013695",
+            "date": "2026-06-26",
+            "title": "Swim | 5x 200m + 10x 50m | Z2",
+            "sport": "Swim",
+            "duration_hours": 0.72,
+            "tss_planned": null,
+            "tss_actual": 120.11,
+            "status": "completed",
+            "description": "200m easy rest 20's\n2x100m easy rest 20's\n4x 50m (15m sprint / 35m easy) rest 20's\n-----------------------------------------------------\n5x 200m easy rest 20's\n10x 50m (1 fast / 1 easy) rest 20's\n-----------------------------------------------------\n200m cool down",
+            "comments": []
+          },
+          {
+            "id": "3811512382",
+            "date": "2026-06-26",
+            "title": "Treadmill Running",
+            "sport": "Run",
+            "duration_hours": 0.17,
+            "tss_planned": null,
+            "tss_actual": 24.67,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3811593557",
+            "date": "2026-06-26",
+            "title": "Strength",
+            "sport": "Other",
+            "duration_hours": 0.9,
+            "tss_planned": null,
+            "tss_actual": 35.51,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3807408440",
+            "date": "2026-06-27",
+            "title": "3hr Aerobic Ride Z2-3 | HR",
+            "sport": "Bike",
+            "duration_hours": 3.02,
+            "tss_planned": null,
+            "tss_actual": 100.58,
+            "status": "completed",
+            "description": "3hr endurance ride. Easy conversational pace.",
+            "comments": []
+          },
+          {
+            "id": "3812719617",
+            "date": "2026-06-28",
+            "title": "Tempo | 5 x (5min Mod/ 3min Hard/ 2min E) | Pace",
+            "sport": "Other",
+            "duration_hours": 1.54,
+            "tss_planned": null,
+            "tss_actual": 74.47,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3812720405",
+            "date": "2026-06-28",
+            "title": "ROB | 20 x 30s F / 30s E | Pace",
+            "sport": "Other",
+            "duration_hours": 0.45,
+            "tss_planned": null,
+            "tss_actual": 103.22,
+            "status": "completed",
+            "description": "20x\n30s fast/30s easy + 10min",
+            "comments": []
+          }
+        ],
+        "2026-06-29": [
+          {
+            "id": "3812722006",
+            "date": "2026-06-29",
+            "title": "Run |40-45min Easy |Pace",
+            "sport": "Run",
+            "duration_hours": 0.75,
+            "tss_planned": null,
+            "tss_actual": 137.01,
+            "status": "completed",
+            "description": "Run:\n\n40-45 min E",
+            "comments": []
+          },
+          {
+            "id": "3818724103",
+            "date": "2026-06-30",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.12,
+            "tss_planned": null,
+            "tss_actual": 16,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3812721836",
+            "date": "2026-06-30",
+            "title": "Swim | 1000 + 8 x 250 | High Aerobic Set 2",
+            "sport": "Swim",
+            "duration_hours": 1.05,
+            "tss_planned": null,
+            "tss_actual": 88.21,
+            "status": "completed",
+            "description": "No warm up Race Day simulation\n\nMain Set:\n--------------------\n1000 straight swim with building effort rest 2 min\n\n8 x 250 with building effort rest 20's after each set\n\nAll even sets with any equipment\n\nCool down:\n---------------------\n100 easy",
+            "comments": []
+          },
+          {
+            "id": "3820616677",
+            "date": "2026-07-01",
+            "title": "Workout",
+            "sport": "Other",
+            "duration_hours": 1,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3820521847",
+            "date": "2026-07-01",
+            "title": "Treadmill Running",
+            "sport": "Run",
+            "duration_hours": 0.17,
+            "tss_planned": null,
+            "tss_actual": 24,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3822586201",
+            "date": "2026-07-02",
+            "title": "Zwift - New Workout",
+            "sport": "Bike",
+            "duration_hours": 1.17,
+            "tss_planned": null,
+            "tss_actual": 33.99,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3820669990",
+            "date": "2026-07-03",
+            "title": "Swim | 10 x 50 + 4 x 200 MMM | Endurance",
+            "sport": "Swim",
+            "duration_hours": 0.46,
+            "tss_planned": null,
+            "tss_actual": 57.83,
+            "status": "completed",
+            "description": "Warm Up:\n------------------------\nPB for all\n1 x 200 easy rest 20's\n2 x 150 mod rest 20's\n3 x 100 med rest 10's\n4 x 50 mad rest 10's\n\nMain Set:\n-------------------------\n10 x 50 PB/Band (25 fast/25 easy) rest 10's\n\n4 x 200 PB/PD (1 x Mod 2 x Med 3 x Mad) rest 20's\n\nCool Down:\n--------------------------\nPB optional\n4 x 50 (25 easy 25 fast) rest 15's",
+            "comments": []
+          },
+          {
+            "id": "3824482013",
+            "date": "2026-07-03",
+            "title": "Strength",
+            "sport": "Other",
+            "duration_hours": 0.87,
+            "tss_planned": null,
+            "tss_actual": 29.65,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3820639320",
+            "date": "2026-07-04",
+            "title": "Endurance 4h - Z2 | HR",
+            "sport": "Bike",
+            "duration_hours": 3.96,
+            "tss_planned": null,
+            "tss_actual": 83.63,
+            "status": "completed",
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nNice and easy time in the saddle - conversational pace.",
+            "comments": []
+          },
+          {
+            "id": "3820640726",
+            "date": "2026-07-04",
+            "title": "ROB | 20' Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.32,
+            "tss_planned": null,
+            "tss_actual": 57.9,
+            "status": "completed",
+            "description": "20min run of bike easy... try and get the heart rate under control...",
+            "comments": []
+          },
+          {
+            "id": "3827113305",
+            "date": "2026-07-05",
+            "title": "Treadmill Running",
+            "sport": "Run",
+            "duration_hours": 1.5,
+            "tss_planned": null,
+            "tss_actual": 241.31,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          }
+        ],
+        "2026-07-06": [
+          {
+            "id": "3827464106",
+            "date": "2026-07-06",
+            "title": "7x 400m + 200m",
+            "sport": "Swim",
+            "duration_hours": 0.88,
+            "tss_planned": null,
+            "tss_actual": 118.67,
+            "status": "completed",
+            "description": "Recovery Swim:\n7 x 400m paddles and PB\ncool down: 200m",
+            "comments": []
+          },
+          {
+            "id": "3827465405",
+            "date": "2026-07-07",
+            "title": "Endurance 1hr - Z2 | HR",
+            "sport": "Bike",
+            "duration_hours": 1,
+            "tss_planned": 69.98,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
+            "comments": []
+          },
+          {
+            "id": "3827464389",
+            "date": "2026-07-08",
+            "title": "Running 40min",
+            "sport": "Run",
+            "duration_hours": 0.7,
+            "tss_planned": null,
+            "tss_actual": 130.11,
+            "status": "completed",
+            "description": "40 min - Start E, build pace\nListen to body! If tired, run easy. If feel good, increase pace to finish fast.",
+            "comments": []
+          },
+          {
+            "id": "3827465091",
+            "date": "2026-07-09",
+            "title": "16x 50m + 6x 100m",
+            "sport": "Other",
+            "duration_hours": 0.67,
+            "tss_planned": 22.7,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "200 warm up\n8x 50 rest 20's (35 easy / 15 fast)\n8x 50 rest 15's (25 easy / 25 fast)\n100 easy\n2x 100 easy, rest 10's pb\n4x 100 mod, rest 10's pb\n100 cool down",
+            "comments": []
+          },
+          {
+            "id": "3827464920",
+            "date": "2026-07-10",
+            "title": "Open water - Group Swim",
+            "sport": "Swim",
+            "duration_hours": 0.67,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3827464919",
+            "date": "2026-07-10",
+            "title": "High Carb day",
+            "sport": "Other",
+            "duration_hours": null,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Take 8-10g of carbs per kg body weight more today.",
+            "comments": []
+          },
+          {
+            "id": "3827464959",
+            "date": "2026-07-11",
+            "title": "Pre-race 2's with 40:20",
+            "sport": "Other",
+            "duration_hours": 1.12,
+            "tss_planned": 65.59,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) below",
+            "comments": []
+          },
+          {
+            "id": "3827464962",
+            "date": "2026-07-11",
+            "title": "20min Easy",
+            "sport": "Other",
+            "duration_hours": 0.33,
+            "tss_planned": 16.65,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Just nice and easy, getting into a nice rhythm.",
+            "comments": []
+          }
+        ]
+      },
+      "focus_event": null,
+      "next_event": null,
+      "recovery": [
+        {
+          "date": "2026-06-09",
+          "sleep_hours": 8.62,
+          "deep": 1.08,
+          "light": 6.15,
+          "rem": 1.38,
+          "awake": 0.03,
+          "hrv": 73,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-06-10",
+          "sleep_hours": 6.28,
+          "deep": 1.92,
+          "light": 3.32,
+          "rem": 1.05,
+          "awake": 0,
+          "hrv": 86,
+          "resting_hr": 48
+        },
+        {
+          "date": "2026-06-11",
+          "sleep_hours": 7.85,
+          "deep": 1.35,
+          "light": 5.3,
+          "rem": 1.2,
+          "awake": 0.03,
+          "hrv": 79,
+          "resting_hr": 46
+        },
+        {
+          "date": "2026-06-12",
+          "sleep_hours": 4.85,
+          "deep": 2.13,
+          "light": 1.7,
+          "rem": 1.02,
+          "awake": 0,
+          "hrv": 76,
+          "resting_hr": 48
+        },
+        {
+          "date": "2026-06-13",
+          "sleep_hours": 6.77,
+          "deep": 1.48,
+          "light": 4.15,
+          "rem": 1.13,
+          "awake": 0.02,
+          "hrv": 85,
+          "resting_hr": 46
+        },
+        {
+          "date": "2026-06-14",
+          "sleep_hours": 7.92,
+          "deep": 1.68,
+          "light": 4.78,
+          "rem": 1.45,
+          "awake": 0.05,
+          "hrv": 76,
+          "resting_hr": 48
+        },
+        {
+          "date": "2026-06-15",
+          "sleep_hours": 9.33,
+          "deep": 2.83,
+          "light": 4.83,
+          "rem": 1.67,
+          "awake": 0.57,
+          "hrv": 43,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-16",
+          "sleep_hours": 7.37,
+          "deep": 1.73,
+          "light": 4.57,
+          "rem": 1.07,
+          "awake": 0.33,
+          "hrv": 49,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-17",
+          "sleep_hours": 2.9,
+          "deep": 1.72,
+          "light": 0.87,
+          "rem": 0.32,
+          "awake": 0,
+          "hrv": 47,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-06-18",
+          "sleep_hours": 6.52,
+          "deep": 1.22,
+          "light": 5.3,
+          "rem": 0,
+          "awake": 0,
+          "hrv": 61,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-19",
+          "sleep_hours": 5.75,
+          "deep": 0.72,
+          "light": 4.37,
+          "rem": 0.67,
+          "awake": 0.03,
+          "hrv": 71,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-20",
+          "sleep_hours": 3.88,
+          "deep": 1.73,
+          "light": 1.87,
+          "rem": 0.28,
+          "awake": 0,
+          "hrv": 45,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-06-21",
+          "sleep_hours": 10.03,
+          "deep": 2.12,
+          "light": 5.32,
+          "rem": 2.6,
+          "awake": 0.27,
+          "hrv": 39,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-06-22",
+          "sleep_hours": 8.17,
+          "deep": 1.8,
+          "light": 5.28,
+          "rem": 1.08,
+          "awake": 0.07,
+          "hrv": 64,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-23",
+          "sleep_hours": 3.82,
+          "deep": 1.72,
+          "light": 1.87,
+          "rem": 0.23,
+          "awake": 0,
+          "hrv": 51,
+          "resting_hr": 57
+        },
+        {
+          "date": "2026-06-24",
+          "sleep_hours": 7.91,
+          "deep": 1.88,
+          "light": 4.46,
+          "rem": 1.57,
+          "awake": 0.08,
+          "hrv": 55,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-06-25",
+          "sleep_hours": 9.09,
+          "deep": 1.75,
+          "light": 6.18,
+          "rem": 1.16,
+          "awake": 0.37,
+          "hrv": 69,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-06-26",
+          "sleep_hours": 5.92,
+          "deep": 1.73,
+          "light": 3.65,
+          "rem": 0.53,
+          "awake": 0,
+          "hrv": 70,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-06-27",
+          "sleep_hours": 9.92,
+          "deep": 1.53,
+          "light": 6.67,
+          "rem": 1.72,
+          "awake": 0.05,
+          "hrv": 74,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-06-28",
+          "sleep_hours": 5.35,
+          "deep": 1.27,
+          "light": 3.87,
+          "rem": 0.22,
+          "awake": 0,
+          "hrv": 58,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-06-29",
+          "sleep_hours": 7.55,
+          "deep": 1.98,
+          "light": 3.97,
+          "rem": 1.6,
+          "awake": 0,
+          "hrv": 68,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-06-30",
+          "sleep_hours": 7.1,
+          "deep": 1.37,
+          "light": 5.02,
+          "rem": 0.72,
+          "awake": 0.28,
+          "hrv": 58,
+          "resting_hr": 55
+        },
+        {
+          "date": "2026-07-02",
+          "sleep_hours": 13.42,
+          "deep": 1.78,
+          "light": 8.63,
+          "rem": 3,
+          "awake": 0.07,
+          "hrv": 73,
+          "resting_hr": 49
+        },
+        {
+          "date": "2026-07-03",
+          "sleep_hours": 4.95,
+          "deep": 1.97,
+          "light": 2.13,
+          "rem": 0.85,
+          "awake": 0.08,
+          "hrv": 56,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-04",
+          "sleep_hours": 4.38,
+          "deep": 1.57,
+          "light": 2.7,
+          "rem": 0.12,
+          "awake": 0,
+          "hrv": 59,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-05",
+          "sleep_hours": 10.5,
+          "deep": 1.4,
+          "light": 6.85,
+          "rem": 2.25,
+          "awake": 0,
+          "hrv": 83,
+          "resting_hr": 46
+        },
+        {
+          "date": "2026-07-06",
+          "sleep_hours": 7.42,
+          "deep": 1.98,
+          "light": 3.18,
+          "rem": 2.25,
+          "awake": 0.03,
+          "hrv": 72,
+          "resting_hr": 48
+        },
+        {
+          "date": "2026-07-07",
+          "sleep_hours": 6.23,
+          "deep": 2.27,
+          "light": 2.92,
+          "rem": 1.05,
+          "awake": 0,
+          "hrv": 69,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 4.25,
+          "deep": 0.97,
+          "light": 2.33,
+          "rem": 0.95,
+          "awake": 0.17,
+          "hrv": 79,
+          "resting_hr": 49
+        }
+      ],
+      "key_races": [],
+      "flags": [],
+      "flag_history": [],
+      "status": "on_track",
+      "compliance_pct": 67,
+      "weekly_tss_trend": [
+        553.27,
+        769.53,
+        248.78000000000003
       ]
     },
     "5221261": {
@@ -27651,7 +28847,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         296.53999999999996,
         455.79,
@@ -28381,16 +29577,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -28407,18 +29603,12 @@
       "avatar_initials": "MA",
       "is_real": false,
       "current_fitness": {
-        "ctl": 61.9,
-        "atl": 69.4,
-        "tsb": -5.3,
-        "status": "Tired (absorbing training)"
+        "ctl": 59.9,
+        "atl": 57.5,
+        "tsb": 2.7,
+        "status": "Neutral (normal training)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 57.9,
-          "atl": 62,
-          "tsb": -1.1
-        },
         {
           "date": "2026-04-16",
           "ctl": 57.6,
@@ -28919,37 +30109,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 61.9,
-          "atl": 69.4,
+          "ctl": 59.9,
+          "atl": 57.1,
           "tsb": -5.3
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 59.9,
+          "atl": 57.5,
+          "tsb": 2.7
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3807868172",
-            "date": "2026-06-24",
-            "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 130",
-            "sport": "Swim",
-            "duration_hours": 0,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "Fuelin Daily Macro Targets:\n• Day (Orange): Pro 175g | Fat 55g | Carb 130g\n\nMeal/Snack Macro Targets:\n• Swim - See Session Pre-activity Comments\n• Breakfast (Clear): Pro 0g | Fat 0g | Carb 0g\n• Lunch (Yellow): Pro 60g | Fat 20g | Carb 50g\n• Snack (Red): Pro 40g | Fat 5g | Carb 30g\n• Dinner (Yellow): Pro 60g | Fat 20g | Carb 50g\n\n• Your daily macro targets include all meals and activities (in-session fueling).\n\nLaunch Fuelin to see more details (timing, recipes, carb and sweat tests etc.):\nfuelin.co/app",
-            "comments": []
-          },
-          {
-            "id": "3801923905",
-            "date": "2026-06-24",
-            "title": "Swim Fartlek",
-            "sport": "Swim",
-            "duration_hours": 0.91,
-            "tss_planned": null,
-            "tss_actual": 45.71,
-            "status": "completed",
-            "description": "WU: Swim OR PB\n200m, 2x 100m, 2x 50m\n\nMS: PB/Paddles\n[3x]\n50m F/25m E/10s rest\n75m F/25m E/10s rest\n100m F/25m E/10s rest\n\nCD: 5x 100m Easy PB",
-            "comments": []
-          },
           {
             "id": "3809469064",
             "date": "2026-06-25",
@@ -29327,7 +30499,7 @@
             "comments": []
           },
           {
-            "id": "3833068711",
+            "id": "3834832742",
             "date": "2026-07-09",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 165",
             "sport": "Bike",
@@ -29351,7 +30523,7 @@
             "comments": []
           },
           {
-            "id": "3833068713",
+            "id": "3834832745",
             "date": "2026-07-10",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 130",
             "sport": "Swim",
@@ -29375,7 +30547,7 @@
             "comments": []
           },
           {
-            "id": "3833068715",
+            "id": "3834832749",
             "date": "2026-07-11",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 490",
             "sport": "Bike",
@@ -29399,7 +30571,7 @@
             "comments": []
           },
           {
-            "id": "3833068719",
+            "id": "3834832757",
             "date": "2026-07-12",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 175",
             "sport": "Run",
@@ -29425,7 +30597,7 @@
         ],
         "2026-07-13": [
           {
-            "id": "3833068720",
+            "id": "3834832764",
             "date": "2026-07-13",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 145",
             "sport": "Bike",
@@ -29449,7 +30621,7 @@
             "comments": []
           },
           {
-            "id": "3833068723",
+            "id": "3834832768",
             "date": "2026-07-14",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 130",
             "sport": "Run",
@@ -29473,7 +30645,7 @@
             "comments": []
           },
           {
-            "id": "3833068725",
+            "id": "3834832773",
             "date": "2026-07-15",
             "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 245",
             "sport": "Bike",
@@ -29494,6 +30666,30 @@
             "tss_actual": null,
             "status": "planned",
             "description": "Begin by warming up from 50% up to 70% for ~25M.\n\nThen, go into over-under interval blocks, starting with a supra-threshold effort of 4M, before settling into a further 10M of undulations of 1M @ 104-106% FTP and 1.5M @ 70-80% FTP. Take ~4M recovery before repeating this over-under block once more.\n\nOnce complete, remaining time @ 60-70% FTP including some short 1M surges from 80-100% FTP to increase breathing rate and provide more interest than a solid steady block! Cool down in final 10M or so @ an easy effort level.\n\nPURPOSE: The lactate threshold is a result of the balance between aerobic energy system strength and your anaerobic energy system strength. This means, it is a product of your VO2max (your maximal ability to take in, deliver and use oxygen for energy production), your VLamax (maximal ability to produce lactate, which is a byproduct of being able to combust more carbohydrate in the form of glycogen) and then the clearance of accumulated lactate when the aerobic system is saturated with pyruvate and cannot process any more lactate/pyruvate. Thus, training to improve the lactate threshold (fractional utilisation of the VO2) is building as strong a VO2max as possible, an appropriately strong VLamax (where appropriate could mean a very low VLamax depending on the demands of competition) and the ability to shuttle the excess lactate away. This workout targets the latter, by accumulating lactate during the over-threshold portions of each block, and then training the body to clear them by dropping just below the lactate threshold for short periods.\n\nThese intervals work on the principle that maximal rates of lactate clearance typically occur around 80-90% FTP. To read more on this check out these papers:\nhttps://pubmed.ncbi.nlm.nih.gov/20544484/\nhttps://pubmed.ncbi.nlm.nih.gov/24739289/",
+            "comments": []
+          },
+          {
+            "id": "3834832775",
+            "date": "2026-07-16",
+            "title": "Fuelin Targets: Pro 175 | Fat 55 | Carb 165",
+            "sport": "Bike",
+            "duration_hours": 0,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Fuelin Daily Macro Targets:\n• Day (Red): Pro 175g | Fat 55g | Carb 165g\n\nMeal/Snack Macro Targets:\n• Bike - See Session Pre-activity Comments\n• Breakfast (Clear): Pro 0g | Fat 0g | Carb 0g\n• Lunch (Red): Pro 60g | Fat 20g | Carb 30g\n• Snack (Red): Pro 40g | Fat 5g | Carb 30g\n• Dinner (Red): Pro 60g | Fat 20g | Carb 30g\n\n• Your daily macro targets include all meals and activities (in-session fueling).\n\nLaunch Fuelin to see more details (timing, recipes, carb and sweat tests etc.):\nfuelin.co/app",
+            "comments": []
+          },
+          {
+            "id": "3822363750",
+            "date": "2026-07-16",
+            "title": "Bike | Endurance Z1",
+            "sport": "Bike",
+            "duration_hours": 1.5,
+            "tss_planned": 59.99,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "1H30 recovery ride @ 55-70% Max HR.\n\nPURPOSE: Allow for adaptations from previous hard workout, whilst keeping rhythm of training and muscles working without adding any further stress to the body.",
             "comments": []
           }
         ]
@@ -29566,9 +30762,9 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
-        274.56,
+        228.85,
         422.79999999999995,
         160.44,
         0
@@ -30450,7 +31646,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         695.8000000000001,
         1562.23,
@@ -30464,18 +31660,12 @@
       "avatar_initials": "AC",
       "is_real": false,
       "current_fitness": {
-        "ctl": 61.7,
-        "atl": 29.5,
-        "tsb": 28.9,
+        "ctl": 61.4,
+        "atl": 31.2,
+        "tsb": 26.5,
         "status": "Very Fresh (detraining risk)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 137.9,
-          "atl": 140.4,
-          "tsb": 6.9
-        },
         {
           "date": "2026-04-16",
           "ctl": 139.9,
@@ -30976,25 +32166,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 61.7,
-          "atl": 29.5,
+          "ctl": 62.9,
+          "atl": 36.3,
           "tsb": 28.9
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 61.4,
+          "atl": 31.2,
+          "tsb": 26.5
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3803125756",
-            "date": "2026-06-24",
-            "title": "Easy riding 2h | FTP",
-            "sport": "Bike",
-            "duration_hours": 2,
-            "tss_planned": 83.95,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\n2hours conversational pace",
-            "comments": []
-          },
           {
             "id": "3803127102",
             "date": "2026-06-25",
@@ -31154,22 +32338,36 @@
             "status": "completed",
             "description": "",
             "comments": []
+          },
+          {
+            "id": "3833655616",
+            "date": "2026-07-08",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 1.03,
+            "tss_planned": null,
+            "tss_actual": 48.18,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3833693136",
+            "date": "2026-07-08",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0,
+            "tss_planned": null,
+            "tss_actual": 0.01,
+            "status": "completed",
+            "description": "",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 9.17,
-          "deep": 1.02,
-          "light": 6.05,
-          "rem": 2.1,
-          "awake": 0.27,
-          "hrv": 107,
-          "resting_hr": 39
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 7.83,
@@ -31459,17 +32657,27 @@
           "awake": 0,
           "hrv": 120,
           "resting_hr": 40
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 6.4,
+          "deep": 1.75,
+          "light": 3.4,
+          "rem": 1.25,
+          "awake": 0.13,
+          "hrv": 108,
+          "resting_hr": 41
         }
       ],
       "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         47.08,
         247.89000000000001,
-        82.42
+        130.60999999999999
       ]
     },
     "5443133": {
@@ -31478,18 +32686,12 @@
       "avatar_initials": "SA",
       "is_real": false,
       "current_fitness": {
-        "ctl": 81.7,
-        "atl": 98.1,
-        "tsb": -21.2,
-        "status": "Very Tired (high fatigue)"
+        "ctl": 78.9,
+        "atl": 80.6,
+        "tsb": -8.4,
+        "status": "Tired (absorbing training)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 84.5,
-          "atl": 81.4,
-          "tsb": -8.4
-        },
         {
           "date": "2026-04-16",
           "ctl": 88,
@@ -31990,25 +33192,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 81.7,
-          "atl": 98.1,
+          "ctl": 80,
+          "atl": 88.4,
           "tsb": -21.2
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 78.9,
+          "atl": 80.6,
+          "tsb": -8.4
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3786343712",
-            "date": "2026-06-24",
-            "title": "Run | 6x 2min HARD /90s | Pace",
-            "sport": "Run",
-            "duration_hours": 1.04,
-            "tss_planned": null,
-            "tss_actual": 114.04,
-            "status": "completed",
-            "description": "25 MIN TO 30 MIN WARM-UP AT AN EASY PAC\n6x 2min HARDER (94% to 105% effort – very controlled – last rep a touch harder ) 90 sec Recovey jog –\n\n10 min Cool-down jog",
-            "comments": []
-          },
           {
             "id": "3786623500",
             "date": "2026-06-25",
@@ -32242,22 +33438,24 @@
             "status": "planned",
             "description": "10min walking forward on incline getting the speed right then turn around 5min walk backwards to fire up the posterior chain.\n\nScientific paper:\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4932084/",
             "comments": []
+          },
+          {
+            "id": "3833632070",
+            "date": "2026-07-14",
+            "title": "Run | 6x 3min / 60s | Interval",
+            "sport": "Run",
+            "duration_hours": 0.9,
+            "tss_planned": 66.46,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "WARM-UP: 20min - EASY PACE\nMain set:\n6x 3min / 1min EASY JOG\n10min cool down",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 3.45,
-          "deep": 1.38,
-          "light": 1.2,
-          "rem": 0.87,
-          "awake": 0.52,
-          "hrv": 32.9768,
-          "resting_hr": 69
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 6.4,
@@ -32557,53 +33755,25 @@
           "awake": 0.4,
           "hrv": 68.06398,
           "resting_hr": 55
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 5.05,
+          "deep": 2.13,
+          "light": 1.66,
+          "rem": 1.27,
+          "awake": 0.18,
+          "hrv": 62.997013,
+          "resting_hr": 57
         }
       ],
       "key_races": [],
-      "flags": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "flag_history": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "status": "watch",
-      "compliance_pct": 100,
+      "flags": [],
+      "flag_history": [],
+      "status": "on_track",
+      "compliance_pct": 67,
       "weekly_tss_trend": [
-        548.73,
+        434.69,
         735.3,
         112.28,
         0
@@ -33712,7 +34882,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -33720,35 +34890,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 75,
+      "compliance_pct": 60,
       "weekly_tss_trend": [
         267.93,
         378.64,
@@ -34915,7 +36085,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -34923,35 +36093,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         371.64000000000004,
         715.49,
@@ -35774,16 +36944,16 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
@@ -35800,18 +36970,12 @@
       "avatar_initials": "JA",
       "is_real": false,
       "current_fitness": {
-        "ctl": 47.9,
-        "atl": 64.7,
-        "tsb": -15.8,
-        "status": "Very Tired (high fatigue)"
+        "ctl": 50.6,
+        "atl": 75.6,
+        "tsb": -36.4,
+        "status": "Exhausted (overreaching risk)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 45.7,
-          "atl": 7.5,
-          "tsb": 38
-        },
         {
           "date": "2026-04-16",
           "ctl": 44.6,
@@ -36312,25 +37476,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 47.9,
-          "atl": 64.7,
+          "ctl": 51.8,
+          "atl": 88.3,
           "tsb": -15.8
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 50.6,
+          "atl": 75.6,
+          "tsb": -36.4
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3801930694",
-            "date": "2026-06-24",
-            "title": "Indoor Endurance: High Variation Aerobic Ride (Level 2)",
-            "sport": "Bike",
-            "duration_hours": 1.17,
-            "tss_planned": null,
-            "tss_actual": 53.77,
-            "status": "completed",
-            "description": "1H10M alternating between 1M @ 60% FTP, 3M @ 70% FTP and 1M @ 75% FTP throughout.\n\nWarm up gradually from 50-65% FTP and cool down to 45% by the end of the workout.\n\nFeel free to change up cadence throughout ride from a lower level of ~75-85RPM and upper level of 95-105RPM.\n\nIf doing this ride outdoors, don't worry about alternating the power. Just keep this between 60-75% FTP.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
-            "comments": []
-          },
           {
             "id": "3801930516",
             "date": "2026-06-25",
@@ -36565,14 +37723,26 @@
           },
           {
             "id": "3828380334",
-            "date": "2026-07-09",
+            "date": "2026-07-08",
             "title": "Run | 40min Easy - choice run | HR",
             "sport": "Run",
-            "duration_hours": 0.67,
-            "tss_planned": 33.32,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 0.7,
+            "tss_planned": null,
+            "tss_actual": 222.89,
+            "status": "completed",
             "description": "Just nice and easy, getting into a nice rhythm.",
+            "comments": []
+          },
+          {
+            "id": "3833353127",
+            "date": "2026-07-08",
+            "title": "Strength",
+            "sport": "Other",
+            "duration_hours": 0.42,
+            "tss_planned": null,
+            "tss_actual": 16.81,
+            "status": "completed",
+            "description": "",
             "comments": []
           },
           {
@@ -36642,16 +37812,6 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 8.58,
-          "deep": 0.88,
-          "light": 5.92,
-          "rem": 1.78,
-          "awake": 0.85,
-          "hrv": 67,
-          "resting_hr": 49
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 7.4,
@@ -36951,55 +38111,65 @@
           "awake": 0.08,
           "hrv": 62,
           "resting_hr": 56
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 7.45,
+          "deep": 1.47,
+          "light": 4.33,
+          "rem": 1.65,
+          "awake": 0.23,
+          "hrv": 61,
+          "resting_hr": 58
         }
       ],
       "key_races": [],
       "flags": [
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-07-09"
         }
       ],
-      "status": "watch",
-      "compliance_pct": 50,
+      "status": "needs_checkin",
+      "compliance_pct": 57,
       "weekly_tss_trend": [
-        96.78,
+        43.01,
         277.77,
-        305.01,
+        544.7099999999999,
         0
       ]
     },
@@ -38178,7 +39348,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         499.1,
         505.91,
@@ -39361,7 +40531,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         247.73000000000002,
         715.31,
@@ -39375,18 +40545,12 @@
       "avatar_initials": "AE",
       "is_real": false,
       "current_fitness": {
-        "ctl": 128.7,
-        "atl": 120.4,
-        "tsb": 0,
-        "status": "Tired (absorbing training)"
+        "ctl": 127.2,
+        "atl": 111.5,
+        "tsb": 0.3,
+        "status": "Neutral (normal training)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 95.7,
-          "atl": 69.1,
-          "tsb": 26.6
-        },
         {
           "date": "2026-04-16",
           "ctl": 97.5,
@@ -39887,25 +41051,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 128.7,
-          "atl": 120.4,
+          "ctl": 130.3,
+          "atl": 130.1,
           "tsb": 0
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 127.2,
+          "atl": 111.5,
+          "tsb": 0.3
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3802319934",
-            "date": "2026-06-24",
-            "title": "Endurance 1h45 - Z2 | FTP",
-            "sport": "Bike",
-            "duration_hours": 1.26,
-            "tss_planned": null,
-            "tss_actual": 48.95,
-            "status": "completed",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
-            "comments": []
-          },
           {
             "id": "3802320069",
             "date": "2026-06-25",
@@ -40139,6 +41297,18 @@
             "comments": []
           },
           {
+            "id": "3834162315",
+            "date": "2026-07-08",
+            "title": "Lap Swimming",
+            "sport": "Swim",
+            "duration_hours": 1.05,
+            "tss_planned": null,
+            "tss_actual": 128.16,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "3819397414",
             "date": "2026-07-09",
             "title": "Technical 10 | 100 50 intervals MMM | Endurance",
@@ -40247,22 +41417,36 @@
             "status": "planned",
             "description": "Please see workout details below for zones and session.",
             "comments": []
+          },
+          {
+            "id": "3819376478",
+            "date": "2026-07-16",
+            "title": "Swim | 16/12/8/4 x 50m | Recovery",
+            "sport": "Swim",
+            "duration_hours": 1,
+            "tss_planned": 30.4,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "200 + 2x100 + 2x50 warm up rest 15's\n4x 50m (15 sprint / 35 easy) rest 20's\n----------------------------------------------\n16x 50m every 4th fast; rest 5's after easy and 10's after hard ones\n12x 50m every 3rd fast; rest 10's after easy and 15's after hard ones\n8x 50m every 2nd fast; rest 15's after easy and 20's after hard ones\n4x 50m fast; rest 25's\n100 easy\n\n------------------------------------------\n200 cool down",
+            "comments": []
+          },
+          {
+            "id": "3831724222",
+            "date": "2026-07-16",
+            "title": "Running 40min",
+            "sport": "Run",
+            "duration_hours": 0.67,
+            "tss_planned": 53.31,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "40 min - Start E, build pace\nListen to body! If tired, run easy. If feel good, increase pace to finish fast.",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 5.18,
-          "deep": 0.33,
-          "light": 4.28,
-          "rem": 0,
-          "awake": 0.55,
-          "hrv": 38,
-          "resting_hr": 56
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 7.62,
@@ -40552,17 +41736,27 @@
           "awake": 0.32,
           "hrv": 79,
           "resting_hr": 46
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 6.18,
+          "deep": 1.1,
+          "light": 4.92,
+          "rem": 0.17,
+          "awake": 0.47,
+          "hrv": 66,
+          "resting_hr": 48
         }
       ],
       "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
-        626.72,
+        577.77,
         973.32,
-        193.54000000000002,
+        321.70000000000005,
         0
       ]
     },
@@ -41575,7 +42769,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         0,
         59.81,
@@ -42856,7 +44050,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 60,
       "weekly_tss_trend": [
         46.269999999999996,
         299.93,
@@ -42870,18 +44064,12 @@
       "avatar_initials": "AA",
       "is_real": false,
       "current_fitness": {
-        "ctl": 86.4,
-        "atl": 57.6,
-        "tsb": 30.3,
+        "ctl": 85.1,
+        "atl": 54.2,
+        "tsb": 31.9,
         "status": "Very Fresh (detraining risk)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 122.6,
-          "atl": 134.6,
-          "tsb": -15
-        },
         {
           "date": "2026-04-16",
           "ctl": 119.7,
@@ -43382,25 +44570,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 86.4,
-          "atl": 57.6,
+          "ctl": 85.8,
+          "atl": 53.9,
           "tsb": 30.3
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 85.1,
+          "atl": 54.2,
+          "tsb": 31.9
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3784991749",
-            "date": "2026-06-24",
-            "title": "Endurance: Short Steady Ride (Level 1, Level 2, Level 3)",
-            "sport": "Bike",
-            "duration_hours": 1.52,
-            "tss_planned": null,
-            "tss_actual": 37.11,
-            "status": "completed",
-            "description": "1.5H @ 60-70% FTP.\n\nFeel free to change up cadence and switch between the lower and higher end of Zone 2.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
-            "comments": []
-          },
           {
             "id": "3785007106",
             "date": "2026-06-25",
@@ -43554,10 +44736,10 @@
             "date": "2026-07-08",
             "title": "Endurance: Short Steady Ride (Level 1, Level 2, Level 3)",
             "sport": "Bike",
-            "duration_hours": 1.5,
-            "tss_planned": 63.02,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 1.51,
+            "tss_planned": null,
+            "tss_actual": 37.06,
+            "status": "completed",
             "description": "1.5H @ 60-70% FTP.\n\nFeel free to change up cadence and switch between the lower and higher end of Zone 2.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
           },
@@ -43664,16 +44846,6 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 9.18,
-          "deep": 1.46,
-          "light": 5.36,
-          "rem": 2.36,
-          "awake": 0.74,
-          "hrv": 23.98094,
-          "resting_hr": 75
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 3.4,
@@ -43963,17 +45135,27 @@
           "awake": 0.1,
           "hrv": 57,
           "resting_hr": 52
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 8.58,
+          "deep": 1.69,
+          "light": 4.7,
+          "rem": 2.18,
+          "awake": 0.92,
+          "hrv": 73.18364,
+          "resting_hr": 52
         }
       ],
       "key_races": [],
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 0,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
-        655.56,
+        618.45,
         305.69,
-        0,
+        37.06,
         0
       ]
     },
@@ -43983,18 +45165,12 @@
       "avatar_initials": "CB",
       "is_real": false,
       "current_fitness": {
-        "ctl": 142.5,
-        "atl": 149.5,
-        "tsb": -17.1,
+        "ctl": 145.6,
+        "atl": 167.1,
+        "tsb": -10.6,
         "status": "Very Tired (high fatigue)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 127.4,
-          "atl": 124,
-          "tsb": -7
-        },
         {
           "date": "2026-04-16",
           "ctl": 128.3,
@@ -44495,25 +45671,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 142.5,
-          "atl": 149.5,
+          "ctl": 143.2,
+          "atl": 153.7,
           "tsb": -17.1
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 145.6,
+          "atl": 167.1,
+          "tsb": -10.6
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3777538823",
-            "date": "2026-06-24",
-            "title": "Endurance 1h40 - Z2 | HR",
-            "sport": "Bike",
-            "duration_hours": 1.6,
-            "tss_planned": null,
-            "tss_actual": 19.68,
-            "status": "completed",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
-            "comments": []
-          },
           {
             "id": "3777538437",
             "date": "2026-06-25",
@@ -44751,10 +45921,10 @@
             "date": "2026-07-08",
             "title": "Endurance: 2H Fasted Morning Ride (Level 2, Level 3)",
             "sport": "Bike",
-            "duration_hours": 2,
-            "tss_planned": 79.99,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 2.01,
+            "tss_planned": null,
+            "tss_actual": 67.42,
+            "status": "completed",
             "description": "2H @ 60-75% Max HR in fasted state.\n\nFasted state can be achieved by training in the morning, before eating any breakfast or other carbohydrate source. Take some food/energy drink on the ride with you in case you need some fuel before the ride is over. But try to ride as long as possible without eating.\n\nDon't worry about straying out of the target intensity range for short periods on steeper climbs or descents - just try for as much time within target zone as possible. Try to choose as flat or rolling course if possible to maximise time in target zone.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
           },
@@ -44763,10 +45933,10 @@
             "date": "2026-07-08",
             "title": "Technical 4 | 100s | Endurance",
             "sport": "Swim",
-            "duration_hours": null,
+            "duration_hours": 0.61,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 42.25,
+            "status": "completed",
             "description": "Progressive Warm Up:\n__________________________________________\nSwim or BP (10sec rests)\n2 x 25m Mod\n2 x 25m as 15m sprint and 10m easy\n\nMain Set:\n__________________________________________\nPB / PD - all 100s at Med effort\n4 x 100m\n2x 50 easy recovery (kick or swim)\n3x 100m\n2x 50 easy recovery (kick or swim)\n2x 100m\n2x 50 easy recovery (kick or swim)\n1x 100m\n2x 50 easy recovery (kick or swim)\n\nCool down:\n4x 25m easy (PB optional)",
             "comments": []
           },
@@ -44775,10 +45945,10 @@
             "date": "2026-07-09",
             "title": "Easy 1h10 | Pace",
             "sport": "Run",
-            "duration_hours": 1.17,
-            "tss_planned": 87.24,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 1.22,
+            "tss_planned": null,
+            "tss_actual": 246.95,
+            "status": "completed",
             "description": "1h10 - Easy comfortable running",
             "comments": []
           },
@@ -44849,16 +46019,6 @@
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 9.08,
-          "deep": 0.98,
-          "light": 5.72,
-          "rem": 2.38,
-          "awake": 0.33,
-          "hrv": 39,
-          "resting_hr": 54
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 6.83,
@@ -45158,55 +46318,27 @@
           "awake": 0.2,
           "hrv": 43,
           "resting_hr": 50
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 7.45,
+          "deep": 1.83,
+          "light": 4.23,
+          "rem": 1.38,
+          "awake": 0.05,
+          "hrv": 39,
+          "resting_hr": 52
         }
       ],
       "key_races": [],
-      "flags": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "flag_history": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
-        },
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
-      "status": "watch",
-      "compliance_pct": 75,
+      "flags": [],
+      "flag_history": [],
+      "status": "on_track",
+      "compliance_pct": 86,
       "weekly_tss_trend": [
-        863.39,
+        843.71,
         1005.8000000000001,
-        335.34000000000003,
+        691.96,
         0
       ]
     },
@@ -46166,40 +47298,40 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 34 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 35 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-06-10"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 13 days",
-          "triggered_at": "2026-06-17"
+          "reason": "No workouts logged for 14 days",
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 20 days",
-          "triggered_at": "2026-06-24"
+          "reason": "No workouts logged for 21 days",
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 27 days",
-          "triggered_at": "2026-07-01"
+          "reason": "No workouts logged for 28 days",
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 34 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 35 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -46871,7 +48003,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -46879,31 +48011,31 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -48106,16 +49238,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -49376,7 +50508,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -49384,35 +50516,35 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         728.12,
         1122.83,
@@ -50175,7 +51307,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -50183,31 +51315,31 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -51528,7 +52660,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -51536,35 +52668,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 20,
       "weekly_tss_trend": [
         465.23,
         1948.96,
@@ -51578,18 +52710,12 @@
       "avatar_initials": "JC",
       "is_real": false,
       "current_fitness": {
-        "ctl": 33.3,
-        "atl": 11.2,
-        "tsb": 21.1,
+        "ctl": 32.5,
+        "atl": 9.6,
+        "tsb": 22.1,
         "status": "Fresh (race ready)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 85.7,
-          "atl": 101.6,
-          "tsb": -19.2
-        },
         {
           "date": "2026-04-16",
           "ctl": 84.7,
@@ -52093,6 +53219,12 @@
           "ctl": 33.3,
           "atl": 11.2,
           "tsb": 21.1
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 32.5,
+          "atl": 9.6,
+          "tsb": 22.1
         }
       ],
       "sessions_by_week": {
@@ -52272,7 +53404,7 @@
           "rem": 1.18,
           "awake": 0.25,
           "hrv": 72,
-          "resting_hr": 49
+          "resting_hr": 48
         }
       ],
       "key_races": [],
@@ -52280,16 +53412,16 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -53518,7 +54650,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 17,
       "weekly_tss_trend": [
         669.8199999999999,
         301.19,
@@ -55666,16 +56798,22 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
         {
           "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-02"
+        },
+        {
+          "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
@@ -56820,7 +57958,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -56828,35 +57966,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         275.44,
         574.07,
@@ -56870,18 +58008,12 @@
       "avatar_initials": "ED",
       "is_real": false,
       "current_fitness": {
-        "ctl": 112.2,
-        "atl": 135.6,
-        "tsb": -22.6,
+        "ctl": 111,
+        "atl": 124.9,
+        "tsb": -23.4,
         "status": "Very Tired (high fatigue)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 98.3,
-          "atl": 131.4,
-          "tsb": -52.6
-        },
         {
           "date": "2026-04-16",
           "ctl": 100.2,
@@ -57385,34 +58517,16 @@
           "ctl": 112.2,
           "atl": 135.6,
           "tsb": -22.6
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 111,
+          "atl": 124.9,
+          "tsb": -23.4
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3790294722",
-            "date": "2026-06-24",
-            "title": "Muscular Endurance: Shorter Low Cadence Efforts",
-            "sport": "Bike",
-            "duration_hours": 1.64,
-            "tss_planned": null,
-            "tss_actual": 67.57,
-            "status": "completed",
-            "description": "Start with ~20M warm up in the range of 45-65% FTP.\n\nThen complete 6x 4M @ 85-92% FTP and 2.5M @ 50-60% FTP. Use a low cadence for muscular endurance intervals of ~60-65RPM to increase force demands on muscle fibres. This session could be done as a set of hill repeats.\n\nAfter this long set of tempo intervals, cool down for remainder of ride @ 50-60% FTP.\n\nPURPOSE: To develop greater fatigue resistance or muscular endurance through sustained work that places higher force demand on the muscle fibres. In doing so, you train the muscle fibres to become more resistance to micro tears and general damage. When muscle fibres (especially slow twitch or Type I fibres) become damaged because of a relatively high sustained workloads, they have to call upon the far less aerobically-efficient Type II fibres to help maintain a consistent power output an carry the load. This has the effect of reducing what's called your 'exercise economy/efficiency', which essentially means you need to supply more oxygen (and fuel) for the same power output (very similar to the fuel efficiency of a car). This is one of the reasons you can see heart rate drift for a given power as you become fatigued in a race or long training session, since the heart is required to pump more oxygen to sustain the workload once the muscles become fatigued. By improving your exercise economy via greater resistance to fatigue/damage, you're able to improve your endurance at a broad range of intensities.\n\nThese low-cadence tempo intervals also specifically target aerobic adaptations within Type IIa muscle fibres, which typically aren't substantially activated in a lower intensity endurance ride until the latter stages of the ride. These intervals are good for reducing VLamax, and thus improving lactate threshold.",
-            "comments": []
-          },
-          {
-            "id": "3807857009",
-            "date": "2026-06-24",
-            "title": "Cycling",
-            "sport": "Bike",
-            "duration_hours": 1.64,
-            "tss_planned": null,
-            "tss_actual": 65.75,
-            "status": "completed",
-            "description": "",
-            "comments": []
-          },
           {
             "id": "3808176233",
             "date": "2026-06-25",
@@ -57730,22 +58844,36 @@
             "status": "planned",
             "description": "30M warm up, building up from 55-65% FTP towards 85-95% FTP, and then settling in to 55-75% FTP. Add in 2-3 10S surges at ~8/10 effort level to fully activate your muscles before the anaerobic efforts.\n\nThen perform 10x 30S intervals @ a near maximal effort, paced consistently across the 30S interval (for most people this will be about 130-150% FTP, but for others it may be higher/lower). The first time you do this workout you may need to do these efforts based on feel, but in subsequent workouts you will have a better idea of what power you can target. The goal is to hit a power that you can hold consistently across each of the intervals, so don't go so hard on the first one that you have nothing left for the last ones.\n\nTake 3M for active recovery @ 30-40% FTP (i.e. very easy spinning) after each interval. Take longer to recover if you feel you need to - the focus of this workout is to achieve maximal power in each interval, so the recovery can be as long as necessary to achieve this.\n\nRemaining time up to ~1-1H30M @ 50-65% FTP to return body to resting levels steadily.\n\nSee workout details below for further details.\n\nPURPOSE: The main effect of these intervals is to increase peak anaerobic power – that is the maximal rate at which energy can be produced anaerobically. This includes factors such as increased activity of enzymes associated with both the phosphocreatine system and the glycolytic system, and also increased glycogen storage within the muscles (Bangsbo et al., 2006).\n\nIn addition, these intervals can also contribute to improved anaerobic stamina through improved buffering of hydrogen ions (Bangsbo et al., 2006), and potential improvements in lactate transport (Pilegaard et al., 1999), aerobic capacity (Burgomaster et al., 2006) and mitochondrial function (Bishop et al., 2014, Tripp et al., 2022).\n\nBangsbo, J., Mohr, M., Poulsen, A., Perez-Gomez, J., & Krustrup, P. (2006). Training and testing the elite athlete. J Exerc Sci Fit, 4(1), 1-14.\n\nBishop, D. J., Granata, C., & Eynon, N. (2014). Can we optimise the exercise training prescription to maximise improvements in mitochondria function and content?. Biochimica et Biophysica Acta (BBA)-General Subjects, 1840(4), 1266-1275.\n\nBurgomaster, K. A., Heigenhauser, G. J., & Gibala, M. J. (2006). Effect of short-term sprint interval training on human skeletal muscle carbohydrate metabolism during exercise and time-trial performance. Journal of applied physiology, 100(6), 2041-2047.\n\nPilegaard, H., Domino, K., Noland, T., Juel, C., Hellsten, Y., Halestrap, A. P., & Bangsbo, J. (1999). Effect of high-intensity exercise training on lactate/H+ transport capacity in human skeletal muscle. American Journal of Physiology-Endocrinology And Metabolism, 276(2), E255-E261.\n\nTripp, T. R., Frankish, B. P., Lun, V., Wiley, J. P., Shearer, J., Murphy, R. M., & MacInnis, M. J. (2022). Time course and fibre type‐dependent nature of calcium‐handling protein responses to sprint interval exercise in human skeletal muscle. The Journal of Physiology.",
             "comments": []
+          },
+          {
+            "id": "3822311814",
+            "date": "2026-07-16",
+            "title": "Run |45-50min Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.83,
+            "tss_planned": 77.78,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Run:\n45-50 min Easy - soft surface.",
+            "comments": []
+          },
+          {
+            "id": "3822372790",
+            "date": "2026-07-16",
+            "title": "Swim | 20x 100m PB only | Endurance",
+            "sport": "Swim",
+            "duration_hours": 1,
+            "tss_planned": 38.72,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Warm up:\n5x 100m (75 free / 25 back) rest 20's\n4x 50m (15 sprint / 35 easy) rest 20's\n----------------------------------------------------\n20x 100m pb easy, rest 15's - keep the tempo consistant and the strokes long and smooth. Focus on the push - finishing the stroke.\n----------------------------------------------------\n5x 100m rest 15's\ncool down",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 7.35,
-          "deep": 2.02,
-          "light": 3.82,
-          "rem": 1.52,
-          "awake": 0.02,
-          "hrv": 74,
-          "resting_hr": 42
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 7.2,
@@ -57995,6 +59123,16 @@
           "awake": 0,
           "hrv": 56,
           "resting_hr": 50
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 7.1,
+          "deep": 1.5,
+          "light": 4.73,
+          "rem": 0.87,
+          "awake": 0.18,
+          "hrv": 49,
+          "resting_hr": 48
         }
       ],
       "key_races": [],
@@ -58003,7 +59141,7 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -58011,37 +59149,37 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "watch",
       "compliance_pct": 100,
       "weekly_tss_trend": [
-        133.32,
+        0,
         825.1700000000001,
         535.1,
         0
@@ -58053,18 +59191,12 @@
       "avatar_initials": "TD",
       "is_real": false,
       "current_fitness": {
-        "ctl": 66.6,
-        "atl": 58.4,
-        "tsb": 5.3,
-        "status": "Neutral (normal training)"
+        "ctl": 69.7,
+        "atl": 74.8,
+        "tsb": -15.9,
+        "status": "Very Tired (high fatigue)"
       },
       "fitness_history": [
-        {
-          "date": "2026-04-15",
-          "ctl": 74.1,
-          "atl": 107.1,
-          "tsb": -42.1
-        },
         {
           "date": "2026-04-16",
           "ctl": 79.1,
@@ -58565,25 +59697,19 @@
         },
         {
           "date": "2026-07-08",
-          "ctl": 66.6,
-          "atl": 58.4,
+          "ctl": 71.4,
+          "atl": 87.3,
           "tsb": 5.3
+        },
+        {
+          "date": "2026-07-09",
+          "ctl": 69.7,
+          "atl": 74.8,
+          "tsb": -15.9
         }
       ],
       "sessions_by_week": {
         "2026-06-22": [
-          {
-            "id": "3785886872",
-            "date": "2026-06-24",
-            "title": "Threshold | 6x 3' Hard /3' Easy | FTP",
-            "sport": "Bike",
-            "duration_hours": 1.02,
-            "tss_planned": 61.84,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.",
-            "comments": []
-          },
           {
             "id": "3785885955",
             "date": "2026-06-25",
@@ -58833,10 +59959,10 @@
             "date": "2026-07-08",
             "title": "Walk 1min, RUN 3min | pace",
             "sport": "Run",
-            "duration_hours": 0.67,
-            "tss_planned": 36.86,
-            "tss_actual": null,
-            "status": "planned",
+            "duration_hours": 0.72,
+            "tss_planned": null,
+            "tss_actual": 238.96,
+            "status": "completed",
             "description": "Walk 1min, RUN 1min\n----------------------------------------------------\nSee how you feel, just find a nice rhythm with good foot strikes and bio-mechanical movements.",
             "comments": []
           },
@@ -58925,22 +60051,24 @@
             "status": "planned",
             "description": "1H05M alternating between 1M @ 60% FTP, 3M @ 70% FTP and 1M @ 75% FTP throughout.\n\nWarm up gradually from 50-65% FTP and cool down to 45% by the end of the workout.\n\nFeel free to change up cadence throughout ride from a lower level of ~75-85RPM and upper level of 95-105RPM.\n\nIf doing this ride outdoors, don't worry about alternating the power. Just keep this between 60-75% FTP.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
+          },
+          {
+            "id": "3825667831",
+            "date": "2026-07-16",
+            "title": "Pre-GYM Run",
+            "sport": "Run",
+            "duration_hours": 0.5,
+            "tss_planned": 24.98,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "20 min Easy run",
+            "comments": []
           }
         ]
       },
       "focus_event": null,
       "next_event": null,
       "recovery": [
-        {
-          "date": "2026-06-08",
-          "sleep_hours": 6.92,
-          "deep": 0.82,
-          "light": 5.2,
-          "rem": 0.9,
-          "awake": 0.05,
-          "hrv": 36,
-          "resting_hr": 56
-        },
         {
           "date": "2026-06-09",
           "sleep_hours": 6.79,
@@ -59220,17 +60348,75 @@
           "awake": 0.07,
           "hrv": 40,
           "resting_hr": 56
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 7.14,
+          "deep": 1.7,
+          "light": 4.34,
+          "rem": 1.1,
+          "awake": 0,
+          "hrv": 35,
+          "resting_hr": 59
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 7.22,
+          "deep": 1.3,
+          "light": 5.12,
+          "rem": 0.8,
+          "awake": 0.08,
+          "hrv": 33,
+          "resting_hr": 59
         }
       ],
       "key_races": [],
-      "flags": [],
-      "flag_history": [],
-      "status": "on_track",
-      "compliance_pct": 75,
+      "flags": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "flag_history": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-06-11"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-06-18"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-06-25"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-07-02"
+        },
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-07-09"
+        }
+      ],
+      "status": "watch",
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         315.6,
         484.56,
-        56.15,
+        295.11,
         0
       ]
     },
@@ -60110,7 +61296,7 @@
       "flags": [],
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         245.57999999999996,
         0,
@@ -61283,7 +62469,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "flag_history": [
@@ -61291,35 +62477,35 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-10"
+          "triggered_at": "2026-06-11"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-17"
+          "triggered_at": "2026-06-18"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-06-24"
+          "triggered_at": "2026-06-25"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-01"
+          "triggered_at": "2026-07-02"
         },
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
         806.27,
         1283.32,
@@ -61342,11 +62528,11 @@
         "end": "2026-07-12",
         "sessions_planned": 10,
         "sessions_completed": 2,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 6,
+        "sessions_missed": 3,
+        "sessions_due_to_date": 5,
+        "sessions_still_to_come": 5,
         "sessions_planned_today": 1,
-        "compliance_pct": 50,
+        "compliance_pct": 40,
         "on_pace": false,
         "total_tss": 94.8,
         "total_hours": 1.27,
@@ -61412,7 +62598,7 @@
             "duration_hours": 1.5,
             "tss": null,
             "tss_planned": 72.36,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-07-09",
@@ -61597,17 +62783,17 @@
           "sport": "Swim",
           "duration_hours": 0.9166666666666666,
           "tss_planned": 24.72
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-07-08",
           "title": "Anaerobic Power: 30S Repeats (Level 3)",
           "sport": "Bike",
           "duration_hours": 1.5,
           "tss_planned": 72.36
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-07-09",
           "title": "Swim | 2x 10x 100m | Z3",
@@ -61651,7 +62837,7 @@
         "event_type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 130
+        "days_out": 129
       },
       "focus_event": {
         "id": 37280222,
@@ -61660,7 +62846,7 @@
         "event_type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 150
+        "days_out": 149
       },
       "peaks": {
         "bike_20min_power": {
@@ -62678,7 +63864,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 130
+          "days_out": 129
         }
       ],
       "sessions_by_week": {
@@ -62919,7 +64105,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 40,
       "weekly_tss_trend": [
         425.36,
         94.8,
@@ -62939,7 +64125,7 @@
           "type": "training_gap",
           "severity": "red",
           "reason": "No workouts logged",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -62957,48 +64143,48 @@
       "name": "Ahmad Almarri",
       "avatar_initials": "AA",
       "status": "on_track",
-      "compliance_pct": 0,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
-        655.56,
+        618.45,
         305.69,
-        0,
+        37.06,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 86.4,
-      "tsb": 30.3
+      "ctl": 85.1,
+      "tsb": 31.9
     },
     {
       "id": "5392140",
       "name": "Alan Conway",
       "avatar_initials": "AC",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         47.08,
         247.89000000000001,
-        82.42
+        130.60999999999999
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 61.7,
-      "tsb": 28.9
+      "ctl": 61.4,
+      "tsb": 26.5
     },
     {
       "id": "2966128",
       "name": "Alexander Mishin",
       "avatar_initials": "AM",
       "status": "watch",
-      "compliance_pct": 40,
+      "compliance_pct": 33,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63016,7 +64202,7 @@
       "name": "Alexandre Molina",
       "avatar_initials": "AM",
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 25,
       "flags": [],
       "weekly_tss_trend": [
         182.86999999999998,
@@ -63034,7 +64220,7 @@
       "name": "Ashleigh Georgiadis",
       "avatar_initials": "AG",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         1712.53,
@@ -63052,25 +64238,25 @@
       "name": "Ashley Eaton",
       "avatar_initials": "AE",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 75,
       "flags": [],
       "weekly_tss_trend": [
-        626.72,
+        577.77,
         973.32,
-        193.54000000000002,
+        321.70000000000005,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 128.7,
-      "tsb": 0
+      "ctl": 127.2,
+      "tsb": 0.3
     },
     {
       "id": "5887210",
       "name": "Bas Voeten",
       "avatar_initials": "BV",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         0,
@@ -63088,13 +64274,13 @@
       "name": "Binita Morar",
       "avatar_initials": "BM",
       "status": "watch",
-      "compliance_pct": 43,
+      "compliance_pct": 33,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -20 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63112,39 +64298,32 @@
       "id": "5946899",
       "name": "Cedric Bernier",
       "avatar_initials": "CB",
-      "status": "watch",
-      "compliance_pct": 75,
-      "flags": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -17 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
+      "status": "on_track",
+      "compliance_pct": 86,
+      "flags": [],
       "weekly_tss_trend": [
-        863.39,
+        843.71,
         1005.8000000000001,
-        335.34000000000003,
+        691.96,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 142.5,
-      "tsb": -17.1
+      "ctl": 145.6,
+      "tsb": -10.6
     },
     {
       "id": "4717259",
       "name": "Charles rule",
       "avatar_initials": "CR",
       "status": "watch",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63168,8 +64347,8 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63184,17 +64363,34 @@
       "tsb": -1.6
     },
     {
+      "id": "5113030",
+      "name": "Daniella Cowden",
+      "avatar_initials": "DC",
+      "status": "on_track",
+      "compliance_pct": 67,
+      "flags": [],
+      "weekly_tss_trend": [
+        553.27,
+        769.53,
+        248.78000000000003
+      ],
+      "next_event": null,
+      "days_to_event": null,
+      "ctl": 145.7,
+      "tsb": 43.2
+    },
+    {
       "id": "6018589",
       "name": "Diana Mena",
       "avatar_initials": "DM",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63213,7 +64409,7 @@
       "name": "Diana Spasic",
       "avatar_initials": "DS",
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         695.8000000000001,
@@ -63230,9 +64426,16 @@
       "id": "4802831",
       "name": "DJ Rust",
       "avatar_initials": "DR",
-      "status": "on_track",
+      "status": "watch",
       "compliance_pct": 0,
-      "flags": [],
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
       "weekly_tss_trend": [
         0,
         417.44,
@@ -63255,51 +64458,44 @@
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -23 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
-        133.32,
+        0,
         825.1700000000001,
         535.1,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 112.2,
-      "tsb": -22.6
+      "ctl": 111,
+      "tsb": -23.4
     },
     {
       "id": "5061071",
       "name": "Emilio Dirlikov",
       "avatar_initials": "ED",
-      "status": "watch",
-      "compliance_pct": 0,
-      "flags": [
-        {
-          "type": "training_gap",
-          "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
-        }
-      ],
+      "status": "on_track",
+      "compliance_pct": 33,
+      "flags": [],
       "weekly_tss_trend": [
         280.52,
         1468.64,
-        0,
+        495.64,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 188,
-      "tsb": 60.1
+      "ctl": 196,
+      "tsb": 33.7
     },
     {
       "id": "4034028",
       "name": "FIRAS I H AHMAD",
       "avatar_initials": "FI",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "flags": [],
       "weekly_tss_trend": [
         579.46,
@@ -63340,8 +64536,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 10 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 11 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63360,7 +64556,7 @@
       "name": "Guillaume Sillani",
       "avatar_initials": "GS",
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         499.1,
@@ -63378,13 +64574,13 @@
       "name": "Guillaume Vandystadt",
       "avatar_initials": "GV",
       "status": "needs_checkin",
-      "compliance_pct": 75,
+      "compliance_pct": 60,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -28 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63403,18 +64599,18 @@
       "name": "Humaid Belhoul",
       "avatar_initials": "HB",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 71,
       "flags": [],
       "weekly_tss_trend": [
-        380.20000000000005,
+        248.95999999999998,
         914.75,
-        391.31,
+        443.71,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 170.5,
-      "tsb": 18.7
+      "ctl": 169.5,
+      "tsb": 21.4
     },
     {
       "id": "4725896",
@@ -63439,7 +64635,7 @@
       "name": "Ivan Williams",
       "avatar_initials": "IW",
       "status": "on_track",
-      "compliance_pct": 33,
+      "compliance_pct": 25,
       "flags": [],
       "weekly_tss_trend": [
         169.67,
@@ -63462,8 +64658,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 11 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 12 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63499,7 +64695,7 @@
       "name": "James Gough",
       "avatar_initials": "JG",
       "status": "on_track",
-      "compliance_pct": 20,
+      "compliance_pct": 17,
       "flags": [],
       "weekly_tss_trend": [
         669.8199999999999,
@@ -63522,8 +64718,8 @@
         {
           "type": "training_gap",
           "severity": "amber",
-          "reason": "No workouts logged for 4 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 5 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63546,8 +64742,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 6 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 7 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63556,46 +64752,46 @@
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 33.3,
-      "tsb": 21.1
+      "ctl": 32.5,
+      "tsb": 22.1
     },
     {
       "id": "5691874",
       "name": "Joana Areias",
       "avatar_initials": "JA",
-      "status": "watch",
-      "compliance_pct": 50,
+      "status": "needs_checkin",
+      "compliance_pct": 57,
       "flags": [
         {
           "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -16 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "severity": "red",
+          "reason": "TSB -36 — deep fatigue, overtraining risk",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
-        96.78,
+        43.01,
         277.77,
-        305.01,
+        544.7099999999999,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 47.9,
-      "tsb": -15.8
+      "ctl": 50.6,
+      "tsb": -36.4
     },
     {
       "id": "6362551",
       "name": "Johan van Niekerk",
       "avatar_initials": "JV",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 75,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -38 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63614,13 +64810,13 @@
       "name": "Lisa Hofheinz",
       "avatar_initials": "LH",
       "status": "watch",
-      "compliance_pct": 83,
+      "compliance_pct": 63,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -24 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63639,13 +64835,13 @@
       "name": "Lloyd Hayes",
       "avatar_initials": "LH",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -18 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63664,49 +64860,49 @@
       "name": "Marc Bardsley",
       "avatar_initials": "MB",
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 80,
       "flags": [],
       "weekly_tss_trend": [
         548.7199999999999,
         1078.74,
-        175.03,
+        389.98,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 113.1,
-      "tsb": -5.1
+      "ctl": 116.7,
+      "tsb": 1.9
     },
     {
       "id": "5241165",
       "name": "Mariam Al Ali",
       "avatar_initials": "MA",
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
-        274.56,
+        228.85,
         422.79999999999995,
         160.44,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 61.9,
-      "tsb": -5.3
+      "ctl": 59.9,
+      "tsb": 2.7
     },
     {
       "id": "6225351",
       "name": "Marina Fawaz",
       "avatar_initials": "MF",
       "status": "needs_checkin",
-      "compliance_pct": 100,
+      "compliance_pct": 80,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -32 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63725,13 +64921,13 @@
       "name": "Mark Massouh",
       "avatar_initials": "MM",
       "status": "watch",
-      "compliance_pct": 100,
+      "compliance_pct": 83,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "amber",
           "reason": "TSB -19 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63756,7 +64952,7 @@
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -1005 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63775,7 +64971,7 @@
       "name": "Mike Horseman",
       "avatar_initials": "MH",
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "flags": [],
       "weekly_tss_trend": [
         296.53999999999996,
@@ -63798,8 +64994,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 34 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 35 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63823,8 +65019,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 8 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 9 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63843,7 +65039,7 @@
       "name": "Nicholas Georgiadis",
       "avatar_initials": "NG",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         365.24,
@@ -63861,7 +65057,7 @@
       "name": "Nikolaus de Goederen",
       "avatar_initials": "ND",
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         245.57999999999996,
@@ -63879,13 +65075,13 @@
       "name": "Noha Hesham",
       "avatar_initials": "NH",
       "status": "needs_checkin",
-      "compliance_pct": 67,
+      "compliance_pct": 50,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -27 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63903,9 +65099,16 @@
       "id": "3943264",
       "name": "Omair Rao",
       "avatar_initials": "OR",
-      "status": "on_track",
+      "status": "watch",
       "compliance_pct": 0,
-      "flags": [],
+      "flags": [
+        {
+          "type": "training_gap",
+          "severity": "amber",
+          "reason": "No workouts logged for 4 days",
+          "triggered_at": "2026-07-09"
+        }
+      ],
       "weekly_tss_trend": [
         98.05,
         448.02,
@@ -63927,8 +65130,8 @@
         {
           "type": "training_gap",
           "severity": "red",
-          "reason": "No workouts logged for 9 days",
-          "triggered_at": "2026-07-08"
+          "reason": "No workouts logged for 10 days",
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -63963,33 +65166,26 @@
       "id": "5443133",
       "name": "saleh Al",
       "avatar_initials": "SA",
-      "status": "watch",
-      "compliance_pct": 100,
-      "flags": [
-        {
-          "type": "fatigue_risk",
-          "severity": "amber",
-          "reason": "TSB -21 — accumulating fatigue",
-          "triggered_at": "2026-07-08"
-        }
-      ],
+      "status": "on_track",
+      "compliance_pct": 67,
+      "flags": [],
       "weekly_tss_trend": [
-        548.73,
+        434.69,
         735.3,
         112.28,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 81.7,
-      "tsb": -21.2
+      "ctl": 78.9,
+      "tsb": -8.4
     },
     {
       "id": "5863285",
       "name": "Sana Sajid",
       "avatar_initials": "SS",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "flags": [],
       "weekly_tss_trend": [
         247.73000000000002,
@@ -64007,7 +65203,7 @@
       "name": "Sherif Gharib",
       "avatar_initials": "SG",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 60,
       "flags": [],
       "weekly_tss_trend": [
         46.269999999999996,
@@ -64025,7 +65221,7 @@
       "name": "sidanth rajagopal",
       "avatar_initials": "SR",
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 60,
       "flags": [],
       "weekly_tss_trend": [
         0,
@@ -64046,46 +65242,53 @@
       "compliance_pct": 100,
       "flags": [],
       "weekly_tss_trend": [
-        255.41,
+        224.03,
         539.94,
-        183.13,
+        351.45,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 95.2,
-      "tsb": 17.3
+      "ctl": 95.3,
+      "tsb": 6.1
     },
     {
       "id": "6238921",
       "name": "Tanya De Villiers",
       "avatar_initials": "TD",
-      "status": "on_track",
-      "compliance_pct": 75,
-      "flags": [],
+      "status": "watch",
+      "compliance_pct": 80,
+      "flags": [
+        {
+          "type": "fatigue_risk",
+          "severity": "amber",
+          "reason": "TSB -16 — accumulating fatigue",
+          "triggered_at": "2026-07-09"
+        }
+      ],
       "weekly_tss_trend": [
         315.6,
         484.56,
-        56.15,
+        295.11,
         0
       ],
       "next_event": null,
       "days_to_event": null,
-      "ctl": 66.6,
-      "tsb": 5.3
+      "ctl": 69.7,
+      "tsb": -15.9
     },
     {
       "id": "6090112",
       "name": "Yajath Nair",
       "avatar_initials": "YN",
       "status": "needs_checkin",
-      "compliance_pct": 25,
+      "compliance_pct": 20,
       "flags": [
         {
           "type": "fatigue_risk",
           "severity": "red",
           "reason": "TSB -64 — deep fatigue, overtraining risk",
-          "triggered_at": "2026-07-08"
+          "triggered_at": "2026-07-09"
         }
       ],
       "weekly_tss_trend": [
@@ -64101,30 +65304,30 @@
     }
   ],
   "roster_summary": {
-    "total": 55,
-    "needs_checkin": 13,
-    "watch": 14,
-    "on_track": 28,
-    "avg_compliance_pct": 58
+    "total": 56,
+    "needs_checkin": 14,
+    "watch": 13,
+    "on_track": 29,
+    "avg_compliance_pct": 49
   },
   "recent_comments_feed": [],
   "weekly_totals": {
     "2026-06-29": {
-      "sessions_planned": 515,
-      "sessions_completed": 343,
+      "sessions_planned": 526,
+      "sessions_completed": 354,
       "tss_planned": 6748.899999999994,
-      "tss_actual": 49004.08999999997
+      "tss_actual": 49773.619999999966
     },
     "2026-07-06": {
-      "sessions_planned": 464,
-      "sessions_completed": 117,
-      "tss_planned": 17610.150000000005,
-      "tss_actual": 9041.360000000002
+      "sessions_planned": 477,
+      "sessions_completed": 134,
+      "tss_planned": 17304.490000000005,
+      "tss_actual": 11270.140000000005
     },
     "2026-07-13": {
-      "sessions_planned": 140,
+      "sessions_planned": 152,
       "sessions_completed": 0,
-      "tss_planned": 5559.2999999999965,
+      "tss_planned": 6125.939999999995,
       "tss_actual": 0
     },
     "2026-05-18": {
@@ -64146,10 +65349,10 @@
       "tss_actual": 168.61
     },
     "2026-06-22": {
-      "sessions_planned": 363,
-      "sessions_completed": 227,
-      "tss_planned": 8469.499999999996,
-      "tss_actual": 22233.55999999999
+      "sessions_planned": 356,
+      "sessions_completed": 224,
+      "tss_planned": 8323.71,
+      "tss_actual": 22171.62999999999
     },
     "2026-06-08": {
       "sessions_planned": 5,
@@ -64160,10 +65363,10 @@
   },
   "validation": {
     "warnings": [
-      "Mohammed Bagdadi: fitness_history is 33d stale (last: 2026-06-05)",
-      "Abhishek Dhall: fitness_history is 31d stale (last: 2026-06-07)"
+      "Mohammed Bagdadi: fitness_history is 34d stale (last: 2026-06-05)",
+      "Abhishek Dhall: fitness_history is 32d stale (last: 2026-06-07)"
     ],
     "hard_error_count": 0,
-    "checked_at": "2026-07-08T05:09:31.958Z"
+    "checked_at": "2026-07-09T05:18:23.713Z"
   }
 }
