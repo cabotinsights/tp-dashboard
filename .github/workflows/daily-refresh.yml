@@ -1,0 +1,57 @@
+name: Daily refresh
+
+# Pulls Stephen's TrainingPeaks data, rebuilds data.json and commits it.
+# Netlify redeploys on the push to main.
+#
+# This replaces the com.dbt.dashboard.refresh launchd job, which only ran when
+# his Mac happened to be awake at 7am and went silently stale for three weeks.
+#
+# A failure here emails the repo owner through GitHub's normal Actions
+# notifications. The most likely cause is an expired TP_COOKIE.
+
+on:
+  schedule:
+    # 03:00 UTC = 07:00 Gulf time, matching the old launchd slot.
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Pull TrainingPeaks data
+        env:
+          TP_COOKIE: ${{ secrets.TP_COOKIE }}
+        run: node scripts/pull-tp-http.mjs
+
+      - name: Build data.json
+        run: node scripts/build-data-json.mjs
+
+      - name: Test
+        run: node --test scripts/flag-rules.test.mjs scripts/build-data-json.test.mjs
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet data.json; then
+            echo "No data.json changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "data: auto-refresh $(date +%Y-%m-%d)"
+          git push origin HEAD:main
