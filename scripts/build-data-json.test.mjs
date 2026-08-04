@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildDataJson } from './build-data-json.mjs';
+import { buildDataJson, freezeCoachView } from './build-data-json.mjs';
 
 test('buildDataJson: empty input produces skeleton', () => {
   const out = buildDataJson({ realAthletes: [], dummyAthletes: [], asOf: '2026-04-15' });
@@ -154,4 +154,40 @@ test('buildDataJson: populates flag_history for past 28 days by re-evaluating', 
   const entry = out.athletes['hist'];
   assert.ok(Array.isArray(entry.flag_history));
   assert.ok(entry.flag_history.length > 0, 'expected at least one historical flag entry');
+});
+
+test('freezeCoachView: keeps coach blocks from previous build, viewer from fresh', () => {
+  const previous = {
+    athletes: {
+      'stephen-bates': { id: 'stephen-bates', is_real: true, current_fitness: { ctl: 10 } },
+      'coach-1': { id: 'coach-1', is_real: false, current_fitness: { ctl: 80 } },
+    },
+    roster: [{ id: 'coach-1', status: 'on_track' }],
+    roster_summary: { total: 1, needs_checkin: 0, watch: 0, on_track: 1, avg_compliance_pct: 90 },
+    recent_comments_feed: [{ athlete_id: 'coach-1', text: 'good session' }],
+    weekly_totals: { '2026-07-06': { sessions_planned: 4 } },
+  };
+  const fresh = buildDataJson({
+    realAthletes: [{
+      id: 'stephen-bates', name: 'Stephen Bates', avatar_initials: 'SB', is_real: true,
+      current_fitness: { ctl: 99, atl: 60, tsb: 39 }, sessions_by_week: {},
+    }],
+    dummyAthletes: [],
+    asOf: '2026-08-04',
+  });
+
+  const out = freezeCoachView(fresh, previous);
+
+  assert.deepEqual(out.roster, previous.roster);
+  assert.deepEqual(out.roster_summary, previous.roster_summary);
+  assert.deepEqual(out.recent_comments_feed, previous.recent_comments_feed);
+  assert.deepEqual(out.weekly_totals, previous.weekly_totals);
+  assert.deepEqual(out.athletes['coach-1'], previous.athletes['coach-1']);
+  assert.equal(out.athletes['stephen-bates'].current_fitness.ctl, 99, 'viewer must come from the fresh build');
+  assert.equal(out.as_of_date, '2026-08-04');
+});
+
+test('freezeCoachView: returns the fresh build untouched when there is no previous data', () => {
+  const fresh = buildDataJson({ realAthletes: [], dummyAthletes: [], asOf: '2026-08-04' });
+  assert.deepEqual(freezeCoachView(fresh, null), fresh);
 });

@@ -395,10 +395,37 @@ export function validateBuildOutput(out, asOf) {
   return { errors, warnings };
 }
 
+// Coach-side keys carried over verbatim from the previous data.json when the
+// coach view is frozen. Everything else in the output is rebuilt each run.
+const COACH_KEYS = ['roster', 'roster_summary', 'recent_comments_feed', 'weekly_totals'];
+
+// Copy the frozen coach view from the last build onto a freshly built output.
+// The viewer's own athlete record stays fresh; coached athletes, the roster,
+// its summary, the comments feed and the weekly totals are the 12 Jul snapshot.
+export function freezeCoachView(fresh, previous) {
+  if (!previous || typeof previous !== 'object') return fresh;
+  const out = { ...fresh };
+  for (const key of COACH_KEYS) {
+    if (previous[key] !== undefined) out[key] = previous[key];
+  }
+  const athletes = { ...fresh.athletes };
+  for (const [id, a] of Object.entries(previous.athletes || {})) {
+    if (a?.is_real === true) continue; // viewer records always come from the fresh build
+    athletes[id] = a;
+  }
+  out.athletes = athletes;
+  return out;
+}
+
 // CLI
 if (import.meta.url === `file://${process.argv[1]}`) {
+  // Coach view is frozen at its last build: we no longer pull Gerhard's Dubai
+  // roster, so recomputing flags against today would turn every frozen athlete
+  // red on training_gap. Set FREEZE_COACH=0 to go back to a full rebuild.
+  const freezeCoach = process.env.FREEZE_COACH !== '0';
+
   const dummyPath = join(__dirname, 'dummy', 'athletes.json');
-  const dummyAthletes = existsSync(dummyPath)
+  const dummyAthletes = (!freezeCoach && existsSync(dummyPath))
     ? JSON.parse(readFileSync(dummyPath, 'utf8')).athletes
     : [];
 
@@ -442,10 +469,29 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     ...mergedRaw,
     ...seedAthletes.filter(a => !rawIds.has(a.id)),
   ];
-  const out = buildDataJson({ realAthletes, dummyAthletes, asOf });
+  let out = buildDataJson({ realAthletes, dummyAthletes, asOf });
   const outPath = join(REPO_ROOT, 'data.json');
 
+  // Validate before the freeze merge so warnings only cover what we actually
+  // pulled — the frozen coach snapshot would otherwise warn "stale" every run.
   const validation = validateBuildOutput(out, asOf);
+
+  if (freezeCoach) {
+    let previous = null;
+    if (existsSync(outPath)) {
+      try {
+        previous = JSON.parse(readFileSync(outPath, 'utf8'));
+      } catch (e) {
+        console.error(`Could not read previous data.json for coach freeze: ${e.message}`);
+      }
+    }
+    if (previous) {
+      out = freezeCoachView(out, previous);
+    } else {
+      console.warn('FREEZE_COACH is on but no previous data.json was readable — coach view will be empty');
+    }
+  }
+
   out.validation = {
     warnings: validation.warnings,
     hard_error_count: validation.errors.length,
@@ -473,5 +519,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   }
 
   writeFileSync(outPath, JSON.stringify(out, null, 2));
-  console.log(`Wrote ${Object.keys(out.athletes).length} athletes (${realAthletes.length} real + ${dummyAthletes.length} dummy) to ${outPath}`);
+  const frozenCount = Object.keys(out.athletes).length - realAthletes.length;
+  const coachNote = freezeCoach ? `${frozenCount} frozen coach` : `${dummyAthletes.length} dummy`;
+  console.log(`Wrote ${Object.keys(out.athletes).length} athletes (${realAthletes.length} real + ${coachNote}) to ${outPath}`);
 }

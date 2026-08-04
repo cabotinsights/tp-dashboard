@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T03:21:40.432Z",
-  "as_of_date": "2026-07-12",
+  "generated_at": "2026-08-04T07:03:28.566Z",
+  "as_of_date": "2026-08-04",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,275 +61367,365 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 96.4,
-        "atl": 92.2,
-        "tsb": 4.4,
-        "status": "Neutral (normal training)"
+        "ctl": 100.5,
+        "atl": 106.3,
+        "tsb": -13.6,
+        "status": "Very Tired (high fatigue)"
       },
       "this_week": {
-        "start": "2026-07-06",
-        "end": "2026-07-12",
+        "start": "2026-08-03",
+        "end": "2026-08-09",
         "sessions_planned": 12,
-        "sessions_completed": 10,
-        "sessions_missed": 1,
-        "sessions_due_to_date": 11,
-        "sessions_still_to_come": 1,
-        "sessions_planned_today": 1,
-        "compliance_pct": 91,
-        "on_pace": false,
-        "total_tss": 619.3,
-        "total_hours": 9.43,
+        "sessions_completed": 2,
+        "sessions_missed": 0,
+        "sessions_due_to_date": 2,
+        "sessions_still_to_come": 10,
+        "sessions_planned_today": 2,
+        "compliance_pct": 100,
+        "on_pace": true,
+        "total_tss": 125.82,
+        "total_hours": 2.18,
         "by_sport": {
           "Bike": {
-            "hours": 1.27,
-            "tss": 79.77
+            "hours": 1.33,
+            "tss": 73.86
           },
           "Run": {
-            "hours": 3.81,
-            "tss": 199.11
+            "hours": 0.84,
+            "tss": 51.96
           },
           "Swim": {
-            "hours": 2.54,
-            "tss": 273.29
+            "hours": 0,
+            "tss": 0
           },
           "Other": {
-            "hours": 1.82,
-            "tss": 67.13
+            "hours": 0,
+            "tss": 0
           }
         },
         "sessions": [
           {
-            "date": "2026-07-06",
-            "title": "Swim | 5x 300m + 100 hard | Intervals",
-            "sport": "Swim",
-            "duration_hours": 0.7662361113230387,
-            "tss": 76.75,
+            "date": "2026-08-03",
+            "title": "2 x 10x 1min ON/OFF(55-60 rpm) @ 105-110% | FTP",
+            "sport": "Bike",
+            "duration_hours": 1.3333333730697632,
+            "tss": 73.86,
             "tss_planned": null,
             "_status": "done"
           },
           {
-            "date": "2026-07-06",
-            "title": "Other",
-            "sport": "Other",
-            "duration_hours": 0.5003944635391235,
-            "tss": 18.05,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-07",
-            "title": "HILLS | 2x (5x 20s) | Pace",
+            "date": "2026-08-04",
+            "title": "HILLS | 2x (5x 40s) | Pace",
             "sport": "Run",
-            "duration_hours": 0.837952733039856,
-            "tss": 53.43,
+            "duration_hours": 0.8447111248970032,
+            "tss": 51.96,
             "tss_planned": null,
             "_status": "done"
           },
           {
-            "date": "2026-07-07",
-            "title": "Snyman sessionn",
+            "date": "2026-08-04",
+            "title": "S&C",
             "sport": "Other",
-            "duration_hours": 0.9001500010490417,
-            "tss": 34.9,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-08",
-            "title": "Anaerobic Power: 30S Repeats (Level 3)",
-            "sport": "Bike",
-            "duration_hours": 1.2668499946594238,
-            "tss": 79.77,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-08",
-            "title": "Swim Speed Endurance | Z3",
-            "sport": "Swim",
-            "duration_hours": 0.7584055545594958,
-            "tss": 88.55,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-09",
-            "title": "Swim | 2x 10x 100m | Z3",
-            "sport": "Swim",
-            "duration_hours": 0.6236055543687609,
-            "tss": 67.06,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-10",
-            "title": "Threshold 1.1+ | FTP",
-            "sport": "Bike",
-            "duration_hours": 1.4444444444444444,
+            "duration_hours": 0.5,
             "tss": null,
-            "tss_planned": 71.27,
-            "_status": "missed"
+            "tss_planned": null,
+            "_status": "upcoming"
           },
           {
-            "date": "2026-07-10",
+            "date": "2026-08-05",
+            "title": "6 x 4min AT",
+            "sport": "Other",
+            "duration_hours": 1.1166666666666667,
+            "tss": null,
+            "tss_planned": 68.9,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-05",
+            "title": "Snyman S&C",
+            "sport": "Other",
+            "duration_hours": null,
+            "tss": null,
+            "tss_planned": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-06",
+            "title": "Run | 1h Easy | HR",
+            "sport": "Run",
+            "duration_hours": 1,
+            "tss": null,
+            "tss_planned": 40,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-06",
+            "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
+            "sport": "Swim",
+            "duration_hours": 0.8333333333333334,
+            "tss": null,
+            "tss_planned": 31.9,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-07",
             "title": "Al Wasl Swimming Pool",
             "sport": "Swim",
-            "duration_hours": 0.3944166639116075,
-            "tss": 40.93,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-11",
-            "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats (Level 3)",
-            "sport": "Run",
-            "duration_hours": 2.9699583053588867,
-            "tss": 145.68,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-11",
-            "title": "Other",
-            "sport": "Other",
-            "duration_hours": 0.4168555736541748,
-            "tss": 14.18,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-12",
-            "title": "Speed work | 5x 100m, 5x 200m, 5x 400m / 60s rest | Intervals",
-            "sport": "Other",
-            "duration_hours": 1.1875,
+            "duration_hours": null,
             "tss": null,
-            "tss_planned": 93.36,
+            "tss_planned": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-08",
+            "title": "Building | 2 x (5min/10min/15min mod) | FTP",
+            "sport": "Bike",
+            "duration_hours": 3,
+            "tss": null,
+            "tss_planned": 159.6,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-08",
+            "title": "ROB | 20' Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.3333333333333333,
+            "tss": null,
+            "tss_planned": 25.96,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-09",
+            "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
+            "sport": "Swim",
+            "duration_hours": 1.2541666666666667,
+            "tss": null,
+            "tss_planned": 98.4,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-09",
+            "title": "Swim",
+            "sport": "Swim",
+            "duration_hours": 0.5,
+            "tss": null,
+            "tss_planned": 31.62,
             "_status": "upcoming"
           }
         ]
       },
       "last_week": {
-        "start": "2026-06-29",
-        "end": "2026-07-05",
-        "sessions_planned": 0,
-        "sessions_completed": 0,
+        "start": "2026-07-27",
+        "end": "2026-08-02",
+        "sessions_planned": 10,
+        "sessions_completed": 10,
         "sessions_missed": 0,
-        "sessions_due_to_date": 0,
+        "sessions_due_to_date": 10,
         "sessions_still_to_come": 0,
         "sessions_planned_today": 0,
-        "compliance_pct": 0,
+        "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "total_tss": 656.29,
+        "total_hours": 10.43,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 4.42,
+            "tss": 196.95
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.01,
+            "tss": 81.96
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 3.48,
+            "tss": 324.6
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.53,
+            "tss": 52.78
           }
         },
-        "sessions": []
+        "sessions": [
+          {
+            "date": "2026-07-29",
+            "title": "Endurance: Fasted Morning Ride (Level 2, Level 3)",
+            "sport": "Bike",
+            "duration_hours": 1.5001165866851807,
+            "tss": 55.63,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-07-30",
+            "title": "8/6/4/2x 50m",
+            "sport": "Swim",
+            "duration_hours": 0.7542027775446574,
+            "tss": 89.54,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-07-30",
+            "title": "S&C",
+            "sport": "Other",
+            "duration_hours": 0.5835555791854858,
+            "tss": 22.13,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-07-31",
+            "title": "Al Wasl Swimming Pool",
+            "sport": "Swim",
+            "duration_hours": 0.6337111107508342,
+            "tss": 64.94,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-07-31",
+            "title": "Run | 40min Easy - choice run | HR",
+            "sport": "Run",
+            "duration_hours": 0.666752815246582,
+            "tss": 40.13,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-01",
+            "title": "Test: Fatigue Resistance Test (Level 1, Level 2, Level 3)",
+            "sport": "Bike",
+            "duration_hours": 2.9176833629608154,
+            "tss": 141.32,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-01",
+            "title": "ROB | 20' Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.3446555435657501,
+            "tss": 41.83,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-01",
+            "title": "Sauna ane Ice",
+            "sport": "Other",
+            "duration_hours": 0.9444277882575989,
+            "tss": 30.65,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-02",
+            "title": "Run | 2x (5x 40sec efforts / 2min20s recovery)",
+            "sport": "Swim",
+            "duration_hours": 1.4505833387374878,
+            "tss": 105.93,
+            "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-02",
+            "title": "Swim | 20x 100m Pb only | Z3",
+            "sport": "Swim",
+            "duration_hours": 0.6373944441477458,
+            "tss": 64.19,
+            "tss_planned": null,
+            "_status": "done"
+          }
+        ]
       },
       "completed_sessions": [
         {
-          "date": "2026-07-06",
-          "title": "Swim | 5x 300m + 100 hard | Intervals",
-          "sport": "Swim",
-          "duration_hours": 0.7662361113230387,
-          "tss": 76.75
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Other",
-          "sport": "Other",
-          "duration_hours": 0.5003944635391235,
-          "tss": 18.05
-        },
-        {
-          "date": "2026-07-07",
-          "title": "HILLS | 2x (5x 20s) | Pace",
-          "sport": "Run",
-          "duration_hours": 0.837952733039856,
-          "tss": 53.43
-        },
-        {
-          "date": "2026-07-07",
-          "title": "Snyman sessionn",
-          "sport": "Other",
-          "duration_hours": 0.9001500010490417,
-          "tss": 34.9
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Anaerobic Power: 30S Repeats (Level 3)",
+          "date": "2026-08-03",
+          "title": "2 x 10x 1min ON/OFF(55-60 rpm) @ 105-110% | FTP",
           "sport": "Bike",
-          "duration_hours": 1.2668499946594238,
-          "tss": 79.77
+          "duration_hours": 1.3333333730697632,
+          "tss": 73.86
         },
         {
-          "date": "2026-07-08",
-          "title": "Swim Speed Endurance | Z3",
-          "sport": "Swim",
-          "duration_hours": 0.7584055545594958,
-          "tss": 88.55
-        },
-        {
-          "date": "2026-07-09",
-          "title": "Swim | 2x 10x 100m | Z3",
-          "sport": "Swim",
-          "duration_hours": 0.6236055543687609,
-          "tss": 67.06
-        },
-        {
-          "date": "2026-07-10",
-          "title": "Al Wasl Swimming Pool",
-          "sport": "Swim",
-          "duration_hours": 0.3944166639116075,
-          "tss": 40.93
-        },
-        {
-          "date": "2026-07-11",
-          "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats (Level 3)",
+          "date": "2026-08-04",
+          "title": "HILLS | 2x (5x 40s) | Pace",
           "sport": "Run",
-          "duration_hours": 2.9699583053588867,
-          "tss": 145.68
-        },
-        {
-          "date": "2026-07-11",
-          "title": "Other",
-          "sport": "Other",
-          "duration_hours": 0.4168555736541748,
-          "tss": 14.18
+          "duration_hours": 0.8447111248970032,
+          "tss": 51.96
         }
       ],
-      "missed_sessions": [
-        {
-          "date": "2026-07-10",
-          "title": "Threshold 1.1+ | FTP",
-          "sport": "Bike",
-          "duration_hours": 1.4444444444444444,
-          "tss_planned": 71.27
-        }
-      ],
+      "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-07-12",
-          "title": "Speed work | 5x 100m, 5x 200m, 5x 400m / 60s rest | Intervals",
+          "date": "2026-08-04",
+          "title": "S&C",
           "sport": "Other",
-          "duration_hours": 1.1875,
-          "tss_planned": 93.36
+          "duration_hours": 0.5,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-08-05",
+          "title": "6 x 4min AT",
+          "sport": "Other",
+          "duration_hours": 1.1166666666666667,
+          "tss_planned": 68.9
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Snyman S&C",
+          "sport": "Other",
+          "duration_hours": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-08-06",
+          "title": "Run | 1h Easy | HR",
+          "sport": "Run",
+          "duration_hours": 1,
+          "tss_planned": 40
+        },
+        {
+          "date": "2026-08-06",
+          "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
+          "sport": "Swim",
+          "duration_hours": 0.8333333333333334,
+          "tss_planned": 31.9
+        },
+        {
+          "date": "2026-08-07",
+          "title": "Al Wasl Swimming Pool",
+          "sport": "Swim",
+          "duration_hours": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-08-08",
+          "title": "Building | 2 x (5min/10min/15min mod) | FTP",
+          "sport": "Bike",
+          "duration_hours": 3,
+          "tss_planned": 159.6
+        },
+        {
+          "date": "2026-08-08",
+          "title": "ROB | 20' Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.3333333333333333,
+          "tss_planned": 25.96
+        },
+        {
+          "date": "2026-08-09",
+          "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
+          "sport": "Swim",
+          "duration_hours": 1.2541666666666667,
+          "tss_planned": 98.4
+        },
+        {
+          "date": "2026-08-09",
+          "title": "Swim",
+          "sport": "Swim",
+          "duration_hours": 0.5,
+          "tss_planned": 31.62
         }
       ],
       "next_event": {
@@ -61645,7 +61735,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 126
+        "days_out": 103
       },
       "focus_event": {
         "id": 37280222,
@@ -61654,7 +61744,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 146
+        "days_out": 123
       },
       "peaks": {
         "bike_20min_power": {
@@ -61861,144 +61951,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-04-19",
-          "ctl": 73.2,
-          "atl": 52.8,
-          "tsb": 13.4
-        },
-        {
-          "date": "2026-04-20",
-          "ctl": 72.4,
-          "atl": 51.1,
-          "tsb": 20.4
-        },
-        {
-          "date": "2026-04-21",
-          "ctl": 74,
-          "atl": 63.7,
-          "tsb": 21.3
-        },
-        {
-          "date": "2026-04-22",
-          "ctl": 76.2,
-          "atl": 78.1,
-          "tsb": 10.3
-        },
-        {
-          "date": "2026-04-23",
-          "ctl": 78.9,
-          "atl": 94.2,
-          "tsb": -1.9
-        },
-        {
-          "date": "2026-04-24",
-          "ctl": 77.8,
-          "atl": 85.4,
-          "tsb": -15.3
-        },
-        {
-          "date": "2026-04-25",
-          "ctl": 80.7,
-          "atl": 101.9,
-          "tsb": -7.6
-        },
-        {
-          "date": "2026-04-26",
-          "ctl": 81.5,
-          "atl": 103.5,
-          "tsb": -21.2
-        },
-        {
-          "date": "2026-04-27",
-          "ctl": 83.1,
-          "atl": 110,
-          "tsb": -22
-        },
-        {
-          "date": "2026-04-28",
-          "ctl": 84.7,
-          "atl": 116,
-          "tsb": -26.9
-        },
-        {
-          "date": "2026-04-29",
-          "ctl": 86.6,
-          "atl": 122.8,
-          "tsb": -31.3
-        },
-        {
-          "date": "2026-04-30",
-          "ctl": 86.3,
-          "atl": 115.9,
-          "tsb": -36.2
-        },
-        {
-          "date": "2026-05-01",
-          "ctl": 88,
-          "atl": 121.6,
-          "tsb": -29.6
-        },
-        {
-          "date": "2026-05-02",
-          "ctl": 89.7,
-          "atl": 127.1,
-          "tsb": -33.7
-        },
-        {
-          "date": "2026-05-03",
-          "ctl": 90,
-          "atl": 123.7,
-          "tsb": -37.4
-        },
-        {
-          "date": "2026-05-04",
-          "ctl": 90.9,
-          "atl": 124.2,
-          "tsb": -33.7
-        },
-        {
-          "date": "2026-05-05",
-          "ctl": 92.9,
-          "atl": 131.5,
-          "tsb": -33.3
-        },
-        {
-          "date": "2026-05-06",
-          "ctl": 96.3,
-          "atl": 146.3,
-          "tsb": -38.6
-        },
-        {
-          "date": "2026-05-07",
-          "ctl": 94.5,
-          "atl": 128.2,
-          "tsb": -50
-        },
-        {
-          "date": "2026-05-08",
-          "ctl": 93.6,
-          "atl": 118,
-          "tsb": -33.7
-        },
-        {
-          "date": "2026-05-09",
-          "ctl": 95.2,
-          "atl": 124.3,
-          "tsb": -24.4
-        },
-        {
-          "date": "2026-05-10",
-          "ctl": 97.9,
-          "atl": 136.4,
-          "tsb": -29.1
-        },
-        {
-          "date": "2026-05-11",
-          "ctl": 100.7,
-          "atl": 147.4,
-          "tsb": -38.5
-        },
         {
           "date": "2026-05-12",
           "ctl": 100.5,
@@ -62367,236 +62319,170 @@
         },
         {
           "date": "2026-07-12",
-          "ctl": 96.4,
-          "atl": 92.2,
+          "ctl": 97.8,
+          "atl": 100.5,
           "tsb": 4.4
+        },
+        {
+          "date": "2026-07-13",
+          "ctl": 96.5,
+          "atl": 92.7,
+          "tsb": -2.8
+        },
+        {
+          "date": "2026-07-14",
+          "ctl": 95.2,
+          "atl": 85.4,
+          "tsb": 3.8
+        },
+        {
+          "date": "2026-07-15",
+          "ctl": 94.9,
+          "atl": 84.8,
+          "tsb": 9.8
+        },
+        {
+          "date": "2026-07-16",
+          "ctl": 95.1,
+          "atl": 87.3,
+          "tsb": 10.1
+        },
+        {
+          "date": "2026-07-17",
+          "ctl": 95,
+          "atl": 88.3,
+          "tsb": 7.8
+        },
+        {
+          "date": "2026-07-18",
+          "ctl": 96.9,
+          "atl": 100.6,
+          "tsb": 6.8
+        },
+        {
+          "date": "2026-07-19",
+          "ctl": 98.2,
+          "atl": 108,
+          "tsb": -3.6
+        },
+        {
+          "date": "2026-07-20",
+          "ctl": 98.2,
+          "atl": 106.5,
+          "tsb": -9.7
+        },
+        {
+          "date": "2026-07-21",
+          "ctl": 97.5,
+          "atl": 101,
+          "tsb": -8.3
+        },
+        {
+          "date": "2026-07-22",
+          "ctl": 97.8,
+          "atl": 102.1,
+          "tsb": -3.5
+        },
+        {
+          "date": "2026-07-23",
+          "ctl": 98.7,
+          "atl": 106.8,
+          "tsb": -4.3
+        },
+        {
+          "date": "2026-07-24",
+          "ctl": 98,
+          "atl": 101.5,
+          "tsb": -8.1
+        },
+        {
+          "date": "2026-07-25",
+          "ctl": 99.5,
+          "atl": 109.9,
+          "tsb": -3.5
+        },
+        {
+          "date": "2026-07-26",
+          "ctl": 99.7,
+          "atl": 110,
+          "tsb": -10.5
+        },
+        {
+          "date": "2026-07-27",
+          "ctl": 99,
+          "atl": 104.3,
+          "tsb": -10.3
+        },
+        {
+          "date": "2026-07-28",
+          "ctl": 98.5,
+          "atl": 100.3,
+          "tsb": -5.3
+        },
+        {
+          "date": "2026-07-29",
+          "ctl": 97.5,
+          "atl": 93.9,
+          "tsb": -1.8
+        },
+        {
+          "date": "2026-07-30",
+          "ctl": 97.8,
+          "atl": 96.5,
+          "tsb": 3.5
+        },
+        {
+          "date": "2026-07-31",
+          "ctl": 98,
+          "atl": 97.7,
+          "tsb": 1.3
+        },
+        {
+          "date": "2026-08-01",
+          "ctl": 100.7,
+          "atl": 114.3,
+          "tsb": 0.3
+        },
+        {
+          "date": "2026-08-02",
+          "ctl": 102.4,
+          "atl": 122.3,
+          "tsb": -13.6
+        },
+        {
+          "date": "2026-08-03",
+          "ctl": 101.7,
+          "atl": 115.3,
+          "tsb": -19.9
+        },
+        {
+          "date": "2026-08-04",
+          "ctl": 100.5,
+          "atl": 106.3,
+          "tsb": -13.6
         }
       ],
       "weekly_trend": [
         {
-          "week_start": "2026-07-06",
-          "tss": 619,
-          "hours": 9.43,
-          "ctl_end": 96.4
+          "week_start": "2026-07-27",
+          "tss": 656,
+          "hours": 10.43,
+          "ctl_end": 102.4
         },
         {
-          "week_start": "2026-07-13",
+          "week_start": "2026-08-03",
+          "tss": 126,
+          "hours": 2.18,
+          "ctl_end": 100.5
+        },
+        {
+          "week_start": "2026-08-10",
           "tss": 0,
           "hours": 0,
-          "ctl_end": 96.4
+          "ctl_end": null
         }
       ],
       "recovery": [
-        {
-          "date": "2026-06-12",
-          "sleep_hours": 6.52,
-          "deep": 1.06,
-          "light": 3.55,
-          "rem": 1.78,
-          "awake": 0.13000011,
-          "hrv": 79,
-          "resting_hr": 49
-        },
-        {
-          "date": "2026-06-13",
-          "sleep_hours": 5.85,
-          "deep": 1.88,
-          "light": 3.6,
-          "rem": 0.26,
-          "awake": 0.109999895,
-          "hrv": 42,
-          "resting_hr": 56
-        },
-        {
-          "date": "2026-06-14",
-          "sleep_hours": 10.2,
-          "deep": 2.11,
-          "light": 5.08,
-          "rem": 2.83,
-          "awake": 0.1800003,
-          "hrv": 63,
-          "resting_hr": 53
-        },
-        {
-          "date": "2026-06-15",
-          "sleep_hours": 8.33,
-          "deep": 1.3,
-          "light": 4.48,
-          "rem": 2.31,
-          "awake": 0.23999977,
-          "hrv": 54,
-          "resting_hr": 55
-        },
-        {
-          "date": "2026-06-16",
-          "sleep_hours": 8.03,
-          "deep": 1.33,
-          "light": 4.43,
-          "rem": 2.05,
-          "awake": 0.22000003,
-          "hrv": 69,
-          "resting_hr": 51
-        },
-        {
-          "date": "2026-06-17",
-          "sleep_hours": 5.9,
-          "deep": 2.01,
-          "light": 2.41,
-          "rem": 1.4,
-          "awake": 0.08000004,
-          "hrv": 62,
-          "resting_hr": 53
-        },
-        {
-          "date": "2026-06-18",
-          "sleep_hours": 8.1,
-          "deep": 1.15,
-          "light": 5.36,
-          "rem": 0.9,
-          "awake": 0.6900002,
-          "hrv": 68,
-          "resting_hr": 52
-        },
-        {
-          "date": "2026-06-19",
-          "sleep_hours": 6.42,
-          "deep": 1.28,
-          "light": 4,
-          "rem": 0.96,
-          "awake": 0.18000036,
-          "hrv": 71,
-          "resting_hr": 53
-        },
-        {
-          "date": "2026-06-20",
-          "sleep_hours": 4.12,
-          "deep": 0.75,
-          "light": 2.03,
-          "rem": 0.3,
-          "awake": 1.04,
-          "hrv": 28,
-          "resting_hr": 60
-        },
-        {
-          "date": "2026-06-23",
-          "sleep_hours": 10.13,
-          "deep": 1.65,
-          "light": 5.2,
-          "rem": 3.11,
-          "awake": 0.17000079,
-          "hrv": 56,
-          "resting_hr": 57
-        },
-        {
-          "date": "2026-06-24",
-          "sleep_hours": 8.97,
-          "deep": 1.18,
-          "light": 4.66,
-          "rem": 2.41,
-          "awake": 0.7200005,
-          "hrv": 52,
-          "resting_hr": 55
-        },
-        {
-          "date": "2026-06-25",
-          "sleep_hours": 9.92,
-          "deep": 1.31,
-          "light": 5.63,
-          "rem": 2.35,
-          "awake": 0.6300006,
-          "hrv": 45,
-          "resting_hr": 57
-        },
-        {
-          "date": "2026-06-26",
-          "sleep_hours": 9.13,
-          "deep": 1.23,
-          "light": 5.71,
-          "rem": 1.73,
-          "awake": 0.46000004,
-          "hrv": 39,
-          "resting_hr": 59
-        },
-        {
-          "date": "2026-06-27",
-          "sleep_hours": 8.6,
-          "deep": 0.96,
-          "light": 4.83,
-          "rem": 2.25,
-          "awake": 0.5600004,
-          "hrv": 52,
-          "resting_hr": 54
-        },
-        {
-          "date": "2026-06-28",
-          "sleep_hours": 8.75,
-          "deep": 0.76,
-          "light": 5.2,
-          "rem": 1.61,
-          "awake": 1.18,
-          "hrv": 74,
-          "resting_hr": 52
-        },
-        {
-          "date": "2026-06-29",
-          "sleep_hours": 10.8,
-          "deep": 1.56,
-          "light": 6.3,
-          "rem": 1.23,
-          "awake": 1.7099996,
-          "hrv": 75,
-          "resting_hr": 52
-        },
-        {
-          "date": "2026-06-30",
-          "sleep_hours": 9.03,
-          "deep": 1.01,
-          "light": 5.03,
-          "rem": 1.9,
-          "awake": 1.0899993,
-          "hrv": 70,
-          "resting_hr": 53
-        },
-        {
-          "date": "2026-07-01",
-          "sleep_hours": 8.9,
-          "deep": 2.45,
-          "light": 4.23,
-          "rem": 1.53,
-          "awake": 0.6899998,
-          "hrv": 64,
-          "resting_hr": 53
-        },
-        {
-          "date": "2026-07-02",
-          "sleep_hours": 8.35,
-          "deep": 0.9,
-          "light": 5.08,
-          "rem": 1.21,
-          "awake": 1.1600003,
-          "hrv": 43,
-          "resting_hr": 57
-        },
-        {
-          "date": "2026-07-03",
-          "sleep_hours": 4.15,
-          "deep": 0.46,
-          "light": 2.41,
-          "rem": 0,
-          "awake": 1.28,
-          "hrv": 74,
-          "resting_hr": 56
-        },
-        {
-          "date": "2026-07-04",
-          "sleep_hours": 5.42,
-          "deep": 0.35,
-          "light": 3.68,
-          "rem": 1.1,
-          "awake": 0.29000008,
-          "hrv": 51,
-          "resting_hr": 54
-        },
         {
           "date": "2026-07-05",
           "sleep_hours": 9.23,
@@ -62676,6 +62562,236 @@
           "awake": 1.08,
           "hrv": 69,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-07-13",
+          "sleep_hours": 9.78,
+          "deep": 1.5,
+          "light": 5.4,
+          "rem": 1.9,
+          "awake": 0.97999966,
+          "hrv": 79,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-14",
+          "sleep_hours": 8.87,
+          "deep": 1.46,
+          "light": 5.15,
+          "rem": 1.76,
+          "awake": 0.49999976,
+          "hrv": 75,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-07-15",
+          "sleep_hours": 3.27,
+          "deep": 1.01,
+          "light": 1.76,
+          "rem": 0.41,
+          "awake": 0.09,
+          "hrv": 53,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-07-16",
+          "sleep_hours": 7.62,
+          "deep": 1.21,
+          "light": 3.95,
+          "rem": 2.36,
+          "awake": 0.099999905,
+          "hrv": 65,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-07-17",
+          "sleep_hours": 7.23,
+          "deep": 1.26,
+          "light": 3.68,
+          "rem": 1.6,
+          "awake": 0.6900002,
+          "hrv": null,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-07-18",
+          "sleep_hours": 5.45,
+          "deep": 0.98,
+          "light": 3.16,
+          "rem": 1.23,
+          "awake": 0.079999685,
+          "hrv": 70,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-07-19",
+          "sleep_hours": 7.38,
+          "deep": 1.38,
+          "light": 3.61,
+          "rem": 1.85,
+          "awake": 0.5400001,
+          "hrv": 72,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-20",
+          "sleep_hours": 10.1,
+          "deep": 1.68,
+          "light": 5.56,
+          "rem": 2.2,
+          "awake": 0.6600001,
+          "hrv": 85,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-07-21",
+          "sleep_hours": 8.18,
+          "deep": 1.46,
+          "light": 4.15,
+          "rem": 1.4,
+          "awake": 1.1700002,
+          "hrv": 85,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-07-22",
+          "sleep_hours": 7.02,
+          "deep": 1.33,
+          "light": 4.53,
+          "rem": 1.01,
+          "awake": 0.14999986,
+          "hrv": 86,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-07-23",
+          "sleep_hours": 8.22,
+          "deep": 1.33,
+          "light": 4.65,
+          "rem": 2,
+          "awake": 0.24000025,
+          "hrv": 75,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-24",
+          "sleep_hours": 9.4,
+          "deep": 1.4,
+          "light": 5.68,
+          "rem": 2.11,
+          "awake": 0.2099998,
+          "hrv": 72,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-07-25",
+          "sleep_hours": 5.78,
+          "deep": 1.43,
+          "light": 3.13,
+          "rem": 0.58,
+          "awake": 0.6400003,
+          "hrv": 53,
+          "resting_hr": 57
+        },
+        {
+          "date": "2026-07-26",
+          "sleep_hours": 8.33,
+          "deep": 1.51,
+          "light": 4.51,
+          "rem": 2.05,
+          "awake": 0.2599995,
+          "hrv": 88,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-07-27",
+          "sleep_hours": 8.93,
+          "deep": 1.25,
+          "light": 4.75,
+          "rem": 2.71,
+          "awake": 0.22000027,
+          "hrv": 76,
+          "resting_hr": 54
+        },
+        {
+          "date": "2026-07-28",
+          "sleep_hours": 7.72,
+          "deep": 1.36,
+          "light": 4.15,
+          "rem": 1.31,
+          "awake": 0.8999996,
+          "hrv": 82,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-29",
+          "sleep_hours": 9.45,
+          "deep": 1.31,
+          "light": 5.76,
+          "rem": 1.08,
+          "awake": 1.2999991,
+          "hrv": 77,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-07-30",
+          "sleep_hours": 7.77,
+          "deep": 1.63,
+          "light": 3.88,
+          "rem": 2.08,
+          "awake": 0.17999983,
+          "hrv": 92,
+          "resting_hr": 49
+        },
+        {
+          "date": "2026-07-31",
+          "sleep_hours": 8.23,
+          "deep": 1.31,
+          "light": 4.3,
+          "rem": 1.78,
+          "awake": 0.83999944,
+          "hrv": 68,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-08-01",
+          "sleep_hours": 8.62,
+          "deep": 1.68,
+          "light": 3.78,
+          "rem": 2.2,
+          "awake": 0.96000004,
+          "hrv": 60,
+          "resting_hr": 53
+        },
+        {
+          "date": "2026-08-02",
+          "sleep_hours": 8.58,
+          "deep": 1.66,
+          "light": 5.3,
+          "rem": 1.48,
+          "awake": 0.13999987,
+          "hrv": 73,
+          "resting_hr": 52
+        },
+        {
+          "date": "2026-08-03",
+          "sleep_hours": 8.83,
+          "deep": 1.58,
+          "light": 4.75,
+          "rem": 2.36,
+          "awake": 0.1400001,
+          "hrv": 75,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-08-04",
+          "sleep_hours": 7.6,
+          "deep": 1.45,
+          "light": 3.93,
+          "rem": 2.08,
+          "awake": 0.13999963,
+          "hrv": 82,
+          "resting_hr": 50
         }
       ],
       "flags": [],
@@ -62686,208 +62802,220 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 126
+          "days_out": 103
         }
       ],
       "sessions_by_week": {
-        "2026-07-06": [
+        "2026-07-27": [
           {
-            "id": "3825823253",
-            "date": "2026-07-06",
-            "title": "Swim | 5x 300m + 100 hard | Intervals",
+            "id": "3838845409",
+            "date": "2026-07-29",
+            "title": "Endurance: Fasted Morning Ride (Level 2, Level 3)",
             "sport": null,
-            "duration_hours": 0.7662361113230387,
+            "duration_hours": 1.5001165866851807,
             "tss_planned": null,
-            "tss_actual": 76.75,
+            "tss_actual": 55.63,
             "status": "completed",
-            "description": "Warm Up;\n---------------------------------------------------\n2x 100m easy (75m back stroke/25m free)\nrest 20's\n4x 50m (15m sprint / 35m easy) rest 20's\n---------------------------------------------------\nmainsheet\n----------------------------------------------------\n5x 300m moderate Pb + P - rest 20's\n+ 100m Hard - rest 40s\n----------------------------------------------------\n100m cool down",
+            "description": "2H @ 60-70% FTP in fasted state.\n\nFasted state can be achieved by training in the morning, before eating any breakfast or other carbohydrate source. Take some food/energy drink on the ride with you in case you need some fuel before the ride is over. But try to ride as long as possible without eating.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm\n\nBy doing this session fasted, there's some evidence that aerobic adaptations and particularly capacity for fat oxidation may be improved. For more on this, check out the following papers:\nhttps://pubmed.ncbi.nlm.nih.gov/21051570/\nhttps://pubmed.ncbi.nlm.nih.gov/29315892/",
             "comments": []
           },
           {
-            "id": "3830271665",
-            "date": "2026-07-06",
-            "title": "Other",
+            "id": "3838844897",
+            "date": "2026-07-30",
+            "title": "8/6/4/2x 50m",
             "sport": null,
-            "duration_hours": 0.5003944635391235,
+            "duration_hours": 0.7542027775446574,
             "tss_planned": null,
-            "tss_actual": 18.05,
+            "tss_actual": 89.54,
             "status": "completed",
-            "description": null,
+            "description": "400m easy\n4x100m (15 sprint / 85 easy)\n200m easy\n8/6/4/2 x 50m, every 4/3/2/1 fast, rest 20'' (plus 10'rest after fast ones)\n500m easy",
             "comments": []
           },
           {
-            "id": "3825826131",
-            "date": "2026-07-07",
-            "title": "HILLS | 2x (5x 20s) | Pace",
+            "id": "3875501170",
+            "date": "2026-07-30",
+            "title": "S&C",
             "sport": null,
-            "duration_hours": 0.837952733039856,
+            "duration_hours": 0.5835555791854858,
             "tss_planned": null,
-            "tss_actual": 53.43,
-            "status": "completed",
-            "description": "WU: 25min EASY WARM-UP THEN\n----------------------------------------------SHORT HILLS – 5x 20 sec HILLS with a slow jog back.\n-------------------------------------------\njog 5min\n------------------------------------------\nSHORT HILLS – 5x 20 sec HILLS with a slow jog back.\n--------------------------------------------\nCool down 10min +",
-            "comments": []
-          },
-          {
-            "id": "3831580961",
-            "date": "2026-07-07",
-            "title": "Snyman sessionn",
-            "sport": null,
-            "duration_hours": 0.9001500010490417,
-            "tss_planned": null,
-            "tss_actual": 34.9,
+            "tss_actual": 22.13,
             "status": "completed",
             "description": null,
             "comments": []
           },
           {
-            "id": "3825825603",
-            "date": "2026-07-08",
-            "title": "Anaerobic Power: 30S Repeats (Level 3)",
-            "sport": null,
-            "duration_hours": 1.2668499946594238,
-            "tss_planned": null,
-            "tss_actual": 79.77,
-            "status": "completed",
-            "description": "30M warm up, building up from 55-65% FTP towards 85-95% FTP, and then settling in to 55-75% FTP. Add in 2-3 10S surges at ~8/10 effort level to fully activate your muscles before the anaerobic efforts.\n\nThen perform 10x 30S intervals @ a near maximal effort, paced consistently across the 30S interval. Take 3M for active recovery @ 30-40% FTP after each interval.\n\nRemaining time up to ~1-1H30M @ 50-65% FTP to return body to resting levels steadily.",
-            "comments": []
-          },
-          {
-            "id": "3825826334",
-            "date": "2026-07-08",
-            "title": "Swim Speed Endurance | Z3",
-            "sport": null,
-            "duration_hours": 0.7584055545594958,
-            "tss_planned": null,
-            "tss_actual": 88.55,
-            "status": "completed",
-            "description": "Warm-up:\n400 easy rest 30's\n4x 50 (15 sprint / 35 easy) rest 20's\n200 easy\n----------------------------------------------\nMainset:\n2x rounds\n(8x 25m sprint rest 20's;\n4x 50m sprint rest 40's;\n300m pb easy rest 1min')\n-----------------------------------------------\n400m cool down",
-            "comments": []
-          },
-          {
-            "id": "3825825808",
-            "date": "2026-07-09",
-            "title": "Swim | 2x 10x 100m | Z3",
-            "sport": null,
-            "duration_hours": 0.6236055543687609,
-            "tss_planned": null,
-            "tss_actual": 67.06,
-            "status": "completed",
-            "description": "Warm Up:\n5x 100 rest 15's\n4x 50m (15 sprint/35 easy) r20''\n-----------------------------------------------------\nMain set:\n2x rounds\n(100 easy pb rest 15's\n2x 100 mod pb rest 15's\n3x 100 mod-hard pb rest 15's\n4x 100 hard pb rest 15's)\n-------------------------------------------------------\n5x 100 cool down",
-            "comments": []
-          },
-          {
-            "id": "3825824922",
-            "date": "2026-07-10",
-            "title": "Threshold 1.1+ | FTP",
-            "sport": null,
-            "duration_hours": 1.4444444444444444,
-            "tss_planned": 71.27,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.",
-            "comments": []
-          },
-          {
-            "id": "3825825178",
-            "date": "2026-07-10",
+            "id": "3838597217",
+            "date": "2026-07-31",
             "title": "Al Wasl Swimming Pool",
             "sport": null,
-            "duration_hours": 0.3944166639116075,
+            "duration_hours": 0.6337111107508342,
             "tss_planned": null,
-            "tss_actual": 40.93,
+            "tss_actual": 64.94,
             "status": "completed",
             "description": "",
             "comments": []
           },
           {
-            "id": "3825824637",
-            "date": "2026-07-11",
-            "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats (Level 3)",
+            "id": "3840682446",
+            "date": "2026-07-31",
+            "title": "Run | 40min Easy - choice run | HR",
             "sport": null,
-            "duration_hours": 2.9699583053588867,
+            "duration_hours": 0.666752815246582,
             "tss_planned": null,
-            "tss_actual": 145.68,
+            "tss_actual": 40.13,
             "status": "completed",
-            "description": "3H @ 55-70% FTP, with 5x 2M hill repeats with each @ 105-110% FTP with 2M active recovery between each (1:1 work to rest ratio).\n\nKeep intensity in check wherever possible during steady riding, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.",
+            "description": "Just nice and easy, getting into a nice rhythm.",
             "comments": []
           },
           {
-            "id": "3838975509",
-            "date": "2026-07-11",
-            "title": "Other",
+            "id": "3838824585",
+            "date": "2026-08-01",
+            "title": "Test: Fatigue Resistance Test (Level 1, Level 2, Level 3)",
             "sport": null,
-            "duration_hours": 0.4168555736541748,
+            "duration_hours": 2.9176833629608154,
             "tss_planned": null,
-            "tss_actual": 14.18,
+            "tss_actual": 141.32,
+            "status": "completed",
+            "description": "Ride for ~20M to warm up (feel free to extend this a little further if you need longer to get to a suitable test location).\n\nThen complete a 1M effort at the maximum power you think you can sustain across the effort.\n\nThen ride for around 2-3H (depending on existing endurance abilities), keeping power between 55-70% FTP as much as possible.\n\nThen complete another 60S effort at a maximal effort.\n\nFinally, complete remainder of ride at a Zone 2 (55-70% FTP) intensity.\n\nPURPOSE: This session also allows you to assess your fatigue resistance. You can compare your 1M power at the start and end of the ride of the ride, to see how much this has fallen (we recommend working of the % decline). Use this test to assess improvements in your fatigue resistance.",
+            "comments": []
+          },
+          {
+            "id": "3859538310",
+            "date": "2026-08-01",
+            "title": "ROB | 20' Easy | Pace",
+            "sport": null,
+            "duration_hours": 0.3446555435657501,
+            "tss_planned": null,
+            "tss_actual": 41.83,
+            "status": "completed",
+            "description": "20min run of bike easy... try and get the heart rate under control...",
+            "comments": []
+          },
+          {
+            "id": "3878348293",
+            "date": "2026-08-01",
+            "title": "Sauna ane Ice",
+            "sport": null,
+            "duration_hours": 0.9444277882575989,
+            "tss_planned": null,
+            "tss_actual": 30.65,
             "status": "completed",
             "description": null,
             "comments": []
           },
           {
-            "id": "3825824584",
-            "date": "2026-07-12",
-            "title": "Speed work | 5x 100m, 5x 200m, 5x 400m / 60s rest | Intervals",
+            "id": "3838824649",
+            "date": "2026-08-02",
+            "title": "Run | 2x (5x 40sec efforts / 2min20s recovery)",
             "sport": null,
-            "duration_hours": 1.1875,
-            "tss_planned": 93.36,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "WU: 25min - EASY PACE - then;\n4x 100m, 60s rest recovery,\n5x 200m, 60s rest recovery,\n5x 400m, 60s rest recovery,\n\n(4min recovery between sets)\n\nGO REALLY CONTROLLED ON THESE !!!",
+            "duration_hours": 1.4505833387374878,
+            "tss_planned": null,
+            "tss_actual": 105.93,
+            "status": "completed",
+            "description": "WU: 25-28min - EASY PACE - then 3x sets;\n5x 300m MED to MAD effort / 60sec easy\n(3min recovery between sets)\n\nNice and controlled.",
+            "comments": []
+          },
+          {
+            "id": "3869327991",
+            "date": "2026-08-02",
+            "title": "Swim | 20x 100m Pb only | Z3",
+            "sport": null,
+            "duration_hours": 0.6373944441477458,
+            "tss_planned": null,
+            "tss_actual": 64.19,
+            "status": "completed",
+            "description": "200m / 2x 100m easy rest 20's\n4x 50m (progressive 1-3, 4th easy) rest 20's\n------------------------------------------------------\n2x100m easy rest 15's pb\n4x100m mod rest 15's pb\n6x100m mod-hard rest 15's pb\n8x100m hard rest 15's pb\n------------------------------------------------------\n5x 100m easy, relaxed rest 15's",
             "comments": []
           }
         ],
-        "2026-07-13": [
+        "2026-08-03": [
           {
-            "id": "3825823475",
-            "date": "2026-07-13",
-            "title": "Swim | 3x (6x 50m) + 300m | Speed Endurance",
+            "id": "3869334624",
+            "date": "2026-08-03",
+            "title": "2 x 10x 1min ON/OFF(55-60 rpm) @ 105-110% | FTP",
+            "sport": null,
+            "duration_hours": 1.3333333730697632,
+            "tss_planned": null,
+            "tss_actual": 73.86,
+            "status": "completed",
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nThis strength session is all about creating torque and keeping the RPM within range. DONT focus on the power.",
+            "comments": []
+          },
+          {
+            "id": "3880001112",
+            "date": "2026-08-04",
+            "title": "HILLS | 2x (5x 40s) | Pace",
+            "sport": null,
+            "duration_hours": 0.8447111248970032,
+            "tss_planned": null,
+            "tss_actual": 51.96,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3880012345",
+            "date": "2026-08-04",
+            "title": "S&C",
+            "sport": null,
+            "duration_hours": 0.5,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "description": null,
+            "comments": []
+          },
+          {
+            "id": "3880004300",
+            "date": "2026-08-05",
+            "title": "6 x 4min AT",
+            "sport": null,
+            "duration_hours": 1.1166666666666667,
+            "tss_planned": 68.9,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "WU: 20min\nEMS:\n6x 4min AT, 2:30 rest\nCD: 8min",
+            "comments": []
+          },
+          {
+            "id": "3884365013",
+            "date": "2026-08-05",
+            "title": "Snyman S&C",
             "sport": null,
             "duration_hours": null,
             "tss_planned": null,
             "tss_actual": null,
             "status": "planned",
-            "description": "400 easy rest 30's\n4x50m (15 sprint / 35 easy) rest 20's\n---------------------------------------\n6x 50m sprint rest 20's\n300 easy pb\n6x 50m sprint rest 30's\n300 easy pb\n6x 50m sprint rest 40's\n300 easy pb\n---------------------------------------\n300 cool down",
+            "description": null,
             "comments": []
           },
           {
-            "id": "3837954726",
-            "date": "2026-07-14",
-            "title": "HILLS | 2x (5x 25s) | Pace",
+            "id": "3880008953",
+            "date": "2026-08-06",
+            "title": "Run | 1h Easy | HR",
             "sport": null,
-            "duration_hours": 0.8888888888888888,
-            "tss_planned": 55.08,
+            "duration_hours": 1,
+            "tss_planned": 40,
             "tss_actual": null,
             "status": "planned",
-            "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 5x 25 sec HILLS with a slow jog back.\n----------------------------------------------\njog 5min\n--------------------------------------------\nSHORT HILLS – 5x 25 sec HILLS with a slow jog back.\n-----------------------------------------------------\nCool down 10min +",
+            "description": "1h easy, just nice and easy, getting into a nice rhythm.",
             "comments": []
           },
           {
-            "id": "3837955375",
-            "date": "2026-07-15",
-            "title": "Anaerobic Power: 60S Repeats (Level 3)",
+            "id": "3880011834",
+            "date": "2026-08-06",
+            "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
             "sport": null,
-            "duration_hours": 1.5,
-            "tss_planned": 85.08,
+            "duration_hours": 0.8333333333333334,
+            "tss_planned": 31.9,
             "tss_actual": null,
             "status": "planned",
-            "description": "30M warm up, building up from 55-65% FTP towards 85-95% FTP, and then settling in to 55-75% FTP.\n\nThen perform 5-6x 1M intervals @ a near maximal effort, paced consistently across the 1M interval. Take 6M for active recovery @ 40-50% FTP after each interval.\n\nRemaining time up to 1H30M @ 50-65% FTP to return body to resting levels steadily.",
+            "description": "Warm up\n400m (easy rest 30s\n4x 50m (15 sprint / 35 easy) rest 20's\n200m easy\n-------------------------------------------\nMain set:\n--------------------------------------------------\n(2x)\n8x 25m Sprint - rest 20's\n4x 50m Sprint - rest 40's\n300m Easy - rest 1min\n--------------------------------------------------\n400m - cool down",
             "comments": []
           },
           {
-            "id": "3838836368",
-            "date": "2026-07-16",
-            "title": "Swim | 5x 200m + 10x 50m | Z2",
-            "sport": null,
-            "duration_hours": null,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "200m easy rest 20's\n2x100m easy rest 20's\n4x 50m (15m sprint / 35m easy) rest 20's\n-----------------------------------------------------\n5x 200m easy rest 20's\n10x 50m (1 fast / 1 easy) rest 20's\n-----------------------------------------------------\n200m cool down",
-            "comments": []
-          },
-          {
-            "id": "3838597019",
-            "date": "2026-07-17",
+            "id": "3838597087",
+            "date": "2026-08-07",
             "title": "Al Wasl Swimming Pool",
             "sport": null,
             "duration_hours": null,
@@ -62898,60 +63026,75 @@
             "comments": []
           },
           {
-            "id": "3838836370",
-            "date": "2026-07-17",
-            "title": "Run | 35min Easy",
-            "sport": null,
-            "duration_hours": 0.5833333333333334,
-            "tss_planned": 34.98,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "35 min - Easy pace",
-            "comments": []
-          },
-          {
-            "id": "3838835679",
-            "date": "2026-07-17",
-            "title": "Run | 35min Easy",
-            "sport": null,
-            "duration_hours": 0.5833333333333334,
-            "tss_planned": 34.98,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "35 min - Easy pace",
-            "comments": []
-          },
-          {
-            "id": "3838823714",
-            "date": "2026-07-18",
-            "title": "Endurance: Steady Ride (Level 2, Level 3)",
+            "id": "3838825159",
+            "date": "2026-08-08",
+            "title": "Building | 2 x (5min/10min/15min mod) | FTP",
             "sport": null,
             "duration_hours": 3,
-            "tss_planned": 126.96,
+            "tss_planned": 159.6,
             "tss_actual": null,
             "status": "planned",
-            "description": "3H @ 60-70% FTP.\n\nKeep intensity in check wherever possible, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.",
+            "description": null,
             "comments": []
           },
           {
-            "id": "3838823795",
-            "date": "2026-07-19",
-            "title": "Speed work | 5x 100m, 5x 200m, 5x 400m / 60s rest | Intervals",
+            "id": "3880013866",
+            "date": "2026-08-08",
+            "title": "ROB | 20' Easy | Pace",
             "sport": null,
-            "duration_hours": 1.1875,
-            "tss_planned": 93.36,
+            "duration_hours": 0.3333333333333333,
+            "tss_planned": 25.96,
             "tss_actual": null,
             "status": "planned",
-            "description": "WU: 25min - EASY PACE - then;\n5x 100m, 60s rest recovery,\n5x 200m, 60s rest recovery,\n5x 400m, 60s rest recovery,\n\n(4min recovery between sets)\n\nGO REALLY CONTROLLED ON THESE !!!",
+            "description": "20min run of bike easy... try and get the heart rate under control...",
+            "comments": []
+          },
+          {
+            "id": "3838825216",
+            "date": "2026-08-09",
+            "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
+            "sport": null,
+            "duration_hours": 1.2541666666666667,
+            "tss_planned": 98.4,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "CONTROLLED",
+            "comments": []
+          },
+          {
+            "id": "3880014394",
+            "date": "2026-08-09",
+            "title": "Swim",
+            "sport": null,
+            "duration_hours": 0.5,
+            "tss_planned": 31.62,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "100m w/u\n3 x (200m no tools/pb/pb+pd 30sec rest, 100m kick)\n4 x 50m (25m hard kick, 25m easy) 30sec rest\n200m easy",
+            "comments": []
+          }
+        ],
+        "2026-08-10": [
+          {
+            "id": "3840686565",
+            "date": "2026-08-10",
+            "title": "18x 1min ON/OFF(55-60 rpm) @ 105-110% | FTP",
+            "sport": null,
+            "duration_hours": 1.1,
+            "tss_planned": 68.5,
+            "tss_actual": null,
+            "status": "planned",
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nThis strength session is all about creating torque and keeping the RPM within range. DONT focus on the power.",
             "comments": []
           }
         ]
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 91,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
-        619.3,
+        656.29,
+        125.82,
         0
       ]
     }
@@ -64153,11 +64296,8 @@
     }
   },
   "validation": {
-    "warnings": [
-      "Mohammed Bagdadi: fitness_history is 37d stale (last: 2026-06-05)",
-      "Abhishek Dhall: fitness_history is 35d stale (last: 2026-06-07)"
-    ],
+    "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-07-12T03:21:40.432Z"
+    "checked_at": "2026-08-04T07:03:28.576Z"
   }
 }

@@ -27,16 +27,14 @@ run_stage() {
 run_stage "PULL_TP" "$REPO_ROOT/scripts/pull-tp-data.sh" || \
   echo "Stage A (pull) FAILED rc=$STAGE_PULL_TP_RC — continuing with last-good raw" >> "$LOG_FILE"
 
-# Stage A.2: pull Gerhard's Dubai roster (non-fatal)
-run_stage "PULL_DUBAI" python3 "$REPO_ROOT/scripts/pull-dubai-fast.py" || \
-  echo "Stage A.2 (Dubai pull) FAILED rc=$STAGE_PULL_DUBAI_RC — continuing with last-good Dubai raw" >> "$LOG_FILE"
+# Gerhard's Dubai roster pull (Stage A.2) and the coach-roster rebuild (Stage A.5)
+# were removed on 4 Aug 2026. This dashboard refreshes Stephen's personal view
+# only; the coach view is frozen at its last build. See FREEZE_COACH in
+# scripts/build-data-json.mjs.
 
 cd "$REPO_ROOT"
 
-# Stage A.5: rebuild coach roster from Dubai raw
-run_stage "BUILD_ROSTER" node scripts/build-dubai-roster.mjs
-
-# Stage B: build data.json from raw + dummy (must succeed)
+# Stage B: build data.json from raw, merging the frozen coach view back in (must succeed)
 run_stage "BUILD_DATA" node scripts/build-data-json.mjs
 
 # Stage C: tests (must succeed before commit)
@@ -67,9 +65,9 @@ fi
 
 # Roll up status
 STATUS="ok"
-if [ "$STAGE_BUILD_DATA_RC" != "0" ] || [ "$STAGE_TESTS_RC" != "0" ] || [ "$STAGE_BUILD_ROSTER_RC" != "0" ]; then
+if [ "$STAGE_BUILD_DATA_RC" != "0" ] || [ "$STAGE_TESTS_RC" != "0" ]; then
   STATUS="error"
-elif [ "$STAGE_PULL_TP_RC" != "0" ] || [ "$STAGE_PULL_DUBAI_RC" != "0" ] || [ "$GIT_RC" != "0" ]; then
+elif [ "$STAGE_PULL_TP_RC" != "0" ] || [ "$GIT_RC" != "0" ]; then
   STATUS="warning"
 elif [ "${WARN_COUNT:-0}" -gt "0" ]; then
   # Build succeeded but flagged some athletes — surface as warning so we get an email
@@ -106,8 +104,6 @@ STATUS_JSON=$(cat <<EOF
   "duration_sec": $TOTAL_DUR,
   "stages": {
     "pull_tp":      {"rc": ${STAGE_PULL_TP_RC:-1},      "duration_sec": ${STAGE_PULL_TP_DUR:-0}},
-    "pull_dubai":   {"rc": ${STAGE_PULL_DUBAI_RC:-1},   "duration_sec": ${STAGE_PULL_DUBAI_DUR:-0}},
-    "build_roster": {"rc": ${STAGE_BUILD_ROSTER_RC:-1}, "duration_sec": ${STAGE_BUILD_ROSTER_DUR:-0}},
     "build_data":   {"rc": ${STAGE_BUILD_DATA_RC:-1},   "duration_sec": ${STAGE_BUILD_DATA_DUR:-0}},
     "tests":        {"rc": ${STAGE_TESTS_RC:-1},        "duration_sec": ${STAGE_TESTS_DUR:-0}},
     "git_push":     {"rc": ${GIT_RC:-0},                "pushed": $GIT_PUSHED}
