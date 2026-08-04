@@ -1,8 +1,8 @@
 #!/bin/bash
-# Stage A: Pull raw TP MCP data for reachable athletes.
-# Writes to scripts/raw/<athlete_id>.json.
-# Currently only pulls for Stephen (cookie-authed account).
-# DBT's 40 athletes remain dummy until his cookie is shared.
+# Stage A: Pull raw TP MCP data for Stephen's own TrainingPeaks account.
+# Writes to scripts/raw/stephen-bates.json.
+# Uses the personal `trainingpeaks` MCP server (Stephen's own cookie). Gerhard's
+# server was disconnected on 4 Aug 2026 — nothing here touches his roster.
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 RAW_DIR="$REPO_ROOT/scripts/raw"
@@ -77,7 +77,7 @@ perl -e '
   waitpid($pid, 0);
   exit($? >> 8);
 ' 1800 claude -p "$(cat "$PROMPT_FILE")" \
-    --allowedTools "mcp__trainingpeaks-gerhard__*,Read,Write,Bash" \
+    --allowedTools "mcp__trainingpeaks__*,Read,Write,Bash" \
     >> "$LOG_FILE" 2>&1
 PULL_RC=$?
 
