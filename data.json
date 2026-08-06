@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T05:45:46.715Z",
-  "as_of_date": "2026-08-05",
+  "generated_at": "2026-08-06T05:48:40.112Z",
+  "as_of_date": "2026-08-06",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 100.5,
-        "atl": 104.8,
-        "tsb": -9.7,
+        "ctl": 100.7,
+        "atl": 104.6,
+        "tsb": -8.7,
         "status": "Tired (absorbing training)"
       },
       "this_week": {
         "start": "2026-08-03",
         "end": "2026-08-09",
         "sessions_planned": 13,
-        "sessions_completed": 5,
+        "sessions_completed": 6,
         "sessions_missed": 0,
-        "sessions_due_to_date": 5,
-        "sessions_still_to_come": 8,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 7,
         "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 226.01,
-        "total_hours": 4.26,
+        "total_tss": 263.23,
+        "total_hours": 5.3,
         "by_sport": {
           "Bike": {
             "hours": 2.45,
@@ -61399,8 +61399,8 @@
             "tss": 0
           },
           "Other": {
-            "hours": 0.97,
-            "tss": 32.81
+            "hours": 2,
+            "tss": 70.03
           }
         },
         "sessions": [
@@ -61453,10 +61453,10 @@
             "date": "2026-08-05",
             "title": "Snyman S&C",
             "sport": "Other",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 1.035425066947937,
+            "tss": 37.22,
             "tss_planned": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-06",
@@ -61718,18 +61718,18 @@
           "sport": "Bike",
           "duration_hours": 1.1166666746139526,
           "tss": 67.38
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Snyman S&C",
+          "sport": "Other",
+          "duration_hours": 1.035425066947937,
+          "tss": 37.22
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-08-05",
-          "title": "Snyman S&C",
-          "sport": "Other",
-          "duration_hours": null,
-          "tss_planned": null
-        },
         {
           "date": "2026-08-06",
           "title": "Run | 1h Easy | HR",
@@ -61787,7 +61787,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 102
+        "days_out": 101
       },
       "focus_event": {
         "id": 37280222,
@@ -61796,7 +61796,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 122
+        "days_out": 121
       },
       "peaks": {
         "bike_20min_power": {
@@ -62003,12 +62003,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-13",
-          "ctl": 104.4,
-          "atl": 157.3,
-          "tsb": -39.3
-        },
         {
           "date": "2026-05-14",
           "ctl": 105.3,
@@ -62509,9 +62503,15 @@
         },
         {
           "date": "2026-08-05",
-          "ctl": 100.5,
-          "atl": 104.8,
+          "ctl": 101.4,
+          "atl": 110.1,
           "tsb": -9.7
+        },
+        {
+          "date": "2026-08-06",
+          "ctl": 100.7,
+          "atl": 104.6,
+          "tsb": -8.7
         }
       ],
       "weekly_trend": [
@@ -62523,9 +62523,9 @@
         },
         {
           "week_start": "2026-08-03",
-          "tss": 226,
-          "hours": 4.26,
-          "ctl_end": 100.5
+          "tss": 263,
+          "hours": 5.3,
+          "ctl_end": 100.7
         },
         {
           "week_start": "2026-08-10",
@@ -62535,16 +62535,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-06",
-          "sleep_hours": 8.3,
-          "deep": 0.96,
-          "light": 5.41,
-          "rem": 1.4,
-          "awake": 0.5300003,
-          "hrv": 66,
-          "resting_hr": 52
-        },
         {
           "date": "2026-07-07",
           "sleep_hours": 8.67,
@@ -62844,6 +62834,16 @@
           "awake": 1.06,
           "hrv": 81,
           "resting_hr": 50
+        },
+        {
+          "date": "2026-08-06",
+          "sleep_hours": 8.83,
+          "deep": 1.53,
+          "light": 5.01,
+          "rem": 1.41,
+          "awake": 0.88,
+          "hrv": 69,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62854,7 +62854,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 102
+          "days_out": 101
         }
       ],
       "sessions_by_week": {
@@ -63128,10 +63128,10 @@
             "date": "2026-08-05",
             "title": "Snyman S&C",
             "sport": null,
-            "duration_hours": null,
+            "duration_hours": 1.035425066947937,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 37.22,
+            "status": "completed",
             "description": "",
             "comments": []
           },
@@ -63276,7 +63276,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         802.97,
-        226.01,
+        263.23,
         0
       ]
     }
@@ -64480,6 +64480,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-05T05:45:46.730Z"
+    "checked_at": "2026-08-06T05:48:40.127Z"
   }
 }
