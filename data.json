@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T05:48:40.112Z",
-  "as_of_date": "2026-08-06",
+  "generated_at": "2026-08-07T04:54:52.268Z",
+  "as_of_date": "2026-08-07",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 100.7,
-        "atl": 104.6,
-        "tsb": -8.7,
+        "ctl": 100.8,
+        "atl": 104.4,
+        "tsb": -5.3,
         "status": "Tired (absorbing training)"
       },
       "this_week": {
         "start": "2026-08-03",
         "end": "2026-08-09",
         "sessions_planned": 13,
-        "sessions_completed": 6,
+        "sessions_completed": 8,
         "sessions_missed": 0,
-        "sessions_due_to_date": 6,
-        "sessions_still_to_come": 7,
+        "sessions_due_to_date": 8,
+        "sessions_still_to_come": 5,
         "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 263.23,
-        "total_hours": 5.3,
+        "total_tss": 400.05,
+        "total_hours": 6.37,
         "by_sport": {
           "Bike": {
             "hours": 2.45,
@@ -61395,8 +61395,8 @@
             "tss": 51.96
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.08,
+            "tss": 136.82
           },
           "Other": {
             "hours": 2,
@@ -61460,29 +61460,29 @@
           },
           {
             "date": "2026-08-06",
-            "title": "Run | 1h Easy | HR",
-            "sport": "Run",
-            "duration_hours": 1,
-            "tss": null,
-            "tss_planned": 40,
-            "_status": "upcoming"
-          },
-          {
-            "date": "2026-08-06",
             "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
             "sport": "Swim",
-            "duration_hours": 0.8333333333333334,
-            "tss": null,
+            "duration_hours": 0.6450250011020237,
+            "tss": 83.43,
             "tss_planned": 31.9,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-07",
             "title": "Al Wasl Swimming Pool",
             "sport": "Swim",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 0.43142499923706057,
+            "tss": 53.39,
             "tss_planned": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-07",
+            "title": "Run | 1h Easy | HR",
+            "sport": "Run",
+            "duration_hours": 1,
+            "tss": null,
+            "tss_planned": 40,
             "_status": "upcoming"
           },
           {
@@ -61620,20 +61620,20 @@
           },
           {
             "date": "2026-07-31",
-            "title": "Al Wasl Swimming Pool",
-            "sport": "Swim",
-            "duration_hours": 0.6337111107508342,
-            "tss": 64.94,
-            "tss_planned": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-07-31",
             "title": "Run | 40min Easy - choice run | HR",
             "sport": "Run",
             "duration_hours": 0.666752815246582,
             "tss": 40.13,
             "tss_planned": 33.32,
+            "_status": "done"
+          },
+          {
+            "date": "2026-07-31",
+            "title": "Al Wasl Swimming Pool",
+            "sport": "Swim",
+            "duration_hours": 0.6337111107508342,
+            "tss": 64.94,
+            "tss_planned": null,
             "_status": "done"
           },
           {
@@ -61725,31 +61725,31 @@
           "sport": "Other",
           "duration_hours": 1.035425066947937,
           "tss": 37.22
+        },
+        {
+          "date": "2026-08-06",
+          "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
+          "sport": "Swim",
+          "duration_hours": 0.6450250011020237,
+          "tss": 83.43
+        },
+        {
+          "date": "2026-08-07",
+          "title": "Al Wasl Swimming Pool",
+          "sport": "Swim",
+          "duration_hours": 0.43142499923706057,
+          "tss": 53.39
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-08-06",
+          "date": "2026-08-07",
           "title": "Run | 1h Easy | HR",
           "sport": "Run",
           "duration_hours": 1,
           "tss_planned": 40
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
-          "sport": "Swim",
-          "duration_hours": 0.8333333333333334,
-          "tss_planned": 31.9
-        },
-        {
-          "date": "2026-08-07",
-          "title": "Al Wasl Swimming Pool",
-          "sport": "Swim",
-          "duration_hours": null,
-          "tss_planned": null
         },
         {
           "date": "2026-08-08",
@@ -61787,7 +61787,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 101
+        "days_out": 100
       },
       "focus_event": {
         "id": 37280222,
@@ -61796,7 +61796,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 121
+        "days_out": 120
       },
       "peaks": {
         "bike_20min_power": {
@@ -62003,12 +62003,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-14",
-          "ctl": 105.3,
-          "atl": 155.5,
-          "tsb": -53
-        },
         {
           "date": "2026-05-15",
           "ctl": 105.4,
@@ -62509,9 +62503,15 @@
         },
         {
           "date": "2026-08-06",
-          "ctl": 100.7,
-          "atl": 104.6,
+          "ctl": 100.9,
+          "atl": 106.3,
           "tsb": -8.7
+        },
+        {
+          "date": "2026-08-07",
+          "ctl": 100.8,
+          "atl": 104.4,
+          "tsb": -5.3
         }
       ],
       "weekly_trend": [
@@ -62523,9 +62523,9 @@
         },
         {
           "week_start": "2026-08-03",
-          "tss": 263,
-          "hours": 5.3,
-          "ctl_end": 100.7
+          "tss": 400,
+          "hours": 6.37,
+          "ctl_end": 100.8
         },
         {
           "week_start": "2026-08-10",
@@ -62535,16 +62535,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-07",
-          "sleep_hours": 8.67,
-          "deep": 2.05,
-          "light": 5.03,
-          "rem": 0.96,
-          "awake": 0.6299997,
-          "hrv": 68,
-          "resting_hr": 50
-        },
         {
           "date": "2026-07-08",
           "sleep_hours": 9.02,
@@ -62844,6 +62834,16 @@
           "awake": 0.88,
           "hrv": 69,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-08-07",
+          "sleep_hours": 7.43,
+          "deep": 1.46,
+          "light": 4.01,
+          "rem": 1.83,
+          "awake": 0.12999952,
+          "hrv": 67,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62854,7 +62854,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 101
+          "days_out": 100
         }
       ],
       "sessions_by_week": {
@@ -62964,18 +62964,6 @@
             "comments": []
           },
           {
-            "id": "3838597217",
-            "date": "2026-07-31",
-            "title": "Al Wasl Swimming Pool",
-            "sport": "Swim",
-            "duration_hours": 0.6337111107508342,
-            "tss_planned": null,
-            "tss_actual": 64.94,
-            "status": "completed",
-            "description": "",
-            "comments": []
-          },
-          {
             "id": "3840682446",
             "date": "2026-07-31",
             "title": "Run | 40min Easy - choice run | HR",
@@ -62985,6 +62973,18 @@
             "tss_actual": 40.13,
             "status": "completed",
             "description": "Just nice and easy, getting into a nice rhythm.",
+            "comments": []
+          },
+          {
+            "id": "3838597217",
+            "date": "2026-07-31",
+            "title": "Al Wasl Swimming Pool",
+            "sport": "Swim",
+            "duration_hours": 0.6337111107508342,
+            "tss_planned": null,
+            "tss_actual": 64.94,
+            "status": "completed",
+            "description": "",
             "comments": []
           },
           {
@@ -63136,26 +63136,14 @@
             "comments": []
           },
           {
-            "id": "3880008953",
-            "date": "2026-08-06",
-            "title": "Run | 1h Easy | HR",
-            "sport": "Run",
-            "duration_hours": 1,
-            "tss_planned": 40,
-            "tss_actual": null,
-            "status": "planned",
-            "description": "1h easy, just nice and easy, getting into a nice rhythm.",
-            "comments": []
-          },
-          {
             "id": "3880011834",
             "date": "2026-08-06",
             "title": "Swim | (2x) 8x 25m, 4x 50m | Speed Endurance",
             "sport": "Swim",
-            "duration_hours": 0.8333333333333334,
+            "duration_hours": 0.6450250011020237,
             "tss_planned": 31.9,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 83.43,
+            "status": "completed",
             "description": "Warm up\n400m (easy rest 30s\n4x 50m (15 sprint / 35 easy) rest 20's\n200m easy\n-------------------------------------------\nMain set:\n--------------------------------------------------\n(2x)\n8x 25m Sprint - rest 20's\n4x 50m Sprint - rest 40's\n300m Easy - rest 1min\n--------------------------------------------------\n400m - cool down",
             "comments": []
           },
@@ -63164,11 +63152,23 @@
             "date": "2026-08-07",
             "title": "Al Wasl Swimming Pool",
             "sport": "Swim",
-            "duration_hours": null,
+            "duration_hours": 0.43142499923706057,
             "tss_planned": null,
+            "tss_actual": 53.39,
+            "status": "completed",
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3880008953",
+            "date": "2026-08-07",
+            "title": "Run | 1h Easy | HR",
+            "sport": "Run",
+            "duration_hours": 1,
+            "tss_planned": 40,
             "tss_actual": null,
             "status": "planned",
-            "description": "",
+            "description": "1h easy, just nice and easy, getting into a nice rhythm.",
             "comments": []
           },
           {
@@ -63276,7 +63276,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         802.97,
-        263.23,
+        400.05,
         0
       ]
     }
@@ -64480,6 +64480,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-06T05:48:40.127Z"
+    "checked_at": "2026-08-07T04:54:52.282Z"
   }
 }
