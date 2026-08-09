@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T04:10:45.831Z",
-  "as_of_date": "2026-08-08",
+  "generated_at": "2026-08-09T04:17:56.196Z",
+  "as_of_date": "2026-08-09",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 102.5,
-        "atl": 114.5,
-        "tsb": -2.2,
-        "status": "Tired (absorbing training)"
+        "ctl": 104.6,
+        "atl": 124.8,
+        "tsb": -14.1,
+        "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-03",
         "end": "2026-08-09",
         "sessions_planned": 13,
-        "sessions_completed": 9,
+        "sessions_completed": 12,
         "sessions_missed": 0,
-        "sessions_due_to_date": 9,
-        "sessions_still_to_come": 4,
+        "sessions_due_to_date": 12,
+        "sessions_still_to_come": 1,
         "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 427.97,
-        "total_hours": 6.88,
+        "total_tss": 771,
+        "total_hours": 11.37,
         "by_sport": {
           "Bike": {
-            "hours": 2.45,
-            "tss": 141.24
+            "hours": 5.49,
+            "tss": 316.13
           },
           "Run": {
-            "hours": 1.35,
-            "tss": 79.88
+            "hours": 2.8,
+            "tss": 248.02
           },
           "Swim": {
             "hours": 1.08,
@@ -61489,28 +61489,28 @@
             "date": "2026-08-08",
             "title": "Building | 2 x (5min/10min/15min mod) | FTP",
             "sport": "Bike",
-            "duration_hours": 3,
-            "tss": null,
+            "duration_hours": 3.03719162940979,
+            "tss": 174.89,
             "tss_planned": 159.6,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-08",
             "title": "ROB | 20' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.3333333333333333,
-            "tss": null,
+            "duration_hours": 0.25429999828338623,
+            "tss": 28.2,
             "tss_planned": 25.96,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-09",
             "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
             "sport": "Run",
-            "duration_hours": 1.2541666666666667,
-            "tss": null,
+            "duration_hours": 1.200700044631958,
+            "tss": 139.94,
             "tss_planned": 98.4,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-09",
@@ -61746,32 +61746,32 @@
           "sport": "Run",
           "duration_hours": 0.5005555748939514,
           "tss": 27.92
-        }
-      ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-08-08",
           "title": "Building | 2 x (5min/10min/15min mod) | FTP",
           "sport": "Bike",
-          "duration_hours": 3,
-          "tss_planned": 159.6
+          "duration_hours": 3.03719162940979,
+          "tss": 174.89
         },
         {
           "date": "2026-08-08",
           "title": "ROB | 20' Easy | Pace",
           "sport": "Run",
-          "duration_hours": 0.3333333333333333,
-          "tss_planned": 25.96
+          "duration_hours": 0.25429999828338623,
+          "tss": 28.2
         },
         {
           "date": "2026-08-09",
           "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
           "sport": "Run",
-          "duration_hours": 1.2541666666666667,
-          "tss_planned": 98.4
-        },
+          "duration_hours": 1.200700044631958,
+          "tss": 139.94
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-08-09",
           "title": "Swim",
@@ -61787,7 +61787,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 99
+        "days_out": 98
       },
       "focus_event": {
         "id": 37280222,
@@ -61796,7 +61796,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 119
+        "days_out": 118
       },
       "peaks": {
         "bike_20min_power": {
@@ -62003,12 +62003,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-16",
-          "ctl": 107.1,
-          "atl": 153,
-          "tsb": -43.5
-        },
         {
           "date": "2026-05-17",
           "ctl": 109.7,
@@ -62509,9 +62503,15 @@
         },
         {
           "date": "2026-08-08",
-          "ctl": 102.5,
-          "atl": 114.5,
+          "ctl": 102.9,
+          "atl": 117,
           "tsb": -2.2
+        },
+        {
+          "date": "2026-08-09",
+          "ctl": 104.6,
+          "atl": 124.8,
+          "tsb": -14.1
         }
       ],
       "weekly_trend": [
@@ -62523,28 +62523,18 @@
         },
         {
           "week_start": "2026-08-03",
-          "tss": 428,
-          "hours": 6.88,
-          "ctl_end": 102.5
+          "tss": 771,
+          "hours": 11.37,
+          "ctl_end": 104.6
         },
         {
           "week_start": "2026-08-10",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 104.6
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-09",
-          "sleep_hours": 10.3,
-          "deep": 1.46,
-          "light": 6.4,
-          "rem": 1.53,
-          "awake": 0.9100001,
-          "hrv": 70,
-          "resting_hr": 53
-        },
         {
           "date": "2026-07-10",
           "sleep_hours": 6.53,
@@ -62837,12 +62827,22 @@
         },
         {
           "date": "2026-08-08",
-          "sleep_hours": 4.12,
-          "deep": 0.68,
-          "light": 2.31,
-          "rem": 1.05,
-          "awake": 0.07999992,
-          "hrv": 70,
+          "sleep_hours": 5.8,
+          "deep": 1.08,
+          "light": 3.05,
+          "rem": 1.25,
+          "awake": 0.4200003,
+          "hrv": 61,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-08-09",
+          "sleep_hours": 3.88,
+          "deep": 0.6,
+          "light": 2.5,
+          "rem": 0.71,
+          "awake": 0.07000023,
+          "hrv": 85,
           "resting_hr": 50
         }
       ],
@@ -62854,7 +62854,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 99
+          "days_out": 98
         }
       ],
       "sessions_by_week": {
@@ -63183,10 +63183,10 @@
             "date": "2026-08-08",
             "title": "Building | 2 x (5min/10min/15min mod) | FTP",
             "sport": "Bike",
-            "duration_hours": 3,
+            "duration_hours": 3.03719162940979,
             "tss_planned": 159.6,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 174.89,
+            "status": "completed",
             "description": "",
             "comments": []
           },
@@ -63195,10 +63195,10 @@
             "date": "2026-08-08",
             "title": "ROB | 20' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.3333333333333333,
+            "duration_hours": 0.25429999828338623,
             "tss_planned": 25.96,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 28.2,
+            "status": "completed",
             "description": "20min run of bike easy... try and get the heart rate under control...",
             "comments": []
           },
@@ -63207,10 +63207,10 @@
             "date": "2026-08-09",
             "title": "Run | 5 x 200 + 2x (5x 400m efforts) | Pace",
             "sport": "Run",
-            "duration_hours": 1.2541666666666667,
+            "duration_hours": 1.200700044631958,
             "tss_planned": 98.4,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 139.94,
+            "status": "completed",
             "description": "CONTROLLED",
             "comments": []
           },
@@ -63331,7 +63331,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         802.97,
-        427.97,
+        771,
         0
       ]
     }
@@ -64535,6 +64535,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-08T04:10:45.845Z"
+    "checked_at": "2026-08-09T04:17:56.210Z"
   }
 }
