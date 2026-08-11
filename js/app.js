@@ -557,6 +557,11 @@ function app() {
     async askCoach(question) {
       if (!question || !question.trim() || this.coachLoading) return;
       var q = question.trim();
+      // Prior turns, before this question is pushed — last 6 (3 exchanges) is
+      // plenty of context without ballooning every request.
+      var history = this.coachMessages.slice(-6).map(function(m) {
+        return { role: m.role === 'coach' ? 'assistant' : 'user', content: m.text };
+      });
       this.coachQuestion = '';
       this.coachMsgId++;
       this.coachMessages.push({ id: this.coachMsgId, role: 'user', text: q });
@@ -582,7 +587,7 @@ function app() {
         var resp = await fetch('/.netlify/functions/ask-coach', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ question: q, athleteData: athleteData })
+          body: JSON.stringify({ question: q, athleteData: athleteData, history: history })
         });
         var result = await resp.json();
         this.coachMsgId++;

@@ -170,6 +170,7 @@ function mapWorkout(w) {
   // TP leaves `completed` null on every workout, so infer it: a workout is done
   // once actual data has landed against it.
   const isCompleted = Boolean(w.totalTime || tssActual);
+  const distanceM = isCompleted ? (w.distance ?? w.distancePlanned ?? null) : (w.distancePlanned ?? null);
 
   return {
     id: String(w.workoutId ?? w.id ?? ''),
@@ -180,6 +181,7 @@ function mapWorkout(w) {
     tss_planned: w.tssPlanned ?? null,
     tss_actual: tssActual,
     status: isCompleted ? 'completed' : 'planned',
+    distance_km: distanceM != null ? Math.round((distanceM / 1000) * 100) / 100 : null,
     description: w.description || '',
     comments: (w.workoutComments || []).map(mapComment),
   };

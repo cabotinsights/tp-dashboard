@@ -244,6 +244,7 @@ function summarizeWeek(sessions, weekStart, today) {
       duration_hours: s.duration_hours,
       tss: s.tss_actual,
       tss_planned: s.tss_planned,
+      distance_km: s.distance_km,
       _status: status,
     });
   }
@@ -300,7 +301,7 @@ export function deriveViewFields(athlete, asOf) {
   const upcoming_sessions = [];
   const missed_sessions = [];
   for (const s of thisWeek.sessions) {
-    const base = { date: s.date, title: s.title, sport: s.sport, duration_hours: s.duration_hours };
+    const base = { date: s.date, title: s.title, sport: s.sport, duration_hours: s.duration_hours, distance_km: s.distance_km };
     if (s._status === 'done') {
       completed_sessions.push({ ...base, tss: s.tss });
     } else if (s._status === 'upcoming') {

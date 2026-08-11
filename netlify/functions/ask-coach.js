@@ -11,6 +11,7 @@ exports.handler = async function(event) {
     var body = JSON.parse(event.body);
     var question = body.question;
     var athleteData = body.athleteData;
+    var history = Array.isArray(body.history) ? body.history : [];
 
     var todayIso = new Date().toISOString().slice(0, 10);
     var weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -52,6 +53,8 @@ WEEKLY PROGRESS — read this carefully:
 ATHLETE DATA:
 ` + JSON.stringify(enriched, null, 0);
 
+    var messages = history.concat([{ role: 'user', content: question }]);
+
     var response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: {
@@ -60,15 +63,19 @@ ATHLETE DATA:
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 500,
+        model: 'claude-sonnet-5',
+        max_tokens: 700,
         system: systemPrompt,
-        messages: [{ role: 'user', content: question }]
+        messages: messages
       })
     });
 
     var data = await response.json();
-    var reply = data.content && data.content[0] ? data.content[0].text : 'Sorry, I could not generate a response.';
+    var textBlock = data.content && data.content.find(function(b) { return b.type === 'text'; });
+    var reply = textBlock ? textBlock.text : 'Sorry, I could not generate a response.';
+    if (!textBlock) {
+      console.error('ask-coach: no text block in response', JSON.stringify(data));
+    }
 
     return {
       statusCode: 200,
