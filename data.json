@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T04:37:39.470Z",
-  "as_of_date": "2026-08-10",
+  "generated_at": "2026-08-11T04:19:30.343Z",
+  "as_of_date": "2026-08-11",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,40 +61367,40 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 102.6,
-        "atl": 110,
-        "tsb": -23.2,
-        "status": "Very Tired (high fatigue)"
+        "ctl": 105.3,
+        "atl": 122.2,
+        "tsb": -25.4,
+        "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-08-10",
         "end": "2026-08-16",
         "sessions_planned": 9,
-        "sessions_completed": 0,
+        "sessions_completed": 3,
         "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 9,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 3,
+        "sessions_still_to_come": 6,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "total_tss": 216.87,
+        "total_hours": 2.77,
         "by_sport": {
           "Bike": {
             "hours": 0,
             "tss": 0
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.98,
+            "tss": 65.19
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.95,
+            "tss": 118.5
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.84,
+            "tss": 33.18
           }
         },
         "sessions": [
@@ -61408,28 +61408,28 @@
             "date": "2026-08-10",
             "title": "Technical l | Long Intervals Pull 50 | Endurance",
             "sport": "Swim",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 0.9494027747048273,
+            "tss": 118.5,
             "tss_planned": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-10",
             "title": "Hot Yoga",
             "sport": "Other",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 0.839263916015625,
+            "tss": 33.18,
             "tss_planned": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-11",
             "title": "HILLS | 3x (5x 25s) | Intervals Z4",
             "sport": "Run",
-            "duration_hours": 0.9958333333333333,
-            "tss": null,
+            "duration_hours": 0.978024959564209,
+            "tss": 65.19,
             "tss_planned": 64.03,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-12",
@@ -61638,31 +61638,32 @@
           }
         ]
       },
-      "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "completed_sessions": [
         {
           "date": "2026-08-10",
           "title": "Technical l | Long Intervals Pull 50 | Endurance",
           "sport": "Swim",
-          "duration_hours": null,
-          "tss_planned": null
+          "duration_hours": 0.9494027747048273,
+          "tss": 118.5
         },
         {
           "date": "2026-08-10",
           "title": "Hot Yoga",
           "sport": "Other",
-          "duration_hours": null,
-          "tss_planned": null
+          "duration_hours": 0.839263916015625,
+          "tss": 33.18
         },
         {
           "date": "2026-08-11",
           "title": "HILLS | 3x (5x 25s) | Intervals Z4",
           "sport": "Run",
-          "duration_hours": 0.9958333333333333,
-          "tss_planned": 64.03
-        },
+          "duration_hours": 0.978024959564209,
+          "tss": 65.19
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-08-12",
           "title": "6 x 4min AT",
@@ -61713,7 +61714,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 97
+        "days_out": 96
       },
       "focus_event": {
         "id": 37280222,
@@ -61722,7 +61723,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 117
+        "days_out": 116
       },
       "peaks": {
         "bike_20min_power": {
@@ -61929,12 +61930,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-18",
-          "ctl": 110.5,
-          "atl": 158.9,
-          "tsb": -52.3
-        },
         {
           "date": "2026-05-19",
           "ctl": 109.6,
@@ -62435,9 +62430,15 @@
         },
         {
           "date": "2026-08-10",
-          "ctl": 102.6,
-          "atl": 110,
+          "ctl": 106.3,
+          "atl": 131.7,
           "tsb": -23.2
+        },
+        {
+          "date": "2026-08-11",
+          "ctl": 105.3,
+          "atl": 122.2,
+          "tsb": -25.4
         }
       ],
       "weekly_trend": [
@@ -62449,9 +62450,9 @@
         },
         {
           "week_start": "2026-08-10",
-          "tss": 0,
-          "hours": 0,
-          "ctl_end": 102.6
+          "tss": 217,
+          "hours": 2.77,
+          "ctl_end": 105.3
         },
         {
           "week_start": "2026-08-17",
@@ -62461,16 +62462,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-11",
-          "sleep_hours": 6.35,
-          "deep": 1.05,
-          "light": 3.3,
-          "rem": 1.18,
-          "awake": 0.8200003,
-          "hrv": 70,
-          "resting_hr": 52
-        },
         {
           "date": "2026-07-12",
           "sleep_hours": 7.12,
@@ -62770,6 +62761,16 @@
           "awake": 1.3400009,
           "hrv": 67,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-08-11",
+          "sleep_hours": 7.47,
+          "deep": 1.61,
+          "light": 4.1,
+          "rem": 0.7,
+          "awake": 1.0599997,
+          "hrv": 70,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62780,7 +62781,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 97
+          "days_out": 96
         }
       ],
       "sessions_by_week": {
@@ -62975,10 +62976,10 @@
             "date": "2026-08-10",
             "title": "Technical l | Long Intervals Pull 50 | Endurance",
             "sport": "Swim",
-            "duration_hours": null,
+            "duration_hours": 0.9494027747048273,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 118.5,
+            "status": "completed",
             "description": "Cool Down:\n__________________________________________\nPB or Swim 10 sec rests\n8 x 25 (3 easy, 1 fast )\n6 x 25 (2 easy, 1 fast )\n4 x 25 (1 easy, 1 fast)\n2 x 25 (both fast)\n\nMain Set:\n10 Sec rests for the 50s\n\n10 x 50 PB/PD as 25 fast/25 easy\n1 x 600 PB/Band med\n10 x 50 PB/PD as 17 easy/33 fast\n1 x 400 PB/Band mad\n10 x 50 PB/PD as 25 easy / 25 hard\n\nCool down:\n__________________________________________\nPB optional\n1 x 200",
             "comments": []
           },
@@ -62987,10 +62988,10 @@
             "date": "2026-08-10",
             "title": "Hot Yoga",
             "sport": null,
-            "duration_hours": null,
+            "duration_hours": 0.839263916015625,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 33.18,
+            "status": "completed",
             "description": "",
             "comments": []
           },
@@ -62999,10 +63000,10 @@
             "date": "2026-08-11",
             "title": "HILLS | 3x (5x 25s) | Intervals Z4",
             "sport": "Run",
-            "duration_hours": 0.9958333333333333,
+            "duration_hours": 0.978024959564209,
             "tss_planned": 64.03,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 65.19,
+            "status": "completed",
             "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------(3x)\nSHORT HILLS – 5x 25 sec HILLS with a slow jog back.\n----------------------------------------------\nCool down 10min +",
             "comments": []
           },
@@ -63099,7 +63100,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         827.34,
-        0,
+        216.87,
         0
       ]
     }
@@ -64303,6 +64304,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-10T04:37:39.484Z"
+    "checked_at": "2026-08-11T04:19:30.353Z"
   }
 }
