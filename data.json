@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T04:19:30.343Z",
-  "as_of_date": "2026-08-11",
+  "generated_at": "2026-08-12T04:46:33.504Z",
+  "as_of_date": "2026-08-12",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,10 +61367,10 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 105.3,
-        "atl": 122.2,
-        "tsb": -25.4,
-        "status": "Exhausted (overreaching risk)"
+        "ctl": 104.4,
+        "atl": 114.6,
+        "tsb": -16.9,
+        "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-10",
@@ -61411,6 +61411,7 @@
             "duration_hours": 0.9494027747048273,
             "tss": 118.5,
             "tss_planned": null,
+            "distance_km": 3.2,
             "_status": "done"
           },
           {
@@ -61420,6 +61421,7 @@
             "duration_hours": 0.839263916015625,
             "tss": 33.18,
             "tss_planned": null,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61429,6 +61431,7 @@
             "duration_hours": 0.978024959564209,
             "tss": 65.19,
             "tss_planned": 64.03,
+            "distance_km": 11.02,
             "_status": "done"
           },
           {
@@ -61438,6 +61441,7 @@
             "duration_hours": 1.1166666666666667,
             "tss": null,
             "tss_planned": 68.9,
+            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61447,6 +61451,7 @@
             "duration_hours": null,
             "tss": null,
             "tss_planned": null,
+            "distance_km": 2.8,
             "_status": "upcoming"
           },
           {
@@ -61456,6 +61461,7 @@
             "duration_hours": 1,
             "tss": null,
             "tss_planned": 40,
+            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61465,6 +61471,7 @@
             "duration_hours": null,
             "tss": null,
             "tss_planned": null,
+            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61474,6 +61481,7 @@
             "duration_hours": 4,
             "tss": null,
             "tss_planned": 201.6,
+            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61483,6 +61491,7 @@
             "duration_hours": 1.2916666666666667,
             "tss": null,
             "tss_planned": 106.45,
+            "distance_km": null,
             "_status": "upcoming"
           }
         ]
@@ -61526,6 +61535,7 @@
             "duration_hours": 1.3333333730697632,
             "tss": 73.86,
             "tss_planned": 66.7,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61535,6 +61545,7 @@
             "duration_hours": 0.8447111248970032,
             "tss": 51.96,
             "tss_planned": 50.7,
+            "distance_km": 9.16,
             "_status": "done"
           },
           {
@@ -61544,6 +61555,7 @@
             "duration_hours": 0.4836805462837219,
             "tss": 15.58,
             "tss_planned": null,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61553,6 +61565,7 @@
             "duration_hours": 0.48453056812286377,
             "tss": 17.23,
             "tss_planned": null,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61562,6 +61575,7 @@
             "duration_hours": 1.1166666746139526,
             "tss": 67.38,
             "tss_planned": 68.9,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61571,6 +61585,7 @@
             "duration_hours": 1.035425066947937,
             "tss": 37.22,
             "tss_planned": null,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61580,6 +61595,7 @@
             "duration_hours": 0.6450250011020237,
             "tss": 83.43,
             "tss_planned": 25.5,
+            "distance_km": 2.2,
             "_status": "done"
           },
           {
@@ -61589,6 +61605,7 @@
             "duration_hours": 0.43142499923706057,
             "tss": 53.39,
             "tss_planned": null,
+            "distance_km": 1.45,
             "_status": "done"
           },
           {
@@ -61598,6 +61615,7 @@
             "duration_hours": 0.5005555748939514,
             "tss": 27.92,
             "tss_planned": 40,
+            "distance_km": 5.2,
             "_status": "done"
           },
           {
@@ -61607,6 +61625,7 @@
             "duration_hours": 3.03719162940979,
             "tss": 174.89,
             "tss_planned": 159.6,
+            "distance_km": 80.13,
             "_status": "done"
           },
           {
@@ -61616,6 +61635,7 @@
             "duration_hours": 0.25429999828338623,
             "tss": 28.2,
             "tss_planned": 25.96,
+            "distance_km": 3.13,
             "_status": "done"
           },
           {
@@ -61625,6 +61645,7 @@
             "duration_hours": 1.200700044631958,
             "tss": 139.94,
             "tss_planned": 98.4,
+            "distance_km": 12.08,
             "_status": "done"
           },
           {
@@ -61634,6 +61655,7 @@
             "duration_hours": 0.5331611114078098,
             "tss": 56.34,
             "tss_planned": 31.62,
+            "distance_km": 1.7,
             "_status": "done"
           }
         ]
@@ -61644,6 +61666,7 @@
           "title": "Technical l | Long Intervals Pull 50 | Endurance",
           "sport": "Swim",
           "duration_hours": 0.9494027747048273,
+          "distance_km": 3.2,
           "tss": 118.5
         },
         {
@@ -61651,6 +61674,7 @@
           "title": "Hot Yoga",
           "sport": "Other",
           "duration_hours": 0.839263916015625,
+          "distance_km": null,
           "tss": 33.18
         },
         {
@@ -61658,6 +61682,7 @@
           "title": "HILLS | 3x (5x 25s) | Intervals Z4",
           "sport": "Run",
           "duration_hours": 0.978024959564209,
+          "distance_km": 11.02,
           "tss": 65.19
         }
       ],
@@ -61669,6 +61694,7 @@
           "title": "6 x 4min AT",
           "sport": "Bike",
           "duration_hours": 1.1166666666666667,
+          "distance_km": null,
           "tss_planned": 68.9
         },
         {
@@ -61676,6 +61702,7 @@
           "title": "Swim | 8 x 25 + 10 x 50 + 6 x 100 | Vo2 Max Set 3.1",
           "sport": "Swim",
           "duration_hours": null,
+          "distance_km": 2.8,
           "tss_planned": null
         },
         {
@@ -61683,6 +61710,7 @@
           "title": "Run | 1h Easy | HR",
           "sport": "Run",
           "duration_hours": 1,
+          "distance_km": null,
           "tss_planned": 40
         },
         {
@@ -61690,6 +61718,7 @@
           "title": "Al Wasl Swimming Pool",
           "sport": "Swim",
           "duration_hours": null,
+          "distance_km": null,
           "tss_planned": null
         },
         {
@@ -61697,6 +61726,7 @@
           "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats x7 (Level 3)",
           "sport": "Bike",
           "duration_hours": 4,
+          "distance_km": null,
           "tss_planned": 201.6
         },
         {
@@ -61704,6 +61734,7 @@
           "title": "Run | 3x (5x 400m efforts / 60s recovery) | Pace",
           "sport": "Run",
           "duration_hours": 1.2916666666666667,
+          "distance_km": null,
           "tss_planned": 106.45
         }
       ],
@@ -61714,7 +61745,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 96
+        "days_out": 95
       },
       "focus_event": {
         "id": 37280222,
@@ -61723,7 +61754,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 116
+        "days_out": 115
       },
       "peaks": {
         "bike_20min_power": {
@@ -61930,12 +61961,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-19",
-          "ctl": 109.6,
-          "atl": 146.9,
-          "tsb": -48.4
-        },
         {
           "date": "2026-05-20",
           "ctl": 109.2,
@@ -62439,6 +62464,12 @@
           "ctl": 105.3,
           "atl": 122.2,
           "tsb": -25.4
+        },
+        {
+          "date": "2026-08-12",
+          "ctl": 104.4,
+          "atl": 114.6,
+          "tsb": -16.9
         }
       ],
       "weekly_trend": [
@@ -62452,7 +62483,7 @@
           "week_start": "2026-08-10",
           "tss": 217,
           "hours": 2.77,
-          "ctl_end": 105.3
+          "ctl_end": 104.4
         },
         {
           "week_start": "2026-08-17",
@@ -62462,16 +62493,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-12",
-          "sleep_hours": 7.12,
-          "deep": 0.7,
-          "light": 3.43,
-          "rem": 1.91,
-          "awake": 1.08,
-          "hrv": 69,
-          "resting_hr": 51
-        },
         {
           "date": "2026-07-13",
           "sleep_hours": 9.78,
@@ -62781,7 +62802,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 96
+          "days_out": 95
         }
       ],
       "sessions_by_week": {
@@ -62795,6 +62816,7 @@
             "tss_planned": 66.7,
             "tss_actual": 73.86,
             "status": "completed",
+            "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nThis strength session is all about creating torque and keeping the RPM within range. DONT focus on the power.",
             "comments": []
           },
@@ -62807,6 +62829,7 @@
             "tss_planned": 50.7,
             "tss_actual": 51.96,
             "status": "completed",
+            "distance_km": 9.16,
             "description": "",
             "comments": []
           },
@@ -62819,6 +62842,7 @@
             "tss_planned": null,
             "tss_actual": 15.58,
             "status": "completed",
+            "distance_km": null,
             "description": "",
             "comments": []
           },
@@ -62831,6 +62855,7 @@
             "tss_planned": null,
             "tss_actual": 17.23,
             "status": "completed",
+            "distance_km": null,
             "description": "",
             "comments": []
           },
@@ -62843,6 +62868,7 @@
             "tss_planned": 68.9,
             "tss_actual": 67.38,
             "status": "completed",
+            "distance_km": null,
             "description": "WU: 20min\nEMS:\n6x 4min AT, 2:30 rest\nCD: 8min",
             "comments": [
               {
@@ -62862,6 +62888,7 @@
             "tss_planned": null,
             "tss_actual": 37.22,
             "status": "completed",
+            "distance_km": null,
             "description": "",
             "comments": []
           },
@@ -62874,6 +62901,7 @@
             "tss_planned": 25.5,
             "tss_actual": 83.43,
             "status": "completed",
+            "distance_km": 2.2,
             "description": "Warm up\n400m (easy rest 30s\n4x 50m (15 sprint / 35 easy) rest 20's\n200m easy\n-------------------------------------------\nMain set:\n--------------------------------------------------\n(2x)\n8x 25m Sprint - rest 20's\n4x 50m Sprint - rest 40's\n300m Easy - rest 1min\n--------------------------------------------------\n400m - cool down",
             "comments": []
           },
@@ -62886,6 +62914,7 @@
             "tss_planned": null,
             "tss_actual": 53.39,
             "status": "completed",
+            "distance_km": 1.45,
             "description": "",
             "comments": []
           },
@@ -62898,6 +62927,7 @@
             "tss_planned": 40,
             "tss_actual": 27.92,
             "status": "completed",
+            "distance_km": 5.2,
             "description": "1h easy, just nice and easy, getting into a nice rhythm.",
             "comments": [
               {
@@ -62917,6 +62947,7 @@
             "tss_planned": 159.6,
             "tss_actual": 174.89,
             "status": "completed",
+            "distance_km": 80.13,
             "description": "",
             "comments": []
           },
@@ -62929,6 +62960,7 @@
             "tss_planned": 25.96,
             "tss_actual": 28.2,
             "status": "completed",
+            "distance_km": 3.13,
             "description": "20min run of bike easy... try and get the heart rate under control...",
             "comments": []
           },
@@ -62941,6 +62973,7 @@
             "tss_planned": 98.4,
             "tss_actual": 139.94,
             "status": "completed",
+            "distance_km": 12.08,
             "description": "CONTROLLED",
             "comments": []
           },
@@ -62953,6 +62986,7 @@
             "tss_planned": 31.62,
             "tss_actual": 56.34,
             "status": "completed",
+            "distance_km": 1.7,
             "description": "100m w/u\n3 x (200m no tools/pb/pb+pd 30sec rest, 100m kick)\n4 x 50m (25m hard kick, 25m easy) 30sec rest\n200m easy",
             "comments": [
               {
@@ -62980,6 +63014,7 @@
             "tss_planned": null,
             "tss_actual": 118.5,
             "status": "completed",
+            "distance_km": 3.2,
             "description": "Cool Down:\n__________________________________________\nPB or Swim 10 sec rests\n8 x 25 (3 easy, 1 fast )\n6 x 25 (2 easy, 1 fast )\n4 x 25 (1 easy, 1 fast)\n2 x 25 (both fast)\n\nMain Set:\n10 Sec rests for the 50s\n\n10 x 50 PB/PD as 25 fast/25 easy\n1 x 600 PB/Band med\n10 x 50 PB/PD as 17 easy/33 fast\n1 x 400 PB/Band mad\n10 x 50 PB/PD as 25 easy / 25 hard\n\nCool down:\n__________________________________________\nPB optional\n1 x 200",
             "comments": []
           },
@@ -62992,6 +63027,7 @@
             "tss_planned": null,
             "tss_actual": 33.18,
             "status": "completed",
+            "distance_km": null,
             "description": "",
             "comments": []
           },
@@ -63004,6 +63040,7 @@
             "tss_planned": 64.03,
             "tss_actual": 65.19,
             "status": "completed",
+            "distance_km": 11.02,
             "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------(3x)\nSHORT HILLS – 5x 25 sec HILLS with a slow jog back.\n----------------------------------------------\nCool down 10min +",
             "comments": []
           },
@@ -63016,6 +63053,7 @@
             "tss_planned": 68.9,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "WU: 20min\nEMS:\n6x 4min AT, 2:30 rest\nCD: 8min",
             "comments": []
           },
@@ -63028,6 +63066,7 @@
             "tss_planned": null,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": 2.8,
             "description": "Warm up:\n------------------\n400 easy\n5 x 100 Building into Vo2 effort with PB + P. Rest 20's\n8 x 25m kick\n\nMain set:\n-----------------\n8 x 25 @ Vo2 Max effort rest 10's\n10 x 50 @ Vo2 Max effort rest equal to swim time\nOdds no equipment / evens fins & PD\n\n200 easy\n6 x 100 PB easy rest 15's focus on stroke\n\nCool Down:\n-------------------\n400 easy",
             "comments": []
           },
@@ -63040,6 +63079,7 @@
             "tss_planned": 40,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "1h easy, just nice and easy, getting into a nice rhythm.",
             "comments": []
           },
@@ -63052,6 +63092,7 @@
             "tss_planned": null,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "",
             "comments": []
           },
@@ -63064,6 +63105,7 @@
             "tss_planned": 201.6,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "4h @ 55-70% FTP, with 7x 2M hill repeats with each @ 105-110% FTP with 2M active recovery between each (1:1 work to rest ratio).\n\nKeep intensity in check wherever possible during steady riding, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source. This workout including the hill repeats will also start to prepare the leg muscles for higher intensity, longer duration intervals to come.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nThe mid-ride efforts also help induce fatigue and glycogen depletion early on in the ride, helping boost the stimulus for improved endurance and fat oxidation.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
             "comments": []
           },
@@ -63076,6 +63118,7 @@
             "tss_planned": 106.45,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "WU: 25min - EASY PACE - then;\n3 x 400mMED to MAD effort / 60sec easy (3min recovery between sets)\n\nGO REALLY CONTROLLED ON THESE !!!",
             "comments": []
           }
@@ -63090,6 +63133,7 @@
             "tss_planned": 148.18,
             "tss_actual": null,
             "status": "planned",
+            "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\n3h30 easy – conversational pace.",
             "comments": []
           }
@@ -64304,6 +64348,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-11T04:19:30.353Z"
+    "checked_at": "2026-08-12T04:46:33.516Z"
   }
 }
