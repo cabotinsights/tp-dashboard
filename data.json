@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T04:46:33.504Z",
-  "as_of_date": "2026-08-12",
+  "generated_at": "2026-08-13T04:50:28.276Z",
+  "as_of_date": "2026-08-13",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,28 +61367,28 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 104.4,
-        "atl": 114.6,
-        "tsb": -16.9,
+        "ctl": 102.9,
+        "atl": 104.5,
+        "tsb": -10.7,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-10",
         "end": "2026-08-16",
         "sessions_planned": 9,
-        "sessions_completed": 3,
+        "sessions_completed": 4,
         "sessions_missed": 0,
-        "sessions_due_to_date": 3,
-        "sessions_still_to_come": 6,
-        "sessions_planned_today": 1,
+        "sessions_due_to_date": 4,
+        "sessions_still_to_come": 5,
+        "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 216.87,
-        "total_hours": 2.77,
+        "total_tss": 290.18,
+        "total_hours": 3.88,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.12,
+            "tss": 73.31
           },
           "Run": {
             "hours": 0.98,
@@ -61438,11 +61438,11 @@
             "date": "2026-08-12",
             "title": "6 x 4min AT",
             "sport": "Bike",
-            "duration_hours": 1.1166666666666667,
-            "tss": null,
+            "duration_hours": 1.1166666746139526,
+            "tss": 73.31,
             "tss_planned": 68.9,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-13",
@@ -61684,19 +61684,19 @@
           "duration_hours": 0.978024959564209,
           "distance_km": 11.02,
           "tss": 65.19
+        },
+        {
+          "date": "2026-08-12",
+          "title": "6 x 4min AT",
+          "sport": "Bike",
+          "duration_hours": 1.1166666746139526,
+          "distance_km": null,
+          "tss": 73.31
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-08-12",
-          "title": "6 x 4min AT",
-          "sport": "Bike",
-          "duration_hours": 1.1166666666666667,
-          "distance_km": null,
-          "tss_planned": 68.9
-        },
         {
           "date": "2026-08-13",
           "title": "Swim | 8 x 25 + 10 x 50 + 6 x 100 | Vo2 Max Set 3.1",
@@ -61745,7 +61745,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 95
+        "days_out": 94
       },
       "focus_event": {
         "id": 37280222,
@@ -61754,7 +61754,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 115
+        "days_out": 114
       },
       "peaks": {
         "bike_20min_power": {
@@ -61962,440 +61962,434 @@
       ],
       "fitness_history": [
         {
-          "date": "2026-05-20",
-          "ctl": 109.2,
-          "atl": 139.1,
-          "tsb": -37.3
-        },
-        {
           "date": "2026-05-21",
-          "ctl": 106.6,
-          "atl": 119.2,
-          "tsb": -29.9
+          "ctl": 106.3,
+          "atl": 118.2,
+          "tsb": -29
         },
         {
           "date": "2026-05-22",
-          "ctl": 113.3,
-          "atl": 157.9,
-          "tsb": -12.6
+          "ctl": 113,
+          "atl": 157,
+          "tsb": -11.9
         },
         {
           "date": "2026-05-23",
-          "ctl": 114.7,
-          "atl": 159.5,
-          "tsb": -44.5
+          "ctl": 114.4,
+          "atl": 158.7,
+          "tsb": -44
         },
         {
           "date": "2026-05-24",
-          "ctl": 114.8,
-          "atl": 153.7,
-          "tsb": -44.8
+          "ctl": 114.5,
+          "atl": 153.1,
+          "tsb": -44.4
         },
         {
           "date": "2026-05-25",
-          "ctl": 115.4,
-          "atl": 152.2,
-          "tsb": -38.9
+          "ctl": 115.1,
+          "atl": 151.6,
+          "tsb": -38.6
         },
         {
           "date": "2026-05-26",
-          "ctl": 115.3,
-          "atl": 145.9,
-          "tsb": -36.7
+          "ctl": 115,
+          "atl": 145.4,
+          "tsb": -36.5
         },
         {
           "date": "2026-05-27",
-          "ctl": 115.3,
-          "atl": 141.8,
-          "tsb": -30.6
+          "ctl": 115,
+          "atl": 141.4,
+          "tsb": -30.5
         },
         {
           "date": "2026-05-28",
-          "ctl": 115,
-          "atl": 136.1,
-          "tsb": -26.5
+          "ctl": 114.7,
+          "atl": 135.7,
+          "tsb": -26.3
         },
         {
           "date": "2026-05-29",
-          "ctl": 115.5,
-          "atl": 136.3,
-          "tsb": -21.1
+          "ctl": 115.3,
+          "atl": 136,
+          "tsb": -21
         },
         {
           "date": "2026-05-30",
-          "ctl": 116.6,
-          "atl": 139.9,
+          "ctl": 116.4,
+          "atl": 139.6,
           "tsb": -20.8
         },
         {
           "date": "2026-05-31",
-          "ctl": 115.8,
-          "atl": 131.7,
-          "tsb": -23.2
+          "ctl": 115.6,
+          "atl": 131.5,
+          "tsb": -23.3
         },
         {
           "date": "2026-06-01",
-          "ctl": 114.1,
-          "atl": 119.1,
+          "ctl": 113.8,
+          "atl": 118.9,
           "tsb": -15.9
         },
         {
           "date": "2026-06-02",
-          "ctl": 115.6,
-          "atl": 127.2,
+          "ctl": 115.3,
+          "atl": 127,
           "tsb": -5
         },
         {
           "date": "2026-06-03",
-          "ctl": 115.3,
-          "atl": 124.1,
-          "tsb": -11.6
+          "ctl": 115.1,
+          "atl": 124,
+          "tsb": -11.7
         },
         {
           "date": "2026-06-04",
-          "ctl": 116,
-          "atl": 126.9,
-          "tsb": -8.8
+          "ctl": 115.8,
+          "atl": 126.8,
+          "tsb": -8.9
         },
         {
           "date": "2026-06-05",
-          "ctl": 114.6,
-          "atl": 117.1,
-          "tsb": -10.9
+          "ctl": 114.4,
+          "atl": 117,
+          "tsb": -11
         },
         {
           "date": "2026-06-06",
-          "ctl": 114.3,
+          "ctl": 114.1,
           "atl": 114.6,
-          "tsb": -2.5
+          "tsb": -2.6
         },
         {
           "date": "2026-06-07",
-          "ctl": 118.5,
-          "atl": 140.2,
-          "tsb": -0.4
+          "ctl": 118.3,
+          "atl": 140.1,
+          "tsb": -0.5
         },
         {
           "date": "2026-06-08",
-          "ctl": 117.5,
-          "atl": 131.1,
-          "tsb": -21.6
+          "ctl": 117.3,
+          "atl": 131,
+          "tsb": -21.8
         },
         {
           "date": "2026-06-09",
-          "ctl": 119.2,
-          "atl": 139.4,
-          "tsb": -13.6
+          "ctl": 119,
+          "atl": 139.3,
+          "tsb": -13.7
         },
         {
           "date": "2026-06-10",
-          "ctl": 118.5,
-          "atl": 132,
-          "tsb": -20.1
+          "ctl": 118.3,
+          "atl": 131.9,
+          "tsb": -20.3
         },
         {
           "date": "2026-06-11",
-          "ctl": 117.1,
+          "ctl": 116.9,
           "atl": 121.8,
-          "tsb": -13.5
+          "tsb": -13.6
         },
         {
           "date": "2026-06-12",
-          "ctl": 116.1,
-          "atl": 115,
-          "tsb": -4.7
+          "ctl": 115.9,
+          "atl": 114.9,
+          "tsb": -4.9
         },
         {
           "date": "2026-06-13",
-          "ctl": 116.5,
-          "atl": 117.6,
-          "tsb": 1.1
+          "ctl": 116.3,
+          "atl": 117.5,
+          "tsb": 1
         },
         {
           "date": "2026-06-14",
-          "ctl": 117.7,
-          "atl": 124.4,
-          "tsb": -1.1
+          "ctl": 117.5,
+          "atl": 124.3,
+          "tsb": -1.2
         },
         {
           "date": "2026-06-15",
-          "ctl": 116.6,
+          "ctl": 116.4,
           "atl": 117.2,
-          "tsb": -6.7
+          "tsb": -6.9
         },
         {
           "date": "2026-06-16",
-          "ctl": 114.7,
+          "ctl": 114.5,
           "atl": 105.4,
-          "tsb": -0.6
+          "tsb": -0.7
         },
         {
           "date": "2026-06-17",
-          "ctl": 114.2,
+          "ctl": 114,
           "atl": 103.8,
-          "tsb": 9.3
+          "tsb": 9.1
         },
         {
           "date": "2026-06-18",
-          "ctl": 113.3,
+          "ctl": 113.1,
           "atl": 99.9,
-          "tsb": 10.4
+          "tsb": 10.2
         },
         {
           "date": "2026-06-19",
-          "ctl": 111.5,
+          "ctl": 111.3,
           "atl": 91.1,
-          "tsb": 13.3
+          "tsb": 13.2
         },
         {
           "date": "2026-06-20",
-          "ctl": 108.8,
+          "ctl": 108.7,
           "atl": 78.1,
-          "tsb": 20.4
+          "tsb": 20.3
         },
         {
           "date": "2026-06-21",
-          "ctl": 106.3,
+          "ctl": 106.1,
           "atl": 66.9,
-          "tsb": 30.8
+          "tsb": 30.6
         },
         {
           "date": "2026-06-22",
-          "ctl": 105.1,
+          "ctl": 104.9,
           "atl": 65.4,
-          "tsb": 39.3
+          "tsb": 39.2
         },
         {
           "date": "2026-06-23",
-          "ctl": 104.8,
+          "ctl": 104.7,
           "atl": 69.8,
-          "tsb": 39.7
+          "tsb": 39.5
         },
         {
           "date": "2026-06-24",
-          "ctl": 103.1,
+          "ctl": 103,
           "atl": 64.3,
-          "tsb": 35.1
+          "tsb": 34.9
         },
         {
           "date": "2026-06-25",
-          "ctl": 104.3,
+          "ctl": 104.1,
           "atl": 76.8,
-          "tsb": 38.8
+          "tsb": 38.7
         },
         {
           "date": "2026-06-26",
-          "ctl": 102.6,
-          "atl": 70.7,
-          "tsb": 27.5
+          "ctl": 102.4,
+          "atl": 70.6,
+          "tsb": 27.3
         },
         {
           "date": "2026-06-27",
-          "ctl": 101.1,
+          "ctl": 100.9,
           "atl": 66.1,
-          "tsb": 31.9
+          "tsb": 31.8
         },
         {
           "date": "2026-06-28",
-          "ctl": 98.6,
+          "ctl": 98.5,
           "atl": 56.6,
-          "tsb": 35
+          "tsb": 34.9
         },
         {
           "date": "2026-06-29",
-          "ctl": 99,
+          "ctl": 98.9,
           "atl": 64.9,
-          "tsb": 42
+          "tsb": 41.9
         },
         {
           "date": "2026-06-30",
-          "ctl": 99,
+          "ctl": 98.9,
           "atl": 69.5,
-          "tsb": 34.1
+          "tsb": 34
         },
         {
           "date": "2026-07-01",
-          "ctl": 97.8,
+          "ctl": 97.7,
           "atl": 66.6,
-          "tsb": 29.5
+          "tsb": 29.3
         },
         {
           "date": "2026-07-02",
-          "ctl": 95.5,
+          "ctl": 95.3,
           "atl": 57.1,
-          "tsb": 31.2
+          "tsb": 31.1
         },
         {
           "date": "2026-07-03",
-          "ctl": 93.2,
+          "ctl": 93.1,
           "atl": 48.9,
-          "tsb": 38.4
+          "tsb": 38.3
         },
         {
           "date": "2026-07-04",
-          "ctl": 94.2,
+          "ctl": 94.1,
           "atl": 61.6,
-          "tsb": 44.3
+          "tsb": 44.2
         },
         {
           "date": "2026-07-05",
-          "ctl": 95.4,
+          "ctl": 95.3,
           "atl": 73,
-          "tsb": 32.7
+          "tsb": 32.6
         },
         {
           "date": "2026-07-06",
-          "ctl": 95.4,
+          "ctl": 95.3,
           "atl": 76.1,
-          "tsb": 22.4
+          "tsb": 22.2
         },
         {
           "date": "2026-07-07",
-          "ctl": 95.2,
+          "ctl": 95.1,
           "atl": 77.9,
-          "tsb": 19.2
+          "tsb": 19.1
         },
         {
           "date": "2026-07-08",
-          "ctl": 96.9,
+          "ctl": 96.8,
           "atl": 90.8,
-          "tsb": 17.3
+          "tsb": 17.2
         },
         {
           "date": "2026-07-09",
-          "ctl": 96.2,
+          "ctl": 96.1,
           "atl": 87.4,
-          "tsb": 6.1
+          "tsb": 6
         },
         {
           "date": "2026-07-10",
-          "ctl": 94.9,
+          "ctl": 94.8,
           "atl": 80.8,
-          "tsb": 8.8
+          "tsb": 8.7
         },
         {
           "date": "2026-07-11",
-          "ctl": 96.5,
+          "ctl": 96.4,
           "atl": 92.1,
-          "tsb": 14.1
+          "tsb": 14
         },
         {
           "date": "2026-07-12",
-          "ctl": 97.8,
+          "ctl": 97.7,
           "atl": 100.5,
-          "tsb": 4.4
+          "tsb": 4.3
         },
         {
           "date": "2026-07-13",
-          "ctl": 96.5,
+          "ctl": 96.4,
           "atl": 92.7,
-          "tsb": -2.8
+          "tsb": -2.9
         },
         {
           "date": "2026-07-14",
-          "ctl": 95.2,
+          "ctl": 95.1,
           "atl": 85.4,
-          "tsb": 3.8
+          "tsb": 3.7
         },
         {
           "date": "2026-07-15",
-          "ctl": 94.9,
+          "ctl": 94.8,
           "atl": 84.8,
-          "tsb": 9.8
+          "tsb": 9.7
         },
         {
           "date": "2026-07-16",
-          "ctl": 95.1,
+          "ctl": 95,
           "atl": 87.3,
-          "tsb": 10.1
+          "tsb": 10
         },
         {
           "date": "2026-07-17",
           "ctl": 95,
           "atl": 88.3,
-          "tsb": 7.8
+          "tsb": 7.7
         },
         {
           "date": "2026-07-18",
-          "ctl": 96.9,
+          "ctl": 96.8,
           "atl": 100.6,
-          "tsb": 6.8
+          "tsb": 6.7
         },
         {
           "date": "2026-07-19",
           "ctl": 98.2,
           "atl": 108,
-          "tsb": -3.6
+          "tsb": -3.7
         },
         {
           "date": "2026-07-20",
-          "ctl": 98.2,
+          "ctl": 98.1,
           "atl": 106.5,
-          "tsb": -9.7
+          "tsb": -9.8
         },
         {
           "date": "2026-07-21",
-          "ctl": 97.5,
+          "ctl": 97.4,
           "atl": 101,
           "tsb": -8.3
         },
         {
           "date": "2026-07-22",
-          "ctl": 97.8,
+          "ctl": 97.7,
           "atl": 102.1,
           "tsb": -3.5
         },
         {
           "date": "2026-07-23",
-          "ctl": 98.7,
+          "ctl": 98.6,
           "atl": 106.8,
-          "tsb": -4.3
+          "tsb": -4.4
         },
         {
           "date": "2026-07-24",
-          "ctl": 98,
+          "ctl": 97.9,
           "atl": 101.5,
-          "tsb": -8.1
+          "tsb": -8.2
         },
         {
           "date": "2026-07-25",
-          "ctl": 99.5,
+          "ctl": 99.4,
           "atl": 109.9,
-          "tsb": -3.5
+          "tsb": -3.6
         },
         {
           "date": "2026-07-26",
-          "ctl": 99.7,
+          "ctl": 99.6,
           "atl": 110,
           "tsb": -10.5
         },
         {
           "date": "2026-07-27",
-          "ctl": 99,
+          "ctl": 98.9,
           "atl": 104.3,
           "tsb": -10.3
         },
         {
           "date": "2026-07-28",
-          "ctl": 98.5,
+          "ctl": 98.4,
           "atl": 100.3,
           "tsb": -5.3
         },
         {
           "date": "2026-07-29",
-          "ctl": 97.5,
+          "ctl": 97.4,
           "atl": 93.9,
-          "tsb": -1.8
+          "tsb": -1.9
         },
         {
           "date": "2026-07-30",
-          "ctl": 97.8,
+          "ctl": 97.7,
           "atl": 96.5,
           "tsb": 3.5
         },
         {
           "date": "2026-07-31",
-          "ctl": 98,
+          "ctl": 97.9,
           "atl": 97.7,
           "tsb": 1.3
         },
@@ -62403,29 +62397,29 @@
           "date": "2026-08-01",
           "ctl": 100.7,
           "atl": 114.3,
-          "tsb": 0.3
+          "tsb": 0.2
         },
         {
           "date": "2026-08-02",
-          "ctl": 102.4,
+          "ctl": 102.3,
           "atl": 122.3,
           "tsb": -13.6
         },
         {
           "date": "2026-08-03",
-          "ctl": 101.7,
+          "ctl": 101.6,
           "atl": 115.3,
           "tsb": -19.9
         },
         {
           "date": "2026-08-04",
-          "ctl": 101.3,
+          "ctl": 101.2,
           "atl": 111,
-          "tsb": -13.6
+          "tsb": -13.7
         },
         {
           "date": "2026-08-05",
-          "ctl": 101.4,
+          "ctl": 101.3,
           "atl": 110.1,
           "tsb": -9.7
         },
@@ -62437,39 +62431,45 @@
         },
         {
           "date": "2026-08-07",
-          "ctl": 100.5,
+          "ctl": 100.4,
           "atl": 102.7,
-          "tsb": -5.3
+          "tsb": -5.4
         },
         {
           "date": "2026-08-08",
           "ctl": 102.9,
           "atl": 117,
-          "tsb": -2.2
+          "tsb": -2.3
         },
         {
           "date": "2026-08-09",
           "ctl": 105.1,
           "atl": 128.4,
-          "tsb": -14.1
+          "tsb": -14.2
         },
         {
           "date": "2026-08-10",
-          "ctl": 106.3,
+          "ctl": 106.2,
           "atl": 131.7,
-          "tsb": -23.2
+          "tsb": -23.3
         },
         {
           "date": "2026-08-11",
-          "ctl": 105.3,
+          "ctl": 105.2,
           "atl": 122.2,
-          "tsb": -25.4
+          "tsb": -25.5
         },
         {
           "date": "2026-08-12",
-          "ctl": 104.4,
-          "atl": 114.6,
-          "tsb": -16.9
+          "ctl": 104.5,
+          "atl": 115.2,
+          "tsb": -17
+        },
+        {
+          "date": "2026-08-13",
+          "ctl": 102.9,
+          "atl": 104.5,
+          "tsb": -10.7
         }
       ],
       "weekly_trend": [
@@ -62481,9 +62481,9 @@
         },
         {
           "week_start": "2026-08-10",
-          "tss": 217,
-          "hours": 2.77,
-          "ctl_end": 104.4
+          "tss": 290,
+          "hours": 3.88,
+          "ctl_end": 102.9
         },
         {
           "week_start": "2026-08-17",
@@ -62493,16 +62493,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-13",
-          "sleep_hours": 9.78,
-          "deep": 1.5,
-          "light": 5.4,
-          "rem": 1.9,
-          "awake": 0.97999966,
-          "hrv": 79,
-          "resting_hr": 51
-        },
         {
           "date": "2026-07-14",
           "sleep_hours": 8.87,
@@ -62792,6 +62782,26 @@
           "awake": 1.0599997,
           "hrv": 70,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-08-12",
+          "sleep_hours": 7.88,
+          "deep": 0.88,
+          "light": 4.06,
+          "rem": 2.18,
+          "awake": 0.76,
+          "hrv": 94,
+          "resting_hr": 50
+        },
+        {
+          "date": "2026-08-13",
+          "sleep_hours": 7.9,
+          "deep": 1.55,
+          "light": 4.05,
+          "rem": 1.93,
+          "awake": 0.37000024,
+          "hrv": 71,
+          "resting_hr": 50
         }
       ],
       "flags": [],
@@ -62802,7 +62812,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 95
+          "days_out": 94
         }
       ],
       "sessions_by_week": {
@@ -63049,13 +63059,20 @@
             "date": "2026-08-12",
             "title": "6 x 4min AT",
             "sport": "Bike",
-            "duration_hours": 1.1166666666666667,
+            "duration_hours": 1.1166666746139526,
             "tss_planned": 68.9,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 73.31,
+            "status": "completed",
             "distance_km": null,
             "description": "WU: 20min\nEMS:\n6x 4min AT, 2:30 rest\nCD: 8min",
-            "comments": []
+            "comments": [
+              {
+                "text": "Last 3 reps were tough. Pushed on last 2. \nBanana and some honey before. \nShould you fuel during these sessions? \nFeel fine overall. Bit tired but nothing unusual.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-12T05:19:38Z"
+              }
+            ]
           },
           {
             "id": "3889553197",
@@ -63144,7 +63161,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         827.34,
-        216.87,
+        290.18,
         0
       ]
     }
@@ -64348,6 +64365,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-12T04:46:33.516Z"
+    "checked_at": "2026-08-13T04:50:28.289Z"
   }
 }
