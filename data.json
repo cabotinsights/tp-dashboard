@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T03:38:21.292Z",
-  "as_of_date": "2026-08-15",
+  "generated_at": "2026-08-16T03:48:15.345Z",
+  "as_of_date": "2026-08-16",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 107.5,
-        "atl": 128.3,
-        "tsb": -10.8,
-        "status": "Very Tired (high fatigue)"
+        "ctl": 108.4,
+        "atl": 129.7,
+        "tsb": -25.2,
+        "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-08-10",
         "end": "2026-08-16",
-        "sessions_planned": 9,
-        "sessions_completed": 7,
+        "sessions_planned": 10,
+        "sessions_completed": 9,
         "sessions_missed": 0,
-        "sessions_due_to_date": 7,
-        "sessions_still_to_come": 2,
+        "sessions_due_to_date": 9,
+        "sessions_still_to_come": 1,
         "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 531.9,
-        "total_hours": 6.37,
+        "total_tss": 770.75,
+        "total_hours": 9.82,
         "by_sport": {
           "Bike": {
-            "hours": 1.12,
-            "tss": 73.31
+            "hours": 4.25,
+            "tss": 272.12
           },
           "Run": {
-            "hours": 1.89,
-            "tss": 123.15
+            "hours": 2.2,
+            "tss": 163.19
           },
           "Swim": {
             "hours": 2.53,
@@ -61478,11 +61478,21 @@
             "date": "2026-08-15",
             "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats x7 (Level 3)",
             "sport": "Bike",
-            "duration_hours": 4,
-            "tss": null,
+            "duration_hours": 3.1335082054138184,
+            "tss": 198.81,
             "tss_planned": 201.6,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 81.81,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-15",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.3092638850212097,
+            "tss": 40.04,
+            "tss_planned": null,
+            "distance_km": 4.05,
+            "_status": "done"
           },
           {
             "date": "2026-08-16",
@@ -61716,19 +61726,27 @@
           "duration_hours": 0.8483194420072767,
           "distance_km": 2.7,
           "tss": 89.16
+        },
+        {
+          "date": "2026-08-15",
+          "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats x7 (Level 3)",
+          "sport": "Bike",
+          "duration_hours": 3.1335082054138184,
+          "distance_km": 81.81,
+          "tss": 198.81
+        },
+        {
+          "date": "2026-08-15",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.3092638850212097,
+          "distance_km": 4.05,
+          "tss": 40.04
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-08-15",
-          "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats x7 (Level 3)",
-          "sport": "Bike",
-          "duration_hours": 4,
-          "distance_km": null,
-          "tss_planned": 201.6
-        },
         {
           "date": "2026-08-16",
           "title": "Run | 3x (5x 400m efforts / 60s recovery) | Pace",
@@ -61745,7 +61763,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 92
+        "days_out": 91
       },
       "focus_event": {
         "id": 37280222,
@@ -61754,7 +61772,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 112
+        "days_out": 111
       },
       "peaks": {
         "bike_20min_power": {
@@ -61961,12 +61979,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-23",
-          "ctl": 114.4,
-          "atl": 158.7,
-          "tsb": -44
-        },
         {
           "date": "2026-05-24",
           "ctl": 114.5,
@@ -62467,9 +62479,15 @@
         },
         {
           "date": "2026-08-15",
-          "ctl": 107.5,
-          "atl": 128.3,
+          "ctl": 108.4,
+          "atl": 133.6,
           "tsb": -10.8
+        },
+        {
+          "date": "2026-08-16",
+          "ctl": 108.4,
+          "atl": 129.7,
+          "tsb": -25.2
         }
       ],
       "weekly_trend": [
@@ -62481,28 +62499,18 @@
         },
         {
           "week_start": "2026-08-10",
-          "tss": 532,
-          "hours": 6.37,
-          "ctl_end": 107.5
+          "tss": 771,
+          "hours": 9.82,
+          "ctl_end": 108.4
         },
         {
           "week_start": "2026-08-17",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 108.4
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-16",
-          "sleep_hours": 7.62,
-          "deep": 1.21,
-          "light": 3.95,
-          "rem": 2.36,
-          "awake": 0.099999905,
-          "hrv": 65,
-          "resting_hr": 54
-        },
         {
           "date": "2026-07-17",
           "sleep_hours": 7.23,
@@ -62812,7 +62820,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 92
+          "days_out": 91
         }
       ],
       "sessions_by_week": {
@@ -63118,12 +63126,25 @@
             "date": "2026-08-15",
             "title": "Endurance: Steady Ride + Mid-Ride Hill Repeats x7 (Level 3)",
             "sport": "Bike",
-            "duration_hours": 4,
+            "duration_hours": 3.1335082054138184,
             "tss_planned": 201.6,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 198.81,
+            "status": "completed",
+            "distance_km": 81.81,
             "description": "4h @ 55-70% FTP, with 7x 2M hill repeats with each @ 105-110% FTP with 2M active recovery between each (1:1 work to rest ratio).\n\nKeep intensity in check wherever possible during steady riding, but don't stress straying into Zone 1 on downhills or Zone 3 on steeper climbs.\n\nPURPOSE: Enhances aerobic fitness by stimulating greater mitochondrial biogenesis (production of mitochondria - the power house of the cell), enhanced capillarization in the muscles, development of slow-twitch muscles fibres and trains body to more efficiently use fat as primary fuel source. This workout including the hill repeats will also start to prepare the leg muscles for higher intensity, longer duration intervals to come.\n\nUltimately, these endurance rides contribute to improved aerobic capacity, lactate threshold and muscular endurance.\n\nThe mid-ride efforts also help induce fatigue and glycogen depletion early on in the ride, helping boost the stimulus for improved endurance and fat oxidation.\n\nYou can read more about the importance of low-intensity training such as this in this great article by Stephen Seiler and Espen Tønnessen:\nhttps://sportsci.org/2009/ss.htm",
+            "comments": []
+          },
+          {
+            "id": "3902514812",
+            "date": "2026-08-15",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.3092638850212097,
+            "tss_planned": null,
+            "tss_actual": 40.04,
+            "status": "completed",
+            "distance_km": 4.05,
+            "description": "",
             "comments": []
           },
           {
@@ -63161,7 +63182,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         827.34,
-        531.9,
+        770.75,
         0
       ]
     }
@@ -64365,6 +64386,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-15T03:38:21.306Z"
+    "checked_at": "2026-08-16T03:48:15.359Z"
   }
 }
