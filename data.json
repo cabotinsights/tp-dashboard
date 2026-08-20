@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T03:45:44.814Z",
-  "as_of_date": "2026-08-19",
+  "generated_at": "2026-08-20T03:45:59.272Z",
+  "as_of_date": "2026-08-20",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,36 +61367,36 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 108.7,
-        "atl": 123.1,
-        "tsb": -17.1,
+        "ctl": 107,
+        "atl": 110.1,
+        "tsb": -18.9,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-17",
         "end": "2026-08-23",
         "sessions_planned": 11,
-        "sessions_completed": 4,
+        "sessions_completed": 6,
         "sessions_missed": 0,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 7,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 5,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 227.69,
-        "total_hours": 3.84,
+        "total_tss": 371.65,
+        "total_hours": 5.7,
         "by_sport": {
           "Bike": {
-            "hours": 1,
-            "tss": 37.02
+            "hours": 2.08,
+            "tss": 106.76
           },
           "Run": {
             "hours": 1,
             "tss": 52.67
           },
           "Swim": {
-            "hours": 1,
-            "tss": 106.32
+            "hours": 1.78,
+            "tss": 180.54
           },
           "Other": {
             "hours": 0.83,
@@ -61448,21 +61448,21 @@
             "date": "2026-08-19",
             "title": "6 x 4min AT",
             "sport": "Bike",
-            "duration_hours": 1.1166666666666667,
-            "tss": null,
+            "duration_hours": 1.0837193727493286,
+            "tss": 69.74,
             "tss_planned": 68.25,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-19",
             "title": "8x 50F+ 4x(300F,300E)",
             "sport": "Swim",
-            "duration_hours": 0.9166666666666666,
-            "tss": null,
+            "duration_hours": 0.7791861089070639,
+            "tss": 74.22,
             "tss_planned": 37.97,
-            "distance_km": 3,
-            "_status": "upcoming"
+            "distance_km": 2.4,
+            "_status": "done"
           },
           {
             "date": "2026-08-20",
@@ -61692,27 +61692,27 @@
           "duration_hours": 1,
           "distance_km": null,
           "tss": 37.02
-        }
-      ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-08-19",
           "title": "6 x 4min AT",
           "sport": "Bike",
-          "duration_hours": 1.1166666666666667,
+          "duration_hours": 1.0837193727493286,
           "distance_km": null,
-          "tss_planned": 68.25
+          "tss": 69.74
         },
         {
           "date": "2026-08-19",
           "title": "8x 50F+ 4x(300F,300E)",
           "sport": "Swim",
-          "duration_hours": 0.9166666666666666,
-          "distance_km": 3,
-          "tss_planned": 37.97
-        },
+          "duration_hours": 0.7791861089070639,
+          "distance_km": 2.4,
+          "tss": 74.22
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-08-20",
           "title": "Run",
@@ -61761,7 +61761,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 88
+        "days_out": 87
       },
       "focus_event": {
         "id": 37280222,
@@ -61770,7 +61770,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 108
+        "days_out": 107
       },
       "peaks": {
         "bike_20min_power": {
@@ -61977,12 +61977,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-27",
-          "ctl": 115,
-          "atl": 141.4,
-          "tsb": -30.5
-        },
         {
           "date": "2026-05-28",
           "ctl": 114.7,
@@ -62483,9 +62477,15 @@
         },
         {
           "date": "2026-08-19",
-          "ctl": 108.7,
-          "atl": 123.1,
+          "ctl": 109.6,
+          "atl": 128.5,
           "tsb": -17.1
+        },
+        {
+          "date": "2026-08-20",
+          "ctl": 107,
+          "atl": 110.1,
+          "tsb": -18.9
         }
       ],
       "weekly_trend": [
@@ -62497,9 +62497,9 @@
         },
         {
           "week_start": "2026-08-17",
-          "tss": 228,
-          "hours": 3.84,
-          "ctl_end": 108.7
+          "tss": 372,
+          "hours": 5.7,
+          "ctl_end": 107
         },
         {
           "week_start": "2026-08-24",
@@ -62509,16 +62509,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-20",
-          "sleep_hours": 10.1,
-          "deep": 1.68,
-          "light": 5.56,
-          "rem": 2.2,
-          "awake": 0.6600001,
-          "hrv": 85,
-          "resting_hr": 52
-        },
         {
           "date": "2026-07-21",
           "sleep_hours": 8.18,
@@ -62808,6 +62798,26 @@
           "awake": 0.31000006,
           "hrv": 74,
           "resting_hr": 49
+        },
+        {
+          "date": "2026-08-19",
+          "sleep_hours": 9.45,
+          "deep": 1.81,
+          "light": 5.56,
+          "rem": 1.81,
+          "awake": 0.26999998,
+          "hrv": 67,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-08-20",
+          "sleep_hours": 7.97,
+          "deep": 1.05,
+          "light": 4.66,
+          "rem": 1.91,
+          "awake": 0.35000026,
+          "hrv": 68,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62818,7 +62828,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 88
+          "days_out": 87
         }
       ],
       "sessions_by_week": {
@@ -63039,10 +63049,10 @@
             "date": "2026-08-19",
             "title": "6 x 4min AT",
             "sport": "Bike",
-            "duration_hours": 1.1166666666666667,
+            "duration_hours": 1.0837193727493286,
             "tss_planned": 68.25,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 69.74,
+            "status": "completed",
             "distance_km": null,
             "description": "WU: 20min\nEMS:\n6x 4min AT, 2:30 rest\nCD: 8min",
             "comments": []
@@ -63052,13 +63062,20 @@
             "date": "2026-08-19",
             "title": "8x 50F+ 4x(300F,300E)",
             "sport": "Swim",
-            "duration_hours": 0.9166666666666666,
+            "duration_hours": 0.7791861089070639,
             "tss_planned": 37.97,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 3,
+            "tss_actual": 74.22,
+            "status": "completed",
+            "distance_km": 2.4,
             "description": "WU: 200m\nMS:\n8x 50, hard, 20s rest\n4x (300 pb hard / 300m easy, no tools)",
-            "comments": []
+            "comments": [
+              {
+                "text": "No juice in the tank. Pace was dropping and felt technique was getting worse. Refuel and go again tomorrow. \nThe swim after a tough run or bike is always harder for me so need to get the swim done first then hard session after.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-19T13:08:32Z"
+              }
+            ]
           },
           {
             "id": "3904634560",
@@ -63199,7 +63216,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         885.84,
-        227.69000000000003,
+        371.65,
         0
       ]
     }
@@ -64403,6 +64420,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-19T03:45:44.825Z"
+    "checked_at": "2026-08-20T03:45:59.285Z"
   }
 }
