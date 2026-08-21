@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T03:45:59.272Z",
-  "as_of_date": "2026-08-20",
+  "generated_at": "2026-08-21T03:50:03.653Z",
+  "as_of_date": "2026-08-21",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,40 +61367,40 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 107,
-        "atl": 110.1,
-        "tsb": -18.9,
+        "ctl": 108.3,
+        "atl": 115.3,
+        "tsb": -18.3,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-17",
         "end": "2026-08-23",
-        "sessions_planned": 11,
-        "sessions_completed": 6,
+        "sessions_planned": 12,
+        "sessions_completed": 8,
         "sessions_missed": 0,
-        "sessions_due_to_date": 6,
-        "sessions_still_to_come": 5,
+        "sessions_due_to_date": 8,
+        "sessions_still_to_come": 4,
         "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 371.65,
-        "total_hours": 5.7,
+        "total_tss": 498.88,
+        "total_hours": 7.89,
         "by_sport": {
           "Bike": {
             "hours": 2.08,
             "tss": 106.76
           },
           "Run": {
-            "hours": 1,
-            "tss": 52.67
+            "hours": 2.5,
+            "tss": 154.71
           },
           "Swim": {
             "hours": 1.78,
             "tss": 180.54
           },
           "Other": {
-            "hours": 0.83,
-            "tss": 31.68
+            "hours": 1.52,
+            "tss": 56.87
           }
         },
         "sessions": [
@@ -61468,11 +61468,21 @@
             "date": "2026-08-20",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 1.3333333333333333,
-            "tss": null,
+            "duration_hours": 1.5042610168457031,
+            "tss": 102.04,
+            "tss_planned": null,
+            "distance_km": 17,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-20",
+            "title": "Other",
+            "sport": "Other",
+            "duration_hours": 0.6891000270843506,
+            "tss": 25.19,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-21",
@@ -61708,19 +61718,27 @@
           "duration_hours": 0.7791861089070639,
           "distance_km": 2.4,
           "tss": 74.22
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Run",
+          "sport": "Run",
+          "duration_hours": 1.5042610168457031,
+          "distance_km": 17,
+          "tss": 102.04
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Other",
+          "sport": "Other",
+          "duration_hours": 0.6891000270843506,
+          "distance_km": null,
+          "tss": 25.19
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-08-20",
-          "title": "Run",
-          "sport": "Run",
-          "duration_hours": 1.3333333333333333,
-          "distance_km": null,
-          "tss_planned": null
-        },
         {
           "date": "2026-08-21",
           "title": "Swim Al Wasl",
@@ -61761,7 +61779,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 87
+        "days_out": 86
       },
       "focus_event": {
         "id": 37280222,
@@ -61770,7 +61788,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 107
+        "days_out": 106
       },
       "peaks": {
         "bike_20min_power": {
@@ -61977,12 +61995,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-28",
-          "ctl": 114.7,
-          "atl": 135.7,
-          "tsb": -26.3
-        },
         {
           "date": "2026-05-29",
           "ctl": 115.3,
@@ -62483,9 +62495,15 @@
         },
         {
           "date": "2026-08-20",
-          "ctl": 107,
-          "atl": 110.1,
+          "ctl": 110.1,
+          "atl": 128.3,
           "tsb": -18.9
+        },
+        {
+          "date": "2026-08-21",
+          "ctl": 108.3,
+          "atl": 115.3,
+          "tsb": -18.3
         }
       ],
       "weekly_trend": [
@@ -62497,9 +62515,9 @@
         },
         {
           "week_start": "2026-08-17",
-          "tss": 372,
-          "hours": 5.7,
-          "ctl_end": 107
+          "tss": 499,
+          "hours": 7.89,
+          "ctl_end": 108.3
         },
         {
           "week_start": "2026-08-24",
@@ -62509,16 +62527,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-21",
-          "sleep_hours": 8.18,
-          "deep": 1.46,
-          "light": 4.15,
-          "rem": 1.4,
-          "awake": 1.1700002,
-          "hrv": 85,
-          "resting_hr": 50
-        },
         {
           "date": "2026-07-22",
           "sleep_hours": 7.02,
@@ -62818,6 +62826,16 @@
           "awake": 0.35000026,
           "hrv": 68,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-08-21",
+          "sleep_hours": 4.45,
+          "deep": 0.8,
+          "light": 2.96,
+          "rem": 0,
+          "awake": 0.6899998,
+          "hrv": 74,
+          "resting_hr": 49
         }
       ],
       "flags": [],
@@ -62828,7 +62846,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 87
+          "days_out": 86
         }
       ],
       "sessions_by_week": {
@@ -63082,12 +63100,25 @@
             "date": "2026-08-20",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 1.3333333333333333,
+            "duration_hours": 1.5042610168457031,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 102.04,
+            "status": "completed",
+            "distance_km": 17,
             "description": "1h20 trails Mushrif keep it aerobic under control HR<140, if you cannot come, then run indoors on the treadmill 1% easy for 1h30.",
+            "comments": []
+          },
+          {
+            "id": "3911607568",
+            "date": "2026-08-20",
+            "title": "Other",
+            "sport": null,
+            "duration_hours": 0.6891000270843506,
+            "tss_planned": null,
+            "tss_actual": 25.19,
+            "status": "completed",
+            "distance_km": null,
+            "description": "",
             "comments": []
           },
           {
@@ -63216,7 +63247,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         885.84,
-        371.65,
+        498.88,
         0
       ]
     }
@@ -64420,6 +64451,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-20T03:45:59.285Z"
+    "checked_at": "2026-08-21T03:50:03.667Z"
   }
 }
