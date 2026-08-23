@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T03:41:01.777Z",
-  "as_of_date": "2026-08-22",
+  "generated_at": "2026-08-23T03:50:10.610Z",
+  "as_of_date": "2026-08-23",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 110.7,
-        "atl": 129.2,
-        "tsb": -4.9,
-        "status": "Tired (absorbing training)"
+        "ctl": 109.3,
+        "atl": 117.6,
+        "tsb": -21.8,
+        "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-17",
         "end": "2026-08-23",
         "sessions_planned": 13,
-        "sessions_completed": 9,
+        "sessions_completed": 12,
         "sessions_missed": 1,
-        "sessions_due_to_date": 10,
-        "sessions_still_to_come": 3,
-        "sessions_planned_today": 2,
-        "compliance_pct": 90,
+        "sessions_due_to_date": 13,
+        "sessions_still_to_come": 0,
+        "sessions_planned_today": 1,
+        "compliance_pct": 92,
         "on_pace": false,
-        "total_tss": 518.59,
-        "total_hours": 8.56,
+        "total_tss": 797.93,
+        "total_hours": 13.13,
         "by_sport": {
           "Bike": {
-            "hours": 2.75,
-            "tss": 126.47
+            "hours": 6.79,
+            "tss": 352.67
           },
           "Run": {
-            "hours": 2.5,
-            "tss": 154.71
+            "hours": 3.03,
+            "tss": 207.85
           },
           "Swim": {
             "hours": 1.78,
@@ -61508,31 +61508,31 @@
             "date": "2026-08-22",
             "title": "Endurance 4h",
             "sport": "Bike",
-            "duration_hours": 4,
-            "tss": null,
+            "duration_hours": 4.041111111111111,
+            "tss": 226.2,
             "tss_planned": 227.42,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 108.19,
+            "_status": "done"
           },
           {
             "date": "2026-08-22",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 0.3333333333333333,
-            "tss": null,
+            "duration_hours": 0.24299167096614838,
+            "tss": 29.71,
             "tss_planned": null,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 3.05,
+            "_status": "done"
           },
           {
             "date": "2026-08-23",
             "title": "Run | 4x5x400",
             "sport": "Run",
-            "duration_hours": 1.5944444444444446,
-            "tss": null,
+            "duration_hours": 0.2836749851703644,
+            "tss": 23.43,
             "tss_planned": 97.6,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 3.03,
+            "_status": "done"
           }
         ]
       },
@@ -61752,6 +61752,30 @@
           "duration_hours": 0.66685551404953,
           "distance_km": null,
           "tss": 19.71
+        },
+        {
+          "date": "2026-08-22",
+          "title": "Endurance 4h",
+          "sport": "Bike",
+          "duration_hours": 4.041111111111111,
+          "distance_km": 108.19,
+          "tss": 226.2
+        },
+        {
+          "date": "2026-08-22",
+          "title": "Run",
+          "sport": "Run",
+          "duration_hours": 0.24299167096614838,
+          "distance_km": 3.05,
+          "tss": 29.71
+        },
+        {
+          "date": "2026-08-23",
+          "title": "Run | 4x5x400",
+          "sport": "Run",
+          "duration_hours": 0.2836749851703644,
+          "distance_km": 3.03,
+          "tss": 23.43
         }
       ],
       "missed_sessions": [
@@ -61765,32 +61789,7 @@
         }
       ],
       "planned_sessions": [],
-      "upcoming_sessions": [
-        {
-          "date": "2026-08-22",
-          "title": "Endurance 4h",
-          "sport": "Bike",
-          "duration_hours": 4,
-          "distance_km": null,
-          "tss_planned": 227.42
-        },
-        {
-          "date": "2026-08-22",
-          "title": "Run",
-          "sport": "Run",
-          "duration_hours": 0.3333333333333333,
-          "distance_km": null,
-          "tss_planned": null
-        },
-        {
-          "date": "2026-08-23",
-          "title": "Run | 4x5x400",
-          "sport": "Run",
-          "duration_hours": 1.5944444444444446,
-          "distance_km": null,
-          "tss_planned": 97.6
-        }
-      ],
+      "upcoming_sessions": [],
       "next_event": {
         "id": 37280228,
         "name": "T100 Dubai",
@@ -61798,7 +61797,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 85
+        "days_out": 84
       },
       "focus_event": {
         "id": 37280222,
@@ -61807,7 +61806,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 105
+        "days_out": 104
       },
       "peaks": {
         "bike_20min_power": {
@@ -62014,12 +62013,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-05-30",
-          "ctl": 116.4,
-          "atl": 139.6,
-          "tsb": -20.8
-        },
         {
           "date": "2026-05-31",
           "ctl": 115.6,
@@ -62520,9 +62513,15 @@
         },
         {
           "date": "2026-08-22",
-          "ctl": 110.7,
-          "atl": 129.2,
+          "ctl": 111.4,
+          "atl": 133.2,
           "tsb": -4.9
+        },
+        {
+          "date": "2026-08-23",
+          "ctl": 109.3,
+          "atl": 117.6,
+          "tsb": -21.8
         }
       ],
       "weekly_trend": [
@@ -62534,28 +62533,18 @@
         },
         {
           "week_start": "2026-08-17",
-          "tss": 519,
-          "hours": 8.56,
-          "ctl_end": 110.7
+          "tss": 798,
+          "hours": 13.13,
+          "ctl_end": 109.3
         },
         {
           "week_start": "2026-08-24",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 109.3
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-23",
-          "sleep_hours": 8.22,
-          "deep": 1.33,
-          "light": 4.65,
-          "rem": 2,
-          "awake": 0.24000025,
-          "hrv": 75,
-          "resting_hr": 51
-        },
         {
           "date": "2026-07-24",
           "sleep_hours": 9.4,
@@ -62855,6 +62844,16 @@
           "awake": 0.3499998,
           "hrv": 73,
           "resting_hr": 49
+        },
+        {
+          "date": "2026-08-23",
+          "sleep_hours": 6.65,
+          "deep": 1.08,
+          "light": 3.71,
+          "rem": 1.38,
+          "awake": 0.48000014,
+          "hrv": 50,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62865,7 +62864,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 85
+          "days_out": 84
         }
       ],
       "sessions_by_week": {
@@ -63185,11 +63184,11 @@
             "date": "2026-08-22",
             "title": "Endurance 4h",
             "sport": "Bike",
-            "duration_hours": 4,
+            "duration_hours": 4.041111111111111,
             "tss_planned": 227.42,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 226.2,
+            "status": "completed",
+            "distance_km": 108.19,
             "description": "Nice and easy time in the saddle - conversational pace.",
             "comments": []
           },
@@ -63198,11 +63197,11 @@
             "date": "2026-08-22",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 0.3333333333333333,
+            "duration_hours": 0.24299167096614838,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 29.71,
+            "status": "completed",
+            "distance_km": 3.05,
             "description": "20min off the bike up 1.5km then down 1.5km",
             "comments": []
           },
@@ -63211,11 +63210,11 @@
             "date": "2026-08-23",
             "title": "Run | 4x5x400",
             "sport": "Run",
-            "duration_hours": 1.5944444444444446,
+            "duration_hours": 0.2836749851703644,
             "tss_planned": 97.6,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 23.43,
+            "status": "completed",
+            "distance_km": 3.03,
             "description": "",
             "comments": []
           }
@@ -63290,10 +63289,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 90,
+      "compliance_pct": 92,
       "weekly_tss_trend": [
         885.84,
-        518.59,
+        797.93,
         0
       ]
     }
@@ -64497,6 +64496,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-22T03:41:01.787Z"
+    "checked_at": "2026-08-23T03:50:10.625Z"
   }
 }
