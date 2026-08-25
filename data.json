@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T03:53:53.523Z",
-  "as_of_date": "2026-08-24",
+  "generated_at": "2026-08-25T03:48:24.520Z",
+  "as_of_date": "2026-08-25",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 109.9,
-        "atl": 117.3,
-        "tsb": -24.3,
+        "ctl": 110.2,
+        "atl": 116.5,
+        "tsb": -17.9,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-24",
         "end": "2026-08-30",
-        "sessions_planned": 5,
-        "sessions_completed": 0,
+        "sessions_planned": 11,
+        "sessions_completed": 2,
         "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 5,
+        "sessions_due_to_date": 2,
+        "sessions_still_to_come": 9,
         "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "total_tss": 87.4,
+        "total_hours": 1.54,
         "by_sport": {
           "Bike": {
             "hours": 0,
@@ -61395,33 +61395,83 @@
             "tss": 0
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.7,
+            "tss": 53.99
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.84,
+            "tss": 33.41
           }
         },
         "sessions": [
           {
             "date": "2026-08-24",
-            "title": "Wk 15",
+            "title": "Swim Strength | 6x 400m pb",
+            "sport": "Swim",
+            "duration_hours": 0.6950222211413913,
+            "tss": 53.99,
+            "tss_planned": 0,
+            "distance_km": 2,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-24",
+            "title": "Hot Yoga",
+            "sport": "Other",
+            "duration_hours": 0.8447972536087036,
+            "tss": 33.41,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
+            "date": "2026-08-25",
+            "title": "Run - Treadmill",
             "sport": "Run",
-            "duration_hours": null,
+            "duration_hours": 1,
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
             "_status": "upcoming"
           },
           {
-            "date": "2026-08-24",
-            "title": "Swim Strength | 6x 400m pb",
-            "sport": "Swim",
-            "duration_hours": 0.75,
+            "date": "2026-08-25",
+            "title": "Turbo - single leg + 2 x 5 x 1min CAD50",
+            "sport": "Bike",
+            "duration_hours": 1,
             "tss": null,
-            "tss_planned": 0,
-            "distance_km": 2.4,
+            "tss_planned": 37,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-26",
+            "title": "3 x 8min AT",
+            "sport": "Bike",
+            "duration_hours": 1.0666666666666667,
+            "tss": null,
+            "tss_planned": 65.2,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-26",
+            "title": "8x 50F+ 4x(300F,300E)",
+            "sport": "Swim",
+            "duration_hours": 0.9166666666666666,
+            "tss": null,
+            "tss_planned": 37.97,
+            "distance_km": 3,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-27",
+            "title": "Run - Treadmill - 2 x 5 x 400m",
+            "sport": "Run",
+            "duration_hours": 0.9166666666666666,
+            "tss": null,
+            "tss_planned": null,
+            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61441,6 +61491,16 @@
             "duration_hours": 4,
             "tss": null,
             "tss_planned": 227.42,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-08-29",
+            "title": "Run - optional",
+            "sport": "Run",
+            "duration_hours": 0.5,
+            "tss": null,
+            "tss_planned": null,
             "distance_km": null,
             "_status": "upcoming"
           },
@@ -61630,25 +61690,66 @@
           }
         ]
       },
-      "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
-        {
-          "date": "2026-08-24",
-          "title": "Wk 15",
-          "sport": "Run",
-          "duration_hours": null,
-          "distance_km": null,
-          "tss_planned": null
-        },
+      "completed_sessions": [
         {
           "date": "2026-08-24",
           "title": "Swim Strength | 6x 400m pb",
           "sport": "Swim",
-          "duration_hours": 0.75,
-          "distance_km": 2.4,
-          "tss_planned": 0
+          "duration_hours": 0.6950222211413913,
+          "distance_km": 2,
+          "tss": 53.99
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Hot Yoga",
+          "sport": "Other",
+          "duration_hours": 0.8447972536087036,
+          "distance_km": null,
+          "tss": 33.41
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
+        {
+          "date": "2026-08-25",
+          "title": "Run - Treadmill",
+          "sport": "Run",
+          "duration_hours": 1,
+          "distance_km": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-08-25",
+          "title": "Turbo - single leg + 2 x 5 x 1min CAD50",
+          "sport": "Bike",
+          "duration_hours": 1,
+          "distance_km": null,
+          "tss_planned": 37
+        },
+        {
+          "date": "2026-08-26",
+          "title": "3 x 8min AT",
+          "sport": "Bike",
+          "duration_hours": 1.0666666666666667,
+          "distance_km": null,
+          "tss_planned": 65.2
+        },
+        {
+          "date": "2026-08-26",
+          "title": "8x 50F+ 4x(300F,300E)",
+          "sport": "Swim",
+          "duration_hours": 0.9166666666666666,
+          "distance_km": 3,
+          "tss_planned": 37.97
+        },
+        {
+          "date": "2026-08-27",
+          "title": "Run - Treadmill - 2 x 5 x 400m",
+          "sport": "Run",
+          "duration_hours": 0.9166666666666666,
+          "distance_km": null,
+          "tss_planned": null
         },
         {
           "date": "2026-08-28",
@@ -61667,6 +61768,14 @@
           "tss_planned": 227.42
         },
         {
+          "date": "2026-08-29",
+          "title": "Run - optional",
+          "sport": "Run",
+          "duration_hours": 0.5,
+          "distance_km": null,
+          "tss_planned": null
+        },
+        {
           "date": "2026-08-30",
           "title": "1h40 E",
           "sport": "Run",
@@ -61682,7 +61791,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 83
+        "days_out": 82
       },
       "focus_event": {
         "id": 37280222,
@@ -61691,7 +61800,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 103
+        "days_out": 102
       },
       "peaks": {
         "bike_20min_power": {
@@ -61898,12 +62007,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-01",
-          "ctl": 113.8,
-          "atl": 118.9,
-          "tsb": -15.9
-        },
         {
           "date": "2026-06-02",
           "ctl": 115.3,
@@ -62404,9 +62507,15 @@
         },
         {
           "date": "2026-08-24",
-          "ctl": 109.9,
-          "atl": 117.3,
+          "ctl": 112,
+          "atl": 129.8,
           "tsb": -24.3
+        },
+        {
+          "date": "2026-08-25",
+          "ctl": 110.2,
+          "atl": 116.5,
+          "tsb": -17.9
         }
       ],
       "weekly_trend": [
@@ -62418,9 +62527,9 @@
         },
         {
           "week_start": "2026-08-24",
-          "tss": 0,
-          "hours": 0,
-          "ctl_end": 109.9
+          "tss": 87,
+          "hours": 1.54,
+          "ctl_end": 110.2
         },
         {
           "week_start": "2026-08-31",
@@ -62430,16 +62539,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-25",
-          "sleep_hours": 5.78,
-          "deep": 1.43,
-          "light": 3.13,
-          "rem": 0.58,
-          "awake": 0.6400003,
-          "hrv": 53,
-          "resting_hr": 57
-        },
         {
           "date": "2026-07-26",
           "sleep_hours": 8.33,
@@ -62729,6 +62828,26 @@
           "awake": 0.48000014,
           "hrv": 50,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-08-24",
+          "sleep_hours": 9.93,
+          "deep": 1.23,
+          "light": 5.81,
+          "rem": 2.01,
+          "awake": 0.8800008,
+          "hrv": 74,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-08-25",
+          "sleep_hours": 7.5,
+          "deep": 0.83,
+          "light": 4.81,
+          "rem": 1.68,
+          "awake": 0.18000019,
+          "hrv": 72,
+          "resting_hr": 50
         }
       ],
       "flags": [],
@@ -62739,7 +62858,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 83
+          "days_out": 82
         }
       ],
       "sessions_by_week": {
@@ -62833,6 +62952,12 @@
                 "author": "Stephen Bates",
                 "author_role": "athlete",
                 "created_at": "2026-08-19T13:08:32Z"
+              },
+              {
+                "text": "Great feedback! Swim like this means intensity, which demands carbs and fresh nervous system, you will nail it. Great job for pushing through!",
+                "author": "De Bruin Train",
+                "author_role": "coach",
+                "created_at": "2026-08-24T09:08:50Z"
               }
             ]
           },
@@ -62957,29 +63082,107 @@
         ],
         "2026-08-24": [
           {
-            "id": "3643379756",
-            "date": "2026-08-24",
-            "title": "Wk 15",
-            "sport": null,
-            "duration_hours": null,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "2)VO2max Bike - 30-60s\nHill running - 15-30s (work 4-6min) - 4wks",
-            "comments": []
-          },
-          {
             "id": "3904638541",
             "date": "2026-08-24",
             "title": "Swim Strength | 6x 400m pb",
             "sport": "Swim",
-            "duration_hours": 0.75,
+            "duration_hours": 0.6950222211413913,
             "tss_planned": 0,
+            "tss_actual": 53.99,
+            "status": "completed",
+            "distance_km": 2,
+            "description": "6x 400m PB mod 30sec rest",
+            "comments": [
+              {
+                "text": "Not sure if it’s fatigue or a mix. Feels recently swim performance is decreasing vs improving. \nToday was busy and this morning had blood tests so was fasting. \nMaybe mix of fuel and fatigue. Had gel before this. Let’s see how I am this week.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-24T12:24:10Z"
+              },
+              {
+                "text": "I think also when it is sprint / fast short laps I can push and hold pace. But when it’s long endurance the longer reps I feel technique drops as progresses.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-24T12:37:04Z"
+              }
+            ]
+          },
+          {
+            "id": "3918261924",
+            "date": "2026-08-24",
+            "title": "Hot Yoga",
+            "sport": null,
+            "duration_hours": 0.8447972536087036,
+            "tss_planned": null,
+            "tss_actual": 33.41,
+            "status": "completed",
+            "distance_km": null,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "3917702608",
+            "date": "2026-08-25",
+            "title": "Run - Treadmill",
+            "sport": "Run",
+            "duration_hours": 1,
+            "tss_planned": null,
             "tss_actual": null,
             "status": "planned",
-            "distance_km": 2.4,
-            "description": "6x 400m PB mod 30sec rest",
+            "distance_km": null,
+            "description": "20min 1% w/u easy choose a speed during at the end of the warmup and this speed will be constant during the entire set for next rounds, just play with incline, speed stays same all the time! recommend don't start faster than 10-10.3km/h\n6 x (4min see below, 1min 1%)\n10min c/d\n----\n#1: 4x1min 4/5/6/7%\n#2: 4x1min 8/4/8/4%\n#3: 4min 6%\n#4: 4x1min 6/8/6/8%\n#5: 4x1min 8/4/8/4%\n#6: 4min 8%",
+            "comments": []
+          },
+          {
+            "id": "3917705032",
+            "date": "2026-08-25",
+            "title": "Turbo - single leg + 2 x 5 x 1min CAD50",
+            "sport": "Bike",
+            "duration_hours": 1,
+            "tss_planned": 37,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.",
+            "comments": []
+          },
+          {
+            "id": "3917706720",
+            "date": "2026-08-26",
+            "title": "3 x 8min AT",
+            "sport": "Bike",
+            "duration_hours": 1.0666666666666667,
+            "tss_planned": 65.2,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "WU: 20min\nEMS:\n3 x 8min AT, 4min rest\nCD: 8min",
+            "comments": []
+          },
+          {
+            "id": "3917709175",
+            "date": "2026-08-26",
+            "title": "8x 50F+ 4x(300F,300E)",
+            "sport": "Swim",
+            "duration_hours": 0.9166666666666666,
+            "tss_planned": 37.97,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": 3,
+            "description": "WU: 200m\nMS:\n8x 50, hard, 20s rest\n4x (300 pb hard / 300m easy, no tools)",
+            "comments": []
+          },
+          {
+            "id": "3917714505",
+            "date": "2026-08-27",
+            "title": "Run - Treadmill - 2 x 5 x 400m",
+            "sport": "Run",
+            "duration_hours": 0.9166666666666666,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "entire session 1%\n---\n15min w/u easy\n2 x\n[5 x (400m 17-18km/h build into it, 1min easy jogging 10-10.5km/h),\n10min easy jogging 10-11km/h]\n5min easy walk backwards 4% incline speed 2.5km/h just relax and let it go, pay attention to tension in your hips",
             "comments": []
           },
           {
@@ -63009,6 +63212,19 @@
             "comments": []
           },
           {
+            "id": "3917715297",
+            "date": "2026-08-29",
+            "title": "Run - optional",
+            "sport": "Run",
+            "duration_hours": 0.5,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "we might do bricks, let's see. take shoes.",
+            "comments": []
+          },
+          {
             "id": "3904365621",
             "date": "2026-08-30",
             "title": "1h40 E",
@@ -63024,16 +63240,16 @@
         ],
         "2026-08-31": [
           {
-            "id": "3643379637",
+            "id": "3917716427",
             "date": "2026-08-31",
-            "title": "Wk 14",
-            "sport": null,
-            "duration_hours": null,
-            "tss_planned": null,
+            "title": "Swim",
+            "sport": "Swim",
+            "duration_hours": 0.6666666666666666,
+            "tss_planned": 58.68,
             "tss_actual": null,
             "status": "planned",
-            "distance_km": null,
-            "description": "3)\nVO2max Bike - 30-60s\nHill running - 15-30s (work 4-6min) - 4wks",
+            "distance_km": 2,
+            "description": "15 x 100m pb easy 10sec rest\n16 x 25m (1 hard, 1 easy) 5-10sec rest\n100m c/d",
             "comments": []
           }
         ]
@@ -63043,7 +63259,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         933.1299999999999,
-        0,
+        87.4,
         0
       ]
     }
@@ -64247,6 +64463,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-24T03:53:53.537Z"
+    "checked_at": "2026-08-25T03:48:24.534Z"
   }
 }
