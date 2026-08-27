@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T03:52:47.835Z",
-  "as_of_date": "2026-08-26",
+  "generated_at": "2026-08-27T13:50:03.303Z",
+  "as_of_date": "2026-08-27",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,36 +61367,36 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 111.2,
-        "atl": 121,
-        "tsb": -12.6,
+        "ctl": 111.1,
+        "atl": 118.3,
+        "tsb": -16.3,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-08-24",
         "end": "2026-08-30",
         "sessions_planned": 11,
-        "sessions_completed": 4,
+        "sessions_completed": 7,
         "sessions_missed": 0,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 7,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 7,
+        "sessions_still_to_come": 4,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 176.51,
-        "total_hours": 3.54,
+        "total_tss": 389.33,
+        "total_hours": 6.28,
         "by_sport": {
           "Bike": {
-            "hours": 1,
-            "tss": 36.58
+            "hours": 2.02,
+            "tss": 97.28
           },
           "Run": {
-            "hours": 1,
-            "tss": 52.53
+            "hours": 1.77,
+            "tss": 107.8
           },
           "Swim": {
-            "hours": 0.7,
-            "tss": 53.99
+            "hours": 1.65,
+            "tss": 150.84
           },
           "Other": {
             "hours": 0.84,
@@ -61448,31 +61448,31 @@
             "date": "2026-08-26",
             "title": "3 x 8min AT",
             "sport": "Bike",
-            "duration_hours": 1.0666666666666667,
-            "tss": null,
+            "duration_hours": 1.0178333520889282,
+            "tss": 60.7,
             "tss_planned": 65.2,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-26",
             "title": "8x 50F+ 4x(300F,300E)",
             "sport": "Swim",
-            "duration_hours": 0.9166666666666666,
-            "tss": null,
+            "duration_hours": 0.9532833327187432,
+            "tss": 96.85,
             "tss_planned": 37.97,
             "distance_km": 3,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-08-27",
             "title": "Run - Treadmill - 2 x 5 x 400m",
             "sport": "Run",
-            "duration_hours": 0.9166666666666666,
-            "tss": null,
+            "duration_hours": 0.7669305205345154,
+            "tss": 55.27,
             "tss_planned": null,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 9.01,
+            "_status": "done"
           },
           {
             "date": "2026-08-28",
@@ -61722,35 +61722,35 @@
           "duration_hours": 1,
           "distance_km": null,
           "tss": 36.58
-        }
-      ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-08-26",
           "title": "3 x 8min AT",
           "sport": "Bike",
-          "duration_hours": 1.0666666666666667,
+          "duration_hours": 1.0178333520889282,
           "distance_km": null,
-          "tss_planned": 65.2
+          "tss": 60.7
         },
         {
           "date": "2026-08-26",
           "title": "8x 50F+ 4x(300F,300E)",
           "sport": "Swim",
-          "duration_hours": 0.9166666666666666,
+          "duration_hours": 0.9532833327187432,
           "distance_km": 3,
-          "tss_planned": 37.97
+          "tss": 96.85
         },
         {
           "date": "2026-08-27",
           "title": "Run - Treadmill - 2 x 5 x 400m",
           "sport": "Run",
-          "duration_hours": 0.9166666666666666,
-          "distance_km": null,
-          "tss_planned": null
-        },
+          "duration_hours": 0.7669305205345154,
+          "distance_km": 9.01,
+          "tss": 55.27
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-08-28",
           "title": "Swim Al Wasl",
@@ -61791,7 +61791,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 81
+        "days_out": 80
       },
       "focus_event": {
         "id": 37280222,
@@ -61800,7 +61800,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 101
+        "days_out": 100
       },
       "peaks": {
         "bike_20min_power": {
@@ -62007,12 +62007,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-03",
-          "ctl": 115.1,
-          "atl": 124,
-          "tsb": -11.7
-        },
         {
           "date": "2026-06-04",
           "ctl": 115.8,
@@ -62513,9 +62507,15 @@
         },
         {
           "date": "2026-08-26",
-          "ctl": 111.2,
-          "atl": 121,
+          "ctl": 112.5,
+          "atl": 128.8,
           "tsb": -12.6
+        },
+        {
+          "date": "2026-08-27",
+          "ctl": 111.1,
+          "atl": 118.3,
+          "tsb": -16.3
         }
       ],
       "weekly_trend": [
@@ -62527,9 +62527,9 @@
         },
         {
           "week_start": "2026-08-24",
-          "tss": 177,
-          "hours": 3.54,
-          "ctl_end": 111.2
+          "tss": 389,
+          "hours": 6.28,
+          "ctl_end": 111.1
         },
         {
           "week_start": "2026-08-31",
@@ -62539,16 +62539,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-07-27",
-          "sleep_hours": 8.93,
-          "deep": 1.25,
-          "light": 4.75,
-          "rem": 2.71,
-          "awake": 0.22000027,
-          "hrv": 76,
-          "resting_hr": 54
-        },
         {
           "date": "2026-07-28",
           "sleep_hours": 7.72,
@@ -62848,6 +62838,16 @@
           "awake": 0.21000004,
           "hrv": 68,
           "resting_hr": 50
+        },
+        {
+          "date": "2026-08-27",
+          "sleep_hours": 7.6,
+          "deep": 1.31,
+          "light": 4.1,
+          "rem": 1.35,
+          "awake": 0.84000003,
+          "hrv": 68,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62858,7 +62858,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 81
+          "days_out": 80
         }
       ],
       "sessions_by_week": {
@@ -63158,10 +63158,10 @@
             "date": "2026-08-26",
             "title": "3 x 8min AT",
             "sport": "Bike",
-            "duration_hours": 1.0666666666666667,
+            "duration_hours": 1.0178333520889282,
             "tss_planned": 65.2,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 60.7,
+            "status": "completed",
             "distance_km": null,
             "description": "WU: 20min\nEMS:\n3 x 8min AT, 4min rest\nCD: 8min",
             "comments": []
@@ -63171,26 +63171,40 @@
             "date": "2026-08-26",
             "title": "8x 50F+ 4x(300F,300E)",
             "sport": "Swim",
-            "duration_hours": 0.9166666666666666,
+            "duration_hours": 0.9532833327187432,
             "tss_planned": 37.97,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 96.85,
+            "status": "completed",
             "distance_km": 3,
             "description": "WU: 200m\nMS:\n8x 50, hard, 20s rest\n4x (300 pb hard / 300m easy, no tools)",
-            "comments": []
+            "comments": [
+              {
+                "text": "Better this week but still very difficult session. Since the morning (pre ride) , post ride and pre swim I had total 300 g carb and still felt hard. It’s a hard session anyway. The 300 m no tools slow I find the most difficult to hold.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-26T14:02:07Z"
+              }
+            ]
           },
           {
             "id": "3917714505",
             "date": "2026-08-27",
             "title": "Run - Treadmill - 2 x 5 x 400m",
             "sport": "Run",
-            "duration_hours": 0.9166666666666666,
+            "duration_hours": 0.7669305205345154,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 55.27,
+            "status": "completed",
+            "distance_km": 9.01,
             "description": "entire session 1%\n---\n15min w/u easy\n2 x\n[5 x (400m 17-18km/h build into it, 1min easy jogging 10-10.5km/h),\n10min easy jogging 10-11km/h]\n5min easy walk backwards 4% incline speed 2.5km/h just relax and let it go, pay attention to tension in your hips",
-            "comments": []
+            "comments": [
+              {
+                "text": "Cut the last 2. Calf felt a bit tender so don’t want to push. Kept at 17km for all (1st one 16km) felt fine",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-08-27T05:19:01Z"
+              }
+            ]
           },
           {
             "id": "3904365781",
@@ -63266,7 +63280,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         933.1299999999999,
-        176.51,
+        389.3299999999999,
         0
       ]
     }
@@ -64470,6 +64484,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-08-26T03:52:47.850Z"
+    "checked_at": "2026-08-27T13:50:03.313Z"
   }
 }
