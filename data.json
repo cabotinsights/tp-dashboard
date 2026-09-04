@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T07:49:37.186Z",
-  "as_of_date": "2026-09-03",
+  "generated_at": "2026-09-04T07:45:11.314Z",
+  "as_of_date": "2026-09-04",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 106.6,
-        "atl": 98.4,
-        "tsb": 4.9,
+        "ctl": 104.2,
+        "atl": 84.6,
+        "tsb": 8,
         "status": "Neutral (normal training)"
       },
       "this_week": {
         "start": "2026-08-31",
         "end": "2026-09-06",
         "sessions_planned": 10,
-        "sessions_completed": 4,
+        "sessions_completed": 5,
         "sessions_missed": 1,
-        "sessions_due_to_date": 5,
-        "sessions_still_to_come": 5,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 4,
         "sessions_planned_today": 2,
-        "compliance_pct": 80,
+        "compliance_pct": 83,
         "on_pace": false,
-        "total_tss": 325.7,
-        "total_hours": 3.32,
+        "total_tss": 401.29,
+        "total_hours": 4.15,
         "by_sport": {
           "Bike": {
             "hours": 0,
@@ -61395,8 +61395,8 @@
             "tss": 158.32
           },
           "Swim": {
-            "hours": 1.61,
-            "tss": 167.38
+            "hours": 2.43,
+            "tss": 242.97
           },
           "Other": {
             "hours": 0,
@@ -61458,17 +61458,17 @@
             "date": "2026-09-03",
             "title": "Swim",
             "sport": "Swim",
-            "duration_hours": 0.8333333333333334,
-            "tss": null,
+            "duration_hours": 0.8208833328882853,
+            "tss": 75.59,
             "tss_planned": 73.34,
             "distance_km": 2.5,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
-            "date": "2026-09-03",
-            "title": "Run",
-            "sport": "Run",
-            "duration_hours": 1.1666666666666667,
+            "date": "2026-09-04",
+            "title": "Day off",
+            "sport": "Other",
+            "duration_hours": null,
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
@@ -61476,9 +61476,9 @@
           },
           {
             "date": "2026-09-04",
-            "title": "Day off",
-            "sport": "Other",
-            "duration_hours": null,
+            "title": "Run",
+            "sport": "Run",
+            "duration_hours": 1.1666666666666667,
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
@@ -61682,6 +61682,14 @@
           "duration_hours": 0.9666666388511658,
           "distance_km": 10.8,
           "tss": 103.45
+        },
+        {
+          "date": "2026-09-03",
+          "title": "Swim",
+          "sport": "Swim",
+          "duration_hours": 0.8208833328882853,
+          "distance_km": 2.5,
+          "tss": 75.59
         }
       ],
       "missed_sessions": [
@@ -61697,26 +61705,18 @@
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-09-03",
-          "title": "Swim",
-          "sport": "Swim",
-          "duration_hours": 0.8333333333333334,
-          "distance_km": 2.5,
-          "tss_planned": 73.34
-        },
-        {
-          "date": "2026-09-03",
-          "title": "Run",
-          "sport": "Run",
-          "duration_hours": 1.1666666666666667,
+          "date": "2026-09-04",
+          "title": "Day off",
+          "sport": "Other",
+          "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
         },
         {
           "date": "2026-09-04",
-          "title": "Day off",
-          "sport": "Other",
-          "duration_hours": null,
+          "title": "Run",
+          "sport": "Run",
+          "duration_hours": 1.1666666666666667,
           "distance_km": null,
           "tss_planned": null
         },
@@ -61744,7 +61744,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 73
+        "days_out": 72
       },
       "focus_event": {
         "id": 37280222,
@@ -61753,7 +61753,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 93
+        "days_out": 92
       },
       "peaks": {
         "bike_20min_power": {
@@ -61960,12 +61960,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-11",
-          "ctl": 116.9,
-          "atl": 121.8,
-          "tsb": -13.6
-        },
         {
           "date": "2026-06-12",
           "ctl": 115.9,
@@ -62466,9 +62460,15 @@
         },
         {
           "date": "2026-09-03",
-          "ctl": 106.6,
-          "atl": 98.4,
+          "ctl": 106.7,
+          "atl": 98.7,
           "tsb": 4.9
+        },
+        {
+          "date": "2026-09-04",
+          "ctl": 104.2,
+          "atl": 84.6,
+          "tsb": 8
         }
       ],
       "weekly_trend": [
@@ -62480,22 +62480,12 @@
         },
         {
           "week_start": "2026-08-31",
-          "tss": 326,
-          "hours": 3.32,
-          "ctl_end": 106.6
+          "tss": 401,
+          "hours": 4.15,
+          "ctl_end": 104.2
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-04",
-          "sleep_hours": 7.6,
-          "deep": 1.45,
-          "light": 3.93,
-          "rem": 2.08,
-          "awake": 0.13999963,
-          "hrv": 82,
-          "resting_hr": 50
-        },
         {
           "date": "2026-08-05",
           "sleep_hours": 7.82,
@@ -62795,6 +62785,16 @@
           "awake": 0.08000004,
           "hrv": 61,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-09-04",
+          "sleep_hours": 8.43,
+          "deep": 1.33,
+          "light": 4.73,
+          "rem": 2.23,
+          "awake": 0.14000034,
+          "hrv": 64,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62805,7 +62805,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 73
+          "days_out": 72
         }
       ],
       "sessions_by_week": {
@@ -63066,25 +63066,12 @@
             "date": "2026-09-03",
             "title": "Swim",
             "sport": "Swim",
-            "duration_hours": 0.8333333333333334,
+            "duration_hours": 0.8208833328882853,
             "tss_planned": 73.34,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 75.59,
+            "status": "completed",
             "distance_km": 2.5,
             "description": "3 x 800m no tools / pb / pb+pd mod 30sec rest\n100m c/d",
-            "comments": []
-          },
-          {
-            "id": "3930368841",
-            "date": "2026-09-03",
-            "title": "Run",
-            "sport": "Run",
-            "duration_hours": 1.1666666666666667,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "1h10 easy run just keep low HR < 140",
             "comments": []
           },
           {
@@ -63098,6 +63085,19 @@
             "status": "planned",
             "distance_km": null,
             "description": "",
+            "comments": []
+          },
+          {
+            "id": "3930368841",
+            "date": "2026-09-04",
+            "title": "Run",
+            "sport": "Run",
+            "duration_hours": 1.1666666666666667,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "1h10 easy run just keep low HR < 140",
             "comments": []
           },
           {
@@ -63130,10 +63130,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 80,
+      "compliance_pct": 83,
       "weekly_tss_trend": [
         557.1399999999999,
-        325.7
+        401.28999999999996
       ]
     }
   },
@@ -64336,6 +64336,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-03T07:49:37.200Z"
+    "checked_at": "2026-09-04T07:45:11.328Z"
   }
 }
