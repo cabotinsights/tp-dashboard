@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T07:26:54.968Z",
-  "as_of_date": "2026-09-05",
+  "generated_at": "2026-09-06T07:40:10.179Z",
+  "as_of_date": "2026-09-06",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,21 +61367,21 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 104,
-        "atl": 84.7,
-        "tsb": 7.7,
-        "status": "Neutral (normal training)"
+        "ctl": 101.5,
+        "atl": 72.6,
+        "tsb": 19.3,
+        "status": "Fresh (race ready)"
       },
       "this_week": {
         "start": "2026-08-31",
         "end": "2026-09-06",
         "sessions_planned": 11,
         "sessions_completed": 7,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 9,
-        "sessions_still_to_come": 2,
+        "sessions_missed": 3,
+        "sessions_due_to_date": 10,
+        "sessions_still_to_come": 1,
         "sessions_planned_today": 1,
-        "compliance_pct": 78,
+        "compliance_pct": 70,
         "on_pace": false,
         "total_tss": 501.11,
         "total_hours": 5.38,
@@ -61502,7 +61502,7 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-09-06",
@@ -61734,10 +61734,7 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-09-05",
           "title": "Day off",
@@ -61745,7 +61742,10 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-09-06",
           "title": "Day off",
@@ -61762,7 +61762,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 71
+        "days_out": 70
       },
       "focus_event": {
         "id": 37280222,
@@ -61771,7 +61771,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 91
+        "days_out": 90
       },
       "peaks": {
         "bike_20min_power": {
@@ -61978,12 +61978,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-13",
-          "ctl": 116.3,
-          "atl": 117.5,
-          "tsb": 1
-        },
         {
           "date": "2026-06-14",
           "ctl": 117.5,
@@ -62487,6 +62481,12 @@
           "ctl": 104,
           "atl": 84.7,
           "tsb": 7.7
+        },
+        {
+          "date": "2026-09-06",
+          "ctl": 101.5,
+          "atl": 72.6,
+          "tsb": 19.3
         }
       ],
       "weekly_trend": [
@@ -62500,20 +62500,10 @@
           "week_start": "2026-08-31",
           "tss": 501,
           "hours": 5.38,
-          "ctl_end": 104
+          "ctl_end": 101.5
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-06",
-          "sleep_hours": 8.83,
-          "deep": 1.53,
-          "light": 5.01,
-          "rem": 1.41,
-          "awake": 0.88,
-          "hrv": 69,
-          "resting_hr": 51
-        },
         {
           "date": "2026-08-07",
           "sleep_hours": 7.43,
@@ -62813,7 +62803,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 71
+          "days_out": 70
         }
       ],
       "sessions_by_week": {
@@ -63151,7 +63141,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 78,
+      "compliance_pct": 70,
       "weekly_tss_trend": [
         557.1399999999999,
         501.10999999999996
@@ -64357,6 +64347,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-05T07:26:54.982Z"
+    "checked_at": "2026-09-06T07:40:10.191Z"
   }
 }
