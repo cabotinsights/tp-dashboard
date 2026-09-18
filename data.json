@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T08:25:08.155Z",
-  "as_of_date": "2026-09-17",
+  "generated_at": "2026-09-18T07:59:55.213Z",
+  "as_of_date": "2026-09-18",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,21 +61367,21 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 100.9,
-        "atl": 87.8,
-        "tsb": 17.5,
-        "status": "Fresh (race ready)"
+        "ctl": 95.8,
+        "atl": 61,
+        "tsb": 27,
+        "status": "Very Fresh (detraining risk)"
       },
       "this_week": {
         "start": "2026-09-14",
         "end": "2026-09-20",
         "sessions_planned": 8,
         "sessions_completed": 2,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 4,
-        "sessions_planned_today": 2,
-        "compliance_pct": 50,
+        "sessions_missed": 4,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 2,
+        "sessions_planned_today": 1,
+        "compliance_pct": 33,
         "on_pace": false,
         "total_tss": 121.56,
         "total_hours": 1.29,
@@ -61452,7 +61452,7 @@
             "tss": null,
             "tss_planned": 46.4,
             "distance_km": 8.33,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-09-17",
@@ -61462,7 +61462,7 @@
             "tss": null,
             "tss_planned": 70.51,
             "distance_km": 2.3,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-09-18",
@@ -61714,10 +61714,7 @@
           "duration_hours": 0.8,
           "distance_km": 2.4,
           "tss_planned": 70.41
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-09-17",
           "title": "Run",
@@ -61733,7 +61730,10 @@
           "duration_hours": 0.75,
           "distance_km": 2.3,
           "tss_planned": 70.51
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-09-18",
           "title": "Day off, enjoy the wedding :)",
@@ -61758,7 +61758,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 59
+        "days_out": 58
       },
       "focus_event": {
         "id": 37280222,
@@ -61767,7 +61767,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 79
+        "days_out": 78
       },
       "peaks": {
         "bike_20min_power": {
@@ -61974,12 +61974,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-25",
-          "ctl": 104.1,
-          "atl": 76.8,
-          "tsb": 38.7
-        },
         {
           "date": "2026-06-26",
           "ctl": 102.4,
@@ -62480,9 +62474,15 @@
         },
         {
           "date": "2026-09-17",
-          "ctl": 100.9,
-          "atl": 87.8,
+          "ctl": 98.1,
+          "atl": 71.1,
           "tsb": 17.5
+        },
+        {
+          "date": "2026-09-18",
+          "ctl": 95.8,
+          "atl": 61,
+          "tsb": 27
         }
       ],
       "weekly_trend": [
@@ -62496,7 +62496,7 @@
           "week_start": "2026-09-14",
           "tss": 122,
           "hours": 1.29,
-          "ctl_end": 100.9
+          "ctl_end": 95.8
         },
         {
           "week_start": "2026-09-21",
@@ -62506,16 +62506,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-18",
-          "sleep_hours": 7.13,
-          "deep": 1.66,
-          "light": 4.3,
-          "rem": 0.86,
-          "awake": 0.31000006,
-          "hrv": 74,
-          "resting_hr": 49
-        },
         {
           "date": "2026-08-19",
           "sleep_hours": 9.45,
@@ -62805,7 +62795,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 59
+          "days_out": 58
         }
       ],
       "sessions_by_week": {
@@ -63183,7 +63173,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 50,
+      "compliance_pct": 33,
       "weekly_tss_trend": [
         864.51,
         121.56,
@@ -64390,6 +64380,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-17T08:25:08.170Z"
+    "checked_at": "2026-09-18T07:59:55.228Z"
   }
 }
