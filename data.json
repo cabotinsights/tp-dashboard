@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T08:16:47.196Z",
-  "as_of_date": "2026-09-22",
+  "generated_at": "2026-09-23T08:19:04.364Z",
+  "as_of_date": "2026-09-23",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 93.8,
-        "atl": 67.4,
-        "tsb": 38.5,
+        "ctl": 92.8,
+        "atl": 67,
+        "tsb": 37.1,
         "status": "Very Fresh (detraining risk)"
       },
       "this_week": {
         "start": "2026-09-21",
         "end": "2026-09-27",
         "sessions_planned": 12,
-        "sessions_completed": 0,
-        "sessions_missed": 1,
-        "sessions_due_to_date": 1,
-        "sessions_still_to_come": 11,
-        "sessions_planned_today": 3,
-        "compliance_pct": 0,
+        "sessions_completed": 2,
+        "sessions_missed": 2,
+        "sessions_due_to_date": 4,
+        "sessions_still_to_come": 8,
+        "sessions_planned_today": 2,
+        "compliance_pct": 50,
         "on_pace": false,
-        "total_tss": 0,
-        "total_hours": 0,
+        "total_tss": 131.89,
+        "total_hours": 2.16,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.27,
+            "tss": 73.17
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.89,
+            "tss": 58.72
           },
           "Swim": {
             "hours": 0,
@@ -61418,11 +61418,11 @@
             "date": "2026-09-22",
             "title": "HILLS | 2x (7x 20s) | Pace",
             "sport": "Run",
-            "duration_hours": 0.9583333333333334,
-            "tss": null,
+            "duration_hours": 0.8946305513381958,
+            "tss": 58.72,
             "tss_planned": 60.57,
-            "distance_km": 10.51,
-            "_status": "upcoming"
+            "distance_km": 10.01,
+            "_status": "done"
           },
           {
             "date": "2026-09-22",
@@ -61432,26 +61432,26 @@
             "tss": null,
             "tss_planned": 20,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
-            "date": "2026-09-22",
+            "date": "2026-09-23",
+            "title": "Bike",
+            "sport": "Bike",
+            "duration_hours": 1.2666666507720947,
+            "tss": 73.17,
+            "tss_planned": 67.9,
+            "distance_km": 41.16,
+            "_status": "done"
+          },
+          {
+            "date": "2026-09-23",
             "title": "Swim",
             "sport": "Swim",
             "duration_hours": 0.6666666666666666,
             "tss": null,
             "tss_planned": 67.92,
             "distance_km": 2.1,
-            "_status": "upcoming"
-          },
-          {
-            "date": "2026-09-23",
-            "title": "Bike",
-            "sport": "Bike",
-            "duration_hours": 1.2666666666666666,
-            "tss": null,
-            "tss_planned": 67.9,
-            "distance_km": null,
             "_status": "upcoming"
           },
           {
@@ -61650,7 +61650,24 @@
           }
         ]
       },
-      "completed_sessions": [],
+      "completed_sessions": [
+        {
+          "date": "2026-09-22",
+          "title": "HILLS | 2x (7x 20s) | Pace",
+          "sport": "Run",
+          "duration_hours": 0.8946305513381958,
+          "distance_km": 10.01,
+          "tss": 58.72
+        },
+        {
+          "date": "2026-09-23",
+          "title": "Bike",
+          "sport": "Bike",
+          "duration_hours": 1.2666666507720947,
+          "distance_km": 41.16,
+          "tss": 73.17
+        }
+      ],
       "missed_sessions": [
         {
           "date": "2026-09-21",
@@ -61659,17 +61676,6 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
-        {
-          "date": "2026-09-22",
-          "title": "HILLS | 2x (7x 20s) | Pace",
-          "sport": "Run",
-          "duration_hours": 0.9583333333333334,
-          "distance_km": 10.51,
-          "tss_planned": 60.57
         },
         {
           "date": "2026-09-22",
@@ -61678,22 +61684,17 @@
           "duration_hours": 0.4166666666666667,
           "distance_km": null,
           "tss_planned": 20
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
-          "date": "2026-09-22",
+          "date": "2026-09-23",
           "title": "Swim",
           "sport": "Swim",
           "duration_hours": 0.6666666666666666,
           "distance_km": 2.1,
           "tss_planned": 67.92
-        },
-        {
-          "date": "2026-09-23",
-          "title": "Bike",
-          "sport": "Bike",
-          "duration_hours": 1.2666666666666666,
-          "distance_km": null,
-          "tss_planned": 67.9
         },
         {
           "date": "2026-09-24",
@@ -61759,7 +61760,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 54
+        "days_out": 53
       },
       "focus_event": {
         "id": 37280222,
@@ -61768,7 +61769,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 74
+        "days_out": 73
       },
       "peaks": {
         "bike_20min_power": {
@@ -61975,12 +61976,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-06-30",
-          "ctl": 98.9,
-          "atl": 69.5,
-          "tsb": 34
-        },
         {
           "date": "2026-07-01",
           "ctl": 97.7,
@@ -62481,9 +62476,15 @@
         },
         {
           "date": "2026-09-22",
-          "ctl": 93.8,
-          "atl": 67.4,
+          "ctl": 91.6,
+          "atl": 54.6,
           "tsb": 38.5
+        },
+        {
+          "date": "2026-09-23",
+          "ctl": 92.8,
+          "atl": 67,
+          "tsb": 37.1
         }
       ],
       "weekly_trend": [
@@ -62495,9 +62496,9 @@
         },
         {
           "week_start": "2026-09-21",
-          "tss": 0,
-          "hours": 0,
-          "ctl_end": 93.8
+          "tss": 132,
+          "hours": 2.16,
+          "ctl_end": 92.8
         },
         {
           "week_start": "2026-09-28",
@@ -62507,16 +62508,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-23",
-          "sleep_hours": 6.65,
-          "deep": 1.08,
-          "light": 3.71,
-          "rem": 1.38,
-          "awake": 0.48000014,
-          "hrv": 50,
-          "resting_hr": 53
-        },
         {
           "date": "2026-08-24",
           "sleep_hours": 9.93,
@@ -62786,6 +62777,16 @@
           "awake": 0.16999984,
           "hrv": 63,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-09-23",
+          "sleep_hours": 6.47,
+          "deep": 1.25,
+          "light": 3.35,
+          "rem": 1.15,
+          "awake": 0.7199999,
+          "hrv": 34,
+          "resting_hr": 59
         }
       ],
       "flags": [],
@@ -62796,7 +62797,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 54
+          "days_out": 53
         }
       ],
       "sessions_by_week": {
@@ -62938,11 +62939,11 @@
             "date": "2026-09-22",
             "title": "HILLS | 2x (7x 20s) | Pace",
             "sport": "Run",
-            "duration_hours": 0.9583333333333334,
+            "duration_hours": 0.8946305513381958,
             "tss_planned": 60.57,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 10.51,
+            "tss_actual": 58.72,
+            "status": "completed",
+            "distance_km": 10.01,
             "description": "WU: 25min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 7x 25 sec HILLS with a slow jog back.\n----------------------------------------------\njog 5min\n--------------------------------------------\nSHORT HILLS – 7x 25 sec HILLS with a slow jog back.\n-----------------------------------------------------\nCool down 10min +",
             "comments": []
           },
@@ -62960,8 +62961,21 @@
             "comments": []
           },
           {
+            "id": "3961695490",
+            "date": "2026-09-23",
+            "title": "Bike",
+            "sport": "Bike",
+            "duration_hours": 1.2666666507720947,
+            "tss_planned": 67.9,
+            "tss_actual": 73.17,
+            "status": "completed",
+            "distance_km": 41.16,
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "3950558194",
-            "date": "2026-09-22",
+            "date": "2026-09-23",
             "title": "Swim",
             "sport": "Swim",
             "duration_hours": 0.6666666666666666,
@@ -62970,19 +62984,6 @@
             "status": "planned",
             "distance_km": 2.1,
             "description": "2 x 200m w/u\n5 x 200m pb / pb + pd alternative mod-med 10sec rest\n24 x 25m (1 hard, 1 easy) no tools 5sec rest\n100m c/d",
-            "comments": []
-          },
-          {
-            "id": "3961695490",
-            "date": "2026-09-23",
-            "title": "Bike",
-            "sport": "Bike",
-            "duration_hours": 1.2666666666666666,
-            "tss_planned": 67.9,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "",
             "comments": []
           },
           {
@@ -63108,10 +63109,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 0,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         269.39,
-        0,
+        131.89,
         0
       ]
     }
@@ -64315,6 +64316,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-22T08:16:47.210Z"
+    "checked_at": "2026-09-23T08:19:04.378Z"
   }
 }
