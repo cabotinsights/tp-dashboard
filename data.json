@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T08:20:48.114Z",
-  "as_of_date": "2026-09-26",
+  "generated_at": "2026-09-27T08:58:24.944Z",
+  "as_of_date": "2026-09-27",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 94.8,
-        "atl": 89.4,
-        "tsb": 16.1,
-        "status": "Fresh (race ready)"
+        "ctl": 96.1,
+        "atl": 98.5,
+        "tsb": 7.8,
+        "status": "Neutral (normal training)"
       },
       "this_week": {
         "start": "2026-09-21",
         "end": "2026-09-27",
         "sessions_planned": 12,
-        "sessions_completed": 7,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 9,
-        "sessions_still_to_come": 3,
+        "sessions_completed": 8,
+        "sessions_missed": 3,
+        "sessions_due_to_date": 11,
+        "sessions_still_to_come": 1,
         "sessions_planned_today": 2,
-        "compliance_pct": 78,
+        "compliance_pct": 73,
         "on_pace": false,
-        "total_tss": 538.49,
-        "total_hours": 8.06,
+        "total_tss": 640.86,
+        "total_hours": 9.39,
         "by_sport": {
           "Bike": {
             "hours": 5.02,
             "tss": 262.88
           },
           "Run": {
-            "hours": 1.73,
-            "tss": 113.02
+            "hours": 3.06,
+            "tss": 215.39
           },
           "Swim": {
             "hours": 1.31,
@@ -61502,17 +61502,17 @@
             "tss": null,
             "tss_planned": 20,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-09-27",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 1.3522222222222222,
-            "tss": null,
+            "duration_hours": 1.3338388204574585,
+            "tss": 102.37,
             "tss_planned": 94.1,
-            "distance_km": 15.5,
-            "_status": "upcoming"
+            "distance_km": 16.07,
+            "_status": "done"
           },
           {
             "date": "2026-09-27",
@@ -61706,6 +61706,14 @@
           "duration_hours": 3.0016026496887207,
           "distance_km": null,
           "tss": 143.58
+        },
+        {
+          "date": "2026-09-27",
+          "title": "Run",
+          "sport": "Run",
+          "duration_hours": 1.3338388204574585,
+          "distance_km": 16.07,
+          "tss": 102.37
         }
       ],
       "missed_sessions": [
@@ -61724,10 +61732,7 @@
           "duration_hours": 0.4166666666666667,
           "distance_km": null,
           "tss_planned": 20
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-09-26",
           "title": "Run",
@@ -61735,15 +61740,10 @@
           "duration_hours": 0.25,
           "distance_km": null,
           "tss_planned": 20
-        },
-        {
-          "date": "2026-09-27",
-          "title": "Run",
-          "sport": "Run",
-          "duration_hours": 1.3522222222222222,
-          "distance_km": 15.5,
-          "tss_planned": 94.1
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-09-27",
           "title": "Swim",
@@ -61760,7 +61760,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 50
+        "days_out": 49
       },
       "focus_event": {
         "id": 37280222,
@@ -61769,7 +61769,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 70
+        "days_out": 69
       },
       "peaks": {
         "bike_20min_power": {
@@ -61976,12 +61976,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-04",
-          "ctl": 94.1,
-          "atl": 61.6,
-          "tsb": 44.2
-        },
         {
           "date": "2026-07-05",
           "ctl": 95.3,
@@ -62482,9 +62476,15 @@
         },
         {
           "date": "2026-09-26",
-          "ctl": 94.8,
-          "atl": 89.4,
+          "ctl": 94.3,
+          "atl": 86.6,
           "tsb": 16.1
+        },
+        {
+          "date": "2026-09-27",
+          "ctl": 96.1,
+          "atl": 98.5,
+          "tsb": 7.8
         }
       ],
       "weekly_trend": [
@@ -62496,28 +62496,18 @@
         },
         {
           "week_start": "2026-09-21",
-          "tss": 538,
-          "hours": 8.06,
-          "ctl_end": 94.8
+          "tss": 641,
+          "hours": 9.39,
+          "ctl_end": 96.1
         },
         {
           "week_start": "2026-09-28",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 96.1
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-27",
-          "sleep_hours": 7.6,
-          "deep": 1.31,
-          "light": 4.1,
-          "rem": 1.35,
-          "awake": 0.84000003,
-          "hrv": 68,
-          "resting_hr": 51
-        },
         {
           "date": "2026-08-28",
           "sleep_hours": 9.47,
@@ -62787,6 +62777,16 @@
           "awake": 2.29,
           "hrv": 47,
           "resting_hr": 55
+        },
+        {
+          "date": "2026-09-27",
+          "sleep_hours": 8.58,
+          "deep": 1.53,
+          "light": 4.66,
+          "rem": 1.81,
+          "awake": 0.5800004,
+          "hrv": 60,
+          "resting_hr": 54
         }
       ],
       "flags": [],
@@ -62797,7 +62797,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 50
+          "days_out": 49
         }
       ],
       "sessions_by_week": {
@@ -63063,13 +63063,20 @@
             "date": "2026-09-27",
             "title": "Run",
             "sport": "Run",
-            "duration_hours": 1.3522222222222222,
+            "duration_hours": 1.3338388204574585,
             "tss_planned": 94.1,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 15.5,
+            "tss_actual": 102.37,
+            "status": "completed",
+            "distance_km": 16.07,
             "description": "5 x 200m\n5 x 400m\n3 x 800m",
-            "comments": []
+            "comments": [
+              {
+                "text": "Skipped the last 800. In my head I thought it was 2 reps and I was cooked after the 2nd. Was tough. Breathing is better with the steroid inhaler from doc but felt it on the last few that last inhale isn’t fully there. But felt good overall. Good to get it done 👍🏻. Some issues with HR strap and bluetoooth kept disconnecting",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-09-27T06:58:32Z"
+              }
+            ]
           },
           {
             "id": "3950558194",
@@ -63116,10 +63123,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 78,
+      "compliance_pct": 73,
       "weekly_tss_trend": [
         269.39,
-        538.49,
+        640.86,
         0
       ]
     }
@@ -64323,6 +64330,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-26T08:20:48.129Z"
+    "checked_at": "2026-09-27T08:58:24.958Z"
   }
 }
