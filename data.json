@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T09:21:56.430Z",
-  "as_of_date": "2026-09-30",
+  "generated_at": "2026-10-01T09:48:40.609Z",
+  "as_of_date": "2026-10-01",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 96,
-        "atl": 97.8,
-        "tsb": 2.6,
-        "status": "Neutral (normal training)"
+        "ctl": 95.6,
+        "atl": 94.4,
+        "tsb": -5.1,
+        "status": "Tired (absorbing training)"
       },
       "this_week": {
         "start": "2026-09-28",
         "end": "2026-10-04",
         "sessions_planned": 11,
-        "sessions_completed": 4,
+        "sessions_completed": 5,
         "sessions_missed": 0,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 7,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 5,
+        "sessions_still_to_come": 6,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 231.37,
-        "total_hours": 3.32,
+        "total_tss": 309.06,
+        "total_hours": 3.94,
         "by_sport": {
           "Bike": {
             "hours": 1.75,
@@ -61395,8 +61395,8 @@
             "tss": 61.93
           },
           "Swim": {
-            "hours": 0.65,
-            "tss": 71.24
+            "hours": 1.27,
+            "tss": 148.93
           },
           "Other": {
             "hours": 0,
@@ -61448,11 +61448,11 @@
             "date": "2026-09-30",
             "title": "Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
+            "duration_hours": 0.6233749998940362,
+            "tss": 77.69,
             "tss_planned": 50,
             "distance_km": 2.1,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-10-01",
@@ -61702,19 +61702,19 @@
           "duration_hours": 1.2503193616867065,
           "distance_km": null,
           "tss": 78.92
+        },
+        {
+          "date": "2026-09-30",
+          "title": "Swim",
+          "sport": "Swim",
+          "duration_hours": 0.6233749998940362,
+          "distance_km": 2.1,
+          "tss": 77.69
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-09-30",
-          "title": "Swim",
-          "sport": "Swim",
-          "duration_hours": 0.6666666666666666,
-          "distance_km": 2.1,
-          "tss_planned": 50
-        },
         {
           "date": "2026-10-01",
           "title": "Running 60min",
@@ -61771,7 +61771,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 46
+        "days_out": 45
       },
       "focus_event": {
         "id": 37280222,
@@ -61780,7 +61780,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 66
+        "days_out": 65
       },
       "peaks": {
         "bike_20min_power": {
@@ -61987,12 +61987,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-08",
-          "ctl": 96.8,
-          "atl": 90.8,
-          "tsb": 17.2
-        },
         {
           "date": "2026-07-09",
           "ctl": 96.1,
@@ -62493,9 +62487,15 @@
         },
         {
           "date": "2026-09-30",
-          "ctl": 96,
-          "atl": 97.8,
+          "ctl": 96.7,
+          "atl": 101.8,
           "tsb": 2.6
+        },
+        {
+          "date": "2026-10-01",
+          "ctl": 95.6,
+          "atl": 94.4,
+          "tsb": -5.1
         }
       ],
       "weekly_trend": [
@@ -62507,9 +62507,9 @@
         },
         {
           "week_start": "2026-09-28",
-          "tss": 231,
-          "hours": 3.32,
-          "ctl_end": 96
+          "tss": 309,
+          "hours": 3.94,
+          "ctl_end": 95.6
         },
         {
           "week_start": "2026-10-05",
@@ -62519,16 +62519,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-08-31",
-          "sleep_hours": 5.53,
-          "deep": 0.6,
-          "light": 2.96,
-          "rem": 1.8,
-          "awake": 0.17000031,
-          "hrv": 70,
-          "resting_hr": 49
-        },
         {
           "date": "2026-09-01",
           "sleep_hours": 9.23,
@@ -62798,6 +62788,16 @@
           "awake": 0.89000034,
           "hrv": 83,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-10-01",
+          "sleep_hours": 7.52,
+          "deep": 1.3,
+          "light": 3.8,
+          "rem": 2.28,
+          "awake": 0.14000034,
+          "hrv": 67,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62808,7 +62808,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 46
+          "days_out": 45
         }
       ],
       "sessions_by_week": {
@@ -63062,10 +63062,10 @@
             "date": "2026-09-30",
             "title": "Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
+            "duration_hours": 0.6233749998940362,
             "tss_planned": 50,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 77.69,
+            "status": "completed",
             "distance_km": 2.1,
             "description": "2 x 400m w/u\n2 x (\n6 x 50m no tools hard! 40sec rest!\n200m pb+pd med 30sec rest\n100m pb easy\n)\n100m c/d",
             "comments": []
@@ -63170,7 +63170,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         711.9300000000001,
-        231.37,
+        309.06,
         0
       ]
     }
@@ -64374,6 +64374,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-09-30T09:21:56.444Z"
+    "checked_at": "2026-10-01T09:48:40.623Z"
   }
 }
