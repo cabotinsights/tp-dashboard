@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T09:48:40.609Z",
-  "as_of_date": "2026-10-01",
+  "generated_at": "2026-10-02T09:25:02.108Z",
+  "as_of_date": "2026-10-02",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 95.6,
-        "atl": 94.4,
-        "tsb": -5.1,
-        "status": "Tired (absorbing training)"
+        "ctl": 94.6,
+        "atl": 88.9,
+        "tsb": 4.1,
+        "status": "Neutral (normal training)"
       },
       "this_week": {
         "start": "2026-09-28",
         "end": "2026-10-04",
         "sessions_planned": 11,
-        "sessions_completed": 5,
+        "sessions_completed": 6,
         "sessions_missed": 0,
-        "sessions_due_to_date": 5,
-        "sessions_still_to_come": 6,
-        "sessions_planned_today": 1,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 5,
+        "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 309.06,
-        "total_hours": 3.94,
+        "total_tss": 334.89,
+        "total_hours": 4.44,
         "by_sport": {
           "Bike": {
             "hours": 1.75,
             "tss": 98.2
           },
           "Run": {
-            "hours": 0.92,
-            "tss": 61.93
+            "hours": 1.42,
+            "tss": 87.76
           },
           "Swim": {
             "hours": 1.27,
@@ -61458,11 +61458,11 @@
             "date": "2026-10-01",
             "title": "Running 60min",
             "sport": "Run",
-            "duration_hours": 1,
-            "tss": null,
+            "duration_hours": 0.5001277923583984,
+            "tss": 25.83,
             "tss_planned": 49.98,
-            "distance_km": 11.95,
-            "_status": "upcoming"
+            "distance_km": 5,
+            "_status": "done"
           },
           {
             "date": "2026-10-02",
@@ -61710,19 +61710,19 @@
           "duration_hours": 0.6233749998940362,
           "distance_km": 2.1,
           "tss": 77.69
+        },
+        {
+          "date": "2026-10-01",
+          "title": "Running 60min",
+          "sport": "Run",
+          "duration_hours": 0.5001277923583984,
+          "distance_km": 5,
+          "tss": 25.83
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-10-01",
-          "title": "Running 60min",
-          "sport": "Run",
-          "duration_hours": 1,
-          "distance_km": 11.95,
-          "tss_planned": 49.98
-        },
         {
           "date": "2026-10-02",
           "title": "Open water - Group Swim",
@@ -61771,7 +61771,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 45
+        "days_out": 44
       },
       "focus_event": {
         "id": 37280222,
@@ -61780,7 +61780,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 65
+        "days_out": 64
       },
       "peaks": {
         "bike_20min_power": {
@@ -61987,12 +61987,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-09",
-          "ctl": 96.1,
-          "atl": 87.4,
-          "tsb": 6
-        },
         {
           "date": "2026-07-10",
           "ctl": 94.8,
@@ -62493,9 +62487,15 @@
         },
         {
           "date": "2026-10-01",
-          "ctl": 95.6,
-          "atl": 94.4,
+          "ctl": 95,
+          "atl": 90.9,
           "tsb": -5.1
+        },
+        {
+          "date": "2026-10-02",
+          "ctl": 94.6,
+          "atl": 88.9,
+          "tsb": 4.1
         }
       ],
       "weekly_trend": [
@@ -62507,9 +62507,9 @@
         },
         {
           "week_start": "2026-09-28",
-          "tss": 309,
-          "hours": 3.94,
-          "ctl_end": 95.6
+          "tss": 335,
+          "hours": 4.44,
+          "ctl_end": 94.6
         },
         {
           "week_start": "2026-10-05",
@@ -62519,16 +62519,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-01",
-          "sleep_hours": 9.23,
-          "deep": 1.5,
-          "light": 5.33,
-          "rem": 1.66,
-          "awake": 0.73999965,
-          "hrv": 52,
-          "resting_hr": 51
-        },
         {
           "date": "2026-09-02",
           "sleep_hours": 7.55,
@@ -62798,6 +62788,16 @@
           "awake": 0.14000034,
           "hrv": 67,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-10-02",
+          "sleep_hours": 8.95,
+          "deep": 1.55,
+          "light": 4.96,
+          "rem": 1.93,
+          "awake": 0.50999963,
+          "hrv": 68,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62808,7 +62808,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 45
+          "days_out": 44
         }
       ],
       "sessions_by_week": {
@@ -63075,11 +63075,11 @@
             "date": "2026-10-01",
             "title": "Running 60min",
             "sport": "Run",
-            "duration_hours": 1,
+            "duration_hours": 0.5001277923583984,
             "tss_planned": 49.98,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 11.95,
+            "tss_actual": 25.83,
+            "status": "completed",
+            "distance_km": 5,
             "description": "60 min - Start E, build pace\nListen to body! If tired, run easy. If feel good, increase pace to finish fast.",
             "comments": []
           },
@@ -63170,7 +63170,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         711.9300000000001,
-        309.06,
+        334.89,
         0
       ]
     }
@@ -64374,6 +64374,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-01T09:48:40.623Z"
+    "checked_at": "2026-10-02T09:25:02.122Z"
   }
 }
