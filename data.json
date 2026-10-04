@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T08:54:07.492Z",
-  "as_of_date": "2026-10-03",
+  "generated_at": "2026-10-04T09:23:07.897Z",
+  "as_of_date": "2026-10-04",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 95.7,
-        "atl": 96.6,
-        "tsb": 8.3,
-        "status": "Neutral (normal training)"
+        "ctl": 95,
+        "atl": 92.4,
+        "tsb": -0.9,
+        "status": "Tired (absorbing training)"
       },
       "this_week": {
         "start": "2026-09-28",
         "end": "2026-10-04",
         "sessions_planned": 10,
-        "sessions_completed": 9,
+        "sessions_completed": 10,
         "sessions_missed": 0,
-        "sessions_due_to_date": 9,
-        "sessions_still_to_come": 1,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 10,
+        "sessions_still_to_come": 0,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 551.26,
-        "total_hours": 8.53,
+        "total_tss": 618.28,
+        "total_hours": 9.66,
         "by_sport": {
           "Bike": {
             "hours": 5.34,
             "tss": 288.83
           },
           "Run": {
-            "hours": 1.92,
-            "tss": 113.5
+            "hours": 3.05,
+            "tss": 180.52
           },
           "Swim": {
             "hours": 1.27,
@@ -61498,11 +61498,11 @@
             "date": "2026-10-04",
             "title": "1h30 Easy AT pace",
             "sport": "Run",
-            "duration_hours": 1.5,
-            "tss": null,
+            "duration_hours": 1.1334861516952515,
+            "tss": 67.02,
             "tss_planned": 102.13,
-            "distance_km": 16.98,
-            "_status": "upcoming"
+            "distance_km": 12,
+            "_status": "done"
           }
         ]
       },
@@ -61732,20 +61732,19 @@
           "duration_hours": 0.5015138983726501,
           "distance_km": 5,
           "tss": 25.74
-        }
-      ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-10-04",
           "title": "1h30 Easy AT pace",
           "sport": "Run",
-          "duration_hours": 1.5,
-          "distance_km": 16.98,
-          "tss_planned": 102.13
+          "duration_hours": 1.1334861516952515,
+          "distance_km": 12,
+          "tss": 67.02
         }
       ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [],
       "next_event": {
         "id": 37280228,
         "name": "T100 Dubai",
@@ -61753,7 +61752,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 43
+        "days_out": 42
       },
       "focus_event": {
         "id": 37280222,
@@ -61762,7 +61761,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 63
+        "days_out": 62
       },
       "peaks": {
         "bike_20min_power": {
@@ -61969,12 +61968,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-11",
-          "ctl": 96.4,
-          "atl": 92.1,
-          "tsb": 14
-        },
         {
           "date": "2026-07-12",
           "ctl": 97.7,
@@ -62478,6 +62471,12 @@
           "ctl": 95.7,
           "atl": 96.6,
           "tsb": 8.3
+        },
+        {
+          "date": "2026-10-04",
+          "ctl": 95,
+          "atl": 92.4,
+          "tsb": -0.9
         }
       ],
       "weekly_trend": [
@@ -62489,28 +62488,18 @@
         },
         {
           "week_start": "2026-09-28",
-          "tss": 551,
-          "hours": 8.53,
-          "ctl_end": 95.7
+          "tss": 618,
+          "hours": 9.66,
+          "ctl_end": 95
         },
         {
           "week_start": "2026-10-05",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 95
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-03",
-          "sleep_hours": 7.15,
-          "deep": 0.86,
-          "light": 4.83,
-          "rem": 1.38,
-          "awake": 0.08000004,
-          "hrv": 61,
-          "resting_hr": 54
-        },
         {
           "date": "2026-09-04",
           "sleep_hours": 8.43,
@@ -62780,6 +62769,16 @@
           "awake": 0.6999997,
           "hrv": 65,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-04",
+          "sleep_hours": 9.12,
+          "deep": 2.05,
+          "light": 3.8,
+          "rem": 2.68,
+          "awake": 0.5899997,
+          "hrv": 65,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62790,7 +62789,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 43
+          "days_out": 42
         }
       ],
       "sessions_by_week": {
@@ -63109,11 +63108,11 @@
             "date": "2026-10-04",
             "title": "1h30 Easy AT pace",
             "sport": "Run",
-            "duration_hours": 1.5,
+            "duration_hours": 1.1334861516952515,
             "tss_planned": 102.13,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 16.98,
+            "tss_actual": 67.02,
+            "status": "completed",
+            "distance_km": 12,
             "description": "Please follow the workout details, with prescribed zones (and pace targets if required) outlined below.",
             "comments": []
           }
@@ -63269,7 +63268,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         711.9300000000001,
-        551.26,
+        618.28,
         0
       ]
     }
@@ -64473,6 +64472,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-03T08:54:07.508Z"
+    "checked_at": "2026-10-04T09:23:07.911Z"
   }
 }
