@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T10:03:50.649Z",
-  "as_of_date": "2026-10-05",
+  "generated_at": "2026-10-06T09:48:56.622Z",
+  "as_of_date": "2026-10-06",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,9 +61367,9 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 94,
-        "atl": 86.5,
-        "tsb": 2.6,
+        "ctl": 91.7,
+        "atl": 74.2,
+        "tsb": 7.4,
         "status": "Neutral (normal training)"
       },
       "this_week": {
@@ -61377,12 +61377,12 @@
         "end": "2026-10-11",
         "sessions_planned": 11,
         "sessions_completed": 1,
-        "sessions_missed": 0,
-        "sessions_due_to_date": 1,
-        "sessions_still_to_come": 10,
-        "sessions_planned_today": 2,
-        "compliance_pct": 100,
-        "on_pace": true,
+        "sessions_missed": 1,
+        "sessions_due_to_date": 2,
+        "sessions_still_to_come": 9,
+        "sessions_planned_today": 0,
+        "compliance_pct": 50,
+        "on_pace": false,
         "total_tss": 51.55,
         "total_hours": 0.67,
         "by_sport": {
@@ -61412,7 +61412,7 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-10-05",
@@ -61660,9 +61660,7 @@
           "tss": 51.55
         }
       ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "missed_sessions": [
         {
           "date": "2026-10-05",
           "title": "Wk 9",
@@ -61670,7 +61668,10 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-10-07",
           "title": "Recovery: Easy Ride + Tempo Increases (Level 3)",
@@ -61751,7 +61752,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 41
+        "days_out": 40
       },
       "focus_event": {
         "id": 37280222,
@@ -61760,7 +61761,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 61
+        "days_out": 60
       },
       "peaks": {
         "bike_20min_power": {
@@ -61967,12 +61968,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-13",
-          "ctl": 96.4,
-          "atl": 92.7,
-          "tsb": -2.9
-        },
         {
           "date": "2026-07-14",
           "ctl": 95.1,
@@ -62476,6 +62471,12 @@
           "ctl": 94,
           "atl": 86.5,
           "tsb": 2.6
+        },
+        {
+          "date": "2026-10-06",
+          "ctl": 91.7,
+          "atl": 74.2,
+          "tsb": 7.4
         }
       ],
       "weekly_trend": [
@@ -62489,7 +62490,7 @@
           "week_start": "2026-10-05",
           "tss": 52,
           "hours": 0.67,
-          "ctl_end": 94
+          "ctl_end": 91.7
         }
       ],
       "recovery": [
@@ -62772,6 +62773,16 @@
           "awake": 0.9999993,
           "hrv": 74,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-10-06",
+          "sleep_hours": 8.22,
+          "deep": 1.21,
+          "light": 3.75,
+          "rem": 2.41,
+          "awake": 0.85000014,
+          "hrv": 67,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62782,7 +62793,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 41
+          "days_out": 40
         }
       ],
       "sessions_by_week": {
@@ -63086,7 +63097,7 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 50,
       "weekly_tss_trend": [
         618.28,
         51.55
@@ -64292,6 +64303,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-05T10:03:50.664Z"
+    "checked_at": "2026-10-06T09:48:56.637Z"
   }
 }
