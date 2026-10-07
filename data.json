@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T09:48:56.622Z",
-  "as_of_date": "2026-10-06",
+  "generated_at": "2026-10-07T09:54:05.923Z",
+  "as_of_date": "2026-10-07",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,10 +61367,10 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 91.7,
-        "atl": 74.2,
-        "tsb": 7.4,
-        "status": "Neutral (normal training)"
+        "ctl": 90.3,
+        "atl": 68.4,
+        "tsb": 17.5,
+        "status": "Fresh (race ready)"
       },
       "this_week": {
         "start": "2026-10-05",
@@ -61380,7 +61380,7 @@
         "sessions_missed": 1,
         "sessions_due_to_date": 2,
         "sessions_still_to_come": 9,
-        "sessions_planned_today": 0,
+        "sessions_planned_today": 2,
         "compliance_pct": 50,
         "on_pace": false,
         "total_tss": 51.55,
@@ -61752,7 +61752,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 40
+        "days_out": 39
       },
       "focus_event": {
         "id": 37280222,
@@ -61761,7 +61761,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 60
+        "days_out": 59
       },
       "peaks": {
         "bike_20min_power": {
@@ -61968,12 +61968,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-14",
-          "ctl": 95.1,
-          "atl": 85.4,
-          "tsb": 3.7
-        },
         {
           "date": "2026-07-15",
           "ctl": 94.8,
@@ -62477,6 +62471,12 @@
           "ctl": 91.7,
           "atl": 74.2,
           "tsb": 7.4
+        },
+        {
+          "date": "2026-10-07",
+          "ctl": 90.3,
+          "atl": 68.4,
+          "tsb": 17.5
         }
       ],
       "weekly_trend": [
@@ -62490,7 +62490,7 @@
           "week_start": "2026-10-05",
           "tss": 52,
           "hours": 0.67,
-          "ctl_end": 91.7
+          "ctl_end": 90.3
         }
       ],
       "recovery": [
@@ -62783,6 +62783,16 @@
           "awake": 0.85000014,
           "hrv": 67,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-07",
+          "sleep_hours": 8.48,
+          "deep": 1.13,
+          "light": 4.76,
+          "rem": 1.96,
+          "awake": 0.62999916,
+          "hrv": 78,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62793,7 +62803,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 40
+          "days_out": 39
         }
       ],
       "sessions_by_week": {
@@ -64303,6 +64313,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-06T09:48:56.637Z"
+    "checked_at": "2026-10-07T09:54:05.936Z"
   }
 }
