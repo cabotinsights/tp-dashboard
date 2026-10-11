@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T09:29:10.266Z",
-  "as_of_date": "2026-10-10",
+  "generated_at": "2026-10-11T09:42:46.207Z",
+  "as_of_date": "2026-10-11",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 97.3,
-        "atl": 114.8,
-        "tsb": 3.1,
-        "status": "Neutral (normal training)"
+        "ctl": 98.9,
+        "atl": 121.8,
+        "tsb": -17.4,
+        "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-10-05",
         "end": "2026-10-11",
         "sessions_planned": 11,
-        "sessions_completed": 8,
+        "sessions_completed": 9,
         "sessions_missed": 1,
-        "sessions_due_to_date": 9,
-        "sessions_still_to_come": 2,
+        "sessions_due_to_date": 10,
+        "sessions_still_to_come": 1,
         "sessions_planned_today": 2,
-        "compliance_pct": 89,
+        "compliance_pct": 90,
         "on_pace": false,
-        "total_tss": 654.39,
-        "total_hours": 10.03,
+        "total_tss": 818.19,
+        "total_hours": 11.46,
         "by_sport": {
           "Bike": {
             "hours": 5.85,
             "tss": 268.01
           },
           "Run": {
-            "hours": 2.21,
-            "tss": 178.92
+            "hours": 3.64,
+            "tss": 342.72
           },
           "Swim": {
             "hours": 1.96,
@@ -61498,11 +61498,11 @@
             "date": "2026-10-11",
             "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
             "sport": "Run",
-            "duration_hours": 1.4530555555555555,
-            "tss": null,
+            "duration_hours": 1.430799961090088,
+            "tss": 163.8,
             "tss_planned": 90,
-            "distance_km": 15.7,
-            "_status": "upcoming"
+            "distance_km": 15.02,
+            "_status": "done"
           },
           {
             "date": "2026-10-11",
@@ -61714,6 +61714,14 @@
           "duration_hours": 0.5004944801330566,
           "distance_km": 6.05,
           "tss": 54.71
+        },
+        {
+          "date": "2026-10-11",
+          "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
+          "sport": "Run",
+          "duration_hours": 1.430799961090088,
+          "distance_km": 15.02,
+          "tss": 163.8
         }
       ],
       "missed_sessions": [
@@ -61730,14 +61738,6 @@
       "upcoming_sessions": [
         {
           "date": "2026-10-11",
-          "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
-          "sport": "Run",
-          "duration_hours": 1.4530555555555555,
-          "distance_km": 15.7,
-          "tss_planned": 90
-        },
-        {
-          "date": "2026-10-11",
           "title": "Swim | 3 x 200 EMM| Endurance",
           "sport": "Swim",
           "duration_hours": null,
@@ -61752,7 +61752,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 36
+        "days_out": 35
       },
       "focus_event": {
         "id": 37280222,
@@ -61761,7 +61761,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 56
+        "days_out": 55
       },
       "peaks": {
         "bike_20min_power": {
@@ -61968,12 +61968,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-18",
-          "ctl": 96.8,
-          "atl": 100.6,
-          "tsb": 6.7
-        },
         {
           "date": "2026-07-19",
           "ctl": 98.2,
@@ -62477,6 +62471,12 @@
           "ctl": 97.3,
           "atl": 114.8,
           "tsb": 3.1
+        },
+        {
+          "date": "2026-10-11",
+          "ctl": 98.9,
+          "atl": 121.8,
+          "tsb": -17.4
         }
       ],
       "weekly_trend": [
@@ -62488,28 +62488,18 @@
         },
         {
           "week_start": "2026-10-05",
-          "tss": 654,
-          "hours": 10.03,
-          "ctl_end": 97.3
+          "tss": 818,
+          "hours": 11.46,
+          "ctl_end": 98.9
         },
         {
           "week_start": "2026-10-12",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 98.9
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-10",
-          "sleep_hours": 8.75,
-          "deep": 1.83,
-          "light": 4.95,
-          "rem": 1.4,
-          "awake": 0.5700003,
-          "hrv": 58,
-          "resting_hr": 54
-        },
         {
           "date": "2026-09-11",
           "sleep_hours": 6.95,
@@ -62799,6 +62789,16 @@
           "awake": 0.109999895,
           "hrv": 65,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-11",
+          "sleep_hours": 7.27,
+          "deep": 1.63,
+          "light": 4.35,
+          "rem": 1.1,
+          "awake": 0.18999994,
+          "hrv": 64,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62809,7 +62809,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 36
+          "days_out": 35
         }
       ],
       "sessions_by_week": {
@@ -63088,11 +63088,11 @@
             "date": "2026-10-11",
             "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
             "sport": "Run",
-            "duration_hours": 1.4530555555555555,
+            "duration_hours": 1.430799961090088,
             "tss_planned": 90,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 15.7,
+            "tss_actual": 163.8,
+            "status": "completed",
+            "distance_km": 15.02,
             "description": "25min warm up\nDrills 5-10min\n5 x 400m 20 to 25 seconds faster than your threshold pace on 1min rest\n5min easy jogging\n3 x [\n1 x (200m threshold pace + 35-45sec, 800m threshold pace)\n2min passive rest\n1 x 1km threshold pace\n6min easy jogging\n]\n5min cool down",
             "comments": []
           },
@@ -63206,10 +63206,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 89,
+      "compliance_pct": 90,
       "weekly_tss_trend": [
         618.28,
-        654.3900000000001,
+        818.19,
         0
       ]
     }
@@ -64413,6 +64413,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-10T09:29:10.280Z"
+    "checked_at": "2026-10-11T09:42:46.215Z"
   }
 }
