@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T10:08:54.255Z",
-  "as_of_date": "2026-10-13",
+  "generated_at": "2026-10-14T05:44:20.252Z",
+  "as_of_date": "2026-10-14",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,28 +61367,28 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 97.5,
-        "atl": 107.6,
-        "tsb": -18.6,
+        "ctl": 100.9,
+        "atl": 126.1,
+        "tsb": -13.4,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-10-12",
         "end": "2026-10-18",
-        "sessions_planned": 14,
-        "sessions_completed": 3,
-        "sessions_missed": 1,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 10,
+        "sessions_planned": 15,
+        "sessions_completed": 5,
+        "sessions_missed": 2,
+        "sessions_due_to_date": 7,
+        "sessions_still_to_come": 8,
         "sessions_planned_today": 2,
-        "compliance_pct": 75,
+        "compliance_pct": 71,
         "on_pace": false,
-        "total_tss": 139.76,
-        "total_hours": 2.08,
+        "total_tss": 246.03,
+        "total_hours": 4.07,
         "by_sport": {
           "Bike": {
-            "hours": 0.75,
-            "tss": 33.89
+            "hours": 2.02,
+            "tss": 112.29
           },
           "Run": {
             "hours": 0.75,
@@ -61399,8 +61399,8 @@
             "tss": 56.44
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.73,
+            "tss": 27.87
           }
         },
         "sessions": [
@@ -61452,17 +61452,27 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
+          },
+          {
+            "date": "2026-10-13",
+            "title": "S&C",
+            "sport": "Other",
+            "duration_hours": 0.7251527905464172,
+            "tss": 27.87,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "done"
           },
           {
             "date": "2026-10-14",
             "title": "Supra-Threshold: 4x5M (Level 3)",
             "sport": "Bike",
-            "duration_hours": 1.2666666666666666,
-            "tss": null,
+            "duration_hours": 1.2666666507720947,
+            "tss": 78.4,
             "tss_planned": 80.1,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-10-14",
@@ -61714,6 +61724,22 @@
           "duration_hours": 0.7502333521842957,
           "distance_km": 8.43,
           "tss": 49.43
+        },
+        {
+          "date": "2026-10-13",
+          "title": "S&C",
+          "sport": "Other",
+          "duration_hours": 0.7251527905464172,
+          "distance_km": null,
+          "tss": 27.87
+        },
+        {
+          "date": "2026-10-14",
+          "title": "Supra-Threshold: 4x5M (Level 3)",
+          "sport": "Bike",
+          "duration_hours": 1.2666666507720947,
+          "distance_km": null,
+          "tss": 78.4
         }
       ],
       "missed_sessions": [
@@ -61724,10 +61750,7 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-10-13",
           "title": "Full body circuit",
@@ -61735,15 +61758,10 @@
           "duration_hours": 0.6666666666666666,
           "distance_km": null,
           "tss_planned": null
-        },
-        {
-          "date": "2026-10-14",
-          "title": "Supra-Threshold: 4x5M (Level 3)",
-          "sport": "Bike",
-          "duration_hours": 1.2666666666666666,
-          "distance_km": null,
-          "tss_planned": 80.1
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-10-14",
           "title": "Swim",
@@ -61816,7 +61834,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 33
+        "days_out": 32
       },
       "focus_event": {
         "id": 37280222,
@@ -61825,7 +61843,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 53
+        "days_out": 52
       },
       "peaks": {
         "bike_20min_power": {
@@ -62032,12 +62050,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-21",
-          "ctl": 97.4,
-          "atl": 101,
-          "tsb": -8.3
-        },
         {
           "date": "2026-07-22",
           "ctl": 97.7,
@@ -62538,9 +62550,15 @@
         },
         {
           "date": "2026-10-13",
-          "ctl": 97.5,
-          "atl": 107.6,
+          "ctl": 98.2,
+          "atl": 111.6,
           "tsb": -18.6
+        },
+        {
+          "date": "2026-10-14",
+          "ctl": 100.9,
+          "atl": 126.1,
+          "tsb": -13.4
         }
       ],
       "weekly_trend": [
@@ -62552,9 +62570,9 @@
         },
         {
           "week_start": "2026-10-12",
-          "tss": 140,
-          "hours": 2.08,
-          "ctl_end": 97.5
+          "tss": 246,
+          "hours": 4.07,
+          "ctl_end": 100.9
         },
         {
           "week_start": "2026-10-19",
@@ -62564,16 +62582,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-13",
-          "sleep_hours": 8.98,
-          "deep": 1.73,
-          "light": 4.6,
-          "rem": 1.61,
-          "awake": 1.0399996,
-          "hrv": 76,
-          "resting_hr": 52
-        },
         {
           "date": "2026-09-14",
           "sleep_hours": 7,
@@ -62863,6 +62871,16 @@
           "awake": 0.52999985,
           "hrv": 69,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-10-14",
+          "sleep_hours": 7.53,
+          "deep": 0.95,
+          "light": 4.55,
+          "rem": 0.98,
+          "awake": 1.0500002,
+          "hrv": 58,
+          "resting_hr": 52
         }
       ],
       "flags": [],
@@ -62873,7 +62891,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 33
+          "days_out": 32
         }
       ],
       "sessions_by_week": {
@@ -63103,14 +63121,27 @@
             "comments": []
           },
           {
+            "id": "4003044581",
+            "date": "2026-10-13",
+            "title": "S&C",
+            "sport": null,
+            "duration_hours": 0.7251527905464172,
+            "tss_planned": null,
+            "tss_actual": 27.87,
+            "status": "completed",
+            "distance_km": null,
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "3996392413",
             "date": "2026-10-14",
             "title": "Supra-Threshold: 4x5M (Level 3)",
             "sport": "Bike",
-            "duration_hours": 1.2666666666666666,
+            "duration_hours": 1.2666666507720947,
             "tss_planned": 80.1,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 78.4,
+            "status": "completed",
             "distance_km": null,
             "description": "20-30M warm up building up to 50-70% FTP.\n\n4-5M @ 103-106% FTP with 4M active recovery between each interval. Best done on shallow grade climb, standing on the pedals for most of the intervals.\n\nRemaining time up to 1H30M @ ~50-60% FTP.\n\nPURPOSE: Improve muscular endurance and lactate threshold, as well as improve body's ability to deliver large amounts of oxygen to working muscles.\n\nThese intervals work on the principle of the 'VO2 slow component' (see e.g. here: https://pubmed.ncbi.nlm.nih.gov/21552162/). At intensities between the lactate threshold and the maximal aerobic power, oxygen intake gradually rises towards VO2max.\n\nThese intervals are also inspired by the following study, which shows supra-threshold intervals to be more tolerable than classic VO2max intervals: https://pubmed.ncbi.nlm.nih.gov/28051345/\n\nWhile we’re not aware of any scientific research supporting this, we also believe these supra-threshold intervals likely contribute to improved lactate shuttling and buffering. Theoretically, this makes sense as lactate levels are held at a high level throughout the intervals, placing stress on the lactate shuttling and buffering systems.",
             "comments": []
@@ -63238,10 +63269,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 71,
       "weekly_tss_trend": [
         818.19,
-        139.76,
+        246.03,
         0
       ]
     }
@@ -64445,6 +64476,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-13T10:08:54.264Z"
+    "checked_at": "2026-10-14T05:44:20.260Z"
   }
 }
