@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T08:01:10.176Z",
-  "as_of_date": "2026-10-15",
+  "generated_at": "2026-10-16T07:55:41.015Z",
+  "as_of_date": "2026-10-16",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,40 +61367,40 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 100.5,
-        "atl": 120.2,
-        "tsb": -24,
+        "ctl": 98,
+        "atl": 103.2,
+        "tsb": -15.1,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-10-12",
         "end": "2026-10-18",
         "sessions_planned": 15,
-        "sessions_completed": 6,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 8,
-        "sessions_still_to_come": 7,
-        "sessions_planned_today": 2,
-        "compliance_pct": 75,
+        "sessions_completed": 8,
+        "sessions_missed": 3,
+        "sessions_due_to_date": 11,
+        "sessions_still_to_come": 4,
+        "sessions_planned_today": 1,
+        "compliance_pct": 73,
         "on_pace": false,
-        "total_tss": 370.88,
-        "total_hours": 5.37,
+        "total_tss": 425.48,
+        "total_hours": 6.55,
         "by_sport": {
           "Bike": {
             "hours": 2.02,
             "tss": 112.29
           },
           "Run": {
-            "hours": 0.75,
-            "tss": 49.43
+            "hours": 1.45,
+            "tss": 86
           },
           "Swim": {
             "hours": 1.87,
             "tss": 181.29
           },
           "Other": {
-            "hours": 0.73,
-            "tss": 27.87
+            "hours": 1.21,
+            "tss": 45.9
           }
         },
         "sessions": [
@@ -61492,27 +61492,27 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-10-15",
             "title": "Run | 1h10 EASY | Pace",
             "sport": "Run",
-            "duration_hours": 1.1666666666666667,
-            "tss": null,
+            "duration_hours": 0.700208306312561,
+            "tss": 36.57,
             "tss_planned": 93.74,
-            "distance_km": 14.4,
-            "_status": "upcoming"
+            "distance_km": 7.01,
+            "_status": "done"
           },
           {
-            "date": "2026-10-16",
-            "title": "Hamdan Swim session",
-            "sport": "Swim",
-            "duration_hours": 1,
-            "tss": null,
+            "date": "2026-10-15",
+            "title": "S&C",
+            "sport": "Other",
+            "duration_hours": 0.4836472272872925,
+            "tss": 18.03,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-10-16",
@@ -61748,6 +61748,22 @@
           "duration_hours": 1.2926527807447645,
           "distance_km": 4,
           "tss": 124.85
+        },
+        {
+          "date": "2026-10-15",
+          "title": "Run | 1h10 EASY | Pace",
+          "sport": "Run",
+          "duration_hours": 0.700208306312561,
+          "distance_km": 7.01,
+          "tss": 36.57
+        },
+        {
+          "date": "2026-10-15",
+          "title": "S&C",
+          "sport": "Other",
+          "duration_hours": 0.4836472272872925,
+          "distance_km": null,
+          "tss": 18.03
         }
       ],
       "missed_sessions": [
@@ -61766,10 +61782,7 @@
           "duration_hours": 0.6666666666666666,
           "distance_km": null,
           "tss_planned": null
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-10-15",
           "title": "Legs",
@@ -61777,23 +61790,10 @@
           "duration_hours": 0.5,
           "distance_km": null,
           "tss_planned": null
-        },
-        {
-          "date": "2026-10-15",
-          "title": "Run | 1h10 EASY | Pace",
-          "sport": "Run",
-          "duration_hours": 1.1666666666666667,
-          "distance_km": 14.4,
-          "tss_planned": 93.74
-        },
-        {
-          "date": "2026-10-16",
-          "title": "Hamdan Swim session",
-          "sport": "Swim",
-          "duration_hours": 1,
-          "distance_km": null,
-          "tss_planned": null
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-10-16",
           "title": "Swim | 2x (3x 400m) | Strength Endurance",
@@ -61834,7 +61834,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 31
+        "days_out": 30
       },
       "focus_event": {
         "id": 37280222,
@@ -61843,7 +61843,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 51
+        "days_out": 50
       },
       "peaks": {
         "bike_20min_power": {
@@ -62050,12 +62050,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-23",
-          "ctl": 98.6,
-          "atl": 106.8,
-          "tsb": -4.4
-        },
         {
           "date": "2026-07-24",
           "ctl": 97.9,
@@ -62556,9 +62550,15 @@
         },
         {
           "date": "2026-10-15",
-          "ctl": 100.5,
-          "atl": 120.2,
+          "ctl": 99.6,
+          "atl": 114.6,
           "tsb": -24
+        },
+        {
+          "date": "2026-10-16",
+          "ctl": 98,
+          "atl": 103.2,
+          "tsb": -15.1
         }
       ],
       "weekly_trend": [
@@ -62570,9 +62570,9 @@
         },
         {
           "week_start": "2026-10-12",
-          "tss": 371,
-          "hours": 5.37,
-          "ctl_end": 100.5
+          "tss": 425,
+          "hours": 6.55,
+          "ctl_end": 98
         },
         {
           "week_start": "2026-10-19",
@@ -62582,16 +62582,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-15",
-          "sleep_hours": 4.65,
-          "deep": 0.8,
-          "light": 2.38,
-          "rem": 1.4,
-          "awake": 0.07000005,
-          "hrv": 85,
-          "resting_hr": 48
-        },
         {
           "date": "2026-09-16",
           "sleep_hours": 9.62,
@@ -62881,6 +62871,16 @@
           "awake": 0.24000037,
           "hrv": 75,
           "resting_hr": 52
+        },
+        {
+          "date": "2026-10-16",
+          "sleep_hours": 8.7,
+          "deep": 1.2,
+          "light": 5.51,
+          "rem": 1.71,
+          "awake": 0.27999973,
+          "hrv": 74,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62891,7 +62891,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 31
+          "days_out": 30
         }
       ],
       "sessions_by_week": {
@@ -63177,23 +63177,30 @@
             "date": "2026-10-15",
             "title": "Run | 1h10 EASY | Pace",
             "sport": "Run",
-            "duration_hours": 1.1666666666666667,
+            "duration_hours": 0.700208306312561,
             "tss_planned": 93.74,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 14.4,
+            "tss_actual": 36.57,
+            "status": "completed",
+            "distance_km": 7.01,
             "description": "1h10 - Easy comfortable running",
-            "comments": []
+            "comments": [
+              {
+                "text": "Legs bit tender and back into GP for chest this week.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-10-15T13:48:33Z"
+              }
+            ]
           },
           {
-            "id": "3983957311",
-            "date": "2026-10-16",
-            "title": "Hamdan Swim session",
-            "sport": "Swim",
-            "duration_hours": 1,
+            "id": "4006231268",
+            "date": "2026-10-15",
+            "title": "S&C",
+            "sport": "Strength",
+            "duration_hours": 0.4836472272872925,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 18.03,
+            "status": "completed",
             "distance_km": null,
             "description": "",
             "comments": []
@@ -63269,10 +63276,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 73,
       "weekly_tss_trend": [
         818.19,
-        370.88,
+        425.48,
         0
       ]
     }
@@ -64476,6 +64483,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-15T08:01:10.190Z"
+    "checked_at": "2026-10-16T07:55:41.024Z"
   }
 }
