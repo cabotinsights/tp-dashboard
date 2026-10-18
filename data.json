@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T07:33:22.034Z",
-  "as_of_date": "2026-10-17",
+  "generated_at": "2026-10-18T07:48:23.226Z",
+  "as_of_date": "2026-10-18",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 103.4,
-        "atl": 133.4,
-        "tsb": -14.6,
-        "status": "Very Tired (high fatigue)"
+        "ctl": 105.4,
+        "atl": 139.1,
+        "tsb": -42.9,
+        "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-10-12",
         "end": "2026-10-18",
         "sessions_planned": 15,
-        "sessions_completed": 9,
+        "sessions_completed": 11,
         "sessions_missed": 3,
-        "sessions_due_to_date": 12,
-        "sessions_still_to_come": 3,
-        "sessions_planned_today": 2,
-        "compliance_pct": 75,
+        "sessions_due_to_date": 14,
+        "sessions_still_to_come": 1,
+        "sessions_planned_today": 1,
+        "compliance_pct": 79,
         "on_pace": false,
-        "total_tss": 538.79,
-        "total_hours": 7.57,
+        "total_tss": 894.38,
+        "total_hours": 12.97,
         "by_sport": {
           "Bike": {
-            "hours": 2.02,
-            "tss": 112.29
+            "hours": 6.72,
+            "tss": 397.55
           },
           "Run": {
-            "hours": 1.45,
-            "tss": 86
+            "hours": 2.15,
+            "tss": 156.33
           },
           "Swim": {
             "hours": 2.89,
@@ -61528,21 +61528,21 @@
             "date": "2026-10-17",
             "title": "Endurance 5h | FTP",
             "sport": "Bike",
-            "duration_hours": 5,
-            "tss": null,
+            "duration_hours": 4.7068352699279785,
+            "tss": 285.26,
             "tss_planned": 220.55,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 131.08,
+            "_status": "done"
           },
           {
             "date": "2026-10-17",
             "title": "ROB | 40' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
+            "duration_hours": 0.7000166773796082,
+            "tss": 70.33,
             "tss_planned": 26.65,
-            "distance_km": 7.36,
-            "_status": "upcoming"
+            "distance_km": 8.03,
+            "_status": "done"
           },
           {
             "date": "2026-10-18",
@@ -61772,6 +61772,22 @@
           "duration_hours": 1.0167833375930786,
           "distance_km": 3.3,
           "tss": 113.31
+        },
+        {
+          "date": "2026-10-17",
+          "title": "Endurance 5h | FTP",
+          "sport": "Bike",
+          "duration_hours": 4.7068352699279785,
+          "distance_km": 131.08,
+          "tss": 285.26
+        },
+        {
+          "date": "2026-10-17",
+          "title": "ROB | 40' Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.7000166773796082,
+          "distance_km": 8.03,
+          "tss": 70.33
         }
       ],
       "missed_sessions": [
@@ -61803,22 +61819,6 @@
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-10-17",
-          "title": "Endurance 5h | FTP",
-          "sport": "Bike",
-          "duration_hours": 5,
-          "distance_km": null,
-          "tss_planned": 220.55
-        },
-        {
-          "date": "2026-10-17",
-          "title": "ROB | 40' Easy | Pace",
-          "sport": "Run",
-          "duration_hours": 0.6666666666666666,
-          "distance_km": 7.36,
-          "tss_planned": 26.65
-        },
-        {
           "date": "2026-10-18",
           "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
           "sport": "Run",
@@ -61834,7 +61834,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 29
+        "days_out": 28
       },
       "focus_event": {
         "id": 37280222,
@@ -61843,7 +61843,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 49
+        "days_out": 48
       },
       "peaks": {
         "bike_20min_power": {
@@ -62050,12 +62050,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-25",
-          "ctl": 99.4,
-          "atl": 109.9,
-          "tsb": -3.6
-        },
         {
           "date": "2026-07-26",
           "ctl": 99.6,
@@ -62556,9 +62550,15 @@
         },
         {
           "date": "2026-10-17",
-          "ctl": 103.4,
-          "atl": 133.4,
+          "ctl": 106,
+          "atl": 148.9,
           "tsb": -14.6
+        },
+        {
+          "date": "2026-10-18",
+          "ctl": 105.4,
+          "atl": 139.1,
+          "tsb": -42.9
         }
       ],
       "weekly_trend": [
@@ -62570,28 +62570,18 @@
         },
         {
           "week_start": "2026-10-12",
-          "tss": 539,
-          "hours": 7.57,
-          "ctl_end": 103.4
+          "tss": 894,
+          "hours": 12.97,
+          "ctl_end": 105.4
         },
         {
           "week_start": "2026-10-19",
           "tss": 0,
           "hours": 0,
-          "ctl_end": null
+          "ctl_end": 105.4
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-17",
-          "sleep_hours": 8.95,
-          "deep": 1.6,
-          "light": 4.81,
-          "rem": 2.35,
-          "awake": 0.19000006,
-          "hrv": 54,
-          "resting_hr": 53
-        },
         {
           "date": "2026-09-18",
           "sleep_hours": 9.33,
@@ -62891,7 +62881,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 29
+          "days_out": 28
         }
       ],
       "sessions_by_week": {
@@ -63223,11 +63213,11 @@
             "date": "2026-10-17",
             "title": "Endurance 5h | FTP",
             "sport": "Bike",
-            "duration_hours": 5,
+            "duration_hours": 4.7068352699279785,
             "tss_planned": 220.55,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 285.26,
+            "status": "completed",
+            "distance_km": 131.08,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nNice and easy time in the saddle - conversational pace.",
             "comments": []
           },
@@ -63236,11 +63226,11 @@
             "date": "2026-10-17",
             "title": "ROB | 40' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.6666666666666666,
+            "duration_hours": 0.7000166773796082,
             "tss_planned": 26.65,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 7.36,
+            "tss_actual": 70.33,
+            "status": "completed",
+            "distance_km": 8.03,
             "description": "40min run off bike easy super controlled ticking over feeling light on feet.",
             "comments": []
           },
@@ -63276,10 +63266,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 79,
       "weekly_tss_trend": [
         818.19,
-        538.79,
+        894.38,
         0
       ]
     }
@@ -64483,6 +64473,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-17T07:33:22.048Z"
+    "checked_at": "2026-10-18T07:48:23.240Z"
   }
 }
