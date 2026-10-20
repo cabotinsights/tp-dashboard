@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T08:32:03.588Z",
-  "as_of_date": "2026-10-19",
+  "generated_at": "2026-10-20T08:13:32.693Z",
+  "as_of_date": "2026-10-20",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 105.8,
-        "atl": 136.9,
-        "tsb": -32.4,
+        "ctl": 106.5,
+        "atl": 136.8,
+        "tsb": -32.6,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-10-19",
         "end": "2026-10-25",
         "sessions_planned": 15,
-        "sessions_completed": 1,
+        "sessions_completed": 3,
         "sessions_missed": 0,
-        "sessions_due_to_date": 1,
-        "sessions_still_to_come": 14,
-        "sessions_planned_today": 3,
+        "sessions_due_to_date": 3,
+        "sessions_still_to_come": 12,
+        "sessions_planned_today": 4,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 101.22,
-        "total_hours": 0.93,
+        "total_tss": 169.71,
+        "total_hours": 2.52,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.58,
+            "tss": 24.08
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1,
+            "tss": 44.41
           },
           "Swim": {
             "hours": 0.93,
@@ -61406,13 +61406,13 @@
         "sessions": [
           {
             "date": "2026-10-19",
-            "title": "Wk 7",
+            "title": "Hot yoga",
             "sport": "Run",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 1.0043056011199951,
+            "tss": 44.41,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-10-19",
@@ -61423,16 +61423,6 @@
             "tss_planned": 0,
             "distance_km": 3,
             "_status": "done"
-          },
-          {
-            "date": "2026-10-19",
-            "title": "Turbo",
-            "sport": "Bike",
-            "duration_hours": 0.5833333333333334,
-            "tss": null,
-            "tss_planned": 31.6,
-            "distance_km": null,
-            "_status": "upcoming"
           },
           {
             "date": "2026-10-20",
@@ -61463,6 +61453,16 @@
             "tss_planned": 34.98,
             "distance_km": 7.37,
             "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-20",
+            "title": "Turbo",
+            "sport": "Bike",
+            "duration_hours": 0.5833333134651184,
+            "tss": 24.08,
+            "tss_planned": 31.6,
+            "distance_km": null,
+            "_status": "done"
           },
           {
             "date": "2026-10-21",
@@ -61590,16 +61590,6 @@
         "sessions": [
           {
             "date": "2026-10-12",
-            "title": "Wk 8",
-            "sport": "Run",
-            "duration_hours": null,
-            "tss": null,
-            "tss_planned": null,
-            "distance_km": null,
-            "_status": "missed"
-          },
-          {
-            "date": "2026-10-12",
             "title": "Turbo",
             "sport": "Bike",
             "duration_hours": 0.75,
@@ -61607,6 +61597,16 @@
             "tss_planned": 34.77,
             "distance_km": null,
             "_status": "done"
+          },
+          {
+            "date": "2026-10-12",
+            "title": "Wk 8",
+            "sport": "Run",
+            "duration_hours": null,
+            "tss": null,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "missed"
           },
           {
             "date": "2026-10-12",
@@ -61753,32 +61753,32 @@
       "completed_sessions": [
         {
           "date": "2026-10-19",
+          "title": "Hot yoga",
+          "sport": "Run",
+          "duration_hours": 1.0043056011199951,
+          "distance_km": null,
+          "tss": 44.41
+        },
+        {
+          "date": "2026-10-19",
           "title": "Swim",
           "sport": "Swim",
           "duration_hours": 0.9324833345413208,
           "distance_km": 3,
           "tss": 101.22
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Turbo",
+          "sport": "Bike",
+          "duration_hours": 0.5833333134651184,
+          "distance_km": null,
+          "tss": 24.08
         }
       ],
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-10-19",
-          "title": "Wk 7",
-          "sport": "Run",
-          "duration_hours": null,
-          "distance_km": null,
-          "tss_planned": null
-        },
-        {
-          "date": "2026-10-19",
-          "title": "Turbo",
-          "sport": "Bike",
-          "duration_hours": 0.5833333333333334,
-          "distance_km": null,
-          "tss_planned": 31.6
-        },
         {
           "date": "2026-10-20",
           "title": "HILLS | 2x (8x 30s) | Pace",
@@ -61883,7 +61883,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 27
+        "days_out": 26
       },
       "focus_event": {
         "id": 37280222,
@@ -61892,7 +61892,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 47
+        "days_out": 46
       },
       "peaks": {
         "bike_20min_power": {
@@ -62099,12 +62099,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-27",
-          "ctl": 98.9,
-          "atl": 104.3,
-          "tsb": -10.3
-        },
         {
           "date": "2026-07-28",
           "ctl": 98.4,
@@ -62605,9 +62599,15 @@
         },
         {
           "date": "2026-10-19",
-          "ctl": 105.8,
-          "atl": 136.9,
+          "ctl": 106.1,
+          "atl": 138.7,
           "tsb": -32.4
+        },
+        {
+          "date": "2026-10-20",
+          "ctl": 106.5,
+          "atl": 136.8,
+          "tsb": -32.6
         }
       ],
       "weekly_trend": [
@@ -62619,9 +62619,9 @@
         },
         {
           "week_start": "2026-10-19",
-          "tss": 101,
-          "hours": 0.93,
-          "ctl_end": 105.8
+          "tss": 170,
+          "hours": 2.52,
+          "ctl_end": 106.5
         },
         {
           "week_start": "2026-10-26",
@@ -62631,16 +62631,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-19",
-          "sleep_hours": 8.28,
-          "deep": 0.93,
-          "light": 4.71,
-          "rem": 2.36,
-          "awake": 0.27999997,
-          "hrv": 75,
-          "resting_hr": 50
-        },
         {
           "date": "2026-09-21",
           "sleep_hours": 11.77,
@@ -62920,6 +62910,16 @@
           "awake": 1.1000003,
           "hrv": 57,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-20",
+          "sleep_hours": 8.07,
+          "deep": 1.41,
+          "light": 3.83,
+          "rem": 1.81,
+          "awake": 1.02,
+          "hrv": 61,
+          "resting_hr": 54
         }
       ],
       "flags": [],
@@ -62930,24 +62930,11 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 27
+          "days_out": 26
         }
       ],
       "sessions_by_week": {
         "2026-10-12": [
-          {
-            "id": "3643377838",
-            "date": "2026-10-12",
-            "title": "Wk 8",
-            "sport": null,
-            "duration_hours": null,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "5)\nStill the is focus in building more volume and decreasing intensity so you can have a better aerobic base.\nStrength Endurance 4-6min - rest 4:1 or 6:1\nMetabolic rides - fuelled.\nFuelling for harder sessions is crucial as the volume is higher.\nDo fasted runs/rides on easy days.\nWeight (power to weight)",
-            "comments": []
-          },
           {
             "id": "3996392260",
             "date": "2026-10-12",
@@ -62959,6 +62946,19 @@
             "status": "completed",
             "distance_km": null,
             "description": "10min 55%\n2 x (5min 65%, 5min 75%, 5min 65%)\n5min 55%",
+            "comments": []
+          },
+          {
+            "id": "3643377838",
+            "date": "2026-10-12",
+            "title": "Wk 8",
+            "sport": null,
+            "duration_hours": null,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "5)\nStill the is focus in building more volume and decreasing intensity so you can have a better aerobic base.\nStrength Endurance 4-6min - rest 4:1 or 6:1\nMetabolic rides - fuelled.\nFuelling for harder sessions is crucial as the volume is higher.\nDo fasted runs/rides on easy days.\nWeight (power to weight)",
             "comments": []
           },
           {
@@ -63169,12 +63169,12 @@
           {
             "id": "3643377522",
             "date": "2026-10-19",
-            "title": "Wk 7",
+            "title": "Hot yoga",
             "sport": null,
-            "duration_hours": null,
+            "duration_hours": 1.0043056011199951,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 44.41,
+            "status": "completed",
             "distance_km": null,
             "description": "6)\nStill the is focus in building more volume and decreasing intensity so you can have a better aerobic base. This week you will also include your biggest ride if possible.\n\nStrength Endurance 4-6min - rest 4:1 or 6:1\nMetabolic rides - fuelled.\nFuelling for harder sessions is crucial as the volume is higher.\nDo fasted runs/rides on easy days.\nWeight (power to weight)",
             "comments": []
@@ -63190,19 +63190,6 @@
             "status": "completed",
             "distance_km": 3,
             "description": "2 x 200m w/u\n10 x 200m pb (50m hard, 50m med, 50m hard, 50m med) 20sec rest\n400m pb+pd med\n200m c/d choice",
-            "comments": []
-          },
-          {
-            "id": "4010582773",
-            "date": "2026-10-19",
-            "title": "Turbo",
-            "sport": "Bike",
-            "duration_hours": 0.5833333333333334,
-            "tss_planned": 31.6,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "10min warmup\n10 x (1min 92 - 95%, 1min 65%)\n5min cool down",
             "comments": []
           },
           {
@@ -63242,6 +63229,19 @@
             "status": "planned",
             "distance_km": 7.37,
             "description": "35 min - Easy pace",
+            "comments": []
+          },
+          {
+            "id": "4010582773",
+            "date": "2026-10-20",
+            "title": "Turbo",
+            "sport": "Bike",
+            "duration_hours": 0.5833333134651184,
+            "tss_planned": 31.6,
+            "tss_actual": 24.08,
+            "status": "completed",
+            "distance_km": null,
+            "description": "10min warmup\n10 x (1min 92 - 95%, 1min 65%)\n5min cool down",
             "comments": []
           },
           {
@@ -63565,7 +63565,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         963.92,
-        101.22,
+        169.70999999999998,
         0
       ]
     }
@@ -64769,6 +64769,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-19T08:32:03.602Z"
+    "checked_at": "2026-10-20T08:13:32.708Z"
   }
 }
