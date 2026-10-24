@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T08:16:41.784Z",
-  "as_of_date": "2026-10-23",
+  "generated_at": "2026-10-24T07:54:46.848Z",
+  "as_of_date": "2026-10-24",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 107.3,
-        "atl": 132.4,
-        "tsb": -16.1,
+        "ctl": 109.8,
+        "atl": 144,
+        "tsb": -21.9,
         "status": "Very Tired (high fatigue)"
       },
       "this_week": {
         "start": "2026-10-19",
         "end": "2026-10-25",
-        "sessions_planned": 15,
-        "sessions_completed": 9,
+        "sessions_planned": 21,
+        "sessions_completed": 16,
         "sessions_missed": 3,
-        "sessions_due_to_date": 12,
-        "sessions_still_to_come": 3,
-        "sessions_planned_today": 2,
-        "compliance_pct": 75,
+        "sessions_due_to_date": 19,
+        "sessions_still_to_come": 2,
+        "sessions_planned_today": 6,
+        "compliance_pct": 84,
         "on_pace": false,
-        "total_tss": 542.04,
-        "total_hours": 7.28,
+        "total_tss": 828.44,
+        "total_hours": 11.8,
         "by_sport": {
           "Bike": {
-            "hours": 1.58,
-            "tss": 49.49
+            "hours": 4.74,
+            "tss": 215.8
           },
           "Run": {
-            "hours": 1.59,
-            "tss": 76.42
+            "hours": 2.96,
+            "tss": 196.51
           },
           "Swim": {
             "hours": 3.53,
@@ -61518,11 +61518,11 @@
             "date": "2026-10-23",
             "title": "Supra-Threshold: 4x4min",
             "sport": "Bike",
-            "duration_hours": 1.2,
-            "tss": null,
+            "duration_hours": 0.9166750311851501,
+            "tss": 49.56,
             "tss_planned": 76.6,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-10-23",
@@ -61532,6 +61532,66 @@
             "tss": 123.21,
             "tss_planned": null,
             "distance_km": 3.45,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 0.5315417051315308,
+            "tss": 28.57,
+            "tss_planned": null,
+            "distance_km": 18.17,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.4724277853965759,
+            "tss": 38.65,
+            "tss_planned": null,
+            "distance_km": 5.01,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 0.5145888924598694,
+            "tss": 29.48,
+            "tss_planned": null,
+            "distance_km": 18.15,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.4390888810157776,
+            "tss": 41.72,
+            "tss_planned": null,
+            "distance_km": 5.01,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 1.1894444227218628,
+            "tss": 58.7,
+            "tss_planned": null,
+            "distance_km": 39.09,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.45642778277397156,
+            "tss": 39.72,
+            "tss_planned": null,
+            "distance_km": 5.01,
             "_status": "done"
           },
           {
@@ -61797,11 +61857,67 @@
         },
         {
           "date": "2026-10-23",
+          "title": "Supra-Threshold: 4x4min",
+          "sport": "Bike",
+          "duration_hours": 0.9166750311851501,
+          "distance_km": null,
+          "tss": 49.56
+        },
+        {
+          "date": "2026-10-23",
           "title": "Hamdan Swim session",
           "sport": "Swim",
           "duration_hours": 1.0423277726438311,
           "distance_km": 3.45,
           "tss": 123.21
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Road Cycling",
+          "sport": "Bike",
+          "duration_hours": 0.5315417051315308,
+          "distance_km": 18.17,
+          "tss": 28.57
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.4724277853965759,
+          "distance_km": 5.01,
+          "tss": 38.65
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Road Cycling",
+          "sport": "Bike",
+          "duration_hours": 0.5145888924598694,
+          "distance_km": 18.15,
+          "tss": 29.48
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.4390888810157776,
+          "distance_km": 5.01,
+          "tss": 41.72
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Road Cycling",
+          "sport": "Bike",
+          "duration_hours": 1.1894444227218628,
+          "distance_km": 39.09,
+          "tss": 58.7
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Running",
+          "sport": "Run",
+          "duration_hours": 0.45642778277397156,
+          "distance_km": 5.01,
+          "tss": 39.72
         }
       ],
       "missed_sessions": [
@@ -61833,14 +61949,6 @@
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-10-23",
-          "title": "Supra-Threshold: 4x4min",
-          "sport": "Bike",
-          "duration_hours": 1.2,
-          "distance_km": null,
-          "tss_planned": 76.6
-        },
-        {
           "date": "2026-10-25",
           "title": "Open water - Group Swim",
           "sport": "Swim",
@@ -61864,7 +61972,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 23
+        "days_out": 22
       },
       "focus_event": {
         "id": 37280222,
@@ -61873,7 +61981,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 43
+        "days_out": 42
       },
       "peaks": {
         "bike_20min_power": {
@@ -62080,12 +62188,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-07-31",
-          "ctl": 97.9,
-          "atl": 97.7,
-          "tsb": 1.3
-        },
         {
           "date": "2026-08-01",
           "ctl": 100.7,
@@ -62586,9 +62688,15 @@
         },
         {
           "date": "2026-10-23",
-          "ctl": 107.3,
-          "atl": 132.4,
+          "ctl": 106.7,
+          "atl": 128.5,
           "tsb": -16.1
+        },
+        {
+          "date": "2026-10-24",
+          "ctl": 109.8,
+          "atl": 144,
+          "tsb": -21.9
         }
       ],
       "weekly_trend": [
@@ -62600,9 +62708,9 @@
         },
         {
           "week_start": "2026-10-19",
-          "tss": 542,
-          "hours": 7.28,
-          "ctl_end": 107.3
+          "tss": 828,
+          "hours": 11.8,
+          "ctl_end": 109.8
         },
         {
           "week_start": "2026-10-26",
@@ -62612,16 +62720,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-23",
-          "sleep_hours": 6.47,
-          "deep": 1.25,
-          "light": 3.35,
-          "rem": 1.15,
-          "awake": 0.7199999,
-          "hrv": 34,
-          "resting_hr": 59
-        },
         {
           "date": "2026-09-24",
           "sleep_hours": 9.25,
@@ -62911,6 +63009,16 @@
           "awake": 0.15999985,
           "hrv": 61,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-10-24",
+          "sleep_hours": 6.05,
+          "deep": 1.01,
+          "light": 3.21,
+          "rem": 1.63,
+          "awake": 0.19999993,
+          "hrv": 60,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62921,7 +63029,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 23
+          "days_out": 22
         }
       ],
       "sessions_by_week": {
@@ -63286,13 +63394,20 @@
             "date": "2026-10-23",
             "title": "Supra-Threshold: 4x4min",
             "sport": "Bike",
-            "duration_hours": 1.2,
+            "duration_hours": 0.9166750311851501,
             "tss_planned": 76.6,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 49.56,
+            "status": "completed",
             "distance_km": null,
             "description": "4 x 4min 110%",
-            "comments": []
+            "comments": [
+              {
+                "text": "Didn’t push too hard. Want to manage load this week",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-10-23T15:30:51Z"
+              }
+            ]
           },
           {
             "id": "4010522581",
@@ -63304,6 +63419,84 @@
             "tss_actual": 123.21,
             "status": "completed",
             "distance_km": 3.45,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100961",
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 0.5315417051315308,
+            "tss_planned": null,
+            "tss_actual": 28.57,
+            "status": "completed",
+            "distance_km": 18.17,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100962",
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.4724277853965759,
+            "tss_planned": null,
+            "tss_actual": 38.65,
+            "status": "completed",
+            "distance_km": 5.01,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100963",
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 0.5145888924598694,
+            "tss_planned": null,
+            "tss_actual": 29.48,
+            "status": "completed",
+            "distance_km": 18.15,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100966",
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.4390888810157776,
+            "tss_planned": null,
+            "tss_actual": 41.72,
+            "status": "completed",
+            "distance_km": 5.01,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100968",
+            "date": "2026-10-24",
+            "title": "Road Cycling",
+            "sport": "Bike",
+            "duration_hours": 1.1894444227218628,
+            "tss_planned": null,
+            "tss_actual": 58.7,
+            "status": "completed",
+            "distance_km": 39.09,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4021100969",
+            "date": "2026-10-24",
+            "title": "Running",
+            "sport": "Run",
+            "duration_hours": 0.45642778277397156,
+            "tss_planned": null,
+            "tss_actual": 39.72,
+            "status": "completed",
+            "distance_km": 5.01,
             "description": "",
             "comments": []
           },
@@ -63534,10 +63727,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 84,
       "weekly_tss_trend": [
         963.92,
-        542.04,
+        828.4400000000002,
         0
       ]
     }
@@ -64741,6 +64934,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-23T08:16:41.795Z"
+    "checked_at": "2026-10-24T07:54:46.864Z"
   }
 }
