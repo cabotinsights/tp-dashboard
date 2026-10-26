@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T08:08:36.222Z",
-  "as_of_date": "2026-10-25",
+  "generated_at": "2026-10-26T08:34:11.756Z",
+  "as_of_date": "2026-10-26",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,208 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 109.1,
-        "atl": 135.1,
-        "tsb": -34.3,
+        "ctl": 110.9,
+        "atl": 141.1,
+        "tsb": -34,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "sessions_planned": 15,
+        "sessions_completed": 1,
+        "sessions_missed": 0,
+        "sessions_due_to_date": 1,
+        "sessions_still_to_come": 14,
+        "sessions_planned_today": 2,
+        "compliance_pct": 100,
+        "on_pace": true,
+        "total_tss": 119.31,
+        "total_hours": 1.18,
+        "by_sport": {
+          "Bike": {
+            "hours": 0,
+            "tss": 0
+          },
+          "Run": {
+            "hours": 0,
+            "tss": 0
+          },
+          "Swim": {
+            "hours": 1.18,
+            "tss": 119.31
+          },
+          "Other": {
+            "hours": 0,
+            "tss": 0
+          }
+        },
+        "sessions": [
+          {
+            "date": "2026-10-26",
+            "title": "Wk 6 - Race Specific stuff",
+            "sport": "Run",
+            "duration_hours": null,
+            "tss": null,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-26",
+            "title": "Swim",
+            "sport": "Swim",
+            "duration_hours": 1.1764083311292861,
+            "tss": 119.31,
+            "tss_planned": 134.87,
+            "distance_km": 3.7,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-27",
+            "title": "Run | 6x 4min / 2min | Interval",
+            "sport": "Run",
+            "duration_hours": 1.1833333333333333,
+            "tss": null,
+            "tss_planned": 86.19,
+            "distance_km": 13.9,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-27",
+            "title": "Run 2 | 35min Easy",
+            "sport": "Run",
+            "duration_hours": 0.5833333333333334,
+            "tss": null,
+            "tss_planned": 34.98,
+            "distance_km": 7.37,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-28",
+            "title": "Easy 2h | Endurance",
+            "sport": "Bike",
+            "duration_hours": 2,
+            "tss": null,
+            "tss_planned": 84.52,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-28",
+            "title": "Swim | 16/12/8/4x 50m + 600m | Intervals",
+            "sport": "Swim",
+            "duration_hours": 0.8333333333333334,
+            "tss": null,
+            "tss_planned": 21.3,
+            "distance_km": 3,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-29",
+            "title": "2x 50m + 300m max",
+            "sport": "Swim",
+            "duration_hours": 1,
+            "tss": null,
+            "tss_planned": 145.2,
+            "distance_km": 3,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-29",
+            "title": "Easy 90min | FTP",
+            "sport": "Bike",
+            "duration_hours": 1.5,
+            "tss": null,
+            "tss_planned": 73.35,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-30",
+            "title": "Threshold: 5x 4min (Level 2)",
+            "sport": "Bike",
+            "duration_hours": 1.5416666666666667,
+            "tss": null,
+            "tss_planned": 92.14,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-30",
+            "title": "Open water - Group Swim",
+            "sport": "Swim",
+            "duration_hours": 0.6666666666666666,
+            "tss": null,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-30",
+            "title": "Run |30-40min Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.5833333333333334,
+            "tss": null,
+            "tss_planned": 38.79,
+            "distance_km": 6.61,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-31",
+            "title": "Endurance 5h | FTP",
+            "sport": "Bike",
+            "duration_hours": 5,
+            "tss": null,
+            "tss_planned": 220.55,
+            "distance_km": null,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-31",
+            "title": "ROB | 40' Easy | Pace",
+            "sport": "Run",
+            "duration_hours": 0.6666666666666666,
+            "tss": null,
+            "tss_planned": 26.65,
+            "distance_km": 7.36,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-10-31",
+            "title": "Open water - Group Swim",
+            "sport": "Swim",
+            "duration_hours": 0.5,
+            "tss": null,
+            "tss_planned": 41.82,
+            "distance_km": 1.6,
+            "_status": "upcoming"
+          },
+          {
+            "date": "2026-11-01",
+            "title": "21x (3min Mod/1min E)",
+            "sport": "Run",
+            "duration_hours": 1.9833333333333334,
+            "tss": null,
+            "tss_planned": 148.53,
+            "distance_km": 23.47,
+            "_status": "upcoming"
+          }
+        ]
+      },
+      "last_week": {
         "start": "2026-10-19",
         "end": "2026-10-25",
         "sessions_planned": 21,
-        "sessions_completed": 17,
+        "sessions_completed": 18,
         "sessions_missed": 3,
-        "sessions_due_to_date": 20,
-        "sessions_still_to_come": 1,
-        "sessions_planned_today": 2,
-        "compliance_pct": 85,
+        "sessions_due_to_date": 21,
+        "sessions_still_to_come": 0,
+        "sessions_planned_today": 0,
+        "compliance_pct": 86,
         "on_pace": false,
-        "total_tss": 910.3,
-        "total_hours": 13.07,
+        "total_tss": 977.19,
+        "total_hours": 13.7,
         "by_sport": {
           "Bike": {
             "hours": 4.74,
@@ -61395,8 +61579,8 @@
             "tss": 278.37
           },
           "Swim": {
-            "hours": 3.53,
-            "tss": 393.05
+            "hours": 4.15,
+            "tss": 459.94
           },
           "Other": {
             "hours": 0.58,
@@ -61516,22 +61700,22 @@
           },
           {
             "date": "2026-10-23",
-            "title": "Supra-Threshold: 4x4min",
-            "sport": "Bike",
-            "duration_hours": 0.9166750311851501,
-            "tss": 49.56,
-            "tss_planned": 76.6,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-23",
             "title": "Hamdan Swim session",
             "sport": "Swim",
             "duration_hours": 1.0423277726438311,
             "tss": 123.21,
             "tss_planned": null,
             "distance_km": 3.45,
+            "_status": "done"
+          },
+          {
+            "date": "2026-10-23",
+            "title": "Supra-Threshold: 4x4min",
+            "sport": "Bike",
+            "duration_hours": 0.9166750311851501,
+            "tss": 49.56,
+            "tss_planned": 76.6,
+            "distance_km": null,
             "_status": "done"
           },
           {
@@ -61598,11 +61782,11 @@
             "date": "2026-10-25",
             "title": "Open water - Group Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
+            "duration_hours": 0.6243833329942491,
+            "tss": 66.89,
             "tss_planned": null,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 2,
+            "_status": "done"
           },
           {
             "date": "2026-10-25",
@@ -61616,353 +61800,130 @@
           }
         ]
       },
-      "last_week": {
-        "start": "2026-10-12",
-        "end": "2026-10-18",
-        "sessions_planned": 14,
-        "sessions_completed": 12,
-        "sessions_missed": 2,
-        "sessions_due_to_date": 14,
-        "sessions_still_to_come": 0,
-        "sessions_planned_today": 0,
-        "compliance_pct": 86,
-        "on_pace": false,
-        "total_tss": 963.92,
-        "total_hours": 13.63,
-        "by_sport": {
-          "Bike": {
-            "hours": 6.72,
-            "tss": 397.55
-          },
-          "Run": {
-            "hours": 2.15,
-            "tss": 156.33
-          },
-          "Swim": {
-            "hours": 3.55,
-            "tss": 364.14
-          },
-          "Other": {
-            "hours": 1.21,
-            "tss": 45.9
-          }
-        },
-        "sessions": [
-          {
-            "date": "2026-10-12",
-            "title": "Wk 8",
-            "sport": "Run",
-            "duration_hours": null,
-            "tss": null,
-            "tss_planned": null,
-            "distance_km": null,
-            "_status": "missed"
-          },
-          {
-            "date": "2026-10-12",
-            "title": "Turbo",
-            "sport": "Bike",
-            "duration_hours": 0.75,
-            "tss": 33.89,
-            "tss_planned": 34.77,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-12",
-            "title": "Swim",
-            "sport": "Swim",
-            "duration_hours": 0.5803777779473199,
-            "tss": 56.44,
-            "tss_planned": 45.36,
-            "distance_km": 1.8,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-13",
-            "title": "HILLS | 2x (8x 30s) | Pace",
-            "sport": "Run",
-            "duration_hours": 0.7502333521842957,
-            "tss": 49.43,
-            "tss_planned": 66.41,
-            "distance_km": 8.43,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-13",
-            "title": "Full body circuit",
-            "sport": "Other",
-            "duration_hours": 0.7251527905464172,
-            "tss": 27.87,
-            "tss_planned": null,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-14",
-            "title": "Supra-Threshold: 4x5M (Level 3)",
-            "sport": "Bike",
-            "duration_hours": 1.2666666507720947,
-            "tss": 78.4,
-            "tss_planned": 80.1,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-14",
-            "title": "Swim",
-            "sport": "Swim",
-            "duration_hours": 1.2926527807447645,
-            "tss": 124.85,
-            "tss_planned": 134.87,
-            "distance_km": 4,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-15",
-            "title": "Legs",
-            "sport": "Other",
-            "duration_hours": 0.4836472272872925,
-            "tss": 18.03,
-            "tss_planned": null,
-            "distance_km": null,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-15",
-            "title": "Run | 1h10 EASY | Pace",
-            "sport": "Run",
-            "duration_hours": 0.700208306312561,
-            "tss": 36.57,
-            "tss_planned": 93.74,
-            "distance_km": 7.01,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-16",
-            "title": "Swim | 2x (3x 400m) | Strength Endurance",
-            "sport": "Swim",
-            "duration_hours": 1.0167833375930786,
-            "tss": 113.31,
-            "tss_planned": 34.5,
-            "distance_km": 3.3,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-17",
-            "title": "Endurance 5h | FTP",
-            "sport": "Bike",
-            "duration_hours": 4.7068352699279785,
-            "tss": 285.26,
-            "tss_planned": 220.55,
-            "distance_km": 131.08,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-17",
-            "title": "ROB | 40' Easy | Pace",
-            "sport": "Run",
-            "duration_hours": 0.7000166773796082,
-            "tss": 70.33,
-            "tss_planned": 26.65,
-            "distance_km": 8.03,
-            "_status": "done"
-          },
-          {
-            "date": "2026-10-18",
-            "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
-            "sport": "Run",
-            "duration_hours": 1.3158333333333334,
-            "tss": null,
-            "tss_planned": 80.61,
-            "distance_km": 14.16,
-            "_status": "missed"
-          },
-          {
-            "date": "2026-10-18",
-            "title": "Lap Swimming",
-            "sport": "Swim",
-            "duration_hours": 0.6588611131244235,
-            "tss": 69.54,
-            "tss_planned": null,
-            "distance_km": 2.1,
-            "_status": "done"
-          }
-        ]
-      },
       "completed_sessions": [
         {
-          "date": "2026-10-19",
-          "title": "Hot yoga",
-          "sport": "Run",
-          "duration_hours": 1.0043056011199951,
-          "distance_km": null,
-          "tss": 44.41
-        },
-        {
-          "date": "2026-10-19",
+          "date": "2026-10-26",
           "title": "Swim",
           "sport": "Swim",
-          "duration_hours": 0.9324833345413208,
-          "distance_km": 3,
-          "tss": 101.22
-        },
-        {
-          "date": "2026-10-20",
-          "title": "Full body circuit",
-          "sport": "Other",
-          "duration_hours": 0.5836638808250427,
-          "distance_km": null,
-          "tss": 23.08
-        },
-        {
-          "date": "2026-10-20",
-          "title": "Run 2 | 35min Easy",
-          "sport": "Run",
-          "duration_hours": 0.5833333134651184,
-          "distance_km": 6,
-          "tss": 32.01
-        },
-        {
-          "date": "2026-10-20",
-          "title": "Turbo",
-          "sport": "Bike",
-          "duration_hours": 0.5833333134651184,
-          "distance_km": null,
-          "tss": 24.08
-        },
-        {
-          "date": "2026-10-21",
-          "title": "Easy 2h | Endurance",
-          "sport": "Bike",
-          "duration_hours": 1.000266671180725,
-          "distance_km": null,
-          "tss": 25.41
-        },
-        {
-          "date": "2026-10-21",
-          "title": "Swim",
-          "sport": "Swim",
-          "duration_hours": 0.7827055539025201,
-          "distance_km": 2.5,
-          "tss": 83.14
-        },
-        {
-          "date": "2026-10-22",
-          "title": "Swim | 10 x 50 + 4 x 200 MMM | Endurance",
-          "sport": "Swim",
-          "duration_hours": 0.7719000011020236,
-          "distance_km": 2.5,
-          "tss": 85.48
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Supra-Threshold: 4x4min",
-          "sport": "Bike",
-          "duration_hours": 0.9166750311851501,
-          "distance_km": null,
-          "tss": 49.56
-        },
-        {
-          "date": "2026-10-23",
-          "title": "Hamdan Swim session",
-          "sport": "Swim",
-          "duration_hours": 1.0423277726438311,
-          "distance_km": 3.45,
-          "tss": 123.21
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Road Cycling",
-          "sport": "Bike",
-          "duration_hours": 0.5315417051315308,
-          "distance_km": 18.17,
-          "tss": 28.57
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Running",
-          "sport": "Run",
-          "duration_hours": 0.4724277853965759,
-          "distance_km": 5.01,
-          "tss": 38.65
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Road Cycling",
-          "sport": "Bike",
-          "duration_hours": 0.5145888924598694,
-          "distance_km": 18.15,
-          "tss": 29.48
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Running",
-          "sport": "Run",
-          "duration_hours": 0.4390888810157776,
-          "distance_km": 5.01,
-          "tss": 41.72
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Road Cycling",
-          "sport": "Bike",
-          "duration_hours": 1.1894444227218628,
-          "distance_km": 39.09,
-          "tss": 58.7
-        },
-        {
-          "date": "2026-10-24",
-          "title": "Running",
-          "sport": "Run",
-          "duration_hours": 0.45642778277397156,
-          "distance_km": 5.01,
-          "tss": 39.72
-        },
-        {
-          "date": "2026-10-25",
-          "title": "Run | 1h35 | Pace",
-          "sport": "Run",
-          "duration_hours": 1.2675777673721313,
-          "distance_km": 14.01,
-          "tss": 81.86
+          "duration_hours": 1.1764083311292861,
+          "distance_km": 3.7,
+          "tss": 119.31
         }
       ],
-      "missed_sessions": [
-        {
-          "date": "2026-10-20",
-          "title": "HILLS | 2x (8x 30s) | Pace",
-          "sport": "Run",
-          "duration_hours": 1,
-          "distance_km": 11.21,
-          "tss_planned": 66
-        },
-        {
-          "date": "2026-10-22",
-          "title": "Run | 1h15 | Pace",
-          "sport": "Run",
-          "duration_hours": 1.25,
-          "distance_km": 13.97,
-          "tss_planned": 82.56
-        },
-        {
-          "date": "2026-10-22",
-          "title": "Legs",
-          "sport": "Other",
-          "duration_hours": 0.5,
-          "distance_km": null,
-          "tss_planned": null
-        }
-      ],
+      "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-10-25",
+          "date": "2026-10-26",
+          "title": "Wk 6 - Race Specific stuff",
+          "sport": "Run",
+          "duration_hours": null,
+          "distance_km": null,
+          "tss_planned": null
+        },
+        {
+          "date": "2026-10-27",
+          "title": "Run | 6x 4min / 2min | Interval",
+          "sport": "Run",
+          "duration_hours": 1.1833333333333333,
+          "distance_km": 13.9,
+          "tss_planned": 86.19
+        },
+        {
+          "date": "2026-10-27",
+          "title": "Run 2 | 35min Easy",
+          "sport": "Run",
+          "duration_hours": 0.5833333333333334,
+          "distance_km": 7.37,
+          "tss_planned": 34.98
+        },
+        {
+          "date": "2026-10-28",
+          "title": "Easy 2h | Endurance",
+          "sport": "Bike",
+          "duration_hours": 2,
+          "distance_km": null,
+          "tss_planned": 84.52
+        },
+        {
+          "date": "2026-10-28",
+          "title": "Swim | 16/12/8/4x 50m + 600m | Intervals",
+          "sport": "Swim",
+          "duration_hours": 0.8333333333333334,
+          "distance_km": 3,
+          "tss_planned": 21.3
+        },
+        {
+          "date": "2026-10-29",
+          "title": "2x 50m + 300m max",
+          "sport": "Swim",
+          "duration_hours": 1,
+          "distance_km": 3,
+          "tss_planned": 145.2
+        },
+        {
+          "date": "2026-10-29",
+          "title": "Easy 90min | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.5,
+          "distance_km": null,
+          "tss_planned": 73.35
+        },
+        {
+          "date": "2026-10-30",
+          "title": "Threshold: 5x 4min (Level 2)",
+          "sport": "Bike",
+          "duration_hours": 1.5416666666666667,
+          "distance_km": null,
+          "tss_planned": 92.14
+        },
+        {
+          "date": "2026-10-30",
           "title": "Open water - Group Swim",
           "sport": "Swim",
           "duration_hours": 0.6666666666666666,
           "distance_km": null,
           "tss_planned": null
+        },
+        {
+          "date": "2026-10-30",
+          "title": "Run |30-40min Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.5833333333333334,
+          "distance_km": 6.61,
+          "tss_planned": 38.79
+        },
+        {
+          "date": "2026-10-31",
+          "title": "Endurance 5h | FTP",
+          "sport": "Bike",
+          "duration_hours": 5,
+          "distance_km": null,
+          "tss_planned": 220.55
+        },
+        {
+          "date": "2026-10-31",
+          "title": "ROB | 40' Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.6666666666666666,
+          "distance_km": 7.36,
+          "tss_planned": 26.65
+        },
+        {
+          "date": "2026-10-31",
+          "title": "Open water - Group Swim",
+          "sport": "Swim",
+          "duration_hours": 0.5,
+          "distance_km": 1.6,
+          "tss_planned": 41.82
+        },
+        {
+          "date": "2026-11-01",
+          "title": "21x (3min Mod/1min E)",
+          "sport": "Run",
+          "duration_hours": 1.9833333333333334,
+          "distance_km": 23.47,
+          "tss_planned": 148.53
         }
       ],
       "next_event": {
@@ -61972,7 +61933,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 21
+        "days_out": 20
       },
       "focus_event": {
         "id": 37280222,
@@ -61981,7 +61942,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 41
+        "days_out": 40
       },
       "peaks": {
         "bike_20min_power": {
@@ -62188,12 +62149,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-02",
-          "ctl": 102.3,
-          "atl": 122.3,
-          "tsb": -13.6
-        },
         {
           "date": "2026-08-03",
           "ctl": 101.6,
@@ -62694,42 +62649,38 @@
         },
         {
           "date": "2026-10-25",
-          "ctl": 109.1,
-          "atl": 135.1,
+          "ctl": 110.7,
+          "atl": 144.7,
           "tsb": -34.3
+        },
+        {
+          "date": "2026-10-26",
+          "ctl": 110.9,
+          "atl": 141.1,
+          "tsb": -34
         }
       ],
       "weekly_trend": [
         {
-          "week_start": "2026-10-12",
-          "tss": 964,
-          "hours": 13.63,
-          "ctl_end": 105.1
-        },
-        {
           "week_start": "2026-10-19",
-          "tss": 910,
-          "hours": 13.07,
-          "ctl_end": 109.1
+          "tss": 977,
+          "hours": 13.7,
+          "ctl_end": 110.7
         },
         {
           "week_start": "2026-10-26",
+          "tss": 119,
+          "hours": 1.18,
+          "ctl_end": 110.9
+        },
+        {
+          "week_start": "2026-11-02",
           "tss": 0,
           "hours": 0,
-          "ctl_end": 109.1
+          "ctl_end": null
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-25",
-          "sleep_hours": 8.98,
-          "deep": 1.4,
-          "light": 5.16,
-          "rem": 1.83,
-          "awake": 0.58999956,
-          "hrv": 60,
-          "resting_hr": 54
-        },
         {
           "date": "2026-09-26",
           "sleep_hours": 8.78,
@@ -63019,6 +62970,16 @@
           "awake": 0.8699999,
           "hrv": 63,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-26",
+          "sleep_hours": 8.63,
+          "deep": 1.3,
+          "light": 5,
+          "rem": 1.83,
+          "awake": 0.49999988,
+          "hrv": 62,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -63029,215 +62990,10 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 21
+          "days_out": 20
         }
       ],
       "sessions_by_week": {
-        "2026-10-12": [
-          {
-            "id": "3643377838",
-            "date": "2026-10-12",
-            "title": "Wk 8",
-            "sport": null,
-            "duration_hours": null,
-            "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "5)\nStill the is focus in building more volume and decreasing intensity so you can have a better aerobic base.\nStrength Endurance 4-6min - rest 4:1 or 6:1\nMetabolic rides - fuelled.\nFuelling for harder sessions is crucial as the volume is higher.\nDo fasted runs/rides on easy days.\nWeight (power to weight)",
-            "comments": []
-          },
-          {
-            "id": "3996392260",
-            "date": "2026-10-12",
-            "title": "Turbo",
-            "sport": "Bike",
-            "duration_hours": 0.75,
-            "tss_planned": 34.77,
-            "tss_actual": 33.89,
-            "status": "completed",
-            "distance_km": null,
-            "description": "10min 55%\n2 x (5min 65%, 5min 75%, 5min 65%)\n5min 55%",
-            "comments": []
-          },
-          {
-            "id": "3996392204",
-            "date": "2026-10-12",
-            "title": "Swim",
-            "sport": "Swim",
-            "duration_hours": 0.5803777779473199,
-            "tss_planned": 45.36,
-            "tss_actual": 56.44,
-            "status": "completed",
-            "distance_km": 1.8,
-            "description": "10 x 200m pb mod-med 10-15sec rest",
-            "comments": [
-              {
-                "text": "Used fins for some laps. Going physio today for shoulder and trap area. Causing me some issues and pain",
-                "author": "Stephen Bates",
-                "author_role": "athlete",
-                "created_at": "2026-10-12T10:31:33Z"
-              }
-            ]
-          },
-          {
-            "id": "3996392132",
-            "date": "2026-10-13",
-            "title": "HILLS | 2x (8x 30s) | Pace",
-            "sport": "Run",
-            "duration_hours": 0.7502333521842957,
-            "tss_planned": 66.41,
-            "tss_actual": 49.43,
-            "status": "completed",
-            "distance_km": 8.43,
-            "description": "WU: 25 min EASY WARM-UP THEN\n-----------------------------------------------------SHORT HILLS – 8x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\njog 5min\n-----------------------------------------------------\nSHORT HILLS – 8x 30 sec HILLS with a slow jog back.\n-----------------------------------------------------\nCool down 10min +",
-            "comments": [
-              {
-                "text": "Skipped 2nd set. Hard physio yesterday so body tender. Chest not 100% but fine.",
-                "author": "Stephen Bates",
-                "author_role": "athlete",
-                "created_at": "2026-10-13T03:44:35Z"
-              }
-            ]
-          },
-          {
-            "id": "4003044581",
-            "date": "2026-10-13",
-            "title": "Full body circuit",
-            "sport": "Strength",
-            "duration_hours": 0.7251527905464172,
-            "tss_planned": null,
-            "tss_actual": 27.87,
-            "status": "completed",
-            "distance_km": null,
-            "description": "Band-resisted squat — 2 × 12 reps\nArm circles + shoulder rotations — 2 × 15 reps\n1 round of:\nGoblet Squat — 10 reps, moderate DB\nDumbbell Bench Press — 10 reps\nReverse Lunge — 8 reps/leg\nBent-Over Dumbbell Row — 10 reps\n30–45 sec between exercises\n1 round of:\nSingle-Leg Hip Thrust — 10 reps/leg\nDumbbell Shoulder Press — 10 reps\nLateral Lunge — 8 reps/leg\nLat Pulldown — 10 reps\n60 sec recovery after each round\n1 round of:\nSingle-Leg Romanian Deadlift — 8 reps/leg\nPush-Ups — 12 reps\nLateral Step-Up — 10 reps/leg\nCable Face Pull — 12 reps\n1 round of:\nDumbbell Sumo Squat — 12 reps\nPlank with Shoulder Taps — 20 reps\nStanding Calf Raise — 15 reps\nDead Bug — 10 reps/side",
-            "comments": []
-          },
-          {
-            "id": "3996392413",
-            "date": "2026-10-14",
-            "title": "Supra-Threshold: 4x5M (Level 3)",
-            "sport": "Bike",
-            "duration_hours": 1.2666666507720947,
-            "tss_planned": 80.1,
-            "tss_actual": 78.4,
-            "status": "completed",
-            "distance_km": null,
-            "description": "20-30M warm up building up to 50-70% FTP.\n\n4-5M @ 103-106% FTP with 4M active recovery between each interval. Best done on shallow grade climb, standing on the pedals for most of the intervals.\n\nRemaining time up to 1H30M @ ~50-60% FTP.\n\nPURPOSE: Improve muscular endurance and lactate threshold, as well as improve body's ability to deliver large amounts of oxygen to working muscles.\n\nThese intervals work on the principle of the 'VO2 slow component' (see e.g. here: https://pubmed.ncbi.nlm.nih.gov/21552162/). At intensities between the lactate threshold and the maximal aerobic power, oxygen intake gradually rises towards VO2max.\n\nThese intervals are also inspired by the following study, which shows supra-threshold intervals to be more tolerable than classic VO2max intervals: https://pubmed.ncbi.nlm.nih.gov/28051345/\n\nWhile we’re not aware of any scientific research supporting this, we also believe these supra-threshold intervals likely contribute to improved lactate shuttling and buffering. Theoretically, this makes sense as lactate levels are held at a high level throughout the intervals, placing stress on the lactate shuttling and buffering systems.",
-            "comments": []
-          },
-          {
-            "id": "3996392686",
-            "date": "2026-10-14",
-            "title": "Swim",
-            "sport": "Swim",
-            "duration_hours": 1.2926527807447645,
-            "tss_planned": 134.87,
-            "tss_actual": 124.85,
-            "status": "completed",
-            "distance_km": 4,
-            "description": "2 x 400m w/u\n10 x 200m pb (50m hard, 50m med, 50m hard, 50m med) 20sec rest\n800m pb+pd med\n200m c/d choice",
-            "comments": []
-          },
-          {
-            "id": "4006231268",
-            "date": "2026-10-15",
-            "title": "Legs",
-            "sport": "Strength",
-            "duration_hours": 0.4836472272872925,
-            "tss_planned": null,
-            "tss_actual": 18.03,
-            "status": "completed",
-            "distance_km": null,
-            "description": "2 rounds of:\nHack Squat — 8 reps\nRomanian Deadlift — 10 reps\nBulgarian Split Squat — 8 reps/leg\nSeated Leg Curl — 10 reps\nHip Abductor Machine — 12 reps\n2 rounds of:\n6. Standing Calf Raise — 15 reps\n7. Single-Leg Leg Extension — 8 reps/leg",
-            "comments": []
-          },
-          {
-            "id": "3983956948",
-            "date": "2026-10-15",
-            "title": "Run | 1h10 EASY | Pace",
-            "sport": "Run",
-            "duration_hours": 0.700208306312561,
-            "tss_planned": 93.74,
-            "tss_actual": 36.57,
-            "status": "completed",
-            "distance_km": 7.01,
-            "description": "1h10 - Easy comfortable running",
-            "comments": [
-              {
-                "text": "Legs bit tender and back into GP for chest this week.",
-                "author": "Stephen Bates",
-                "author_role": "athlete",
-                "created_at": "2026-10-15T13:48:33Z"
-              }
-            ]
-          },
-          {
-            "id": "3983957585",
-            "date": "2026-10-16",
-            "title": "Swim | 2x (3x 400m) | Strength Endurance",
-            "sport": "Swim",
-            "duration_hours": 1.0167833375930786,
-            "tss_planned": 34.5,
-            "tss_actual": 113.31,
-            "status": "completed",
-            "distance_km": 3.3,
-            "description": "Warm up:\n400 easy (75 freestyle / 25 backstroke) rest 30's\n4x 50 (1-3 progressive, 4th easy) rest 20's\n100 easy\n-------------------------------------------------\n2x (3x 400 easy/mod/mod-hard rest 20's) pb&pd\n--------------------------------------------------\n200m cool down",
-            "comments": []
-          },
-          {
-            "id": "3983956752",
-            "date": "2026-10-17",
-            "title": "Endurance 5h | FTP",
-            "sport": "Bike",
-            "duration_hours": 4.7068352699279785,
-            "tss_planned": 220.55,
-            "tss_actual": 285.26,
-            "status": "completed",
-            "distance_km": 131.08,
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nNice and easy time in the saddle - conversational pace.",
-            "comments": []
-          },
-          {
-            "id": "3983956751",
-            "date": "2026-10-17",
-            "title": "ROB | 40' Easy | Pace",
-            "sport": "Run",
-            "duration_hours": 0.7000166773796082,
-            "tss_planned": 26.65,
-            "tss_actual": 70.33,
-            "status": "completed",
-            "distance_km": 8.03,
-            "description": "40min run off bike easy super controlled ticking over feeling light on feet.",
-            "comments": []
-          },
-          {
-            "id": "3983956631",
-            "date": "2026-10-18",
-            "title": "Run - Track - 5x400m + 2x(200+800, 1000m)",
-            "sport": "Run",
-            "duration_hours": 1.3158333333333334,
-            "tss_planned": 80.61,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 14.16,
-            "description": "25min warm up\nDrills 5-10min\n5 x 400m 20 to 25 seconds faster than your threshold pace on 1min rest\n5min easy jogging\n2 x [\n1 x (200m threshold pace + 35-45sec, 800m threshold pace)\n2min passive rest\n1 x 1km threshold pace\n6min easy jogging\n]\n5min cool down",
-            "comments": []
-          },
-          {
-            "id": "4010558237",
-            "date": "2026-10-18",
-            "title": "Lap Swimming",
-            "sport": "Swim",
-            "duration_hours": 0.6588611131244235,
-            "tss_planned": null,
-            "tss_actual": 69.54,
-            "status": "completed",
-            "distance_km": 2.1,
-            "description": "",
-            "comments": []
-          }
-        ],
         "2026-10-19": [
           {
             "id": "3643377522",
@@ -63390,6 +63146,19 @@
             "comments": []
           },
           {
+            "id": "4010522581",
+            "date": "2026-10-23",
+            "title": "Hamdan Swim session",
+            "sport": "Swim",
+            "duration_hours": 1.0423277726438311,
+            "tss_planned": null,
+            "tss_actual": 123.21,
+            "status": "completed",
+            "distance_km": 3.45,
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "4010585155",
             "date": "2026-10-23",
             "title": "Supra-Threshold: 4x4min",
@@ -63408,19 +63177,6 @@
                 "created_at": "2026-10-23T15:30:51Z"
               }
             ]
-          },
-          {
-            "id": "4010522581",
-            "date": "2026-10-23",
-            "title": "Hamdan Swim session",
-            "sport": "Swim",
-            "duration_hours": 1.0423277726438311,
-            "tss_planned": null,
-            "tss_actual": 123.21,
-            "status": "completed",
-            "distance_km": 3.45,
-            "description": "",
-            "comments": []
           },
           {
             "id": "4021100961",
@@ -63505,11 +63261,11 @@
             "date": "2026-10-25",
             "title": "Open water - Group Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
+            "duration_hours": 0.6243833329942491,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 66.89,
+            "status": "completed",
+            "distance_km": 2,
             "description": "",
             "comments": []
           },
@@ -63553,11 +63309,11 @@
             "date": "2026-10-26",
             "title": "Swim",
             "sport": "Swim",
-            "duration_hours": 1.1666666666666667,
+            "duration_hours": 1.1764083311292861,
             "tss_planned": 134.87,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 3.8,
+            "tss_actual": 119.31,
+            "status": "completed",
+            "distance_km": 3.7,
             "description": "2 x 400m w/u\n10 x 200m pb (50m hard, 50m med, 50m hard, 50m med) 20sec rest\n800m pb+pd med\n200m c/d choice",
             "comments": []
           },
@@ -63730,14 +63486,68 @@
             "description": "WU: 25 min E\n\nMS: 21 x (3 min MOD/1 min E)\n\nCD: 5 min",
             "comments": []
           }
+        ],
+        "2026-11-02": [
+          {
+            "id": "3643377055",
+            "date": "2026-11-02",
+            "title": "Wk 5",
+            "sport": null,
+            "duration_hours": null,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "",
+            "comments": []
+          },
+          {
+            "id": "4010724305",
+            "date": "2026-11-03",
+            "title": "Run | 7x 4min / 2min | Interval",
+            "sport": "Run",
+            "duration_hours": 1.2,
+            "tss_planned": 89.37,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": 14.25,
+            "description": "WARM-UP: 20min - EASY PACE\nMain set:\n7x 4min / 2min - EASY JOG\n10min cool down",
+            "comments": []
+          },
+          {
+            "id": "4010724303",
+            "date": "2026-11-03",
+            "title": "Run 2 | 35min Easy",
+            "sport": "Run",
+            "duration_hours": 0.5833333333333334,
+            "tss_planned": 34.98,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": 7.37,
+            "description": "35 min - Easy pace",
+            "comments": []
+          },
+          {
+            "id": "4010724717",
+            "date": "2026-11-04",
+            "title": "Endurance 2hr - Z2 | FTP",
+            "sport": "Bike",
+            "duration_hours": 2,
+            "tss_planned": 84.52,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": null,
+            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
+            "comments": []
+          }
         ]
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 85,
+      "compliance_pct": 100,
       "weekly_tss_trend": [
-        963.92,
-        910.3000000000002,
+        977.19,
+        119.31,
         0
       ]
     }
@@ -64941,6 +64751,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-25T08:08:36.234Z"
+    "checked_at": "2026-10-26T08:34:11.769Z"
   }
 }
