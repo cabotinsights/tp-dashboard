@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T09:26:55.247Z",
-  "as_of_date": "2026-10-29",
+  "generated_at": "2026-10-30T09:39:33.052Z",
+  "as_of_date": "2026-10-30",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,36 +61367,36 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 113.1,
-        "atl": 143.1,
-        "tsb": -25.5,
+        "ctl": 114.4,
+        "atl": 147.6,
+        "tsb": -27.1,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-10-26",
         "end": "2026-11-01",
         "sessions_planned": 16,
-        "sessions_completed": 5,
+        "sessions_completed": 8,
         "sessions_missed": 3,
-        "sessions_due_to_date": 8,
-        "sessions_still_to_come": 8,
-        "sessions_planned_today": 2,
-        "compliance_pct": 63,
+        "sessions_due_to_date": 11,
+        "sessions_still_to_come": 5,
+        "sessions_planned_today": 3,
+        "compliance_pct": 73,
         "on_pace": false,
-        "total_tss": 468.82,
-        "total_hours": 5.82,
+        "total_tss": 673.96,
+        "total_hours": 9.69,
         "by_sport": {
           "Bike": {
-            "hours": 2.92,
-            "tss": 124.89
+            "hours": 5.71,
+            "tss": 314.52
           },
           "Run": {
             "hours": 0,
             "tss": 0
           },
           "Swim": {
-            "hours": 2.91,
-            "tss": 343.93
+            "hours": 3.98,
+            "tss": 359.44
           },
           "Other": {
             "hours": 0,
@@ -61488,31 +61488,31 @@
             "date": "2026-10-29",
             "title": "Easy 90min | FTP",
             "sport": "Bike",
-            "duration_hours": 1.5,
-            "tss": null,
+            "duration_hours": 1.0280249118804932,
+            "tss": 48.29,
             "tss_planned": 73.35,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 27.36,
+            "_status": "done"
           },
           {
             "date": "2026-10-30",
             "title": "Threshold: 5x 4min (Level 2)",
             "sport": "Bike",
-            "duration_hours": 1.5416666666666667,
-            "tss": null,
+            "duration_hours": 1.766724944114685,
+            "tss": 141.34,
             "tss_planned": 92.14,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 35.46,
+            "_status": "done"
           },
           {
             "date": "2026-10-30",
             "title": "Open water - Group Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
+            "duration_hours": 1.0724860429763794,
+            "tss": 15.51,
             "tss_planned": null,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 1.76,
+            "_status": "done"
           },
           {
             "date": "2026-10-30",
@@ -61850,6 +61850,30 @@
           "duration_hours": 0.9067472214168972,
           "distance_km": 3,
           "tss": 107.05
+        },
+        {
+          "date": "2026-10-29",
+          "title": "Easy 90min | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.0280249118804932,
+          "distance_km": 27.36,
+          "tss": 48.29
+        },
+        {
+          "date": "2026-10-30",
+          "title": "Threshold: 5x 4min (Level 2)",
+          "sport": "Bike",
+          "duration_hours": 1.766724944114685,
+          "distance_km": 35.46,
+          "tss": 141.34
+        },
+        {
+          "date": "2026-10-30",
+          "title": "Open water - Group Swim",
+          "sport": "Swim",
+          "duration_hours": 1.0724860429763794,
+          "distance_km": 1.76,
+          "tss": 15.51
         }
       ],
       "missed_sessions": [
@@ -61880,30 +61904,6 @@
       ],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-10-29",
-          "title": "Easy 90min | FTP",
-          "sport": "Bike",
-          "duration_hours": 1.5,
-          "distance_km": null,
-          "tss_planned": 73.35
-        },
-        {
-          "date": "2026-10-30",
-          "title": "Threshold: 5x 4min (Level 2)",
-          "sport": "Bike",
-          "duration_hours": 1.5416666666666667,
-          "distance_km": null,
-          "tss_planned": 92.14
-        },
-        {
-          "date": "2026-10-30",
-          "title": "Open water - Group Swim",
-          "sport": "Swim",
-          "duration_hours": 0.6666666666666666,
-          "distance_km": null,
-          "tss_planned": null
-        },
         {
           "date": "2026-10-30",
           "title": "Run |30-40min Easy | Pace",
@@ -61952,7 +61952,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 17
+        "days_out": 16
       },
       "focus_event": {
         "id": 37280222,
@@ -61961,7 +61961,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 37
+        "days_out": 36
       },
       "peaks": {
         "bike_20min_power": {
@@ -62168,12 +62168,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-06",
-          "ctl": 100.9,
-          "atl": 106.3,
-          "tsb": -8.7
-        },
         {
           "date": "2026-08-07",
           "ctl": 100.4,
@@ -62674,9 +62668,15 @@
         },
         {
           "date": "2026-10-29",
-          "ctl": 113.1,
-          "atl": 143.1,
+          "ctl": 112.5,
+          "atl": 139.5,
           "tsb": -25.5
+        },
+        {
+          "date": "2026-10-30",
+          "ctl": 114.4,
+          "atl": 147.6,
+          "tsb": -27.1
         }
       ],
       "weekly_trend": [
@@ -62688,9 +62688,9 @@
         },
         {
           "week_start": "2026-10-26",
-          "tss": 469,
-          "hours": 5.82,
-          "ctl_end": 113.1
+          "tss": 674,
+          "hours": 9.69,
+          "ctl_end": 114.4
         },
         {
           "week_start": "2026-11-02",
@@ -62700,16 +62700,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-29",
-          "sleep_hours": 7.45,
-          "deep": 1.55,
-          "light": 3.96,
-          "rem": 1.75,
-          "awake": 0.18999958,
-          "hrv": 71,
-          "resting_hr": 51
-        },
         {
           "date": "2026-09-30",
           "sleep_hours": 8.68,
@@ -62999,6 +62989,16 @@
           "awake": 0.18000019,
           "hrv": 75,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-10-30",
+          "sleep_hours": 7.45,
+          "deep": 1.75,
+          "light": 4.61,
+          "rem": 0.51,
+          "awake": 0.5799997,
+          "hrv": 57,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -63009,7 +63009,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 17
+          "days_out": 16
         }
       ],
       "sessions_by_week": {
@@ -63440,11 +63440,11 @@
             "date": "2026-10-29",
             "title": "Easy 90min | FTP",
             "sport": "Bike",
-            "duration_hours": 1.5,
+            "duration_hours": 1.0280249118804932,
             "tss_planned": 73.35,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 48.29,
+            "status": "completed",
+            "distance_km": 27.36,
             "description": "Easy riding,",
             "comments": []
           },
@@ -63453,11 +63453,11 @@
             "date": "2026-10-30",
             "title": "Threshold: 5x 4min (Level 2)",
             "sport": "Bike",
-            "duration_hours": 1.5416666666666667,
+            "duration_hours": 1.766724944114685,
             "tss_planned": 92.14,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 141.34,
+            "status": "completed",
+            "distance_km": 35.46,
             "description": "20-30min warm up building up to 50-70% FTP.\n\n5x 4min @ 103-108% FTP with 3min active recovery between each interval. Best done on shallow grade climb if riding outdoors, standing on the pedals for most of the intervals.\n\nRemaining time @ ~50-60% FTP - can cool down longer to 90min if time allows.\n\nPURPOSE: Improve muscular endurance and lactate threshold, as well as improve body's ability to deliver large amounts of oxygen to working muscles.\n\nThese intervals work on the principle of the 'VO2 slow component' (see e.g. here: https://pubmed.ncbi.nlm.nih.gov/21552162/). At intensities between the lactate threshold and the maximal aerobic power, oxygen intake gradually rises towards VO2max.\n\nThese intervals are also inspired by the following study, which shows supra-threshold intervals to be more tolerable than classic VO2max intervals: https://pubmed.ncbi.nlm.nih.gov/28051345/\n\nWhile we’re not aware of any scientific research supporting this, we also believe these supra-threshold intervals likely contribute to improved lactate shuttling and buffering. Theoretically, this makes sense as lactate levels are held at a high level throughout the intervals, placing stress on the lactate shuttling and buffering systems.",
             "comments": []
           },
@@ -63466,11 +63466,11 @@
             "date": "2026-10-30",
             "title": "Open water - Group Swim",
             "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
+            "duration_hours": 1.0724860429763794,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 15.51,
+            "status": "completed",
+            "distance_km": 1.76,
             "description": "",
             "comments": []
           },
@@ -63597,10 +63597,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 63,
+      "compliance_pct": 73,
       "weekly_tss_trend": [
         977.19,
-        468.82,
+        673.96,
         0
       ]
     }
@@ -64804,6 +64804,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-29T09:26:55.263Z"
+    "checked_at": "2026-10-30T09:39:33.069Z"
   }
 }
