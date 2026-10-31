@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T09:39:33.052Z",
-  "as_of_date": "2026-10-30",
+  "generated_at": "2026-10-31T09:19:32.131Z",
+  "as_of_date": "2026-10-31",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 114.4,
-        "atl": 147.6,
-        "tsb": -27.1,
+        "ctl": 120.5,
+        "atl": 179.6,
+        "tsb": -28.5,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-10-26",
         "end": "2026-11-01",
         "sessions_planned": 16,
-        "sessions_completed": 8,
-        "sessions_missed": 3,
-        "sessions_due_to_date": 11,
-        "sessions_still_to_come": 5,
+        "sessions_completed": 10,
+        "sessions_missed": 4,
+        "sessions_due_to_date": 14,
+        "sessions_still_to_come": 2,
         "sessions_planned_today": 3,
-        "compliance_pct": 73,
+        "compliance_pct": 71,
         "on_pace": false,
-        "total_tss": 673.96,
-        "total_hours": 9.69,
+        "total_tss": 1037.14,
+        "total_hours": 14.96,
         "by_sport": {
           "Bike": {
-            "hours": 5.71,
-            "tss": 314.52
+            "hours": 10.14,
+            "tss": 589.25
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.84,
+            "tss": 88.45
           },
           "Swim": {
             "hours": 3.98,
@@ -61522,27 +61522,27 @@
             "tss": null,
             "tss_planned": 38.79,
             "distance_km": 6.61,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-10-31",
             "title": "Endurance 5h | FTP",
             "sport": "Bike",
-            "duration_hours": 5,
-            "tss": null,
+            "duration_hours": 4.427883148193359,
+            "tss": 274.73,
             "tss_planned": 220.55,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 129.04,
+            "_status": "done"
           },
           {
             "date": "2026-10-31",
             "title": "ROB | 40' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
+            "duration_hours": 0.8418388962745667,
+            "tss": 88.45,
             "tss_planned": 26.65,
-            "distance_km": 7.36,
-            "_status": "upcoming"
+            "distance_km": 10.02,
+            "_status": "done"
           },
           {
             "date": "2026-10-31",
@@ -61874,6 +61874,22 @@
           "duration_hours": 1.0724860429763794,
           "distance_km": 1.76,
           "tss": 15.51
+        },
+        {
+          "date": "2026-10-31",
+          "title": "Endurance 5h | FTP",
+          "sport": "Bike",
+          "duration_hours": 4.427883148193359,
+          "distance_km": 129.04,
+          "tss": 274.73
+        },
+        {
+          "date": "2026-10-31",
+          "title": "ROB | 40' Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.8418388962745667,
+          "distance_km": 10.02,
+          "tss": 88.45
         }
       ],
       "missed_sessions": [
@@ -61900,10 +61916,7 @@
           "duration_hours": 0.5833333333333334,
           "distance_km": 7.37,
           "tss_planned": 34.98
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-10-30",
           "title": "Run |30-40min Easy | Pace",
@@ -61911,23 +61924,10 @@
           "duration_hours": 0.5833333333333334,
           "distance_km": 6.61,
           "tss_planned": 38.79
-        },
-        {
-          "date": "2026-10-31",
-          "title": "Endurance 5h | FTP",
-          "sport": "Bike",
-          "duration_hours": 5,
-          "distance_km": null,
-          "tss_planned": 220.55
-        },
-        {
-          "date": "2026-10-31",
-          "title": "ROB | 40' Easy | Pace",
-          "sport": "Run",
-          "duration_hours": 0.6666666666666666,
-          "distance_km": 7.36,
-          "tss_planned": 26.65
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-10-31",
           "title": "Open water - Group Swim",
@@ -61952,7 +61952,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 16
+        "days_out": 15
       },
       "focus_event": {
         "id": 37280222,
@@ -61961,7 +61961,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 36
+        "days_out": 35
       },
       "peaks": {
         "bike_20min_power": {
@@ -62168,12 +62168,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-07",
-          "ctl": 100.4,
-          "atl": 102.7,
-          "tsb": -5.4
-        },
         {
           "date": "2026-08-08",
           "ctl": 102.9,
@@ -62674,9 +62668,15 @@
         },
         {
           "date": "2026-10-30",
-          "ctl": 114.4,
-          "atl": 147.6,
+          "ctl": 113.5,
+          "atl": 142,
           "tsb": -27.1
+        },
+        {
+          "date": "2026-10-31",
+          "ctl": 120.5,
+          "atl": 179.6,
+          "tsb": -28.5
         }
       ],
       "weekly_trend": [
@@ -62688,9 +62688,9 @@
         },
         {
           "week_start": "2026-10-26",
-          "tss": 674,
-          "hours": 9.69,
-          "ctl_end": 114.4
+          "tss": 1037,
+          "hours": 14.96,
+          "ctl_end": 120.5
         },
         {
           "week_start": "2026-11-02",
@@ -62700,16 +62700,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-09-30",
-          "sleep_hours": 8.68,
-          "deep": 1.88,
-          "light": 3.85,
-          "rem": 2.06,
-          "awake": 0.89000034,
-          "hrv": 83,
-          "resting_hr": 51
-        },
         {
           "date": "2026-10-01",
           "sleep_hours": 7.52,
@@ -62999,6 +62989,16 @@
           "awake": 0.5799997,
           "hrv": 57,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-10-31",
+          "sleep_hours": 7.03,
+          "deep": 0.81,
+          "light": 4.56,
+          "rem": 1.41,
+          "awake": 0.25000036,
+          "hrv": 54,
+          "resting_hr": 55
         }
       ],
       "flags": [],
@@ -63009,7 +63009,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 16
+          "days_out": 15
         }
       ],
       "sessions_by_week": {
@@ -63492,11 +63492,11 @@
             "date": "2026-10-31",
             "title": "Endurance 5h | FTP",
             "sport": "Bike",
-            "duration_hours": 5,
+            "duration_hours": 4.427883148193359,
             "tss_planned": 220.55,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 274.73,
+            "status": "completed",
+            "distance_km": 129.04,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nNice and easy time in the saddle - conversational pace.",
             "comments": []
           },
@@ -63505,11 +63505,11 @@
             "date": "2026-10-31",
             "title": "ROB | 40' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.6666666666666666,
+            "duration_hours": 0.8418388962745667,
             "tss_planned": 26.65,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 7.36,
+            "tss_actual": 88.45,
+            "status": "completed",
+            "distance_km": 10.02,
             "description": "40min run off bike easy super controlled ticking over feeling light on feet.",
             "comments": []
           },
@@ -63597,10 +63597,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 73,
+      "compliance_pct": 71,
       "weekly_tss_trend": [
         977.19,
-        673.96,
+        1037.14,
         0
       ]
     }
@@ -64804,6 +64804,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-10-30T09:39:33.069Z"
+    "checked_at": "2026-10-31T09:19:32.147Z"
   }
 }
