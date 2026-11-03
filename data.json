@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T10:36:44.114Z",
-  "as_of_date": "2026-11-02",
+  "generated_at": "2026-11-03T10:29:24.423Z",
+  "as_of_date": "2026-11-03",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61368,35 +61368,35 @@
       "is_real": true,
       "current_fitness": {
         "ctl": 122.3,
-        "atl": 173.6,
-        "tsb": -60.3,
+        "atl": 167.2,
+        "tsb": -45.7,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-02",
         "end": "2026-11-08",
         "sessions_planned": 14,
-        "sessions_completed": 0,
-        "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 14,
+        "sessions_completed": 3,
+        "sessions_missed": 1,
+        "sessions_due_to_date": 4,
+        "sessions_still_to_come": 10,
         "sessions_planned_today": 3,
-        "compliance_pct": 100,
-        "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "compliance_pct": 75,
+        "on_pace": false,
+        "total_tss": 206.04,
+        "total_hours": 2.78,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.17,
+            "tss": 71.96
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1,
+            "tss": 64.4
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.61,
+            "tss": 69.68
           },
           "Other": {
             "hours": 0,
@@ -61412,37 +61412,27 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
-          },
-          {
-            "date": "2026-11-02",
-            "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
-            "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
-            "tss": null,
-            "tss_planned": 19.75,
-            "distance_km": 2,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-11-02",
             "title": "TURBO -Big gear set | FTP",
             "sport": "Bike",
-            "duration_hours": 1.4166666666666667,
-            "tss": null,
+            "duration_hours": 1.1669833660125732,
+            "tss": 71.96,
             "tss_planned": 99.04,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-03",
             "title": "Run | 6x 4min / 2min | Interval",
             "sport": "Run",
-            "duration_hours": 1.1833333333333333,
-            "tss": null,
+            "duration_hours": 1.0003305673599243,
+            "tss": 64.4,
             "tss_planned": 86.19,
-            "distance_km": 13.9,
-            "_status": "upcoming"
+            "distance_km": 11.07,
+            "_status": "done"
           },
           {
             "date": "2026-11-03",
@@ -61453,6 +61443,16 @@
             "tss_planned": 34.98,
             "distance_km": 7.37,
             "_status": "upcoming"
+          },
+          {
+            "date": "2026-11-03",
+            "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
+            "sport": "Swim",
+            "duration_hours": 0.6117444441053602,
+            "tss": 69.68,
+            "tss_planned": 19.75,
+            "distance_km": 2,
+            "_status": "done"
           },
           {
             "date": "2026-11-04",
@@ -61740,10 +61740,33 @@
           }
         ]
       },
-      "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "completed_sessions": [
+        {
+          "date": "2026-11-02",
+          "title": "TURBO -Big gear set | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.1669833660125732,
+          "distance_km": null,
+          "tss": 71.96
+        },
+        {
+          "date": "2026-11-03",
+          "title": "Run | 6x 4min / 2min | Interval",
+          "sport": "Run",
+          "duration_hours": 1.0003305673599243,
+          "distance_km": 11.07,
+          "tss": 64.4
+        },
+        {
+          "date": "2026-11-03",
+          "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
+          "sport": "Swim",
+          "duration_hours": 0.6117444441053602,
+          "distance_km": 2,
+          "tss": 69.68
+        }
+      ],
+      "missed_sessions": [
         {
           "date": "2026-11-02",
           "title": "Wk 5",
@@ -61751,31 +61774,10 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        },
-        {
-          "date": "2026-11-02",
-          "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
-          "sport": "Swim",
-          "duration_hours": 0.6666666666666666,
-          "distance_km": 2,
-          "tss_planned": 19.75
-        },
-        {
-          "date": "2026-11-02",
-          "title": "TURBO -Big gear set | FTP",
-          "sport": "Bike",
-          "duration_hours": 1.4166666666666667,
-          "distance_km": null,
-          "tss_planned": 99.04
-        },
-        {
-          "date": "2026-11-03",
-          "title": "Run | 6x 4min / 2min | Interval",
-          "sport": "Run",
-          "duration_hours": 1.1833333333333333,
-          "distance_km": 13.9,
-          "tss_planned": 86.19
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-03",
           "title": "Run 2 | 35min Easy",
@@ -61864,7 +61866,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 13
+        "days_out": 12
       },
       "focus_event": {
         "id": 37280222,
@@ -61873,7 +61875,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 33
+        "days_out": 32
       },
       "peaks": {
         "bike_20min_power": {
@@ -62080,12 +62082,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-10",
-          "ctl": 106.2,
-          "atl": 131.7,
-          "tsb": -23.3
-        },
         {
           "date": "2026-08-11",
           "ctl": 105.2,
@@ -62586,9 +62582,15 @@
         },
         {
           "date": "2026-11-02",
-          "ctl": 122.3,
-          "atl": 173.6,
+          "ctl": 121.2,
+          "atl": 166.9,
           "tsb": -60.3
+        },
+        {
+          "date": "2026-11-03",
+          "ctl": 122.3,
+          "atl": 167.2,
+          "tsb": -45.7
         }
       ],
       "weekly_trend": [
@@ -62600,8 +62602,8 @@
         },
         {
           "week_start": "2026-11-02",
-          "tss": 0,
-          "hours": 0,
+          "tss": 206,
+          "hours": 2.78,
           "ctl_end": 122.3
         },
         {
@@ -62612,16 +62614,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-03",
-          "sleep_hours": 6.62,
-          "deep": 0.63,
-          "light": 3.63,
-          "rem": 1.66,
-          "awake": 0.6999997,
-          "hrv": 65,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-04",
           "sleep_hours": 9.12,
@@ -62911,6 +62903,16 @@
           "awake": 0.6200006,
           "hrv": 59,
           "resting_hr": 52
+        },
+        {
+          "date": "2026-11-03",
+          "sleep_hours": 7.35,
+          "deep": 1.03,
+          "light": 3.51,
+          "rem": 2.55,
+          "awake": 0.25999975,
+          "hrv": 57,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62921,7 +62923,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 13
+          "days_out": 12
         }
       ],
       "sessions_by_week": {
@@ -63184,43 +63186,50 @@
             "comments": []
           },
           {
-            "id": "4037293726",
-            "date": "2026-11-02",
-            "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
-            "sport": "Swim",
-            "duration_hours": 0.6666666666666666,
-            "tss_planned": 19.75,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 2,
-            "description": "Warm Up: 800m\n---------------------------------------\n8 x 25m (every 4th fast)\n6 x 25m  (every 3rd fast)\n4 x 25m (every 2nd fast)\n2 x 25m fast\n---------------------------------------\nMS: 3x 200m PB + P\n---------------------------------------\nCD: 100m Easy",
-            "comments": []
-          },
-          {
             "id": "4037293699",
             "date": "2026-11-02",
             "title": "TURBO -Big gear set | FTP",
             "sport": "Bike",
-            "duration_hours": 1.4166666666666667,
+            "duration_hours": 1.1669833660125732,
             "tss_planned": 99.04,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 71.96,
+            "status": "completed",
             "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\n20 minute warm up @ 80 - 90 RPM\n\n5 x 1 min 320 watts with 1 min easy between each\n\n5 minutes easy\n\n4 x 8 min @ 290 watts @ 50 - 60 RPM with 2 minutes super easy between each\n\nStart the 3 minute Bigger gears @ 60 RPM and drop slowly throughout the set of 8\n\nRide the duration of the ride easy @ 75 - 85 RPM",
-            "comments": []
+            "comments": [
+              {
+                "text": "Did 3 sets. Legs are heavy",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-02T12:05:05Z"
+              }
+            ]
           },
           {
             "id": "4037294525",
             "date": "2026-11-03",
             "title": "Run | 6x 4min / 2min | Interval",
             "sport": "Run",
-            "duration_hours": 1.1833333333333333,
+            "duration_hours": 1.0003305673599243,
             "tss_planned": 86.19,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 13.9,
+            "tss_actual": 64.4,
+            "status": "completed",
+            "distance_km": 11.07,
             "description": "WARM-UP: 25min - EASY PACE\nMain set:\n6x 4min / 2min - EASY JOG\n10min cool down",
-            "comments": []
+            "comments": [
+              {
+                "text": "Didn’t push pace. Legs heavy still. Started 5min pace down to 4.20min",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-03T05:59:55Z"
+              },
+              {
+                "text": "all good that will do",
+                "author": "De Bruin Train",
+                "author_role": "coach",
+                "created_at": "2026-11-03T09:04:24Z"
+              }
+            ]
           },
           {
             "id": "4010724303",
@@ -63233,6 +63242,19 @@
             "status": "planned",
             "distance_km": 7.37,
             "description": "35 min - Easy pace",
+            "comments": []
+          },
+          {
+            "id": "4037293726",
+            "date": "2026-11-03",
+            "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
+            "sport": "Swim",
+            "duration_hours": 0.6117444441053602,
+            "tss_planned": 19.75,
+            "tss_actual": 69.68,
+            "status": "completed",
+            "distance_km": 2,
+            "description": "Warm Up: 800m\n---------------------------------------\n8 x 25m (every 4th fast)\n6 x 25m  (every 3rd fast)\n4 x 25m (every 2nd fast)\n2 x 25m fast\n---------------------------------------\nMS: 3x 200m PB + P\n---------------------------------------\nCD: 100m Easy",
             "comments": []
           },
           {
@@ -63475,10 +63497,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
         1279.98,
-        0,
+        206.04000000000002,
         0
       ]
     }
@@ -64682,6 +64704,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-02T10:36:44.126Z"
+    "checked_at": "2026-11-03T10:29:24.439Z"
   }
 }
