@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T10:29:24.423Z",
-  "as_of_date": "2026-11-03",
+  "generated_at": "2026-11-04T10:31:03.707Z",
+  "as_of_date": "2026-11-04",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 122.3,
-        "atl": 167.2,
-        "tsb": -45.7,
+        "ctl": 120.8,
+        "atl": 151.8,
+        "tsb": -43.9,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-02",
         "end": "2026-11-08",
-        "sessions_planned": 14,
-        "sessions_completed": 3,
+        "sessions_planned": 12,
+        "sessions_completed": 5,
         "sessions_missed": 1,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 10,
-        "sessions_planned_today": 3,
-        "compliance_pct": 75,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 6,
+        "sessions_planned_today": 1,
+        "compliance_pct": 83,
         "on_pace": false,
-        "total_tss": 206.04,
-        "total_hours": 2.78,
+        "total_tss": 298.89,
+        "total_hours": 4.78,
         "by_sport": {
           "Bike": {
-            "hours": 1.17,
-            "tss": 71.96
+            "hours": 2.67,
+            "tss": 138.45
           },
           "Run": {
-            "hours": 1,
-            "tss": 64.4
+            "hours": 1.5,
+            "tss": 90.76
           },
           "Swim": {
             "hours": 0.61,
@@ -61438,11 +61438,11 @@
             "date": "2026-11-03",
             "title": "Run 2 | 35min Easy",
             "sport": "Run",
-            "duration_hours": 0.5833333333333334,
-            "tss": null,
+            "duration_hours": 0.5001139044761658,
+            "tss": 26.36,
             "tss_planned": 34.98,
-            "distance_km": 7.37,
-            "_status": "upcoming"
+            "distance_km": 5.05,
+            "_status": "done"
           },
           {
             "date": "2026-11-03",
@@ -61458,31 +61458,11 @@
             "date": "2026-11-04",
             "title": "Endurance 2hr - Z2 | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
-            "tss": null,
+            "duration_hours": 1.5000277757644653,
+            "tss": 66.49,
             "tss_planned": 84.52,
             "distance_km": null,
-            "_status": "upcoming"
-          },
-          {
-            "date": "2026-11-05",
-            "title": "2x 50m + 300m max",
-            "sport": "Swim",
-            "duration_hours": 1,
-            "tss": null,
-            "tss_planned": 145.2,
-            "distance_km": 3,
-            "_status": "upcoming"
-          },
-          {
-            "date": "2026-11-05",
-            "title": "Run | 1h15 | Pace",
-            "sport": "Run",
-            "duration_hours": 1.25,
-            "tss": null,
-            "tss_planned": 82.56,
-            "distance_km": 13.97,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-06",
@@ -61759,11 +61739,27 @@
         },
         {
           "date": "2026-11-03",
+          "title": "Run 2 | 35min Easy",
+          "sport": "Run",
+          "duration_hours": 0.5001139044761658,
+          "distance_km": 5.05,
+          "tss": 26.36
+        },
+        {
+          "date": "2026-11-03",
           "title": "Recovery | 800m + 3x 200m MMM | Hr *optional",
           "sport": "Swim",
           "duration_hours": 0.6117444441053602,
           "distance_km": 2,
           "tss": 69.68
+        },
+        {
+          "date": "2026-11-04",
+          "title": "Endurance 2hr - Z2 | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.5000277757644653,
+          "distance_km": null,
+          "tss": 66.49
         }
       ],
       "missed_sessions": [
@@ -61778,38 +61774,6 @@
       ],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-11-03",
-          "title": "Run 2 | 35min Easy",
-          "sport": "Run",
-          "duration_hours": 0.5833333333333334,
-          "distance_km": 7.37,
-          "tss_planned": 34.98
-        },
-        {
-          "date": "2026-11-04",
-          "title": "Endurance 2hr - Z2 | FTP",
-          "sport": "Bike",
-          "duration_hours": 2,
-          "distance_km": null,
-          "tss_planned": 84.52
-        },
-        {
-          "date": "2026-11-05",
-          "title": "2x 50m + 300m max",
-          "sport": "Swim",
-          "duration_hours": 1,
-          "distance_km": 3,
-          "tss_planned": 145.2
-        },
-        {
-          "date": "2026-11-05",
-          "title": "Run | 1h15 | Pace",
-          "sport": "Run",
-          "duration_hours": 1.25,
-          "distance_km": 13.97,
-          "tss_planned": 82.56
-        },
         {
           "date": "2026-11-06",
           "title": "Open water - Group Swim",
@@ -61866,7 +61830,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 12
+        "days_out": 11
       },
       "focus_event": {
         "id": 37280222,
@@ -61875,7 +61839,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 32
+        "days_out": 31
       },
       "peaks": {
         "bike_20min_power": {
@@ -62082,12 +62046,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-11",
-          "ctl": 105.2,
-          "atl": 122.2,
-          "tsb": -25.5
-        },
         {
           "date": "2026-08-12",
           "ctl": 104.5,
@@ -62588,9 +62546,15 @@
         },
         {
           "date": "2026-11-03",
-          "ctl": 122.3,
-          "atl": 167.2,
+          "ctl": 122.1,
+          "atl": 166,
           "tsb": -45.7
+        },
+        {
+          "date": "2026-11-04",
+          "ctl": 120.8,
+          "atl": 151.8,
+          "tsb": -43.9
         }
       ],
       "weekly_trend": [
@@ -62602,9 +62566,9 @@
         },
         {
           "week_start": "2026-11-02",
-          "tss": 206,
-          "hours": 2.78,
-          "ctl_end": 122.3
+          "tss": 299,
+          "hours": 4.78,
+          "ctl_end": 120.8
         },
         {
           "week_start": "2026-11-09",
@@ -62614,16 +62578,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-04",
-          "sleep_hours": 9.12,
-          "deep": 2.05,
-          "light": 3.8,
-          "rem": 2.68,
-          "awake": 0.5899997,
-          "hrv": 65,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-05",
           "sleep_hours": 9.48,
@@ -62913,6 +62867,16 @@
           "awake": 0.25999975,
           "hrv": 57,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-11-04",
+          "sleep_hours": 7.72,
+          "deep": 0.95,
+          "light": 4.51,
+          "rem": 2.11,
+          "awake": 0.14999986,
+          "hrv": 74,
+          "resting_hr": 52
         }
       ],
       "flags": [],
@@ -62923,7 +62887,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 12
+          "days_out": 11
         }
       ],
       "sessions_by_week": {
@@ -63236,11 +63200,11 @@
             "date": "2026-11-03",
             "title": "Run 2 | 35min Easy",
             "sport": "Run",
-            "duration_hours": 0.5833333333333334,
+            "duration_hours": 0.5001139044761658,
             "tss_planned": 34.98,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 7.37,
+            "tss_actual": 26.36,
+            "status": "completed",
+            "distance_km": 5.05,
             "description": "35 min - Easy pace",
             "comments": []
           },
@@ -63262,38 +63226,12 @@
             "date": "2026-11-04",
             "title": "Endurance 2hr - Z2 | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
+            "duration_hours": 1.5000277757644653,
             "tss_planned": 84.52,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 66.49,
+            "status": "completed",
             "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\nRide in Zone 2 only. Try to keep a high cadence (80-95rpm)\nKeep it easy - simply ensure that you do not go into zone 3. i.e. You should remain comfortable throughout your ride.",
-            "comments": []
-          },
-          {
-            "id": "4037295607",
-            "date": "2026-11-05",
-            "title": "2x 50m + 300m max",
-            "sport": "Swim",
-            "duration_hours": 1,
-            "tss_planned": 145.2,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 3,
-            "description": "WU:\n300m\n\nMain Set: (2x)\n20x 50m (fast, easy)\n1x 300m Pads + PB - all out effort.\n\nCool Down:\n100m",
-            "comments": []
-          },
-          {
-            "id": "4037295604",
-            "date": "2026-11-05",
-            "title": "Run | 1h15 | Pace",
-            "sport": "Run",
-            "duration_hours": 1.25,
-            "tss_planned": 82.56,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 13.97,
-            "description": "1h15 - Easy comfortable running",
             "comments": []
           },
           {
@@ -63497,10 +63435,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 75,
+      "compliance_pct": 83,
       "weekly_tss_trend": [
         1279.98,
-        206.04000000000002,
+        298.89000000000004,
         0
       ]
     }
@@ -64704,6 +64642,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-03T10:29:24.439Z"
+    "checked_at": "2026-11-04T10:31:03.717Z"
   }
 }
