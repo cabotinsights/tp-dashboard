@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T10:57:18.636Z",
-  "as_of_date": "2026-11-09",
+  "generated_at": "2026-11-10T10:48:33.827Z",
+  "as_of_date": "2026-11-10",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,8 +61367,8 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 136.1,
-        "atl": 216,
+        "ctl": 135.2,
+        "atl": 199.4,
         "tsb": -76.5,
         "status": "Exhausted (overreaching risk)"
       },
@@ -61376,19 +61376,19 @@
         "start": "2026-11-09",
         "end": "2026-11-15",
         "sessions_planned": 9,
-        "sessions_completed": 1,
-        "sessions_missed": 0,
-        "sessions_due_to_date": 1,
-        "sessions_still_to_come": 8,
-        "sessions_planned_today": 3,
-        "compliance_pct": 100,
-        "on_pace": true,
-        "total_tss": 124.18,
-        "total_hours": 1.3,
+        "sessions_completed": 2,
+        "sessions_missed": 1,
+        "sessions_due_to_date": 3,
+        "sessions_still_to_come": 6,
+        "sessions_planned_today": 2,
+        "compliance_pct": 67,
+        "on_pace": false,
+        "total_tss": 225.2,
+        "total_hours": 2.88,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.58,
+            "tss": 101.02
           },
           "Run": {
             "hours": 0,
@@ -61412,7 +61412,7 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-11-09",
@@ -61428,11 +61428,11 @@
             "date": "2026-11-09",
             "title": "TURBO -Big gear set | FTP",
             "sport": "Bike",
-            "duration_hours": 1.75,
-            "tss": null,
+            "duration_hours": 1.5836000442504883,
+            "tss": 101.02,
             "tss_planned": 129.65,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-10",
@@ -61688,11 +61688,17 @@
           "duration_hours": 1.2961499987708198,
           "distance_km": 4,
           "tss": 124.18
+        },
+        {
+          "date": "2026-11-09",
+          "title": "TURBO -Big gear set | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.5836000442504883,
+          "distance_km": null,
+          "tss": 101.02
         }
       ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "missed_sessions": [
         {
           "date": "2026-11-09",
           "title": "Wk 4",
@@ -61700,15 +61706,10 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        },
-        {
-          "date": "2026-11-09",
-          "title": "TURBO -Big gear set | FTP",
-          "sport": "Bike",
-          "duration_hours": 1.75,
-          "distance_km": null,
-          "tss_planned": 129.65
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-10",
           "title": "Run 2 | 35min Easy",
@@ -61765,7 +61766,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 6
+        "days_out": 5
       },
       "focus_event": {
         "id": 37280222,
@@ -61774,7 +61775,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 26
+        "days_out": 25
       },
       "peaks": {
         "bike_20min_power": {
@@ -61981,12 +61982,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-17",
-          "ctl": 109.3,
-          "atl": 132,
-          "tsb": -22.4
-        },
         {
           "date": "2026-08-18",
           "ctl": 108.8,
@@ -62487,8 +62482,14 @@
         },
         {
           "date": "2026-11-09",
-          "ctl": 136.1,
-          "atl": 216,
+          "ctl": 135.4,
+          "atl": 211.9,
+          "tsb": -76.5
+        },
+        {
+          "date": "2026-11-10",
+          "ctl": 135.2,
+          "atl": 199.4,
           "tsb": -76.5
         }
       ],
@@ -62501,9 +62502,9 @@
         },
         {
           "week_start": "2026-11-09",
-          "tss": 124,
-          "hours": 1.3,
-          "ctl_end": 136.1
+          "tss": 225,
+          "hours": 2.88,
+          "ctl_end": 135.2
         },
         {
           "week_start": "2026-11-16",
@@ -62513,16 +62514,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-10",
-          "sleep_hours": 5.98,
-          "deep": 0.71,
-          "light": 3.9,
-          "rem": 1.26,
-          "awake": 0.109999895,
-          "hrv": 65,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-11",
           "sleep_hours": 7.27,
@@ -62812,6 +62803,16 @@
           "awake": 0.72999954,
           "hrv": 57,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-11-10",
+          "sleep_hours": 8.65,
+          "deep": 1.25,
+          "light": 5.03,
+          "rem": 2.08,
+          "awake": 0.28999949,
+          "hrv": 57,
+          "resting_hr": 54
         }
       ],
       "flags": [],
@@ -62822,7 +62823,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 6
+          "days_out": 5
         }
       ],
       "sessions_by_week": {
@@ -63082,10 +63083,10 @@
             "date": "2026-11-09",
             "title": "TURBO -Big gear set | FTP",
             "sport": "Bike",
-            "duration_hours": 1.75,
+            "duration_hours": 1.5836000442504883,
             "tss_planned": 129.65,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 101.02,
+            "status": "completed",
             "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\n20 minute warm up @ 80 - 90 RPM\n\n5 x 1 min 320 watts with 1 min easy between each\n\n5 minutes easy\n\n6 x 8 min @ 290 watts @ 50 - 60 RPM with 2 minutes super easy between each\n\nStart the 3 minute Bigger gears @ 60 RPM and drop slowly throughout the set of 8\n\nRide the duration of the ride easy @ 75 - 85 RPM",
             "comments": []
@@ -63200,10 +63201,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         1308.97,
-        124.18,
+        225.2,
         0
       ]
     }
@@ -64407,6 +64408,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-09T10:57:18.651Z"
+    "checked_at": "2026-11-10T10:48:33.837Z"
   }
 }
