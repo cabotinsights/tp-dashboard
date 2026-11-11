@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T10:48:33.827Z",
-  "as_of_date": "2026-11-10",
+  "generated_at": "2026-11-11T10:24:24.719Z",
+  "as_of_date": "2026-11-11",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 135.2,
-        "atl": 199.4,
-        "tsb": -76.5,
+        "ctl": 133,
+        "atl": 178.3,
+        "tsb": -57.9,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-09",
         "end": "2026-11-15",
         "sessions_planned": 9,
-        "sessions_completed": 2,
-        "sessions_missed": 1,
-        "sessions_due_to_date": 3,
-        "sessions_still_to_come": 6,
-        "sessions_planned_today": 2,
+        "sessions_completed": 4,
+        "sessions_missed": 2,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 3,
+        "sessions_planned_today": 1,
         "compliance_pct": 67,
         "on_pace": false,
-        "total_tss": 225.2,
-        "total_hours": 2.88,
+        "total_tss": 393.76,
+        "total_hours": 5.83,
         "by_sport": {
           "Bike": {
-            "hours": 1.58,
-            "tss": 101.02
+            "hours": 3.44,
+            "tss": 198.45
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.08,
+            "tss": 71.13
           },
           "Swim": {
             "hours": 1.3,
@@ -61442,27 +61442,27 @@
             "tss": null,
             "tss_planned": 34.98,
             "distance_km": 7.37,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-11-10",
             "title": "Run | 7x 4min / 2min | Interval",
             "sport": "Run",
-            "duration_hours": 1.2,
-            "tss": null,
+            "duration_hours": 1.0841805934906006,
+            "tss": 71.13,
             "tss_planned": 89.37,
-            "distance_km": 14.25,
-            "_status": "upcoming"
+            "distance_km": 12.1,
+            "_status": "done"
           },
           {
             "date": "2026-11-11",
             "title": "4x 15min Strength Endurance | FTP Z3 | Low rpm",
             "sport": "Bike",
-            "duration_hours": 1.9166666666666667,
-            "tss": null,
+            "duration_hours": 1.861375093460083,
+            "tss": 97.43,
             "tss_planned": 97.39,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 58.63,
+            "_status": "done"
           },
           {
             "date": "2026-11-12",
@@ -61696,6 +61696,22 @@
           "duration_hours": 1.5836000442504883,
           "distance_km": null,
           "tss": 101.02
+        },
+        {
+          "date": "2026-11-10",
+          "title": "Run | 7x 4min / 2min | Interval",
+          "sport": "Run",
+          "duration_hours": 1.0841805934906006,
+          "distance_km": 12.1,
+          "tss": 71.13
+        },
+        {
+          "date": "2026-11-11",
+          "title": "4x 15min Strength Endurance | FTP Z3 | Low rpm",
+          "sport": "Bike",
+          "duration_hours": 1.861375093460083,
+          "distance_km": 58.63,
+          "tss": 97.43
         }
       ],
       "missed_sessions": [
@@ -61706,10 +61722,7 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        }
-      ],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-11-10",
           "title": "Run 2 | 35min Easy",
@@ -61717,23 +61730,10 @@
           "duration_hours": 0.5833333333333334,
           "distance_km": 7.37,
           "tss_planned": 34.98
-        },
-        {
-          "date": "2026-11-10",
-          "title": "Run | 7x 4min / 2min | Interval",
-          "sport": "Run",
-          "duration_hours": 1.2,
-          "distance_km": 14.25,
-          "tss_planned": 89.37
-        },
-        {
-          "date": "2026-11-11",
-          "title": "4x 15min Strength Endurance | FTP Z3 | Low rpm",
-          "sport": "Bike",
-          "duration_hours": 1.9166666666666667,
-          "distance_km": null,
-          "tss_planned": 97.39
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-12",
           "title": "Run | 1h25 Easy | Pace",
@@ -61766,7 +61766,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 5
+        "days_out": 4
       },
       "focus_event": {
         "id": 37280222,
@@ -61775,7 +61775,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 25
+        "days_out": 24
       },
       "peaks": {
         "bike_20min_power": {
@@ -61982,12 +61982,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-18",
-          "ctl": 108.8,
-          "atl": 125.9,
-          "tsb": -22.7
-        },
         {
           "date": "2026-08-19",
           "ctl": 109.6,
@@ -62488,9 +62482,15 @@
         },
         {
           "date": "2026-11-10",
-          "ctl": 135.2,
-          "atl": 199.4,
+          "ctl": 133.9,
+          "atl": 191.8,
           "tsb": -76.5
+        },
+        {
+          "date": "2026-11-11",
+          "ctl": 133,
+          "atl": 178.3,
+          "tsb": -57.9
         }
       ],
       "weekly_trend": [
@@ -62502,9 +62502,9 @@
         },
         {
           "week_start": "2026-11-09",
-          "tss": 225,
-          "hours": 2.88,
-          "ctl_end": 135.2
+          "tss": 394,
+          "hours": 5.83,
+          "ctl_end": 133
         },
         {
           "week_start": "2026-11-16",
@@ -62514,16 +62514,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-11",
-          "sleep_hours": 7.27,
-          "deep": 1.63,
-          "light": 4.35,
-          "rem": 1.1,
-          "awake": 0.18999994,
-          "hrv": 64,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-12",
           "sleep_hours": 9.22,
@@ -62813,6 +62803,16 @@
           "awake": 0.28999949,
           "hrv": 57,
           "resting_hr": 54
+        },
+        {
+          "date": "2026-11-11",
+          "sleep_hours": 6.82,
+          "deep": 0.63,
+          "light": 4.33,
+          "rem": 1,
+          "awake": 0.86000013,
+          "hrv": 59,
+          "resting_hr": 53
         }
       ],
       "flags": [],
@@ -62823,7 +62823,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 5
+          "days_out": 4
         }
       ],
       "sessions_by_week": {
@@ -63092,7 +63092,7 @@
             "comments": []
           },
           {
-            "id": "4010724482",
+            "id": "4051868142",
             "date": "2026-11-10",
             "title": "Run 2 | 35min Easy",
             "sport": "Run",
@@ -63105,30 +63105,44 @@
             "comments": []
           },
           {
-            "id": "4010724305",
+            "id": "4010724482",
             "date": "2026-11-10",
             "title": "Run | 7x 4min / 2min | Interval",
             "sport": "Run",
-            "duration_hours": 1.2,
+            "duration_hours": 1.0841805934906006,
             "tss_planned": 89.37,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 14.25,
+            "tss_actual": 71.13,
+            "status": "completed",
+            "distance_km": 12.1,
             "description": "WARM-UP: 20min - EASY PACE\nMain set:\n7x 4min / 2min - EASY JOG\n10min cool down",
-            "comments": []
+            "comments": [
+              {
+                "text": "Started at 5min k down to 4.08min k. Didn’t push. Breathing bit tight on last rep. Need to monitor the number of outdoor sessions",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-10T12:53:33Z"
+              }
+            ]
           },
           {
             "id": "4010724633",
             "date": "2026-11-11",
             "title": "4x 15min Strength Endurance | FTP Z3 | Low rpm",
             "sport": "Bike",
-            "duration_hours": 1.9166666666666667,
+            "duration_hours": 1.861375093460083,
             "tss_planned": 97.39,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 97.43,
+            "status": "completed",
+            "distance_km": 58.63,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.",
-            "comments": []
+            "comments": [
+              {
+                "text": "Felt heavy",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-11T06:32:10Z"
+              }
+            ]
           },
           {
             "id": "4037305741",
@@ -63204,7 +63218,7 @@
       "compliance_pct": 67,
       "weekly_tss_trend": [
         1308.97,
-        225.2,
+        393.76,
         0
       ]
     }
@@ -64408,6 +64422,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-10T10:48:33.837Z"
+    "checked_at": "2026-11-11T10:24:24.733Z"
   }
 }
