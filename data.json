@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T10:24:24.719Z",
-  "as_of_date": "2026-11-11",
+  "generated_at": "2026-11-12T10:41:24.819Z",
+  "as_of_date": "2026-11-12",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 133,
-        "atl": 178.3,
-        "tsb": -57.9,
+        "ctl": 134.2,
+        "atl": 178.5,
+        "tsb": -47.7,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-09",
         "end": "2026-11-15",
-        "sessions_planned": 9,
-        "sessions_completed": 4,
+        "sessions_planned": 10,
+        "sessions_completed": 6,
         "sessions_missed": 2,
-        "sessions_due_to_date": 6,
-        "sessions_still_to_come": 3,
-        "sessions_planned_today": 1,
-        "compliance_pct": 67,
+        "sessions_due_to_date": 8,
+        "sessions_still_to_come": 2,
+        "sessions_planned_today": 2,
+        "compliance_pct": 75,
         "on_pace": false,
-        "total_tss": 393.76,
-        "total_hours": 5.83,
+        "total_tss": 480.07,
+        "total_hours": 7.12,
         "by_sport": {
           "Bike": {
             "hours": 3.44,
@@ -61395,12 +61395,12 @@
             "tss": 71.13
           },
           "Swim": {
-            "hours": 1.3,
-            "tss": 124.18
+            "hours": 1.92,
+            "tss": 190.58
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.67,
+            "tss": 19.91
           }
         },
         "sessions": [
@@ -61465,6 +61465,16 @@
             "_status": "done"
           },
           {
+            "date": "2026-11-11",
+            "title": "Ice recovery",
+            "sport": "Other",
+            "duration_hours": 0.6671277284622192,
+            "tss": 19.91,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
             "date": "2026-11-12",
             "title": "Run | 1h25 Easy | Pace",
             "sport": "Run",
@@ -61478,11 +61488,11 @@
             "date": "2026-11-12",
             "title": "Swim | 1x (2x 50 PBP, 4x 25/25) | Speed Endurance",
             "sport": "Swim",
-            "duration_hours": 0.75,
-            "tss": null,
+            "duration_hours": 0.6266777748531766,
+            "tss": 66.4,
             "tss_planned": 16.7,
             "distance_km": 2,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-13",
@@ -61712,6 +61722,22 @@
           "duration_hours": 1.861375093460083,
           "distance_km": 58.63,
           "tss": 97.43
+        },
+        {
+          "date": "2026-11-11",
+          "title": "Ice recovery",
+          "sport": "Other",
+          "duration_hours": 0.6671277284622192,
+          "distance_km": null,
+          "tss": 19.91
+        },
+        {
+          "date": "2026-11-12",
+          "title": "Swim | 1x (2x 50 PBP, 4x 25/25) | Speed Endurance",
+          "sport": "Swim",
+          "duration_hours": 0.6266777748531766,
+          "distance_km": 2,
+          "tss": 66.4
         }
       ],
       "missed_sessions": [
@@ -61743,14 +61769,6 @@
           "tss_planned": 96.31
         },
         {
-          "date": "2026-11-12",
-          "title": "Swim | 1x (2x 50 PBP, 4x 25/25) | Speed Endurance",
-          "sport": "Swim",
-          "duration_hours": 0.75,
-          "distance_km": 2,
-          "tss_planned": 16.7
-        },
-        {
           "date": "2026-11-13",
           "title": "Open Water Swimming",
           "sport": "Swim",
@@ -61766,7 +61784,7 @@
         "type": "MultisportTriathlon",
         "priority": "B",
         "race_type_duration": "TriTwoToFourHours",
-        "days_out": 4
+        "days_out": 3
       },
       "focus_event": {
         "id": 37280222,
@@ -61775,7 +61793,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 24
+        "days_out": 23
       },
       "peaks": {
         "bike_20min_power": {
@@ -61982,12 +62000,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-19",
-          "ctl": 109.6,
-          "atl": 128.5,
-          "tsb": -17.1
-        },
         {
           "date": "2026-08-20",
           "ctl": 110.1,
@@ -62488,9 +62500,15 @@
         },
         {
           "date": "2026-11-11",
-          "ctl": 133,
-          "atl": 178.3,
+          "ctl": 133.5,
+          "atl": 181.2,
           "tsb": -57.9
+        },
+        {
+          "date": "2026-11-12",
+          "ctl": 134.2,
+          "atl": 178.5,
+          "tsb": -47.7
         }
       ],
       "weekly_trend": [
@@ -62502,9 +62520,9 @@
         },
         {
           "week_start": "2026-11-09",
-          "tss": 394,
-          "hours": 5.83,
-          "ctl_end": 133
+          "tss": 480,
+          "hours": 7.12,
+          "ctl_end": 134.2
         },
         {
           "week_start": "2026-11-16",
@@ -62514,16 +62532,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-12",
-          "sleep_hours": 9.22,
-          "deep": 1.25,
-          "light": 4.9,
-          "rem": 2.71,
-          "awake": 0.36000013,
-          "hrv": 81,
-          "resting_hr": 49
-        },
         {
           "date": "2026-10-13",
           "sleep_hours": 7.95,
@@ -62813,6 +62821,16 @@
           "awake": 0.86000013,
           "hrv": 59,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-11-12",
+          "sleep_hours": 9.38,
+          "deep": 1.31,
+          "light": 5.61,
+          "rem": 2.13,
+          "awake": 0.32999945,
+          "hrv": 72,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62823,7 +62841,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": 4
+          "days_out": 3
         }
       ],
       "sessions_by_week": {
@@ -63145,6 +63163,19 @@
             ]
           },
           {
+            "id": "4053404028",
+            "date": "2026-11-11",
+            "title": "Ice recovery",
+            "sport": null,
+            "duration_hours": 0.6671277284622192,
+            "tss_planned": null,
+            "tss_actual": 19.91,
+            "status": "completed",
+            "distance_km": null,
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "4037305741",
             "date": "2026-11-12",
             "title": "Run | 1h25 Easy | Pace",
@@ -63162,10 +63193,10 @@
             "date": "2026-11-12",
             "title": "Swim | 1x (2x 50 PBP, 4x 25/25) | Speed Endurance",
             "sport": "Swim",
-            "duration_hours": 0.75,
+            "duration_hours": 0.6266777748531766,
             "tss_planned": 16.7,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 66.4,
+            "status": "completed",
             "distance_km": 2,
             "description": "4x 100m (75 free / 25 backstroke) rest 15's\n3x 100m pb easy rest 15's\n2x 50m (15 sprint / 35 easy) rest 20's\n100 easy\n-------------------------------------------\nMainset:\n(1x\n(2x 50m mod-hard pb & pd rest 20's\n4x 50m (25 sprint / 25 easy) rest 20's\n200m pb easy rest 60's)\n-------------------------------------------\n6x 100m easy cool down rest 15's",
             "comments": []
@@ -63215,10 +63246,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
         1308.97,
-        393.76,
+        480.07000000000005,
         0
       ]
     }
@@ -64422,6 +64453,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-11T10:24:24.733Z"
+    "checked_at": "2026-11-12T10:41:24.831Z"
   }
 }
