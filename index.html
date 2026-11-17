@@ -32,9 +32,10 @@
             <div>
               <h1 class="page-title" x-text="me.name"></h1>
               <span class="last-updated" x-text="data ? 'Updated ' + data.generated_at.replace('T', ' ').slice(0, 16) + ' UTC' : ''"></span>
+              <span class="last-updated" x-show="refreshStatus" x-text="refreshStatus"></span>
             </div>
             <button class="btn-refresh" @click="refresh()" :disabled="refreshing">
-              <span x-text="refreshing ? 'Refreshing…' : '⟳ Refresh'"></span>
+              <span x-text="refreshing ? 'Updating…' : '⟳ Update now'"></span>
             </button>
           </div>
 
@@ -535,7 +536,7 @@
           </span>
         </div>
         <button class="btn-refresh" @click="refresh()" :disabled="refreshing">
-          <span x-text="refreshing ? 'Refreshing…' : '⟳ Refresh'"></span>
+          <span x-text="refreshing ? 'Updating…' : '⟳ Update now'"></span>
         </button>
       </div>
 

@@ -11,6 +11,7 @@ function app() {
     data: null,
     loading: true,
     refreshing: false,
+    refreshStatus: "",
     fitnessRange: '90d',
     sportMixView: 'last',
     coachQuestion: '',
@@ -548,10 +549,47 @@ function app() {
       }
     },
 
+    // Starts the GitHub Action that pulls fresh TrainingPeaks data, then
+    // polls data.json until the redeployed copy has a newer generated_at.
+    // Whole loop is usually 1-2 minutes (Action ~20s + Netlify deploy).
     async refresh() {
+      if (this.refreshing) return;
       this.refreshing = true;
-      await this.loadData();
-      this.refreshing = false;
+      this.refreshStatus = 'Pulling from TrainingPeaks…';
+      var before = this.data ? this.data.generated_at : '';
+      var startedAt = Date.now();
+      var wait = function(ms) { return new Promise(function(r) { setTimeout(r, ms); }); };
+
+      try {
+        var resp = await fetch('/.netlify/functions/refresh-now', { method: 'POST' });
+        var res = await resp.json();
+        if (!resp.ok) throw new Error(res.error || ('HTTP ' + resp.status));
+
+        while (Date.now() - startedAt < 5 * 60 * 1000) {
+          await wait(10000);
+          var fresh = await (await fetch('data.json?t=' + Date.now())).json();
+          if (fresh.generated_at && fresh.generated_at !== before) {
+            this.refreshStatus = '';
+            await this.loadData();
+            return;
+          }
+          var st = await (await fetch('/.netlify/functions/refresh-now')).json();
+          var run = st && st.run;
+          if (run && run.status === 'completed' && run.conclusion !== 'success'
+              && Date.parse(run.created_at) >= startedAt - 60000) {
+            throw new Error('the GitHub job failed (TrainingPeaks login has probably expired)');
+          }
+          this.refreshStatus = run && run.status === 'completed'
+            ? 'Data pulled, publishing the page…'
+            : 'Pulling from TrainingPeaks…';
+        }
+        throw new Error('timed out after 5 minutes');
+      } catch (err) {
+        console.error('Refresh failed:', err);
+        this.refreshStatus = 'Update failed: ' + (err && err.message || err);
+      } finally {
+        this.refreshing = false;
+      }
     },
 
     async askCoach(question) {
