@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T10:41:33.223Z",
-  "as_of_date": "2026-11-16",
+  "generated_at": "2026-11-17T06:51:59.965Z",
+  "as_of_date": "2026-11-17",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,28 +61367,28 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 136.4,
-        "atl": 173,
-        "tsb": -58.6,
+        "ctl": 135.2,
+        "atl": 159.9,
+        "tsb": -39.7,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "sessions_planned": 11,
-        "sessions_completed": 0,
+        "sessions_completed": 2,
         "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 11,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 2,
+        "sessions_still_to_come": 9,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "total_tss": 50.65,
+        "total_hours": 1.58,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1,
+            "tss": 30.59
           },
           "Run": {
             "hours": 0,
@@ -61399,30 +61399,30 @@
             "tss": 0
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.58,
+            "tss": 20.06
           }
         },
         "sessions": [
           {
             "date": "2026-11-16",
-            "title": "Wk 3",
+            "title": "Sauna",
             "sport": "Other",
-            "duration_hours": null,
-            "tss": null,
+            "duration_hours": 0.576438844203949,
+            "tss": 20.06,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-16",
             "title": "Recovery: Easy Ride (Level 2, Level 3)",
             "sport": "Bike",
             "duration_hours": 1,
-            "tss": null,
+            "tss": 30.59,
             "tss_planned": 24.59,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-17",
@@ -61720,17 +61720,14 @@
           }
         ]
       },
-      "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "completed_sessions": [
         {
           "date": "2026-11-16",
-          "title": "Wk 3",
+          "title": "Sauna",
           "sport": "Other",
-          "duration_hours": null,
+          "duration_hours": 0.576438844203949,
           "distance_km": null,
-          "tss_planned": null
+          "tss": 20.06
         },
         {
           "date": "2026-11-16",
@@ -61738,8 +61735,12 @@
           "sport": "Bike",
           "duration_hours": 1,
           "distance_km": null,
-          "tss_planned": 24.59
-        },
+          "tss": 30.59
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-17",
           "title": "Swim | 3x 15min | straight swim",
@@ -61820,7 +61821,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 19
+        "days_out": 18
       },
       "focus_event": {
         "id": 37280222,
@@ -61829,7 +61830,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 19
+        "days_out": 18
       },
       "peaks": {
         "bike_20min_power": {
@@ -62036,12 +62037,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-24",
-          "ctl": 112,
-          "atl": 129.8,
-          "tsb": -24.3
-        },
         {
           "date": "2026-08-25",
           "ctl": 111.4,
@@ -62542,9 +62537,15 @@
         },
         {
           "date": "2026-11-16",
-          "ctl": 136.4,
-          "atl": 173,
+          "ctl": 137,
+          "atl": 176.8,
           "tsb": -58.6
+        },
+        {
+          "date": "2026-11-17",
+          "ctl": 135.2,
+          "atl": 159.9,
+          "tsb": -39.7
         }
       ],
       "weekly_trend": [
@@ -62556,9 +62557,9 @@
         },
         {
           "week_start": "2026-11-16",
-          "tss": 0,
-          "hours": 0,
-          "ctl_end": 136.4
+          "tss": 51,
+          "hours": 1.58,
+          "ctl_end": 135.2
         },
         {
           "week_start": "2026-11-23",
@@ -62568,16 +62569,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-17",
-          "sleep_hours": 5.52,
-          "deep": 0.65,
-          "light": 3,
-          "rem": 1.55,
-          "awake": 0.31999993,
-          "hrv": 55,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-19",
           "sleep_hours": 8.1,
@@ -62867,6 +62858,16 @@
           "awake": 0.17000079,
           "hrv": 40,
           "resting_hr": 55
+        },
+        {
+          "date": "2026-11-17",
+          "sleep_hours": 8.48,
+          "deep": 0.86,
+          "light": 5.2,
+          "rem": 2.18,
+          "awake": 0.23999953,
+          "hrv": 70,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -62877,7 +62878,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": -1
+          "days_out": -2
         }
       ],
       "sessions_by_week": {
@@ -63129,12 +63130,12 @@
           {
             "id": "3643376734",
             "date": "2026-11-16",
-            "title": "Wk 3",
+            "title": "Sauna",
             "sport": null,
-            "duration_hours": null,
+            "duration_hours": 0.576438844203949,
             "tss_planned": null,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 20.06,
+            "status": "completed",
             "distance_km": null,
             "description": "",
             "comments": []
@@ -63146,8 +63147,8 @@
             "sport": "Bike",
             "duration_hours": 1,
             "tss_planned": 24.59,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 30.59,
+            "status": "completed",
             "distance_km": null,
             "description": "1H @ 45-55% FTP.\n\nPURPOSE: Allow for adaptations from previously challenging workouts, whilst maintaining rhythm of training without adding any further stress to the body. Also helps to circulate oxygenated blood around the body and remove any metabolic waste products that may be lingering in the muscles from these previous workouts, since lactate is combusted as a fuel in the aerobic energy process better at a lower power output than it is when completely resting.",
             "comments": []
@@ -63434,7 +63435,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         1176.37,
-        0,
+        50.65,
         0
       ]
     }
@@ -64638,6 +64639,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-16T10:41:33.233Z"
+    "checked_at": "2026-11-17T06:51:59.975Z"
   }
 }
