@@ -447,18 +447,42 @@
               </template>
             </div>
 
-            <!-- All-Time Stats -->
-            <h3 class="pb-category-title">&#128200; All-Time</h3>
-            <div class="alltime-grid" x-show="me.alltime_stats">
-              <template x-if="me.alltime_stats">
-                <template x-for="stat in me.alltime_stats" :key="stat.label">
-                  <div class="alltime-stat">
-                    <div class="alltime-value" x-text="stat.value"></div>
-                    <div class="alltime-label" x-text="stat.label"></div>
+            <!-- Strava totals -->
+            <template x-if="me.strava_totals">
+              <div>
+                <template x-for="tbl in [{title: 'All-Time', rows: me.strava_totals.all_time, total: me.strava_totals.all_time_total}, {title: me.strava_totals.year + ' so far', rows: me.strava_totals.ytd, total: null}]" :key="tbl.title">
+                  <div>
+                    <h3 class="pb-category-title">&#128200; <span x-text="tbl.title"></span></h3>
+                    <div class="totals-wrap">
+                      <table class="totals-table">
+                        <thead><tr><th></th><th>Activities</th><th>Distance</th><th>Time</th><th>Elevation</th></tr></thead>
+                        <tbody>
+                          <template x-for="r in tbl.rows" :key="r.sport">
+                            <tr>
+                              <td class="totals-sport" x-text="r.sport"></td>
+                              <td x-text="r.activities == null ? '–' : r.activities.toLocaleString()"></td>
+                              <td x-text="r.distance || '–'"></td>
+                              <td x-text="r.time || '–'"></td>
+                              <td x-text="r.elevation || '–'"></td>
+                            </tr>
+                          </template>
+                          <template x-if="tbl.total">
+                            <tr class="totals-sum">
+                              <td class="totals-sport">Total</td>
+                              <td x-text="tbl.total.activities.toLocaleString()"></td>
+                              <td x-text="tbl.total.distance"></td>
+                              <td x-text="tbl.total.time"></td>
+                              <td x-text="tbl.total.elevation"></td>
+                            </tr>
+                          </template>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </template>
-              </template>
-            </div>
+                <div class="totals-source" x-text="'From ' + me.strava_totals.source + ', updated ' + formatDate(me.strava_totals.as_of)"></div>
+              </div>
+            </template>
           </div>
 
           <!-- Race History -->
