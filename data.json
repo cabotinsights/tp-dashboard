@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:51:22.342Z",
+  "generated_at": "2026-11-18T08:05:57.706Z",
   "as_of_date": "2026-11-18",
   "me": "stephen-bates",
   "athletes": {
@@ -62932,6 +62932,77 @@
       "flags": [],
       "id": "stephen-bates",
       "key_races": [],
+      "strava_totals": {
+        "as_of": "2026-11-18",
+        "source": "Strava",
+        "all_time": [
+          {
+            "sport": "Run",
+            "activities": 790,
+            "distance": "7,053.9 km",
+            "time": "672h 1m",
+            "elevation": "30,694 m"
+          },
+          {
+            "sport": "Ride",
+            "activities": 413,
+            "distance": "10,615.8 km",
+            "time": "601h 47m",
+            "elevation": "75,803 m"
+          },
+          {
+            "sport": "Swim",
+            "activities": 254,
+            "distance": "470.6 km",
+            "time": "165h 18m",
+            "elevation": ""
+          },
+          {
+            "sport": "Workout",
+            "activities": 507,
+            "distance": "",
+            "time": "407h 1m",
+            "elevation": ""
+          }
+        ],
+        "all_time_total": {
+          "activities": 1964,
+          "distance": "18,140 km",
+          "time": "1,846h",
+          "elevation": "106,497 m"
+        },
+        "year": "2026",
+        "ytd": [
+          {
+            "sport": "Run",
+            "activities": 146,
+            "distance": "1,365.3 km",
+            "time": "123h 34m",
+            "elevation": "4,050 m"
+          },
+          {
+            "sport": "Ride",
+            "activities": 122,
+            "distance": "4,609.8 km",
+            "time": "204h 7m",
+            "elevation": "26,429 m"
+          },
+          {
+            "sport": "Swim",
+            "activities": 112,
+            "distance": "243.1 km",
+            "time": "78h 54m",
+            "elevation": ""
+          },
+          {
+            "sport": "Workout",
+            "activities": null,
+            "distance": "",
+            "time": "40h 52m",
+            "elevation": ""
+          }
+        ]
+      },
       "sessions_by_week": {
         "2026-11-09": [
           {
@@ -64700,6 +64771,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-18T07:51:22.359Z"
+    "checked_at": "2026-11-18T08:05:57.719Z"
   }
 }
