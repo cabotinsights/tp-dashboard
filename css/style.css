@@ -1160,6 +1160,25 @@ body {
   text-align: center;
 }
 
+.race-type--t100 {
+  background: rgba(20, 184, 166, 0.15);
+  color: #14B8A6;
+}
+
+.race-transitions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 11px;
+  color: rgba(241, 245, 249, 0.5);
+  margin-top: 8px;
+}
+
+.race-transitions strong {
+  color: rgba(241, 245, 249, 0.85);
+  font-weight: 600;
+}
+
 .race-type--duathlon {
   background: rgba(108, 92, 231, 0.15);
   color: #6C5CE7;

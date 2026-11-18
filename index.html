@@ -499,6 +499,10 @@
                           <span class="race-split-time" x-text="race.run"></span>
                         </div>
                       </div>
+                      <div class="race-transitions" x-show="race.t1 || race.t2">
+                        <span x-show="race.t1">T1 <strong x-text="race.t1"></strong></span>
+                        <span x-show="race.t2">T2 <strong x-text="race.t2"></strong></span>
+                      </div>
                       <div class="race-note" x-show="race.note" x-text="race.note"></div>
                     </div>
                   </template>
