@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:59:53.768Z",
+  "generated_at": "2026-11-18T07:06:59.556Z",
   "as_of_date": "2026-11-18",
   "me": "stephen-bates",
   "athletes": {
@@ -62000,6 +62000,21 @@
           "run_dist": "20.8km",
           "total": "5:25:00",
           "pb": false
+        },
+        {
+          "name": "T100 Dubai",
+          "date": "2026-11-15",
+          "type": "T100",
+          "swim": "37:17",
+          "swim_dist": "2.1km",
+          "t1": "4:23",
+          "bike": "2:20:47",
+          "bike_dist": "80.8km",
+          "t2": "2:19",
+          "run": "1:17:10",
+          "run_dist": "17.8km",
+          "total": "4:21:56",
+          "pb": false
         }
       ],
       "alltime_stats": [
@@ -64649,6 +64664,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-18T06:59:53.783Z"
+    "checked_at": "2026-11-18T07:06:59.571Z"
   }
 }
