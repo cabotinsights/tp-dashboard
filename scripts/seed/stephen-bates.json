@@ -379,13 +379,13 @@
       "date": "2026-11-15",
       "type": "T100",
       "swim": "37:17",
-      "swim_dist": "2.1km",
+      "swim_dist": "2km",
       "t1": "4:23",
       "bike": "2:20:47",
-      "bike_dist": "80.8km",
+      "bike_dist": "80km",
       "t2": "2:19",
       "run": "1:17:10",
-      "run_dist": "17.8km",
+      "run_dist": "18km",
       "total": "4:21:56",
       "pb": false
     }
