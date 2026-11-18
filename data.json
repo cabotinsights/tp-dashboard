@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:13:57.070Z",
+  "generated_at": "2026-11-18T07:22:39.304Z",
   "as_of_date": "2026-11-18",
   "me": "stephen-bates",
   "athletes": {
@@ -62897,15 +62897,7 @@
       ],
       "flags": [],
       "id": "stephen-bates",
-      "key_races": [
-        {
-          "name": "T100 Dubai",
-          "date": "2026-11-15",
-          "event_type": "MultisportTriathlon",
-          "priority": "B",
-          "days_out": -3
-        }
-      ],
+      "key_races": [],
       "sessions_by_week": {
         "2026-11-09": [
           {
@@ -64664,6 +64656,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-18T07:13:57.084Z"
+    "checked_at": "2026-11-18T07:22:39.320Z"
   }
 }
