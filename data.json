@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T11:30:59.067Z",
-  "as_of_date": "2026-11-17",
+  "generated_at": "2026-11-18T06:59:53.768Z",
+  "as_of_date": "2026-11-18",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,36 +61367,36 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 135.2,
-        "atl": 159.9,
-        "tsb": -39.7,
+        "ctl": 136,
+        "atl": 161.3,
+        "tsb": -26.4,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "sessions_planned": 11,
-        "sessions_completed": 2,
+        "sessions_completed": 4,
         "sessions_missed": 0,
-        "sessions_due_to_date": 2,
-        "sessions_still_to_come": 9,
+        "sessions_due_to_date": 4,
+        "sessions_still_to_come": 7,
         "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 50.65,
-        "total_hours": 1.58,
+        "total_tss": 281.05,
+        "total_hours": 4.48,
         "by_sport": {
           "Bike": {
-            "hours": 1,
-            "tss": 30.59
+            "hours": 3.12,
+            "tss": 187.86
           },
           "Run": {
             "hours": 0,
             "tss": 0
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.79,
+            "tss": 73.13
           },
           "Other": {
             "hours": 0.58,
@@ -61428,21 +61428,21 @@
             "date": "2026-11-17",
             "title": "Swim | 3x 15min | straight swim",
             "sport": "Swim",
-            "duration_hours": 0.85,
-            "tss": null,
+            "duration_hours": 0.7850083335240682,
+            "tss": 73.13,
             "tss_planned": 58.48,
-            "distance_km": 2.35,
-            "_status": "upcoming"
+            "distance_km": 2.4,
+            "_status": "done"
           },
           {
             "date": "2026-11-18",
             "title": "BIKE - Big gear | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
-            "tss": null,
+            "duration_hours": 2.1167750358581543,
+            "tss": 157.27,
             "tss_planned": 140.04,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 67.19,
+            "_status": "done"
           },
           {
             "date": "2026-11-19",
@@ -61736,27 +61736,27 @@
           "duration_hours": 1,
           "distance_km": null,
           "tss": 30.59
-        }
-      ],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+        },
         {
           "date": "2026-11-17",
           "title": "Swim | 3x 15min | straight swim",
           "sport": "Swim",
-          "duration_hours": 0.85,
-          "distance_km": 2.35,
-          "tss_planned": 58.48
+          "duration_hours": 0.7850083335240682,
+          "distance_km": 2.4,
+          "tss": 73.13
         },
         {
           "date": "2026-11-18",
           "title": "BIKE - Big gear | FTP",
           "sport": "Bike",
-          "duration_hours": 2,
-          "distance_km": null,
-          "tss_planned": 140.04
-        },
+          "duration_hours": 2.1167750358581543,
+          "distance_km": 67.19,
+          "tss": 157.27
+        }
+      ],
+      "missed_sessions": [],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-19",
           "title": "Run | 1h25 Easy | Pace",
@@ -61821,7 +61821,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 18
+        "days_out": 17
       },
       "focus_event": {
         "id": 37280222,
@@ -61830,7 +61830,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 18
+        "days_out": 17
       },
       "peaks": {
         "bike_20min_power": {
@@ -62037,12 +62037,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-25",
-          "ctl": 111.4,
-          "atl": 124,
-          "tsb": -17.9
-        },
         {
           "date": "2026-08-26",
           "ctl": 112.5,
@@ -62543,9 +62537,15 @@
         },
         {
           "date": "2026-11-17",
-          "ctl": 135.2,
-          "atl": 159.9,
+          "ctl": 135.5,
+          "atl": 161.9,
           "tsb": -39.7
+        },
+        {
+          "date": "2026-11-18",
+          "ctl": 136,
+          "atl": 161.3,
+          "tsb": -26.4
         }
       ],
       "weekly_trend": [
@@ -62557,9 +62557,9 @@
         },
         {
           "week_start": "2026-11-16",
-          "tss": 51,
-          "hours": 1.58,
-          "ctl_end": 135.2
+          "tss": 281,
+          "hours": 4.48,
+          "ctl_end": 136
         },
         {
           "week_start": "2026-11-23",
@@ -62868,6 +62868,16 @@
           "awake": 0.23999953,
           "hrv": 70,
           "resting_hr": 51
+        },
+        {
+          "date": "2026-11-18",
+          "sleep_hours": 6.73,
+          "deep": 1.21,
+          "light": 3.75,
+          "rem": 1.3,
+          "awake": 0.47000003,
+          "hrv": 82,
+          "resting_hr": 49
         }
       ],
       "flags": [],
@@ -62878,7 +62888,7 @@
           "date": "2026-11-15",
           "event_type": "MultisportTriathlon",
           "priority": "B",
-          "days_out": -2
+          "days_out": -3
         }
       ],
       "sessions_by_week": {
@@ -63158,11 +63168,11 @@
             "date": "2026-11-17",
             "title": "Swim | 3x 15min | straight swim",
             "sport": "Swim",
-            "duration_hours": 0.85,
+            "duration_hours": 0.7850083335240682,
             "tss_planned": 58.48,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 2.35,
+            "tss_actual": 73.13,
+            "status": "completed",
+            "distance_km": 2.4,
             "description": "MS:\n3x 15min\nPB only -\nDone at a steady pace.",
             "comments": []
           },
@@ -63171,11 +63181,11 @@
             "date": "2026-11-18",
             "title": "BIKE - Big gear | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
+            "duration_hours": 2.1167750358581543,
             "tss_planned": 140.04,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 157.27,
+            "status": "completed",
+            "distance_km": 67.19,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nTEMPO // OVERGEAR!\n\n25 minutes easy to loosen up @ 80 + RPMs\n\nMainset:\n\n3x\n\n2 x 5 minutes @ 320 watts @55-60 RPM,, 2 min easy btw\n\n10 Minute gradual Ramp @ 260-280 watts, Sweet spot cadence - start low and build the cadence to 90\n\n3 min easy\n\nRide the duration easy to cool down!",
             "comments": []
           },
@@ -63435,7 +63445,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         1176.37,
-        50.65,
+        281.05,
         0
       ]
     }
@@ -64639,6 +64649,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-17T11:30:59.084Z"
+    "checked_at": "2026-11-18T06:59:53.783Z"
   }
 }
