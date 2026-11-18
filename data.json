@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:22:39.304Z",
+  "generated_at": "2026-11-18T07:51:22.342Z",
   "as_of_date": "2026-11-18",
   "me": "stephen-bates",
   "athletes": {
@@ -61834,8 +61834,8 @@
       },
       "peaks": {
         "bike_20min_power": {
-          "value": 207,
-          "date": "2026-03-27"
+          "value": 252,
+          "date": "2026-10-30"
         },
         "run_5k_pace": {
           "value": "4:00/km",
@@ -61872,13 +61872,47 @@
         "bike": [
           {
             "metric": "20min Power",
-            "value": "207W",
-            "date": "2026-03-27"
+            "key": "power20min",
+            "unit": "W",
+            "value": "252W",
+            "date": "2026-10-30",
+            "history": [
+              {
+                "value": 207,
+                "date": "2026-03-27"
+              },
+              {
+                "value": 252,
+                "date": "2026-10-30"
+              }
+            ],
+            "previous": {
+              "value": "207W",
+              "date": "2026-03-27"
+            },
+            "gain": "+45W"
           },
           {
             "metric": "Longest Ride",
-            "value": "185 km",
-            "date": "2022-07-09"
+            "key": "longest_ride",
+            "unit": "km",
+            "value": "200 km",
+            "date": "2026-11-07",
+            "history": [
+              {
+                "value": 185,
+                "date": "2022-07-09"
+              },
+              {
+                "value": 200,
+                "date": "2026-11-07"
+              }
+            ],
+            "previous": {
+              "value": "185 km",
+              "date": "2022-07-09"
+            },
+            "gain": "+15 km"
           }
         ]
       },
@@ -63447,6 +63481,16 @@
           }
         ]
       },
+      "bike_records": {
+        "power20min": {
+          "value": 252,
+          "date": "2026-10-30"
+        },
+        "longest_ride": {
+          "value": 81,
+          "date": "2026-11-15"
+        }
+      },
       "flag_history": [],
       "status": "on_track",
       "compliance_pct": 100,
@@ -64656,6 +64700,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-18T07:22:39.320Z"
+    "checked_at": "2026-11-18T07:51:22.359Z"
   }
 }
