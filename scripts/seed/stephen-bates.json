@@ -883,12 +883,5 @@
   ],
   "flags": [],
   "id": "stephen-bates",
-  "key_races": [
-    {
-      "name": "T100 Dubai",
-      "date": "2026-11-15",
-      "event_type": "MultisportTriathlon",
-      "priority": "B"
-    }
-  ]
+  "key_races": []
 }
