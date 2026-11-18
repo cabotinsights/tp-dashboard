@@ -439,6 +439,10 @@
                   <div class="pb-distance" x-text="pb.metric"></div>
                   <div class="pb-time" x-text="pb.value"></div>
                   <div class="pb-date" x-text="formatDate(pb.date)"></div>
+                  <div class="pb-progress" x-show="pb.previous">
+                    <span class="pb-gain" x-text="pb.gain"></span>
+                    <span class="pb-was" x-text="pb.previous ? 'was ' + pb.previous.value + ' · ' + formatDate(pb.previous.date) : ''"></span>
+                  </div>
                 </div>
               </template>
             </div>

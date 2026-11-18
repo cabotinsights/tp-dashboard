@@ -1913,3 +1913,20 @@ body {
   font-size: 13px;
   border: 1px solid rgba(255,255,255,0.1);
 }
+
+.pb-progress {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 11px;
+}
+
+.pb-gain {
+  color: #22C55E;
+  font-weight: 600;
+}
+
+.pb-was {
+  color: rgba(241, 245, 249, 0.45);
+}

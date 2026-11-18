@@ -284,6 +284,31 @@ function summarizeWeek(sessions, weekStart, today) {
   };
 }
 
+// Bike PB cards keep a history of records. A fresh record that beats the last
+// one is appended; the card shows the latest, the one before it, and the gain.
+export function applyBikeRecords(pbs, records) {
+  if (!pbs || !Array.isArray(pbs.bike)) return pbs;
+  const bike = pbs.bike.map(pb => {
+    if (!Array.isArray(pb.history) || pb.history.length === 0) return pb;
+    const history = pb.history.slice();
+    const fresh = records && records[pb.key];
+    const last = history[history.length - 1];
+    if (fresh && fresh.value > last.value) history.push({ value: fresh.value, date: fresh.date });
+    const cur = history[history.length - 1];
+    const prev = history.length > 1 ? history[history.length - 2] : null;
+    const fmt = v => pb.unit === 'km' ? `${v} km` : `${v}${pb.unit || ''}`;
+    return {
+      ...pb,
+      history,
+      value: fmt(cur.value),
+      date: cur.date,
+      previous: prev ? { value: fmt(prev.value), date: prev.date } : null,
+      gain: prev ? (pb.unit === 'km' ? `+${cur.value - prev.value} km` : `+${cur.value - prev.value}${pb.unit || ''}`) : null,
+    };
+  });
+  return { ...pbs, bike };
+}
+
 export function deriveViewFields(athlete, asOf) {
   // For real/viewer athletes: derive Personal-view fields from sessions_by_week
   // and fitness_history. Leaves other fields (pbs, race_history, recovery, etc.)
@@ -466,6 +491,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const mergedRaw = rawAthletes.map(raw => {
     const seed = seedById.get(raw.id);
     const base = seed ? { ...seed, ...raw } : raw;
+    base.pbs = applyBikeRecords(base.pbs, raw.bike_records);
     return { ...base, ...deriveViewFields(base, asOf) };
   });
   const realAthletes = [

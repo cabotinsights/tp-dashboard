@@ -163,6 +163,21 @@ function mapComment(c) {
   };
 }
 
+// Best-ever 20min power, from TP's own personal-record ranking (10 years).
+async function getBest20minPower(athleteId, endDate) {
+  const start = iso(shiftDays(new Date(`${endDate}T00:00:00Z`), -3650));
+  const path = `/personalrecord/v2/athletes/${athleteId}/Bike?prType=power20min&startDate=${start}T00:00:00&endDate=${endDate}T00:00:00`;
+  try {
+    const records = await tpFetch(path);
+    const best = (records || []).slice().sort((a, b) => (b.value || 0) - (a.value || 0))[0];
+    if (!best || !best.value) return null;
+    return { value: Math.round(best.value), date: (best.workoutDate || '').split('T')[0] };
+  } catch (e) {
+    console.warn(`20min power PR lookup failed: ${e.message}`);
+    return null;
+  }
+}
+
 function mapWorkout(w) {
   const date = (w.workoutDay || '').split('T')[0];
   const durationHours = w.totalTime ?? w.totalTimePlanned ?? null;
@@ -257,12 +272,13 @@ async function main() {
   const weekEnd = shiftDays(mondayOf(today), 7 * (SESSION_WEEKS_FORWARD + 1) - 1);
   const recoveryStart = iso(shiftDays(today, -RECOVERY_DAYS));
 
-  const [fitness, workouts, metrics, focusEvent, nextEvent] = await Promise.all([
+  const [fitness, workouts, metrics, focusEvent, nextEvent, best20] = await Promise.all([
     getFitness(athleteId, fitnessStart, fitnessEnd),
     getWorkouts(athleteId, iso(weekStart), iso(weekEnd)),
     getMetrics(athleteId, recoveryStart, fitnessEnd),
     getEvent(athleteId, 'focusevent'),
     getEvent(athleteId, 'nextplannedevent'),
+    getBest20minPower(athleteId, fitnessEnd),
   ]);
 
   if (PROBE) {
@@ -304,6 +320,16 @@ async function main() {
     sessionsByWeek[week].sort((a, b) => a.date.localeCompare(b.date));
   }
 
+  // Longest completed ride in the pulled weeks; the build keeps the all-time
+  // best by comparing against the seed history.
+  let longestRide = null;
+  for (const list of Object.values(sessionsByWeek)) {
+    for (const s of list) {
+      if (s.status !== 'completed' || !['Bike', 'MtnBike'].includes(s.sport) || !s.distance_km) continue;
+      if (!longestRide || s.distance_km > longestRide.value) longestRide = { value: Math.round(s.distance_km), date: s.date };
+    }
+  }
+
   const out = {
     id: 'stephen-bates',
     name: 'Stephen Bates',
@@ -315,6 +341,7 @@ async function main() {
     focus_event: mapEvent(focusEvent),
     next_event: mapEvent(nextEvent),
     recovery: mapRecovery(metrics),
+    bike_records: { power20min: best20, longest_ride: longestRide },
   };
 
   mkdirSync(RAW_DIR, { recursive: true });

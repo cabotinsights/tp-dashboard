@@ -207,8 +207,8 @@
   },
   "peaks": {
     "bike_20min_power": {
-      "value": 207,
-      "date": "2026-03-27"
+      "value": 252,
+      "date": "2026-10-30"
     },
     "run_5k_pace": {
       "value": "4:00/km",
@@ -245,13 +245,37 @@
     "bike": [
       {
         "metric": "20min Power",
-        "value": "207W",
-        "date": "2026-03-27"
+        "key": "power20min",
+        "unit": "W",
+        "value": "252W",
+        "date": "2026-10-30",
+        "history": [
+          {
+            "value": 207,
+            "date": "2026-03-27"
+          },
+          {
+            "value": 252,
+            "date": "2026-10-30"
+          }
+        ]
       },
       {
         "metric": "Longest Ride",
-        "value": "185 km",
-        "date": "2022-07-09"
+        "key": "longest_ride",
+        "unit": "km",
+        "value": "200 km",
+        "date": "2026-11-07",
+        "history": [
+          {
+            "value": 185,
+            "date": "2022-07-09"
+          },
+          {
+            "value": 200,
+            "date": "2026-11-07"
+          }
+        ]
       }
     ]
   },

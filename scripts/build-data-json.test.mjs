@@ -191,3 +191,18 @@ test('freezeCoachView: returns the fresh build untouched when there is no previo
   const fresh = buildDataJson({ realAthletes: [], dummyAthletes: [], asOf: '2026-08-04' });
   assert.deepEqual(freezeCoachView(fresh, null), fresh);
 });
+
+test('applyBikeRecords: shows latest record, the previous one and the gain', async () => {
+  const { applyBikeRecords } = await import('./build-data-json.mjs');
+  const pbs = { bike: [{ metric: '20min Power', key: 'power20min', unit: 'W', history: [{ value: 207, date: '2026-03-27' }, { value: 252, date: '2026-10-30' }] }] };
+  const same = applyBikeRecords(pbs, { power20min: { value: 252, date: '2026-10-30' } }).bike[0];
+  assert.equal(same.value, '252W');
+  assert.deepEqual(same.previous, { value: '207W', date: '2026-03-27' });
+  assert.equal(same.gain, '+45W');
+  const beaten = applyBikeRecords(pbs, { power20min: { value: 260, date: '2026-12-01' } }).bike[0];
+  assert.equal(beaten.value, '260W');
+  assert.equal(beaten.previous.value, '252W');
+  assert.equal(beaten.gain, '+8W');
+  const lower = applyBikeRecords(pbs, { power20min: { value: 240, date: '2026-12-01' } }).bike[0];
+  assert.equal(lower.value, '252W');
+});
