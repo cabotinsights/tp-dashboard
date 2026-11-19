@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T11:12:00.099Z",
-  "as_of_date": "2026-11-18",
+  "generated_at": "2026-11-19T07:27:49.917Z",
+  "as_of_date": "2026-11-19",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,24 +61367,24 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 136,
-        "atl": 161.3,
-        "tsb": -26.4,
+        "ctl": 138.4,
+        "atl": 171.7,
+        "tsb": -25.2,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "sessions_planned": 11,
-        "sessions_completed": 4,
+        "sessions_completed": 5,
         "sessions_missed": 0,
-        "sessions_due_to_date": 4,
-        "sessions_still_to_come": 7,
-        "sessions_planned_today": 1,
+        "sessions_due_to_date": 5,
+        "sessions_still_to_come": 6,
+        "sessions_planned_today": 2,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 281.05,
-        "total_hours": 4.48,
+        "total_tss": 419.2,
+        "total_hours": 5.71,
         "by_sport": {
           "Bike": {
             "hours": 3.12,
@@ -61395,8 +61395,8 @@
             "tss": 0
           },
           "Swim": {
-            "hours": 0.79,
-            "tss": 73.13
+            "hours": 2.01,
+            "tss": 211.28
           },
           "Other": {
             "hours": 0.58,
@@ -61458,11 +61458,11 @@
             "date": "2026-11-19",
             "title": "40x 100m PB + P",
             "sport": "Swim",
-            "duration_hours": 1.3333333333333333,
-            "tss": null,
+            "duration_hours": 1.2288583342234294,
+            "tss": 138.15,
             "tss_planned": 56.47,
             "distance_km": 4,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-20",
@@ -61752,6 +61752,14 @@
           "duration_hours": 2.1167750358581543,
           "distance_km": 67.19,
           "tss": 157.27
+        },
+        {
+          "date": "2026-11-19",
+          "title": "40x 100m PB + P",
+          "sport": "Swim",
+          "duration_hours": 1.2288583342234294,
+          "distance_km": 4,
+          "tss": 138.15
         }
       ],
       "missed_sessions": [],
@@ -61764,14 +61772,6 @@
           "duration_hours": 1.4166666666666667,
           "distance_km": 16.04,
           "tss_planned": 96.31
-        },
-        {
-          "date": "2026-11-19",
-          "title": "40x 100m PB + P",
-          "sport": "Swim",
-          "duration_hours": 1.3333333333333333,
-          "distance_km": 4,
-          "tss_planned": 56.47
         },
         {
           "date": "2026-11-20",
@@ -61821,7 +61821,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 17
+        "days_out": 16
       },
       "focus_event": {
         "id": 37280222,
@@ -61830,7 +61830,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 17
+        "days_out": 16
       },
       "peaks": {
         "bike_20min_power": {
@@ -62086,12 +62086,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-26",
-          "ctl": 112.5,
-          "atl": 128.8,
-          "tsb": -12.6
-        },
         {
           "date": "2026-08-27",
           "ctl": 111.1,
@@ -62595,6 +62589,12 @@
           "ctl": 136,
           "atl": 161.3,
           "tsb": -26.4
+        },
+        {
+          "date": "2026-11-19",
+          "ctl": 138.4,
+          "atl": 171.7,
+          "tsb": -25.2
         }
       ],
       "weekly_trend": [
@@ -62606,9 +62606,9 @@
         },
         {
           "week_start": "2026-11-16",
-          "tss": 281,
-          "hours": 4.48,
-          "ctl_end": 136
+          "tss": 419,
+          "hours": 5.71,
+          "ctl_end": 138.4
         },
         {
           "week_start": "2026-11-23",
@@ -62618,16 +62618,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-19",
-          "sleep_hours": 8.1,
-          "deep": 1.26,
-          "light": 4.06,
-          "rem": 1.68,
-          "awake": 1.1000003,
-          "hrv": 57,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-20",
           "sleep_hours": 8.07,
@@ -62927,6 +62917,16 @@
           "awake": 0.47000003,
           "hrv": 82,
           "resting_hr": 49
+        },
+        {
+          "date": "2026-11-19",
+          "sleep_hours": 7.95,
+          "deep": 1.31,
+          "light": 4.5,
+          "rem": 1.63,
+          "awake": 0.5099999,
+          "hrv": 79,
+          "resting_hr": 48
         }
       ],
       "flags": [],
@@ -63319,10 +63319,10 @@
             "date": "2026-11-19",
             "title": "40x 100m PB + P",
             "sport": "Swim",
-            "duration_hours": 1.3333333333333333,
+            "duration_hours": 1.2288583342234294,
             "tss_planned": 56.47,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 138.15,
+            "status": "completed",
             "distance_km": 4,
             "description": "MS:\n40x 100m - paddles & PB\n(5-10s rest between)",
             "comments": []
@@ -63567,7 +63567,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         1176.37,
-        281.05,
+        419.20000000000005,
         0
       ]
     }
@@ -64771,6 +64771,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-18T11:12:00.112Z"
+    "checked_at": "2026-11-19T07:27:49.926Z"
   }
 }
