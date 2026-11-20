@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T11:11:26.873Z",
-  "as_of_date": "2026-11-19",
+  "generated_at": "2026-11-20T10:57:39.725Z",
+  "as_of_date": "2026-11-20",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 138.4,
-        "atl": 171.7,
-        "tsb": -25.2,
+        "ctl": 137.4,
+        "atl": 161.1,
+        "tsb": -32.9,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-16",
         "end": "2026-11-22",
         "sessions_planned": 11,
-        "sessions_completed": 5,
+        "sessions_completed": 6,
         "sessions_missed": 0,
-        "sessions_due_to_date": 5,
-        "sessions_still_to_come": 6,
-        "sessions_planned_today": 2,
+        "sessions_due_to_date": 6,
+        "sessions_still_to_come": 5,
+        "sessions_planned_today": 1,
         "compliance_pct": 100,
         "on_pace": true,
-        "total_tss": 419.2,
-        "total_hours": 5.71,
+        "total_tss": 511.99,
+        "total_hours": 7.01,
         "by_sport": {
           "Bike": {
             "hours": 3.12,
             "tss": 187.86
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.3,
+            "tss": 92.79
           },
           "Swim": {
             "hours": 2.01,
@@ -61448,11 +61448,11 @@
             "date": "2026-11-19",
             "title": "Run | 1h25 Easy | Pace",
             "sport": "Run",
-            "duration_hours": 1.4166666666666667,
-            "tss": null,
+            "duration_hours": 1.3001667261123657,
+            "tss": 92.79,
             "tss_planned": 96.31,
-            "distance_km": 16.04,
-            "_status": "upcoming"
+            "distance_km": 15.1,
+            "_status": "done"
           },
           {
             "date": "2026-11-19",
@@ -61755,6 +61755,14 @@
         },
         {
           "date": "2026-11-19",
+          "title": "Run | 1h25 Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 1.3001667261123657,
+          "distance_km": 15.1,
+          "tss": 92.79
+        },
+        {
+          "date": "2026-11-19",
           "title": "40x 100m PB + P",
           "sport": "Swim",
           "duration_hours": 1.2288583342234294,
@@ -61765,14 +61773,6 @@
       "missed_sessions": [],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-11-19",
-          "title": "Run | 1h25 Easy | Pace",
-          "sport": "Run",
-          "duration_hours": 1.4166666666666667,
-          "distance_km": 16.04,
-          "tss_planned": 96.31
-        },
         {
           "date": "2026-11-20",
           "title": "400-100-400m",
@@ -61821,7 +61821,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 16
+        "days_out": 15
       },
       "focus_event": {
         "id": 37280222,
@@ -61830,7 +61830,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 16
+        "days_out": 15
       },
       "peaks": {
         "bike_20min_power": {
@@ -62086,12 +62086,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-27",
-          "ctl": 111.1,
-          "atl": 118.3,
-          "tsb": -16.3
-        },
         {
           "date": "2026-08-28",
           "ctl": 110,
@@ -62592,9 +62586,15 @@
         },
         {
           "date": "2026-11-19",
-          "ctl": 138.4,
-          "atl": 171.7,
+          "ctl": 138.3,
+          "atl": 171.2,
           "tsb": -25.2
+        },
+        {
+          "date": "2026-11-20",
+          "ctl": 137.4,
+          "atl": 161.1,
+          "tsb": -32.9
         }
       ],
       "weekly_trend": [
@@ -62606,9 +62606,9 @@
         },
         {
           "week_start": "2026-11-16",
-          "tss": 419,
-          "hours": 5.71,
-          "ctl_end": 138.4
+          "tss": 512,
+          "hours": 7.01,
+          "ctl_end": 137.4
         },
         {
           "week_start": "2026-11-23",
@@ -62618,16 +62618,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-20",
-          "sleep_hours": 8.07,
-          "deep": 1.41,
-          "light": 3.83,
-          "rem": 1.81,
-          "awake": 1.02,
-          "hrv": 61,
-          "resting_hr": 54
-        },
         {
           "date": "2026-10-21",
           "sleep_hours": 7.83,
@@ -62927,6 +62917,16 @@
           "awake": 0.5099999,
           "hrv": 79,
           "resting_hr": 48
+        },
+        {
+          "date": "2026-11-20",
+          "sleep_hours": 7.6,
+          "deep": 1.01,
+          "light": 3.88,
+          "rem": 2.53,
+          "awake": 0.18000007,
+          "hrv": 77,
+          "resting_hr": 49
         }
       ],
       "flags": [],
@@ -63306,13 +63306,26 @@
             "date": "2026-11-19",
             "title": "Run | 1h25 Easy | Pace",
             "sport": "Run",
-            "duration_hours": 1.4166666666666667,
+            "duration_hours": 1.3001667261123657,
             "tss_planned": 96.31,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 16.04,
+            "tss_actual": 92.79,
+            "status": "completed",
+            "distance_km": 15.1,
             "description": "Run:\n\n1h25 min Very Easy",
-            "comments": []
+            "comments": [
+              {
+                "text": "Fueled well before. Felt good first 30 mins and then from 40 mins it just dragged on. Legs were really feeling it from 45 mins on. HR was completely fine.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-19T14:35:51Z"
+              },
+              {
+                "text": "weekend fatigue",
+                "author": "De Bruin Train",
+                "author_role": "coach",
+                "created_at": "2026-11-20T10:34:29Z"
+              }
+            ]
           },
           {
             "id": "4056122929",
@@ -63567,7 +63580,7 @@
       "compliance_pct": 100,
       "weekly_tss_trend": [
         1176.37,
-        419.20000000000005,
+        511.99,
         0
       ]
     }
@@ -64771,6 +64784,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-19T11:11:26.884Z"
+    "checked_at": "2026-11-20T10:57:39.741Z"
   }
 }
