@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:07:02.941Z",
+  "generated_at": "2026-11-22T10:46:27.947Z",
   "as_of_date": "2026-11-22",
   "me": "stephen-bates",
   "athletes": {
@@ -63464,19 +63464,6 @@
             "comments": []
           },
           {
-            "id": "4056122371",
-            "date": "2026-11-23",
-            "title": "TURBO -Big gear set | FTP",
-            "sport": "Bike",
-            "duration_hours": 1.4166666666666667,
-            "tss_planned": 71.11,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
-            "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\n20 minute warm up @ 80 - 90 RPM\n\n5 x 1 min 320 watts with 1 min easy between each\n\n5 minutes easy\n\n3-4 x 8 min @ 200 watts @ 50 - 60 RPM with 2 minutes super easy between each\n\nStart the 3 minute Bigger gears @ 60 RPM and drop slowly throughout the set of 8\n\nRide the duration of the ride easy @ 75 - 85 RPM",
-            "comments": []
-          },
-          {
             "id": "4056123796",
             "date": "2026-11-24",
             "title": "Threshold | 3km, 2x 2km 3x 1km | Pace",
@@ -63500,6 +63487,19 @@
             "status": "planned",
             "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nTEMPO // OVERGEAR!\n\n25 minutes easy to loosen up @ 80 + RPMs\n\nMainset:\n\n3x\n\n2 x 5 minutes @ 320 watts @55-60 RPM,, 2 min easy btw\n\n10 Minute gradual Ramp @ 260-280 watts, Sweet spot cadence - start low and build the cadence to 90\n\n3 min easy\n\nRide the duration easy to cool down!",
+            "comments": []
+          },
+          {
+            "id": "4070947839",
+            "date": "2026-11-25",
+            "title": "Swim | 2 x (10 x 50) + 12 x 25 | Speed Set 1.1",
+            "sport": "Swim",
+            "duration_hours": null,
+            "tss_planned": null,
+            "tss_actual": null,
+            "status": "planned",
+            "distance_km": 2.5,
+            "description": "Warm up:\n----------------------\n400 easy\n\n6 x 100 PD (25 build into MOD+ 25 @MOD+ 50 easy) rest 20's\n\nMain set:\n---------------------\n1 set no equipment, 2nd with PB, 3rd with PB&PD\n\n2 x (10 x 50 @ Hard, send-off on 1min)\nafter each set kick / swim 100 easy\nRest 2min\n\n12 x 25 @ MAD effort rest 15's\n\nCool down:\n---------------------\n200 easy",
             "comments": []
           },
           {
@@ -64814,6 +64814,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-22T08:07:02.956Z"
+    "checked_at": "2026-11-22T10:46:27.964Z"
   }
 }
