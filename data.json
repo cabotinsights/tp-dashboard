@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T11:52:38.631Z",
-  "as_of_date": "2026-11-23",
+  "generated_at": "2026-11-24T05:48:21.162Z",
+  "as_of_date": "2026-11-24",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,36 +61367,36 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 147.7,
-        "atl": 200.2,
-        "tsb": -75.5,
+        "ctl": 148.7,
+        "atl": 197.9,
+        "tsb": -57.5,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-23",
         "end": "2026-11-29",
         "sessions_planned": 12,
-        "sessions_completed": 0,
-        "sessions_missed": 0,
-        "sessions_due_to_date": 0,
-        "sessions_still_to_come": 12,
-        "sessions_planned_today": 2,
-        "compliance_pct": 100,
-        "on_pace": true,
-        "total_tss": 0,
-        "total_hours": 0,
+        "sessions_completed": 2,
+        "sessions_missed": 1,
+        "sessions_due_to_date": 3,
+        "sessions_still_to_come": 9,
+        "sessions_planned_today": 1,
+        "compliance_pct": 67,
+        "on_pace": false,
+        "total_tss": 237.66,
+        "total_hours": 2.37,
         "by_sport": {
           "Bike": {
             "hours": 0,
             "tss": 0
           },
           "Run": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.38,
+            "tss": 147.79
           },
           "Swim": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.99,
+            "tss": 89.87
           },
           "Other": {
             "hours": 0,
@@ -61412,27 +61412,27 @@
             "tss": null,
             "tss_planned": null,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "missed"
           },
           {
             "date": "2026-11-23",
             "title": "Swim | 4x 15min | straight swim",
             "sport": "Swim",
-            "duration_hours": 1.1333333333333333,
-            "tss": null,
+            "duration_hours": 0.9895944425794814,
+            "tss": 89.87,
             "tss_planned": 47.77,
-            "distance_km": 2.66,
-            "_status": "upcoming"
+            "distance_km": 3,
+            "_status": "done"
           },
           {
             "date": "2026-11-24",
             "title": "Threshold | 3km, 2x 2km 3x 1km | Pace",
             "sport": "Run",
-            "duration_hours": 1.4102777777777777,
-            "tss": null,
+            "duration_hours": 1.3835471868515015,
+            "tss": 147.79,
             "tss_planned": 115.35,
-            "distance_km": 17.52,
-            "_status": "upcoming"
+            "distance_km": 16.19,
+            "_status": "done"
           },
           {
             "date": "2026-11-25",
@@ -61680,10 +61680,25 @@
           }
         ]
       },
-      "completed_sessions": [],
-      "missed_sessions": [],
-      "planned_sessions": [],
-      "upcoming_sessions": [
+      "completed_sessions": [
+        {
+          "date": "2026-11-23",
+          "title": "Swim | 4x 15min | straight swim",
+          "sport": "Swim",
+          "duration_hours": 0.9895944425794814,
+          "distance_km": 3,
+          "tss": 89.87
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Threshold | 3km, 2x 2km 3x 1km | Pace",
+          "sport": "Run",
+          "duration_hours": 1.3835471868515015,
+          "distance_km": 16.19,
+          "tss": 147.79
+        }
+      ],
+      "missed_sessions": [
         {
           "date": "2026-11-23",
           "title": "Wk 2",
@@ -61691,23 +61706,10 @@
           "duration_hours": null,
           "distance_km": null,
           "tss_planned": null
-        },
-        {
-          "date": "2026-11-23",
-          "title": "Swim | 4x 15min | straight swim",
-          "sport": "Swim",
-          "duration_hours": 1.1333333333333333,
-          "distance_km": 2.66,
-          "tss_planned": 47.77
-        },
-        {
-          "date": "2026-11-24",
-          "title": "Threshold | 3km, 2x 2km 3x 1km | Pace",
-          "sport": "Run",
-          "duration_hours": 1.4102777777777777,
-          "distance_km": 17.52,
-          "tss_planned": 115.35
-        },
+        }
+      ],
+      "planned_sessions": [],
+      "upcoming_sessions": [
         {
           "date": "2026-11-25",
           "title": "BIKE - Big gear | FTP",
@@ -61788,7 +61790,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 12
+        "days_out": 11
       },
       "focus_event": {
         "id": 37280222,
@@ -61797,7 +61799,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 12
+        "days_out": 11
       },
       "peaks": {
         "bike_20min_power": {
@@ -62053,12 +62055,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-08-31",
-          "ctl": 106,
-          "atl": 89.3,
-          "tsb": 12.3
-        },
         {
           "date": "2026-09-01",
           "ctl": 105.5,
@@ -62559,9 +62555,15 @@
         },
         {
           "date": "2026-11-23",
-          "ctl": 147.7,
-          "atl": 200.2,
+          "ctl": 148.7,
+          "atl": 206.2,
           "tsb": -75.5
+        },
+        {
+          "date": "2026-11-24",
+          "ctl": 148.7,
+          "atl": 197.9,
+          "tsb": -57.5
         }
       ],
       "weekly_trend": [
@@ -62573,9 +62575,9 @@
         },
         {
           "week_start": "2026-11-23",
-          "tss": 0,
-          "hours": 0,
-          "ctl_end": 147.7
+          "tss": 238,
+          "hours": 2.37,
+          "ctl_end": 148.7
         },
         {
           "week_start": "2026-11-30",
@@ -62585,16 +62587,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-24",
-          "sleep_hours": 6.05,
-          "deep": 1.01,
-          "light": 3.21,
-          "rem": 1.63,
-          "awake": 0.19999993,
-          "hrv": 60,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-25",
           "sleep_hours": 8.83,
@@ -62894,6 +62886,16 @@
           "awake": 0.46000028,
           "hrv": 37,
           "resting_hr": 53
+        },
+        {
+          "date": "2026-11-24",
+          "sleep_hours": 7.6,
+          "deep": 1.05,
+          "light": 4.2,
+          "rem": 2.05,
+          "awake": 0.30000043,
+          "hrv": 74,
+          "resting_hr": 51
         }
       ],
       "flags": [],
@@ -63161,11 +63163,11 @@
             "date": "2026-11-23",
             "title": "Swim | 4x 15min | straight swim",
             "sport": "Swim",
-            "duration_hours": 1.1333333333333333,
+            "duration_hours": 0.9895944425794814,
             "tss_planned": 47.77,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 2.66,
+            "tss_actual": 89.87,
+            "status": "completed",
+            "distance_km": 3,
             "description": "MS:\n4x 15min\nPB only -\nDone at a steady pace.",
             "comments": []
           },
@@ -63174,13 +63176,26 @@
             "date": "2026-11-24",
             "title": "Threshold | 3km, 2x 2km 3x 1km | Pace",
             "sport": "Run",
-            "duration_hours": 1.4102777777777777,
+            "duration_hours": 1.3835471868515015,
             "tss_planned": 115.35,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 17.52,
+            "tss_actual": 147.79,
+            "status": "completed",
+            "distance_km": 16.19,
             "description": "WU: 25min Easy\n\n3x 1km\n2x 2km\n3km\n\nCD: 10min-15min",
-            "comments": []
+            "comments": [
+              {
+                "text": "Kept it controlled. Legs also heavy. Good to move them.",
+                "author": "Stephen Bates",
+                "author_role": "athlete",
+                "created_at": "2026-11-24T05:24:39Z"
+              },
+              {
+                "text": "nicely done - now to just absorb it.",
+                "author": "De Bruin Train",
+                "author_role": "coach",
+                "created_at": "2026-11-24T05:27:33Z"
+              }
+            ]
           },
           {
             "id": "4056123598",
@@ -63328,10 +63343,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 100,
+      "compliance_pct": 67,
       "weekly_tss_trend": [
         1428.81,
-        0,
+        237.66,
         0
       ]
     }
@@ -64535,6 +64550,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-23T11:52:38.646Z"
+    "checked_at": "2026-11-24T05:48:21.173Z"
   }
 }
