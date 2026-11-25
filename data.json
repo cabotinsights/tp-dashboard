@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T13:19:19.817Z",
-  "as_of_date": "2026-11-24",
+  "generated_at": "2026-11-25T09:13:22.543Z",
+  "as_of_date": "2026-11-25",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61368,27 +61368,27 @@
       "is_real": true,
       "current_fitness": {
         "ctl": 148.7,
-        "atl": 197.9,
-        "tsb": -57.5,
+        "atl": 190.8,
+        "tsb": -53.2,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-23",
         "end": "2026-11-29",
-        "sessions_planned": 12,
-        "sessions_completed": 2,
+        "sessions_planned": 13,
+        "sessions_completed": 4,
         "sessions_missed": 1,
-        "sessions_due_to_date": 3,
-        "sessions_still_to_come": 9,
-        "sessions_planned_today": 1,
-        "compliance_pct": 67,
+        "sessions_due_to_date": 5,
+        "sessions_still_to_come": 8,
+        "sessions_planned_today": 2,
+        "compliance_pct": 80,
         "on_pace": false,
-        "total_tss": 237.66,
-        "total_hours": 2.37,
+        "total_tss": 390.74,
+        "total_hours": 5.11,
         "by_sport": {
           "Bike": {
-            "hours": 0,
-            "tss": 0
+            "hours": 1.83,
+            "tss": 119.45
           },
           "Run": {
             "hours": 1.38,
@@ -61399,8 +61399,8 @@
             "tss": 89.87
           },
           "Other": {
-            "hours": 0,
-            "tss": 0
+            "hours": 0.9,
+            "tss": 33.63
           }
         },
         "sessions": [
@@ -61435,14 +61435,24 @@
             "_status": "done"
           },
           {
+            "date": "2026-11-24",
+            "title": "Hot yoga",
+            "sport": "Other",
+            "duration_hours": 0.9027416706085205,
+            "tss": 33.63,
+            "tss_planned": null,
+            "distance_km": null,
+            "_status": "done"
+          },
+          {
             "date": "2026-11-25",
             "title": "BIKE - Big gear | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
-            "tss": null,
+            "duration_hours": 1.8336305618286133,
+            "tss": 119.45,
             "tss_planned": 140.04,
             "distance_km": null,
-            "_status": "upcoming"
+            "_status": "done"
           },
           {
             "date": "2026-11-25",
@@ -61696,6 +61706,22 @@
           "duration_hours": 1.3835471868515015,
           "distance_km": 16.19,
           "tss": 147.79
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Hot yoga",
+          "sport": "Other",
+          "duration_hours": 0.9027416706085205,
+          "distance_km": null,
+          "tss": 33.63
+        },
+        {
+          "date": "2026-11-25",
+          "title": "BIKE - Big gear | FTP",
+          "sport": "Bike",
+          "duration_hours": 1.8336305618286133,
+          "distance_km": null,
+          "tss": 119.45
         }
       ],
       "missed_sessions": [
@@ -61710,14 +61736,6 @@
       ],
       "planned_sessions": [],
       "upcoming_sessions": [
-        {
-          "date": "2026-11-25",
-          "title": "BIKE - Big gear | FTP",
-          "sport": "Bike",
-          "duration_hours": 2,
-          "distance_km": null,
-          "tss_planned": 140.04
-        },
         {
           "date": "2026-11-25",
           "title": "Swim | 2 x (10 x 50) + 12 x 25 | Speed Set 1.1",
@@ -61790,7 +61808,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 11
+        "days_out": 10
       },
       "focus_event": {
         "id": 37280222,
@@ -61799,7 +61817,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 11
+        "days_out": 10
       },
       "peaks": {
         "bike_20min_power": {
@@ -62055,12 +62073,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-09-01",
-          "ctl": 105.5,
-          "atl": 88.6,
-          "tsb": 16.8
-        },
         {
           "date": "2026-09-02",
           "ctl": 107.5,
@@ -62561,9 +62573,15 @@
         },
         {
           "date": "2026-11-24",
-          "ctl": 148.7,
-          "atl": 197.9,
+          "ctl": 149.5,
+          "atl": 202.7,
           "tsb": -57.5
+        },
+        {
+          "date": "2026-11-25",
+          "ctl": 148.7,
+          "atl": 190.8,
+          "tsb": -53.2
         }
       ],
       "weekly_trend": [
@@ -62575,8 +62593,8 @@
         },
         {
           "week_start": "2026-11-23",
-          "tss": 238,
-          "hours": 2.37,
+          "tss": 391,
+          "hours": 5.11,
           "ctl_end": 148.7
         },
         {
@@ -62587,16 +62605,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-25",
-          "sleep_hours": 8.83,
-          "deep": 0.85,
-          "light": 5.03,
-          "rem": 2.08,
-          "awake": 0.8699999,
-          "hrv": 63,
-          "resting_hr": 53
-        },
         {
           "date": "2026-10-26",
           "sleep_hours": 8.63,
@@ -62895,6 +62903,16 @@
           "rem": 2.05,
           "awake": 0.30000043,
           "hrv": 74,
+          "resting_hr": 51
+        },
+        {
+          "date": "2026-11-25",
+          "sleep_hours": 5.9,
+          "deep": 1.15,
+          "light": 3.8,
+          "rem": 0.65,
+          "awake": 0.30000007,
+          "hrv": 73,
           "resting_hr": 51
         }
       ],
@@ -63198,14 +63216,27 @@
             ]
           },
           {
+            "id": "4075542873",
+            "date": "2026-11-24",
+            "title": "Hot yoga",
+            "sport": null,
+            "duration_hours": 0.9027416706085205,
+            "tss_planned": null,
+            "tss_actual": 33.63,
+            "status": "completed",
+            "distance_km": null,
+            "description": "",
+            "comments": []
+          },
+          {
             "id": "4056123598",
             "date": "2026-11-25",
             "title": "BIKE - Big gear | FTP",
             "sport": "Bike",
-            "duration_hours": 2,
+            "duration_hours": 1.8336305618286133,
             "tss_planned": 140.04,
-            "tss_actual": null,
-            "status": "planned",
+            "tss_actual": 119.45,
+            "status": "completed",
             "distance_km": null,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nTEMPO // OVERGEAR!\n\n25 minutes easy to loosen up @ 80 + RPMs\n\nMainset:\n\n3x\n\n2 x 5 minutes @ 320 watts @55-60 RPM,, 2 min easy btw\n\n10 Minute gradual Ramp @ 260-280 watts, Sweet spot cadence - start low and build the cadence to 90\n\n3 min easy\n\nRide the duration easy to cool down!",
             "comments": []
@@ -63343,10 +63374,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 67,
+      "compliance_pct": 80,
       "weekly_tss_trend": [
         1428.81,
-        237.66,
+        390.74,
         0
       ]
     }
@@ -64550,6 +64581,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-24T13:19:19.830Z"
+    "checked_at": "2026-11-25T09:13:22.558Z"
   }
 }
