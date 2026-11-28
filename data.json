@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T11:48:49.947Z",
-  "as_of_date": "2026-11-27",
+  "generated_at": "2026-11-28T11:24:39.228Z",
+  "as_of_date": "2026-11-28",
   "me": "stephen-bates",
   "athletes": {
     "648712": {
@@ -61367,32 +61367,32 @@
       "avatar_initials": "SB",
       "is_real": true,
       "current_fitness": {
-        "ctl": 148.4,
-        "atl": 176.6,
-        "tsb": -41.3,
+        "ctl": 149.9,
+        "atl": 181.8,
+        "tsb": -28.2,
         "status": "Exhausted (overreaching risk)"
       },
       "this_week": {
         "start": "2026-11-23",
         "end": "2026-11-29",
         "sessions_planned": 14,
-        "sessions_completed": 7,
+        "sessions_completed": 9,
         "sessions_missed": 3,
-        "sessions_due_to_date": 10,
-        "sessions_still_to_come": 4,
-        "sessions_planned_today": 1,
-        "compliance_pct": 70,
+        "sessions_due_to_date": 12,
+        "sessions_still_to_come": 2,
+        "sessions_planned_today": 2,
+        "compliance_pct": 75,
         "on_pace": false,
-        "total_tss": 673.03,
-        "total_hours": 8.01,
+        "total_tss": 886.05,
+        "total_hours": 11.82,
         "by_sport": {
           "Bike": {
-            "hours": 1.83,
-            "tss": 119.45
+            "hours": 5.17,
+            "tss": 290.56
           },
           "Run": {
-            "hours": 1.38,
-            "tss": 147.79
+            "hours": 1.85,
+            "tss": 189.7
           },
           "Swim": {
             "hours": 3.38,
@@ -61508,21 +61508,21 @@
             "date": "2026-11-28",
             "title": "Endurance 3h30 w/ 30min Fast Finish | FTP",
             "sport": "Bike",
-            "duration_hours": 3.5,
-            "tss": null,
+            "duration_hours": 3.333552837371826,
+            "tss": 171.11,
             "tss_planned": 180.39,
-            "distance_km": null,
-            "_status": "upcoming"
+            "distance_km": 109.84,
+            "_status": "done"
           },
           {
             "date": "2026-11-28",
             "title": "ROB | 30' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.5,
-            "tss": null,
+            "duration_hours": 0.4711555540561676,
+            "tss": 41.91,
             "tss_planned": 33.12,
-            "distance_km": 5.66,
-            "_status": "upcoming"
+            "distance_km": 5.16,
+            "_status": "done"
           },
           {
             "date": "2026-11-29",
@@ -61756,6 +61756,22 @@
           "duration_hours": 0.8571916222572327,
           "distance_km": 2.72,
           "tss": 89.27
+        },
+        {
+          "date": "2026-11-28",
+          "title": "Endurance 3h30 w/ 30min Fast Finish | FTP",
+          "sport": "Bike",
+          "duration_hours": 3.333552837371826,
+          "distance_km": 109.84,
+          "tss": 171.11
+        },
+        {
+          "date": "2026-11-28",
+          "title": "ROB | 30' Easy | Pace",
+          "sport": "Run",
+          "duration_hours": 0.4711555540561676,
+          "distance_km": 5.16,
+          "tss": 41.91
         }
       ],
       "missed_sessions": [
@@ -61787,22 +61803,6 @@
       "planned_sessions": [],
       "upcoming_sessions": [
         {
-          "date": "2026-11-28",
-          "title": "Endurance 3h30 w/ 30min Fast Finish | FTP",
-          "sport": "Bike",
-          "duration_hours": 3.5,
-          "distance_km": null,
-          "tss_planned": 180.39
-        },
-        {
-          "date": "2026-11-28",
-          "title": "ROB | 30' Easy | Pace",
-          "sport": "Run",
-          "duration_hours": 0.5,
-          "distance_km": 5.66,
-          "tss_planned": 33.12
-        },
-        {
           "date": "2026-11-29",
           "title": "Run |1h30 Easy | Pace",
           "sport": "Run",
@@ -61826,7 +61826,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 8
+        "days_out": 7
       },
       "focus_event": {
         "id": 37280222,
@@ -61835,7 +61835,7 @@
         "type": "MultisportTriathlon",
         "priority": "A",
         "race_type_duration": "TriOverFourHours",
-        "days_out": 8
+        "days_out": 7
       },
       "peaks": {
         "bike_20min_power": {
@@ -62091,12 +62091,6 @@
         }
       ],
       "fitness_history": [
-        {
-          "date": "2026-09-04",
-          "ctl": 106.5,
-          "atl": 98.9,
-          "tsb": 8
-        },
         {
           "date": "2026-09-05",
           "ctl": 104,
@@ -62600,6 +62594,12 @@
           "ctl": 148.4,
           "atl": 176.6,
           "tsb": -41.3
+        },
+        {
+          "date": "2026-11-28",
+          "ctl": 149.9,
+          "atl": 181.8,
+          "tsb": -28.2
         }
       ],
       "weekly_trend": [
@@ -62611,9 +62611,9 @@
         },
         {
           "week_start": "2026-11-23",
-          "tss": 673,
-          "hours": 8.01,
-          "ctl_end": 148.4
+          "tss": 886,
+          "hours": 11.82,
+          "ctl_end": 149.9
         },
         {
           "week_start": "2026-11-30",
@@ -62623,16 +62623,6 @@
         }
       ],
       "recovery": [
-        {
-          "date": "2026-10-28",
-          "sleep_hours": 7.55,
-          "deep": 1.41,
-          "light": 3.78,
-          "rem": 1.93,
-          "awake": 0.43000042,
-          "hrv": 59,
-          "resting_hr": 54
-        },
         {
           "date": "2026-10-29",
           "sleep_hours": 7.65,
@@ -62932,6 +62922,16 @@
           "awake": 0.21000028,
           "hrv": 67,
           "resting_hr": 52
+        },
+        {
+          "date": "2026-11-28",
+          "sleep_hours": 7.43,
+          "deep": 1.05,
+          "light": 4.06,
+          "rem": 1.25,
+          "awake": 1.0700002,
+          "hrv": 72,
+          "resting_hr": 49
         }
       ],
       "flags": [],
@@ -63329,11 +63329,11 @@
             "date": "2026-11-28",
             "title": "Endurance 3h30 w/ 30min Fast Finish | FTP",
             "sport": "Bike",
-            "duration_hours": 3.5,
+            "duration_hours": 3.333552837371826,
             "tss_planned": 180.39,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": null,
+            "tss_actual": 171.11,
+            "status": "completed",
+            "distance_km": 109.84,
             "description": "Please follow the workout details, with prescribed zones (and power targets if required) outlined below.\n\nBike:\n3h30 easy – conversational pace with 30min Fast finish.",
             "comments": []
           },
@@ -63342,11 +63342,11 @@
             "date": "2026-11-28",
             "title": "ROB | 30' Easy | Pace",
             "sport": "Run",
-            "duration_hours": 0.5,
+            "duration_hours": 0.4711555540561676,
             "tss_planned": 33.12,
-            "tss_actual": null,
-            "status": "planned",
-            "distance_km": 5.66,
+            "tss_actual": 41.91,
+            "status": "completed",
+            "distance_km": 5.16,
             "description": "30min run of bike easy... try and get the heart rate under control...",
             "comments": []
           },
@@ -63405,10 +63405,10 @@
       },
       "flag_history": [],
       "status": "on_track",
-      "compliance_pct": 70,
+      "compliance_pct": 75,
       "weekly_tss_trend": [
         1428.81,
-        673.03,
+        886.05,
         0
       ]
     }
@@ -64612,6 +64612,6 @@
   "validation": {
     "warnings": [],
     "hard_error_count": 0,
-    "checked_at": "2026-11-27T11:48:49.961Z"
+    "checked_at": "2026-11-28T11:24:39.240Z"
   }
 }
